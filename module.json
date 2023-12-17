@@ -15,6 +15,16 @@
       }
     ]
   },
+  "esmodules": ["eberron-5e.mjs"],
+  "styles": ["eberron-5e.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "en.json",
+      "flags": {}
+    }
+  ],
   "description": "<p>A collection of Community Eberron content. Includes the following </p>\n<ol>\n<li>Exploring Eberron</li>\n<li>Chronicles of Eberron</li>\n<li>Chronicles of Eberron</li>\n<li>Psion's Primer</li>\n<li>Talvakri's Guide to Adar</li>\n<li>Linvakri's Guide to Syrkarn</li>\n<li>Giant Guide to Xen'drik</li>\n</ol>",
   "authors": [
     {
@@ -145,6 +155,25 @@
       },
       "system": "dnd5e",
       "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Eberron Community Content",
+      "sorting": "m",
+      "color": "#A52A2A",
+      "packs": [
+        "ancestries",
+        "backgrounds",
+        "classes",
+        "equipment",
+        "spells",
+        "character-options",
+        "bestiary",
+        "tables",
+        "macros",
+        "journals"
+      ]
     }
   ]
 }
