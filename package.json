@@ -1,0 +1,22 @@
+{
+  "name": "eberron-5e",
+  "version": "1.0.0",
+  "description": "Eberron Community content for dnd5e in Foundry Virtual Tabletop",
+  "main": "eberron-5e.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPMeehan/eberron-5e.git"
+  },
+  "author": "Joseph Meehan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/JPMeehan/eberron-5e/issues"
+  },
+  "homepage": "https://github.com/JPMeehan/eberron-5e#readme",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.2"
+  }
+}
