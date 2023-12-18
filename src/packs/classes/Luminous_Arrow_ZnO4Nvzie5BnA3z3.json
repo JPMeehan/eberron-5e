@@ -1,0 +1,97 @@
+{
+  "name": "Luminous Arrow",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, you manifest arrows of brilliant light when you draw back your bowstring. You no longer need physical ammunition for a longbow or shortbow. When you attack using this feature, your luminous arrow deals radiant damage and vanishes immediately after it hits or misses its target.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Rogue 3 (Divine Sniper)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "40EIVxYIetLHoVyd",
+  "_id": "ZnO4Nvzie5BnA3z3",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425218445,
+    "modifiedTime": 1702848615543,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 312530,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!ZnO4Nvzie5BnA3z3"
+}

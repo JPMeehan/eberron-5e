@@ -1,0 +1,100 @@
+{
+  "folder": "BXrwJX4f1qW62SzE",
+  "name": "Extreme Explorer",
+  "type": "subclass",
+  "_id": "eGA03diwEYpLozMh",
+  "img": "icons/environment/wilderness/altar-hidden.webp",
+  "system": {
+    "description": {
+      "value": "<p>Tales of dangerous traps and terrifying monsters fill most hearts with fear, but the Extreme Explorer relishes the challenge. Fear is nothing more than a four-letter word; it's the thrill of life or death that keeps the heart of an Extreme Explorer beating, the unyielding longing to see what's over the horizon or around the next corner.</p><p>Extreme Explorers often serve as guides or adventurers that specialize in plumbing the depths of the jungles of Xen'drik or the utter blackness of Khyber. Stormreachers and explorers from the fringes of society most commonly choose this daring path. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "identifier": "extreme-explorer",
+    "classIdentifier": "ranger",
+    "advancement": [
+      {
+        "_id": "X9agCK5sCniL7rPe",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.xttVmmAaWzm17In9"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "Ranger Archetype Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "1cRSk2xuyNG4RBV5",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.WIHi3ruhuQ7ggfQh",
+            "Compendium.chaosos-5e-content.community-classes.Item.eO5yAhOZvEs3hdcl",
+            "Compendium.chaosos-5e-content.community-classes.Item.OX0nx4Gs1M0AtuAK"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Ranger Archetype Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "rWgLusfPw2edEqIa",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.v8pf3P8AE1sGnpz4"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Ranger Archetype Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "2FFw26vx7mGyNKRd",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.lhNu02Fz0kAppxOs"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Ranger Archetype Feature",
+        "type": "ItemGrant"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 5560,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686245987996,
+    "modifiedTime": 1702848614662,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!eGA03diwEYpLozMh"
+}

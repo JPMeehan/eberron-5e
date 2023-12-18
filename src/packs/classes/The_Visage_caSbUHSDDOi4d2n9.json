@@ -1,0 +1,40 @@
+{
+  "folder": "74xiOU8CkZyqpLaN",
+  "name": "The Visage",
+  "type": "subclass",
+  "_id": "caSbUHSDDOi4d2n9",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Talvakri's Guide to Adar"
+    },
+    "identifier": "the-visage",
+    "classIdentifier": "warlock",
+    "advancement": [],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 20400,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686185075411,
+    "modifiedTime": 1702848617698,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!caSbUHSDDOi4d2n9"
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Crystal Simulacrum",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 15th level, the emotions embedded in your astral construct become so potent that it can even cast your spells. As a bonus action, you can command your astral construct to use the Simulacrum Casting action. When it uses this action, the astral construct expends one of your spell slots, casting one of your prepared artificer spells of that level that has a casting time of 1 action or 1 bonus action and that does not require costly material components. When it casts a spell in this manner, it can do so without material components. It uses your spellcasting ability as if you had cast the spell. Once you command an astral construct to use the Simulacrum Casting action, you can't do so again until you finish a short or long rest.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Artificer 15 (Crystal Shaper)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418384036,
+    "modifiedTime": 1702848605234,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "folder": "MVHoTydfDvrOUgvY",
+  "_id": "zs2dPIptOgE1pz0c",
+  "sort": 1503500,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!zs2dPIptOgE1pz0c"
+}

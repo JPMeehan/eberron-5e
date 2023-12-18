@@ -1,0 +1,106 @@
+{
+  "folder": "DtvTuEZZqXFMP4In",
+  "name": "Oath of Veneration",
+  "type": "subclass",
+  "_id": "OYu8f5qp5zUOqodB",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Paladins who are called to follow in the footsteps of a great hero take the Oath of Veneration. The Tairnadal are the most common culture in Eberron to keep these ideals, taking up arms in hopes of emulating the patron ancestor assigned to them by the Keepers of the Past. However, this path isn't limited to the elves. A goblinoid warrior might choose to emulate ancient Dhakaani heroes, or a human of the Five Nations might consider themself the inheritor of Karrn the Conqueror’s will.</p><h5>Tenets Of Veneration</h5><p>The tenets of the Oath of Veneration challenge a paladin to uphold the legend of a treasured ancestor.</p><ul><li><p><em><strong>Respect the Past.</strong></em> The deeds and legends of our ancient ancestors are our greatest treasure.</p></li><li><p><em><strong>Emulate Your Patron.</strong></em> Keep your patron ancestor’s stories alive by reliving their victories.</p></li><li><p><em><strong>Fight for Your Future.</strong></em> Resist the tyranny your ancestors devoted their lives to defeating.</p></li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Chronicles of Eberron",
+      "page": "Ch. 5",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "oath-of-veneration",
+    "classIdentifier": "paladin",
+    "advancement": [
+      {
+        "_id": "bp0Q9Rjbie4oT4ti",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.NhiCb9R3FOwBBMel",
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.Tt5OTkXUd6b7lSBV",
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.FOoISreb7UXQ63v0"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Sacred Oath Feature",
+        "icon": null
+      },
+      {
+        "_id": "ac9qpUb9D7xMyYur",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.rAleFki7yjhd2KC6"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Sacred Oath Feature",
+        "icon": null
+      },
+      {
+        "_id": "op8RZZuySDZraNOi",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.lbNZlf30SizDGu8x"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Sacred Oath Feature",
+        "icon": null
+      },
+      {
+        "_id": "ZsnxbgsqZHRrrKO5",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.Hxlm3qPYvs4NYez6"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "Sacred Oath Feature",
+        "icon": null
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686341486327,
+    "modifiedTime": 1702848841570,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!OYu8f5qp5zUOqodB"
+}

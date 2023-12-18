@@ -1,0 +1,97 @@
+{
+  "name": "Extra Attack",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Druid 6 (Storms)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "icons/skills/melee/spear-tips-triple-orange.webp",
+  "flags": {},
+  "effects": [],
+  "folder": "zWM0VrRk9dhisuZc",
+  "_id": "ecQgJHmTLCuEtqkc",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418556385,
+    "modifiedTime": 1702848608570,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 605560,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!ecQgJHmTLCuEtqkc"
+}

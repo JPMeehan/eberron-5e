@@ -1,0 +1,97 @@
+{
+  "name": "Daybreak",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Beginning at 13th level, you can choose for the light shed by your light cantrip to be considered sunlight.</p><p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Rogue 13 (Divine Sniper)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "40EIVxYIetLHoVyd",
+  "_id": "jgclgAMg0TXujJXg",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425220555,
+    "modifiedTime": 1702848615543,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 1304330,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!jgclgAMg0TXujJXg"
+}

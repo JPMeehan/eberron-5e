@@ -1,0 +1,97 @@
+{
+  "name": "Restful Hearth",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 6th level, when friends rest near your fire, they feel robust and ready to take on anything. When you finish a short or long rest, select a number of creatures equal to your Wisdom modifier that just finished a short or long rest taken within 30 feet of a fire lit by your create bonfire cantrip. Each creature gains resistance to one damage type of your choice: force, radiant, necrotic, or psychic. The effect lasts until the creature finishes its next short or long rest.</p><p>In addition, when you finish a long rest, every creature of your choice that just finished a long rest taken within 30 feet of a fire lit by your create bonfire cantrip reduces its exhaustion level by 1.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cleric 6 (Hearth)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "82Z7WDJ4l5pI5F7N",
+  "_id": "ljNri4Z4rBh37fk3",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418510859,
+    "modifiedTime": 1702848607622,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 618370,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!ljNri4Z4rBh37fk3"
+}

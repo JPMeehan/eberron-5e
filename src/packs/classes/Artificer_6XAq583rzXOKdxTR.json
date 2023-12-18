@@ -1,0 +1,19 @@
+{
+  "name": "Artificer",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "6XAq583rzXOKdxTR",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1702848605158,
+    "modifiedTime": 1702848605394,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!folders!6XAq583rzXOKdxTR"
+}

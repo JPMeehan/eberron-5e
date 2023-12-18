@@ -1,0 +1,97 @@
+{
+  "name": "Warding Shroud",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 17th level, you can use your action to create a corona of purifying light that protects you, often appearing as a cloak of silver flame, powerful glowing eyes, or a golden radiance. You gain the following benefits for 1 minute:</p><ul><li>+2 bonus to AC.</li><li>Advantage on all saving throws.</li><li>Resistance to damage from spells and magical abilities of fiends and undead.</li><li>Any fiend or undead that attacks you must make a Constitution saving throw against your cleric spell save DC. On a failed save, the creature becomes blinded for the remaining duration of this feature. The blinded creature can repeat this saving throw at the end of each of its turns, ending the effect on itself on a success.</li></ul><p>Once you use this feature, you can't use it again until you finish a long rest.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cleric 17 (Exorcism)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "SMG8a1fU051AIjhX",
+  "_id": "OClgdKdKoNXs73n1",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418500242,
+    "modifiedTime": 1702848607622,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 1723330,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!OClgdKdKoNXs73n1"
+}

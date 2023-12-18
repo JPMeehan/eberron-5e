@@ -1,0 +1,97 @@
+{
+  "name": "Healing Kicker",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 10th level, you deepen your knowledge of healing techniques. When you cast a spell that restores hit points to another creature, every target of that spell gains one of the following benefits of your choice:</p><h5> Great Fortitude</h5> <p>The target gains advantage on the next Strength, Constitution, or Dexterity saving throw that it makes within the next minute.</p><h5> Iron Will</h5> <p>The target gains advantage on the next Intelligence, Wisdom or Charisma saving throw that it makes within the next minute.</p><h5> Lightning Reflexes</h5> <p>The next time the target is subjected to an effect that does damage within the next minute, it can use its reaction to halve the damage from that effect.</p><h5> Power Attack</h5> <p>The target has advantage on all attack rolls until the end of its next turn.</p><p>If multiple creatures are healed by the same spell, the chosen effect applies to all of them.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Fighter 10 (Combat Medic)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "kJccBcDLdUGddNLa",
+  "_id": "qka24RTIGbGztNAa",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418570744,
+    "modifiedTime": 1702848610073,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 1008370,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!qka24RTIGbGztNAa"
+}

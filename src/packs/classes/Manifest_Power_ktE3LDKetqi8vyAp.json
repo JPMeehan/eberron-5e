@@ -1,0 +1,40 @@
+{
+  "folder": "vMllsaSXEu2GODo1",
+  "name": "Manifest Power",
+  "type": "subclass",
+  "_id": "ktE3LDKetqi8vyAp",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Talvakri's Guide to Adar"
+    },
+    "identifier": "manifest-power",
+    "classIdentifier": "sorcerer",
+    "advancement": [],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 13330,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686185020497,
+    "modifiedTime": 1702848616563,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!ktE3LDKetqi8vyAp"
+}

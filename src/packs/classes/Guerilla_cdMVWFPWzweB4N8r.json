@@ -1,0 +1,100 @@
+{
+  "folder": "uQYUmfQsVFJykQBJ",
+  "name": "Guerilla",
+  "type": "subclass",
+  "_id": "cdMVWFPWzweB4N8r",
+  "img": "icons/magic/nature/plant-bamboo-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Slipping through the darkness, the Guerilla is a master of silent movement, poisons, and hit-and-run tactics. As their knowledge grows, their poisons become more and more potent, until even the most resistant of beasts cannot help but fall prey. The Guerilla's ability to slip into shadows is legendary, as even the most junior of their order are exceedingly difficult to track.</p><p>Guerillas are commonly found among the scorpionworshiping Vulkoori drow in the jungles of Xen'drik, as well as with lizardfolk in the hot swampy waters of the Q'barra swamps.</p><p>Although less common, intelligence agencies and assassin guilds also train their members in these arts, finding their tactics are just as effective on the city streets as beneath the cover of greenery. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "identifier": "guerilla",
+    "classIdentifier": "ranger",
+    "advancement": [
+      {
+        "_id": "uGSJnUh6yOXXi4Um",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.n23HUcOvPx4nRE0R"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Ranger Archetype Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "6LqiUCvdw2CQjtpq",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.A4bv2nyjX6kWgVtr",
+            "Compendium.chaosos-5e-content.community-classes.Item.oeFYXlUAre0f1EXk",
+            "Compendium.chaosos-5e-content.community-classes.Item.t55kGt9RXL4cdj8C"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Ranger Archetype Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "uUaz4xEhIdcdMaqZ",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.skA7aRn3UD5YF3Wf"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Ranger Archetype Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "flD96E3KsdH6I2QX",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.Run6WwBXKNZGHZ56"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "Ranger Archetype Feature",
+        "type": "ItemGrant"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 7530,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686245995693,
+    "modifiedTime": 1702848614662,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!cdMVWFPWzweB4N8r"
+}

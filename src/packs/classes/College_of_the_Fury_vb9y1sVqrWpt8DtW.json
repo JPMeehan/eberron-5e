@@ -1,0 +1,90 @@
+{
+  "folder": "7LxVcmEqx7ApHgg7",
+  "name": "College of the Fury",
+  "type": "subclass",
+  "_id": "vb9y1sVqrWpt8DtW",
+  "img": "icons/skills/social/intimidation-impressing.webp",
+  "system": {
+    "description": {
+      "value": "<p>Bards who follow the College of the Fury know that intense revelry, unbound by taboo and pretenses of decency, is among the most powerful expressions of the Music of Creation. These bards are overtly passionate, sometimes hedonistic, and eager to call others into their dance. Harpies of the Cazhaak Creed are the most common practitioners of this college, reveling in Szorawai’s name.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Chronicles of Eberron",
+      "page": "Ch. 8",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "college-of-the-fury",
+    "classIdentifier": "bard",
+    "advancement": [
+      {
+        "_id": "t6G4vzxHv4IJhIaf",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.TSsERX4Ye3eI1IWu",
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.aXJXH5PLzz3eqbDP"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Bard College Feature",
+        "icon": null
+      },
+      {
+        "_id": "wjc9RWSbuexFeOqE",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.prlZXOeoxbOvSgJY"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "Bard College Feature",
+        "icon": null
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.85VGplRhpfZlkki9"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "Bard College Feature",
+        "icon": null,
+        "_id": "msW8lDxZ6NuYCY3Y"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686341347646,
+    "modifiedTime": 1702848812956,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!vb9y1sVqrWpt8DtW"
+}

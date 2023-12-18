@@ -1,0 +1,97 @@
+{
+  "name": "Animate Edifice",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 14th level, you can animate a massive statue or building to fight for you. As an action, choose a Huge nonmagical building, object, or other collection of inorganic material (such as metal rubbish or a rock formation) within 100 feet of you. It animates, becoming an animated edifice under your control for the next 10 minutes or until it is reduced to 0 hit points. Any contents of the structure, including creatures and objects within and on it, are unharmed by its animation, and creatures can follow normal rules of movement to navigate the structure while it is animated. If the edifice moves or takes any action other than the Dodge action on its turn, every foot of movement costs an extra foot for any creatures within or on it until the start of the edifice's next turn.</p><p>On your turn, you can mentally command the edifice where to move (no action required by you). The only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the Dash or Disengage action.</p><p>After 10 minutes or when the edifice is reduced to 0 hit points, the animated edifice reverts to its original unanimated state, regardless of its current location. The structure's condition is the same as from before it was animated; however, if it reverted as a result of dropping to 0 hit points, any excess damage carries over to its original form.</p><p>Once you use this feature, you can't use it again until you finish a long rest.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "10",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Druid 14 (Civilization)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "CZxU0LUOXZJ0KcAV",
+  "_id": "JgnOYNjwH5aQpPGD",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418534650,
+    "modifiedTime": 1702848608570,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 1401460,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!JgnOYNjwH5aQpPGD"
+}

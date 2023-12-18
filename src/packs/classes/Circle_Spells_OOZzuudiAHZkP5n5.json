@@ -1,0 +1,97 @@
+{
+  "name": "Circle Spells",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your respect for nature's fury grants you access to certain spells. At 2nd level, you learn the shocking grasp cantrip. At 3rd, 5th, 7th, and 9th level you gain access to the spells listed for that level in the Circle of Storms Spells table. Once you gain access to one of these spells, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.</p><table><caption>Circle of Storms Spells</caption><thead><tr><th data-rd-isroller=\"false\">Druid Level</th><th data-rd-isroller=\"false\">Circle Spells</th></tr></thead><tbody><tr><td>3rd</td><td>gust of wind, shatter</td></tr><tr><td>5th</td><td>lightning bolt, thunder step</td></tr><tr><td>7th</td><td>ice storm, storm sphere</td></tr><tr><td>9th</td><td>destructive wave, maelstrom</td></tr></tbody></table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Druid 2 (Storms)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "icons/magic/water/projectile-ice-teardrop.webp",
+  "flags": {},
+  "effects": [],
+  "folder": "zWM0VrRk9dhisuZc",
+  "_id": "OOZzuudiAHZkP5n5",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418552129,
+    "modifiedTime": 1702848608570,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 203410,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!OOZzuudiAHZkP5n5"
+}

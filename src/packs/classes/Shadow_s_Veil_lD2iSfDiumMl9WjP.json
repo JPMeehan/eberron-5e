@@ -1,0 +1,95 @@
+{
+  "folder": "hzHaNMqMnKppCil1",
+  "name": "Shadow's Veil",
+  "type": "feat",
+  "_id": "lD2iSfDiumMl9WjP",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Through careful positioning, cunning and a divine gift or two, you’ve learned to slip out of a weakened creature’s sight. When you hit a creature with an attack, you can choose to become invisible to that creature for 1 minute or until you dismiss this effect (no action required). This invisibility ends early if you deal damage to a creature or force a creature to make a saving throw.</p><p>Once you use this feature, you can’t do so again until you finish a long rest, unless you expend a spell slot to use this feature again.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {},
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MVioF9x1qI1WYGx1": 3,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1700550130071,
+    "modifiedTime": 1702848856003,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!lD2iSfDiumMl9WjP"
+}

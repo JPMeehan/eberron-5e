@@ -1,0 +1,19 @@
+{
+  "name": "Hearth Domain",
+  "sorting": "m",
+  "folder": "h2gFjx5GHBzWi4uT",
+  "type": "Item",
+  "_id": "82Z7WDJ4l5pI5F7N",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "11.300",
+    "createdTime": null,
+    "modifiedTime": 1686245476321,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!folders!82Z7WDJ4l5pI5F7N"
+}

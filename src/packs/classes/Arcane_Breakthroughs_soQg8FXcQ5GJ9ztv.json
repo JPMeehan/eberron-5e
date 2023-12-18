@@ -1,0 +1,96 @@
+{
+  "folder": "L7f2HdWXA5KSNCXo",
+  "name": "Arcane Breakthroughs",
+  "type": "feat",
+  "_id": "soQg8FXcQ5GJ9ztv",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 3rd level, you gain amazing insights into spell effects beyond the reach of most artificers. Choose one of the following classes: bard, cleric, druid, paladin, ranger, sorcerer, warlock, or wizard. This class’s spells become part of your Breakthrough spell list. You can choose an additional class and add its spells to your Breakthrough spell list at 5th, 9th, 13th, and 17th levels. </p><p>When you change your list of prepared artificer spells after a long rest, you can prepare an additional 1st-level spell. This spell must be from your Breakthrough spell list. When you reach certain levels in this class, you increase the number of Breakthrough spells that you can prepare. You can prepare an additional 2nd-level spell at 5th level, an additional 3rd-level spell at 9th level, an additional 4th-level spell at 13th level, and an additional 5th-level spell at 17th level. These prepared spells don’t count against the number of artificer spells you prepare. </p><p>When you cast a spell you’ve prepared using this feature, it’s considered to be an artificer spell for you, and Intelligence is your spellcasting ability for it. When you swap a prepared Breakthrough spell for a new spell, you lose any ongoing benefits from having cast it (such as a steed summoned by <em>find steed</em>).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Artificer 3 (Maverick)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1699215248056,
+    "modifiedTime": 1702848680576,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!soQg8FXcQ5GJ9ztv"
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Wild Surge",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Beginning at 1st level, you learn to spark a wild surge of emotion that can enhance your powers or overwhelm them. Once on your turn, you can roll a d6, your Wild Surge die, when you cast a sorcerer spell of 1st level or higher. On a roll of 2 or higher, you can cast the spell as if from a spell slot one level greater than the slot you expended. If you roll a 1, you fail and are overcome by the rising tide of emotion; your spell is not cast, the spell slot is unexpended, and you are incapacitated until the start of your next turn. Your Wild Surge cannot increase the effective level of a spell beyond 9th level.</p><p>Your Wild Surge die changes when you reach certain levels in this class. The die becomes a d8 at 11th level, and a d10 at 17th level.</p><p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Sorcerer 1 (Wilder)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "VtlOa8owSZRWmJtk",
+  "_id": "AZJmtP9LALsRH0MN",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425293773,
+    "modifiedTime": 1702848616563,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 123410,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!AZJmtP9LALsRH0MN"
+}

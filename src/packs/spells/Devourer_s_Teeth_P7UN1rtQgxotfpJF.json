@@ -1,0 +1,117 @@
+{
+  "folder": "qgty36A5lW2ISTfx",
+  "name": "Devourer's Teeth",
+  "type": "spell",
+  "img": "icons/magic/water/water-elemental-blue-teeth.webp",
+  "system": {
+    "description": {
+      "value": "<p>A great wave of salt water bursts from the ground beneath your feet. Each creature in a 30-foot cube originating from you must make a Strength saving throw. On a failed save, a creature takes 4d10 bludgeoning damage and is pushed 15 feet away from you. On a successful save, the creature takes half as much damage and isn’t pushed.</p><p>Along with the wave, you conjure the spirit of a great shark. Choose one creature that failed its saving throw as the shark spirit’s prey. That target takes an extra 2d10 piercing damage and is restrained by the shark spirit’s jaws. A target restrained in this way can use its action to make a Strength check against your spell save DC. On a success, it frees itself and the shark spirit disappears.</p><p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 5th level or higher, the damage of the wave and the damage of the spirit shark’s jaws each increase by 1d10 for each slot level above 4th.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "CoE"
+    },
+    "activation": {
+      "type": "action",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 30,
+      "width": null,
+      "units": "ft",
+      "type": "cube",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "self"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "4d10",
+          "bludgeoning"
+        ]
+      ],
+      "versatile": "2d10"
+    },
+    "formula": "",
+    "save": {
+      "ability": "str",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 4,
+    "school": "con",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a shark's tooth",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686367910685,
+    "modifiedTime": 1702848937260,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_id": "P7UN1rtQgxotfpJF",
+  "sort": 100000,
+  "_key": "!items!P7UN1rtQgxotfpJF"
+}

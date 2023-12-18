@@ -1,0 +1,138 @@
+{
+  "name": "Blast Disks",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Beginning at 3rd level, whenever you finish a long rest, you can magically imbue effects to create a blast disk from a flat stone you touch.</p><p>You can create one blast disk at the end of a long rest, imbuing it with one effect from the Blast Disks table, which you can later trigger by detonating the disk.</p><p>Creating a blast disk requires that you have mason's tools on your person, and any disk that you imbue with this feature lasts until it detonates or the end of your next long rest, when the magic dissipates.</p><p>When you reach certain levels in this class, you can imbue additional disks at the end of a long rest: two at 5th level, three at 9th level, and four at 15th level. Each disk requires its own flat stone.</p><p>You can imbue additional blast disks by expending a spell slot of 1st level or higher for each one. When you do so, you use your action to touch a stone disk and create a blast disk imbued with one effect from the Blast Disks table.</p><p>When a blast disk detonates, every creature within a 5-foot radius must make a saving throw as indicated on the Blast Disks table. On a failed save, a creature takes damage and is subject to the blast disk's effects. On a successful save, the creature takes half damage and suffers no other effect. The saving throw DC to avoid a blast disk's effects is equal to your artificer spell save DC.</p><h5> Detonating a Blast Disk</h5> <p>As an action, you can touch an imbued blast disk to activate it, choosing whether to detonate it on impact or by proximity when you do so. Once activated, the blast disk can be detonated any time before the end of your next long rest using the detonation type you chose when you activated it:</p><ul><li><b>Impact Detonation</b>. You can use your action to throw an activated blast disk up to 15 feet, where it detonates on contact with a creature or object, triggering its effect.</li><li><b>Proximity Detonation</b>. You place an activated blast disk on the ground, then when any creature other than you approaches within 5 feet of the activated blast disk, it immediately detonates, automatically triggering its effect.</li></ul><table><caption>Blast Disks</caption><thead><tr><th data-rd-isroller=\"false\">Type</th><th data-rd-isroller=\"false\">Save</th><th data-rd-isroller=\"false\">Effect on Failed Save</th></tr></thead><tbody><tr><td>Breath of Life</td><td>Wis</td><td>Deals 3d8 radiant damage to undead and heals living creatures half as much. This has no effect on constructs.</td></tr><tr><td>Corrosive</td><td>Dex</td><td>Deals 3d6 acid damage, and the creature takes half as much acid damage at the start of its next turn.</td></tr><tr><td>Storm Surge</td><td>Dex</td><td>Deals 3d6 lightning damage and the creature can't take reactions until the end of your next turn.</td></tr><tr><td>Enervating</td><td>Con</td><td>Deals 3d6 necrotic damage and the creature can't regain hit points until the end of your next turn.</td></tr><tr><td>Flashbang</td><td>Con</td><td>Deals 3d4 thunder damage and the creature is blinded and deafened until the end of your next turn.</td></tr><tr><td>Glitterfire</td><td>Dex</td><td>Deals 3d8 fire damage and the creature is coated in magical glitter. Until the end of your next turn, any attack roll against the creature is made with advantage if the attacker can see it, and the creature can't benefit from being invisible.</td></tr><tr><td>Hallucinogenic</td><td>Wis</td><td>Deals 3d4 psychic damage and the creature is frightened until the end of your next turn.</td></tr><tr><td>Hoarfrost</td><td>Dex</td><td>Deals 3d8 cold damage and the creature's speed is reduced to 0 until the end of your next turn.</td></tr><tr><td>Pressure Wave</td><td>Str</td><td>Deals 3d6 force damage and the creature is pushed 10 feet away from the blast disk.</td></tr><tr><td>Toxic Cloud</td><td>Con</td><td>Deals 3d8 poison damage and the creature is poisoned until the end of your next turn.</td></tr></tbody></table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "turn"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d8",
+          "radiant"
+        ],
+        [
+          "3d6",
+          "acid"
+        ],
+        [
+          "3d6",
+          "lightning"
+        ],
+        [
+          "3d6",
+          "necrotic"
+        ],
+        [
+          "3d4",
+          "thunder"
+        ],
+        [
+          "3d8",
+          "fire"
+        ],
+        [
+          "3d4",
+          "psychic"
+        ],
+        [
+          "3d8",
+          "cold"
+        ],
+        [
+          "3d6",
+          "force"
+        ],
+        [
+          "3d8",
+          "poison"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Artificer 3 (Disruptor)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "5Oy6Dulk9VEw6pKB",
+  "_id": "cA5RyYjnybTlG9Bn",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418393961,
+    "modifiedTime": 1702848605234,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 302440,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!cA5RyYjnybTlG9Bn"
+}

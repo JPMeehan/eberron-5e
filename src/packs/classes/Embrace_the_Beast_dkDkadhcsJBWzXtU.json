@@ -1,0 +1,97 @@
+{
+  "name": "Embrace the Beast",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>When you choose this path at 3rd level, you can take on monstrous physical traits, rendering you unrecognizable to common folk. While you rage, you grow vicious claws, which are natural weapons that you can use to make unarmed strikes. On a hit, they deal slashing damage equal to 1d8 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. Additionally, at the start of each of your turns while raging, you gain a number of temporary hit points equal to your Constitution modifier.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Barbarian 3 (Feral Heart)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "AiBi5XMEzGjwDVoZ",
+  "_id": "dkDkadhcsJBWzXtU",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418430301,
+    "modifiedTime": 1702848606085,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 305450,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!dkDkadhcsJBWzXtU"
+}

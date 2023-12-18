@@ -1,0 +1,116 @@
+{
+  "folder": "yVaX3agsuRwAslXX",
+  "name": "Gloves of Storing",
+  "type": "equipment",
+  "_id": "rIXoh36LuOSIuicP",
+  "img": "icons/equipment/hand/gauntlet-armored-leather-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Requires:</strong> Artificer 6</p><p>Gloves of storing come in pairs, each one tied to a small pocket dimension. While wearing the gloves and holding an object that weighs no more than 20 pounds and can be held in one hand, you can use a bonus action to store that object inside the glove’s extradimensional space. When an object is stored inside the extradimensional space, you can use a bonus action to summon it back into your empty hand. You can only store a single object in each glove’s extradimensional space, for a total of two items between the pair.</p><p>The gloves’ weight is negligible, regardless of their contents. If a glove is pierced or torn, it ruptures and is destroyed, and the object it was storing is lost in the Astral Plane.</p><p>Placing <em>gloves of storing</em> inside an extradimensional space created by a <em>bag of holding</em>, <em>portable hole</em>, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can’t be reopened.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "ExE"
+    },
+    "quantity": 1,
+    "weight": 0,
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": 0,
+    "equipped": false,
+    "rarity": "uncommon",
+    "identified": true,
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "armor": {
+      "value": null,
+      "type": "clothing",
+      "dex": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "baseItem": "",
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": null,
+    "stealth": false,
+    "proficient": 1
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1687068923351,
+    "modifiedTime": 1702848650612,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!rIXoh36LuOSIuicP"
+}

@@ -1,0 +1,97 @@
+{
+  "name": "City Stride",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 10th level, your bond with the hives of humanoids increases. Once on your turn, you can step magically into worked stone or earth within your reach as a bonus action and emerge from a second piece of worked stone or worked earth within 60 feet of the first object that you can see, appearing in an unoccupied space within 5 feet of the second object. Both objects must be Large or bigger.</p><p>You can use this feature a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses of it when you finish a long rest.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Druid 10 (Civilization)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "CZxU0LUOXZJ0KcAV",
+  "_id": "COFHidEuzYn9YksE",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418533658,
+    "modifiedTime": 1702848608570,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 1003410,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!COFHidEuzYn9YksE"
+}

@@ -1,0 +1,101 @@
+{
+  "folder": "yVaX3agsuRwAslXX",
+  "name": "Bane Weapon",
+  "type": "feat",
+  "_id": "XwHDelPBu0FBhaGE",
+  "img": "icons/magic/symbols/mask-yellow-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Item: A simple or martial melee weapon (requires attunement)</em></p><p>This magic weapon grants a +1 bonus to attack and damage rolls made with it.</p><p>When you infuse this item, choose one of the following creature types: aberration, beast, celestial, dragon, fiend, giant, or undead. The weapon has 4 charges. When the wielder hits a creature of this type with the weapon, they can expend 1 charge and inflict an additional 2d6 damage of the weapon’s type with the attack. The weapon regains 1d4 charges daily at dawn.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "ExE"
+    },
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": "You hit a creature of an appropriate type"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 4,
+      "max": "4",
+      "per": "charges",
+      "recovery": "1d4",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d6",
+          ""
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": "artificerInfusion"
+    },
+    "requirements": "Artificer 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1687054583454,
+    "modifiedTime": 1702848650612,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!XwHDelPBu0FBhaGE"
+}

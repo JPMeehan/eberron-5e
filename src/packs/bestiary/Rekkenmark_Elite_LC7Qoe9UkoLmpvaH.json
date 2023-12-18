@@ -1,0 +1,1085 @@
+{
+  "name": "Rekkenmark Elite",
+  "type": "npc",
+  "folder": "kCNXkhVxaL5N0FJi",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 18,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 11,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 16,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 18,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 112,
+        "max": 112,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "15d8 + 45"
+      },
+      "init": {
+        "ability": "",
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
+        "units": null,
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": null,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": null,
+        "special": ""
+      },
+      "spellcasting": "int"
+    },
+    "details": {
+      "biography": {
+        "value": "<p>The Order of Rekkenmark is a prestigious knightly order made up of the most accomplished graduates of Rekkenmark Academy, Khorvaire’s oldest and finest military training institution. The Rekkenmark Elite are the finest knights of the order that have remained pure in their traditions, eschewing the necromantic training and rites that created the Bone Knight volunteers.</p>",
+        "public": ""
+      },
+      "alignment": "Typically Lawful Neutral",
+      "race": null,
+      "type": {
+        "value": "humanoid",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": 5,
+      "spellLevel": 0,
+      "source": {}
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "Any two languages"
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 2,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 2,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Rekkenmark Elite",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/magic/death/skull-trio-badge-purple.webp",
+      "system": {
+        "description": {
+          "value": "The elite makes three melee attacks.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {},
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "",
+          "prompt": true
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "_id": "wADfNcspsqPf0ySK",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "MVioF9x1qI1WYGx1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.4.0",
+        "coreVersion": "11.315",
+        "createdTime": 1701065664572,
+        "modifiedTime": 1701065664572,
+        "lastModifiedBy": "MVioF9x1qI1WYGx1"
+      },
+      "_key": "!actors.items!LC7Qoe9UkoLmpvaH.wADfNcspsqPf0ySK"
+    },
+    {
+      "name": "Greatsword",
+      "type": "weapon",
+      "img": "icons/weapons/swords/greatsword-guard-gem-blue.webp",
+      "system": {
+        "description": {
+          "value": "Melee Weapon Attack: +4 to hit, reach 5 ft. , one target. Hit: 11 (2d6 + 4) slashing damage, plus 7 (2d6) slashing damage if the elite does not have all of its hit points.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {},
+        "quantity": 1,
+        "weight": 0,
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "attunement": 2,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "",
+          "prompt": true
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "ability": "str",
+        "actionType": "mwak",
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "2d6 + @mod",
+              "slashing"
+            ],
+            [
+              "2d6",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": null
+        },
+        "hp": {
+          "value": null,
+          "max": null,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {
+          "ada": false,
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "mgc": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "sil": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": 1
+      },
+      "_id": "jP8lDd2z0Ra4YeDv",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "MVioF9x1qI1WYGx1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.4.0",
+        "coreVersion": "11.315",
+        "createdTime": 1701065664644,
+        "modifiedTime": 1701065664644,
+        "lastModifiedBy": "MVioF9x1qI1WYGx1"
+      },
+      "_key": "!actors.items!LC7Qoe9UkoLmpvaH.jP8lDd2z0Ra4YeDv"
+    },
+    {
+      "name": "Rekkenmark Officer (Recharges After A Short Or Long Rest)",
+      "type": "feat",
+      "img": "icons/svg/combat.svg",
+      "flags": {
+        "adnd5e": {
+          "itemInfo": {
+            "type": "bonus"
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "The elite begins uttering special commands or warnings within the next minute whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll, ability check, or a saving throw. The creature can add a Leadership die, a d6, to its roll provided it can hear and understand the elite. A creature can benefit from only one Leadership die at a time. This effect ends if the elite is incapacitated.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {},
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "",
+          "prompt": true
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "_id": "NyiBGCI7bn5tcHrP",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "MVioF9x1qI1WYGx1": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.4.0",
+        "coreVersion": "11.315",
+        "createdTime": 1701065664745,
+        "modifiedTime": 1701065664745,
+        "lastModifiedBy": "MVioF9x1qI1WYGx1"
+      },
+      "_key": "!actors.items!LC7Qoe9UkoLmpvaH.NyiBGCI7bn5tcHrP"
+    },
+    {
+      "name": "Parry",
+      "type": "feat",
+      "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
+      "flags": {
+        "adnd5e": {
+          "itemInfo": {
+            "type": "reaction"
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "value": "The elite adds 4 to its AC against one melee attack that would hit it. To do so, the elite must see the attacker and be wielding a melee weapon.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {},
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "",
+          "prompt": true
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "_id": "gRUtZc5ECI113qy0",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "MVioF9x1qI1WYGx1": 3
+      },
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.4.0",
+        "coreVersion": "11.315",
+        "createdTime": 1701065664933,
+        "modifiedTime": 1701065664933,
+        "lastModifiedBy": "MVioF9x1qI1WYGx1"
+      },
+      "_key": "!actors.items!LC7Qoe9UkoLmpvaH.gRUtZc5ECI113qy0"
+    },
+    {
+      "name": "Stoic",
+      "type": "feat",
+      "img": "icons/svg/book.svg",
+      "system": {
+        "description": {
+          "value": "The elite has advantage on saving throws against being stunned.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {},
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "",
+          "prompt": true
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "_id": "ZRdZi1izO2ufPvDO",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "MVioF9x1qI1WYGx1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.4.0",
+        "coreVersion": "11.315",
+        "createdTime": 1701065665324,
+        "modifiedTime": 1701065665324,
+        "lastModifiedBy": "MVioF9x1qI1WYGx1"
+      },
+      "_key": "!actors.items!LC7Qoe9UkoLmpvaH.ZRdZi1izO2ufPvDO"
+    },
+    {
+      "name": "Steadfast",
+      "type": "feat",
+      "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+      "system": {
+        "description": {
+          "value": "The elite can't be frightened while it can see an allied creature within 30 feet of it.",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": {},
+        "activation": {
+          "type": "",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "",
+          "prompt": true
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null,
+          "recovery": "",
+          "prompt": true
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null,
+          "scale": false
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": "",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "_id": "CscMd4Pt2JbEuyyL",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "MVioF9x1qI1WYGx1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "2.4.0",
+        "coreVersion": "11.315",
+        "createdTime": 1701065665668,
+        "modifiedTime": 1701065665668,
+        "lastModifiedBy": "MVioF9x1qI1WYGx1"
+      },
+      "_key": "!actors.items!LC7Qoe9UkoLmpvaH.CscMd4Pt2JbEuyyL"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "MVioF9x1qI1WYGx1": 3,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1701065664353,
+    "modifiedTime": 1702848184332,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_id": "LC7Qoe9UkoLmpvaH",
+  "sort": 100000,
+  "_key": "!actors!LC7Qoe9UkoLmpvaH"
+}

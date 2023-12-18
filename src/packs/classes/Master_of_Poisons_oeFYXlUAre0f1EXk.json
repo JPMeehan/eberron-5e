@@ -1,0 +1,97 @@
+{
+  "name": "Master of Poisons",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, you know the secrets of toxic plants and animals and use them to envenom your blows. You gain proficiency with the poisoner's kit and the herbalist's kit.</p><p>In addition, as a bonus action, you can envenom your weapons. The next time you hit a creature on this turn with a weapon attack, it takes an additional 1d10 points of poison damage from the attack. When you reach 11th level in this class, the extra damage increases to 2d10.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Ranger 3 (Guerilla)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "uQYUmfQsVFJykQBJ",
+  "_id": "oeFYXlUAre0f1EXk",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425201617,
+    "modifiedTime": 1702848614662,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 313330,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!oeFYXlUAre0f1EXk"
+}

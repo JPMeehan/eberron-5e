@@ -1,0 +1,86 @@
+{
+  "folder": "8XWbjoHRYwpsLKY1",
+  "name": "College of Spies",
+  "type": "subclass",
+  "_id": "t4qBKZpZjqXUJw1j",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Eberron is a world ravaged by recent conflict, and an uneasy peace holds over the land in a cold war. No one knows who or what caused the Mourning, so no country is willing to risk making the first move... at least not overtly. Thus, bards of the College of Spies have honed the art of diplomacy and cunning, and were invaluable during the Last War as secret agents and information gatherers.</p><p>The Dark Lanterns of Galifar were the first to hone the bard's social graces to a keen dagger. By the time the Last War broke out, espionage was a widespread tradition across the Five Nations. The Dark Lanterns of Breland have traditionally maintained the highest numbers of this college, but the Royal Eyes of Aundair and the remains of the Fifth Crown of Cyre are just as proactive in recruitment as their Brelish counterparts. Houses Phiarlan and Thuranni also have strong traditions of Spy bards.</p><p>Unknown to Khorvaire, the Thousand Eyes of Riedra have also perfected a variant of this college that uses psionic, not arcane magic. These agents have likely infiltrated the governments of the Five Nations and beyond. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "identifier": "college-of-spies",
+    "classIdentifier": "bard",
+    "advancement": [
+      {
+        "_id": "h9xss7qU6muFOgj9",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.agVytI5gDzkt9uNX",
+            "Compendium.chaosos-5e-content.community-classes.Item.azKsY8NqN8c8RN35"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "Bard College Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "3CyYACkJ9mPkt39m",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.8RqOj7y9R9jXXx8p",
+            "Compendium.chaosos-5e-content.community-classes.Item.tdDAmjI6ObQmQJPW"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Bard College Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "QDADO1nkEmQNqKds",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.jE4ENU70gTA46j6U"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "Bard College Feature",
+        "type": "ItemGrant"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 3470,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686201743608,
+    "modifiedTime": 1702848606931,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!t4qBKZpZjqXUJw1j"
+}

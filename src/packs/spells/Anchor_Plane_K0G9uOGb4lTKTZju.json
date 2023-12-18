@@ -1,0 +1,113 @@
+{
+  "folder": "YAWn8pBzcInWhTGE",
+  "name": "Anchor Plane",
+  "type": "spell",
+  "_id": "K0G9uOGb4lTKTZju",
+  "img": "icons/magic/symbols/runes-star-pentagon-orange-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>You use the material component of this spell as a planar anchor, harmonizing yourself and the area surrounding the anchor with a plane of your choice. The anchor must be placed anywhere within range, and the spell fails if you don’t remain within range of the anchor during the entire casting time.</p><p>When you finish casting the spell, the anchor melds into the environment, creating a localized weakness in the planar boundary that precipitates the creation of a 5-foot-radius manifest zone tied to your chosen plane. The fledgling zone expands in radius at the rate of 5 feet per day, to a maximum of 150 feet. Additional castings of this spell don’t stack, but multiple adjacent or overlapping areas can be created.</p><p> The new manifest zone has one planar trait of your choice from the plane to which it is tied.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Talvakri's Guide to Adar",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "hour",
+      "cost": 8,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 30,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 8,
+    "school": "con",
+    "components": {
+      "vocal": false,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a Siberys dragonshard or essence from the plane to be anchored worth at least 7,500 gp, which the spell consumes",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "none",
+      "formula": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1702707640212,
+    "modifiedTime": 1702848255841,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!K0G9uOGb4lTKTZju"
+}

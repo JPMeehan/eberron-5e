@@ -1,0 +1,19 @@
+{
+  "name": "Adamant",
+  "sorting": "m",
+  "folder": "IGMiJtHoSId20maJ",
+  "type": "Item",
+  "_id": "ueSKKHLvDA1m3eM7",
+  "sort": 300000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "11.300",
+    "createdTime": null,
+    "modifiedTime": 1686245514779,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!folders!ueSKKHLvDA1m3eM7"
+}

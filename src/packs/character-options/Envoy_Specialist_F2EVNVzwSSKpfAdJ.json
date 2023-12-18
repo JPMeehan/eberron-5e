@@ -1,0 +1,104 @@
+{
+  "name": "Envoy Specialist",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>You have modified your body to perform a specific task, integrating a tool directly into your body. You gain the following benefits.</p><ul><li>Increase one ability score of your choice by 1, to a maximum of 20.</li><li>You gain proficiency with one tool of your choice.</li><li>Choose one of these tools you are proficient with that weighs 10 pounds or less: an artisan's tools, forgery kit, herbalism kit, poisoner's kit, thieves' tools, or a musical instrument. You have a working model of this tool integrated into your body. It can't be removed, and as long as you have a hand free, you can make use of the integrated tool.</li><li>Your proficiency bonus is doubled when you make ability checks using this integrated tool.</li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "ExE"
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Warforged",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "img": "icons/tools/hand/hammer-and-nail.webp",
+  "flags": {
+    "plutonium": {
+      "page": "feats.html",
+      "source": "ExploringEberron",
+      "hash": "envoy%20specialist_exploringeberron",
+      "propDroppable": "feat"
+    },
+    "core": {}
+  },
+  "effects": [],
+  "folder": "qQfshd6Ve28n209Q",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686370356619,
+    "modifiedTime": 1702848545890,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_id": "F2EVNVzwSSKpfAdJ",
+  "sort": 0,
+  "_key": "!items!F2EVNVzwSSKpfAdJ"
+}

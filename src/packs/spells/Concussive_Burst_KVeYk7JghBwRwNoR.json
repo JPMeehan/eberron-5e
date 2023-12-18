@@ -1,0 +1,123 @@
+{
+  "name": "Concussive Burst",
+  "type": "spell",
+  "system": {
+    "description": {
+      "value": "<div class=\"rd__b  rd__b--3\"><p>A pulse of energy tears ripples through the air, dealing minor damage over a wide area. Choose a point within range. Each creature within a 20-foot-radius sphere centered on that point must make a Constitution saving throw. On a failed save, a creature takes 2d4 force damage and is <span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"conditionsdiseases.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"deafened_phb\">deafened</span> until the end of your next turn. On a successful save, a creature takes half as much damage and isn't <span class=\"bold\" data-plut-hover=\"true\" data-plut-hover-page=\"conditionsdiseases.html\" data-plut-hover-source=\"PHB\" data-plut-hover-hash=\"deafened_phb\">deafened</span>.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__b  rd__b--3\"><div class=\"rd__b  rd__b--3\"><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner\">At Higher Levels.</span></span> <p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.</p><div class=\"rd__spc-inline-post\"></div></div><div class=\"rd__spc-inline-post\"></div></div>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "ExE"
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "round"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 0,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "2d4",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "con",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 1,
+    "school": "evo",
+    "components": {
+      "vocal": true,
+      "somatic": true,
+      "material": false,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d4"
+    }
+  },
+  "img": "icons/magic/fire/projectile-fireball-orange-yellow.webp",
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {
+    "plutonium": {
+      "page": "spells.html",
+      "source": "ExploringEberron",
+      "hash": "concussive%20burst_exploringeberron",
+      "propDroppable": "spell"
+    },
+    "core": {}
+  },
+  "effects": [],
+  "folder": "F1gsAFdTkSB3M1RM",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686367606343,
+    "modifiedTime": 1702848922920,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_id": "KVeYk7JghBwRwNoR",
+  "sort": 0,
+  "_key": "!items!KVeYk7JghBwRwNoR"
+}

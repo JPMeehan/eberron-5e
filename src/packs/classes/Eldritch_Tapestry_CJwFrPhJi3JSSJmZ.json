@@ -1,0 +1,110 @@
+{
+  "name": "Eldritch Tapestry",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Beginning at 3rd level, you can thread together unseen strands of arcane force to connect allies in a magically resonant network know as an eldritch tapestry. At the end of a long rest, you can choose a number of willing creatures equal to your Intelligence modifier that you can see within 30 feet of you. These creatures are woven into your tapestry until the end of your next long rest, even if they move more than 30 feet from you. You are always considered part of your own tapestry, but you do not count against the total number of creatures allowed.</p><p>Additionally, when casting a spell with a range of touch on one of the creatures in your eldritch tapestry, the range of the spell increases to 10 feet. As you gain more levels in this class, the range at which you can cast touch spells increases to 20 feet at 5th level, 30 feet at 9th level, and 60 feet at 15th level. You can also use the Help action on any of your tapestry allies if they are within this range.</p><p>As a reaction to seeing one of the creatures in your tapestry drop to 0 hit points, you can unmake your eldritch tapestry to heal that creature a number of hit points equal to your artificer level. When you do so, your entire tapestry is unmade, removing all creatures from it.</p><p>You can expend a spell slot of 1st level or higher to spend 1 minute reweaving the tapestry as if you had just finished a long rest. If you weave a second tapestry while the first still exists, the creatures previously in your tapestry are replaced by the new creatures you select.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Artificer 3 (War Weaver)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {
+    "adnd5e": {
+      "itemInfo": {
+        "type": "reaction"
+      }
+    },
+    "plutonium": {
+      "page": "subclassFeature",
+      "source": "ArchEb",
+      "hash": "eldritch%20tapestry_artificer_tce_war%20weaver_archeb_3_archeb",
+      "propDroppable": "subclassFeature"
+    },
+    "core": {}
+  },
+  "effects": [],
+  "folder": "uBvr7NZMxZqxmCF0",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418408559,
+    "modifiedTime": 1702848605234,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_id": "CJwFrPhJi3JSSJmZ",
+  "sort": 305440,
+  "_key": "!items!CJwFrPhJi3JSSJmZ"
+}

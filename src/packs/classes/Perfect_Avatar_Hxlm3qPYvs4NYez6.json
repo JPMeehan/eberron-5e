@@ -1,0 +1,95 @@
+{
+  "folder": "DtvTuEZZqXFMP4In",
+  "name": "Perfect Avatar",
+  "type": "feat",
+  "_id": "Hxlm3qPYvs4NYez6",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>As a bonus action, you reach your spiritual apotheosis and embody your patron ancestor’s spirit completely. You and your Exemplar Companion creatures gain the following benefits for 1 minute:</p><ul><li><p>You have advantage on all ability checks.</p></li><li><p>When you take the Attack action on your turn, you can do one of the following as part of that action: take the Dash, Help, or Use an Object action, or attempt to shove a creature, grapple a creature, or escape a grapple.</p></li><li><p>When you regain hit points, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you.</p></li></ul><p>Once you use this feature, you can’t do so again until you finish a long rest, unless you expend a 5th-level spell slot to use it again.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {},
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "MVioF9x1qI1WYGx1": 3,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1700550669597,
+    "modifiedTime": 1702848841570,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!Hxlm3qPYvs4NYez6"
+}

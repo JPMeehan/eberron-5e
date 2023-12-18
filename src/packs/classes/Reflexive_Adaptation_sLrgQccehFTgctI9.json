@@ -1,0 +1,95 @@
+{
+  "folder": "L8n7GuJVs9l1JFCl",
+  "name": "Reflexive Adaptation",
+  "type": "feat",
+  "_id": "sLrgQccehFTgctI9",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 11th level, when you make a Strength (Athletics) or Dexterity (Acrobatics) check, you can spend 1 ki point to roll an additional d20. You can choose to use this ability after you roll the check, but before the outcome is determined. You choose which of the d20s is used for the ability check, omitting the highest if this check was rolled with disadvantage. </p><p>In addition, the extra damage dealt by the Manifest Blow class feature increases to 2d6.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {},
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MVioF9x1qI1WYGx1": 3,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1700618381409,
+    "modifiedTime": 1702848836594,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!sLrgQccehFTgctI9"
+}

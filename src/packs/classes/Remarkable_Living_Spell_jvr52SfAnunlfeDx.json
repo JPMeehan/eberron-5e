@@ -1,0 +1,97 @@
+{
+  "name": "Remarkable Living Spell",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 10th level, you've learned to manipulate the raw arcane forces that constitute your living cantrip familiar. You can now imbue your familiar with a spell that does not deal damage. When you do so, the resulting living spell familiar is immune to force damage and its Magical Pseudopod action deals force damage.</p><p>Additionally, when you imbue your familiar with a spell, it can cast the spell twice, instead of once, before the spell is lost and it returns to its normal base form.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Wizard 10 (Living Spells)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "hf00BCLr7wArjrxW",
+  "_id": "jvr52SfAnunlfeDx",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425406250,
+    "modifiedTime": 1702848618734,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 1018370,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!jvr52SfAnunlfeDx"
+}

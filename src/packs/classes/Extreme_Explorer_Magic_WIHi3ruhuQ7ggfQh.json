@@ -1,0 +1,97 @@
+{
+  "name": "Extreme Explorer Magic",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Extreme Explorer Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.</p><table><caption>Extreme Explorer Spells</caption><thead><tr><th data-rd-isroller=\"false\">Ranger Level</th><th data-rd-isroller=\"false\">Spells</th></tr></thead><tbody><tr><td>3rd</td><td>comrephend languages</td></tr><tr><td>5th</td><td>locate object</td></tr><tr><td>9th</td><td>fly</td></tr><tr><td>13th</td><td>freedom of movement</td></tr><tr><td>17th</td><td>far step</td></tr></tbody></table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Ranger 3 (Extreme Explorer)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "BXrwJX4f1qW62SzE",
+  "_id": "WIHi3ruhuQ7ggfQh",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425177057,
+    "modifiedTime": 1702848614662,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 305560,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!WIHi3ruhuQ7ggfQh"
+}

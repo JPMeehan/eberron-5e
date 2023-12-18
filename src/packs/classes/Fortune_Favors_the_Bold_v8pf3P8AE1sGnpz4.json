@@ -1,0 +1,97 @@
+{
+  "name": "Fortune Favors the Bold",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 7th level, you have uncanny luck in difficult situations. You gain a pool of three fortune points that you can use to influence events in your favor. A fortune point is expended when you use it, and you regain all of your expended fortune points when you finish a short or long rest. At 15th level, you gain two additional fortune points.</p><p>You can expend a fortune point at any time to gain one of the following benefits:</p><ul><li>All opportunity attacks against you are made at disadvantage until the end of your turn.</li><li>You gain advantage on one ability check.</li><li>The last creature that you hit with a weapon attack on this turn focuses all its attention on you. It has disadvantage on all attack rolls against other creatures until the start of your next turn.</li><li>You can fall from great heights and land without a scratch. When you take falling damage, you reduce the damage dice rolled by up to 5d6.</li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Ranger 7 (Extreme Explorer)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "BXrwJX4f1qW62SzE",
+  "_id": "v8pf3P8AE1sGnpz4",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425178877,
+    "modifiedTime": 1702848614662,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 706470,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!v8pf3P8AE1sGnpz4"
+}

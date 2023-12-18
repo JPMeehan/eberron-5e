@@ -1,0 +1,97 @@
+{
+  "name": "Bone March",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 3rd level, when you cast the find steed or find greater steed spell, the summoned creature's type will always be undead, rather than celestial, fey or fiend. This steed is immune to turning while it is within 15 feet of you, and its hit point maximum is calculated using the highest number possible for each Hit Die.</p><p>Additionally, you learn to incorporate necromantically enhanced bone into your armor and weapons. At the end of a long rest, you can transform one suit of armor, one shield, and two weapons into bonecraft that is no longer considered to be made of metal. These items cannot be corroded by rust or affected by the heat metal spell, but are not magical unless the original items were, and have no other unique properties. If you already have bonecraft from this feature and create a second set, the first set immediately loses its necromantic charge and is considered metal again.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Paladin 3 (Bone Knight)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "pfgIPIhOb1vLietp",
+  "_id": "zsFgccTIP2uaAvtw",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686419455643,
+    "modifiedTime": 1702848612656,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 302470,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!zsFgccTIP2uaAvtw"
+}

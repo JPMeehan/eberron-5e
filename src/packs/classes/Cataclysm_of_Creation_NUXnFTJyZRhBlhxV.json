@@ -1,0 +1,97 @@
+{
+  "name": "Cataclysm of Creation",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 18th level, you unlock the secrets of destruction which shattered the Dragon Above and gave birth to the world as we know it. The Prophecy is written in the shards of Siberys, and you understand the ultimate story of creation and destruction which began with Khyber's cruel betrayal.</p><p>Your awakening to the Prophecy allows you to manifest an ever-shifting dragonmark. When you finish a long rest, choose a dragonmark type from the Dragonmark Cataclysm Spells table. Until the end of your next long rest, you know the cataclysm spell associated with that dragonmark, and you can cast it at its lowest level without expending a spell slot and without material components.</p><p>These spells count as sorcerer spells for you, but they don't count against your number of spells known. You can augment these spells with Metamagic or other class features as normal.</p><table><caption>Dragonmark Cataclysm Spells</caption><thead><tr><th data-rd-isroller=\"false\">Dragonmark</th><th data-rd-isroller=\"false\">Cataclysm Spell</th></tr></thead><tbody><tr><td>Detection</td><td>clairvoyance</td></tr><tr><td>Finding</td><td>locate creature</td></tr><tr><td>Handling</td><td>dominate beast</td></tr><tr><td>Healing</td><td>beacon of hope</td></tr><tr><td>Hospitality</td><td>Leomund's tiny hut</td></tr><tr><td>Making</td><td>fabricate</td></tr><tr><td>Passage</td><td>dimension door</td></tr><tr><td>Scribing</td><td>sending</td></tr><tr><td>Sentinel</td><td>protection from energy</td></tr><tr><td>Shadow</td><td>nondetection</td></tr><tr><td>Storm</td><td>control water</td></tr><tr><td>Warding</td><td>glyph of warding</td></tr></tbody></table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Sorcerer 18 (Cataclysm Mage)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "MDSpDelMIM0lBwrS",
+  "_id": "NUXnFTJyZRhBlhxV",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425284264,
+    "modifiedTime": 1702848616563,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 1803330,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!NUXnFTJyZRhBlhxV"
+}

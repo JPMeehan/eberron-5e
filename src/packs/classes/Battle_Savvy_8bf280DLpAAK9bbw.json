@@ -1,0 +1,97 @@
+{
+  "name": "Battle Savvy",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>When you reach 3rd level, your dedicated training provides you with the following benefits:</p><ul><li>When you are wearing light armor or no armor, you can use your Intelligence modifier, instead of your Dexterity modifier, to determine your AC. You can use a shield and still gain this benefit.</li><li>You gain a bonus to your initiative rolls equal to your Intelligence modifier.</li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Artificer 3 (Disruptor)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "5Oy6Dulk9VEw6pKB",
+  "_id": "8bf280DLpAAK9bbw",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418393411,
+    "modifiedTime": 1702848605234,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 302330,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!8bf280DLpAAK9bbw"
+}

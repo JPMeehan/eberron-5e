@@ -1,0 +1,40 @@
+{
+  "folder": "A19PFixmJlTFsgYO",
+  "name": "Way of the Shulassakar",
+  "type": "subclass",
+  "_id": "xMQg8SVYqFlbEtwQ",
+  "img": "icons/creatures/reptiles/snake-poised-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>The Silver Flame doesnÃ¢â‚¬â„¢t have a large legacy of monastic traditions, limited largely to the shulassakar, who blend their psionic abilities with divine power. Shulassakar monks might follow the Astral Self or Sun Soul traditions. Another option is presented below in the Way of the Shulassakar, which is focused on emulating the couatl they serve. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Sarhain's Guide to the Silver Flame"
+    },
+    "identifier": "way-of-the-shulassakar",
+    "classIdentifier": "monk",
+    "advancement": [],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 23330,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686185307743,
+    "modifiedTime": 1702848611656,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!xMQg8SVYqFlbEtwQ"
+}

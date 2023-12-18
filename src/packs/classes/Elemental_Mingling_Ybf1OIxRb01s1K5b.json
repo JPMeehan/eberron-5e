@@ -1,0 +1,97 @@
+{
+  "name": "Elemental Mingling",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 10th level, your long exposure has gifted you with traits normally associated with elementals. You gain resistance to poison damage and to your elemental affinity type. If you were already resistant to your affinity type as a racial feature, you instead gain immunity to your elemental affinity type.</p><p>In addition, you have advantage on saves against being paralyzed, petrified, poisoned, and stunned, and magic can't put you to sleep.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Warlock 10 (The Elemental)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "eax66IemxUcbOOQ3",
+  "_id": "Ybf1OIxRb01s1K5b",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425311759,
+    "modifiedTime": 1702848617698,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 1005440,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!Ybf1OIxRb01s1K5b"
+}

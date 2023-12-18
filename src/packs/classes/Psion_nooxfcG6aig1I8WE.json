@@ -1,0 +1,40 @@
+{
+  "folder": "Phx6I1SAw5Njln9c",
+  "name": "Psion",
+  "type": "subclass",
+  "_id": "nooxfcG6aig1I8WE",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Talvakri's Guide to Adar"
+    },
+    "identifier": "psion",
+    "classIdentifier": "sorcerer",
+    "advancement": [],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 16510,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686184973210,
+    "modifiedTime": 1702848616563,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!nooxfcG6aig1I8WE"
+}

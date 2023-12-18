@@ -1,0 +1,117 @@
+{
+  "folder": "64K3cigPSnFdVcYq",
+  "name": "Mockery's Snare",
+  "type": "spell",
+  "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>You imbue yourself or one willing creature you touch with the duplicitous power of Dol Azur, laying a trap to ensnare a foe in spectral bindings. The next time the imbued creature is hit with an attack before the spell ends, the attacking creature must make a Wisdom saving throw. On a failed save, the attacking creature takes 3d8 necrotic damage and is restrained until the spell ends. On a successful save, it takes half as much damage, is not restrained, and the spell ends. While restrained by this spell, the restrained creature can repeat the saving throw at the end of each of its turns, ending the spell on a success.</p><p><em><strong>At Higher Levels.</strong></em> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "CoE"
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": null,
+      "condition": "The next time the imbued creature is hit with an attack"
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": 1,
+      "width": null,
+      "units": "",
+      "type": "creature",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "touch"
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "3d8",
+          "necrotic"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "level": 2,
+    "school": "abj",
+    "components": {
+      "vocal": false,
+      "somatic": true,
+      "material": true,
+      "ritual": false,
+      "concentration": false
+    },
+    "materials": {
+      "value": "a piano wire",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d8"
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686367867221,
+    "modifiedTime": 1702848930371,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_id": "Xixg7CTCDeBTLKy4",
+  "sort": 0,
+  "_key": "!items!Xixg7CTCDeBTLKy4"
+}

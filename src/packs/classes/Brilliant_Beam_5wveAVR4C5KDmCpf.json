@@ -1,0 +1,102 @@
+{
+  "name": "Brilliant Beam",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 17th level, when you draw back your luminous arrow on its bowstring, you can choose to project it as a dazzling ray of sun. As an action, you create a beam of sunlight that is 120 feet long and 5 feet wide, extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. On a failed save, a creature takes 10d6 radiant damage, and is blinded until the end of your next turn. On a successful save, the creature takes half as much damage, and is not blinded. The DC for this saving throw is equal to 8 + your proficiency bonus + your Charisma modifier.</p><p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "1",
+      "units": "turn"
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "10d6",
+          "radiant"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "dex",
+      "dc": null,
+      "scaling": "cha"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Rogue 17 (Divine Sniper)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "40EIVxYIetLHoVyd",
+  "_id": "5wveAVR4C5KDmCpf",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425222058,
+    "modifiedTime": 1702848615543,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 1702500,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!5wveAVR4C5KDmCpf"
+}

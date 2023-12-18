@@ -1,0 +1,97 @@
+{
+  "name": "Discover Weakness",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, you have keen insight into the targets of your spells. Whenever a creature fails a saving throw against a warlock spell you cast of 1st level or higher, you learn your choice of the creature's highest or lowest saving throw and its value. As a reaction, you can more closely read the threads of Prophecy woven into it, choosing to either learn all of the creature's condition immunities, or to learn all of its damage resistances, immunities, and vulnerabilities.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Warlock 1 (The Hidden One)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "5mCyyiAowrcXTrUh",
+  "_id": "Wtg0AqYC3HsHTBrD",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686426340818,
+    "modifiedTime": 1702848617698,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 104410,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!Wtg0AqYC3HsHTBrD"
+}

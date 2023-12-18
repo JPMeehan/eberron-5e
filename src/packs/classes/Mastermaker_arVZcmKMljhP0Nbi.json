@@ -1,0 +1,128 @@
+{
+  "folder": "1V7oabEr11Fjb6LZ",
+  "name": "Mastermaker",
+  "type": "subclass",
+  "_id": "arVZcmKMljhP0Nbi",
+  "img": "icons/magic/symbols/runes-etched-steel-blade.webp",
+  "system": {
+    "description": {
+      "value": "<p>A Mastermaker specializes in integrating flesh and steel, creating powerful construct limbs and replacing weak organs of flesh with components of metal and stone. The actions of a few renegade Mastermakers have caused House Cannith to shun this path in Eberron, but an artificer might learn these techniques in Dread Metrol or develop them on their own.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Dread Metrol"
+    },
+    "identifier": "mastermaker",
+    "classIdentifier": "artificer",
+    "advancement": [
+      {
+        "_id": "ov7jpfSmPeqvPgRU",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.eKAf9Sl8kGnKaJWF",
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.N9IOGAUIWKHvc3b9",
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.6TSc4qsVneMCytoC",
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.q4PVNjkZxCovo49l"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Artificer Specialist Feature",
+        "icon": null
+      },
+      {
+        "_id": "A3iWI5m4vBGGaIVy",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 1,
+              "faces": 10
+            },
+            "9": {
+              "number": 2,
+              "faces": 10
+            }
+          }
+        },
+        "value": {},
+        "title": "Battlefist Damage",
+        "icon": null
+      },
+      {
+        "_id": "49aeEMaKRrd23Ecr",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.oDI1NqwGLOkBpXqQ"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "Artificer Specialist Feature",
+        "icon": null
+      },
+      {
+        "_id": "RN6Qa2RwphSbp2NV",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.2dF9uXJMiFb5K4WS"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "Artificer Specialist Feature",
+        "icon": null
+      },
+      {
+        "_id": "XDhYHUgdz2giA06Z",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.EBMJdSGZZy5SWdpA"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Artificer Specialist Feature",
+        "icon": null
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686341191991,
+    "modifiedTime": 1702848658697,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!arVZcmKMljhP0Nbi"
+}

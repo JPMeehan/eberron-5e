@@ -1,0 +1,97 @@
+{
+  "name": "Mark of Kell",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, you are magically branded with a symbol of the Daughter's authority: a rough, craggy mountain with a field of stars above, and a river and blade beneath. You gain the following benefits:</p><ul><li>When dealing with any native of Droaam or creature that recognizes and acknowledge the power of the Daughters of Sora Kell, whenever you make a Charisma (Intimidate or Persuasion) to convince the creature of your authority, treat a roll of 7 or lower on the d20 as an 8.</li><li>You serve no whims of divine entities. Your Divine Smite and Improved Divine Smite class features deal force damage instead of radiant.</li><li>You learn to speak, read, and write Giant.</li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Paladin 3 (Kell Knight)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "QbzdNxFhcEKtHfIx",
+  "_id": "krdMpamUWh4UpS7M",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686419471522,
+    "modifiedTime": 1702848612656,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 313330,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!krdMpamUWh4UpS7M"
+}

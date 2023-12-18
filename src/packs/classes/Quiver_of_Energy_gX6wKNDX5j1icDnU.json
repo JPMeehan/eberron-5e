@@ -1,0 +1,103 @@
+{
+  "folder": "yVaX3agsuRwAslXX",
+  "name": "Quiver of Energy",
+  "type": "feat",
+  "img": "icons/containers/ammunition/arrows-quiver-simple-brown.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Item: A quiver (requires attunement)</em></p><p>When you infuse this item, choose one damage type: cold, fire, lightning, or poison. The first time each turn that the bearer hits a target with a weapon attack using ammunition drawn from this quiver, the attack deals an extra 1d6 damage of the chosen type.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "ExE"
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 4,
+      "max": "4",
+      "per": "day",
+      "recovery": "4",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "fire"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "class",
+      "subtype": "artificerInfusion"
+    },
+    "requirements": "Artificer 6",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1687054583454,
+    "modifiedTime": 1702848650612,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_id": "gX6wKNDX5j1icDnU",
+  "sort": 500000,
+  "_key": "!items!gX6wKNDX5j1icDnU"
+}

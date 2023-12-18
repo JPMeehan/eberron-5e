@@ -1,0 +1,97 @@
+{
+  "name": "Imprison Living Spell",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 14th level, you learn the secrets of creating an unstable living spell and capturing it in a Khyber dragonshard, preserving its magical energy and allowing you to cast the spell that it's composed from.</p><p>When you complete a long rest, you can touch a Khyber dragonshard worth at least 250 gp that does not already have another creature bound inside it, choosing one spell of up to 5th level from your spellbook that has a casting time of 1 action and that requires no costly material components. When you do so, you capture that spell in the form of a living spell in the dragonshard without expending a spell slot or requiring material components.</p><p>When you are holding the dragonshard, you can use an action to expend a charge from it and cast the spell at its lowest level, requiring no verbal or material components. The spell level of the living spell you capture determines the number of charges the dragonshard has, as shown on the Captured Living Spell table. These charges last until expended or until you finish a long rest, after which time the magic of the living spell dissipates.</p><p>Additionally, if you encounter a living spell in the wild that is within 30 feet of you, and you have a Khyber dragonshard worth at least 250 gp that does not already have another creature bound inside it, you can use an action to cause the wild living spell to make a Charisma saving throw against your wizard spell save DC. On a failed save, the wild living spell is imprisoned within the dragonshard, and the dragonshard gains a number of charges as shown on the Captured Living Spell table. Once you have imprisoned a wild living spell, you can expend charges to cast the spell that it is made of, following the same rules for a living spell you captured in a dragonshard using this feature.</p><table><caption>Captured Living Spell</caption><thead><tr><th data-rd-isroller=\"false\">Spell Level</th><th data-rd-isroller=\"false\">Charges</th></tr></thead><tbody><tr><td>1</td><td>5</td></tr><tr><td>2</td><td>4</td></tr><tr><td>3</td><td>3</td></tr><tr><td>4</td><td>2</td></tr><tr><td>5</td><td>1</td></tr></tbody></table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "cha",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Wizard 14 (Living Spells)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "hf00BCLr7wArjrxW",
+  "_id": "W4szdRyByQPWdf1D",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425406734,
+    "modifiedTime": 1702848618734,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 1409450,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!W4szdRyByQPWdf1D"
+}

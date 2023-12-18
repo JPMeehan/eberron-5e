@@ -1,0 +1,97 @@
+{
+  "name": "Dastardly Deceiver",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 6th level, you add the spell alter self to your spells known, but it does not count against your normal number of bard spells known. If you already know this spell, you can intesad add another spell from the bard spell list to your spells known, which must be of a level for which you have spell slots. In addition, when you cast alter self using a spell slot of 3rd level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 4th level or higher, the spell's duration becomes 24 hours and it no longer requires concentration.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Bard 6 (Spies)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "8XWbjoHRYwpsLKY1",
+  "_id": "azKsY8NqN8c8RN35",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418471302,
+    "modifiedTime": 1702848606931,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 604330,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!azKsY8NqN8c8RN35"
+}

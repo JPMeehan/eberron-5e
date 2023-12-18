@@ -1,0 +1,105 @@
+{
+  "name": "War Weaver Spells",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the War Weaver Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.</p><table><caption>War Weaver Spells</caption><thead><tr><th data-rd-isroller=\"false\">Artificer Level</th><th data-rd-isroller=\"false\">Spells</th></tr></thead><tbody><tr><td>3rd</td><td>bless, protection from good and evil</td></tr><tr><td>5th</td><td>phantasmal force, spiritual weapon</td></tr><tr><td>9th</td><td>counterspell, slow</td></tr><tr><td>13th</td><td>banishment, confusion</td></tr><tr><td>17th</td><td>circle of power, holy weapon</td></tr></tbody></table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Artificer 3 (War Weaver)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {
+    "plutonium": {
+      "page": "subclassFeature",
+      "source": "ArchEb",
+      "hash": "war%20weaver%20spells_artificer_tce_war%20weaver_archeb_3_archeb",
+      "propDroppable": "subclassFeature"
+    },
+    "core": {}
+  },
+  "effects": [],
+  "folder": "uBvr7NZMxZqxmCF0",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418410013,
+    "modifiedTime": 1702848605234,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_id": "Rg30B5JFW0iPndSK",
+  "sort": 323330,
+  "_key": "!items!Rg30B5JFW0iPndSK"
+}

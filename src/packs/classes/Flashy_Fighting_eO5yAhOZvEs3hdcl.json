@@ -1,0 +1,102 @@
+{
+  "name": "Flashy Fighting",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Also at 3rd level, you fight with cocky flair, but aren't afraid to gain the upper hand by kicking sand in your foe's face, taunting them, or yelling 'Behind you!' to distract them.</p><p>As a bonus action, choose one creature you can see within 30 feet of you and select one of the following effects. The next time you hit that creature on this turn with a weapon attack, it takes 1d6 extra damage from the attack and suffers the chosen effect:</p><ul><li>The creature's speed is reduced to 0 until the start of your next turn.</li><li>Cause the creature to make a Strength (Athletics) or Dexterity (Acrobatics) check contested by your attack roll. If your attack roll is higher, it is disarmed and drops one weapon it is holding.</li><li>Grant yourself advantage on the next weapon attack you make against the creature in the next minute.</li></ul><p>When you reach 11th level in this class, the extra damage increases to 2d6.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d6",
+          "extra"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Ranger 3 (Extreme Explorer)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "BXrwJX4f1qW62SzE",
+  "_id": "eO5yAhOZvEs3hdcl",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425177561,
+    "modifiedTime": 1702848614662,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 306440,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!eO5yAhOZvEs3hdcl"
+}

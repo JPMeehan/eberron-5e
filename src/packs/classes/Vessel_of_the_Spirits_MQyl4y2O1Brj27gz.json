@@ -1,0 +1,97 @@
+{
+  "name": "Vessel of the Spirits",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 3rd level, you are skilled in maintaining control of yourself while allowing spiritual entities to inhabit you. You are immune to unwanted possession.</p><p>Additionally, if a creature attempts to possess you against your will, you can use your reaction to cause it to make a Wisdom saving throw against your ki save DC. On a failed save, it becomes trapped inside you, is incapacitated, and cannot control you or escape on its own. When you use this feature, you lose the benefits of the spirit that previously inhabited you through your Spiritual Channel feature, and instead gain the benefits of the invading spirit's type. The DM will choose a spirit type from your Spiritual Channel ability that best matches the spirit you have trapped.</p><p>When you trap a creature in this way, it cannot escape until you choose to release it as an action or you use your Spiritual Channel ability to call a different spirit type to inhabit you. When you do so, it is banished to its home plane. If the creature is native to the plane of existence you're on, you banish it to a harmless demiplane for 1 hour; while there, the creature is incapacitated, and after 1 hour, it reappears in the space it left or in the nearest unoccupied space if that space is occupied.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": "if a creature attempts to possess you against your will, you can use"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "save",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "wis",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Monk 3 (Conduit)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "AxCOxJAGG16MkcKu",
+  "_id": "MQyl4y2O1Brj27gz",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418611320,
+    "modifiedTime": 1702848611656,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 322370,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!MQyl4y2O1Brj27gz"
+}

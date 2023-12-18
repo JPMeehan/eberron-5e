@@ -1,0 +1,97 @@
+{
+  "name": "Revelatory Moment",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, you learn to share the truths of your knowledge with others, whether they will it or not. When you cast a spell of 1st level or higher, you can use one of the following Revelatory Moment options of your choice.</p><h5> Moment of Clarity</h5> <p>You can expend one use of your Bardic Inspiration to bestow insight on an ally. One ally within 30 feet of you that is charmed, frightened, or stunned can immediately make another saving throw against the effect that imposed the condition, even if it would not otherwise get to make another save to end the effect early. The ally gets a bonus on its saving throw equal to the number you roll on the Bardic Inspiration die. On a successful save, the effect ends.</p><h5> Moment of Madness</h5> <p>You can expend one use of your Bardic Inspiration to cloud the mind of another creature. Choose one creature that you hit with a spell attack or that failed a saving throw against the spell you cast. That creature takes a penalty on its next ability check, attack roll, or saving throw made before the end of your next turn. The penalty equals the number you roll on the Bardic Inspiration die.</p><h5> Moment of Passion</h5> <p>You can expend one use of your Bardic Inspiration to reinvigorate the soul. Choose one creature within 30 feet of you that can hear you. It heals hit points equal to the number you roll on the Bardic Inspiration die + your Charisma modifier.</p><h5> Moment of Potency</h5> <p>You can expend one use of your Bardic Inspiration to imbue the spell you are casting with the ferocity of your will. The spell's attack modifier or save DC increases by 1, and one target of your choice who you hit with the spell attack or that fails its saving throw against the spell takes psychic damage equal to the number you roll on the Bardic Inspiration die.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Bard 3 (Revelation)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "Ak6irn9v5CiZw2U7",
+  "_id": "HwpdOdHLHs15Cbiq",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418457084,
+    "modifiedTime": 1702848606931,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 318370,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!HwpdOdHLHs15Cbiq"
+}

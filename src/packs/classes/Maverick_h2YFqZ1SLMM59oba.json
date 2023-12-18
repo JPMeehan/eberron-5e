@@ -1,0 +1,101 @@
+{
+  "folder": "L7f2HdWXA5KSNCXo",
+  "name": "Maverick",
+  "type": "subclass",
+  "_id": "h2YFqZ1SLMM59oba",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>In the world of artifice, the Maverick is a jack of all trades and master of none. A Maverick is always experimenting with new designs, forever abandoning yesterday’s work in pursuit of a new obsession. While often dismissed by other artificers as eccentric amateurs, in their refusal to follow established tradition, a Maverick may stumble on remarkable breakthroughs—though their idiosyncratic techniques can rarely be replicated by others.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {},
+    "identifier": "maverick",
+    "classIdentifier": "artificer",
+    "advancement": [
+      {
+        "_id": "00IWQNbHKBk9piax",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.soQg8FXcQ5GJ9ztv",
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.ybjehjajOQhWyXOc"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Artificer Specialist Feature",
+        "icon": null
+      },
+      {
+        "_id": "E8Uh3IgQ567qBpqY",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.9VI2jdQP7WStQdnf"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "Artificer Specialist Feature",
+        "icon": null
+      },
+      {
+        "_id": "uEbR4qUSuIGF4rje",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.mdhiaEZYohQ2y3QY",
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.t4zxXD8vXhLRKVLs"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "Artificer Specialist Feature",
+        "icon": null
+      },
+      {
+        "_id": "Hu1cfXisdJPMuY7R",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.WNDbIKjQoBkyORMA"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Artificer Specialist Feature",
+        "icon": null
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686341209815,
+    "modifiedTime": 1702848680576,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!h2YFqZ1SLMM59oba"
+}

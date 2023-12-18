@@ -1,0 +1,40 @@
+{
+  "folder": "OQKntTBFL3m60h4x",
+  "name": "Serpentblood",
+  "type": "subclass",
+  "_id": "r0bOdHKG8ScGZbSU",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Linvakri's Guide to Syrkarn"
+    },
+    "identifier": "serpentblood",
+    "classIdentifier": "sorcerer",
+    "advancement": [],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 19370,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686184883598,
+    "modifiedTime": 1702848616563,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!r0bOdHKG8ScGZbSU"
+}

@@ -1,0 +1,40 @@
+{
+  "folder": "ZrosQXEa5K3mNIiB",
+  "name": "Way of the Dreaming Fist",
+  "type": "subclass",
+  "_id": "725dsnlhsD0a8npb",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Talvakri's Guide to Adar"
+    },
+    "identifier": "way-of-the-dreaming-fist",
+    "classIdentifier": "monk",
+    "advancement": [],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 23330,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686185093917,
+    "modifiedTime": 1702848611656,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!725dsnlhsD0a8npb"
+}

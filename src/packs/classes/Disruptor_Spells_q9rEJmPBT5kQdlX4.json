@@ -1,0 +1,97 @@
+{
+  "name": "Disruptor Spells",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 3rd level, you always have certain spells prepared after you reach particular levels in this class, as shown in the Disruptor Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.</p><table><caption>Disruptor Spells</caption><thead><tr><th data-rd-isroller=\"false\">Artificer Level</th><th data-rd-isroller=\"false\">Spells</th></tr></thead><tbody><tr><td>3rd</td><td>entangle, fog cloud</td></tr><tr><td>5th</td><td>Maximilian's Earthen Grasp, spike growth</td></tr><tr><td>9th</td><td>enemies abound, stinking cloud</td></tr><tr><td>13th</td><td>evard's black tentacles, grasping vine</td></tr><tr><td>17th</td><td>conjure volley, wall of force</td></tr></tbody></table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Artificer 3 (Disruptor)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "5Oy6Dulk9VEw6pKB",
+  "_id": "q9rEJmPBT5kQdlX4",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418394728,
+    "modifiedTime": 1702848605234,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 304410,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!q9rEJmPBT5kQdlX4"
+}

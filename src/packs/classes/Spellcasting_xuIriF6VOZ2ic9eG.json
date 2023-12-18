@@ -1,0 +1,95 @@
+{
+  "folder": "hzHaNMqMnKppCil1",
+  "name": "Spellcasting",
+  "type": "feat",
+  "_id": "xuIriF6VOZ2ic9eG",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>You gain the ability to cast spells. See chapter 10 of the Player’s Handbook for the general rules of spellcasting and chapter 11 for the cleric spell list.</p><p><em><strong>Cantrips.</strong></em> You learn the guidance cantrip and two cantrips of your choice from the following list: <em>dancing lights</em>, <em>friends</em>, <em>message</em>, <em>resistance</em>, <em>spare the dying</em>, <em>thaumaturgy</em>, <em>true strike</em>, and <em>Traveler’s enigma</em> (in the “Spells of the Six” section of this chapter). At 10th level, you learn another cantrip of your choice from this list.</p><p><em><strong>Spell Slots.</strong></em> The Dark Petitioner Spellcasting table shows how many spell slots you have to cast your cleric spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p><p>For example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot.</p><p><em><strong>Spells Known of 1st-Level and Higher.</strong></em> You know three 1st-level cleric spells of your choice. The Spells Known column of the Dark Petitioner Spellcasting table shows when you learn more cleric spells of 1st level or higher. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.</p><p>Whenever you gain a level in this class, you can replace one of the cleric spells you know with another spell of your choice from the cleric spell list. The new spell must be of a level for which you have spell slots.</p><p><em><strong>Spellcasting Ability.</strong></em> Wisdom is your spellcasting ability for your cleric spells, since your spells come from your appeasement or veneration of the Dark Six. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {},
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MVioF9x1qI1WYGx1": 3,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1700549940398,
+    "modifiedTime": 1702848856003,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!xuIriF6VOZ2ic9eG"
+}

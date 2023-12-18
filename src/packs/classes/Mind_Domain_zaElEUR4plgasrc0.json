@@ -1,0 +1,19 @@
+{
+  "name": "Mind Domain",
+  "sorting": "m",
+  "folder": "h2gFjx5GHBzWi4uT",
+  "type": "Item",
+  "_id": "zaElEUR4plgasrc0",
+  "sort": 500000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "modifiedTime": 1702848823372,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!folders!zaElEUR4plgasrc0"
+}

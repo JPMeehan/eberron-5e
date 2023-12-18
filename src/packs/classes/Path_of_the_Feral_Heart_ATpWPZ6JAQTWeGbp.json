@@ -1,0 +1,100 @@
+{
+  "folder": "AiBi5XMEzGjwDVoZ",
+  "name": "Path of the Feral Heart",
+  "type": "subclass",
+  "_id": "ATpWPZ6JAQTWeGbp",
+  "img": "icons/creatures/mammals/wolf-shadow-black.webp",
+  "system": {
+    "description": {
+      "value": "<p>A wild animal lies deep within your soul, but long practice and meditation allow you to harness its power and control the beast, not the other way around. This path is most commonly followed by shifters honing their natural abilities, but its adherents are also found among the tribes of the Demon Wastes and among lycanthropes, their bodies twisted by unnatural powers. Rarely, one born in a Lamannian manifest zone might find this path, and rumor tells of a rare breed of symbiont in the dwarven Realm Below that can transform its host, granting increased power in exchange for a terrifying appearance. Rarest of all are the kalashtar and Inspired who take up this path; projecting an image of their tsoreva spirit, the damage their mindblades deal is very real.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "identifier": "path-of-the-feral-heart",
+    "classIdentifier": "barbarian",
+    "advancement": [
+      {
+        "_id": "k373ROQFrX6t6dmz",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.xtASAXgOgKb3beNu",
+            "Compendium.chaosos-5e-content.community-classes.Item.VWL0pS8h0rrecgIu"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "Path Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "hPkZFNH9lvFSyjq2",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.Ib14BpNqUMpMOo7B"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "Path Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "M9MZsRqU7GGptkeq",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.bTXKQ8qvsQnRCODo",
+            "Compendium.chaosos-5e-content.community-classes.Item.dkDkadhcsJBWzXtU"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Path Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "t41uWw6TP8AcpziV",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.kfDY3KZmQORHGqXf"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "Path Feature",
+        "type": "ItemGrant"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 16330,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686201703141,
+    "modifiedTime": 1702848606085,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!ATpWPZ6JAQTWeGbp"
+}

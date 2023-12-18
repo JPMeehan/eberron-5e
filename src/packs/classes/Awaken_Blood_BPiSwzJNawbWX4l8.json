@@ -1,0 +1,97 @@
+{
+  "name": "Awaken Blood",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 14th level, you can bestow momentary consciousness on a foe's blood, turning it into a weapon against them. As an action, make a melee spell attack against a creature you can reach. On a hit, the creature's speed drops to 0 until the end of its next turn and you deal 8d10 points of necrotic damage to it. This feature has no effect on constructs, elementals, plants, and undead.</p><p>If you reduce a creature to 0 hit points with this feature, it dies instantly and its blood pools into a blood elemental that is under your mental control for 1 minute or until your concentration ends (as if concentrating on a spell), after which it collapses into a puddle, inert. If you were already concentrating on a spell, you can choose for the blood to remain unanimated after the creature dies, rather than lose concentration on the previous spell.</p><p>The elemental is friendly to you and your companions for the duration. Roll initiative for the elemental, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don't issue any commands to the elemental, it defends itself from hostile creatures but otherwise takes no actions.</p><p>Once you use this feature, you can't use it again until you finish a long rest.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "action",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Sorcerer 14 (Blood Magus)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "XuAcllgrcLN9p5sk",
+  "_id": "BPiSwzJNawbWX4l8",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425266261,
+    "modifiedTime": 1702848616563,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 1401550,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!BPiSwzJNawbWX4l8"
+}

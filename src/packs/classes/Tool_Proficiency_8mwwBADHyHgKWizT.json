@@ -1,0 +1,105 @@
+{
+  "name": "Tool Proficiency",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>When you adopt this specialization at 3rd level, you gain proficiency with weaver's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Artificer 3 (War Weaver)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {
+    "plutonium": {
+      "page": "subclassFeature",
+      "source": "ArchEb",
+      "hash": "tool%20proficiency_artificer_tce_war%20weaver_archeb_3_archeb",
+      "propDroppable": "subclassFeature"
+    },
+    "core": {}
+  },
+  "effects": [],
+  "folder": "uBvr7NZMxZqxmCF0",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418409184,
+    "modifiedTime": 1702848605234,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_id": "8mwwBADHyHgKWizT",
+  "sort": 320470,
+  "_key": "!items!8mwwBADHyHgKWizT"
+}

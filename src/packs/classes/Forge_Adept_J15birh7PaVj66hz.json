@@ -1,0 +1,102 @@
+{
+  "folder": "M8AyGcZ3UAB4rZHi",
+  "name": "Forge Adept",
+  "type": "subclass",
+  "_id": "J15birh7PaVj66hz",
+  "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>The daashor artificers of the Dhakaani Empire were the finest weaponsmiths in Khorvaire’s history, as discussed in chapter 4 of this book. As a Forge Adept, you carry on these ancient traditions, creating mystical weapons and armor, strengthening allies on the battlefield, and bringing down enemies with weapons imbued with your own soul energy. If you’re dar, you learned these techniques from the masters of your clan. Are you content to follow ancient traditions, or do you want to add your own innovations? If you’re not Dhakaani, did you learn these techniques from a daashor mentor? Did you steal this knowledge? Or are you replicating these traditions on your own?</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Exploring Eberron"
+    },
+    "identifier": "forge-adept",
+    "classIdentifier": "artificer",
+    "advancement": [
+      {
+        "_id": "hvuNrgKhO6ztFkoJ",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.sHkPSNRAKitotuIX",
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.L0DyqKrBbELWAzdc"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Artificer Specialist Feature",
+        "icon": null
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.D7eV0kUG8C92l2gj"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "Artificer Specialist Feature",
+        "icon": null,
+        "_id": "6iFfBMJJ7qbgNQBi"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.PrM6IZjpKSD4IsGy"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "Artificer Specialist Feature",
+        "icon": null,
+        "_id": "4RBmMDwrN6DQAKqI"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.kbp-subclasses.Item.YfwVbBKuyRaKGbfj"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Artificer Specialist Feature",
+        "icon": null,
+        "_id": "NiLOzSGGTEZHH5nA"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686341166752,
+    "modifiedTime": 1702848643269,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!J15birh7PaVj66hz"
+}

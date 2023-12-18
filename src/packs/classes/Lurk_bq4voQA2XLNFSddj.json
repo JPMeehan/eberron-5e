@@ -1,0 +1,19 @@
+{
+  "name": "Lurk",
+  "sorting": "m",
+  "folder": "cjatmWwSH6y8lH2d",
+  "type": "Item",
+  "_id": "bq4voQA2XLNFSddj",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "11.300",
+    "createdTime": null,
+    "modifiedTime": 1686245576849,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!folders!bq4voQA2XLNFSddj"
+}

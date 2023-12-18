@@ -1,0 +1,19 @@
+{
+  "name": "Circle of Civilization",
+  "sorting": "m",
+  "folder": "7b9wAlyBfk9fIR1D",
+  "type": "Item",
+  "_id": "CZxU0LUOXZJ0KcAV",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.2.1",
+    "coreVersion": "11.300",
+    "createdTime": null,
+    "modifiedTime": 1686245486585,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!folders!CZxU0LUOXZJ0KcAV"
+}

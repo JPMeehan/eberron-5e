@@ -1,0 +1,95 @@
+{
+  "folder": "DtvTuEZZqXFMP4In",
+  "name": "Oath Spells",
+  "type": "feat",
+  "_id": "NhiCb9R3FOwBBMel",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>When you take this oath, choose the following class that best represents your venerated ancestor: artificer, bard, cleric, druid, ranger, sorcerer, warlock, wizard. When you gain this feature, choose one 1st-level spell from your ancestor’s class spell list. That spell is an oath spell for you. When you reach certain levels in this class— 5th level, 9th level, 13th level, and 17th level—you gain another oath spell of your choice from your ancestor’s class spell list. When you gain a paladin level, you can choose one of these spells and replace it with another spell from your ancestor’s class spell list. See the Sacred Oath class feature for how oath spells work.</p><p>Additionally, you add the <em>enhance ability</em>, <em>find steed</em>, and <em>find greater steed</em> spells to your oath spells.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {},
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "spell"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "MVioF9x1qI1WYGx1": 3,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1700550432250,
+    "modifiedTime": 1702848841570,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!NhiCb9R3FOwBBMel"
+}

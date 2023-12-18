@@ -1,0 +1,100 @@
+{
+  "folder": "40EIVxYIetLHoVyd",
+  "name": "Divine Sniper",
+  "type": "subclass",
+  "_id": "VOVlZjQ0flWumI31",
+  "img": "icons/skills/ranged/arrows-flying-salvo-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Armed with arrows made of pure faith and light, the Divine Sniper specializes in getting in, eliminating their target, and getting out. Empowered by light that shines forth from their very soul, their arrows can light the blackest night.</p><p>This tradition is common in Thrane and other fortresses of the Silver Flame, as its lay worshippers are encouraged to practice archery. The Argentum actively recruits Divine Snipers, both for their potent archery skills and their roguish abilities.</p><p>The shulassakar of the Talenta Plains also share deep ties to the Silver Flame, and Divine Snipers are counted among their number. The Deathguard of Aerenal holds both deathless and mortal Divine Snipers, empowered by the light of Irian. Kalashtar and Adarans of the Path of Light refer to Divine Snipers as Soulbows, according them great respect. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "identifier": "divine-sniper",
+    "classIdentifier": "rogue",
+    "advancement": [
+      {
+        "_id": "c0zzeeUrj5wbBzD5",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.5wveAVR4C5KDmCpf"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "Roguish Archetype Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "RVkaHUWCJYGCHsEJ",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.jgclgAMg0TXujJXg",
+            "Compendium.chaosos-5e-content.community-classes.Item.z3ioDlGiODJAjoJS"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "Roguish Archetype Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "M7UtsnhtpYDV64BO",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.1wgwgWIDyFzGqVTW",
+            "Compendium.chaosos-5e-content.community-classes.Item.ZnO4Nvzie5BnA3z3"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Roguish Archetype Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "LwqLonBRUHhPDzds",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.8PIUIR3NsoWvnJ7X"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "Roguish Archetype Feature",
+        "type": "ItemGrant"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 4410,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686246011861,
+    "modifiedTime": 1702848615543,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!VOVlZjQ0flWumI31"
+}

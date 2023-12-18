@@ -1,0 +1,97 @@
+{
+  "name": "Overwhelming Surges",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Beginning when you reach 6th level, you regain all of your expended uses of Wild Surges when you finish a short or long rest.</p><p>Additionally, you learn to push yourself beyond your limits. You can Wild Surge even after you have expended all uses, but every time your Wild Surge die roll fails, you must step down to the next smaller Wild Surge die size (reducing the maximum number you can roll by 2) until you have completed a long rest, to a minimum die of a d2. For example, if you are 6th level and have failed two or more Wild Surges after expending your uses, your Wild Surge die is a d2.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Sorcerer 6 (Wilder)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "VtlOa8owSZRWmJtk",
+  "_id": "mboWmw5z1tzSSo5E",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425294470,
+    "modifiedTime": 1702848616563,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 615540,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!mboWmw5z1tzSSo5E"
+}

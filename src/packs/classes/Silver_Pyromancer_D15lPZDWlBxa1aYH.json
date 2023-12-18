@@ -1,0 +1,40 @@
+{
+  "folder": "E2oUVtYugc8gXNPR",
+  "name": "Silver Pyromancer",
+  "type": "subclass",
+  "_id": "D15lPZDWlBxa1aYH",
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-blue-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Arcane magic is a fact of life in Eberron, it is everywhere and all-encompassing. Produced by the Order of the Gilded Labyrinth, silver pyromancers are arcane champions of the Church of the Silver Flame, taking their place alongside paladins and clerics in the eternal struggle against evil. The path of the Silver Pyromancer is one that requires great faith and mental aptitude. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Sarhain's Guide to the Silver Flame"
+    },
+    "identifier": "silver-pyromancer",
+    "classIdentifier": "wizard",
+    "advancement": [],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 19410,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686185344350,
+    "modifiedTime": 1702848618734,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!D15lPZDWlBxa1aYH"
+}

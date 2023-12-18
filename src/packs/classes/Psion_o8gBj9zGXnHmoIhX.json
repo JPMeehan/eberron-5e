@@ -1,0 +1,98 @@
+{
+  "folder": "fFgRA46lh0NHWfti",
+  "name": "Psion",
+  "type": "class",
+  "_id": "o8gBj9zGXnHmoIhX",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Korranberg Chronicle: Psion's Primer",
+      "page": "Ch. 1",
+      "custom": "",
+      "license": "DMsGuild CCA"
+    },
+    "identifier": "psion",
+    "levels": 1,
+    "hitDice": "d6",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "9M9bGxF9mfdbxZb7",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "level": 1,
+        "configuration": {
+          "grants": [
+            "saves:int",
+            "saves:wis"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": [],
+          "hint": ""
+        },
+        "value": {
+          "chosen": [
+            "saves:dex",
+            "saves:cha"
+          ]
+        },
+        "_id": "8BrVKzYTpSO5nZqm",
+        "title": "",
+        "icon": null,
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "sqaBJtk1a2RvHRih",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:sim:club",
+            "weapon:sim:dart",
+            "weapon:sim:quarterstaff",
+            "weapon:sim:spear",
+            "weapon:sim:sling"
+          ],
+          "choices": [],
+          "hint": ""
+        },
+        "level": 1,
+        "title": "",
+        "icon": null,
+        "classRestriction": "primary",
+        "value": {}
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 16510,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686185763380,
+    "modifiedTime": 1702848613637,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!o8gBj9zGXnHmoIhX"
+}

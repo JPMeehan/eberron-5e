@@ -1,0 +1,97 @@
+{
+  "name": "Community Spirit",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>When you choose this domain at 1st level, you gain the create bonfire cantrip, which counts as a cleric cantrip for you.</p><p>In addition, you can share your health and fortune with your allies. For every Hit Die you spend to regain hit points at the end of a short rest, you can touch one other creature that just finished a short rest taken within 30 feet of a fire lit by your create bonfire cantrip, restoring 1d8 hit points to them. You can spend Hit Dice to restore hit points to other creatures in this way even if you have reached your own hit point maximum, but any hit points you regain in excess of this maximum are lost.</p><p>Additionally, when you finish a long rest, all creatures of your choice that just finished a long rest taken within 30 feet of a fire lit by your create bonfire cantrip regain one extra spent Hit Die. The number of extra spent Hit Dice creatures regain from this feature increases when you reach certain levels in this class, increasing to two extra Hit Dice at 5th level, three extra Hit Dice at 11th level, and four extra Hit Dice at 17th level.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cleric 1 (Hearth)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "82Z7WDJ4l5pI5F7N",
+  "_id": "QeLhh1eBmE07R0wM",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418509218,
+    "modifiedTime": 1702848607622,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 103470,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!QeLhh1eBmE07R0wM"
+}

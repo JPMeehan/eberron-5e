@@ -1,0 +1,102 @@
+{
+  "folder": "eOjSkOhpWdYszd1S",
+  "name": "Khyber, the Dragon Below",
+  "type": "subclass",
+  "_id": "Qbjmv4IzQINofbbq",
+  "img": "icons/magic/light/beam-explosion-pink-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p>The Dragon Below is a selfish force. It embodies a lust for power and holds within itself the trophies of its abuse. The Daelkyr and the demon Overlords are bound deep within Khyber's caverns, and even on the surface world its magic is used to trap elementals into servitude.</p><p>A pact with the Dragon Below is not merely a gift of power from the underworld: it is a tool to take that power from other creatures</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Imogen Gingell",
+      "page": "Warlocks of Eberron",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "khyber",
+    "classIdentifier": "warlock",
+    "advancement": [
+      {
+        "_id": "g8Xy4erQytss40ht",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.5TuX4XNqX3xH2PDu"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "_id": "KqBpif9vzAEvm7Ep",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.psgkVWkm9kRtIE5j"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "i6eOt0dnA9koq89L",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.8kpeR4gSDlFAU3Fe"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "lCw66QfOATDVe8NC",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.s8s39va7yQz8NMYr"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": null
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686377802610,
+    "modifiedTime": 1702848617698,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!Qbjmv4IzQINofbbq"
+}

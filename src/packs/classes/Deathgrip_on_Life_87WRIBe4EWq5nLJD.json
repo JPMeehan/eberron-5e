@@ -1,0 +1,97 @@
+{
+  "name": "Deathgrip on Life",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your unexpected return to life gives new understanding of blood's power. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class. You also stabilize whenever you are dying at the start of your turn.</p><p>Additionally, you are never left without your source of power. As a bonus action, you can allow your blood to seep out of your hands, dealing 1 point of damage to yourself. For the next minute, your blood itself can act as a spellcasting focus for your sorcerer spells.</p><p>Damage done to yourself with this feature can't be prevented or reduced in any way, and doesn't cause a Constitution save to maintain concentration on a spell.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Sorcerer 1 (Blood Magus)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "XuAcllgrcLN9p5sk",
+  "_id": "87WRIBe4EWq5nLJD",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686425264544,
+    "modifiedTime": 1702848616563,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 104370,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!87WRIBe4EWq5nLJD"
+}

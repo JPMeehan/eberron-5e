@@ -1,0 +1,104 @@
+{
+  "name": "Juggernaut Plating",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Your armor is a part of you, strengthened by your life force. You gain the following benefits.</p><ul><li>Increase your Strength or Constitution score by 1, to a maximum of 20.</li><li>When you use Integrated Protection to don light or medium armor, you can add your Constitution modifier to your Armor Class instead of your Dexterity modifier (to a maximum of +2 when using medium armor).</li><li>When you use Integrated Protection to don heavy armor, you have advantage on Strength saving throws and Strength (Athletics) checks to resist being knocked prone or moved against your will.</li><li>While it's incorporated into your body, your armor can't be targeted by any effect (such as heat metal or the antennae of a rust monster) against your will</li></ul>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "ExE"
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Warforged",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "img": "icons/equipment/chest/breastplate-layered-steel-black.webp",
+  "flags": {
+    "plutonium": {
+      "page": "feats.html",
+      "source": "ExploringEberron",
+      "hash": "juggernaut%20plating_exploringeberron",
+      "propDroppable": "feat"
+    },
+    "core": {}
+  },
+  "effects": [],
+  "folder": "qQfshd6Ve28n209Q",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686370356697,
+    "modifiedTime": 1702848545890,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_id": "TvIJsCsiAFDDpx3g",
+  "sort": 0,
+  "_key": "!items!TvIJsCsiAFDDpx3g"
+}

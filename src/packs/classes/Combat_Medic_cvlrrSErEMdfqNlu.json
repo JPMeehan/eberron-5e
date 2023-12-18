@@ -1,0 +1,114 @@
+{
+  "folder": "kJccBcDLdUGddNLa",
+  "name": "Combat Medic",
+  "type": "subclass",
+  "_id": "cvlrrSErEMdfqNlu",
+  "img": "icons/magic/life/crosses-trio-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>In the trenches of the front lines, injury is inevitable. Where the bodies are thickest and the scent of blood lies heaviest, the Combat Medic finds their place. Where many fighters assert that the best defense is a good offense, the medic places a higher priority on caring for their allies. Their ability to keep forces in the fight makes them an extremely valuable addition to any force.</p><p>Although they cast cleric spells, Combat Medics need not hold to any official religion. Many channel their power not through traditional religious faith, but through their belief in their nation, their commitment to patriotism, and their faith in their comrades.</p><p>Combat Medics found a place in all of the armies of the Last War, though the Five Nations had the heaviest concentrations in their ranks. House Jorasco has also trained a small number of these martial healers for the most dangerous of tasks. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "identifier": "combat-medic",
+    "classIdentifier": "fighter",
+    "advancement": [
+      {
+        "_id": "9i7ix9w5HlNGKgVj",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.3bDrH1P5X9W9fRh2"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "Martial Archetype Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "N0SuY4XI6DHQSh1v",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.6fHHdzXWfQvss3rm",
+            "Compendium.chaosos-5e-content.community-classes.Item.O2jWu0SeqsNNM8Nl",
+            "Compendium.chaosos-5e-content.community-classes.Item.3Lhh03hS2tks7u8Y"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "Martial Archetype Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "yRtttimpOaeaPaYT",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.qka24RTIGbGztNAa"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "Martial Archetype Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "xAth17M3ymMavhk3",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.z013FqxWs1ZwUalL"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "Martial Archetype Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "nhvTfmdF8rhwjlb9",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.TebEvGbXFw1ymxzx"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "Martial Archetype Feature",
+        "type": "ItemGrant"
+      }
+    ],
+    "spellcasting": {
+      "progression": "third",
+      "ability": "wis"
+    }
+  },
+  "effects": [],
+  "sort": 3470,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686245902669,
+    "modifiedTime": 1702848610073,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!cvlrrSErEMdfqNlu"
+}

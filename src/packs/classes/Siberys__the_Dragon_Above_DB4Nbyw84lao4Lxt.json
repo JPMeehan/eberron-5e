@@ -1,0 +1,102 @@
+{
+  "folder": "Z8cJ4pD0gInbszXb",
+  "name": "Siberys, the Dragon Above",
+  "type": "subclass",
+  "_id": "DB4Nbyw84lao4Lxt",
+  "img": "icons/magic/light/beam-horizon-strike-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Siberys may have been killed by Khyber, but yet it reveals its will in the dance of stars and dragonshards that light the sky. The dragons who were born from the blood of their fallen father still seek its wisdom in the Prophecy.</p><p>A warlock who has made a pact with the Dragon Above may need to read the Prophecy to understand their purpose. However, all wise creatures know that Siberys stands against the darkness of the Dragon Below.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Imogen Gingell",
+      "page": "Warlocks of Eberron",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "siberys",
+    "classIdentifier": "warlock",
+    "advancement": [
+      {
+        "_id": "8xjK8XrkTjS5UB37",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.Dxl1Vy3t2ZDlYY67"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "_id": "Iq2awC3nClVIZqEq",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.vjNoGffMws6dBqOg"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "m77OfUoR6ecEhr0B",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.g1pjKL2xL3AUT3uZ"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "icon": null
+      },
+      {
+        "_id": "z7rGdoe4XbInCWXL",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.1jsALJdoGpVga74l"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "icon": null
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686377731106,
+    "modifiedTime": 1702848617698,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!DB4Nbyw84lao4Lxt"
+}

@@ -1,0 +1,99 @@
+{
+  "folder": "CZxU0LUOXZJ0KcAV",
+  "name": "Circle of Civilization",
+  "type": "subclass",
+  "_id": "ednbDZhwQd149Q5V",
+  "img": "icons/environment/settlement/watchtower-cliff.webp",
+  "system": {
+    "description": {
+      "value": "<p>The origins of the Circle of Civilization are a mystery. No one can pinpoint the very first adept, but their power is undeniable. After all, humanoids are a part of nature as much as the bird or the fish, and they share much in common with insects. Changing their environment to suit their needs, swarming in droves to settle new lands, and grouping together in large colonies that they call 'cities.'</p><p>While rare, these druids are found all over Khorvaire, joined together in a loose sect known as the Community. Druids of the Circle of Civilization rarely appear in Aerenal and Sarlona, mostly due to the persecution that they face in Riedra and the elves' affinity for necromancy.</p><p>The only continent that they do not appear on is Xen'drik; despite the growing city of Stormreach, no native of that continent has ever been recorded as hearing this calling. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "identifier": "circle-of-civilization",
+    "classIdentifier": "druid",
+    "advancement": [
+      {
+        "_id": "Z4tk3SJ4z5LDf6M6",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.JgnOYNjwH5aQpPGD"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "Druid Circle Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "GCUv4jCRAiVD580M",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.COFHidEuzYn9YksE",
+            "Compendium.chaosos-5e-content.community-classes.Item.oyyZ6krJbXxsBACu"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "Druid Circle Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "a8uKYWlQ7qrWXNN7",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.LApyXfodHnes3HJK"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "Druid Circle Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "a5CcdvCkLp4fBINK",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.Ac4o4Be7K7mDgr3B"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "Druid Circle Feature",
+        "type": "ItemGrant"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 3410,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686245862719,
+    "modifiedTime": 1702848608570,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!ednbDZhwQd149Q5V"
+}

@@ -1,0 +1,40 @@
+{
+  "folder": "tlGfav9X9hPVRlGp",
+  "name": "Oath of Wrath",
+  "type": "subclass",
+  "_id": "o11b0HnyqrQVlHAd",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Ghaash'kala - Paladins of the Wastes"
+    },
+    "identifier": "oath-of-wrath",
+    "classIdentifier": "paladin",
+    "advancement": [],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 15330,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686185690091,
+    "modifiedTime": 1702848612656,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!o11b0HnyqrQVlHAd"
+}

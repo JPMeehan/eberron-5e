@@ -1,0 +1,110 @@
+{
+  "name": "Avenging Strike",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 5th level, anyone who damages one of your allies is a special target of your ire. Once per turn, when you deal damage with a weapon attack or cantrip to a creature who has dealt damage to an ally that is part of your tapestry since the end of your last turn, you can add an additional 1d10 force damage to one damage roll.</p><p>At 15th level, this increases to 2d10 points of additional force damage.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [
+        [
+          "1d10",
+          "force"
+        ]
+      ],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Artificer 5 (War Weaver)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {
+    "plutonium": {
+      "page": "subclassFeature",
+      "source": "ArchEb",
+      "hash": "avenging%20strike_artificer_tce_war%20weaver_archeb_5_archeb",
+      "propDroppable": "subclassFeature"
+    },
+    "core": {}
+  },
+  "effects": [],
+  "folder": "uBvr7NZMxZqxmCF0",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418410509,
+    "modifiedTime": 1702848605234,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_id": "Es2cKXOeeu7Hgb3T",
+  "sort": 501540,
+  "_key": "!items!Es2cKXOeeu7Hgb3T"
+}

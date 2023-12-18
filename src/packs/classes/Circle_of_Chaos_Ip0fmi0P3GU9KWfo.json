@@ -1,0 +1,40 @@
+{
+  "folder": "7PMZ3AO0zqY0bgPv",
+  "name": "Circle of Chaos",
+  "type": "subclass",
+  "_id": "Ip0fmi0P3GU9KWfo",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "Linvakri's Guide to Syrkarn"
+    },
+    "identifier": "circle-of-chaos",
+    "classIdentifier": "druid",
+    "advancement": [],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 3410,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686184932323,
+    "modifiedTime": 1702848608570,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!Ip0fmi0P3GU9KWfo"
+}

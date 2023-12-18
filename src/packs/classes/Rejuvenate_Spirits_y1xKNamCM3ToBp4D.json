@@ -1,0 +1,97 @@
+{
+  "name": "Rejuvenate Spirits",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, you rally your allies to fight longer than they thought possible. If you take the Attack action on your turn, you can use a bonus action to choose one willing creature within 60 feet of you that can hear you. That creature can immediately use its reaction to spend one Hit Die and heal itself by rolling the die, adding its Constitution modifier and your Charisma modifier, and regaining a number of hit points equal to the total (minimum of 1).</p><p>Starting at 7th level, when you target a creature with this feature, it can also move up to half of its speed without provoking opportunity attacks.</p><p>When you reach certain levels in this class, the maximum number of Hit Dice creatures can spend when targeted with this feature increases by 1, increasing at 7th level (2 Hit Dice), 10th level (3 Hit Dice), 15th level (4 Hit Dice), and 18th level (5 Hit Dice).</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Fighter 3 (Marshal)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "folder": "W6EkdOjhNVCRHSHW",
+  "_id": "y1xKNamCM3ToBp4D",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418598885,
+    "modifiedTime": 1702848610073,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "sort": 318370,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!y1xKNamCM3ToBp4D"
+}

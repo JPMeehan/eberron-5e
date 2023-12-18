@@ -1,0 +1,104 @@
+{
+  "name": "Quori Bond",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>The quori are tied to emotions. The tsucora feed on fear.The hashalaq are master manipulators. The kalaraq are the nobility of nightmares. The du'ulora harness fury. Your bond with your quori spirit is unusually strong, and you can draw on a fraction of its power and instincts. When you choose this feat, choose your quori lineage: hashalaq, du'ulora, kalaraq, or tsucora. You gain the following benefits:</p><ul><li>Increase your Wisdom, or Charisma by 1, to a maximum of 20.</li><li>Each quori lineage is associated with a particular skill. When you use that skill, you can roll 1d4 and add the number rolled to the ability check.</li><li>Each quori lineage is associated with a particular spell. You learn this spell and can cast it at its lowest level. Once you cast it using this feat, you can't do so again until you finish a long rest. Your spellcasting ability for this spell is Wisdom or Charisma, chosen when you select this feat.</li></ul><table><thead><tr><th data-rd-isroller=\"false\">Quori Lineage</th><th data-rd-isroller=\"false\">Skill</th><th data-rd-isroller=\"false\">Spell</th></tr></thead><tbody><tr><td>Du'ulora</td><td>Intimidation</td><td>crown of madness</td></tr><tr><td>Hashalaq</td><td>Persuasion</td><td>suggestion</td></tr><tr><td>Kalaraq</td><td>Perception</td><td>mind spike</td></tr><tr><td>Tsucora</td><td>Intimidation</td><td>wrathful smite</td></tr></tbody></table>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "custom": "ExE"
+    },
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "lr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": "",
+    "actionType": "",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "requirements": "Kalashtar",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "img": "icons/magic/perception/eye-slit-orange.webp",
+  "flags": {
+    "plutonium": {
+      "page": "feats.html",
+      "source": "ExploringEberron",
+      "hash": "quori%20bond_exploringeberron",
+      "propDroppable": "feat"
+    },
+    "core": {}
+  },
+  "effects": [],
+  "folder": "pbprG9EdLDYnwbV6",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686370356726,
+    "modifiedTime": 1702848543356,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_id": "banMM6xzwuzNproV",
+  "sort": 0,
+  "_key": "!items!banMM6xzwuzNproV"
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Astral Construct",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 9th level, you have learned how to unleash your psicrystal's deeper potential. Whenever you use your Psionic Augmentation feature, you can coalesce the released emotion into a crystalline construct. In addition to targeting a creature with an augmentation effect, you create an astral construct imbued with that emotion in a space within 30 feet of you, which lasts for one minute or until it is reduced to 0 hit points. If you already have an astral construct shaped when you use your Psionic Augmentation, you instead fully heal your current construct, extend its duration by a further minute, and imbue it with an additional use of its Release Emotion action.</p><p>In combat, the astral construct shares your initiative count, but it takes its turn immediately after yours. It can move on its own, but the only action it takes on its turn is the Dodge action, unless you take bonus action on your turn to command it to take one of the actions in its stat block or the Dash, Disengage, or Help action.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "cost": 1,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Artificer 9 (Crystal Shaper)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418380758,
+    "modifiedTime": 1702848605234,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "folder": "MVHoTydfDvrOUgvY",
+  "_id": "6Av56IuhlTyAtR16",
+  "sort": 901510,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_key": "!items!6Av56IuhlTyAtR16"
+}

@@ -1,0 +1,43 @@
+{
+  "folder": "pxx6ef00hjtlSCcD",
+  "name": "Fateweaver",
+  "type": "subclass",
+  "_id": "CsumN3hUWIS9lpVJ",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>The many paths of the Draconic Prophecy plot out the course of future events. All manner of powerful creatures from the dragons of Argonnessen to the fiendish Overlords seek to influence its path, often using mortal pawns such as you. You’ve made a pact with a being with insights into the future, granting you dark luck and the destiny to succeed. As a fateweaver, your powers guide you down a certain path, ensuring your success - but don’t push your luck, or you may find yourself cutting the strings of your own destiny.</p><p> Examples of beings with the power of a Fateweaver include Sphinxes such as Flamewind with their mastery of time, the Overlord known as the Spinner of Shadows, and the ancient giants of Crux, who may wish to restore their planar citystate to its former glory.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Giant Guide to Xen'drik",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identifier": "fateweaver",
+    "classIdentifier": "",
+    "advancement": [],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1702706699459,
+    "modifiedTime": 1702848617698,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!CsumN3hUWIS9lpVJ"
+}

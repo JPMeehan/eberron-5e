@@ -1,0 +1,113 @@
+{
+  "folder": "82Z7WDJ4l5pI5F7N",
+  "name": "Hearth Domain",
+  "type": "subclass",
+  "_id": "4ADcUyt8CeDSriUq",
+  "img": "icons/magic/fire/flame-burning-campfire-yellow-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>The Hearth domain is not just about safety, security, and the gentle glow of a fire when the day is done. It's about finding warmth in the love of friends and family, supporting each other through thick and thin, and building a community that feels like home.</p><p>Clerics to Boldrei of the Sovereign Host often choose this domain, as well as devotees of the Path of Light, believing the best way to combat darkness is to seek goodness in community. A Cyran seeking a new home for their loved ones might gravitate toward such a calling, driven not by religion, but their own love for their people. Or a halfling bearing the Mark of Hospitality could dedicate themselves to furthering their community, drawing on the mark's powers of hearth and home. </p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "identifier": "hearth-domain",
+    "classIdentifier": "cleric",
+    "advancement": [
+      {
+        "_id": "F2sw6OS12yB7dAsV",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.46jjfuvHbWA4FzRN"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "Divine Domain Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "11VAQSjLUaeTxtpW",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.QeLhh1eBmE07R0wM",
+            "Compendium.chaosos-5e-content.community-classes.Item.bMyPCLJ7YuW8nh6f"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1,
+        "title": "Divine Domain Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "0sm1gi4DLIBf2yfn",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.4vGoUIVtwVRNuQso"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "Divine Domain Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "y8oYvb8E4t03JhO5",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.ph7BCTylsOnPlOSX"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 8,
+        "title": "Divine Domain Feature",
+        "type": "ItemGrant"
+      },
+      {
+        "_id": "jSV3huYKT27LRIfp",
+        "configuration": {
+          "items": [
+            "Compendium.chaosos-5e-content.community-classes.Item.ljNri4Z4rBh37fk3"
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "Divine Domain Feature",
+        "type": "ItemGrant"
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 8370,
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686202207741,
+    "modifiedTime": 1702848607622,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!4ADcUyt8CeDSriUq"
+}

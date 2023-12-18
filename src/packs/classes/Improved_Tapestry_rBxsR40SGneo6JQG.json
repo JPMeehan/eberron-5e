@@ -1,0 +1,105 @@
+{
+  "name": "Improved Tapestry",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 9th level, you can blanket your allies in a weave of bolstering spellwork. When you cast a prepared spell that targets only one creature, doesn't have a range of self, and is of a level no higher than your artificer level divided by four, you can choose for that spell to affect every creature within 60 feet of you that is part of your tapestry. In addition, they all gain a number of temporary hit points equal to your artificer level. Once you use this feature, you can't use it again until you finish a short or long rest.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Archetypes of Eberron",
+      "custom": ""
+    },
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "cover": null,
+    "crewed": false,
+    "target": {
+      "value": null,
+      "width": null,
+      "units": "",
+      "type": "",
+      "prompt": true
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": 1,
+      "max": "1",
+      "per": "sr",
+      "recovery": "",
+      "prompt": true
+    },
+    "consume": {
+      "type": "",
+      "target": null,
+      "amount": null,
+      "scale": false
+    },
+    "ability": null,
+    "actionType": "other",
+    "attackBonus": "",
+    "chatFlavor": "",
+    "critical": {
+      "threshold": null,
+      "damage": ""
+    },
+    "damage": {
+      "parts": [],
+      "versatile": ""
+    },
+    "formula": "",
+    "save": {
+      "ability": "",
+      "dc": null,
+      "scaling": "flat"
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Artificer 9 (War Weaver)",
+    "recharge": {
+      "value": null,
+      "charged": false
+    }
+  },
+  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "flags": {
+    "plutonium": {
+      "page": "subclassFeature",
+      "source": "ArchEb",
+      "hash": "improved%20tapestry_artificer_tce_war%20weaver_archeb_9_archeb",
+      "propDroppable": "subclassFeature"
+    },
+    "core": {}
+  },
+  "effects": [],
+  "folder": "uBvr7NZMxZqxmCF0",
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1686418411134,
+    "modifiedTime": 1702848605234,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "ownership": {
+    "default": 0,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "_id": "rBxsR40SGneo6JQG",
+  "sort": 909450,
+  "_key": "!items!rBxsR40SGneo6JQG"
+}
