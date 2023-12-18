@@ -23,5 +23,5 @@ for (const pack of packs) {
     `${MODULE_ID}/src/packs/${pack}`
   );
 
-  ReferenceFolder.build(pack);
+  // ReferenceFolder.build(pack);
 }

@@ -1,0 +1,101 @@
+{
+  "folder": "VOaafup309BfsT6j",
+  "name": "Warforged",
+  "type": "race",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Your warforged character has the following traits. A few of the traits give you a choice; consider how your choice reflects the purpose for which your character was built.</p><p><em><strong>Age. </strong></em>A typical warforged is between two and thirty years old. The maximum warforged lifespan remains a mystery; so far, warforged have shown no signs of deterioration due to age. You are immune to magical aging effects.</p><p><em><strong>Creature Type.</strong></em> You are a Construct.</p><p><em><strong>Size. </strong></em>Your size is Medium. To set your height and weight randomly, start with rolling a size modifier:</p><p style=\"text-align:center\">Size modifier = 2d6</p><p style=\"text-align:center\">Height = 5 feet + 10 inches + your size modifier in inches</p><p style=\"text-align:center\">Weight in pounds = 270 + (4 × your size modifier)</p><p><em><strong>Speed. </strong></em>Your base walking speed is 30 feet.</p><p><em><strong>Constructed Resilience. </strong></em>You were created to have remarkable fortitude, represented by the following benefits:</p><ul><li><p>You have advantage on saving throws against being poisoned, and you have resistance to poison damage.</p></li><li><p>You don’t need to eat, drink, or breathe.</p></li><li><p>You are immune to disease.</p></li><li><p>You don’t need to sleep, and magic can’t put you to sleep.</p></li></ul><p><em><strong>Living Construct.</strong></em> The livewood and alchemical fluids in your body allow you to benefit from several spells that preserve life but normally don’t affect Constructs: <em>cure wounds, healing word, mass cure wounds, mass healing word, </em>and <em>spare the dying</em>.</p><p><em><strong>Sentry’s Rest. </strong></em>When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn’t render you unconscious, and you can see and hear as normal.</p><p><em><strong>Integrated Protection. </strong></em>Your body has built-in defensive layers, which can be enhanced with armor:</p><ul><li><p>You gain a +1 bonus to Armor Class.</p></li><li><p>You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.</p></li><li><p>While you live, the armor incorporated into your body can’t be removed against your will.</p></li></ul><p><em><strong>Specialized Design. </strong></em>You gain one skill proficiency and one tool proficiency of your choice.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Common and one other language of your choice.</p>",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {
+      "book": "Chronicles of Eberron",
+      "page": "Ch. 4",
+      "custom": "",
+      "license": "DMsGuild CCA"
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "ENfcrCb7jiQKKair",
+        "configuration": {
+          "points": 0,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0
+      },
+      {
+        "type": "Size",
+        "_id": "ULcdxPVstWWYUxaw",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "B3jKzCfxokGrwvTQ",
+        "level": 0,
+        "value": {}
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "construct",
+      "subtype": "Living",
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "MVioF9x1qI1WYGx1": 3,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {
+    "core": {}
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1700378683464,
+    "modifiedTime": 1702848469395,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_id": "vfacs1ErNwf3s9LQ",
+  "sort": 100000,
+  "_key": "!items!vfacs1ErNwf3s9LQ"
+}

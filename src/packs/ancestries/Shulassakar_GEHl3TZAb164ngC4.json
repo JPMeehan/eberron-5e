@@ -1,0 +1,92 @@
+{
+  "folder": "w5uUhMcM5p14jZB6",
+  "name": "Shulassakar",
+  "type": "race",
+  "_id": "GEHl3TZAb164ngC4",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": "",
+      "unidentified": ""
+    },
+    "source": {},
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "J8yOo9oBM1Vmswgk",
+        "configuration": {
+          "points": 0,
+          "fixed": {},
+          "cap": 2
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0
+      },
+      {
+        "type": "Size",
+        "_id": "2Rl90hiDcspOFOPY",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "mode": "default",
+          "allowReplacements": false,
+          "choices": []
+        },
+        "_id": "gsZacF0lRchKNOkH",
+        "level": 0,
+        "value": {}
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": null,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MVioF9x1qI1WYGx1": 3,
+    "q6n1efCGVB98drEQ": 3
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": 1700627738503,
+    "modifiedTime": 1702848009166,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!items!GEHl3TZAb164ngC4"
+}

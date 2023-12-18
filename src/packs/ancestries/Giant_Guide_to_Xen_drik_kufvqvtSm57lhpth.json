@@ -1,0 +1,19 @@
+{
+  "name": "Giant Guide to Xen'drik",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "kufvqvtSm57lhpth",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.4.1",
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "modifiedTime": 1702848006217,
+    "lastModifiedBy": "q6n1efCGVB98drEQ"
+  },
+  "_key": "!folders!kufvqvtSm57lhpth"
+}

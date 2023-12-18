@@ -4,7 +4,8 @@
   "description": "Eberron Community content for dnd5e in Foundry Virtual Tabletop",
   "main": "eberron-5e.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pushLDBtoYML": "node ./tools/pushLDBtoYML.mjs",
+    "pullYMLtoLDB": "node ./tools/pullYMLtoLDB.mjs"
   },
   "repository": {
     "type": "git",
