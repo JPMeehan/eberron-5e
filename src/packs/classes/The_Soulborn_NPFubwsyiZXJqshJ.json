@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "the-soulborn",
     "classIdentifier": "warlock",
@@ -21,8 +22,8 @@
         "_id": "6q84UMPuxCUiWgHd",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.bX2qWUCT2WUylhBL",
-            "Compendium.chaosos-5e-content.community-classes.Item.YGCFjXXTIpFTVqXl"
+            "Compendium.eberron-5e.classes.Item.bX2qWUCT2WUylhBL",
+            "Compendium.eberron-5e.classes.Item.YGCFjXXTIpFTVqXl"
           ],
           "optional": false,
           "spell": null
@@ -35,9 +36,7 @@
       {
         "_id": "t6WOKAWf2xoJlkDZ",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.NhLkFWvevHcWEgsM"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.NhLkFWvevHcWEgsM"],
           "optional": false,
           "spell": null
         },
@@ -49,9 +48,7 @@
       {
         "_id": "uTJuupVYBmTJTsQo",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.inujy1D77yv2zr7w"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.inujy1D77yv2zr7w"],
           "optional": false,
           "spell": null
         },
@@ -63,9 +60,7 @@
       {
         "_id": "5MvjLZUQjxSZqgKm",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.dlMJXyWaqmyBG5jc"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.dlMJXyWaqmyBG5jc"],
           "optional": false,
           "spell": null
         },
@@ -92,8 +87,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686246143071,
-    "modifiedTime": 1702848617698,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!NPFubwsyiZXJqshJ"
 }

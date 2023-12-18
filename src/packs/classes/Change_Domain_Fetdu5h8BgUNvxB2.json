@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "change-domain",
     "classIdentifier": "cleric",
@@ -20,9 +21,7 @@
       {
         "_id": "PYBu6eHzEKQL0lUi",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.vElrrNbfCVGaQ7jr"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.vElrrNbfCVGaQ7jr"],
           "optional": false,
           "spell": null
         },
@@ -34,9 +33,7 @@
       {
         "_id": "HGfI1oLlvXYGWhKN",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.FnDSfwtiaIAkYfZW"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.FnDSfwtiaIAkYfZW"],
           "optional": false,
           "spell": null
         },
@@ -48,9 +45,7 @@
       {
         "_id": "INCpgzMPlzh0Id95",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.tjeTKpQV5Js05lz4"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.tjeTKpQV5Js05lz4"],
           "optional": false,
           "spell": null
         },
@@ -62,9 +57,7 @@
       {
         "_id": "vpZoys69fMMVWDa3",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.pfeqFLymAfUfZLPF"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.pfeqFLymAfUfZLPF"],
           "optional": false,
           "spell": null
         },
@@ -91,8 +84,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686202163697,
-    "modifiedTime": 1702848607622,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!Fetdu5h8BgUNvxB2"
 }

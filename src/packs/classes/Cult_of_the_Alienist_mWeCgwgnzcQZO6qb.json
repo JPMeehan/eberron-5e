@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "cult-of-the-alienist",
     "classIdentifier": "wizard",
@@ -20,9 +21,7 @@
       {
         "_id": "WsXzw6zE7KNkxqz7",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.ZhxHMdyb1MP1VZue"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.ZhxHMdyb1MP1VZue"],
           "optional": false,
           "spell": null
         },
@@ -34,9 +33,7 @@
       {
         "_id": "RflmOQkbYUUfovOR",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.c3keHBF1a43ZgDUr"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.c3keHBF1a43ZgDUr"],
           "optional": false,
           "spell": null
         },
@@ -48,9 +45,7 @@
       {
         "_id": "BfD892rDerKWodIk",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.vzmvwtMuRCxf3c4W"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.vzmvwtMuRCxf3c4W"],
           "optional": false,
           "spell": null
         },
@@ -62,9 +57,7 @@
       {
         "_id": "C6JhxzOUjc0mDBfn",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.sAfP8Ses8bcYuw55"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.sAfP8Ses8bcYuw55"],
           "optional": false,
           "spell": null
         },
@@ -91,8 +84,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686246155903,
-    "modifiedTime": 1702848618734,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!mWeCgwgnzcQZO6qb"
 }

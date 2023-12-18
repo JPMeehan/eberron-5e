@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "crystal-shaper",
     "classIdentifier": "artificer",
@@ -20,9 +21,7 @@
       {
         "_id": "IyH3lSrb7zD4J7Nh",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.6Av56IuhlTyAtR16"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.6Av56IuhlTyAtR16"],
           "optional": false,
           "spell": null
         },
@@ -35,9 +34,9 @@
         "_id": "912GDCbiHsBFTOta",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.g59ex0tFshRj5VyC",
-            "Compendium.chaosos-5e-content.community-classes.Item.GaeP6NkDtwC1ESrn",
-            "Compendium.chaosos-5e-content.community-classes.Item.leRe59zKqHAiptb9"
+            "Compendium.eberron-5e.classes.Item.g59ex0tFshRj5VyC",
+            "Compendium.eberron-5e.classes.Item.GaeP6NkDtwC1ESrn",
+            "Compendium.eberron-5e.classes.Item.leRe59zKqHAiptb9"
           ],
           "optional": false,
           "spell": null
@@ -50,9 +49,7 @@
       {
         "_id": "mWkj0U0MECtgkxko",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.zs2dPIptOgE1pz0c"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.zs2dPIptOgE1pz0c"],
           "optional": false,
           "spell": null
         },
@@ -64,9 +61,7 @@
       {
         "_id": "Q5G9Nlxx8vAwKlL2",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.fD0sL2c4z0nHHih4"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.fD0sL2c4z0nHHih4"],
           "optional": false,
           "spell": null
         },
@@ -93,8 +88,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686201634105,
-    "modifiedTime": 1702848605234,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!hkCiDsMC0TSgl6FP"
 }

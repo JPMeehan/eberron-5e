@@ -10,7 +10,9 @@
       "chat": "",
       "unidentified": ""
     },
-    "source": {},
+    "source": {
+      "license": "DMsGuild CCA"
+    },
     "identifier": "circle-of-the-forged",
     "classIdentifier": "druid",
     "advancement": [
@@ -19,8 +21,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.4G7X2YFaqYOgM2IG",
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.y7RXayffPUVnqmJd"
+            "Compendium.eberron-5e.classes.Item.4G7X2YFaqYOgM2IG",
+            "Compendium.eberron-5e.classes.Item.y7RXayffPUVnqmJd"
           ],
           "optional": false,
           "spell": null
@@ -34,9 +36,7 @@
         "_id": "vaPHnWT2KAscWi1L",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.04T9vzalEgTnxYXf"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.04T9vzalEgTnxYXf"],
           "optional": false,
           "spell": null
         },
@@ -49,9 +49,7 @@
         "_id": "S4rhmCw5sUiQhi88",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.ZzITkLBU7lqUtUCI"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.ZzITkLBU7lqUtUCI"],
           "optional": false,
           "spell": null
         },
@@ -64,9 +62,7 @@
         "_id": "2s45VrXAUz3MbsM0",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.XhtpSGq0yv3iBZW6"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.XhtpSGq0yv3iBZW6"],
           "optional": false,
           "spell": null
         },
@@ -93,8 +89,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686341438815,
-    "modifiedTime": 1702848829389,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!nvB37MBen63zLM5V"
 }

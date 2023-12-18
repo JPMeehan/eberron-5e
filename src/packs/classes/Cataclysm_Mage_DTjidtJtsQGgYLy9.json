@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "cataclysm-mage",
     "classIdentifier": "sorcerer",
@@ -20,9 +21,7 @@
       {
         "_id": "lfbFVco0j7Tj5qes",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.NUXnFTJyZRhBlhxV"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.NUXnFTJyZRhBlhxV"],
           "optional": false,
           "spell": null
         },
@@ -34,9 +33,7 @@
       {
         "_id": "K3ED2Pax0G4wVdKp",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.tZP6Mbv3UM9bucRW"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.tZP6Mbv3UM9bucRW"],
           "optional": false,
           "spell": null
         },
@@ -49,8 +46,8 @@
         "_id": "uHzYQw8vFCf9rPIJ",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.rA59ne6HtDRcUlfU",
-            "Compendium.chaosos-5e-content.community-classes.Item.rWBPsifB62ME5nh3"
+            "Compendium.eberron-5e.classes.Item.rA59ne6HtDRcUlfU",
+            "Compendium.eberron-5e.classes.Item.rWBPsifB62ME5nh3"
           ],
           "optional": false,
           "spell": null
@@ -63,9 +60,7 @@
       {
         "_id": "4Vc1bP4lxPTAV6Km",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.gxjABDnZGTmxkk7q"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.gxjABDnZGTmxkk7q"],
           "optional": false,
           "spell": null
         },
@@ -92,8 +87,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686246097749,
-    "modifiedTime": 1702848616563,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!DTjidtJtsQGgYLy9"
 }

@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "oath-of-the-bone-knight",
     "classIdentifier": "paladin",
@@ -20,9 +21,7 @@
       {
         "_id": "aNhEeltNgjJikbez",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.xZdO1uGs6vnAZz4j"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.xZdO1uGs6vnAZz4j"],
           "optional": false,
           "spell": null
         },
@@ -34,9 +33,7 @@
       {
         "_id": "MWtcuVx7uZEWUatr",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.zsFgccTIP2uaAvtw"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.zsFgccTIP2uaAvtw"],
           "optional": false,
           "spell": null
         },
@@ -48,9 +45,7 @@
       {
         "_id": "3RkTIziJDm5ObKLZ",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.VwYe1IMi0r4LwzHe"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.VwYe1IMi0r4LwzHe"],
           "optional": false,
           "spell": null
         },
@@ -62,9 +57,7 @@
       {
         "_id": "WnfE0J6NMRlaW3j3",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.06xb6bqfojtRwiCz"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.06xb6bqfojtRwiCz"],
           "optional": false,
           "spell": null
         },
@@ -91,8 +84,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686245964621,
-    "modifiedTime": 1702848612656,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!X3tnbXZyl1J0wg1S"
 }

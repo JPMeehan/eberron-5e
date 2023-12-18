@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "college-of-spies",
     "classIdentifier": "bard",
@@ -21,8 +22,8 @@
         "_id": "h9xss7qU6muFOgj9",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.agVytI5gDzkt9uNX",
-            "Compendium.chaosos-5e-content.community-classes.Item.azKsY8NqN8c8RN35"
+            "Compendium.eberron-5e.classes.Item.agVytI5gDzkt9uNX",
+            "Compendium.eberron-5e.classes.Item.azKsY8NqN8c8RN35"
           ],
           "optional": false,
           "spell": null
@@ -36,8 +37,8 @@
         "_id": "3CyYACkJ9mPkt39m",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.8RqOj7y9R9jXXx8p",
-            "Compendium.chaosos-5e-content.community-classes.Item.tdDAmjI6ObQmQJPW"
+            "Compendium.eberron-5e.classes.Item.8RqOj7y9R9jXXx8p",
+            "Compendium.eberron-5e.classes.Item.tdDAmjI6ObQmQJPW"
           ],
           "optional": false,
           "spell": null
@@ -50,9 +51,7 @@
       {
         "_id": "QDADO1nkEmQNqKds",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.jE4ENU70gTA46j6U"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.jE4ENU70gTA46j6U"],
           "optional": false,
           "spell": null
         },
@@ -79,8 +78,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686201743608,
-    "modifiedTime": 1702848606931,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!t4qBKZpZjqXUJw1j"
 }

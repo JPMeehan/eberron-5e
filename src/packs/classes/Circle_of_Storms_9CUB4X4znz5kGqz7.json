@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "circle-of-storms",
     "classIdentifier": "druid",
@@ -21,8 +22,8 @@
         "_id": "lZbWvkXJ9Jt3zrlc",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.OOZzuudiAHZkP5n5",
-            "Compendium.chaosos-5e-content.community-classes.Item.XdY8vFLAvV0rrII3"
+            "Compendium.eberron-5e.classes.Item.OOZzuudiAHZkP5n5",
+            "Compendium.eberron-5e.classes.Item.XdY8vFLAvV0rrII3"
           ],
           "optional": false,
           "spell": null
@@ -35,9 +36,7 @@
       {
         "_id": "D3wTwM2HVW1fJznj",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.ecQgJHmTLCuEtqkc"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.ecQgJHmTLCuEtqkc"],
           "optional": false,
           "spell": null
         },
@@ -49,9 +48,7 @@
       {
         "_id": "Q33fUJHkXeVBnvxj",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.qvW64A9VCBeNfs6J"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.qvW64A9VCBeNfs6J"],
           "optional": false,
           "spell": null
         },
@@ -63,9 +60,7 @@
       {
         "_id": "eLDPiOey6tZc57HE",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.iWvBQzYHLlRHTiEq"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.iWvBQzYHLlRHTiEq"],
           "optional": false,
           "spell": null
         },
@@ -92,8 +87,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686245884176,
-    "modifiedTime": 1702848608570,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!9CUB4X4znz5kGqz7"
 }

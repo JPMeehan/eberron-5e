@@ -23,9 +23,7 @@
         "_id": "8xjK8XrkTjS5UB37",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.Dxl1Vy3t2ZDlYY67"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.Dxl1Vy3t2ZDlYY67"],
           "optional": false,
           "spell": null
         },
@@ -36,9 +34,7 @@
         "_id": "Iq2awC3nClVIZqEq",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.vjNoGffMws6dBqOg"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.vjNoGffMws6dBqOg"],
           "optional": false,
           "spell": null
         },
@@ -51,9 +47,7 @@
         "_id": "m77OfUoR6ecEhr0B",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.g1pjKL2xL3AUT3uZ"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.g1pjKL2xL3AUT3uZ"],
           "optional": false,
           "spell": null
         },
@@ -66,9 +60,7 @@
         "_id": "z7rGdoe4XbInCWXL",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.1jsALJdoGpVga74l"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.1jsALJdoGpVga74l"],
           "optional": false,
           "spell": null
         },

@@ -11,7 +11,10 @@
       "unidentified": ""
     },
     "source": {
-      "custom": "Exploring Eberron"
+      "custom": "",
+      "license": "DMsGuild CCA",
+      "book": "Exploring Eberron",
+      "page": ""
     },
     "identifier": "forge-adept",
     "classIdentifier": "artificer",
@@ -21,8 +24,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.sHkPSNRAKitotuIX",
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.L0DyqKrBbELWAzdc"
+            "Compendium.eberron-5e.classes.Item.sHkPSNRAKitotuIX",
+            "Compendium.eberron-5e.classes.Item.L0DyqKrBbELWAzdc"
           ],
           "optional": false,
           "spell": null
@@ -35,9 +38,7 @@
       {
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.D7eV0kUG8C92l2gj"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.D7eV0kUG8C92l2gj"],
           "optional": false,
           "spell": null
         },
@@ -50,9 +51,7 @@
       {
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.PrM6IZjpKSD4IsGy"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.PrM6IZjpKSD4IsGy"],
           "optional": false,
           "spell": null
         },
@@ -65,9 +64,7 @@
       {
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.YfwVbBKuyRaKGbfj"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.YfwVbBKuyRaKGbfj"],
           "optional": false,
           "spell": null
         },
@@ -95,8 +92,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686341166752,
-    "modifiedTime": 1702848643269,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886630173,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!J15birh7PaVj66hz"
 }

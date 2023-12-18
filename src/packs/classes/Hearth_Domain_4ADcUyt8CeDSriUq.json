@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "hearth-domain",
     "classIdentifier": "cleric",
@@ -20,9 +21,7 @@
       {
         "_id": "F2sw6OS12yB7dAsV",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.46jjfuvHbWA4FzRN"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.46jjfuvHbWA4FzRN"],
           "optional": false,
           "spell": null
         },
@@ -35,8 +34,8 @@
         "_id": "11VAQSjLUaeTxtpW",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.QeLhh1eBmE07R0wM",
-            "Compendium.chaosos-5e-content.community-classes.Item.bMyPCLJ7YuW8nh6f"
+            "Compendium.eberron-5e.classes.Item.QeLhh1eBmE07R0wM",
+            "Compendium.eberron-5e.classes.Item.bMyPCLJ7YuW8nh6f"
           ],
           "optional": false,
           "spell": null
@@ -49,9 +48,7 @@
       {
         "_id": "0sm1gi4DLIBf2yfn",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.4vGoUIVtwVRNuQso"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.4vGoUIVtwVRNuQso"],
           "optional": false,
           "spell": null
         },
@@ -63,9 +60,7 @@
       {
         "_id": "y8oYvb8E4t03JhO5",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.ph7BCTylsOnPlOSX"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.ph7BCTylsOnPlOSX"],
           "optional": false,
           "spell": null
         },
@@ -77,9 +72,7 @@
       {
         "_id": "jSV3huYKT27LRIfp",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.ljNri4Z4rBh37fk3"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.ljNri4Z4rBh37fk3"],
           "optional": false,
           "spell": null
         },
@@ -106,8 +99,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686202207741,
-    "modifiedTime": 1702848607622,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!4ADcUyt8CeDSriUq"
 }

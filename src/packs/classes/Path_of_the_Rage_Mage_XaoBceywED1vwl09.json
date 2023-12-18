@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "path-of-the-rage-mage",
     "classIdentifier": "barbarian",
@@ -20,9 +21,7 @@
       {
         "_id": "p7XdocdpCUgBwmix",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.9W7USG83AdLDth8C"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.9W7USG83AdLDth8C"],
           "optional": false,
           "spell": null
         },
@@ -35,9 +34,9 @@
         "_id": "MVVQoI5RRJM9DFhV",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.iXZxRQOjrIYKtvJh",
-            "Compendium.chaosos-5e-content.community-classes.Item.0ddyI3sE64kS1zyV",
-            "Compendium.chaosos-5e-content.community-classes.Item.UhBzc1oerXUDEXD1"
+            "Compendium.eberron-5e.classes.Item.iXZxRQOjrIYKtvJh",
+            "Compendium.eberron-5e.classes.Item.0ddyI3sE64kS1zyV",
+            "Compendium.eberron-5e.classes.Item.UhBzc1oerXUDEXD1"
           ],
           "optional": false,
           "spell": null
@@ -50,9 +49,7 @@
       {
         "_id": "z2JfOtPeQaI15Y8x",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.0HpfCjXVWGZjO7Un"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.0HpfCjXVWGZjO7Un"],
           "optional": false,
           "spell": null
         },
@@ -64,9 +61,7 @@
       {
         "_id": "mUxdoiovsHAaNCSA",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.0HqIjLZ5q1GJMafs"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.0HqIjLZ5q1GJMafs"],
           "optional": false,
           "spell": null
         },
@@ -93,8 +88,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686201711969,
-    "modifiedTime": 1702848606085,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!XaoBceywED1vwl09"
 }

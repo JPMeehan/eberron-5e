@@ -17,7 +17,7 @@
       "license": "DMsGuild CCA"
     },
     "identifier": "hunt-domain",
-    "classIdentifier": "",
+    "classIdentifier": "cleric",
     "advancement": [],
     "spellcasting": {
       "progression": "none",
@@ -36,8 +36,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1702705776068,
-    "modifiedTime": 1702848607622,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886424283,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!vXLYKmM78gjhyPhY"
 }

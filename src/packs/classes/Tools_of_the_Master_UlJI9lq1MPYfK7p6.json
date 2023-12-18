@@ -11,7 +11,9 @@
       "unidentified": ""
     },
     "source": {
-      "custom": "ExE"
+      "custom": "",
+      "license": "DMsGuild CCA",
+      "book": "ExE"
     },
     "quantity": 1,
     "weight": 0,
@@ -33,7 +35,7 @@
   "effects": [
     {
       "icon": "icons/tools/hand/hammer-and-nail.webp",
-      "origin": "Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6",
+      "origin": "Compendium.eberron-5e.classes.Item.UlJI9lq1MPYfK7p6",
       "duration": {
         "startTime": null,
         "seconds": null,
@@ -69,7 +71,7 @@
     },
     {
       "icon": "icons/tools/hand/hammer-and-nail.webp",
-      "origin": "Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6",
+      "origin": "Compendium.eberron-5e.classes.Item.UlJI9lq1MPYfK7p6",
       "duration": {
         "startTime": null,
         "seconds": null,
@@ -115,8 +117,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1687066268181,
-    "modifiedTime": 1702848650612,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886723204,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!UlJI9lq1MPYfK7p6"
 }

@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "divine-sniper",
     "classIdentifier": "rogue",
@@ -20,9 +21,7 @@
       {
         "_id": "c0zzeeUrj5wbBzD5",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.5wveAVR4C5KDmCpf"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.5wveAVR4C5KDmCpf"],
           "optional": false,
           "spell": null
         },
@@ -35,8 +34,8 @@
         "_id": "RVkaHUWCJYGCHsEJ",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.jgclgAMg0TXujJXg",
-            "Compendium.chaosos-5e-content.community-classes.Item.z3ioDlGiODJAjoJS"
+            "Compendium.eberron-5e.classes.Item.jgclgAMg0TXujJXg",
+            "Compendium.eberron-5e.classes.Item.z3ioDlGiODJAjoJS"
           ],
           "optional": false,
           "spell": null
@@ -50,8 +49,8 @@
         "_id": "M7UtsnhtpYDV64BO",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.1wgwgWIDyFzGqVTW",
-            "Compendium.chaosos-5e-content.community-classes.Item.ZnO4Nvzie5BnA3z3"
+            "Compendium.eberron-5e.classes.Item.1wgwgWIDyFzGqVTW",
+            "Compendium.eberron-5e.classes.Item.ZnO4Nvzie5BnA3z3"
           ],
           "optional": false,
           "spell": null
@@ -64,9 +63,7 @@
       {
         "_id": "LwqLonBRUHhPDzds",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.8PIUIR3NsoWvnJ7X"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.8PIUIR3NsoWvnJ7X"],
           "optional": false,
           "spell": null
         },
@@ -93,8 +90,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686246011861,
-    "modifiedTime": 1702848615543,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!VOVlZjQ0flWumI31"
 }

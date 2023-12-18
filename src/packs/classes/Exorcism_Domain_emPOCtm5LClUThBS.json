@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "exorcism-domain",
     "classIdentifier": "cleric",
@@ -20,9 +21,7 @@
       {
         "_id": "7SHxbEg89aTe6mXd",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.2mjfTQFHxZtIQFWz"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.2mjfTQFHxZtIQFWz"],
           "optional": false,
           "spell": null
         },
@@ -35,8 +34,8 @@
         "_id": "43bPxhly45dnXmeu",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.IcdDAKZBMJfTFzJl",
-            "Compendium.chaosos-5e-content.community-classes.Item.c9B9CNm0B1OnVRuO"
+            "Compendium.eberron-5e.classes.Item.IcdDAKZBMJfTFzJl",
+            "Compendium.eberron-5e.classes.Item.c9B9CNm0B1OnVRuO"
           ],
           "optional": false,
           "spell": null
@@ -49,9 +48,7 @@
       {
         "_id": "qYFr2KDVFMRiGjrR",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.DSNLNbbyqj2uMHv9"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.DSNLNbbyqj2uMHv9"],
           "optional": false,
           "spell": null
         },
@@ -63,9 +60,7 @@
       {
         "_id": "drgzvE2F9YofXrtx",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.ToySX4si0f5HhpmH"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.ToySX4si0f5HhpmH"],
           "optional": false,
           "spell": null
         },
@@ -77,9 +72,7 @@
       {
         "_id": "3ZHI7IvPbDfhAUiJ",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.OClgdKdKoNXs73n1"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.OClgdKdKoNXs73n1"],
           "optional": false,
           "spell": null
         },
@@ -106,8 +99,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686202195348,
-    "modifiedTime": 1702848607622,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!emPOCtm5LClUThBS"
 }

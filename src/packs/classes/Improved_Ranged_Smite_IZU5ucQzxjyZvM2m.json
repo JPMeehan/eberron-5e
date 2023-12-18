@@ -11,7 +11,9 @@
       "unidentified": ""
     },
     "source": {
-      "custom": "Sarhain's Guide to the Silver Flame"
+      "custom": "",
+      "license": "DMsGuild CCA",
+      "book": "Sarhain's Guide to the Silver Flame"
     },
     "activation": {
       "type": "",
@@ -89,8 +91,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686185271149,
-    "modifiedTime": 1702848612656,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886723204,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!IZU5ucQzxjyZvM2m"
 }

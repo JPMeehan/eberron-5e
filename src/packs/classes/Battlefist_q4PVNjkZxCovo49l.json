@@ -10,7 +10,9 @@
       "chat": "",
       "unidentified": ""
     },
-    "source": {},
+    "source": {
+      "license": "DMsGuild CCA"
+    },
     "quantity": 1,
     "weight": 0,
     "price": {
@@ -129,8 +131,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700538640026,
-    "modifiedTime": 1702848658697,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!q4PVNjkZxCovo49l"
 }

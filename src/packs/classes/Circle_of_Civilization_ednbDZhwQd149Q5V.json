@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "circle-of-civilization",
     "classIdentifier": "druid",
@@ -20,9 +21,7 @@
       {
         "_id": "Z4tk3SJ4z5LDf6M6",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.JgnOYNjwH5aQpPGD"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.JgnOYNjwH5aQpPGD"],
           "optional": false,
           "spell": null
         },
@@ -35,8 +34,8 @@
         "_id": "GCUv4jCRAiVD580M",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.COFHidEuzYn9YksE",
-            "Compendium.chaosos-5e-content.community-classes.Item.oyyZ6krJbXxsBACu"
+            "Compendium.eberron-5e.classes.Item.COFHidEuzYn9YksE",
+            "Compendium.eberron-5e.classes.Item.oyyZ6krJbXxsBACu"
           ],
           "optional": false,
           "spell": null
@@ -49,9 +48,7 @@
       {
         "_id": "a8uKYWlQ7qrWXNN7",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.LApyXfodHnes3HJK"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.LApyXfodHnes3HJK"],
           "optional": false,
           "spell": null
         },
@@ -63,9 +60,7 @@
       {
         "_id": "a5CcdvCkLp4fBINK",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.Ac4o4Be7K7mDgr3B"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.Ac4o4Be7K7mDgr3B"],
           "optional": false,
           "spell": null
         },
@@ -92,8 +87,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686245862719,
-    "modifiedTime": 1702848608570,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!ednbDZhwQd149Q5V"
 }

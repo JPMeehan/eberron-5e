@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "way-of-the-conduit",
     "classIdentifier": "monk",
@@ -20,9 +21,7 @@
       {
         "_id": "8uaYIkNELa7W2WEL",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.NVDX6xw2gqclsNgz"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.NVDX6xw2gqclsNgz"],
           "optional": false,
           "spell": null
         },
@@ -35,8 +34,8 @@
         "_id": "VTYpZVPYTFUUMo4K",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.dMasqBQAbtG1hEqN",
-            "Compendium.chaosos-5e-content.community-classes.Item.dKtdzJB4BXfajlne"
+            "Compendium.eberron-5e.classes.Item.dMasqBQAbtG1hEqN",
+            "Compendium.eberron-5e.classes.Item.dKtdzJB4BXfajlne"
           ],
           "optional": false,
           "spell": null
@@ -49,9 +48,7 @@
       {
         "_id": "Djw471i0cjpPcv99",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.epQizBpuWryP5LUh"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.epQizBpuWryP5LUh"],
           "optional": false,
           "spell": null
         },
@@ -64,8 +61,8 @@
         "_id": "4VIMkScZhLOAXAeI",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.sdv5ZXmH2ogJQ6b1",
-            "Compendium.chaosos-5e-content.community-classes.Item.MQyl4y2O1Brj27gz"
+            "Compendium.eberron-5e.classes.Item.sdv5ZXmH2ogJQ6b1",
+            "Compendium.eberron-5e.classes.Item.MQyl4y2O1Brj27gz"
           ],
           "optional": false,
           "spell": null
@@ -93,8 +90,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686245930373,
-    "modifiedTime": 1702848611656,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!zd6waep8iPxSFdZn"
 }

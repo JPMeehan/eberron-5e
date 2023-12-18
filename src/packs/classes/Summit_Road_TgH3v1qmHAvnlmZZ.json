@@ -11,7 +11,9 @@
       "unidentified": ""
     },
     "source": {
-      "custom": "Linvakri's Guide to Syrkarn"
+      "custom": "",
+      "license": "DMsGuild CCA",
+      "book": "Linvakri's Guide to Syrkarn"
     },
     "identifier": "summit-road",
     "classIdentifier": "ranger",
@@ -33,8 +35,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686184867624,
-    "modifiedTime": 1702848614662,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886723204,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!TgH3v1qmHAvnlmZZ"
 }

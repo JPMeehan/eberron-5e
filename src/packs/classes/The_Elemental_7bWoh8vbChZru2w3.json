@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "the-elemental",
     "classIdentifier": "warlock",
@@ -20,9 +21,7 @@
       {
         "_id": "KHCFzCRyMI8yFOKP",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.Ybf1OIxRb01s1K5b"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.Ybf1OIxRb01s1K5b"],
           "optional": false,
           "spell": null
         },
@@ -35,8 +34,8 @@
         "_id": "uuT20sPqKLjH3mUC",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.pK4T7w7LNkUQVWOD",
-            "Compendium.chaosos-5e-content.community-classes.Item.QYMmmREFBqnaJ0an"
+            "Compendium.eberron-5e.classes.Item.pK4T7w7LNkUQVWOD",
+            "Compendium.eberron-5e.classes.Item.QYMmmREFBqnaJ0an"
           ],
           "optional": false,
           "spell": null
@@ -49,9 +48,7 @@
       {
         "_id": "h2qt4XebEzmFTiQl",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.EN4MdItVhWK6GIUk"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.EN4MdItVhWK6GIUk"],
           "optional": false,
           "spell": null
         },
@@ -63,9 +60,7 @@
       {
         "_id": "huowlT6S452s3JiG",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.Ar2P9gAaD5ruYWLX"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.Ar2P9gAaD5ruYWLX"],
           "optional": false,
           "spell": null
         },
@@ -92,8 +87,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686246120614,
-    "modifiedTime": 1702848617698,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!7bWoh8vbChZru2w3"
 }

@@ -12,7 +12,8 @@
     },
     "source": {
       "book": "Archetypes of Eberron",
-      "custom": ""
+      "custom": "",
+      "license": "DMsGuild CCA"
     },
     "identifier": "path-of-the-feral-heart",
     "classIdentifier": "barbarian",
@@ -21,8 +22,8 @@
         "_id": "k373ROQFrX6t6dmz",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.xtASAXgOgKb3beNu",
-            "Compendium.chaosos-5e-content.community-classes.Item.VWL0pS8h0rrecgIu"
+            "Compendium.eberron-5e.classes.Item.xtASAXgOgKb3beNu",
+            "Compendium.eberron-5e.classes.Item.VWL0pS8h0rrecgIu"
           ],
           "optional": false,
           "spell": null
@@ -35,9 +36,7 @@
       {
         "_id": "hPkZFNH9lvFSyjq2",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.Ib14BpNqUMpMOo7B"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.Ib14BpNqUMpMOo7B"],
           "optional": false,
           "spell": null
         },
@@ -50,8 +49,8 @@
         "_id": "M9MZsRqU7GGptkeq",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.bTXKQ8qvsQnRCODo",
-            "Compendium.chaosos-5e-content.community-classes.Item.dkDkadhcsJBWzXtU"
+            "Compendium.eberron-5e.classes.Item.bTXKQ8qvsQnRCODo",
+            "Compendium.eberron-5e.classes.Item.dkDkadhcsJBWzXtU"
           ],
           "optional": false,
           "spell": null
@@ -64,9 +63,7 @@
       {
         "_id": "t41uWw6TP8AcpziV",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.community-classes.Item.kfDY3KZmQORHGqXf"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.kfDY3KZmQORHGqXf"],
           "optional": false,
           "spell": null
         },
@@ -93,8 +90,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686201703141,
-    "modifiedTime": 1702848606085,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!ATpWPZ6JAQTWeGbp"
 }

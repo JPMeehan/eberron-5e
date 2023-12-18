@@ -11,7 +11,9 @@
       "unidentified": ""
     },
     "source": {
-      "custom": "Ghaash'kala - Paladins of the Wastes"
+      "custom": "",
+      "license": "DMsGuild CCA",
+      "book": "Ghaash'kala - Paladins of the Wastes"
     },
     "identifier": "oath-of-wrath",
     "classIdentifier": "paladin",
@@ -33,8 +35,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686185690091,
-    "modifiedTime": 1702848612656,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886723204,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!o11b0HnyqrQVlHAd"
 }

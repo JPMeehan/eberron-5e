@@ -10,7 +10,9 @@
       "chat": "",
       "unidentified": ""
     },
-    "source": {},
+    "source": {
+      "license": "DMsGuild CCA"
+    },
     "identifier": "way-of-the-living-weapon",
     "classIdentifier": "monk",
     "advancement": [
@@ -19,8 +21,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.bQaN4juCNDrc695y",
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.bWbP1SKqYnwDeOXz"
+            "Compendium.eberron-5e.classes.Item.bQaN4juCNDrc695y",
+            "Compendium.eberron-5e.classes.Item.bWbP1SKqYnwDeOXz"
           ],
           "optional": false,
           "spell": null
@@ -40,10 +42,10 @@
           "allowDrops": false,
           "type": "feat",
           "pool": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.W0y47LzW0CN0vuA3",
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.SvFQd5ULepC0QtbB",
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.acXbYjUAp6zJOc3S",
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.0LODAU04lwD9vpLk"
+            "Compendium.eberron-5e.classes.Item.W0y47LzW0CN0vuA3",
+            "Compendium.eberron-5e.classes.Item.SvFQd5ULepC0QtbB",
+            "Compendium.eberron-5e.classes.Item.acXbYjUAp6zJOc3S",
+            "Compendium.eberron-5e.classes.Item.0LODAU04lwD9vpLk"
           ],
           "spell": null,
           "hint": "Starting at 3rd level, when you adopt this tradition, choose a discipline and gain its feature.",
@@ -60,9 +62,7 @@
         "_id": "iZRUzFzhjOKz6YSO",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.nBH53N5SyaGNCL4h"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.nBH53N5SyaGNCL4h"],
           "optional": false,
           "spell": null
         },
@@ -75,9 +75,7 @@
         "_id": "N6hECqLLBySwQ6D0",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.sLrgQccehFTgctI9"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.sLrgQccehFTgctI9"],
           "optional": false,
           "spell": null
         },
@@ -120,10 +118,10 @@
           "allowDrops": false,
           "type": "feat",
           "pool": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.saLWtrLlf6lGGOS3",
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.giG49nJ6Yjzm8Vqb",
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.JZMBNn1GxtxBiEKz",
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.DMQnQvVYy2lWyksc"
+            "Compendium.eberron-5e.classes.Item.saLWtrLlf6lGGOS3",
+            "Compendium.eberron-5e.classes.Item.giG49nJ6Yjzm8Vqb",
+            "Compendium.eberron-5e.classes.Item.JZMBNn1GxtxBiEKz",
+            "Compendium.eberron-5e.classes.Item.DMQnQvVYy2lWyksc"
           ],
           "spell": null,
           "hint": "At 17th level, you transform your body to become a weapon of\nwar. You gain a feature based on a discipline of your choice. You\ncan choose the same discipline you selected at 3rd level or a\ndifferent one.",
@@ -153,8 +151,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686341458536,
-    "modifiedTime": 1702848836594,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!jlqbDpjzjAgdXqKh"
 }

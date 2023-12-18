@@ -11,7 +11,9 @@
       "unidentified": ""
     },
     "source": {
-      "custom": "Dread Metrol"
+      "custom": "",
+      "license": "DMsGuild CCA",
+      "book": "Dread Metrol"
     },
     "identifier": "mastermaker",
     "classIdentifier": "artificer",
@@ -21,10 +23,10 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.eKAf9Sl8kGnKaJWF",
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.N9IOGAUIWKHvc3b9",
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.6TSc4qsVneMCytoC",
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.q4PVNjkZxCovo49l"
+            "Compendium.eberron-5e.classes.Item.eKAf9Sl8kGnKaJWF",
+            "Compendium.eberron-5e.classes.Item.N9IOGAUIWKHvc3b9",
+            "Compendium.eberron-5e.classes.Item.6TSc4qsVneMCytoC",
+            "Compendium.eberron-5e.classes.Item.q4PVNjkZxCovo49l"
           ],
           "optional": false,
           "spell": null
@@ -62,9 +64,7 @@
         "_id": "49aeEMaKRrd23Ecr",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.oDI1NqwGLOkBpXqQ"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.oDI1NqwGLOkBpXqQ"],
           "optional": false,
           "spell": null
         },
@@ -77,9 +77,7 @@
         "_id": "RN6Qa2RwphSbp2NV",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.2dF9uXJMiFb5K4WS"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.2dF9uXJMiFb5K4WS"],
           "optional": false,
           "spell": null
         },
@@ -92,9 +90,7 @@
         "_id": "XDhYHUgdz2giA06Z",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.EBMJdSGZZy5SWdpA"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.EBMJdSGZZy5SWdpA"],
           "optional": false,
           "spell": null
         },
@@ -121,8 +117,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686341191991,
-    "modifiedTime": 1702848658697,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886723204,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!arVZcmKMljhP0Nbi"
 }

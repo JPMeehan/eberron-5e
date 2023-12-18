@@ -11,7 +11,9 @@
       "unidentified": ""
     },
     "source": {
-      "custom": "Talvakri's Guide to Adar"
+      "custom": "",
+      "license": "DMsGuild CCA",
+      "book": "Talvakri's Guide to Adar"
     },
     "identifier": "way-of-the-summit-sentinel",
     "classIdentifier": "monk",
@@ -33,8 +35,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686185123550,
-    "modifiedTime": 1702848611656,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886723204,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!Pbq27VYLGwvAncB1"
 }

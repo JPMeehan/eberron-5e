@@ -10,7 +10,9 @@
       "chat": "",
       "unidentified": ""
     },
-    "source": {},
+    "source": {
+      "license": "DMsGuild CCA"
+    },
     "identifier": "college-of-the-dirge-singer",
     "classIdentifier": "bard",
     "advancement": [
@@ -19,8 +21,8 @@
         "type": "ItemGrant",
         "configuration": {
           "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.mT5ptFNVu9IS3Bb4",
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.dCGOLJbRNGX5YGzz"
+            "Compendium.eberron-5e.classes.Item.mT5ptFNVu9IS3Bb4",
+            "Compendium.eberron-5e.classes.Item.dCGOLJbRNGX5YGzz"
           ],
           "optional": false,
           "spell": null
@@ -34,9 +36,7 @@
         "_id": "haAcbaWRovNfqvN5",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.En0JYeTAJv2omkBE"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.En0JYeTAJv2omkBE"],
           "optional": false,
           "spell": null
         },
@@ -49,9 +49,7 @@
         "_id": "yNQRHFyhi6RKPwuP",
         "type": "ItemGrant",
         "configuration": {
-          "items": [
-            "Compendium.chaosos-5e-content.kbp-subclasses.Item.3M1s4p1ZkFzg4xlK"
-          ],
+          "items": ["Compendium.eberron-5e.classes.Item.3M1s4p1ZkFzg4xlK"],
           "optional": false,
           "spell": null
         },
@@ -78,8 +76,8 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686341327776,
-    "modifiedTime": 1702848811620,
-    "lastModifiedBy": "q6n1efCGVB98drEQ"
+    "modifiedTime": 1702886575024,
+    "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!g8TMe5LK4Gx8h7nx"
 }
