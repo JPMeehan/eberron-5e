@@ -83,12 +83,6 @@
         "type": "reaction"
       }
     },
-    "plutonium": {
-      "page": "subclassFeature",
-      "source": "ArchEb",
-      "hash": "eldritch%20tapestry_artificer_tce_war%20weaver_archeb_3_archeb",
-      "propDroppable": "subclassFeature"
-    },
     "core": {}
   },
   "effects": [],

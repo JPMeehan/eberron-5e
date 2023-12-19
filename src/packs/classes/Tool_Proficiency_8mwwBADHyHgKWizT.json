@@ -82,12 +82,6 @@
   },
   "img": "icons/skills/trades/textiles-cloth-dye-red.webp",
   "flags": {
-    "plutonium": {
-      "page": "subclassFeature",
-      "source": "ArchEb",
-      "hash": "tool%20proficiency_artificer_tce_war%20weaver_archeb_3_archeb",
-      "propDroppable": "subclassFeature"
-    },
     "core": {}
   },
   "effects": [],
