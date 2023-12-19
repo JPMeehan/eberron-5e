@@ -3,7 +3,7 @@
   "name": "Shadow's Apotheosis",
   "type": "feat",
   "_id": "IzL3Al8lY7wcRJ9z",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
   "system": {
     "description": {
       "value": "<p>The range of your Channel Divinity: Awaken Ambition feature increases from 15 feet to 30 feet. In addition, creatures affected by your Shadow’s Gifts feature gain all four benefits, instead of just one.</p>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Chronicles of Eberron"
     },
     "activation": {
       "type": "",
@@ -68,10 +69,10 @@
       "scaling": "spell"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Aspiration Domain 17",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700547466161,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011739,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!IzL3Al8lY7wcRJ9z"

@@ -67,16 +67,16 @@
       "scaling": "flat"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Paladin 15 (Bone Knight)",
+    "requirements": "Oath of the Bone Knight 15",
     "recharge": {
       "value": null,
       "charged": false
     }
   },
-  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "img": "icons/magic/death/skull-humanoid-crown-white-blue.webp",
   "flags": {},
   "effects": [],
   "folder": "pfgIPIhOb1vLietp",
@@ -86,7 +86,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686419461037,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011779,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "sort": 1521460,

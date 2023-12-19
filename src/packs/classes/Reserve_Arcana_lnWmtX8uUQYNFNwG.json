@@ -3,7 +3,7 @@
   "name": "Reserve Arcana",
   "type": "feat",
   "_id": "lnWmtX8uUQYNFNwG",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/magic/light/orb-beams-green.webp",
   "system": {
     "description": {
       "value": "<p>Starting at 6th level, the Dragon Between grants you the ability to store a portion of your power to use at a later date. Whenever you expend a warlock spell slot, you gain two points of \"reserve arcana\", up to a maximum number of points equal to your Charisma modifier. When you make an attack roll, ability check, or saving throw you may spend one point of reserve arcana to add 1d6 to that roll. When you make a damage roll, you may also spend any number of reserve arcana points up to a maximum of your Charisma modifier. Each point spent in this way adds 1d10 force damage to the roll. If the damage roll would affect multiple targets, choose only one to take the extra damage. You must decide to spend your reserve arcana before you roll the attack roll, ability check or damage roll.</p><p> You lose all accumulated points of reserve arcana when you finish a short rest or a long rest</p>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Imogen Gingell"
     },
     "activation": {
       "type": "",
@@ -68,10 +69,10 @@
       "scaling": "spell"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Eberron, the Dragon Between 6",
     "recharge": {
       "value": null,
       "charged": false
@@ -89,7 +90,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1702530105673,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011623,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!lnWmtX8uUQYNFNwG"

@@ -67,16 +67,16 @@
       "scaling": "flat"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Warlock 6 (The Soulborn)",
+    "requirements": "The Soulborn 6",
     "recharge": {
       "value": null,
       "charged": false
     }
   },
-  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "img": "icons/magic/symbols/runes-etched-steel-blade.webp",
   "flags": {},
   "effects": [],
   "folder": "vzIlOGhag2UY2YNO",
@@ -86,7 +86,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686425383367,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011752,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "sort": 604330,

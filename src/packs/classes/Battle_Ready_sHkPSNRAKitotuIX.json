@@ -3,7 +3,7 @@
   "name": "Battle Ready",
   "type": "feat",
   "_id": "sHkPSNRAKitotuIX",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
   "system": {
     "description": {
       "value": "<p>Beginning at 3rd level, you’re skilled in fighting side-by-side with your companions on the field of battle. You gain proficiency with martial weapons. Additionally, when you attack with a magic weapon, you can use your Intelligence modifier, instead of Strength or Dexterity, for the attack and damage rolls.</p>",
@@ -73,7 +73,7 @@
       "value": "class",
       "subtype": ""
     },
-    "requirements": "Artificer 3 (Forge Adept)",
+    "requirements": "Forge Adept 3",
     "recharge": {
       "value": null,
       "charged": false
@@ -91,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1699122269361,
-    "modifiedTime": 1702886723204,
+    "modifiedTime": 1702949011743,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!sHkPSNRAKitotuIX"

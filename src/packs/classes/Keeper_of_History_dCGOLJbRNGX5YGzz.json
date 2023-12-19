@@ -3,7 +3,7 @@
   "name": "Keeper of History",
   "type": "feat",
   "_id": "dCGOLJbRNGX5YGzz",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/tools/instruments/horn-flared-wood.webp",
   "system": {
     "description": {
       "value": "<p>Also at 3rd level, you gain proficiency in either History or Performance. If you are already proficient in both of these skills, you gain proficiency in one of the following skills of your choice: Arcana, Intimidation, or Persuasion. </p><p>In addition, choose either History or Performance. Your proficiency bonus is doubled for any ability check you make that uses that skill.</p>",
@@ -71,7 +71,7 @@
       "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "College of the Dirge Singer 3",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +90,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700543586168,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011857,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!dCGOLJbRNGX5YGzz"

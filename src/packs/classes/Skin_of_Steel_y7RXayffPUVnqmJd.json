@@ -3,7 +3,7 @@
   "name": "Skin of Steel",
   "type": "feat",
   "_id": "y7RXayffPUVnqmJd",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
   "system": {
     "description": {
       "value": "<p>Starting at 2nd level, while you are transformed by Wild Shape, you gain the following benefits:</p><ul><li><p>You gain a +2 bonus to Armor Class.</p></li><li><p>You have advantage on saving throws against being poisoned, and you have resistance to poison damage.</p></li><li><p>You don’t need to eat, drink, or breathe.</p></li><li><p>You are immune to disease.</p></li><li><p>You don’t need to sleep, and magic can’t put you to sleep.</p></li></ul><p>While in beast form, your body is made from the same materials as a warforged; your muscles are rootlike tendrils protected by armored plates. It’s obvious to an observer that you are not a normal animal.</p>",
@@ -68,10 +68,10 @@
       "scaling": "spell"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Circle of the Forged 2",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +90,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700548248546,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011920,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!y7RXayffPUVnqmJd"

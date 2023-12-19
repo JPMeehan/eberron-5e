@@ -67,16 +67,16 @@
       "scaling": "flat"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Warlock 6 (The Elemental)",
+    "requirements": "The Elemental 6",
     "recharge": {
       "value": null,
       "charged": false
     }
   },
-  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
   "flags": {},
   "effects": [],
   "folder": "eax66IemxUcbOOQ3",
@@ -86,7 +86,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686425311240,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011634,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "sort": 616440,

@@ -67,16 +67,16 @@
       "scaling": "flat"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Cleric 17 (Change)",
+    "requirements": "Change Domain 17",
     "recharge": {
       "value": null,
       "charged": false
     }
   },
-  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "img": "icons/magic/control/buff-luck-fortune-gold.webp",
   "flags": {},
   "effects": [],
   "folder": "r1wmOqxeIwATV8rw",
@@ -86,7 +86,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686418486834,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011742,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "sort": 1721460,

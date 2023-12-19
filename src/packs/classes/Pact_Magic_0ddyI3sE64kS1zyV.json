@@ -67,16 +67,16 @@
       "scaling": "con"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Barbarian 3 (Rage Mage)",
+    "requirements": "Path of the Rage Mage 3",
     "recharge": {
       "value": null,
       "charged": false
     }
   },
-  "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
+  "img": "icons/magic/fire/flame-burning-fist-strike.webp",
   "flags": {},
   "effects": [],
   "folder": "oL5ygCNARwUmy8wa",
@@ -86,7 +86,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686418443256,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011783,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "sort": 316330,

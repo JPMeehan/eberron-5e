@@ -3,7 +3,7 @@
   "name": "Improved Battlefist",
   "type": "feat",
   "_id": "2dF9uXJMiFb5K4WS",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/magic/symbols/runes-etched-steel-blade.webp",
   "system": {
     "description": {
       "value": "<p>You have modified your battlefist in both mundane and magical ways. It gains the following benefits: </p><ul><li><p>When you infuse your battlefist, you can apply two infusions to it at a time. If both infusions grant bonuses to your attack rolls or armor class, you gain only the greater bonus. </p></li><li><p>Your battlefist is also a shield, increasing your armor class by 2. You can wield it as a weapon even if you are using it as a shield. You can infuse it as if it were both a simple melee weapon and a shield. </p></li><li><p>The maximum number of items you can infuse at once increases by 1, but the extra infusion must be applied to your battlefist</p></li></ul>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Dread Metrol"
     },
     "activation": {
       "type": "",
@@ -71,7 +72,7 @@
       "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Mastermaker 9",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700539393612,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011792,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!2dF9uXJMiFb5K4WS"

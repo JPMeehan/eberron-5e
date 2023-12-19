@@ -3,7 +3,7 @@
   "name": "Psychic Force",
   "type": "feat",
   "_id": "wlJcwJleQviDxjqL",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/magic/perception/third-eye-blue-red.webp",
   "system": {
     "description": {
       "value": "<p>Also at 1st level, you learn to buffet your foes with mental power. When you cast a cleric spell or cantrip that inflicts radiant damage, you can choose to have it inflict psychic damage instead.</p>",
@@ -68,10 +68,10 @@
       "scaling": "spell"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Mind Domain 1",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +90,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700547874289,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011846,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!wlJcwJleQviDxjqL"

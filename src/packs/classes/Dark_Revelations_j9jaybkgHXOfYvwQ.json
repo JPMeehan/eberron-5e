@@ -3,7 +3,7 @@
   "name": "Dark Revelations",
   "type": "feat",
   "_id": "j9jaybkgHXOfYvwQ",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
   "system": {
     "description": {
       "value": "<p>Your divine studies have revealed a wealth of knowledge to you. You gain proficiency in one skill or tool of your choice, and your proficiency bonus is doubled for any ability check you make using that skill or tool. Whenever you finish a long rest, you can change the proficiency granted by this feature to another skill or tool.</p>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Chronicles of Eberron"
     },
     "activation": {
       "type": "",
@@ -71,7 +72,7 @@
       "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Aspiration Domain 1",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700547268853,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011735,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!j9jaybkgHXOfYvwQ"

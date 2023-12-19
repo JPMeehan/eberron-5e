@@ -67,16 +67,16 @@
       "scaling": "flat"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Artificer 15 (War Weaver)",
+    "requirements": "War Weaver 15",
     "recharge": {
       "value": null,
       "charged": false
     }
   },
-  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "img": "icons/skills/trades/textiles-cloth-dye-red.webp",
   "flags": {
     "plutonium": {
       "page": "subclassFeature",
@@ -93,7 +93,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686418411830,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011914,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "ownership": {

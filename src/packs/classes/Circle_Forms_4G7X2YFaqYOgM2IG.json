@@ -3,7 +3,7 @@
   "name": "Circle Forms",
   "type": "feat",
   "_id": "4G7X2YFaqYOgM2IG",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
   "system": {
     "description": {
       "value": "<p>The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there). </p><p>Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.</p>",
@@ -68,10 +68,10 @@
       "scaling": "spell"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Circle of the Forged 2",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +90,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700548216603,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011919,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!4G7X2YFaqYOgM2IG"

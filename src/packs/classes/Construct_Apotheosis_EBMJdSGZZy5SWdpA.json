@@ -3,7 +3,7 @@
   "name": "Construct Apotheosis",
   "type": "feat",
   "_id": "EBMJdSGZZy5SWdpA",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/magic/symbols/runes-etched-steel-blade.webp",
   "system": {
     "description": {
       "value": "<p>You have modified your form, becoming nearly impervious to the weaknesses of flesh. You gain the following benefits: </p><ul><li><p>You gain resistance to poison damage and psychic damage, and you are immune to the poisoned condition. </p></li><li><p>If you are affected by a spell or magical effect, you can choose to consider yourself a construct instead of your other creature types. </p></li><li><p>You can cast the <em>antilife shell</em> and <em>investiture of stone</em> spells without expending a spell slot, without preparing the spell, and without material components, provided you use your battlefist as the spellcasting focus. Once you cast either spell with this feature, you can’t cast that spell with it again until you finish a long rest.</p></li></ul>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Dread Metrol"
     },
     "activation": {
       "type": "",
@@ -71,7 +72,7 @@
       "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Mastermaker 15",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700539580767,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011793,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!EBMJdSGZZy5SWdpA"

@@ -3,7 +3,7 @@
   "name": "Prosthesis Expertise",
   "type": "feat",
   "_id": "6TSc4qsVneMCytoC",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/magic/symbols/runes-etched-steel-blade.webp",
   "system": {
     "description": {
       "value": "<p>Whenever you finish a long rest, you can touch a nonmagical object and imbue it with your power, creating a permanent magical item that replaces a lost limb—a hand, arm, foot, leg, or similar body part. While the prosthetic is attached, it functions identically to the part it replaces. The wearer can detach or reattach it as an action, and it can’t be removed against the wearer’s will. It detaches if the wearer dies.</p>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Dread Metrol"
     },
     "activation": {
       "type": "",
@@ -71,7 +72,7 @@
       "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Mastermaker 3",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700538537408,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011789,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!6TSc4qsVneMCytoC"

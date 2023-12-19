@@ -67,16 +67,16 @@
       "scaling": "flat"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Barbarian 3 (Rage Mage)",
+    "requirements": "Path of the Rage Mage 3",
     "recharge": {
       "value": null,
       "charged": false
     }
   },
-  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "img": "icons/magic/fire/flame-burning-fist-strike.webp",
   "flags": {},
   "effects": [],
   "folder": "oL5ygCNARwUmy8wa",
@@ -86,7 +86,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686418442759,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011781,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "sort": 304370,

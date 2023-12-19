@@ -3,7 +3,7 @@
   "name": "Perfect Weapon",
   "type": "feat",
   "_id": "YfwVbBKuyRaKGbfj",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
   "system": {
     "description": {
       "value": "<p>At 15th level, you learn how to imbue your ghaal’shaarat with additional power, and how to draw on it in time of need. The first time you attack with your ghaal’shaarat on your turn, you can transfer some or all of its bonus to your armor class, instead of using the bonus on any attacks that turn. For every 1 you reduce your attack and damage rolls by, you gain +1 to your AC. As long as you continue holding your ghaal’shaarat, the AC bonus remains in effect until the start of your next turn. </p><p>Additionally, when you finish a long rest, you can select one of the following benefits. Until you finish your next long rest, you gain the selected benefit whenever you’re holding your ghaal’shaarat. </p><ul><li><p>You have resistance to psychic damage, and you can’t be charmed or frightened. </p></li><li><p>You use your ghaal’shaarat to channel the elements. When you select this ability, select one of the following damage types: acid, cold, fire, lightning, or thunder. When you hit with your ghaal’shaarat, the target takes an extra 1d6 damage of the chosen type.</p></li></ul>",
@@ -12,7 +12,8 @@
     },
     "source": {
       "custom": "",
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Exploring Eberron"
     },
     "activation": {
       "type": "",
@@ -69,10 +70,10 @@
       "scaling": "spell"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Artificer 15 (Forge Adept)",
+    "requirements": "Forge Adept 15",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1699122386835,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011750,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!YfwVbBKuyRaKGbfj"

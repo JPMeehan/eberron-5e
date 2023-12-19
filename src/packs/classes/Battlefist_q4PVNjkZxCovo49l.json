@@ -3,7 +3,7 @@
   "name": "Battlefist",
   "type": "weapon",
   "_id": "q4PVNjkZxCovo49l",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/hand/gauntlet-armored-leather-teal-orange.webp",
   "system": {
     "description": {
       "value": "<p>You replace one of your arms with a battlefist, a magical prosthetic you created. Your battlefist is a simple melee weapon, and you can use it as a spellcasting focus for your artificer spells. While your battlefist is a magical weapon, it can be infused as if it were a nonmagical weapon. </p><p>When you attack with your battlefist, you can use your Intelligence modifier instead of Strength for the attack roll. If you hit with it, you deal bludgeoning damage equal to 1d10 + your Strength or Intelligence modifier. At 9th level, the damage dealt by your battlefist increases to 2d10 + your Strength or Intelligence modifier. </p><p>Additionally, you can choose one of the following weapon properties to add to your battlefist: finesse, thrown (range 20/60), or reach. When you finish a long rest, you can replace this property with a different weapon property from the list.</p>",
@@ -131,7 +131,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700538640026,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949392526,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!q4PVNjkZxCovo49l"

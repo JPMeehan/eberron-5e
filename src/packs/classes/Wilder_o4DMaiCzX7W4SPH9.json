@@ -36,7 +36,9 @@
       {
         "_id": "4y2ZURxTwDa5RknG",
         "configuration": {
-          "items": ["Compendium.eberron-5e.classes.Item.OlkhnL3VegZcSsVt"],
+          "items": [
+            "Compendium.eberron-5e.classes.Item.OlkhnL3VegZcSsVt"
+          ],
           "optional": false,
           "spell": null
         },
@@ -63,7 +65,9 @@
       {
         "_id": "cHAjSXWw2IcRQj3z",
         "configuration": {
-          "items": ["Compendium.eberron-5e.classes.Item.aS8GcnWMesAyone9"],
+          "items": [
+            "Compendium.eberron-5e.classes.Item.aS8GcnWMesAyone9"
+          ],
           "optional": false,
           "spell": null
         },

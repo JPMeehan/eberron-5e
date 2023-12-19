@@ -3,7 +3,7 @@
   "name": "Eyes Unveiled",
   "type": "feat",
   "_id": "WrY1JdK6MpkprH5H",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
   "system": {
     "description": {
       "value": "<p>Your sight is unhindered, and you can see in the deepest shadows. You have darkvision out to a range of 120 feet. In that radius, you can see in dim light as if it were bright light and in darkness as if it were dim light. In addition, you have advantage on saving throws against illusion spells and on ability checks to determine whether something is an illusion.</p>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Chronicles of Eberron"
     },
     "activation": {
       "type": "",
@@ -71,7 +72,7 @@
       "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Aspiration Domain 1",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700547290984,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011736,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!WrY1JdK6MpkprH5H"

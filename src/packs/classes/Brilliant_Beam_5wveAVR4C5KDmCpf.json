@@ -72,16 +72,16 @@
       "scaling": "cha"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Rogue 17 (Divine Sniper)",
+    "requirements": "Divine Sniper 17",
     "recharge": {
       "value": null,
       "charged": false
     }
   },
-  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "img": "icons/skills/ranged/arrows-flying-salvo-yellow.webp",
   "flags": {},
   "effects": [],
   "folder": "40EIVxYIetLHoVyd",
@@ -91,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686425222058,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011768,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "sort": 1702500,

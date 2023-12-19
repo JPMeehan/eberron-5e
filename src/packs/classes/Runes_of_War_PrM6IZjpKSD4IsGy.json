@@ -3,7 +3,7 @@
   "name": "Runes of War",
   "type": "feat",
   "_id": "PrM6IZjpKSD4IsGy",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
   "system": {
     "description": {
       "value": "<p>At 9th level, you gain the ability to enhance the weapons of your squad, targeting the damage to the weakness of your enemies. As an action, you can activate an aura that extends from you in a 30-foot radius. The aura moves with you, centered on you, and lasts for 1 minute or until your concentration ends (as if you were casting a spell). </p><p>When you activate this aura, choose one of the following damage types: acid, cold, fire, lightning, or thunder. Each creature of your choice in the aura deals an extra 1d4 damage of the chosen type when it hits with a weapon attack. You can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses after a long rest.</p>",
@@ -12,7 +12,8 @@
     },
     "source": {
       "custom": "",
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Exploring Eberron"
     },
     "activation": {
       "type": "",
@@ -69,10 +70,10 @@
       "scaling": "spell"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Artificer 9 (Forge Adept)",
+    "requirements": "Forge Adept 9",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1699122372533,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011748,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!PrM6IZjpKSD4IsGy"

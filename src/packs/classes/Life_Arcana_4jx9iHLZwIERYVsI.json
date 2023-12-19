@@ -3,7 +3,7 @@
   "name": "Life Arcana",
   "type": "feat",
   "_id": "4jx9iHLZwIERYVsI",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/magic/light/orb-beams-green.webp",
   "system": {
     "description": {
       "value": "<p>Starting at 14th level, the Dragon Between bestows upon you a special Eberron dragonshard. As a bonus action, you may place the dragonshard upon the ground and expend it to instantly grow a 10 foot tall sapling in its place. Whenever any creature within 100 feet of the sapling expends a spell slot, the sapling grows 5 feet taller and grants you two points of reserve arcana, which may exceed your usual maximum. You may only gain two points of reserve arcana per turn. The sapling holds its power for 1 hour, and for that duration you can store an unlimited number of reserve arcana points. When the sapling's magic dissipates, any points of reserve arcana above your usual maximum are lost. The sapling persists as a non-magical tree.</p><p> If your pact-given Eberron dragonshard is expended or destroyed, you may generate a new one when you finish a long rest.</p>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Imogen Gingell"
     },
     "activation": {
       "type": "",
@@ -68,10 +69,10 @@
       "scaling": "spell"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Eberron, the Dragon Between 14",
     "recharge": {
       "value": null,
       "charged": false
@@ -89,7 +90,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1702530141585,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011625,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!4jx9iHLZwIERYVsI"

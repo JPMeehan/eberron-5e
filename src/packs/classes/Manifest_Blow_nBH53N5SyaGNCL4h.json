@@ -3,7 +3,7 @@
   "name": "Manifest Blow",
   "type": "feat",
   "_id": "nBH53N5SyaGNCL4h",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/skills/melee/hand-grip-staff-teal.webp",
   "system": {
     "description": {
       "value": "<p>Starting at 6th level, choose one of the following damage types when you finish a long rest: bludgeoning, piercing, slashing, cold, lightning, necrotic, psychic, or thunder. On your turn, the first creature you hit with an unarmed strike takes an additional 1d6 points of damage of that type. If you select bludgeoning, piercing, or slashing damage, it benefits from your Ki-Empowered Strikes class feature and counts as magical damage. </p><p>Nightmare Shroud monks typically inflict psychic damage with this ability, Forged Heart monks enhance their bludgeoning damage, and Weretouched grow sharper claws. However, you can choose any damage type, regardless of your discipline(s).</p>",
@@ -68,10 +68,10 @@
       "scaling": "spell"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Way of the Living Weapon 6",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +90,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700618337669,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011907,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!nBH53N5SyaGNCL4h"

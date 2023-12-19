@@ -3,7 +3,7 @@
   "name": "Final Breakthrough",
   "type": "feat",
   "_id": "WNDbIKjQoBkyORMA",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/magic/symbols/runes-triangle-blue.webp",
   "system": {
     "description": {
       "value": "<p>At 15th level, you gain one additional spell slot of each spell level you can prepare. These spell slots can only be used to cast the bonus spells granted by your Arcane Breakthroughs. As you gain levels in this class and are able to prepare 5th-level artificer spells, you gain an additional spell slot of that level</p>",
@@ -71,7 +71,7 @@
       "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Maverick 15",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +90,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700534438068,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011869,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!WNDbIKjQoBkyORMA"

@@ -9,7 +9,8 @@
     },
     "source": {
       "custom": "",
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Dread Metrol"
     },
     "activation": {
       "type": "",
@@ -66,10 +67,10 @@
       "scaling": "flat"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Artificer 5 (Mastermaker)",
+    "requirements": "Mastermaker 5",
     "recharge": {
       "value": null,
       "charged": false
@@ -80,7 +81,7 @@
     "MVioF9x1qI1WYGx1": 3,
     "q6n1efCGVB98drEQ": 3
   },
-  "img": "icons/skills/melee/spear-tips-triple-orange.webp",
+  "img": "icons/magic/symbols/runes-etched-steel-blade.webp",
   "flags": {
     "core": {}
   },
@@ -91,7 +92,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1685144917771,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011790,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_id": "oDI1NqwGLOkBpXqQ",

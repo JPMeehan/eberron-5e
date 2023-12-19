@@ -3,7 +3,7 @@
   "name": "Bonds of Balance",
   "type": "feat",
   "_id": "aFTLAr21caWdrdGC",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/magic/light/orb-beams-green.webp",
   "system": {
     "description": {
       "value": "<p>Starting at 1st level, your arcane magic supports and grows the life that surrounds you. Whenever you expend a warlock spell slot, you can choose one creature within 30 feet of you (including yourself). That creature gains temporary hit points equal to half your level (rounded down) plus your Charisma modifier. The temporary hit points last until the creature finishes a short rest or a long rest.</p>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Imogen Gingell"
     },
     "activation": {
       "type": "",
@@ -68,10 +69,10 @@
       "scaling": "spell"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Eberron, the Dragon Between 1",
     "recharge": {
       "value": null,
       "charged": false
@@ -89,7 +90,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1702530093402,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011621,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!aFTLAr21caWdrdGC"

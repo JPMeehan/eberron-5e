@@ -3,7 +3,7 @@
   "name": "World's Halo",
   "type": "feat",
   "_id": "Dxl1Vy3t2ZDlYY67",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/magic/light/beam-horizon-strike-yellow.webp",
   "system": {
     "description": {
       "value": "<p>Starting at 1st level, you gain the ability to wield the light cast by the Ring of Siberys, which can be used to reveal truths. You can cast the cantrip light. As an action, you can enhance the effect of an active light spell. Creatures within the spell's area of bright light gain advantage on the first Wisdom check and the first Wisdom saving throw they make while illuminated by the enhanced light spell. When you enhance a light spell with this feature, you must complete a short rest before you can do so again.</p>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Imogen Gingell"
     },
     "activation": {
       "type": "",
@@ -68,10 +69,10 @@
       "scaling": "spell"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Siberys, the Dragon Above 1",
     "recharge": {
       "value": null,
       "charged": false
@@ -89,7 +90,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1702529918801,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011725,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!Dxl1Vy3t2ZDlYY67"

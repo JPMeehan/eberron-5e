@@ -3,7 +3,7 @@
   "name": "Channel Divinity: Ancestral Recall",
   "type": "feat",
   "_id": "Tt5OTkXUd6b7lSBV",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
   "system": {
     "description": {
       "value": "<p>As a bonus action, you can use your Channel Divinity to call to mind a great deed of your ancestor. Choose one skill and choose one tool or language that your ancestor was skilled in during their life. For the next 10 minutes, you are proficient in any chosen skill or tool, and your proficiency bonus is doubled for each ability check you make using a chosen proficiency. If you choose a language, you can speak, read, and write that language for the duration.</p>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Chronicles of Eberron"
     },
     "activation": {
       "type": "",
@@ -68,10 +69,10 @@
       "scaling": "spell"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Oath of Veneration 3",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700550487442,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011755,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!Tt5OTkXUd6b7lSBV"

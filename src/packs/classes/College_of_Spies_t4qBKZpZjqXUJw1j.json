@@ -51,7 +51,9 @@
       {
         "_id": "QDADO1nkEmQNqKds",
         "configuration": {
-          "items": ["Compendium.eberron-5e.classes.Item.jE4ENU70gTA46j6U"],
+          "items": [
+            "Compendium.eberron-5e.classes.Item.jE4ENU70gTA46j6U"
+          ],
           "optional": false,
           "spell": null
         },

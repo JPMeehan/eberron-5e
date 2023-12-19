@@ -3,7 +3,7 @@
   "name": "Despicable Tongue",
   "type": "feat",
   "_id": "TSsERX4Ye3eI1IWu",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/skills/social/intimidation-impressing.webp",
   "system": {
     "description": {
       "value": "<p>You gain proficiency in the Intimidation skill. If you are already proficient in Intimidation, you gain proficiency in another skill of your choice. </p><p>Additionally, you have advantage on all Charisma checks directed at creatures that are hostile toward you.</p>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Chronicles of Eberron"
     },
     "activation": {
       "type": "",
@@ -71,7 +72,7 @@
       "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "College of the Fury 3",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700544001646,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011939,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!TSsERX4Ye3eI1IWu"

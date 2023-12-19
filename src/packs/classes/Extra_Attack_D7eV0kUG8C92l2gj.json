@@ -10,7 +10,7 @@
     "source": {
       "custom": "",
       "license": "DMsGuild CCA",
-      "book": "TCE"
+      "book": "Exploring Eberron"
     },
     "activation": {
       "type": "",
@@ -67,10 +67,10 @@
       "scaling": "flat"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Artificer 5 (Forge Adept)",
+    "requirements": "Forge Adept 5",
     "recharge": {
       "value": null,
       "charged": false
@@ -80,7 +80,7 @@
     "default": 0,
     "q6n1efCGVB98drEQ": 3
   },
-  "img": "icons/skills/melee/spear-tips-triple-orange.webp",
+  "img": "icons/skills/trades/smithing-tongs-metal-red.webp",
   "flags": {
     "core": {}
   },
@@ -91,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1685144917771,
-    "modifiedTime": 1702886723204,
+    "modifiedTime": 1702949011747,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_id": "D7eV0kUG8C92l2gj",

@@ -3,7 +3,7 @@
   "name": "Potent Spellcasting",
   "type": "feat",
   "_id": "pkauqd8nU6u0W02x",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/skills/social/theft-pickpocket-bribery-brown.webp",
   "system": {
     "description": {
       "value": "<p>You add your Wisdom modifier to the damage you deal with any cleric cantrip.</p>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Chronicles of Eberron"
     },
     "activation": {
       "type": "",
@@ -71,7 +72,7 @@
       "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "Aspiration Domain 8",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700547439914,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011739,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!pkauqd8nU6u0W02x"

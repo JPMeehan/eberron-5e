@@ -3,7 +3,7 @@
   "name": "Fury's Revelry",
   "type": "feat",
   "_id": "aXJXH5PLzz3eqbDP",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/skills/social/intimidation-impressing.webp",
   "system": {
     "description": {
       "value": "<p>You have learned to empower your bardic magic to inspire frenzied dance. Once on your turn when you hit a creature with a bard spell attack or when a creature fails a saving throw against one of your bard spells, you can force that creature to dance. That target must immediately move 5 feet, plus an additional 5 feet for each level of the triggering spell (cantrips are level 0), in a direction of your choice. The movement need not be in a straight line. This movement doesn't provoke opportunity attacks. If a target is compelled to move into an obviously dangerous hazard, such as a fire or pit, it can make a Wisdom saving throw against your bard spell save DC. On a successful save, its movement ends before it enters the hazardous space, and you can move it no further that turn.</p>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Chronicles of Eberron"
     },
     "activation": {
       "type": "",
@@ -71,7 +72,7 @@
       "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "College of the Fury 3",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700544042679,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011940,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!aXJXH5PLzz3eqbDP"

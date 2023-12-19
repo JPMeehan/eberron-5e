@@ -67,16 +67,16 @@
       "scaling": "flat"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Monk 3 (Tashalatora)",
+    "requirements": "Way of the Tashalatora 3",
     "recharge": {
       "value": null,
       "charged": false
     }
   },
-  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "img": "icons/magic/time/hourglass-brown-orange.webp",
   "flags": {},
   "effects": [],
   "folder": "Cn5COtkfkIRqM6Ec",
@@ -86,7 +86,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686418620662,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011763,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "sort": 316510,

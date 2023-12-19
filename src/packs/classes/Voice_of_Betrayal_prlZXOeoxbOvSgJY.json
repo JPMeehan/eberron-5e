@@ -3,7 +3,7 @@
   "name": "Voice of Betrayal",
   "type": "feat",
   "_id": "prlZXOeoxbOvSgJY",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/skills/social/intimidation-impressing.webp",
   "system": {
     "description": {
       "value": "<p>You can inflict your enemies with paranoia, causing them to strike their allies. As a bonus action, you can expend one use of your Bardic Inspiration to force a hostile creature you can see within 30 feet of you that can hear you to make a Wisdom saving throw. A creature automatically succeeds on this save if it is immune to being frightened. On a failed save, the target must immediately use its reaction (if available) to make one melee weapon attack against a creature of your choice within its reach. On a hit, the attack deals extra damage equal to the number rolled on the Bardic Inspiration die.</p>",
@@ -11,7 +11,8 @@
       "unidentified": ""
     },
     "source": {
-      "license": "DMsGuild CCA"
+      "license": "DMsGuild CCA",
+      "book": "Chronicles of Eberron"
     },
     "activation": {
       "type": "",
@@ -71,7 +72,7 @@
       "value": "class",
       "subtype": ""
     },
-    "requirements": "",
+    "requirements": "College of the Fury 6",
     "recharge": {
       "value": null,
       "charged": false
@@ -90,7 +91,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1700544098001,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011941,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "_key": "!items!prlZXOeoxbOvSgJY"

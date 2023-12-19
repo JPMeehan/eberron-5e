@@ -21,7 +21,9 @@
       {
         "_id": "PYBu6eHzEKQL0lUi",
         "configuration": {
-          "items": ["Compendium.eberron-5e.classes.Item.vElrrNbfCVGaQ7jr"],
+          "items": [
+            "Compendium.eberron-5e.classes.Item.vElrrNbfCVGaQ7jr"
+          ],
           "optional": false,
           "spell": null
         },
@@ -33,7 +35,9 @@
       {
         "_id": "HGfI1oLlvXYGWhKN",
         "configuration": {
-          "items": ["Compendium.eberron-5e.classes.Item.FnDSfwtiaIAkYfZW"],
+          "items": [
+            "Compendium.eberron-5e.classes.Item.FnDSfwtiaIAkYfZW"
+          ],
           "optional": false,
           "spell": null
         },
@@ -45,7 +49,9 @@
       {
         "_id": "INCpgzMPlzh0Id95",
         "configuration": {
-          "items": ["Compendium.eberron-5e.classes.Item.tjeTKpQV5Js05lz4"],
+          "items": [
+            "Compendium.eberron-5e.classes.Item.tjeTKpQV5Js05lz4"
+          ],
           "optional": false,
           "spell": null
         },
@@ -57,7 +63,9 @@
       {
         "_id": "vpZoys69fMMVWDa3",
         "configuration": {
-          "items": ["Compendium.eberron-5e.classes.Item.pfeqFLymAfUfZLPF"],
+          "items": [
+            "Compendium.eberron-5e.classes.Item.pfeqFLymAfUfZLPF"
+          ],
           "optional": false,
           "spell": null
         },

@@ -67,16 +67,16 @@
       "scaling": "flat"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Fighter 15 (Marshal)",
+    "requirements": "Marshal 15",
     "recharge": {
       "value": null,
       "charged": false
     }
   },
-  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "img": "icons/skills/melee/strike-weapons-orange.webp",
   "flags": {},
   "effects": [],
   "folder": "W6EkdOjhNVCRHSHW",
@@ -86,7 +86,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686418600776,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011881,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "sort": 1503440,

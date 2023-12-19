@@ -67,16 +67,16 @@
       "scaling": "spell"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Cleric 2 (Exorcism)",
+    "requirements": "Exorcism Domain 2",
     "recharge": {
       "value": null,
       "charged": false
     }
   },
-  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
   "flags": {},
   "effects": [],
   "folder": "SMG8a1fU051AIjhX",
@@ -86,7 +86,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686418497898,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011850,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "sort": 203370,

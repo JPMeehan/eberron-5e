@@ -67,16 +67,16 @@
       "scaling": "flat"
     },
     "type": {
-      "value": "",
+      "value": "class",
       "subtype": ""
     },
-    "requirements": "Paladin 7 (Kell Knight)",
+    "requirements": "Oath of the Kell Knight 7",
     "recharge": {
       "value": null,
       "charged": false
     }
   },
-  "img": "modules/plutonium/media/icon/mighty-force.svg",
+  "img": "icons/magic/unholy/hands-circle-light-green.webp",
   "flags": {},
   "effects": [],
   "folder": "QbzdNxFhcEKtHfIx",
@@ -86,7 +86,7 @@
     "systemVersion": "2.4.1",
     "coreVersion": "11.315",
     "createdTime": 1686419473160,
-    "modifiedTime": 1702886575024,
+    "modifiedTime": 1702949011865,
     "lastModifiedBy": "MVioF9x1qI1WYGx1"
   },
   "sort": 723410,
