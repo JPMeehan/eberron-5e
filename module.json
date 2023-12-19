@@ -178,5 +178,7 @@
         "journals"
       ]
     }
-  ]
+  ],
+  "download": "#{DOWNLOAD}#",
+  "manifest": "https://github.com/JPMeehan/eberron-5e/releases/latest/download/module.json"
 }
