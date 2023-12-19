@@ -7,6 +7,8 @@ Includes the following
 - Exploring Eberron
 - Chronicles of Eberron
 - Dread Metrol
+- Archetypes of Eberron
+- Warlocks of Eberron
 - Scales of Q'barra
 - Map Perilous
 - Threat Dispatch

@@ -109,7 +109,7 @@ jobs:
             `# The files that will be included.` \
             module.json                          \
             README.md                            \
-            LICENSE                              \
+            Changelog.md                         \
             eberron-5e.mjs                       \
             eberron-5e.css                       \
             packs/                               \
