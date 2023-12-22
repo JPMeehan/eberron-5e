@@ -1,0 +1,137 @@
+folder: g8A9ashMVDNmBOe3
+name: Sentira Lens, Light
+type: weapon
+img: icons/magic/light/beam-rays-magenta.webp
+system:
+  description:
+    value: >-
+      <p>A common psionic armament found among the ranks of Riedra’s Harmonious
+      Shield is the sentira lens, a handheld ranged weapon that can focus a
+      wielder’s psionic potential to fire a harmful bolt of telepathic
+      energy.</p><p>Unlike a wand or other arcane implement, a sentira lens
+      requires very little training to use effectively; even a person with no
+      other psionic ability can activate this weapon. The Harmonious Shield
+      considers this an important benefit, allowing their loyal soldiers to
+      access psionic power while eliminating the usual dangers of cultivating
+      innate psychic power in an individual. Since their development in Riedra,
+      sentira lenses have gradually found their way into the hands of Adaran
+      kalashtar, who are busily trying to replicate the metacreative powers
+      necessary to recreate them.</p><h5>Weapon Property: Psiactive</h5><p>A
+      psiactive ranged weapon draws its power from your innate psionic
+      potential, whether or not you're trained to use it. When attacking with a
+      psiactive weapon, you use your choice of your Intelligence or Charisma
+      modifier for the attack and damage rolls.</p><p>You can fire psiactive
+      weapons a number of times equal to twice your proficiency bonus. After
+      that, your psionic potential is temporarily expended and you can’t fire
+      another psiactive weapon until you regain your psionic focus by using an
+      action or a bonus action (your choice). Your psionic focus is shared
+      between all psiactive weapons; whenever you make an attack with any
+      psiactive weapon, you expend one of your uses.</p><p>As psiactive weapons
+      channel your own latent energy, they aren’t considered magic weapons and
+      they can’t be sensed with the detect magic spell or similar magic.
+      However, they don’t function in an antimagic field.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    custom: CoE
+  quantity: 1
+  weight: 5
+  price:
+    value: 50
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: 30
+    long: 120
+    units: ft
+  uses:
+    value: null
+    max: 2 * @prof
+    per: charges
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: int
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  weaponType: simpleR
+  baseItem: lightcrossbow
+  properties:
+    ada: false
+    amm: false
+    fin: false
+    fir: false
+    foc: false
+    hvy: false
+    lgt: false
+    lod: false
+    mgc: false
+    rch: false
+    rel: false
+    ret: false
+    sil: false
+    spc: true
+    thr: false
+    two: true
+    ver: false
+  proficient: null
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686376733715
+  modifiedTime: 1702849030583
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: bB8AjYgH1NVWIKjl
+sort: 0
+_key: '!items!bB8AjYgH1NVWIKjl'
+

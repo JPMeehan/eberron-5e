@@ -1,0 +1,89 @@
+name: Exceptional Augmentation
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 5th level, when you target a creature with your Psionic Augmentation
+      feature, you can choose to either deal 1d6 psychic damage to the target or
+      to cause it to regain 1d6 hit points. This effect is in addition to the
+      augmentation effects in the Psicrystal Affinities table. For example, when
+      you release tranquility from your psicrystal, you can choose for a target
+      to regain hit points equal to 2d6 plus your Intelligence modifier.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Crystal Shaper 5
+  recharge:
+    value: null
+    charged: false
+img: icons/commodities/gems/gem-cluster-teal.webp
+flags: {}
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418379998
+  modifiedTime: 1702949011877
+  lastModifiedBy: MVioF9x1qI1WYGx1
+folder: MVHoTydfDvrOUgvY
+_id: fD0sL2c4z0nHHih4
+sort: 505560
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!fD0sL2c4z0nHHih4'
+

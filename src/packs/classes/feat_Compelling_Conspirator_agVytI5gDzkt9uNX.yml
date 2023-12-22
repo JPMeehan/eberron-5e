@@ -1,0 +1,86 @@
+name: Compelling Conspirator
+type: feat
+system:
+  description:
+    value: >-
+      <p>Beginning at 6th level, your honeyed words are irresistible to
+      receptive ears. Any time that you expend a Bardic Inspiration using your
+      Suave Spellcasting feature to cast an enchantment spell, you can choose
+      one creature that can hear you to have disadvantage on its saving throw
+      against that spell.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: College of Spies 6
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/perception/silhouette-stealth-shadow.webp
+flags: {}
+effects: []
+folder: 8XWbjoHRYwpsLKY1
+_id: agVytI5gDzkt9uNX
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418470725
+  modifiedTime: 1702949011936
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 603470
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!agVytI5gDzkt9uNX'
+

@@ -1,0 +1,123 @@
+name: Aereni Halflife
+type: feat
+system:
+  description:
+    value: >-
+      <p>You've undergone rituals that bind you to Irian and the Undying Court.
+      Many who undergo this process have a desiccated appearance, similar to a
+      mummy; it's up to you whether you are affected in this way. Regardless of
+      your appearance, you gain the following benefits:</p><ul><li>Increase your
+      Intelligence or Wisdom score by 1, to a maximum of 20.</li><li>You gain
+      resistance to necrotic and radiant damage, and you have advantage on death
+      saving throws.</li><li>If you cast a spell that deals necrotic damage, you
+      can choose to have it inflict radiant damage instead.</li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    custom: ExE
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: feat
+    subtype: ''
+  requirements: Elf (Aereni)
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+img: icons/magic/holy/yin-yang-balance-symbol.webp
+flags:
+  plutonium:
+    page: feats.html
+    source: ExploringEberron
+    hash: aereni%20halflife_exploringeberron
+    propDroppable: feat
+  core: {}
+effects:
+  - icon: icons/magic/holy/yin-yang-balance-symbol.webp
+    origin: Compendium.chaosos-5e-content.kbp-backgrounds.Item.0YIFyus5YPAumFzw
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: false
+    name: Aereni Half-Life
+    _id: Xa2Xp8VKS7xztXfx
+    changes:
+      - key: system.traits.dr
+        mode: 2
+        value: necrotic
+        priority: null
+      - key: system.traits.dr
+        mode: 2
+        value: radiant
+        priority: null
+    description: >-
+      <p>You gain resistance to necrotic and radiant damage, and you have
+      advantage on death saving throws.</p>
+    transfer: true
+    statuses: []
+    flags: {}
+    tint: null
+    _key: '!items.effects!0YIFyus5YPAumFzw.Xa2Xp8VKS7xztXfx'
+folder: lPDAwbpFhVl0UkYJ
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686370356496
+  modifiedTime: 1702848532735
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: 0YIFyus5YPAumFzw
+sort: 0
+_key: '!items!0YIFyus5YPAumFzw'
+

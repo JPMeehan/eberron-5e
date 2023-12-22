@@ -1,0 +1,87 @@
+name: Collateral Damage
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 15th level, you're an uncontested master of explosives, and your
+      blast disks are unusually potent. You now roll twice as as many dice when
+      dealing damage with blast disks. For example, a corrosive blast disk now
+      deals 6d6 acid damage on a failed saving throw.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 6d6
+        - acid
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Disruptor 15
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/fire/explosion-mushroom-nuke-orange.webp
+flags: {}
+effects: []
+folder: 5Oy6Dulk9VEw6pKB
+_id: oCbQyPYZiMKwOzin
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418397409
+  modifiedTime: 1702949011949
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 1503470
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!oCbQyPYZiMKwOzin'
+

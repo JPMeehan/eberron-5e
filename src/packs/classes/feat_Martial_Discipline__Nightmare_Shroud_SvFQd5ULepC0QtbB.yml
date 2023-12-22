@@ -1,0 +1,86 @@
+folder: L8n7GuJVs9l1JFCl
+name: 'Martial Discipline: Nightmare Shroud'
+type: feat
+_id: SvFQd5ULepC0QtbB
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>When you hit a creature with an unarmed attack, you can spend 1 ki
+      point to assail it with fear, causing it to make a Wisdom saving throw. On
+      a failed save, it takes 1d6 points of psychic damage and becomes
+      frightened of you until the end of your next turn. If a creature succeeds
+      on this save, they are immune to the fear effect of this ability for 24
+      hours.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700617942673
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!SvFQd5ULepC0QtbB'
+

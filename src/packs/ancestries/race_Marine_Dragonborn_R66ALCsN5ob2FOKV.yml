@@ -1,0 +1,176 @@
+folder: nblF7Bg94YbPWaUC
+name: Marine Dragonborn
+type: race
+img: icons/creatures/reptiles/dragon-horned-blue.webp
+system:
+  description:
+    value: >-
+      <p class="5E-COREBODYPARA1">Your draconic heritage manifests in a variety
+      of traits you share with other dragonborn.</p><p
+      class="5E-COREBODYPARA2"><em><strong>Suggested Ability Score
+      Increase.</strong></em> Your Charisma score increases by 1. (The other +2
+      comes from your subrace)</p><p
+      class="5E-COREBODYPARA2"><em><strong>Age.</strong></em> Young dragonborn
+      grow quickly. They walk hours after hatching, attain the size and
+      development of a 10-year-old human child by the age of 3, and reach
+      adulthood by 15. They live to be around 80.</p><p
+      class="5E-COREBODYPARA2"><em><strong>Size.</strong></em> Dragonborn are
+      taller and heavier than humans, standing well over 6 feet tall and
+      averaging almost 250 pounds. Your size is Medium.</p><p
+      class="5E-COREBODYPARA2"><em><strong>Speed.</strong></em> Your base
+      walking speed is 30 feet.</p><p
+      class="5E-COREBODYPARA2"><em><strong>Languages.</strong></em> You can
+      speak, read, and write Common and Draconic. Draconic is thought to be one
+      of the oldest languages and is often used in the study of magic. The
+      language sounds harsh to most other creatures and includes numerous hard
+      consonants and sibilants.</p><h5>Breath
+      Weapon</h5><table><tbody><tr><th><p>Damage Type</p></th><th><p>Saving
+      Throw</p></th></tr><tr><td><p>Acid</p></td><td><p>Dexterity</p></td></tr><tr><td><p>Cold</p></td><td><p>Constitution</p></td></tr><tr><td><p>Fire</p></td><td><p>Dexterity</p></td></tr><tr><td><p>Lightning</p></td><td><p>Dexterity</p></td></tr><tr><td><p>Poison</p></td><td><p>Constitution</p></td></tr></tbody></table><p><em><strong>Breath
+      Weapon.</strong></em> You can use your bonus action to exhale destructive
+      energy. Choose a damage type from the Breath Weapon table. In addition,
+      choose whether your breath weapon manifests in a 15 ft. cone or a 5 by 30
+      ft. line. When you use your breath weapon, each creature in the area of
+      the exhalation must make a saving throw, the type of which is determined
+      by your choice on the Breath Weapon table. The DC for this saving throw
+      equals 8 + your Constitution modifier + your proficiency bonus. A creature
+      takes 2d6 damage on a failed save, and half as much damage on a successful
+      one. The damage increases to 3d6 at 5th level, 4d6 at 9th level, 5d6 at
+      13th level, and 6d6 at 17th level.</p><p>After you use your breath weapon,
+      you can’t use it again until you complete a short or long
+      rest.</p><p><em><strong>Aquatic.</strong></em> You have a swim speed of 30
+      feet and you can breathe both air and water.
+      </p><p><em><strong>Darkvision.</strong></em> Bred for maneuvering in the
+      twilight and darkness of the ocean, you have superior vision in dark and
+      dim conditions. You can see in dim light within 60 feet of you as if it
+      were bright light, and in darkness as if it were dim light. You can’t
+      discern color in darkness, only shades of gray. </p><p><em><strong>Natural
+      Armor.</strong></em> You have tough, scaly skin. When you aren’t wearing
+      armor, your AC is 12 + your Dexterity modifier. You can use your natural
+      armor to determine your AC if the armor you wear would leave you with a
+      lower AC. A shield’s benefits apply as normal while you use your natural
+      armor</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Scales of Q'barra
+    page: Appendix
+    custom: ''
+    license: DMsGuild CCA
+  advancement:
+    - type: Size
+      _id: SW1nAl3yKRlnz7Hy
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: Trait
+      configuration:
+        grants:
+          - languages:standard:common
+          - languages:exotic:draconic
+        mode: default
+        allowReplacements: false
+        choices: []
+        hint: ''
+      _id: NYEraRNpMeea7vqC
+      level: 0
+      title: ''
+      icon: null
+      value: {}
+    - _id: jtp9hGweDLJmRVbq
+      type: ItemChoice
+      configuration:
+        choices:
+          '0': 1
+        allowDrops: false
+        type: feat
+        pool:
+          - >-
+            Compendium.chaosos-5e-content.community-backgrounds.Item.jWYK9wGXxEkLNyYw
+          - >-
+            Compendium.chaosos-5e-content.community-backgrounds.Item.ljxvUib7garJ5x20
+          - >-
+            Compendium.chaosos-5e-content.community-backgrounds.Item.BoAYURW5X4ddWTRU
+          - >-
+            Compendium.chaosos-5e-content.community-backgrounds.Item.WtOzjLv8FmstjWwr
+          - >-
+            Compendium.chaosos-5e-content.community-backgrounds.Item.53OSDXgiUkRhyghI
+          - >-
+            Compendium.chaosos-5e-content.community-backgrounds.Item.KMzOqVIGjSzyp6Q4
+          - >-
+            Compendium.chaosos-5e-content.community-backgrounds.Item.QL047q6ibAh5BcJI
+          - >-
+            Compendium.chaosos-5e-content.community-backgrounds.Item.FnqZszcUsKcuWRPC
+          - >-
+            Compendium.chaosos-5e-content.community-backgrounds.Item.ZMS8kMm43OnqwAoK
+          - >-
+            Compendium.chaosos-5e-content.community-backgrounds.Item.1htNCx3HBJoomg7g
+        spell: null
+        hint: Choose a breath weapon damage and area type
+        restriction:
+          type: race
+      value: {}
+      title: Breath Weapon
+      icon: null
+    - _id: rXLC7smebN2zPOBT
+      type: ScaleValue
+      configuration:
+        identifier: breath-weapon
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '0':
+            number: 2
+            faces: 6
+          '5':
+            number: 3
+            faces: 6
+          '9':
+            number: 4
+            faces: 6
+          '13':
+            number: 5
+            faces: 6
+          '17':
+            number: 6
+            faces: 6
+      value: {}
+      title: Breath Weapon
+      icon: null
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: 30
+    walk: 30
+    units: null
+    hover: false
+  senses:
+    darkvision: 60
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: humanoid
+effects: []
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700446153065
+  modifiedTime: 1702848010327
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: R66ALCsN5ob2FOKV
+sort: 100000
+_key: '!items!R66ALCsN5ob2FOKV'
+

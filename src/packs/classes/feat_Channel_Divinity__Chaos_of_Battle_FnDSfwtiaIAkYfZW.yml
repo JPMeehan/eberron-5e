@@ -1,0 +1,93 @@
+name: 'Channel Divinity: Chaos of Battle'
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 2nd level, you can use your Channel Divinity to force foes
+      to redirect their attacks. When a creature you can see within 30 feet of
+      you makes an attack roll against you or casts a spell that targets only
+      you, you can use your reaction to brandish your holy symbol and cause the
+      creature to make a Wisdom saving throw against your cleric spell save DC.
+      On a failed save, the creature must instead target another creature of
+      your choice that is within range of the attack or spell. If there is not
+      another creature within range, this ability fails. You must choose to use
+      this feature before you make a saving throw or know whether the attack
+      against you hits or misses.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: reaction
+    cost: 1
+    condition: >-
+      When a creature you can see within 30 feet of you makes an attack roll
+      against you or casts a spell that targets only you, you can use
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Change Domain 2
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/control/buff-luck-fortune-gold.webp
+flags: {}
+effects: []
+folder: r1wmOqxeIwATV8rw
+_id: FnDSfwtiaIAkYfZW
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418485007
+  modifiedTime: 1702949011741
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 203400
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!FnDSfwtiaIAkYfZW'
+

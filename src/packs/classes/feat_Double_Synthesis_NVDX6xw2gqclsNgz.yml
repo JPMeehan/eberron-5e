@@ -1,0 +1,86 @@
+name: Double Synthesis
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 17th level, your duality of body and spirit reaches its apex. When
+      you use your Spirit Channel ability, you can select two different spirits
+      to inhabit you simultaneously instead of one, gaining the benefits of
+      each. If you attempt to channel a third spirit, you must select one of the
+      previous two to release, losing its benefits.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Conduit 17
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
+flags: {}
+effects: []
+folder: AxCOxJAGG16MkcKu
+_id: NVDX6xw2gqclsNgz
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418614081
+  modifiedTime: 1702949011953
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 1704470
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!NVDX6xw2gqclsNgz'
+

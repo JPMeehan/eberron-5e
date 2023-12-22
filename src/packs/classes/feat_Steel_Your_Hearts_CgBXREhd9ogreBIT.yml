@@ -1,0 +1,90 @@
+name: Steel Your Hearts
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 10th level, your words and actions inspire your companions
+      to new heights. Friendly creatures within 60 feet of you that can hear you
+      have advantage on saving throws against being charmed or frightened while
+      you are conscious.</p><p>In addition, when you use your Second Wind
+      feature, choose a number of creatures up to your Charisma modifier
+      (minimum of one) within 60 feet of you that can hear you. They gain
+      temporary hit points equal to the hit points you regain with your Second
+      Wind feature. These temporary hit points last until they take a short or
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Marshal 10
+  recharge:
+    value: null
+    charged: false
+img: icons/skills/melee/strike-weapons-orange.webp
+flags: {}
+effects: []
+folder: W6EkdOjhNVCRHSHW
+_id: CgBXREhd9ogreBIT
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418600014
+  modifiedTime: 1702949011884
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 1019520
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!CgBXREhd9ogreBIT'
+

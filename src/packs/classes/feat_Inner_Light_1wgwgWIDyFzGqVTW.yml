@@ -1,0 +1,90 @@
+name: Inner Light
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, your inner light shines brightly in the
+      darkness. You gain proficiency with the longbow, and you learn the light
+      cantrip, which you can cast as a bonus action with a casting range of 60
+      feet instead of touch only. Your spellcasting ability modifier for this
+      spell is Charisma.</p><p>You also gain an additional way to use your Sneak
+      Attack; you don't need advantage on the attack roll to use your Sneak
+      Attack against a creature if it is in bright light shed by a spell you
+      cast, as long as you don't have disadvantage on the attack roll. All the
+      other rules for Sneak Attack still apply to you.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Divine Sniper 3
+  recharge:
+    value: null
+    charged: false
+img: icons/skills/ranged/arrows-flying-salvo-yellow.webp
+flags: {}
+effects: []
+folder: 40EIVxYIetLHoVyd
+_id: 1wgwgWIDyFzGqVTW
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686425217859
+  modifiedTime: 1702949011769
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 309460
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!1wgwgWIDyFzGqVTW'
+

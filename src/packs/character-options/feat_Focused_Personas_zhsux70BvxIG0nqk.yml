@@ -1,0 +1,98 @@
+name: Focused Personas
+type: feat
+system:
+  description:
+    value: >-
+      <p>You've developed personas that help you focus your talents. Work with
+      your DM to define two unique personas—identities with distinct appearances
+      and personalities. You gain the following benefits:</p><ul><li>Increase
+      your Charisma score by 1, to a maximum of 20.</li><li>Choose a tool and
+      define a persona associated with it.While you are using your Shapechanging
+      trait to assume the identity of that persona, you are proficient with that
+      tool.If you are already proficient in it, your proficiency bonus is
+      doubled for any ability check you make using that tool while assuming that
+      persona.</li><li>Choose a skill you're proficient in and define a
+      different persona associated with it. While you are using your
+      Shapechanging trait to assume the identity of that persona, your
+      proficiency bonus is doubled for any ability check you make using that
+      skill.</li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    custom: ExE
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: ''
+    subtype: ''
+  requirements: Changeling
+  recharge:
+    value: null
+    charged: false
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+img: icons/tools/hand/hammer-and-nail.webp
+flags:
+  plutonium:
+    page: feats.html
+    source: ExploringEberron
+    hash: focused%20personas_exploringeberron
+    propDroppable: feat
+  core: {}
+effects: []
+folder: 77LP2bOE5vCNpeve
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686370356660
+  modifiedTime: 1702848531610
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: zhsux70BvxIG0nqk
+sort: 0
+_key: '!items!zhsux70BvxIG0nqk'
+

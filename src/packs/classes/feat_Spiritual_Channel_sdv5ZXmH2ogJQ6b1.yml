@@ -1,0 +1,132 @@
+name: Spiritual Channel
+type: feat
+system:
+  description:
+    value: >-
+      <p>When you choose this tradition at 3rd level, you gain the ability to
+      call forth a spirit and borrow its power. After you finish a long rest
+      during which you spent at least 30 minutes meditating, you can call one of
+      the following spirit types to inhabit you, gaining its benefits until you
+      next use this feature to call a different spirit. You can only have one
+      spirit inhabiting you at a time; if you call another spirit to inhabit
+      you, you lose the benefits of the spirit that previously inhabited you.
+      Any time you use this feature to cause a target to make a saving throw,
+      use your ki save DC.</p><h5> Eldritch Spirit</h5> <p>When you call this
+      spirit, you can throw bolts of raw arcane force. As an action, make a
+      ranged spell attack with a range of 60 feet. On a hit, you throw a single
+      blast of force that deals force damage equal to your Martial Arts die +
+      your Wisdom modifier. When you reach certain levels in this class, you
+      learn to throw additional blasts as part of the same action, increasing to
+      two blasts at 5th level, three at 11th level, and four at 17th
+      level.</p><h5> Spirit of Conflict</h5> <p>When you call this spirit, you
+      gain a +1 bonus to all melee damage rolls made with a monk weapon or
+      unarmed strike. This bonus increases when you reach certain levels in this
+      class, increasing to +2 at 5th level, +3 at 11th level, and +4 at 17th
+      level. Additionally, when you see a hostile creature within 15 feet of you
+      reduced to 0 hit points, you can use your reaction to move up to half your
+      speed without provoking opportunity attacks and make one melee
+      attack.</p><h5> Spirit of Eloquence</h5> <p>When you call this spirit, you
+      gain proficiency with Insight and Persuasion; if you already have
+      proficiency in one or both of these skills, your proficiency bonus is
+      doubled for that skill. In addition, you can charm a creature with a
+      touch. As an action, you cause a creature within 5 feet of you to make a
+      Wisdom saving throw, rolled with advantage if you or your companions are
+      fighting it. If it fails the saving throw, it is charmed by you for one
+      hour or until you or your companions do anything harmful to it. The
+      charmed creature regards you as a friendly acquaintance. When the effect
+      ends, the creature knows it was charmed by you. If the creature succeeds
+      on its saving throw, it is immune to being charmed by this feature for 24
+      hours.</p><h5> Spirit of Subtlety</h5> <p>When you call this spirit, you
+      gain proficiency with Deception and Stealth; if you already have
+      proficiency in one or both of these skills, your proficiency bonus is
+      doubled for that skill. In addition, once per turn, you can deal an extra
+      1d4 points of damage when you hit with an unarmed attack or a monk weapon
+      if you did not suffer disadvantage on the attack roll. This extra damage
+      increases when you reach certain levels in this class, increasing to 2d4
+      at 5th level, 3d4 at 11th level, and 4d4 at 17th level.</p><h5> Stalwart
+      Spirit</h5> <p>When you call this spirit, you can minimize damage dealt by
+      melee attacks. As a reaction to being hit with a melee attack, you can
+      reduce the damage you take from the attack by 1d10 + your Wisdom modifier
+      + your monk level. Additionally, when you use your reaction with this
+      feature or with your Deflect Missiles feature, you gain a bonus to your AC
+      equal to +1 until the end of your next turn. This bonus increases when you
+      reach certain levels in this class, increasing to +2 at 5th level, +3 at
+      11th level, and +4 at 17th level.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: action
+    cost: 1
+    condition: >-
+      when you see a hostile creature within 15 feet of you reduced to 0 hit
+      points, you can use
+  duration:
+    value: '1'
+    units: turn
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Conduit 3
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/unholy/silhouette-light-fire-blue.webp
+flags: {}
+effects: []
+folder: AxCOxJAGG16MkcKu
+_id: sdv5ZXmH2ogJQ6b1
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418610892
+  modifiedTime: 1702949011956
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 319480
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!sdv5ZXmH2ogJQ6b1'
+

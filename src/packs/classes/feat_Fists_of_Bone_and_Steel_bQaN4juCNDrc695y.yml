@@ -1,0 +1,85 @@
+folder: L8n7GuJVs9l1JFCl
+name: Fists of Bone and Steel
+type: feat
+_id: bQaN4juCNDrc695y
+img: icons/skills/melee/hand-grip-staff-teal.webp
+system:
+  description:
+    value: >-
+      <p>At 3rd level, when you choose this tradition, your Martial Arts damage
+      die increases for unarmed strikes. You can roll a d6 in place of the
+      normal damage for your unarmed strike. This die changes to a d8 at 5th
+      level; a d10 at 11th level; and a d12 at 17th level. This increased damage
+      can only be applied to an unarmed strike, and not to a monk weapon.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Living Weapon 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700617846660
+  modifiedTime: 1702949011905
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!bQaN4juCNDrc695y'
+

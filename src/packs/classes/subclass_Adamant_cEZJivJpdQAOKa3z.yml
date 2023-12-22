@@ -1,0 +1,35 @@
+folder: ueSKKHLvDA1m3eM7
+name: Adamant
+type: subclass
+_id: cEZJivJpdQAOKa3z
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    custom: ''
+    license: DMsGuild CCA
+    book: 'Korranberg Chronicle: Psion''s Primer'
+  identifier: adamant
+  classIdentifier: fighter
+  advancement: []
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 1360
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686185489012
+  modifiedTime: 1702886723204
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!cEZJivJpdQAOKa3z'
+

@@ -1,0 +1,94 @@
+name: Telepathic Anchor
+type: feat
+system:
+  description:
+    value: >-
+      <p>When you choose this tradition at 3rd level, you can speak
+      telepathically to any creature you can see within 30 feet of you. You
+      don't need to share a language with the creature for it to understand your
+      telepathic utterances, but the creature must be able to understand at
+      least one language.</p><p>When you're using this trait to speak
+      telepathically to a creature, you can use your action to give that
+      creature the ability to speak telepathically with you for 1 hour or until
+      you end this effect as an action. To use this ability, the creature must
+      be able to see you and must be within 30 feet of you. You can give this
+      ability to only one creature at a time; giving it to a creature takes it
+      away from another creature who has it.</p><p>If you can already
+      communicate telepathically, this feature extends the range of your
+      telepathy by 30 feet, in addition to the above benefits.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Tashalatora 3
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/time/hourglass-brown-orange.webp
+flags: {}
+effects: []
+folder: Cn5COtkfkIRqM6Ec
+_id: fhWppwSvebK8MznY
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418621309
+  modifiedTime: 1702949011764
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 320370
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!fhWppwSvebK8MznY'
+

@@ -1,0 +1,89 @@
+name: Spell Rage
+type: feat
+system:
+  description:
+    value: >-
+      <p>Beginning at 3rd level, scars from the raw arcane energies suffusing
+      you mark your skin with potent symbols of power, subtly changing and
+      empowering your rage. When you rage while not wearing armor, you gain all
+      of the benefits normally granted by rage, along with the following
+      benefits:</p><ul><li>You can cast Rage Mage spells while you are
+      raging.</li><li>Casting a spell that deals damage, requires an attack
+      roll, or causes a creature to make a saving throw counts as attacking a
+      hostile creature for the purpose of keeping your rage active.</li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Path of the Rage Mage 3
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/fire/flame-burning-fist-strike.webp
+flags: {}
+effects: []
+folder: oL5ygCNARwUmy8wa
+_id: UhBzc1oerXUDEXD1
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418444010
+  modifiedTime: 1702949011784
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 319480
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!UhBzc1oerXUDEXD1'
+

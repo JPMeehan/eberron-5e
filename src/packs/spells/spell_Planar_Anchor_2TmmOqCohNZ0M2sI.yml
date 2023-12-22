@@ -1,0 +1,114 @@
+folder: YAWn8pBzcInWhTGE
+name: Planar Anchor
+type: spell
+_id: 2TmmOqCohNZ0M2sI
+img: icons/magic/symbols/runes-star-pentagon-orange-purple.webp
+system:
+  description:
+    value: >-
+      <p>You exploit a weakness in reality and tear open a new wild zone to one
+      of Eberron's planes at a point on the Prime Material you can see within
+      range. While this zone is open, creatures native to that plane can enter
+      and exit it from the rest of the plane, but cannot cross over its
+      boundaries to the rest of Eberron. They are also treated as if they're on
+      their home plane for effects like banishment. Conversely, a Prime Material
+      native is considered to be on a different plane while in the zone, and
+      banishment teleports them to a point outside the zone if concentrated on
+      for the full duration.</p><p>The zone starts as a 10-foot-radius sphere,
+      but every time you cast this spell to the same plane and at the same
+      point, its radius increases by another 5 feet, to a maximum of 100 feet.
+      If you cast this spell while in a pre-existing wild zone to a different
+      plane, it fails. Casting this spell in the same place every day for a week
+      increases its duration to 1 year.</p><p> Depending on which plane you
+      choose, all creatures in the zone are subject to an additional effect, as
+      shown on the following table. The DM can, at their discretion, add in
+      other non-mechanical effects the zone might have, or adjust them based on
+      a specific planar layer.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Linvakri's Guide to Syrkarn
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: hour
+    cost: 1
+    condition: ''
+  duration:
+    value: '24'
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 8
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: >-
+      an item from the target plane which is consumed during the casting, and a
+      tuning fork worth at least 500gp
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1702707228466
+  modifiedTime: 1702848255841
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!2TmmOqCohNZ0M2sI'
+

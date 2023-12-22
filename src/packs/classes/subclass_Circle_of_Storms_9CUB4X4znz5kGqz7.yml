@@ -1,0 +1,91 @@
+folder: zWM0VrRk9dhisuZc
+name: Circle of Storms
+type: subclass
+_id: 9CUB4X4znz5kGqz7
+img: icons/magic/lightning/strike-arrow-spear-red.webp
+system:
+  description:
+    value: >-
+      <p>Weather is a primal source of power, and no weather is more iconic than
+      that of the howling winds of a tornado, the thunderous rebuke of a
+      thunderstorm, or the torrential rainfall of a hurricane. While some
+      sorcerers claim to harness the power of the storm, you know this to be a
+      lie. The storm cannot be tamed—it is merely ridden and guided by a wise
+      hand. You know the lullabies that can call and soothe the storms, and the
+      anthems that summon a mighty tempest to take away the breath of those who
+      deny its power.</p><p>Adepts of the Devourer are by far the most common
+      practitioners of this circle, especially sahuagin and privateers. House
+      Lyrandar's dragonmarked heirs often can manifest these powers, as do some
+      humans of the Seren Islands. However, any sailor who lives on the seas and
+      has sufficient respect for the Storm might learn to channel these
+      abilities.</p><p>Though the nomads of the Tashana Tundra have little
+      familiarity with the sea, their unique relationship with planar powers
+      means that druids of the Storm are not unknown there. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  identifier: circle-of-storms
+  classIdentifier: druid
+  advancement:
+    - _id: lZbWvkXJ9Jt3zrlc
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.OOZzuudiAHZkP5n5
+          - Compendium.eberron-5e.classes.Item.XdY8vFLAvV0rrII3
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Druid Circle Feature
+      type: ItemGrant
+    - _id: D3wTwM2HVW1fJznj
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.ecQgJHmTLCuEtqkc
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Druid Circle Feature
+      type: ItemGrant
+    - _id: Q33fUJHkXeVBnvxj
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.qvW64A9VCBeNfs6J
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Druid Circle Feature
+      type: ItemGrant
+    - _id: eLDPiOey6tZc57HE
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.iWvBQzYHLlRHTiEq
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Druid Circle Feature
+      type: ItemGrant
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 3410
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686245884176
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!9CUB4X4znz5kGqz7'
+

@@ -1,0 +1,91 @@
+name: Blood Magics
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, you blur the lines between life energy and
+      magical power. You can use your bonus action to deal damage to yourself
+      and store it up as temporary sorcery points that must be spent on a
+      Metamagic option before the end of your turn. For every 1d6 damage you
+      deal to yourself in this way, you gain 1 temporary sorcery
+      point.</p><p>Damage done to yourself with this feature can't be prevented
+      or reduced in any way, and doesn't cause a Constitution save to maintain
+      concentration on a spell.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - ''
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Blood Magus 6
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/unholy/strike-body-explode-disintegrate.webp
+flags: {}
+effects: []
+folder: XuAcllgrcLN9p5sk
+_id: ib3HjpnGlb8D04e6
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686425265665
+  modifiedTime: 1702949011904
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 602440
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!ib3HjpnGlb8D04e6'
+

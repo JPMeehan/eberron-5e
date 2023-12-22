@@ -1,0 +1,94 @@
+name: Soul of the City
+type: feat
+system:
+  description:
+    value: >-
+      <p>Beginning at 2nd level, you can embody the essence of civilization,
+      expending a use of your Wild Shape feature to gain other benefits rather
+      than transforming into a beast form. As an action, you can expend a use of
+      your Wild Shape feature to cast the disguise self spell.</p><p>Starting at
+      4th level, as an action, you can expend a use of your Wild Shape feature
+      to touch another creature and grant it advantage on all ability checks
+      made in the next minute with one ability that you choose when you use this
+      feature. At 8th level, as a bonus action, you can expend a use of your
+      Wild Shape feature to grant yourself and all the equipment you carry the
+      ability to effortlessly move through nonmagical earth and stone. While
+      doing so, you don't disturb the material you move through and you leave no
+      traces of your passage. This effect lasts until the beginning of your next
+      turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Circle of Civilization 2
+  recharge:
+    value: null
+    charged: false
+img: icons/environment/settlement/watchtower-cliff.webp
+flags: {}
+effects: []
+folder: CZxU0LUOXZJ0KcAV
+_id: LApyXfodHnes3HJK
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418532343
+  modifiedTime: 1702949011842
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 219470
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!LApyXfodHnes3HJK'
+

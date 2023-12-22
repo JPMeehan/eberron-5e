@@ -1,0 +1,59 @@
+folder: n6rJjE9GmtVSvd30
+name: Patchwork Blade
+type: subclass
+_id: ExlTTCbuINNr4Vah
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>‘What doesn’t kill you makes you stronger’ is normally a joke for
+      adventurers. Patchwork Blades are those who take it to the extreme. These
+      bestial warriors take on the strength of the creatures they hunt, growing
+      in monstrous power with every victory. As consummate hunters, Patchwork
+      Blades study their prey, making use of their weaknesses. When you fight
+      the ultimate hunters, it takes one to know one. Some Blades believe that
+      they receive strength from the gods with every kill. Others take a more
+      direct route, and physically alter their own forms using the magical blood
+      or remnants of their prey. Regardless, all are a fearsome sight, and stray
+      further and further from mortality with each notch in the
+      axe.</p><p>Patchwork Blades can be flavored in different ways, and can be
+      found in a variety of places within Eberron as a result. The greatest
+      number form part of the Wyrd Vigil of Vralkast, taking on the horrors of
+      Khyber and warping themselves to defend their city. The disciples of the
+      daelkyr Dyrrn the Corruptor might also travel such a path, taking the body
+      parts of their prey to further their own evolution. Some changelings,
+      especially the doppelgangers of Lost, take the opposite approach - they
+      study and mimic the forms of others to master their shapechanging
+      techniques. Those Patchwork Blades who take on the spiritual strength of
+      their prey tend to belong to druidic communities, as well as Stormreach’s
+      Lords of the Hunt. The goliaths of the Blood of Kanda see The Hunt to be a
+      religious ritual, and take on the aspects of the dragons and leviathans of
+      the Dark Sea that they slay in their duties.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  identifier: patchwork-blade
+  classIdentifier: fighter
+  advancement: []
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1702705915851
+  modifiedTime: 1702886424283
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!ExlTTCbuINNr4Vah'
+

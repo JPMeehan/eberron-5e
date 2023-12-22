@@ -1,0 +1,51 @@
+folder: JwDbpGniHs8ne6JR
+name: Divine Crucible
+type: subclass
+_id: 8Svo7NlQjqqiNXhj
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>Divine Crucibles are the smiths of the gods, forging relics in radiant
+      flame. Their craftwork is belief, and their belief lies in the glory of
+      their craft. When heroes seek out blessed weapons to smite evil, it’s
+      Crucibles who provide. It is said that each one places a divine spark in
+      their masterpieces; in battle, they can ignite these sparks, causing the
+      relics to flare with holy fire, and bolster their wielders.</p><p>
+      Crucibles can be found across Eberron, serving the Silver Flame, or gods
+      of the forge such as Onatar. The Ghaash’kala and Shulassakar both rely on
+      skilled Crucibles to forge and shape songsilver - the unbreakable essence
+      of the couatl. In Xen’drik, the fire giants of the Torch of Progress see
+      the silver flame as a force for peace and enlightenment, and create items
+      to support the people. Their kin within the hidden city of Daomon once
+      powered their forges with the Fernian fires of Onatar, creating sacred
+      relics of the Sovereigns - though the Shattering has scattered their works
+      to the ashes of time</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  identifier: divine-crucible
+  classIdentifier: artificer
+  advancement: []
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1702705605709
+  modifiedTime: 1702886424283
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!8Svo7NlQjqqiNXhj'
+

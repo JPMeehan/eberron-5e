@@ -1,0 +1,92 @@
+folder: Z8cJ4pD0gInbszXb
+name: Visions of Twelve and One
+type: feat
+_id: vjNoGffMws6dBqOg
+img: icons/magic/light/beam-horizon-strike-yellow.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, your observations of the Dragon Above grant you
+      an understanding of the way the events of the world will unfold. When you
+      finish a short rest or a long rest, roll two d6s and record the numbers
+      rolled. After you roll, choose one as your "weal die" and one as your "woe
+      die". As a reaction when a creature within 60 feet of you (including you)
+      makes an attack roll, ability check or saving throw, you can add your
+      "weal die" to the roll or subtract your "woe die" from the roll. You may
+      choose whether to expend a weal or woe die when you know whether the
+      unmodified roll would succeed or fail, but before any effects (such as
+      damage) are applied.</p><p> Each weal or woe die can be used only once.
+      When you finish a short rest or a long rest, you must replace your weal
+      and woe dice.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    book: Imogen Gingell
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Siberys, the Dragon Above 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1702529941138
+  modifiedTime: 1702949011725
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!vjNoGffMws6dBqOg'
+

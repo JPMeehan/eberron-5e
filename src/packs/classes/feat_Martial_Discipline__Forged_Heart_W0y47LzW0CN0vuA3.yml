@@ -1,0 +1,87 @@
+folder: L8n7GuJVs9l1JFCl
+name: 'Martial Discipline: Forged Heart'
+type: feat
+_id: W0y47LzW0CN0vuA3
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>Your unarmed strikes are considered adamantine weapons. In addition,
+      when you hit a creature with an unarmed attack, you can spend 1 ki point
+      to cause it to make a Strength saving throw. On a failed save, the
+      creature takes 2d6 additional damage of the same type as the unarmed
+      strike and can be pushed up to 15 feet away from you. On a successful
+      save, the creature only takes 1d6 points of additional damage and is not
+      pushed back.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700617891236
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!W0y47LzW0CN0vuA3'
+

@@ -1,0 +1,88 @@
+name: Persuasive Push
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 14th level, you've learned the secrets to how minds work and, more
+      importantly, how to manipulate them. As an action, you can cast the
+      suggestion spell with no components other than speaking aloud the
+      suggested course of activity. When you cast the spell in this manner, it
+      does not require concentration.</p><p>You can use this feature a number of
+      times equal to your Charisma modifier (a minimum of once). You regain all
+      expended uses when you finish a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: College of Spies 14
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/perception/silhouette-stealth-shadow.webp
+flags: {}
+effects: []
+folder: 8XWbjoHRYwpsLKY1
+_id: jE4ENU70gTA46j6U
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418471821
+  modifiedTime: 1702949011939
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 1416370
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!jE4ENU70gTA46j6U'
+

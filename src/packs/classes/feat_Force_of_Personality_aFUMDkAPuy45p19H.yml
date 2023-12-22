@@ -1,0 +1,85 @@
+name: Force of Personality
+type: feat
+system:
+  description:
+    value: >-
+      <p>When you choose this archetype at 3rd level, your presence motivates
+      your companions to greater discipline and alertness. Any friendly creature
+      within 60 feet of you who can see and hear you gains advantage on
+      initiative rolls.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Marshal 3
+  recharge:
+    value: null
+    charged: false
+img: icons/skills/melee/strike-weapons-orange.webp
+flags: {}
+effects: []
+folder: W6EkdOjhNVCRHSHW
+_id: aFUMDkAPuy45p19H
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418598216
+  modifiedTime: 1702949011881
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 306470
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!aFUMDkAPuy45p19H'
+

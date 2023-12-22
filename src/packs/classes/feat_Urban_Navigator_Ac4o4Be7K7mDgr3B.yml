@@ -1,0 +1,91 @@
+name: Urban Navigator
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 6th level, you can move easily through the press of people that
+      populate the streets of cities and towns. You gain the following
+      benefits:</p><ul><li>The space of nonhostile creatures does not count as
+      difficult terrain for you.</li><li>You can move through a hostile
+      creature's space regardless of its size, counting it as difficult
+      terrain.</li><li>You gain proficiency in your choice of one of the
+      following skills: Deception, Intimidation, or Persuasion. Your proficiency
+      bonus is doubled for any ability check you make that uses that
+      skill.</li><li>You can use the Disengage action as a bonus
+      action.</li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Circle of Civilization 6
+  recharge:
+    value: null
+    charged: false
+img: icons/environment/settlement/watchtower-cliff.webp
+flags: {}
+effects: []
+folder: CZxU0LUOXZJ0KcAV
+_id: Ac4o4Be7K7mDgr3B
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418532954
+  modifiedTime: 1702949011843
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 621500
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!Ac4o4Be7K7mDgr3B'
+

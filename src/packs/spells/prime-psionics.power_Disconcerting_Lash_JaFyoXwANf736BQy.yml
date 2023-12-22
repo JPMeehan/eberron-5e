@@ -1,0 +1,95 @@
+folder: ND8imwT4ZNwNEWzm
+name: Disconcerting Lash
+type: prime-psionics.power
+img: icons/magic/light/beam-rays-magenta-small.webp
+system:
+  description:
+    value: >-
+      <p>You inject a sudden, unsettling, and alien feeling in the mind of one
+      creature you can see within range. The target must make a Wisdom saving
+      throw. On a failed save, it takes 1d6 psychic damage and can’t move closer
+      to you until the end of its next turn. On a successful save, it takes half
+      as much damage and suffers no other effect. A creature is immune to this
+      effect if it is immune to being
+      frightened.</p><p><strong>Intensify.</strong> When you spend extra psi
+      points to manifest this augment, the damage increases by 1d6 for each
+      additional psi point spent beyond the minimum cost. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    custom: Psion's Primer
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: foc
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    prompt: true
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: flags
+    target: pp
+    amount: 1
+    scale: false
+  ability: ''
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  level: 1
+  discipline: tlp
+  augmenting: Mind Thrust
+  components:
+    auditory: false
+    observable: true
+    concentration: false
+    ritual: false
+  scaling:
+    mode: intensify
+    formula: 1d6
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1685938806751
+  modifiedTime: 1702848254665
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: JaFyoXwANf736BQy
+sort: 0
+_key: '!items!JaFyoXwANf736BQy'
+

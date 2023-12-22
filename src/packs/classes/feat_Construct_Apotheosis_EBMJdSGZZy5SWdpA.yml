@@ -1,0 +1,92 @@
+folder: 1V7oabEr11Fjb6LZ
+name: Construct Apotheosis
+type: feat
+_id: EBMJdSGZZy5SWdpA
+img: icons/magic/symbols/runes-etched-steel-blade.webp
+system:
+  description:
+    value: >-
+      <p>You have modified your form, becoming nearly impervious to the
+      weaknesses of flesh. You gain the following benefits: </p><ul><li><p>You
+      gain resistance to poison damage and psychic damage, and you are immune to
+      the poisoned condition. </p></li><li><p>If you are affected by a spell or
+      magical effect, you can choose to consider yourself a construct instead of
+      your other creature types. </p></li><li><p>You can cast the <em>antilife
+      shell</em> and <em>investiture of stone</em> spells without expending a
+      spell slot, without preparing the spell, and without material components,
+      provided you use your battlefist as the spellcasting focus. Once you cast
+      either spell with this feature, you can’t cast that spell with it again
+      until you finish a long rest.</p></li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    book: Dread Metrol
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Mastermaker 15
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 900000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700539580767
+  modifiedTime: 1702949011793
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!EBMJdSGZZy5SWdpA'
+

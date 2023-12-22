@@ -1,0 +1,89 @@
+folder: 0cGAxH6m8T0cE8Uv
+name: Circle of Eberron
+type: subclass
+_id: jNEmnfB86jxaCzm2
+img: icons/magic/earth/construct-stone.webp
+system:
+  description:
+    value: >-
+      <p>Druids of the Circle of Eberron communicate with the progenitor Eberron
+      herself. They can hear her words in the passage of the winds, and read her
+      messages in leaves of the forest and shifting sands of the desert. These
+      druids believe in the sacredness of all life, and can entreat the world to
+      provide them with an ally formed out of Eberron's body in times of need.
+      They are staunch opponents of extraplanar creatures that seek to impose
+      their will on their world, such as creatures from Khyber and
+      Xoriat.</p><p>Many Gatekeepers find themselves drawn to this circle, as
+      well as hermits who spend decades listening to the heartbeat of the Dragon
+      Between. Adepts of this tradition can also be found among iredar kobolds
+      and Talentan mask weavers. And to the surprise of many, warforged that
+      seek deep connections to the earth might follow this circle, including the
+      warforged Followers of the Broken Path and the Landforged Walkers. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  identifier: circle-of-eberron
+  classIdentifier: druid
+  advancement:
+    - _id: TAl0VkmBCHItVwRa
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.9t9O6HoD69RFvRIH
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Druid Circle Feature
+      type: ItemGrant
+    - _id: XzEMWUsXD4RnapcZ
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.yUz75sh7fXxRZ7pg
+          - Compendium.eberron-5e.classes.Item.VDrvu1nVePiXyLwm
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Druid Circle Feature
+      type: ItemGrant
+    - _id: f27GNPRqAgsuozAp
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.NzlHyeaBgREK98XF
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Druid Circle Feature
+      type: ItemGrant
+    - _id: HnDcFkqMhhkvQu9y
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.d3MlXaRAgVg12OGi
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Druid Circle Feature
+      type: ItemGrant
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 3410
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686245876052
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!jNEmnfB86jxaCzm2'
+

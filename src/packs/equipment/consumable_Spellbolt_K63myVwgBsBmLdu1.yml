@@ -1,0 +1,103 @@
+folder: KfRiAcCS96x5DA1c
+name: Spellbolt
+type: consumable
+img: icons/weapons/ammunition/arrowhead-glowing-blue.webp
+system:
+  description:
+    value: >-
+      <p><em>Ammunition, Common (Cantrip–1st Level) or Uncommon (2nd–3rd
+      Level)</em></p><p>A spellbolt is a crossbow bolt imbued with a single
+      spell of 3rd level or lower from the wizard spell list, which is activated
+      by corresponding arcane sigils engraved into most modern Cannith-issued
+      crossbows. The imbued spell must require a ranged or melee spell attack
+      when the spell is cast, and have a range other than self.</p><p>As an
+      action, you can load the spellbolt into a Cannith-made crossbow and cast
+      the spell imbued in the bolt, using the crossbow in place of the spell’s
+      components. When you do, the range of the spell is equal to the crossbow’s
+      range instead of the spell’s usual range. In place of each spell attack,
+      make a ranged weapon attack using the crossbow against a target within
+      range; on a hit, apply the spell effects in place of weapon damage. If the
+      spell requires a saving throw in addition to the spell attack, its save DC
+      is 13. Once the imbued spell is cast, the spellbolt is destroyed and turns
+      to dust.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    custom: CoE
+  quantity: 1
+  weight: 0
+  price:
+    value: 0
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: common
+  identified: true
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    autoDestroy: false
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: 13
+    scaling: flat
+  consumableType: ammo
+  properties:
+    ada: false
+    mgc: false
+    sil: false
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686376505466
+  modifiedTime: 1702848994572
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: K63myVwgBsBmLdu1
+sort: 0
+_key: '!items!K63myVwgBsBmLdu1'
+

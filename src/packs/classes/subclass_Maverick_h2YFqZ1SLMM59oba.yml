@@ -1,0 +1,86 @@
+folder: L7f2HdWXA5KSNCXo
+name: Maverick
+type: subclass
+_id: h2YFqZ1SLMM59oba
+img: icons/magic/symbols/runes-triangle-blue.webp
+system:
+  description:
+    value: >-
+      <p>In the world of artifice, the Maverick is a jack of all trades and
+      master of none. A Maverick is always experimenting with new designs,
+      forever abandoning yesterday’s work in pursuit of a new obsession. While
+      often dismissed by other artificers as eccentric amateurs, in their
+      refusal to follow established tradition, a Maverick may stumble on
+      remarkable breakthroughs—though their idiosyncratic techniques can rarely
+      be replicated by others.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+  identifier: maverick
+  classIdentifier: artificer
+  advancement:
+    - _id: 00IWQNbHKBk9piax
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.soQg8FXcQ5GJ9ztv
+          - Compendium.eberron-5e.classes.Item.ybjehjajOQhWyXOc
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Artificer Specialist Feature
+      icon: null
+    - _id: E8Uh3IgQ567qBpqY
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.9VI2jdQP7WStQdnf
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Artificer Specialist Feature
+      icon: null
+    - _id: uEbR4qUSuIGF4rje
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.mdhiaEZYohQ2y3QY
+          - Compendium.eberron-5e.classes.Item.t4zxXD8vXhLRKVLs
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Artificer Specialist Feature
+      icon: null
+    - _id: Hu1cfXisdJPMuY7R
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.WNDbIKjQoBkyORMA
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Artificer Specialist Feature
+      icon: null
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686341209815
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!h2YFqZ1SLMM59oba'
+

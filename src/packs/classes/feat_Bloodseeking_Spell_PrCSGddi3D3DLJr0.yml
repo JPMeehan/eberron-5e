@@ -1,0 +1,93 @@
+name: Bloodseeking Spell
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 1st level, your blood powers spells more potent than those of other
+      spellcasters. When you cast a spell of 1st or 2nd level, you can choose to
+      deal 1d6 points of damage to yourself to either gain advantage on all
+      attack rolls of that spell or impose disadvantage on saving throws for on
+      all targets of the spell. Damage done to yourself with this feature can't
+      be prevented or reduced in any way, and doesn't cause a Constitution save
+      to maintain concentration on a spell.</p><p>When you reach certain levels
+      in this class, you can increase the damage that you deal to yourself in
+      order to intensify higher level spells. If you take 2d6 points of damage,
+      you can affect spells of 3rd, 4th, or 5th level. If you take 3d6 points of
+      damage, you can affect spells of 6th or 7th level. If you take 4d6 points
+      of damage, you can affect spells of 8th or 9th level.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Blood Magus 1
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/unholy/strike-body-explode-disintegrate.webp
+flags: {}
+effects: []
+folder: XuAcllgrcLN9p5sk
+_id: PrCSGddi3D3DLJr0
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686425264086
+  modifiedTime: 1702949011900
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 102440
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!PrCSGddi3D3DLJr0'
+

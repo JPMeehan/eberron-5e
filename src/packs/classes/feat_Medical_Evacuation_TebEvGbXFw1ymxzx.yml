@@ -1,0 +1,87 @@
+name: Medical Evacuation
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 15th level, you've learned how to harness residual healing
+      energies to teleport allies to safety. When you cast a spell that restore
+      hit points to another creature, you can teleport one willing target of
+      that spell up to 60 feet to an unoccupied space that you can
+      see.</p><p>Once you use this feature, you can't use it again until you
+      finish a short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Combat Medic 15
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/life/crosses-trio-red.webp
+flags: {}
+effects: []
+folder: kJccBcDLdUGddNLa
+_id: TebEvGbXFw1ymxzx
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418571207
+  modifiedTime: 1702949011833
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 1513370
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!TebEvGbXFw1ymxzx'
+

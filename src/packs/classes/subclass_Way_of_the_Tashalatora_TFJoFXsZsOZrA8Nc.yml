@@ -1,0 +1,89 @@
+folder: Cn5COtkfkIRqM6Ec
+name: Way of the Tashalatora
+type: subclass
+_id: TFJoFXsZsOZrA8Nc
+img: icons/magic/time/hourglass-brown-orange.webp
+system:
+  description:
+    value: >-
+      <p>The Way of the Tashalatora teaches that mind and body must be aligned
+      and honed as one to truly ascend. Paragons of psionic power, they have
+      learned not only to touch the minds of others, but to alter the flow of
+      time itself.</p><p>The vast majority of adherents of this Way come from
+      the Adaran mountain-fortresses that guard the passages into Adar from
+      Riedra. In Khorvaire, the kalashtar and Adarans might rarely teach a
+      chosen outsider this art; those first-generation students have started to
+      teach as well, and are rather less selective with who they accept as
+      students.</p><p>Certain undead and aberrant creatures also have a loose
+      association with time and space, and although they can serve as an
+      alternative source of the powers of a Tashalatora, it's rare to find a
+      dolgaunt that's willing to take on a non-aberrant student, let alone to
+      allow them survive the encounter. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  identifier: way-of-the-tashalatora
+  classIdentifier: monk
+  advancement:
+    - _id: k36jNSDHtLSorTtF
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.ujbTsP8PkDVQyeSO
+          - Compendium.eberron-5e.classes.Item.fhWppwSvebK8MznY
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Monastic Tradition Feature
+      type: ItemGrant
+    - _id: 9wQF6WbRzyYO32w0
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.iLIxNRCIwyAAqBm4
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Monastic Tradition Feature
+      type: ItemGrant
+    - _id: MqLxCTMGlKSLEToq
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.vTqNn0dqBUwgo5QM
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Monastic Tradition Feature
+      type: ItemGrant
+    - _id: IUnwLXZ62Sr0tD9t
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.G6cXPY95p3jWF9kg
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Monastic Tradition Feature
+      type: ItemGrant
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 23330
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686245947064
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!TFJoFXsZsOZrA8Nc'
+

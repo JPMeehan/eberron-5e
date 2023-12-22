@@ -1,0 +1,91 @@
+folder: 3cbRpDqnLnbhN399
+name: Cult of the Alienist
+type: subclass
+_id: mWeCgwgnzcQZO6qb
+img: icons/magic/perception/eye-tendrils-web-purple.webp
+system:
+  description:
+    value: >-
+      <p>They told you to put down the <em>Codex Anathema</em>. They feared that
+      you would plumb its depths too greedily, too deep. They were right to fear
+      you.</p><p>The infamous <em>Codex Anathema</em> is the single greatest
+      source of Alienists in Eberron. Originally written as a book of lore by a
+      mad Dhakaani scholar, its dangerous pages have been replicated and passed
+      down for millennia. At one point, there were twelve complete copies of the
+      Codex Anathema, but the books were lost, destroyed, or broken apart in the
+      intervening timeframe. The last scholar to find a complete copy of the
+      book was Mordain d'Phiarlan, who mastered its secrets. Any formal arcane
+      institution might hold a secret Cult of the Alienist, its adepts of the
+      Codex hiding in the wings, seeking to recruit young minds that are easy to
+      corrupt and mold into the next generation of Alienists.</p><p>A dwarf of
+      the Mror Holds might also have sought—and found—the twisted knowledge of
+      Dyrrn the Conqueror in the Realm Below. Beyond that, an Alienist wizard
+      might be any scholar that delved too far into the secrets of Xoriat or had
+      a chance encounter with the fleshwarping daelkyr. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  identifier: cult-of-the-alienist
+  classIdentifier: wizard
+  advancement:
+    - _id: WsXzw6zE7KNkxqz7
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.ZhxHMdyb1MP1VZue
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Arcane Tradition Feature
+      type: ItemGrant
+    - _id: RflmOQkbYUUfovOR
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.c3keHBF1a43ZgDUr
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Arcane Tradition Feature
+      type: ItemGrant
+    - _id: BfD892rDerKWodIk
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.vzmvwtMuRCxf3c4W
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Arcane Tradition Feature
+      type: ItemGrant
+    - _id: C6JhxzOUjc0mDBfn
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.sAfP8Ses8bcYuw55
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Arcane Tradition Feature
+      type: ItemGrant
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 3530
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686246155903
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!mWeCgwgnzcQZO6qb'
+

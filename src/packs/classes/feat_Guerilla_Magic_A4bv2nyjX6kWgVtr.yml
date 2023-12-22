@@ -1,0 +1,90 @@
+name: Guerilla Magic
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you learn an additional spell when you reach
+      certain levels in this class, as shown in the Guerilla Spells table. The
+      spell counts as a ranger spell for you, but it doesn't count against the
+      number of ranger spells you know.</p><table><caption>Guerilla
+      Spells</caption><thead><tr><th data-rd-isroller="false">Ranger
+      Level</th><th
+      data-rd-isroller="false">Spells</th></tr></thead><tbody><tr><td>3rd</td><td>entangle</td></tr><tr><td>5th</td><td>invisibility</td></tr><tr><td>9th</td><td>gaseous
+      form</td></tr><tr><td>13th</td><td>Evard's black
+      tentacles</td></tr><tr><td>17th</td><td>cloudkill</td></tr></tbody></table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Guerilla 3
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/nature/plant-bamboo-green.webp
+flags: {}
+effects: []
+folder: uQYUmfQsVFJykQBJ
+_id: A4bv2nyjX6kWgVtr
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686425201106
+  modifiedTime: 1702949011794
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 307530
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!A4bv2nyjX6kWgVtr'
+

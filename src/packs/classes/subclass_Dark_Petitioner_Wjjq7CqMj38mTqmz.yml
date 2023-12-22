@@ -1,0 +1,92 @@
+folder: hzHaNMqMnKppCil1
+name: Dark Petitioner
+type: subclass
+_id: Wjjq7CqMj38mTqmz
+img: icons/skills/melee/sword-engraved-glow-purple.webp
+system:
+  description:
+    value: >-
+      <p>As a rogue, you know that the path to peace and prosperity is rarely as
+      virtuous as the Vassals of the Sovereign Host claim. Victory must be won
+      by pragmatism, sacrifice, and the blood of those who aren’t afraid to get
+      their hands dirty—like you. With these tenets, you ask the Dark Six for
+      the gift of their power.</p><p>Though some Dark Petitioners worship the
+      Six as great leaders to venerate and emulate, many among the Five Nations
+      don’t hold their patrons in such high esteem. For these petitioners, their
+      rites and rituals instead serve to appease the dark powers, and to turn
+      the Six’s attention to their enemies. Do you enjoy the power of Dol Azur’s
+      blessing on a poisoned blade? Or do you only hope that your offerings to
+      the Mockery will cause your opponent to stumble first?</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Chronicles of Eberron
+    page: Ch. 8
+    custom: ''
+    license: DMsGuild CCA
+  identifier: dark-petitioner
+  classIdentifier: rogue
+  advancement:
+    - _id: UTyvqL1iUytUTK7w
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.xuIriF6VOZ2ic9eG
+          - Compendium.eberron-5e.classes.Item.FlLVlLyvrtgONSZR
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Roguish Archetype Feature
+      icon: null
+    - _id: a6diYjKrn0ueynhy
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.Iug7eCiVPalkvmRO
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Roguish Archetype Feature
+      icon: null
+    - _id: uRrcfL5Kwun7CZFU
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.lD2iSfDiumMl9WjP
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      title: Roguish Archetype Feature
+      icon: null
+    - _id: Tq6vYcmz1Gp8BVH5
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.xkRZUr3qMLDRbTHy
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Roguish Archetype Feature
+      icon: null
+  spellcasting:
+    progression: third
+    ability: wis
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686341509927
+  modifiedTime: 1702848856003
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!Wjjq7CqMj38mTqmz'
+

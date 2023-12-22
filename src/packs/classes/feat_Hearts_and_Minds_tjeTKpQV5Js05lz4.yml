@@ -1,0 +1,88 @@
+name: Hearts and Minds
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 1st level, you embrace that society is fluid and ever-changing;
+      you've not only learned how to compensate, but to exult in the flux. you
+      gain one cantrip of your choice from the bard spell list. For you, this
+      cantrip count as a cleric cantrip.</p><p>You also become proficient in
+      your choice of two of the following skills: Deception, Insight,
+      Intimidation, or Persuasion. Choose one of these skills; your proficiency
+      bonus is doubled for any ability check you make that uses that skill.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Change Domain 1
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/control/buff-luck-fortune-gold.webp
+flags: {}
+effects: []
+folder: r1wmOqxeIwATV8rw
+_id: tjeTKpQV5Js05lz4
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418484513
+  modifiedTime: 1702949011741
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 108370
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!tjeTKpQV5Js05lz4'
+

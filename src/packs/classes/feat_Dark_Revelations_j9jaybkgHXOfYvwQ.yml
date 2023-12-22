@@ -1,0 +1,86 @@
+folder: YSjy3z9zodEt5IB9
+name: Dark Revelations
+type: feat
+_id: j9jaybkgHXOfYvwQ
+img: icons/skills/social/theft-pickpocket-bribery-brown.webp
+system:
+  description:
+    value: >-
+      <p>Your divine studies have revealed a wealth of knowledge to you. You
+      gain proficiency in one skill or tool of your choice, and your proficiency
+      bonus is doubled for any ability check you make using that skill or tool.
+      Whenever you finish a long rest, you can change the proficiency granted by
+      this feature to another skill or tool.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    book: Chronicles of Eberron
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Aspiration Domain 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700547268853
+  modifiedTime: 1702949011735
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!j9jaybkgHXOfYvwQ'
+

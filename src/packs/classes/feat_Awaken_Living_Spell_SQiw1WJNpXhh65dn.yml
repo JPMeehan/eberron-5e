@@ -1,0 +1,91 @@
+name: Awaken Living Spell
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, your living cantrip familiar begins to show
+      signs of sentience. Its Intelligence, Wisdom and Charisma scores all
+      increase by an amount equal to your Intelligence modifier (minimum of 1).
+      This increase carries over to its living spell familiar forms. If your
+      Intelligence modifier changes in the future, the living cantrip's
+      Intelligence, Wisdom, and Charisma scores change as well.</p><p>In
+      addition, your living cantrip familiar acquires the following trait in all
+      of its forms:</p><h5> Limited Telepathy</h5> <p>Your familiar can
+      magically communicate simple ideas, emotions, and images telepathically to
+      any creature within 100 feet of it that can understand a language.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: School of Living Spells 6
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
+flags: {}
+effects: []
+folder: hf00BCLr7wArjrxW
+_id: SQiw1WJNpXhh65dn
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686425405769
+  modifiedTime: 1702949011887
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 601550
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!SQiw1WJNpXhh65dn'
+

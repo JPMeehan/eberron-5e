@@ -1,0 +1,89 @@
+name: Master of the White Banner
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 20th level, you can infuse yourself with the martial pride and
+      necromantic might of Karrnath. As an action, you gain the following
+      benefits for 1 hour:</p><p>You have immunity to cold and necrotic damage.
+      When you take the Attack action on your turn, you and any undead creatures
+      under your control within 30 feet of you can make one additional attack as
+      part of that action. You have resistance to bludgeoning, piercing, and
+      slashing damage from nonmagical weapons.</p><p>Once you use this feature,
+      you can't use it again until you finish a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: lr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Oath of the Bone Knight 20
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/death/skull-humanoid-crown-white-blue.webp
+flags: {}
+effects: []
+folder: pfgIPIhOb1vLietp
+_id: VwYe1IMi0r4LwzHe
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686419462185
+  modifiedTime: 1702949011779
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 2013330
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!VwYe1IMi0r4LwzHe'
+

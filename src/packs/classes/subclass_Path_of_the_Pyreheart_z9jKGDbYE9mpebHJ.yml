@@ -1,0 +1,49 @@
+folder: a637tbYcpKtbT65D
+name: Path of the Pyreheart
+type: subclass
+_id: z9jKGDbYE9mpebHJ
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>Whether through the ancestry of an efreet, a deal with a demon, or an
+      elemental influence, those on the Path of the Pyreheart draw from a very
+      real inner fire. These barbarians summon flames that sear their enemies
+      and smolder within superheated veins.</p><p> Pyrehearts can draw from a
+      number of different sources ranging from the demonic to the artificial. A
+      Warforged might possess an inner furnace or be imbued with a bound
+      elemental, casting forth flames like the famous Lord of Blades. The
+      chieftain of a Carrion Tribe might hurl demonic flames at her foes, born
+      from the influence of the Demon Wastes, or a pact with the Overlord Kharna
+      Rayva. A Tiefling touched by Fernia or Lamannia might find their anger
+      manifesting as elemental fire - a dangerous ability for those unaware of
+      their birthright. A Pyreheart is often physically marked by their inner
+      flame, which you can determine by rolling on the table below:</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  identifier: path-of-the-pyreheart
+  classIdentifier: barbarian
+  advancement: []
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1702705701311
+  modifiedTime: 1702886424283
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!z9jKGDbYE9mpebHJ'
+

@@ -1,0 +1,89 @@
+name: Knowledge Overwhelming
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 14th level, you can unleash a magical wave of pure
+      knowledge to overwhelm the minds of lesser beings. As an action, you can
+      cause up to five creatures within 30 feet of you to make an Intelligence
+      saving throw. On a failed save, a creature takes psychic damage equal to
+      4d8 + your Intelligence modifier, and it is stunned until the end of its
+      next turn. On a successful save, it takes half damage and is not stunned.
+      Once you use this feature, you can't use it again until you finish a short
+      or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: The Hidden One 14
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+flags: {}
+effects: []
+folder: 5mCyyiAowrcXTrUh
+_id: rStRCMOKe6XkNcRg
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686426343773
+  modifiedTime: 1702949011718
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 1411460
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!rStRCMOKe6XkNcRg'
+

@@ -1,0 +1,93 @@
+name: Crystal Shaper Spells
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 3rd level, you always have certain spells prepared after
+      you reach particular levels in this class, as shown in the Crystal Shaper
+      Spells table. These spells count as artificer spells for you, but they
+      don't count against the number of artificer spells you
+      prepare.</p><table><caption>Crystal Shaper Spells</caption><thead><tr><th
+      data-rd-isroller="false">Artificer Level</th><th
+      data-rd-isroller="false">Spells</th></tr></thead><tbody><tr><td>3rd</td><td>charm
+      person, dissonant whispers</td></tr><tr><td>5th</td><td>calm emotions,
+      detect thoughts</td></tr><tr><td>9th</td><td>clairvoyance, meld into
+      stone</td></tr><tr><td>13th</td><td>aura of purity, stone
+      shape</td></tr><tr><td>17th</td><td>dream, modify
+      memory</td></tr></tbody></table>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Crystal Shaper 3
+  recharge:
+    value: null
+    charged: false
+img: icons/commodities/gems/gem-cluster-teal.webp
+flags: {}
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418371041
+  modifiedTime: 1702949011873
+  lastModifiedBy: MVioF9x1qI1WYGx1
+folder: MVHoTydfDvrOUgvY
+_id: g59ex0tFshRj5VyC
+sort: 303500
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!g59ex0tFshRj5VyC'
+

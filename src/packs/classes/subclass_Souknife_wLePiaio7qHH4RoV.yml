@@ -1,0 +1,48 @@
+folder: fYHNYBaPlsCW47W3
+name: Souknife
+type: subclass
+_id: wLePiaio7qHH4RoV
+img: icons/skills/melee/strike-dagger-arcane-pink.webp
+system:
+  description:
+    value: >-
+      <p>Most rogues perfect the art of deadly combat with easily concealed
+      physical weapons. The Soulknife, however, needs no physical weapon at all,
+      instead manifesting their deadly weapons with the power of their mind.
+      They are excellent assassins and undercover agents, summoning a weapon in
+      a heartbeat where an opponent expects an unarmed foe.</p><p>Psionic power
+      is the easiest route to learning the basic tenets of this path—manifesting
+      a mindblade. As a result, most Soulknives are either kalashtar or denizens
+      of Sarlona, though the spark of psionic power might be found in any of the
+      common races.</p><p>Two other traditions have evolved among elves, neither
+      of them psionic. Rarely, elves with the Mark of Shadow have learned to
+      manipulate the darkness to form solid blades. Meanwhile, the Umbragen of
+      Xen'drik have discovered how to manifest blades of pure darkness through
+      the pact of their people with the Umbra. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  identifier: souknife-aoe
+  classIdentifier: rogue
+  advancement: []
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 19470
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686246023588
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!wLePiaio7qHH4RoV'
+

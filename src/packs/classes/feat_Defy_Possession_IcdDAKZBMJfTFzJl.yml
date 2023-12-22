@@ -1,0 +1,84 @@
+name: Defy Possession
+type: feat
+system:
+  description:
+    value: >-
+      <p>From 1st level, any time a creature attempts to possess you, such as
+      the magic jar spell or the Possession ability of a ghost, you
+      automatically succeed on the saving throw against it.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Exorcism Domain 1
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+flags: {}
+effects: []
+folder: SMG8a1fU051AIjhX
+_id: IcdDAKZBMJfTFzJl
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418495801
+  modifiedTime: 1702949011851
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 104370
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!IcdDAKZBMJfTFzJl'
+

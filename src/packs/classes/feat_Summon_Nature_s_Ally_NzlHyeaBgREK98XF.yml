@@ -1,0 +1,98 @@
+name: Summon Nature's Ally
+type: feat
+system:
+  description:
+    value: >-
+      <p>Beginning at 2nd level, you can expend one use of your Wild Shape
+      feature to summon an ally from the world around you, rather than assuming
+      a beast form. As an action, you cause local flora to combine with sand,
+      dirt, and rock to take the form of any beast of your choice that your Wild
+      Shape feature would allow you to transform into, as shown in the Beast
+      Shapes table of that feature. This summoned ally has the statistics of the
+      chosen form, though it is an elemental instead of a beast. It appears
+      within an unoccupied space within 60 feet of you, and disappears after 10
+      minutes or when it drops to 0 hit points.</p><p>Your summoned ally can
+      move and use its reaction on its own, but the only action it takes on its
+      turn is the Dodge action, unless you take a bonus action on your turn to
+      command it to take one of the actions in its stat block or the Dash,
+      Disengage, Help, Hide, or Search action.</p><p>You can only have one
+      summoned ally at a time. If you summon an additional one, the first one
+      that you summoned crumbles into its component parts, inert.</p><p>In
+      addition, any spells that you cast that can affect beasts can affect your
+      summoned ally as well, as if it were a beast.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Circle of Eberron 2
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/earth/construct-stone.webp
+flags: {}
+effects: []
+folder: 0cGAxH6m8T0cE8Uv
+_id: NzlHyeaBgREK98XF
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418542394
+  modifiedTime: 1702949011897
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 219530
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!NzlHyeaBgREK98XF'
+

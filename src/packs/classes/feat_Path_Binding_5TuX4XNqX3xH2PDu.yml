@@ -1,0 +1,89 @@
+folder: eOjSkOhpWdYszd1S
+name: Path Binding
+type: feat
+_id: 5TuX4XNqX3xH2PDu
+img: icons/magic/light/beam-explosion-pink-purple.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, you can flaunt your freedom while constraining
+      would-be pursuers. When an enemy moves within 5 feet of you, you can use
+      your reaction to immediately move up to your speed. This movement does not
+      provoke an opportunity attack from the triggering enemy. Additionally, the
+      triggering enemy must make a Charisma saving throw. If it fails, its speed
+      becomes 0 until the end of its next turn, and it can’t benefit from any
+      bonus to its speed for the duration. The save DC is equal to your warlock
+      spell save DC.</p><p> When you use this ability, you must finish a short
+      rest before you can use it again.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    book: Imogen Gingell
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Khyber, the Dragon Below 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1702530207943
+  modifiedTime: 1702949011759
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!5TuX4XNqX3xH2PDu'
+

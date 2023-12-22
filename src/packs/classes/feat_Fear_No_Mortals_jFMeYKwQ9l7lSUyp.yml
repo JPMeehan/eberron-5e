@@ -1,0 +1,88 @@
+name: Fear No Mortals
+type: feat
+system:
+  description:
+    value: >-
+      <p>Beginning at 10th level, your patron shows you the true meaning of
+      fear, but you have learned how to accept it, then turn it back on its
+      maker. You are immune to being frightened. Additionally, as a reaction to
+      a creature attempting to frighten you, you can turn the fear on it
+      instead, causing the creature to make a Wisdom saving throw against your
+      warlock spell save DC. On a failed save, it is frightened of you for 1
+      minute or until it takes any damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: The Hidden One 10
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+flags: {}
+effects: []
+folder: 5mCyyiAowrcXTrUh
+_id: jFMeYKwQ9l7lSUyp
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686426343132
+  modifiedTime: 1702949011708
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 1006370
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!jFMeYKwQ9l7lSUyp'
+

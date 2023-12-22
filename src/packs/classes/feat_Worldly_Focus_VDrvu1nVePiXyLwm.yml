@@ -1,0 +1,85 @@
+name: Worldly Focus
+type: feat
+system:
+  description:
+    value: >-
+      <p>Also starting at 6th level, Eberron herself provides the breath and
+      life of your spells. While on the Material Plane, you require no material
+      components to cast your druid spells, except those consumed when you cast
+      a spell (as indicated in a spell's description).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Circle of Eberron 6
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/earth/construct-stone.webp
+flags: {}
+effects: []
+folder: 0cGAxH6m8T0cE8Uv
+_id: VDrvu1nVePiXyLwm
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418543359
+  modifiedTime: 1702949011896
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 623470
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!VDrvu1nVePiXyLwm'
+

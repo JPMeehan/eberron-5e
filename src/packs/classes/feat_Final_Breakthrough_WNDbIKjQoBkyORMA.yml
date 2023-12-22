@@ -1,0 +1,85 @@
+folder: L7f2HdWXA5KSNCXo
+name: Final Breakthrough
+type: feat
+_id: WNDbIKjQoBkyORMA
+img: icons/magic/symbols/runes-triangle-blue.webp
+system:
+  description:
+    value: >-
+      <p>At 15th level, you gain one additional spell slot of each spell level
+      you can prepare. These spell slots can only be used to cast the bonus
+      spells granted by your Arcane Breakthroughs. As you gain levels in this
+      class and are able to prepare 5th-level artificer spells, you gain an
+      additional spell slot of that level</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Maverick 15
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700534438068
+  modifiedTime: 1702949011869
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!WNDbIKjQoBkyORMA'
+

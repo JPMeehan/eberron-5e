@@ -1,0 +1,85 @@
+name: Hagskin
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 15th level, your years of long service have strengthened your skin,
+      making you resistant to physical blows. Bludgeoning, piercing, and
+      slashing damage that you take from weapons is reduced by a number of
+      points equal to your Charisma modifier (minimum of 1).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Oath of the Kell Knight 15
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/unholy/hands-circle-light-green.webp
+flags: {}
+effects: []
+folder: QbzdNxFhcEKtHfIx
+_id: MnuQjGRpcTVdumej
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686419473998
+  modifiedTime: 1702949011864
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 1508330
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!MnuQjGRpcTVdumej'
+

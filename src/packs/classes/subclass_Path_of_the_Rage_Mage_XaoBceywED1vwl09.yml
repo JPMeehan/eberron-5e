@@ -1,0 +1,88 @@
+folder: oL5ygCNARwUmy8wa
+name: Path of the Rage Mage
+type: subclass
+_id: XaoBceywED1vwl09
+img: icons/magic/fire/flame-burning-fist-strike.webp
+system:
+  description:
+    value: >-
+      <p>Some barbarians are overcome by a fury powered not entirely by their
+      own will, crackling with arcane power. Known as Rage Mages, these
+      barbarians can cast a limited number of spells even while raging, and
+      slowly develop the ability to have magic bleeding out of them into their
+      melee attacks. </p><p>In Khorvaire, Rage Mages are most often found among
+      Mournborn warped by the Day of Mourning, creatures touched by Kythri, and
+      bearers of aberrant dragonmarks. The reality storms that wrack Sarlona
+      might also produce Rage Mages, and sailors of the Thunder Sea claim
+      they've seen sahuagin who've demonstrated similar abilities. Few others
+      have the necessary connection to the raw eldritch power needed to follow
+      this path</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  identifier: path-of-the-rage-mage
+  classIdentifier: barbarian
+  advancement:
+    - _id: p7XdocdpCUgBwmix
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.9W7USG83AdLDth8C
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Path Feature
+      type: ItemGrant
+    - _id: MVVQoI5RRJM9DFhV
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.iXZxRQOjrIYKtvJh
+          - Compendium.eberron-5e.classes.Item.0ddyI3sE64kS1zyV
+          - Compendium.eberron-5e.classes.Item.UhBzc1oerXUDEXD1
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Path Feature
+      type: ItemGrant
+    - _id: z2JfOtPeQaI15Y8x
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.0HpfCjXVWGZjO7Un
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Path Feature
+      type: ItemGrant
+    - _id: mUxdoiovsHAaNCSA
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.0HqIjLZ5q1GJMafs
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Path Feature
+      type: ItemGrant
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 16330
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686201711969
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!XaoBceywED1vwl09'
+

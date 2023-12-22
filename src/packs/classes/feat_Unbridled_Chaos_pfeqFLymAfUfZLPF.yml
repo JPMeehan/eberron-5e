@@ -1,0 +1,84 @@
+name: Unbridled Chaos
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 17th level, you add the following to your list of domain spells:
+      maze, prismatic spray, scatter, and true polymorph. As domain spells, they
+      are always prepared and count as cleric spells for you.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Change Domain 17
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/control/buff-luck-fortune-gold.webp
+flags: {}
+effects: []
+folder: r1wmOqxeIwATV8rw
+_id: pfeqFLymAfUfZLPF
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418486834
+  modifiedTime: 1702949011742
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 1721460
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!pfeqFLymAfUfZLPF'
+

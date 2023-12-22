@@ -1,0 +1,52 @@
+folder: DYYair8R4grZPWH1
+name: College of Nature
+type: subclass
+_id: 4d3gm8aUj4XFSivU
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>Since the dawn of time, the whistling wind, rushing rivers and calls of
+      birds have inspired countless works of art. Some bards see beauty in the
+      world around us, acting as emissaries to the powers of nature, and working
+      with the land as their canvas. The College of Nature is less an
+      organization than an ideal - to protect the wonder of the wild, and find
+      joy in its splendor. Their commitment to harmony allows them to speak to
+      animals, plants, and even elementals. When nature comes under attack, they
+      call on those powers to protect it - and can unleash devastating natural
+      disasters in defense.</p><p> Bards of the College of Nature might use any
+      instrument, from paints, to flutes, to dance - anything that allows them
+      to attune to the rhythms of the world. In Xen’drik, the Vulkoor, Qaltiar,
+      and Na’qalla drow venerate and call upon the spirits of nature, while the
+      Rimewalker druids of the Iceflow often speak with the giant animals of
+      their home. In Khorvaire, the Greensingers of the Reaches combine druidic
+      and bardic traditions to treat with the fey, while the gnomes of Lorghalan
+      survive through their close friendship with elementals</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  identifier: college-of-nature
+  classIdentifier: bard
+  advancement: []
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1702705741398
+  modifiedTime: 1702886424283
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!4d3gm8aUj4XFSivU'
+

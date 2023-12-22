@@ -1,0 +1,87 @@
+name: Otherworldly Summons
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 14th level, you can summon a creature from beyond common
+      understanding. You add the conjure aberrations spell to your spellbook.
+      This is a wizard spell for you. Only Alienists are capable of
+      understanding the mad scrawlings that make up this spell, and a wizard
+      from any other school would be unable to decipher and copy it into their
+      spellbook.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Cult of the Alienist 14
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/perception/eye-tendrils-web-purple.webp
+flags: {}
+effects: []
+folder: 3cbRpDqnLnbhN399
+_id: c3keHBF1a43ZgDUr
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686425395861
+  modifiedTime: 1702949011910
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 1415520
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!c3keHBF1a43ZgDUr'
+

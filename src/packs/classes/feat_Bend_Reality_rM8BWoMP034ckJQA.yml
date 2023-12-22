@@ -1,0 +1,84 @@
+folder: zaElEUR4plgasrc0
+name: Bend Reality
+type: feat
+_id: rM8BWoMP034ckJQA
+img: icons/magic/perception/third-eye-blue-red.webp
+system:
+  description:
+    value: >-
+      <p>Starting at 17th level, when you see an ally within 30 feet of you fail
+      a saving throw, you can replace the roll with a 20, potentially changing
+      the outcome. Once you use this feature, you can’t use it again until you
+      finish a short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Mind Domain 17
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700547969740
+  modifiedTime: 1702949011849
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!rM8BWoMP034ckJQA'
+

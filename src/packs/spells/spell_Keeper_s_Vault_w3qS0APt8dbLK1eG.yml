@@ -1,0 +1,110 @@
+folder: 64K3cigPSnFdVcYq
+name: Keeper's Vault
+type: spell
+img: icons/magic/light/light-lantern-lit-white.webp
+system:
+  description:
+    value: >-
+      <p>You draw out a fragment of a living soul and bind it within the lantern
+      used as a material component for this spell. Choose a creature you can see
+      within 60 feet of you that isn’t an Undead or Construct. For the duration,
+      the lantern is ignited by the target’s soul and sheds dim light in a
+      30-foot radius. At the start of each of the target’s turns until the spell
+      ends, the target must make a Constitution saving throw. On a failed save,
+      it takes 2d6 necrotic damage. On a successful save, the target takes no
+      damage, but its soul remains bound. If the target’s saving throw succeeds
+      by 5 or more, its soul becomes unbound and the spell ends.</p><p>Until the
+      spell ends, as a bonus action, you can choose one creature you can see
+      within 30 feet of you that isn’t an Undead or Construct. That creature
+      regains hit points equal to the total damage dealt by this spell, up to a
+      maximum of 20 hit points, and the spell ends.</p><p><em><strong>At Higher
+      Levels.</strong></em> When you cast this spell using a spell slot of 3rd
+      level or higher, the damage increases by 1d6 and the maximum hit points
+      regained increases by 10 for each slot level above 2nd.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    custom: CoE
+  activation:
+    type: action
+    cost: null
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    prompt: true
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6
+        - necrotic
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 2
+  school: nec
+  components:
+    vocal: true
+    somatic: false
+    material: true
+    ritual: false
+    concentration: true
+  materials:
+    value: an unlit lantern worth at least 10 gp
+    consumed: false
+    cost: 10
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d6
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686367855686
+  modifiedTime: 1702848929529
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: w3qS0APt8dbLK1eG
+sort: 0
+_key: '!items!w3qS0APt8dbLK1eG'
+

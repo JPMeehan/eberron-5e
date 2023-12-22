@@ -1,0 +1,161 @@
+name: Living Spell Familiar
+type: feat
+system:
+  description:
+    value: >-
+      <p>When you dedicate yourself to this school at 2nd level, you add the
+      find familiar spell to your spellbook and have the option to create a
+      living cantrip as a variant familiar. This familiar is a semi-sentient
+      spell formed from your own arcane power. When you cast the find familiar
+      spell to create a living cantrip, you can do so without material
+      components.</p><p>When you cast any spell, regardless of its range, your
+      living cantrip familiar can deliver the spell as if it had cast the spell.
+      Your familiar must be within 100 feet of you, you must be able to see it,
+      and it must use its reaction to deliver the spell when you cast it. If the
+      spell requires an attack roll, you use your attack modifier for the roll.
+      For example, while your familiar is 60 feet away from you, you could cast
+      thunderwave, which has a range of self, but count your familiar as the
+      origin point of the spell's blast wave.</p><p>When you reach certain
+      levels in this class, you learn to imbue more powerful spells into your
+      living cantrip familiar. Starting at 5th level, when you finish a short or
+      long rest, you can expend a spell slot of a level indicated on the Imbued
+      Living Spell Familiar table to imbue your living cantrip familiar with a
+      damage dealing spell of that level that has a casting time of 1 action and
+      requires no costly material component. When you do so, your familiar
+      transforms into a more powerful living spell with full hit points, as
+      indicated on the Imbued Living Spell Familiar table. While in this form,
+      it gains the ability to take the Attack action on its turn, unlike other
+      familiars. You can use your reaction on the familiar's turn to command it
+      to cast the spell you imbued in it at its lowest level, using your wizard
+      spell save DC and attack bonus instead of its own. (Instructions for
+      customizing stat blocks for each type of familiar are provided in the
+      section on "Customizing Living Spell Familiars". Unlike living spells
+      found in the wild, your living spell familiar does not have the recharging
+      Spell Mimicry feature, and can only cast the spell it is created from one
+      time before it reverts to its living cantrip form).</p><p>When imbued with
+      a spell, your familiar keeps this form until it casts the spell imbued in
+      it, takes a long rest, or drops to 0 hit points, then it reverts to its
+      normal living cantrip form, returning to the number of hit points it had
+      before it transformed. However, if it reverts as a result of dropping to 0
+      hit points, any excess damage carries over to its normal form. If the
+      spell it cast with Unleash Spell requires concentration, your familiar
+      must maintain concentration on the spell once in living cantrip
+      form.</p><table><caption>Imbued Living Spell
+      Familiar</caption><thead><tr><th data-rd-isroller="false">Wizard
+      Level</th><th data-rd-isroller="false">Spell Level</th><th
+      data-rd-isroller="false">Familiar
+      Type</th></tr></thead><tbody><tr><td>5th</td><td>1-2</td><td>Least living
+      spell</td></tr><tr><td>9th</td><td>3-4</td><td>Lesser living
+      spell</td></tr><tr><td>13th</td><td>5-6</td><td>Greater living
+      spell</td></tr></tbody></table><h5> Customizing Living Spell
+      Familiars</h5> <p>In the Living Spell Familiar feature for the School of
+      Living Spells, you gain access to three more powerful forms of your living
+      cantrip familiar: the <b>least living spell</b>, <b>lesser living
+      spell</b>, and <b>greater living spell</b> familiar. Instructions for
+      customizing the stat blocks for these living spell familiars are provided
+      here.</p><p>When you imbue your living cantrip familiar with a spell,
+      consult the Living Spell Familiar Customization table to see which example
+      stat block to customize, based on the chosen spell's
+      level.</p><table><caption>Living Spell Familiar
+      Customization</caption><thead><tr><th data-rd-isroller="false">Spell
+      Level</th><th data-rd-isroller="false">Familiar Type</th><th
+      data-rd-isroller="false">Stat Block to
+      Customize</th></tr></thead><tbody><tr><td>1-2</td><td>Least living spell
+      familiar</td><td>Living burning hands
+      familiar</td></tr><tr><td>3-4</td><td>Lesser living spell
+      familiar</td><td>Living lightning bolt
+      familiar</td></tr><tr><td>5-6</td><td>greater living spell
+      familiar</td><td>Living cloudkill familiar</td></tr></tbody></table><p>Now
+      make the following changes to that stat block:</p> Damage Immunity.
+      <p>Replace the living spell familiar's damage immunity with immunity to
+      the type (or types) of damage dealt by the chosen spell.</p> Magical
+      Psuedopod. <p>Replace the damage that Magical Pseudopod deals with one
+      type of damage dealt by the chosen spell.</p> Unleash Spell. <p>Replace
+      the effect of Unleash Spell with the effect of the chosen spell. If that
+      spell requires a saving throw or attack roll, use your wizard spell save
+      DC and attack bonus instead of the familiar's own. After the living spell
+      familiar uses its Unleash Spell ability, it ceases to be a living spell
+      familiar and reverts to its living cantrip familiar form, as described in
+      your Living Spell Familiar feature.</p><p>For example, if you turn
+      fireball (a 3rd-level spell) into a living spell familiar, you are
+      creating a lesser living spell and should customize the living lightning
+      bolt familiar. The resulting living fireball familiar has immunity to fire
+      damage instead of lightning damage; deals fire damage with its Magical
+      Pseudopod; and can replicate fireball once with Unleash Spell, after which
+      it reverts to a living cantrip familiar.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: School of Living Spells 2
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
+flags: {}
+effects: []
+folder: hf00BCLr7wArjrxW
+_id: vI3zEtOUl3SHKR1a
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686425404319
+  modifiedTime: 1702949011889
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 212410
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!vI3zEtOUl3SHKR1a'
+

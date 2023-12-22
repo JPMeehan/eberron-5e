@@ -1,0 +1,90 @@
+name: Incarnate Hero
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 14th level, you can summon forth the martial spirit of a mighty hero
+      in time of need, sweeping lesser warriors aside as you move through the
+      battlefield. As an action, you gain the following benefits for 10
+      minutes:</p><ul><li>You gain a number of temporary hit points equal to
+      three times your warlock level.</li><li>You gain advantage on attack rolls
+      that you make with simple and martial weapons.</li><li>You gain advantage
+      on all Strength and Dexterity saving throws and ability
+      checks.</li></ul><p>Once you use this feature, you can't use it again
+      until you finish a short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: The Soulborn 14
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/symbols/runes-etched-steel-blade.webp
+flags: {}
+effects: []
+folder: vzIlOGhag2UY2YNO
+_id: inujy1D77yv2zr7w
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686425384430
+  modifiedTime: 1702949011753
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 1409460
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!inujy1D77yv2zr7w'
+

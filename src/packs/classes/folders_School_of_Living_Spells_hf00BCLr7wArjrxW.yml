@@ -1,0 +1,17 @@
+name: School of Living Spells
+sorting: m
+folder: NGldiFNodOMN07OU
+type: Item
+_id: hf00BCLr7wArjrxW
+sort: 200000
+color: null
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.2.1
+  coreVersion: '11.300'
+  createdTime: null
+  modifiedTime: 1686245609473
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!folders!hf00BCLr7wArjrxW'
+

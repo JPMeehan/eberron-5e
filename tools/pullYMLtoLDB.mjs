@@ -9,6 +9,9 @@ for (const pack of packs) {
   console.log("Packing " + pack);
   await compilePack(
     `${MODULE_ID}/src/packs/${pack}`,
-    `${MODULE_ID}/packs/${pack}`
+    `${MODULE_ID}/packs/${pack}`,
+    {
+      yaml: true,
+    }
   );
 }

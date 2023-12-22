@@ -1,0 +1,101 @@
+folder: caQfRwcQOMwGhqOZ
+name: Assimilate
+type: prime-psionics.power
+img: icons/magic/unholy/hand-light-green.webp
+system:
+  description:
+    value: >-
+      <p>You touch a creature and assimilate their life force and matter into
+      your body. The target must make a Constitution saving throw. On a failed
+      save, the target takes 7d6 + 20 force damage and you gain temporary hit
+      points equal to half the damage dealt. If this damage reduces the target
+      to 0 hit points, the target is completely assimilated.</p><p>A completely
+      assimilated creature dies and its entire body, including everything it is
+      wearing and carrying, except magic items, is broken down and absorbed
+      entirely into your body. The creature can be restored to life only by
+      means of true resurrection, reality revision, or similar magic.</p><p>When
+      you completely assimilate a creature, your hit point maximum increases by
+      2 for every hit die the target creature possessed. Additionally, you gain
+      a semblance of the creature’s form, granting you advantage on ability
+      checks to impersonate it. Both of these effects last until you finish a
+      long rest.</p><p>This power has no effect on undead or
+      constructs.</p><p><strong>Intensify.</strong> When you spend extra psi
+      points to manifest this augment, the damage increases by 1d6 for each
+      additional psi point spent beyond the minimum cost. <br /></p>
+    chat: ''
+    unidentified: ''
+  source:
+    custom: Psion's Primer
+  activation:
+    type: action
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: flags
+    target: pp
+    amount: 9
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 5
+  discipline: psm
+  augmenting: Verve
+  components:
+    auditory: false
+    observable: true
+    concentration: false
+    ritual: false
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1685921255391
+  modifiedTime: 1702848254665
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: PyIfvttuNc68yaNh
+sort: 0
+_key: '!items!PyIfvttuNc68yaNh'
+

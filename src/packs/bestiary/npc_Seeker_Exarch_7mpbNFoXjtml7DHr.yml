@@ -1,0 +1,1208 @@
+name: Seeker Exarch
+type: npc
+folder: kCNXkhVxaL5N0FJi
+img: icons/svg/mystery-man.svg
+system:
+  abilities:
+    str:
+      value: 18
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 14
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 10
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 18
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  attributes:
+    ac:
+      flat: 18
+      calc: flat
+      formula: ''
+    hp:
+      value: 104
+      max: 104
+      temp: 0
+      tempmax: 0
+      formula: 16d8 + 18
+    init:
+      ability: ''
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: int
+  details:
+    biography:
+      value: >-
+        <p>Exarchs are martial champions of the Blood of Vol. Unlike paladins
+        who swear oaths to ideals greater than themselves, an exarch places
+        their faith and conviction in their own greatness—the Divinity
+        Within—infusing them with supernatural prowess.</p>
+      public: ''
+    alignment: Typically Lawful Neutral
+    race: null
+    type:
+      value: humanoid
+      subtype: ''
+      swarm: ''
+      custom: ''
+    environment: ''
+    cr: 8
+    spellLevel: 0
+    source: {}
+  traits:
+    size: med
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value:
+        - bludgeoning
+        - piercing
+        - slashing
+      bypasses:
+        - mgc
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: Any one language (usually common)
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      value: 1
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+prototypeToken:
+  name: Seeker Exarch
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: icons/svg/mystery-man.svg
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  flags: {}
+  randomImg: false
+items:
+  - name: Multiattack
+    type: feat
+    img: icons/magic/death/skull-trio-badge-purple.webp
+    system:
+      description:
+        value: The exarch makes two melee weapon attacks.
+        chat: ''
+        unidentified: ''
+      source: {}
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: null
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: monster
+        subtype: ''
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _id: bMdKc2pCPjZeWBOT
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.4.0
+      coreVersion: '11.315'
+      createdTime: 1701065747659
+      modifiedTime: 1701065747659
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!7mpbNFoXjtml7DHr.bMdKc2pCPjZeWBOT'
+  - name: Greataxe
+    type: weapon
+    img: icons/weapons/axes/axe-double.webp
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +7 to hit, reach 5 ft. , one target. Hit: 10
+          (1d12 + 4) slashing damage.
+        chat: ''
+        unidentified: ''
+      source: {}
+      quantity: 1
+      weight: 0
+      price:
+        value: 0
+        denomination: gp
+      attunement: 2
+      equipped: true
+      rarity: ''
+      identified: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: 5
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: str
+      actionType: mwak
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d12 + @mod
+            - slashing
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      weaponType: natural
+      baseItem: ''
+      properties:
+        ada: false
+        amm: false
+        fin: false
+        fir: false
+        foc: false
+        hvy: false
+        lgt: false
+        lod: false
+        mgc: false
+        rch: false
+        rel: false
+        ret: false
+        sil: false
+        spc: false
+        thr: false
+        two: false
+        ver: false
+      proficient: 1
+    _id: PpdjcC4ir4gGLMfr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.4.0
+      coreVersion: '11.315'
+      createdTime: 1701065747778
+      modifiedTime: 1701065747778
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!7mpbNFoXjtml7DHr.PpdjcC4ir4gGLMfr'
+  - name: Crusader Stances
+    type: feat
+    img: icons/svg/combat.svg
+    flags:
+      adnd5e:
+        itemInfo:
+          type: bonus
+    system:
+      description:
+        value: >-
+          <p>The exarch enters, ends, or changes its stance. A stance ends if
+          the exarch is incapacitated or enters a different stance. Each stance
+          has its own effect: </p><p>• Iron Guard’s Glare. When a creature makes
+          a melee attack against an ally of the exarch it can see within 10 feet
+          of the exarch, the attacker must roll a d4 and subtract the result
+          from its attack roll. </p><p>• Stonefoot Stance. The exarch is immune
+          to being stunned or knocked prone against its will. </p><p>• Roots of
+          the Mountain. The exarch gains resistance to bludgeoning, piercing,
+          and slashing damage from nonmagical attacks.</p>
+        chat: ''
+        unidentified: ''
+      source: {}
+      activation:
+        type: bonus
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: null
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: monster
+        subtype: ''
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _id: TINd4DZeNt5ms66b
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.4.0
+      coreVersion: '11.315'
+      createdTime: 1701065747875
+      modifiedTime: 1701065747875
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!7mpbNFoXjtml7DHr.TINd4DZeNt5ms66b'
+  - name: Furious Retaliation
+    type: feat
+    img: icons/svg/combat.svg
+    flags:
+      adnd5e:
+        itemInfo:
+          type: reaction
+    system:
+      description:
+        value: >-
+          When the exarch takes damage, it gains advantage on the next melee
+          weapon attack it makes before the end of its next turn, and deals an
+          additional 6 (1d12) damage with the attack if it hits.
+        chat: ''
+        unidentified: ''
+      source: {}
+      activation:
+        type: reaction
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: null
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: monster
+        subtype: ''
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _id: eIF94K9UnDz1DRVD
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.4.0
+      coreVersion: '11.315'
+      createdTime: 1701065747942
+      modifiedTime: 1701065747942
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!7mpbNFoXjtml7DHr.eIF94K9UnDz1DRVD'
+  - name: Crusader Maneuvers (1/turn)
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          When the exarch attacks a creature with a melee weapon attack, it can
+          add one of the following random effects; roll a d10 to determine
+          which. The exarch must roll before it is determined whether the attack
+          hits or misses, and the attack only gains the effects if it hits. 1–2.
+        chat: ''
+        unidentified: ''
+      source: {}
+      activation:
+        type: ''
+        cost: null
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: null
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: monster
+        subtype: ''
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _id: FToQfyJ9qWm3Gu84
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.4.0
+      coreVersion: '11.315'
+      createdTime: 1701065748184
+      modifiedTime: 1701065748184
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!7mpbNFoXjtml7DHr.FToQfyJ9qWm3Gu84'
+  - name: Distracting Strike
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The target cannot take reactions until the start of the exarch’s next
+          turn. 3–4.
+        chat: ''
+        unidentified: ''
+      source: {}
+      activation:
+        type: ''
+        cost: null
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: null
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: monster
+        subtype: ''
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _id: QXhew0GrAafogrvK
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.4.0
+      coreVersion: '11.315'
+      createdTime: 1701065748256
+      modifiedTime: 1701065748256
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!7mpbNFoXjtml7DHr.QXhew0GrAafogrvK'
+  - name: Revitalizing Strike
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: The exarch regains 18 (3d6 + 8) hit points. 5–6.
+        chat: ''
+        unidentified: ''
+      source: {}
+      activation:
+        type: ''
+        cost: null
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: null
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: monster
+        subtype: ''
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _id: t1QntRiRbmFTjHPd
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.4.0
+      coreVersion: '11.315'
+      createdTime: 1701065748342
+      modifiedTime: 1701065748342
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!7mpbNFoXjtml7DHr.t1QntRiRbmFTjHPd'
+  - name: Stone Vise
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The attack deals an extra 11 (1d6 + 8) damage and the target is
+          immobilized until the end of the exarch’s next turn. 7–8.
+        chat: ''
+        unidentified: ''
+      source: {}
+      activation:
+        type: ''
+        cost: null
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: null
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: monster
+        subtype: ''
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _id: 0BLxUb2cgFjQsTzw
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.4.0
+      coreVersion: '11.315'
+      createdTime: 1701065748422
+      modifiedTime: 1701065748422
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!7mpbNFoXjtml7DHr.0BLxUb2cgFjQsTzw'
+  - name: Foehammer
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The attack deals an extra 15 (2d6 + 8) damage and the attack ignores
+          the target’s damage resistances or immunities. 9–10.
+        chat: ''
+        unidentified: ''
+      source: {}
+      activation:
+        type: ''
+        cost: null
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: null
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: monster
+        subtype: ''
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _id: Cn1SDu4kVLCVOVCw
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.4.0
+      coreVersion: '11.315'
+      createdTime: 1701065748502
+      modifiedTime: 1701065748502
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!7mpbNFoXjtml7DHr.Cn1SDu4kVLCVOVCw'
+  - name: Guiding Smite
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The exarch adds 15 (2d6 + 8) radiant damage to the attack’s damage and
+          the next attack against the target before the end of the exarch’s next
+          turn is made with advantage.
+        chat: ''
+        unidentified: ''
+      source: {}
+      activation:
+        type: ''
+        cost: null
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: null
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: monster
+        subtype: ''
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _id: FVFX2MSk7q8U56cA
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.4.0
+      coreVersion: '11.315'
+      createdTime: 1701065748571
+      modifiedTime: 1701065748571
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!7mpbNFoXjtml7DHr.FVFX2MSk7q8U56cA'
+effects: []
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1701065747481
+  modifiedTime: 1702848184332
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: 7mpbNFoXjtml7DHr
+sort: 0
+_key: '!actors!7mpbNFoXjtml7DHr'
+

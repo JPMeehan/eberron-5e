@@ -1,0 +1,86 @@
+name: Pernicious Toxins
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 11th level, your poisons are so deadly that not even the stoutest of
+      creatures can resist them. When you deal poison damage to a living
+      creature, it ignores resistance and immunity. In addition, any creature
+      that you deal poison damage to cannot regain hit points until the start of
+      your next turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Guerilla 11
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/nature/plant-bamboo-green.webp
+flags: {}
+effects: []
+folder: uQYUmfQsVFJykQBJ
+_id: Run6WwBXKNZGHZ56
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686425203619
+  modifiedTime: 1702949011821
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 1116370
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!Run6WwBXKNZGHZ56'
+

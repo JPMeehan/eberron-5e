@@ -1,0 +1,104 @@
+folder: pfgIPIhOb1vLietp
+name: Oath of the Bone Knight
+type: subclass
+_id: X3tnbXZyl1J0wg1S
+img: icons/magic/death/skull-humanoid-crown-white-blue.webp
+system:
+  description:
+    value: >-
+      <p>Bone Knights are Karrn patriots, living protectors who fight alongside
+      the undead legions of their land. During the Last War, they provided
+      tactical expertise and controlled the legions of undead that the Blood of
+      Vol priesthood raised to defend the Karrnathi people.</p><p>Although the
+      founders of the order of Bone Knights were powerful members of the Emerald
+      Claw, they recruited freely from amongst the populace, seeking those with
+      the ability and willpower to control the dead, rather than prioritizing
+      matters of faith. In post-war Karrnath, the surviving Bone Knights are
+      elite emissaries who travel abroad to complete missions that serve the
+      greater glory of Karrnath and King Kaius III. The only recognized Bone
+      Knight training facilities are located in Karrnath, and most come from
+      that grim land. However, the Order of the Emerald Claw pioneered the
+      order, so a new trainee could crop up anywhere their reach
+      extends.</p><p>Though unknown to most of Khorvaire, similar traditions
+      exist amongst the elves of the Bloodsail Principality and in Aerenal
+      itself. Rumors of an ancient and powerful group of elven necromancers in
+      the Xen'drik jungles could also lead to this path.</p><h5><span
+      class="fontstyle0">T</span>enets of the Bone Knight</h5><p>Sworn to the
+      service of Karrnath, these knights follow a simple
+      code.</p><p><em><strong>Never Bow Down.</strong></em> You are the elite.
+      Do not kneel to one who has not proven your superior unless ordered by the
+      Crown.</p><p><em><strong>Hold Firm.</strong></em> Commanding legions of
+      undead requires an iron will and confidence. Resist temptations and do not
+      make excuses for poor behavior. Learn from your mistakes so that you do
+      not repeat them.</p><p><em><strong>Bound by Loyalty.</strong></em> Your
+      word is your life. Once you have sworn your service to another, you will
+      serve to death and beyond, if necessary. However, if they prove unworthy
+      of your service, dispense the necessary judgment and find another who is
+      worthy. <br /></p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  identifier: oath-of-the-bone-knight
+  classIdentifier: paladin
+  advancement:
+    - _id: aNhEeltNgjJikbez
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.xZdO1uGs6vnAZz4j
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Sacred Oath Feature
+      type: ItemGrant
+    - _id: MWtcuVx7uZEWUatr
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.zsFgccTIP2uaAvtw
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Sacred Oath Feature
+      type: ItemGrant
+    - _id: 3RkTIziJDm5ObKLZ
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.VwYe1IMi0r4LwzHe
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Sacred Oath Feature
+      type: ItemGrant
+    - _id: WnfE0J6NMRlaW3j3
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.06xb6bqfojtRwiCz
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Sacred Oath Feature
+      type: ItemGrant
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 15330
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686245964621
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!X3tnbXZyl1J0wg1S'
+

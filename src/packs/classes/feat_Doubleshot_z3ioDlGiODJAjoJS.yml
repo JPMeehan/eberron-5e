@@ -1,0 +1,84 @@
+name: Doubleshot
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 13th level, when you take the Attack action on your turn to
+      make a ranged weapon attack, you can make an additional attack as a bonus
+      action.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: rwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Divine Sniper 13
+  recharge:
+    value: null
+    charged: false
+img: icons/skills/ranged/arrows-flying-salvo-yellow.webp
+flags: {}
+effects: []
+folder: 40EIVxYIetLHoVyd
+_id: z3ioDlGiODJAjoJS
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686425221074
+  modifiedTime: 1702949011769
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 1304470
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!z3ioDlGiODJAjoJS'
+

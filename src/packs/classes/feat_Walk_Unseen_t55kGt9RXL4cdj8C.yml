@@ -1,0 +1,87 @@
+name: Walk Unseen
+type: feat
+system:
+  description:
+    value: >-
+      <p>At 3rd level, the shadows cloak and conceal you. You gain proficiency
+      in the Stealth skill, and your proficiency bonus is doubled for any
+      ability check you make that uses this skill. Additionally, when you are
+      alone, you cannot be tracked by nonmagical means unless you choose to
+      leave a trail.</p><p>Beginning at 14th level, you cannot be tracked, even
+      by magical means, unless you wish to be.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Guerilla 3
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/nature/plant-bamboo-green.webp
+flags: {}
+effects: []
+folder: uQYUmfQsVFJykQBJ
+_id: t55kGt9RXL4cdj8C
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686425202132
+  modifiedTime: 1702949011806
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 323330
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!t55kGt9RXL4cdj8C'
+

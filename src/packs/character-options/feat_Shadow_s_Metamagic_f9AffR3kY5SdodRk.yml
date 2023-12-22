@@ -1,0 +1,91 @@
+folder: SlRhqZ3MUCBN2h53
+name: Shadow's Metamagic
+type: feat
+img: icons/magic/unholy/silhouette-robe-evil-power.webp
+system:
+  description:
+    value: >-
+      <p>You’ve learned the forbidden secrets of the Shadow, allowing you to
+      alter how your spells function:</p><ul><li><p>You learn two Metamagic
+      options of your choice from the Forbidden Metamagic list. You can use only
+      one Metamagic option on a spell when you cast it, unless the option says
+      otherwise. Whenever you reach a level that grants the Ability Score
+      Improvement feature, you can replace one of these Metamagic options with
+      another one from the Forbidden Metamagic list.</p></li><li><p>You gain 2
+      sorcery points to spend on Metamagic (these points are added to any
+      sorcery points you have from another source but can be used only on
+      Metamagic). You regain all spent sorcery points when you finish a long
+      rest.</p></li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    custom: CoE
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: feat
+    subtype: ''
+  requirements: Spellcasting or Pact Magic
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686369149015
+  modifiedTime: 1702848530186
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: f9AffR3kY5SdodRk
+sort: 0
+_key: '!items!f9AffR3kY5SdodRk'
+

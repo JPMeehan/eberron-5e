@@ -1,0 +1,99 @@
+folder: vMN3YDIaP3zxQ9kp
+name: Dhakaani Ghaal'dar Soldier
+type: race
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>Dhakaani hobgoblins are known as ghaal’dar, “mighty folk”— not to be
+      confused with the Ghaal’dar tribes that dominate Darguun. The ghaal’dar
+      are soldiers, scholars, and leaders, valued for their versatility and
+      their vision. Your ghaal’dar character has the following
+      traits.</p><p><em><strong>Age.</strong></em> Ghaal’dar mature at the same
+      rate as humans and have lifespans similar to
+      theirs.</p><p><em><strong>Size.</strong></em> Ghaal’dar are between 5 and
+      6 feet tall and weigh between 150 and 200 pounds. Your size is
+      Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is
+      30 feet.</p><p><em><strong>Darkvision.</strong></em> You can see in dim
+      light within 60 feet of you as if it were bright light, and in darkness as
+      if it were dim light. You can’t discern color in darkness, only shades of
+      gray.</p><p><em><strong>Discipline.</strong></em> You have advantage on
+      saving throws against being
+      charmed.</p><p><em><strong>Languages.</strong></em> You can speak, read,
+      and write Common and Goblin.</p><p><em><strong>Strength in
+      Unity.</strong></em> If you miss with an attack roll or fail a saving
+      throw, you can gain a bonus to the roll equal to the number of allies you
+      can see within 30 feet of you (Maximum bonus of +5). Once you use this
+      trait, you can’t use it again until you finish a short or long rest.
+      </p><p><em><strong>The Arts of War.</strong></em> You have proficiency in
+      two of the following skills of your choice: Athletics, Intimidation,
+      Perception, or Survival.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Exploring Eberron
+    page: Ch. 6
+    custom: ''
+    license: DMsGuild CCA
+  advancement:
+    - type: AbilityScoreImprovement
+      _id: ENfcrCb7jiQKKair
+      configuration:
+        points: 0
+        fixed: {}
+        cap: 2
+      value:
+        type: asi
+      level: 0
+    - type: Size
+      _id: ULcdxPVstWWYUxaw
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: Trait
+      configuration:
+        grants:
+          - languages:standard:common
+        mode: default
+        allowReplacements: false
+        choices: []
+      _id: B3jKzCfxokGrwvTQ
+      level: 0
+      value: {}
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: null
+    units: null
+    hover: false
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: humanoid
+effects: []
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700378683464
+  modifiedTime: 1702848462258
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: egrY0MC5GHzai2wK
+sort: 500000
+_key: '!items!egrY0MC5GHzai2wK'
+

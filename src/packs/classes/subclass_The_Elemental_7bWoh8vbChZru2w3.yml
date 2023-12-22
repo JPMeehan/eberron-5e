@@ -1,0 +1,93 @@
+folder: eax66IemxUcbOOQ3
+name: The Elemental
+type: subclass
+_id: 7bWoh8vbChZru2w3
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
+system:
+  description:
+    value: >-
+      <p>Unlike most warlocks, you didn’t make a deal with a powerful mysterious
+      patron. Rather, you found an elemental; perhaps it was already bound,
+      perhaps you bound it yourself, or perhaps found the spark deep within your
+      own spirit. Regardless of your methodology, you are the master of this
+      relationship, and you take what you need from it without being at its beck
+      and call.</p><p>The Sulatar drow of the Xen'drik jungles are true masters
+      of the art of elemental binding, able to control bound fire elementals
+      without need for a dragonmark. Binding a fire elemental to their soul is
+      merely an extension of that ability.</p><p>Gnomes of Zilargo are also
+      known to follow this path as a result of their own elemental binding
+      skills, and though they lack the same fundamental connection as the
+      Sulatar, they are far more varied in their elemental types.</p><p>Far more
+      rarely, planetouched folks might have a deep, intrinsic connection to an
+      outer plane that exemplifies an elemental as part of their very nature.
+      Such creatures as genasi or tieflings of Fernia have a connection to the
+      elements that's deeper even than the Sulatar, and their bond can reach
+      depths that the drow of Xen'drik can only dream of. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  identifier: the-elemental
+  classIdentifier: warlock
+  advancement:
+    - _id: KHCFzCRyMI8yFOKP
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.Ybf1OIxRb01s1K5b
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Otherworldly Patron Feature
+      type: ItemGrant
+    - _id: uuT20sPqKLjH3mUC
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.pK4T7w7LNkUQVWOD
+          - Compendium.eberron-5e.classes.Item.QYMmmREFBqnaJ0an
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Otherworldly Patron Feature
+      type: ItemGrant
+    - _id: h2qt4XebEzmFTiQl
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.EN4MdItVhWK6GIUk
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Otherworldly Patron Feature
+      type: ItemGrant
+    - _id: huowlT6S452s3JiG
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.Ar2P9gAaD5ruYWLX
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Otherworldly Patron Feature
+      type: ItemGrant
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 20400
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686246120614
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!7bWoh8vbChZru2w3'
+

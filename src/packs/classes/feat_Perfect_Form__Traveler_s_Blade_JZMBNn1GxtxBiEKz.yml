@@ -1,0 +1,84 @@
+folder: L8n7GuJVs9l1JFCl
+name: 'Perfect Form: Traveler''s Blade'
+type: feat
+_id: JZMBNn1GxtxBiEKz
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>When you deal piercing or slashing damage to a creature with an unarmed
+      strike, it takes an additional 1d8 poison damage and must succeed on a
+      Constitution saving throw against your ki save DC or be poisoned until the
+      end of its next turn</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700618766280
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!JZMBNn1GxtxBiEKz'
+

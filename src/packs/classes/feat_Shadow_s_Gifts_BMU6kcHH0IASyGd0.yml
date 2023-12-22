@@ -1,0 +1,99 @@
+folder: YSjy3z9zodEt5IB9
+name: Shadow's Gifts
+type: feat
+_id: BMU6kcHH0IASyGd0
+img: icons/skills/social/theft-pickpocket-bribery-brown.webp
+system:
+  description:
+    value: >-
+      <p>When you use your Channel Divinity feature, you can impart some of the
+      Shadow’s most successful lessons and awaken new gifts in those affected.
+      Choose one of the following magical gifts, bestowing that benefit on
+      yourself and each target of your Channel Divinity: </p><p><em><strong>Eyes
+      of the Medusa.</strong></em> For 1 minute, you can use your bonus action
+      to fix your gaze on one creature within 30 feet of you that you can see
+      and that can see your eyes. The target must make a Constitution saving
+      throw with a DC equal to the cleric spell save DC of the cleric that
+      granted you this benefit. On a failed save, the target’s speed is reduced
+      to 0 feet until the end of its next turn. </p><p><em><strong>Heart of the
+      Troll.</strong></em> At the start of your next turn, you regain hit points
+      equal to 1d10 plus the Wisdom modifier of the cleric that granted you this
+      benefit. If you take fire or acid damage before the start of your next
+      turn, you don’t regain hit points from this benefit.
+      </p><p><em><strong>Mastery of the Hag.</strong></em> For 1 minute, you
+      have advantage on saving throws against spells. </p><p><em><strong>Voice
+      of the Harpy.</strong></em> You gain advantage on all Charisma checks for
+      1 minute</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    book: Chronicles of Eberron
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Aspiration Domain 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700547358993
+  modifiedTime: 1702949011738
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!BMU6kcHH0IASyGd0'
+

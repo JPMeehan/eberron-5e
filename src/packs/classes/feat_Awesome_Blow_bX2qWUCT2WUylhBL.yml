@@ -1,0 +1,95 @@
+name: Awesome Blow
+type: feat
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, spiritual power from your patron lends you the
+      ability to land decisive hits. Once per turn, when you hit a creature with
+      a weapon attack, it must succeed on a Constitution saving throw against
+      your warlock spell save DC or suffer your choice of one of the following
+      effects:</p><ul><li>Its speed is reduced to 0 and it can't take reactions
+      until the start of its next turn.</li><li>It becomes frightened of you
+      until the end of its next turn.</li><li>It becomes deafened until the end
+      of its next turn and has disadvantage on the next saving throw that it
+      makes before the end of its next turn.</li></ul><p>You can use this
+      feature a number of times equal to your Charisma modifier (a minimum of
+      once). You regain any expended uses when you finish a short or long
+      rest.</p><p>Starting at 10th level, you can use this feature once per
+      turn, with no other limitations on how many times you can use it per short
+      or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: special
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: The Soulborn 1
+  recharge:
+    value: null
+    charged: false
+img: icons/magic/symbols/runes-etched-steel-blade.webp
+flags: {}
+effects: []
+folder: vzIlOGhag2UY2YNO
+_id: bX2qWUCT2WUylhBL
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686425381112
+  modifiedTime: 1702949011751
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 101550
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!bX2qWUCT2WUylhBL'
+

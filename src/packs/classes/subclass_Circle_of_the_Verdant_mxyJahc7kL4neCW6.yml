@@ -1,0 +1,54 @@
+folder: wYHD0A6W7wuN06EL
+name: Circle of the Verdant
+type: subclass
+_id: mxyJahc7kL4neCW6
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>Druids of the Verdant Circle are floral guardians of plant life,
+      finding purpose in the beauty of vegetation. They see purity and wonder in
+      primal forest, and strength in the ancient trees of the wilds. A verdant
+      druid might go for months in the deep jungles without seeing another soul,
+      pursuing their goal of protecting nature from the ravages of unnatural
+      threats. Druids of this circle often find the line blurred between plants
+      and animals, and take on aspects of the flora they protect when defending
+      their ‘friends’. Fighting such a warrior in the wilds is to have the very
+      land turn against you, as plants rise up to support them in a wave of
+      branches and tangled briars.</p><p> In Eberron, the largest group of such
+      druids are the Verdant Path in Xen’drik, who learn from and protect the
+      land spirit Kwinharin. Their home in the Rainwoods is draped with ancient
+      moss and vines that hang between gargantuan trees. Others can be found in
+      the Na’qalla drow, and the Rushemé druids. In Khorvaire, Verdant druids
+      can be found in the Eldeen reaches, especially among the devout followers
+      of the Greatpine Oalian. The strangest are those who deal with aberrant
+      and planar flora - the cultists of the daelkyr Avassh, and the bizarre
+      gardeners of the Grim Lord Varonaen on the umbral island of Farlnen</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  identifier: circle-of-the-verdant
+  classIdentifier: druid
+  advancement: []
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1702705863606
+  modifiedTime: 1702886424283
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!mxyJahc7kL4neCW6'
+

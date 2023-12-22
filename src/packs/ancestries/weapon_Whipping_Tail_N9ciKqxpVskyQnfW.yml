@@ -1,0 +1,122 @@
+folder: AH4oPOad73XIk0Ct
+name: Whipping Tail
+type: weapon
+_id: N9ciKqxpVskyQnfW
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>Your powerful tail is a natural weapon, which you can use to make
+      unarmed strikes. If you hit with it, you deal bludgeoning damage equal to
+      1d6 + your Strength modifier, instead of the normal damage for an unarmed
+      strike. When you take the Disengage action, you can make an attack with
+      your tail as a bonus action</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Scales of Q'barra
+    page: Appendix
+    custom: ''
+    license: DMsGuild CCA
+  quantity: 1
+  weight: 0
+  price:
+    value: 0
+    denomination: gp
+  attunement: 0
+  equipped: false
+  rarity: ''
+  identified: true
+  activation:
+    type: action
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    prompt: true
+  range:
+    value: 5
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: mwak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6 + @mod
+        - bludgeoning
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  weaponType: natural
+  baseItem: ''
+  properties:
+    ada: false
+    amm: false
+    fin: false
+    fir: false
+    foc: false
+    hvy: false
+    lgt: false
+    lod: false
+    mgc: false
+    rch: false
+    rel: false
+    ret: false
+    sil: false
+    spc: false
+    thr: false
+    two: false
+    ver: false
+  proficient: null
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags:
+  chaosos-5e-content:
+    weaponMastered: false
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700454665986
+  modifiedTime: 1702848010327
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!N9ciKqxpVskyQnfW'
+

@@ -1,0 +1,92 @@
+folder: XuAcllgrcLN9p5sk
+name: Blood Magus
+type: subclass
+_id: jiPopWSkidf1ZQKF
+img: icons/magic/unholy/strike-body-explode-disintegrate.webp
+system:
+  description:
+    value: >-
+      <p>All Blood Magi have one thing in common. You died. It might have been
+      at birth, and no one bothered to tell you. Or perhaps you died later in
+      life, then were subsequently called back from the misty embrace of
+      Dolurrh. Whatever the cause, you were dead, briefly—and it will not happen
+      again. You seek to first master the power of your own blood so you will
+      never be defenseless, then as you increase in power, you hear the siren
+      call of the blood of others.</p><p>Due to the cost of this power, it's
+      rare to encounter another Blood Magus in the world, as most practitioners
+      of this art are scattered. The most common place to find a Blood Magus is
+      in Karrnath and anywhere the Blood of Vol faith is strong, as adherents of
+      this faith understand the intricate link of blood and power. The Bloodsail
+      Principality in Lhazaar holds Blood Magi both living and undead; as
+      vampires possess the most neceesary of components—blood—they too can learn
+      this art. Rumors also tell of Blood Magi hiding deep in the Shadow Marches
+      and the Demon Wastes. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  identifier: blood-magus
+  classIdentifier: sorcerer
+  advancement:
+    - _id: s736Q2Oc70IGiWt2
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.BPiSwzJNawbWX4l8
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Sorcerous Origin Feature
+      type: ItemGrant
+    - _id: kclLDNdAGNNvOaMu
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.PrCSGddi3D3DLJr0
+          - Compendium.eberron-5e.classes.Item.87WRIBe4EWq5nLJD
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Sorcerous Origin Feature
+      type: ItemGrant
+    - _id: sStRG93XYnG8IBlC
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.ui0p4JarqNibNPEo
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Sorcerous Origin Feature
+      type: ItemGrant
+    - _id: RepT59iX5cLqtOkS
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.wnz319DivLnf8181
+          - Compendium.eberron-5e.classes.Item.ib3HjpnGlb8D04e6
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Sorcerous Origin Feature
+      type: ItemGrant
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 2440
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686246086164
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!jiPopWSkidf1ZQKF'
+

@@ -1,0 +1,17 @@
+name: Bard
+sorting: a
+folder: null
+type: Item
+_id: jy0INvQChkKw6S37
+sort: 100000
+color: null
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1702848606871
+  modifiedTime: 1702848607008
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!folders!jy0INvQChkKw6S37'
+

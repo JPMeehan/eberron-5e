@@ -1,0 +1,98 @@
+folder: SlRhqZ3MUCBN2h53
+name: Psionic Seer
+type: feat
+img: icons/magic/perception/hand-eye-fire-blue.webp
+system:
+  description:
+    value: >-
+      <p>You awaken your mind to see beyond space and time, granting you the
+      following benefits:</p><ul><li><p>Increase your Intelligence, Wisdom, or
+      Charisma by 1, to a maximum of 20.</p></li><li><p>Your psionic senses
+      grant you a vague impression of a space you can’t see. By touching a solid
+      barrier that’s no more than 1 foot thick and concentrating for 1 minute
+      (as if concentrating on a spell), you learn whether at least one living
+      creature is within 30 feet of you on the other side of the barrier, and
+      you learn the approximate size and rough shape of the space, to a maximum
+      of 30 feet on each side. If any side is greater than 30 feet, you don’t
+      learn that side’s measurement, and instead simply learn if it is an
+      enclosed space (such as a room or cavern) or an open space (such as a
+      courtyard or alley). Once you use this feature, you can’t do so again
+      until you finish a short or long rest.</p></li><li><p>You learn the augury
+      spell, which you can cast without a spell slot or components. Once you
+      cast the spell in this way, you can’t do so again until you finish a long
+      rest. You can also cast this spell as a ritual, or by using spell slots
+      you have of the appropriate level. This spell’s spellcasting ability is
+      the ability increased by this feat.</p></li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    custom: CoE
+  activation:
+    type: minute
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: object
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: 1
+    max: '1'
+    per: sr
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: feat
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686371019496
+  modifiedTime: 1702848527348
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: DwdB8mQ1X5o6875R
+sort: 100000
+_key: '!items!DwdB8mQ1X5o6875R'
+

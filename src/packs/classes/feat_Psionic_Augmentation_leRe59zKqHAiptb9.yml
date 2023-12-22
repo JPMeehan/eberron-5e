@@ -1,0 +1,89 @@
+name: Psionic Augmentation
+type: feat
+system:
+  description:
+    value: >-
+      <p>Also at 3rd level, you know how to draw on the emotions stored in your
+      psicrystal to augment your spells. When you cast an artificer spell, you
+      can release one emotion stored in your psicrystal to apply an augmentation
+      effect to one target of that spell. The augmentation effects for each
+      emotion are given in the Psicrystal Affinities table. If an effect causes
+      a saving throw, the DC equals your artificer spell save DC.</p><p>When you
+      use this feature to release an emotion and augment a spell, you no longer
+      gain the benefit of that emotion until you store it again.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: other
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: flat
+  type:
+    value: class
+    subtype: ''
+  requirements: Crystal Shaper 3
+  recharge:
+    value: null
+    charged: false
+img: icons/commodities/gems/gem-cluster-teal.webp
+flags: {}
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686418372324
+  modifiedTime: 1702949011875
+  lastModifiedBy: MVioF9x1qI1WYGx1
+folder: MVHoTydfDvrOUgvY
+_id: leRe59zKqHAiptb9
+sort: 316510
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!leRe59zKqHAiptb9'
+

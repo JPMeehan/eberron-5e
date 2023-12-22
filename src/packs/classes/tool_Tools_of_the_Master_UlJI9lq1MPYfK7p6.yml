@@ -1,0 +1,115 @@
+folder: yVaX3agsuRwAslXX
+name: Tools of the Master
+type: tool
+_id: UlJI9lq1MPYfK7p6
+img: icons/tools/hand/hammer-and-nail.webp
+system:
+  description:
+    value: >-
+      <p><em>Wondrous item (any artisan’s tool), (requires attunement by a
+      character proficient with the tool)</em></p><p><strong>+1
+      Requires:</strong> Artificer 2</p><p><strong>+2 Requires:</strong>
+      Artificer 10</p><p>While using this tool as a spellcasting focus, you gain
+      a bonus to spell attack rolls. The bonus is determined by the tool’s
+      rarity. In addition, you can add this bonus to any ability check you make
+      using this tool.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    custom: ''
+    license: DMsGuild CCA
+    book: ExE
+  quantity: 1
+  weight: 0
+  price:
+    value: 0
+    denomination: gp
+  attunement: 1
+  equipped: false
+  rarity: uncommon
+  identified: true
+  toolType: ''
+  baseItem: ''
+  ability: ''
+  chatFlavor: ''
+  proficient: 0
+  bonus: '+1'
+effects:
+  - icon: icons/tools/hand/hammer-and-nail.webp
+    origin: Compendium.eberron-5e.classes.Item.UlJI9lq1MPYfK7p6
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: true
+    name: Tools of the Master +1
+    _id: LsK0vzhJjjNLVtl0
+    changes:
+      - key: system.bonuses.rsak.attack
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.bonuses.msak.attack
+        mode: 2
+        value: '1'
+        priority: null
+    description: >-
+      <p><span style="font-family:Signika, sans-serif">While using this tool as
+      a spellcasting focus, you gain a +1 bonus to spell attack rolls. In
+      addition, you can add this bonus to any ability check you make using this
+      tool.</span></p>
+    transfer: true
+    statuses: []
+    flags: {}
+    tint: null
+    _key: '!items.effects!UlJI9lq1MPYfK7p6.LsK0vzhJjjNLVtl0'
+  - icon: icons/tools/hand/hammer-and-nail.webp
+    origin: Compendium.eberron-5e.classes.Item.UlJI9lq1MPYfK7p6
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: true
+    name: Tools of the Master +2
+    _id: hGCA7e7A0tXhpNIv
+    changes:
+      - key: system.bonuses.rsak.attack
+        mode: 2
+        value: '2'
+        priority: null
+      - key: system.bonuses.msak.attack
+        mode: 2
+        value: '2'
+        priority: null
+    description: >-
+      <p><span style="font-family:Signika, sans-serif">While using this tool as
+      a spellcasting focus, you gain a +2 bonus to spell attack rolls. In
+      addition, you can add this bonus to any ability check you make using this
+      tool.</span></p>
+    transfer: true
+    statuses: []
+    flags: {}
+    tint: null
+    _key: '!items.effects!UlJI9lq1MPYfK7p6.hGCA7e7A0tXhpNIv'
+sort: 400000
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1687066268181
+  modifiedTime: 1702886723204
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!UlJI9lq1MPYfK7p6'
+

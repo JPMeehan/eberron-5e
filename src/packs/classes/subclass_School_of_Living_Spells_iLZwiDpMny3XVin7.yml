@@ -1,0 +1,91 @@
+folder: hf00BCLr7wArjrxW
+name: School of Living Spells
+type: subclass
+_id: iLZwiDpMny3XVin7
+img: icons/magic/symbols/ring-circle-smoke-blue.webp
+system:
+  description:
+    value: >-
+      <p>The Mourning horrifies and fascinates the people of Khorvaire. Numerous
+      studies have been attempted in the short years since the Mourning in hopes
+      of studying its effects, discovering its cause, and determining if it's
+      reversible... or possible to tame.</p><p>The School of Living Spells makes
+      a special study of how magic has gone awry in the Mournland. These
+      wizards' expertise is on how the Day of Mourning affected magic cast on
+      that day, turning spells into constructs of trapped magical energy. These
+      wizards have discovered how to create a living spell of their own, small
+      enough to tame, yet holding enormous potential within.</p><p>Lucia
+      ir'Brenith, a Cyran refugee living in New Cyre, is the mother of this
+      movement, and her lab has become a haven for anyone wishing to study the
+      Mournland and living spells in particular. Her research stays
+      well-financed by Prince Oargev, who holds out hope that her work can lead
+      to something that would explain the Mourning. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  identifier: school-of-living-spells
+  classIdentifier: wizard
+  advancement:
+    - _id: qYWcs1HU6VLSmXBM
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.sbLZqjmfayuWNcTC
+          - Compendium.eberron-5e.classes.Item.SQiw1WJNpXhh65dn
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Arcane Tradition Feature
+      type: ItemGrant
+    - _id: 1b1kRO7cSue3BDyp
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.QSOD1KmtNxCmHSfJ
+          - Compendium.eberron-5e.classes.Item.vI3zEtOUl3SHKR1a
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Arcane Tradition Feature
+      type: ItemGrant
+    - _id: arawV5u5CeQDXCKk
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.W4szdRyByQPWdf1D
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Arcane Tradition Feature
+      type: ItemGrant
+    - _id: 2dnN77TqcT46mTCQ
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.jvr52SfAnunlfeDx
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Arcane Tradition Feature
+      type: ItemGrant
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 19350
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686246179518
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!iLZwiDpMny3XVin7'
+

@@ -1,0 +1,99 @@
+folder: YSjy3z9zodEt5IB9
+name: Aspiration Domain
+type: subclass
+_id: Do1gBcnDGQQ37gE3
+img: icons/skills/social/theft-pickpocket-bribery-brown.webp
+system:
+  description:
+    value: >-
+      <p>Clerics of the Aspiration domain consider themselves mentors—though
+      others are more likely to call them tempters. They offer forbidden
+      knowledge and challenge people to live up to their full potential,
+      eschewing the confines of what others might consider right, proper, or
+      safe. The most common clerics to earn these gifts of the faith are
+      followers of the Shadow under the Cazhaak Creed.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    book: Chronicles of Eberron
+    page: ''
+    custom: ''
+  identifier: aspiration-domain
+  classIdentifier: cleric
+  advancement:
+    - _id: 3c8rw2c962e4lbky
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.M34KNRXhgITiAgNQ
+          - Compendium.eberron-5e.classes.Item.j9jaybkgHXOfYvwQ
+          - Compendium.eberron-5e.classes.Item.WrY1JdK6MpkprH5H
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Divine Domain Feature
+      icon: null
+    - _id: wvZ230NQWvbWExN4
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.cTEbc1H7ML4J0UWX
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Divine Domain Feature
+      icon: null
+    - _id: sczDdmgg41utlpwr
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.BMU6kcHH0IASyGd0
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Divine Domain Feature
+      icon: null
+    - _id: d7Y9z9TN7J7xqSs2
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.pkauqd8nU6u0W02x
+        optional: false
+        spell: null
+      value: {}
+      level: 8
+      title: Divine Domain Feature
+      icon: null
+    - _id: 1JzG5MbH3ey8ZKcQ
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.IzL3Al8lY7wcRJ9z
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Divine Domain Feature
+      icon: null
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686341379214
+  modifiedTime: 1702886605800
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!Do1gBcnDGQQ37gE3'
+

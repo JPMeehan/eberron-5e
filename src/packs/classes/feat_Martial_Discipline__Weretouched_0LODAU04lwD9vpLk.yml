@@ -1,0 +1,89 @@
+folder: L8n7GuJVs9l1JFCl
+name: 'Martial Discipline: Weretouched'
+type: feat
+_id: 0LODAU04lwD9vpLk
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>Once per turn, when you hit a creature with an unarmed attack, you can
+      spend 1 ki point to rend your target and inflict deep bleeding wounds. At
+      the start of each of the creature’s turns for the next minute, it takes
+      1d4 points of slashing damage from this effect. The effect ends early if
+      the creature has one or more hit points restored, if any creature uses its
+      action to expend one use of a healer’s kit, or makes a successful Wisdom
+      (Medicine) check with a DC equal to your ki save DC. </p><p>When you reach
+      6th level, this slashing damage counts as magical for the purpose of
+      overcoming resistance and immunity to nonmagical attacks and damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700617996920
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!0LODAU04lwD9vpLk'
+

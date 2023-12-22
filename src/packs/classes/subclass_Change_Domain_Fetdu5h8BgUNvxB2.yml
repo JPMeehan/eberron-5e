@@ -1,0 +1,83 @@
+folder: r1wmOqxeIwATV8rw
+name: Change Domain
+type: subclass
+_id: Fetdu5h8BgUNvxB2
+img: icons/magic/control/buff-luck-fortune-gold.webp
+system:
+  description:
+    value: >-
+      <p>What is life but a series of changes, one after another? Clerics of
+      change believe that the current moment could be the thing to change
+      everything, the first step on the journey of a lifetime, the single spark
+      that starts a revolution. Most serve gods of chaos, skilled trades, and
+      travel, especially the Traveler. However, anyone seeking inspiration or
+      pursuing change could find value in it, whether an adept of Onatar
+      pursuing magical innovation or a skilled con artist with utter confidence
+      in their skills. </p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Archetypes of Eberron
+    custom: ''
+    license: DMsGuild CCA
+  identifier: change-domain
+  classIdentifier: cleric
+  advancement:
+    - _id: PYBu6eHzEKQL0lUi
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.vElrrNbfCVGaQ7jr
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Divine Domain Feature
+      type: ItemGrant
+    - _id: HGfI1oLlvXYGWhKN
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.FnDSfwtiaIAkYfZW
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Divine Domain Feature
+      type: ItemGrant
+    - _id: INCpgzMPlzh0Id95
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.tjeTKpQV5Js05lz4
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Divine Domain Feature
+      type: ItemGrant
+    - _id: vpZoys69fMMVWDa3
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.pfeqFLymAfUfZLPF
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Divine Domain Feature
+      type: ItemGrant
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 3400
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1686202163697
+  modifiedTime: 1702886575024
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!Fetdu5h8BgUNvxB2'
+
