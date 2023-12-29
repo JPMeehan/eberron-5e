@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.1
+
+- Updated Spells of levels 0—2
+
 ## 0.7.0 Initial Release
 
 - Semi-complete subclasses (Features listed with text, but not configured)
