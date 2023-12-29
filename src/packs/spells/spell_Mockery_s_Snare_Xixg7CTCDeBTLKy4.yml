@@ -20,7 +20,10 @@ system:
     chat: ''
     unidentified: ''
   source:
-    custom: CoE
+    custom: ''
+    license: DMsGuild CCA
+    book: Chronicles of Eberron
+    page: Ch. 8
   activation:
     type: bonus
     cost: null
@@ -98,8 +101,8 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686367867221
-  modifiedTime: 1702848930371
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703816195775
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _id: Xixg7CTCDeBTLKy4
 sort: 0
 _key: '!items!Xixg7CTCDeBTLKy4'

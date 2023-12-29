@@ -2,10 +2,24 @@ folder: F1gsAFdTkSB3M1RM
 name: Dream Lock
 type: spell
 _id: GW2GwmNO8kWDLU6s
-img: icons/svg/item-bag.svg
+img: icons/magic/control/sleep-bubble-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>One creature of your choice that you can see within range must succeed
+      on a Wisdom saving throw or have its head wrapped in a nimbus of glowing
+      light. Creatures who do not dream, such as kalashtar and most constructs,
+      automatically succeed on the saving throw against this spell. The nimbus
+      is a manifestation of the target’s psychic connection to Dal Quor, the
+      Region of Dreams, creating sensory input that overlaps the target’s
+      perceptions of reality with those of dreamspace. For the duration of the
+      spell, the target has disadvantage on attack rolls and Wisdom checks. When
+      the spell ends, the target’s memory of the spell’s duration is hazy and
+      instinct, easily written off as a vivid daydream. </p><p><em><strong>At
+      Higher Levels.</strong></em> When you cast this spell using a spell slot
+      of 2nd level or higher, you can target one additional creature for each
+      slot level above 1st. The creatures must be within 30 feet of each other
+      when you target them.</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,12 +28,12 @@ system:
     custom: ''
     license: DMsGuild CCA
   activation:
-    type: ''
+    type: action
     cost: null
     condition: ''
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: minute
   cover: null
   crewed: false
   target:
@@ -29,9 +43,9 @@ system:
     type: ''
     prompt: true
   range:
-    value: null
+    value: 30
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''
@@ -43,8 +57,8 @@ system:
     target: null
     amount: null
     scale: false
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -55,17 +69,17 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: wis
     dc: null
     scaling: spell
   level: 1
   school: enc
   components:
-    vocal: false
-    somatic: false
+    vocal: true
+    somatic: true
     material: false
     ritual: false
-    concentration: false
+    concentration: true
   materials:
     value: ''
     consumed: false
@@ -88,7 +102,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702707425597
-  modifiedTime: 1702848255841
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703816889076
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!GW2GwmNO8kWDLU6s'
 

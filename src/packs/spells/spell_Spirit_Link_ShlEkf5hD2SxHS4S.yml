@@ -2,10 +2,16 @@ folder: F1gsAFdTkSB3M1RM
 name: Spirit Link
 type: spell
 _id: ShlEkf5hD2SxHS4S
-img: icons/svg/item-bag.svg
+img: icons/magic/control/energy-stream-link-white.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You establish a psychic connection with one willing beast or
+      monstrosity you touch. For the duration of this spell, you can see through
+      its eyes and hear through its ears, and gain access to any special senses
+      the creature has, but cannot read its thoughts or control its movement or
+      actions. You can switch between the creature’s senses and your own as an
+      action.</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,12 +20,12 @@ system:
     custom: ''
     license: DMsGuild CCA
   activation:
-    type: ''
-    cost: null
+    type: action
+    cost: 1
     condition: ''
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: hour
   cover: null
   crewed: false
   target:
@@ -31,7 +37,7 @@ system:
   range:
     value: null
     long: null
-    units: ''
+    units: touch
   uses:
     value: null
     max: ''
@@ -61,11 +67,11 @@ system:
   level: 1
   school: enc
   components:
-    vocal: false
-    somatic: false
+    vocal: true
+    somatic: true
     material: false
     ritual: false
-    concentration: false
+    concentration: true
   materials:
     value: ''
     consumed: false
@@ -88,7 +94,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702707244341
-  modifiedTime: 1702848255841
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703816973179
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!ShlEkf5hD2SxHS4S'
 

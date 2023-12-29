@@ -2,10 +2,58 @@ folder: 64K3cigPSnFdVcYq
 name: Dream Link
 type: spell
 _id: o5DEDeRlUYJ4jlW7
-img: icons/svg/item-bag.svg
+img: icons/magic/control/sleep-bubble-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You cause yourself and all willing creatures within a 10-foot radius
+      centered on you to enter the dreams of a target creature already dreaming
+      within that radius. The target creature must make a Wisdom saving throw; a
+      willing creature can voluntarily fail. On a failed saving throw, you and
+      the other willing creatures fall asleep and telepathically enter the
+      target’s dream. This sleep counts towards any sleep necessary for
+      completing a long rest. Affected creatures remain asleep until they finish
+      a long rest, take any damage outside of the dream, or someone outside of
+      the dream uses an action to shake or slap the dreaming creature awake. If
+      the target creature wakes up, the effects of the spell immediately end,
+      causing all creatures affected by this spell to also wake up.</p><p>While
+      within the dream, the rules of reality and the state of the creatures
+      affected by this spell are determined by the context of the dream itself.
+      If the dream belongs to a player character, they can choose its contents
+      and shape ‘reality’ as they wish (within the confines of what their
+      character knows). Typically, characters dream of themselves in peak
+      performance, with all hit points and resources as though ‘waking up’ from
+      a long rest. This state does not carry over to reality if their actual
+      long rest is interrupted. A character that “dies” in a dream immediately
+      wakes up. A character that wakes this way takes 3d6 psychic damage, gains
+      no benefit from their rest, and becomes unable to sleep for the next 24
+      hours.</p><p>If the target creature is the target of the dream spell while
+      it is also the target of this spell, the messenger sent by the dream spell
+      has less control over the shared dream entered by creatures affected by
+      this spell than would otherwise be the case as described in the dream
+      spell. The messenger can interact with creatures affected by this spell as
+      if the messenger were physically present in the dream, using its normal
+      statistics, unless the caster of the dream spell sent a monstrous or
+      terrifying messenger. In that case, after the monstrous messenger delivers
+      its short message, instead of the target of the dream spell making a
+      Wisdom saving throw, the DM can decide to resolve the effect of the
+      monstrous messenger’s presence with a combat encounter against the
+      messenger inside the target’s dream. The monstrous messenger can take any
+      form the caster of the dream spell desires, but its statistics have a
+      challenge rating equal to no greater than twice the dream spell’s level.
+      Defeating the messenger has the same result as succeeding on the saving
+      throw against the dream spell, and any creature that “dies” to the
+      messenger in the dream suffers the effects described
+      above.</p><p><em><strong>At Higher Levels.</strong></em> When you cast
+      this spell while already within a dream using a spell slot of 4th level or
+      higher, all creatures affected by the original casting of the spell,
+      including the target dreamer, are pulled into a different dream
+      representing a deeper layer of the target dreamer’s unconscious. This can
+      be repeated, with the required spell slot increasing by two levels for
+      every successive layer of dream. A character who ‘dies’ in a deeper level
+      of dream wakes up again in the ‘shallower’ level in which this spell was
+      cast, and must succeed on a DC 15 Wisdom saving throw or gain a level of
+      exhaustion</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,24 +62,24 @@ system:
     custom: ''
     license: DMsGuild CCA
   activation:
-    type: ''
-    cost: null
+    type: minute
+    cost: 10
     condition: ''
   duration:
     value: ''
-    units: ''
+    units: inst
   cover: null
   crewed: false
   target:
-    value: null
+    value: 10
     width: null
-    units: ''
-    type: ''
+    units: ft
+    type: radius
     prompt: true
   range:
-    value: null
+    value: 10
     long: null
-    units: ''
+    units: self
   uses:
     value: null
     max: ''
@@ -62,7 +110,7 @@ system:
   school: div
   components:
     vocal: false
-    somatic: false
+    somatic: true
     material: false
     ritual: false
     concentration: false
@@ -88,7 +136,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702707454921
-  modifiedTime: 1702848255841
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703817182155
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!o5DEDeRlUYJ4jlW7'
 

@@ -2,10 +2,20 @@ folder: 8HZDRNglvfgWO2oB
 name: Energy Ray
 type: spell
 _id: ebUxTUuCAIT6ARFY
-img: icons/svg/item-bag.svg
+img: icons/magic/light/beam-rays-magenta-small.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You hold your hand aloft and generate a font of pure energy within it.
+      When you cast this spell, choose one of the following damage types: cold,
+      fire, lightning, or thunder.</p><p>You can use your action to target one
+      creature within range and shoot a ray of energy at it. Make a ranged spell
+      attack against the target. On a hit, the target takes 1d8 points of damage
+      of the type you choose when you cast this spell.</p><p>This power allows
+      you to shoot more than one ray as an action when you reach higher levels:
+      two rays at 5th level, three rays at 11th level, and four rays at 17th
+      level. You can direct the rays at the same target or at different ones.
+      Make a separate attack roll for each ray.</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,24 +24,24 @@ system:
     custom: ''
     license: DMsGuild CCA
   activation:
-    type: ''
-    cost: null
+    type: action
+    cost: 1
     condition: ''
   duration:
     value: ''
-    units: ''
+    units: inst
   cover: null
   crewed: false
   target:
-    value: null
+    value: 1
     width: null
     units: ''
-    type: ''
+    type: creature
     prompt: true
   range:
-    value: null
+    value: 90
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''
@@ -43,15 +53,17 @@ system:
     target: null
     amount: null
     scale: false
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: rsak
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 1d8
+        - ''
     versatile: ''
   formula: ''
   save:
@@ -61,8 +73,8 @@ system:
   level: 0
   school: trs
   components:
-    vocal: false
-    somatic: false
+    vocal: true
+    somatic: true
     material: false
     ritual: false
     concentration: false
@@ -88,7 +100,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702707175308
-  modifiedTime: 1702848255841
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703816455534
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!ebUxTUuCAIT6ARFY'
 

@@ -2,10 +2,14 @@ folder: 64K3cigPSnFdVcYq
 name: Temporal Freeze
 type: spell
 _id: Kq28WGsv1attlsUT
-img: icons/svg/item-bag.svg
+img: icons/magic/time/hourglass-brown-orange.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>For the duration, one willing and conscious creature you touch ages at
+      one-fourth their usual speed, and cannot be magically aged. Additionally,
+      if they die, time spent under this spell's effect does not count towards
+      the time limit for resurrection spells like revivify or raise dea</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,12 +18,12 @@ system:
     custom: ''
     license: DMsGuild CCA
   activation:
-    type: ''
-    cost: null
+    type: action
+    cost: 1
     condition: ''
   duration:
-    value: ''
-    units: ''
+    value: '24'
+    units: hour
   cover: null
   crewed: false
   target:
@@ -31,7 +35,7 @@ system:
   range:
     value: null
     long: null
-    units: ''
+    units: touch
   uses:
     value: null
     max: ''
@@ -61,13 +65,13 @@ system:
   level: 2
   school: nec
   components:
-    vocal: false
-    somatic: false
-    material: false
+    vocal: true
+    somatic: true
+    material: true
     ritual: false
     concentration: false
   materials:
-    value: ''
+    value: a block of ice
     consumed: false
     cost: 0
     supply: 0
@@ -88,7 +92,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702707280209
-  modifiedTime: 1702848255841
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703817260473
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!Kq28WGsv1attlsUT'
 

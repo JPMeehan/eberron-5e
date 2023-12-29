@@ -16,7 +16,10 @@ system:
     chat: ''
     unidentified: ''
   source:
-    custom: CoE
+    custom: ''
+    license: DMsGuild CCA
+    book: Chronicles of Eberron
+    page: Ch. 8
   activation:
     type: action
     cost: null
@@ -27,10 +30,10 @@ system:
   cover: null
   crewed: false
   target:
-    value: null
+    value: 20
     width: null
-    units: ''
-    type: ''
+    units: ft
+    type: radius
     prompt: true
   range:
     value: 60
@@ -92,8 +95,8 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686367819914
-  modifiedTime: 1702848924286
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703816131153
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _id: TcQtfgfVAsl9ykZs
 sort: 0
 _key: '!items!TcQtfgfVAsl9ykZs'

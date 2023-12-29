@@ -10,7 +10,10 @@ system:
     chat: ''
     unidentified: ''
   source:
-    custom: ExE
+    custom: ''
+    license: DMsGuild CCA
+    book: Exploring Eberron
+    page: Ch. 1
   activation:
     type: action
     cost: 1
@@ -93,8 +96,8 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686367606401
-  modifiedTime: 1702848943385
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703816225103
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _id: J62d2u2yP36Al4Xr
 sort: 50000
 _key: '!items!J62d2u2yP36Al4Xr'
