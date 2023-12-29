@@ -8,7 +8,10 @@ system:
     value: ''
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
   quantity: 1
   weight: 0
   price:
@@ -105,7 +108,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628047718
-  modifiedTime: 1702848011616
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703825815056
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!8IehEWXPu0FsE9p8'
 

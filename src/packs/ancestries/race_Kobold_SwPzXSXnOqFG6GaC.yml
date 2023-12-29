@@ -5,10 +5,62 @@ _id: SwPzXSXnOqFG6GaC
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Your people’s legends mark you as the true children of the Progenitors.
+      Kobolds revere the three dragons of the world, divided based on their
+      heritage. Eberron’s iredar dwell in high mountain caverns, kept safe from
+      threats by traps and their skill at working stone. Beneath the world, the
+      irsvhir of Khyber have reclaimed many giant ruins, defending them from
+      danger. Others work in tandem with cities such as Stormreach, acting as
+      guides and architects. Most mysterious of all, the winged irsvern are
+      disciples of Siberys. They are said to live atop the highest mountains,
+      where ancient monasteries of divine sages gaze upon the shifting stars.
+      Regardless of their culture, kobolds have a knack for innate sorcery and
+      interpreting the Prophecy. What has led you to leave the safety of your
+      home?</p><p>When creating a Kobold character, consider:</p><ol><li>What
+      form does your worship of your progenitor take?</li><li>How do you see the
+      dragons, who also claim to be the progenitors’ children?</li><li>How do
+      you respond to the many dangers of the world beyond your
+      clan?</li></ol><p><strong>Creature Type</strong>. You are a
+      Humanoid.</p><p><strong>Size</strong>. You are
+      Small.</p><p><strong>Speed</strong>. Your walking speed is 30
+      feet.</p><p><strong>Darkvision</strong>. You can see in dim light within
+      60 feet of you as if it were bright light, and in darkness as if it were
+      dim light. You discern colors in that darkness only as shades of
+      gray</p><p><strong>Draconic Cry</strong>. As a bonus action, you let out a
+      cry at your enemies within 10 feet of you. Until the start of your next
+      turn, you and your allies have advantage on attack rolls against any of
+      those enemies who could hear you. You can use this trait a number of times
+      equal to your proficiency bonus, and you regain all expended uses when you
+      finish a long rest.</p><p><strong>Kobold Legacy</strong>. Kobolds’
+      connection to dragons can manifest in unpredictable ways in an individual
+      kobold. Choose one of the following legacy options for your
+      kobold:</p><ul><li><strong>Craftiness</strong>. You have proficiency in
+      one of the following skills of your choice: Arcana, Investigation,
+      Medicine, Sleight of Hand, or Survival.</li><li><strong>Defiance</strong>.
+      You have advantage on saving throws to avoid or end the frightened
+      condition on yourself.</li><li><strong>Draconic Sorcery</strong>. You know
+      one cantrip of your choice from the sorcerer spell list. Intelligence,
+      Wisdom, or Charisma is your spellcasting ability for that cantrip (choose
+      when you select this ancestry).</li><li><strong>Iredar
+      Druidcraft</strong>. You know one cantrip of your choice from the druid
+      spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability
+      for that cantrip (choose when you select this
+      ancestry).</li><li><strong>Irsvern Wings</strong>. You possess small wings
+      granted by your Siberyan heritage, which grant you a 15ft fly speed. At
+      5th level, this fly speed becomes equal to your walking
+      speed.</li><li><strong>Irvhir Arcana</strong>. You know one cantrip of
+      your choice from the warlock spell list. Intelligence, Wisdom, or Charisma
+      is your spellcasting ability for that cantrip (choose when you select this
+      ancestry).</li></ul><p>Kobold names are derived from Draconic, and
+      phonetically simplified in comparison.</p><p><strong>Names</strong>:
+      Makrix, Nux, Kas, Sjek, Ixen, Nata, Tohra, Zass, Dohsu, Hedri</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Giant Guide to Xen'drik
+    page: Ch. 7
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: 65uawasiuOmbAizG
@@ -54,7 +106,7 @@ system:
   type:
     value: humanoid
 effects: []
-sort: 0
+sort: 1500000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -65,7 +117,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628374556
-  modifiedTime: 1702848006140
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703830861432
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!SwPzXSXnOqFG6GaC'
 

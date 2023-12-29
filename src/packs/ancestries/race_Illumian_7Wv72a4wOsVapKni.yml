@@ -5,10 +5,64 @@ _id: 7Wv72a4wOsVapKni
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Long ago, in another world and another time and another version of
+      Eberron, there was a world called Sardior. The primary celestials of this
+      other Eberron were known as sybillic guardians, beings made of holy words
+      and language. When the daelkyr began corrupting the world, the celestials
+      sought to save as many of the native gith as possible. In a great working,
+      the sybillic guardians merged with willing hosts, each who carried a
+      fraction of the celestial’s great power, becoming illumians.</p><p>As an
+      illumian and Sardiorian, you look largely like a gith or gem dragonborn
+      with a ring of glowing words around your head. You fulfil the same role in
+      Sardiorian society as an aasimar would, a being of great divinity and
+      promise. You have been chosen to continue carrying on your people’s faith
+      and beliefs; how you do that in a world not your own is ultimately up to
+      you.</p><p>When an illumian dies, their body releases the stored Illumian
+      language within it. For 1 round per Hit Die of the illumian, anyone within
+      earshot hears ululating Illumian syllables — usually gibberish, but
+      occasionally a prophetic phrase or a final curse on the illumian’s
+      enemies. The illumian’s body need not remain intact for the final
+      utterance to occur. Even if an illumian succumbs to a disintegrate spell,
+      their disembodied voice still utters strange gibberish for several
+      rounds.</p><p><strong>Creature Type</strong>. You are a
+      Humanoid.</p><p><strong>Size</strong>. Your size is
+      Medium.</p><p><strong>Speed</strong>. Your walking speed is 30
+      feet.</p><p><strong>Glyphic Resistance</strong>. As an embodiment of the
+      magical Illumian language, you are immune to any spell or magical effect
+      that has the following words in its name: “glyph”, “rune”, “runic”,
+      “symbol”, or “word”. While you are conscious, you can choose to be
+      affected by such spells or effects.</p><p><strong>Language
+      Incarnate</strong>. You know the Illumian language in addition to your
+      other languages.</p><p><strong>Luminous Sigils</strong>. The insubstantial
+      symbols that orbit your head shed dim light around you out to a radius of
+      5 feet. As a bonus action, you can make these symbols disappear or
+      reappear, but your Power Sigils trait grants you no benefits while they
+      are not present.</p><p><strong>Power Sigils</strong>. One of the symbols
+      floating around your head is a Power Sigil, which grants you a trait
+      appropriate to the sigil’s Common meaning (provided in parentheses). When
+      you reach 3rd level, you gain a second Power Sigil, which must be
+      different from the first. You choose both of these Power Sigils from the
+      below list:</p><p><strong>Aesh (“vigor”).</strong> You have proficiency in
+      the Athletics skill and you count as one size larger when determining your
+      carrying capacity and the weight you can push, drag, or
+      lift.</p><p><strong>Hoon (“life”).</strong> Your hit point maximum
+      increases by an amount equal to your level when you gain this Power Sigil,
+      and it increases by 1 every time you gain a level
+      thereafter.</p><p><strong>Krau (“magic”).</strong> You have proficiency in
+      the Arcana skill and you have advantage on Constitution saving throws to
+      maintain your concentration on a spell when you take
+      damage.</p><p><strong>Naen (“mind”).</strong> You have resistance to
+      psychic damage.</p><p><strong>Uur (“grace”).</strong> You have proficiency
+      in the Acrobatics skill and your walking speed increases to 40
+      feet.</p><p><strong>Vaul (“soul”).</strong> You have advantage on all
+      Charisma saving throws</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: DIHegKgqukGxpBeB
@@ -65,7 +119,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700627987414
-  modifiedTime: 1702848011616
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703833669663
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!7Wv72a4wOsVapKni'
 

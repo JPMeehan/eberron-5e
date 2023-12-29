@@ -5,10 +5,34 @@ _id: s6qtxPScog1jLjUt
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You are a scaled ara’sihei - a ‘child of the sun’. Your people can be
+      found across Xen’drik, from the waterways of the Hydra to the glacial
+      Thunderwall. Unlike Q’barra, the ‘lizardfolk’ of Xen’drik are not united
+      under a single culture by the couatl, and have a variety of different
+      forms and beliefs. You might be lithe and camouflaged like the
+      Shiftscales, spined and adapted to desert heat like the Nektari, or large
+      and feathered like the behemoth dinosaurs of your home. As an ara’sihei,
+      the moods and shifting expressions of the scaleless can be hard to
+      interpret at first, just as they struggle to interpret your body language
+      and shifting colors. Xen’drik has many threats both old and new, and
+      ara’sihei adventurers can often be found working in service to their
+      people.</p><p>When creating an ara’sihei character,
+      consider:</p><ol><li>In lieu of facial expressions, how do you convey your
+      mood and emotions?</li><li>You can go for up to a week without eating a
+      large meal; when you do, how do you treat your relationship to
+      food?</li><li>How do you deal with uncomfortably cold temperatures before
+      you have time to warm up</li></ol><p>Lizardfolk have secondary names
+      shared between clutchmates, based on the events of their
+      hatching.</p><p><strong>Names</strong>: Ghruzh, Aktesh, Ihathu, Sesk,
+      Ara’saz, Thrijast, Ukathsi, Aqelka</p><p><strong>Clutch Names</strong>:
+      Dark Sky, Sun Tide, Year of Plenty, Grand Hunt, River Song, Sky Fall</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Giant Guide to Xen'drik
+    page: Ch. 7
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: CmKBzgVCxdFRtqkm
@@ -54,7 +78,7 @@ system:
   type:
     value: humanoid
 effects: []
-sort: 0
+sort: 2300000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -65,7 +89,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628427758
-  modifiedTime: 1702848006140
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703830861432
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!s6qtxPScog1jLjUt'
 

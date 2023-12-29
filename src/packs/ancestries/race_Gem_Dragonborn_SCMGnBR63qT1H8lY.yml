@@ -5,10 +5,47 @@ _id: SCMGnBR63qT1H8lY
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Like your gith brethren, your ancestry comes from another version of
+      Eberron. Draconic magic flows through you, a gift from one of the
+      surviving gem dragons of Sardior. Unlike your Eberronian counterparts,
+      it’s much more likely that you were intentionally created. Whether a gem
+      dragon wished for a child or a soldier, you were imbued with purpose and
+      drive.</p><p><strong>Creature Type</strong>. You are a
+      Humanoid.</p><p><strong>Size</strong>. Your size is
+      Medium.</p><p><strong>Speed</strong>. Your walking speed is 30
+      feet.</p><p><strong>Gem Ancestry</strong>. You have a gem dragon ancestor,
+      granting you a special magical affinity. Choose one kind of dragon from
+      the Gem Ancestry table. This determines the damage type for your other
+      traits, as shown in the
+      table.</p><table><thead><tr><th>Dragon</th><th>Damage
+      Type</th></tr></thead><tbody><tr><td>Amethyst</td><td>Force</td></tr><tr><td>Crystal</td><td>Radiant</td></tr><tr><td>Emerald</td><td>Psychic</td></tr><tr><td>Sapphire</td><td>Thunder</td></tr><tr><td>Topaz</td><td>Necrotic</td></tr></tbody></table><p><strong>Breath
+      Weapon</strong>. When you take the Attack action on your turn, you can
+      replace one of your attacks with an exhalation of magical energy in a
+      15-foot cone. Each creature in that area must make a Dexterity saving
+      throw (DC = 8 + your Constitution modifier + your proficiency bonus). On a
+      failed save, the creature takes 1d10 damage of the type associated with
+      your Gem Ancestry. On a successful save, it takes half as much damage.
+      This damage increases by 1d10 when you reach 5th level (2d10), 11th level
+      (3d10), and 17th level (4d10).</p><p>You can use your Breath Weapon a
+      number of times equal to your proficiency bonus, and you regain all
+      expended uses when you finish a long rest.</p><p><strong>Draconic
+      Resistance</strong>. You have resistance to the damage type associated
+      with your Gem Ancestry.</p><p><strong>Psionic Mind</strong>. You can send
+      telepathic messages to any creature you can see within 30 feet of you. You
+      don't need to share a language with the creature for it to understand
+      these messages, but it must be able to understand at least one language to
+      comprehend them.</p><p><strong>Gem Flight</strong>. Starting at 5th level,
+      you can use a bonus action to manifest spectral wings on your body. These
+      wings last for 1 minute. For the duration, you gain a flying speed equal
+      to your walking speed and can hover. Once you use this trait, you can't do
+      so again until you finish a long rest.</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: tPZZ2LyxgLvsltB9
@@ -65,7 +102,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700627842777
-  modifiedTime: 1702848011616
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703832664793
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!SCMGnBR63qT1H8lY'
 

@@ -1,14 +1,63 @@
-folder: w5uUhMcM5p14jZB6
+folder: kufvqvtSm57lhpth
 name: Shulassakar
 type: race
 _id: GEHl3TZAb164ngC4
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You are a shulassakar - a divine warrior of the couatl, marked by
+      prismatic serpentine features and rainbow feathers. Your people, once
+      human, were blessed by the couatl with divine form and power. They have
+      battled evil and protected ancient ruins since the Age of Demons. The
+      serpentfolk dwell within a Khyber demiplane known as Hope’s Meridian, and
+      journey out across the world to serve the Silver Flame. In Xen’drik, the
+      shulassakar help to monitor the land for signs of the Overlord’s release.
+      Sometimes this means infiltrating cities such as Stormreach; others act as
+      emissaries to the hidden city of Bazek Mohl, training and communing with
+      the couatl that protects it. As a shulassakar, your mission is vital, your
+      blade destined to cut down evil - but evil never sleeps. What prophecy or
+      portent now drives your mission?</p><p>When playing a Shulassakar
+      character, consider:</p><ol><li>Were you given a specific duty by Hope’s
+      Meridian, and if so, what is it?</li><li>Are you an experienced warrior
+      returning to the battlefield after a period of rest, or are you a young
+      hopeful yet to test your mettle?</li><li>Are you comfortable with your
+      isolation, or do you feel pulled to comrades who fight the good
+      fight?</li><li>Do you enjoy Xen’drik and your station, or do you miss the
+      arcadian fortress of Hope’s Meridian? Originally created by Luke
+      Robinson</li></ol><p><strong>Size</strong>: You are Medium or Small. You
+      choose the size when you select this race.</p><p><strong>Speed</strong>:
+      You have a speed of 30 ft.</p><p><strong>Couatl Magic</strong>. You know
+      the sacred flame cantrip. Starting at 3rd level, you can cast cure wounds
+      with this trait. Starting at 5th level, you can also cast lesser
+      restoration with this trait. Once you cast cure wounds or lesser
+      restoration with this trait, you can't cast that spell with it again until
+      you finish a long rest. You can also cast either of those spells using any
+      spell slots you have of the appropriate level. Intelligence, Wisdom, or
+      Charisma is your spellcasting ability for these spells when you cast them
+      with this trait (choose when you select this race). None of these spells
+      require spell components when you cast them with this
+      trait.</p><p><strong>Darkvision</strong>. You can see in dim light within
+      60 feet of you as if it were bright light and in darkness as if it were
+      dim light. You discern colors in that darkness only as shades of gray.
+      Poison Resilience. You have advantage on saving throws you make to avoid
+      or end the poisoned condition on yourself. You also have resistance to
+      poison damage.</p><p><strong>Psionic Mind</strong>. You can speak
+      telepathically to any creature you can see, provided the creature is
+      within a number of feet of you equal to 10 times your level. You don't
+      need to share a language with the creature for it to understand your
+      telepathic utterances, but the creature must be able to understand at
+      least one language.</p><p>Shulassakar names draw on the Celestial
+      language, as well as the now-extinct Khaleshi language of
+      Sarlona.</p><p><strong>Names</strong>: Sesstaria, Danassa, Ralkasaan,
+      Isteria, Solaihir, Veqtakir, Kastell</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Giant Guide to Xen'drik
+    page: Ch. 7
+    custom: ''
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: J8yOo9oBM1Vmswgk
@@ -54,7 +103,7 @@ system:
   type:
     value: humanoid
 effects: []
-sort: 0
+sort: 100000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -65,7 +114,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700627738503
-  modifiedTime: 1702848009166
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703830953537
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!GEHl3TZAb164ngC4'
 

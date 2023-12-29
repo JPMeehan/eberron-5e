@@ -5,10 +5,33 @@ _id: TzKXkwLs5m8Rsv2G
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Much like your eladrin brethren, you are almost certainly from the
+      great feyspire of Shae Tan Feilar. You come from stories of revelry and
+      daring feats, and you wish for a great challenge to come into your life,
+      whether it be in Thelanis or the mountains of Adar. With a smile on your
+      lips and hooves almost tailor-made for the mountainsides, your next
+      adventure is certainly going to be one to tell stories
+      about.</p><p><strong>Creature Type</strong>. You are a
+      Fey.</p><p><strong>Size</strong>: Your size is
+      Medium.</p><p><strong>Speed</strong>: Your base walking speed is 35
+      feet.</p><p><strong>Ram</strong>. You can use your head and horns to make
+      unarmed strikes. When you hit with them, the strike deals 1d6 + your
+      Strength modifier bludgeoning damage, instead of the bludgeoning damage
+      normal for an unarmed strike.</p><p><strong>Magic Resistance</strong>. You
+      have advantage on saving throws against spells.</p><p><strong>Mirthful
+      Leaps</strong>. Whenever you make a long jump or a high jump, you can roll
+      a d8 and add the number rolled to the number of feet you cover, even when
+      making a standing jump. This extra distance costs movement as
+      usual.</p><p><strong>Reveler</strong>. As an embodiment of revelry, you
+      have proficiency in the Performance and Persuasion skills, and you have
+      proficiency with one musical instrument of your choice.</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: 448pucewC2yW9tmN
@@ -65,7 +88,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628075302
-  modifiedTime: 1702848011616
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703833794759
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!TzKXkwLs5m8Rsv2G'
 

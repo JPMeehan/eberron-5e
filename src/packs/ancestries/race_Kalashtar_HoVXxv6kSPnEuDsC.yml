@@ -5,10 +5,44 @@ _id: HoVXxv6kSPnEuDsC
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p><strong>Age</strong>. Kalashtar mature and age at the same rate as
+      humans.</p><p><strong>Alignment</strong>. The noble spirit tied to a
+      kalashtar drives it toward lawful and good behavior. Most kalashtar
+      combine strong self-discipline with compassion for all beings, but some
+      kalashtar resist the virtuous influence of their
+      spirit.</p><p><strong>Size</strong>. Your size is Medium. To set your
+      height and weight randomly, start with rolling a size modifier.</p><p>Size
+      modifier = 2d6</p><p>Height = 5 feet + 4 inches + your size modifier in
+      inches</p><p>Weight in pounds = 110 + (1d6 x your size
+      modifier)</p><p><strong>Speed</strong>. Your base walking speed is 30
+      feet.</p><p><strong>Dual Mind</strong>. You have advantage on all Wisdom
+      saving throws. Mental Discipline. You have resistance to psychic
+      damage.</p><p><strong>Mindlink</strong>. You know the mindlink psionic
+      talent. Once you reach 3rd level, you learn the metaconcert augment. Once
+      you reach 5th level, you learn the missive augment. Wisdom or Charisma
+      (your choice) is your psionic ability for these
+      powers.</p><p><strong>Naturally Psionic</strong>. You gain a reserve of
+      psionic energy represented by psi points. Your psi point maximum is 2, or
+      your existing psi point maximum from another source (such as levels in a
+      class with the Psionics feature) increases by 2. When you reach 5th level,
+      your psi point maximum increases by an additional 2.</p><p>All expended
+      psi points are restored when you finish a long rest. Your psi limit is 2,
+      and when you reach 5th level your psi limit increases to 4, if it is not
+      already higher.</p><p><strong>Severed from Dreams.</strong> Kalashtar
+      sleep, but they don’t connect to the plane of dreams as other creatures
+      do. Instead, their minds draw from the memories of their otherworldly
+      spirit while they sleep. As such, you are immune to spells and other
+      magical effects that require you to dream, like dream, but not spells and
+      other magical effects that put you to sleep, like
+      sleep.</p><p><strong>Languages</strong>. You can speak, read, and write
+      Common, Quori, and one other language of your choice.</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Psion's Primer
+    page: Ch. 2
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: xu1smBPZhZaM5j5T
@@ -65,7 +99,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628622264
-  modifiedTime: 1702848008277
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703834191984
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!HoVXxv6kSPnEuDsC'
 

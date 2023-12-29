@@ -5,10 +5,52 @@ _id: Mw8Z3mIVpKEBYKdq
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p><strong>Age</strong>. A typical warforged is between two and thirty
+      years old. The maximum warforged lifespan remains a mystery; so far,
+      warforged have shown no signs of deterioration due to age. You are immune
+      to magical aging effects.</p><p><strong>Alignment</strong>. Most warforged
+      take comfort in order and discipline, tending toward law and neutrality.
+      But some have absorbed the morality, or lack thereof, of the beings with
+      which they served.</p><p><strong>Size</strong>. Your size is Medium. To
+      set your height and weight randomly, start with rolling a size
+      modifier.</p><p style="text-align:center">Size modifier = 2d6</p><p
+      style="text-align:center">Height = 5 feet + 10 inches + your size modifier
+      in inches</p><p style="text-align:center">Weight in pounds = 270 + (4 x
+      your size modifier)</p><p><strong>Speed</strong>. Your base walking speed
+      is 30 feet. </p><p><strong>Constructed Resilience.</strong> You were
+      created to have remarkable fortitude, represented by the following
+      benefits:</p><ul><li>You have advantage on saving throws against being
+      poisoned, and you have resistance to poison damage.</li><li>You don’t need
+      to eat, drink, or breathe.</li><li>You are immune to disease.</li><li>You
+      don’t need to sleep, and magic can’t put you to
+      sleep.</li></ul><p><strong>Crystalline Growths</strong>. Your constructed
+      body is covered in numerous crystals. You gain a +1 bonus to Armor Class,
+      but you cannot don armor.</p><p><strong>Psiactive Crystal</strong>. You
+      know the imbue psicrystal psionic talent. Once you reach 3rd level, you
+      learn the fortify psicrystal augment. Once you reach 5th level, you learn
+      the crystal flechette augment. Intelligence is your psionic ability for
+      these powers.</p><p>When you cast imbue psicrystal, you may spend 1 psi
+      point to use your own body’s crystals as the material component. If you
+      do, a fist-sized chunk of crystal harmlessly separates from your body and
+      becomes the psicrystal. When your focus on imbued psicrystal ends, you may
+      reintegrate the separated crystal back into your
+      body.</p><p><strong>Naturally Psionic</strong>. You gain an internal
+      reserve of psionic energy represented by psi points. Your psi point
+      maximum is 2, or your existing psi point maximum from another source (such
+      as levels in a class with the Psionics feature) increases by 2. When you
+      reach 5th level, your psi point maximum increases by an additional
+      2.</p><p>All expended psi points are restored when you finish a long rest.
+      Your psi limit is 2, and when you reach 5th level your psi limit increases
+      to 4, if it is not already higher.</p><p><strong>Languages</strong>. You
+      can speak, read, and write Common and one other language of your
+      choice</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Psion's Primer
+    page: Ch. 2
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: TlIU8jqlDs5Tur2b
@@ -65,7 +107,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628722871
-  modifiedTime: 1702848008277
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703835242575
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!Mw8Z3mIVpKEBYKdq'
 

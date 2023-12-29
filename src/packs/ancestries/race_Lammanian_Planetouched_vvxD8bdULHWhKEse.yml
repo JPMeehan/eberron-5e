@@ -5,10 +5,63 @@ _id: vvxD8bdULHWhKEse
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Unbridled and unbound nature has left its mark upon you. Celestial
+      animals guide aasimar, known for befriending those they meet along the way
+      with hawk-like eyes and intricate leaf-like hair. Lamannian genasi look
+      like the nature spirits and elementals of the plane, skin textured like
+      bark and hair like great bushes or flowers. While there are few fiends
+      within Lamannia, tieflings sport great branching horns, sharp teeth, and
+      long claws. Creature Type. You are a
+      Humanoid.</p><p><strong>Size</strong>: If you replace a species with this
+      lineage, use your species to determine your size. If you choose this
+      lineage at character creation, you are Medium or Small. You choose the
+      size when you select this lineage.</p><p><strong>Speed</strong>: Your base
+      walking speed is 30 feet.</p><p><strong>Ancestral Legacy</strong>. If you
+      replace a species with this lineage, you can keep the following elements
+      of that race: any skill proficiencies you gained from it and any climbing,
+      flying, or swimming speed you gained from it.</p><p>If you don't keep any
+      of those elements or you choose this lineage at character creation, you
+      gain proficiency in two skills of your
+      choice.</p><p><strong>Darkvision</strong>. You can see in dim light within
+      60 feet of you as if it were bright light, and in darkness as if it were
+      dim light. You can't discern color in darkness, only shades of
+      gray.</p><p><strong>Natural Resilience</strong>. You are naturally
+      acclimated to extreme heat, extreme cold, and high altitudes, including
+      elevations over 20,000 feet. Additionally, you have resistance to poison
+      damage and you have advantage on saving throws you make to avoid or end
+      the poisoned condition on yourself.</p><p><strong>Planetouched
+      Nature</strong>. When you choose this lineage, choose the nature of your
+      planar tie to Lamannia: Celestial, Elemental, or Fiendish. Your choice
+      grants you one of the traits
+      below:</p><p><em><strong>Celestial</strong></em>. You can cast the animal
+      friendship and goodberry spells with this trait. Once you cast either of
+      these spells with this trait, you can’t cast that spell with it again
+      until you finish a long rest. You can also cast these spells using any
+      spell slots you have.</p><p>Intelligence, Wisdom, or Charisma is your
+      spellcasting ability for these spells when you cast them with this trait
+      (choose when you select this
+      race).</p><p><em><strong>Elemental</strong></em>. You can hold your breath
+      indefinitely while you’re not incapacitated, and you can move across
+      difficult terrain without expending extra movement if you are using your
+      walking speed on the ground or a floor. Additionally, you can breathe air
+      and water, and you gain a swimming speed equal to your walking
+      speed.</p><p><em><strong>Fiendish</strong></em>. You know the primal
+      savagery (see Chapter 12) cantrip. Starting at 3rd level, you can cast the
+      ensnaring strike spell with this trait. Starting at 5th level, you can
+      also cast the spike growth spell with this trait. Once you cast ensnaring
+      strike or spike growth with this trait, you can’t cast that spell with it
+      again until you finish a long rest. You can also cast either of those
+      spells using any spell slots you have of the appropriate
+      level.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting
+      ability for these spells when you cast them with this trait (choose when
+      you select this lineage)</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: z0OEprI3jsHvFnCZ
@@ -65,7 +118,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628120756
-  modifiedTime: 1702848011616
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703834025066
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!vvxD8bdULHWhKEse'
 

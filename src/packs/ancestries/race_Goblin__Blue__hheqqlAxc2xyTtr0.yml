@@ -5,10 +5,43 @@ _id: hheqqlAxc2xyTtr0
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p><strong>Age</strong>. Blues mature and age at the same rate as normal
+      goblins. Alignment. Blues tend toward chaotic alignments, whether due to
+      the influence of Xoriat or their rejection of oppressive
+      tradition.</p><p><strong>Size</strong>. Blues are typically a few inches
+      shorter than normal goblins. Your size is Small. To set your height and
+      weight randomly, start with rolling a size modifier.</p><p
+      style="text-align:center">Size modifier = 2d6</p><p
+      style="text-align:center">Height = 3 feet + your size modifier in
+      inches</p><p style="text-align:center">Weight in pounds = 32 + your size
+      modifier</p><p><strong>Goblinoid</strong>. You belong to one of the three
+      major goblinoid races.</p><p><strong>Darkvision</strong>. You have
+      superior vision in dark and dim conditions. You can see in dim light
+      within 60 feet of you as if it were bright light, and in darkness as if it
+      were dim light. You can't discern color in darkness, only shades of
+      gray.</p><p><strong>Naturally Stealthy</strong>. You can attempt to hide
+      even when you are obscured only by a creature that is at least one size
+      larger than you.</p><p><strong>Blue Talent</strong>. You know the wild
+      talent psionic talent. Once you reach 3rd level, you learn one 1st-level
+      psionic power of your choice that augments wild talent. Once you reach 5th
+      level, you learn another 1st-level psionic power of your choice that
+      augments wild talent. Intelligence is your psionic ability for these
+      powers.</p><p><strong>Naturally Psionic</strong>. You gain an internal
+      reserve of psionic energy represented by psi points. Your psi point
+      maximum is 2, or your existing psi point maximum from another source (such
+      as levels in a class with the Psionics feature) increases by 2. When you
+      reach 5th level, your psi point maximum increases by an additional
+      2.</p><p>All expended psi points are restored when you finish a long rest.
+      Your psi limit is 2, and when you reach 5th level your psi limit increases
+      to 4, if it is not already higher.</p><p><strong>Languages</strong>. You
+      can speak, read, and write Common and Goblin.</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Psion's Primer
+    page: Ch. 2
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: mBjXJDoT2PXExDoT
@@ -53,6 +86,8 @@ system:
     special: ''
   type:
     value: humanoid
+    custom: ''
+    subtype: Goblinoid
 effects: []
 sort: 0
 ownership:
@@ -65,7 +100,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628677652
-  modifiedTime: 1702848008277
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703834880985
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!hheqqlAxc2xyTtr0'
 

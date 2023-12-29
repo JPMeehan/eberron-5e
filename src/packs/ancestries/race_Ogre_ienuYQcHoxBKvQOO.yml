@@ -5,10 +5,37 @@ _id: ienuYQcHoxBKvQOO
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Long ago, the ogres of Sarlona lived in Borunan, fighting an eternal
+      war alongside the angels of Shavarath. The Inspired thoroughly crushed
+      this ancient tradition, forcing the once-proud ogres into a life of manual
+      labor, servitude, and dehumanization. Others fled into Syrkarn or Adar,
+      carrying the shame of abandoning their ancient allies. The future of your
+      people is uncertain. Do you try and reclaim your birthright? Do you use
+      the powers of old for your own designs?</p><p><strong>Creature
+      Type</strong>. You are a Humanoid.</p><p><strong>Size</strong>. Your size
+      is Medium, but you cannot squeeze through spaces that would fit a Small
+      creature. Speed. Your walking speed is 30
+      feet.</p><p><strong>Darkvision</strong>. You can see in dim light within
+      60 feet of you as if it were bright light, and in darkness as if it were
+      dim light. You can't discern color in darkness, only shades of
+      gray.</p><p><strong>Natural Athlete</strong>. You are proficient in the
+      Athletics skill, and do not suffer a penalty to your movement while
+      grappling a Medium or smaller
+      creature.</p><p><strong>Long-Limbed.</strong> When you make a melee attack
+      on your turn, your reach for it is 5 feet greater than
+      normal.</p><p><strong>Powerful Build</strong>. You count as one size
+      larger when determining your carrying capacity and the weight you can
+      push, drag, or lift.</p><p><strong>Yield No Ground.</strong> You have
+      advantage on ability checks and saving throws made to avoid being grappled
+      or moved against your will by other creatures, and you cannot be dragged
+      or carried by a creature grappling you unless they are Huge or larger.</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: o7vHceuOxLjFKq99
@@ -65,7 +92,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700627998259
-  modifiedTime: 1702848011616
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703833744740
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!ienuYQcHoxBKvQOO'
 

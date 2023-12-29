@@ -5,10 +5,67 @@ _id: j2pDggt8nYWcNl1A
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p><strong>Age</strong>. Thri-kreen are extremely short-lived, reaching
+      adulthood after only 6 or 7 years, and rarely see 30 years of age.
+      Alignment. Modern thri-kreen have nearly no conception of formalized
+      society among their own kind and tend toward chaotic
+      alignments.</p><p><strong>Size</strong>. Your size is Medium. To set your
+      height and weight randomly, start with rolling a size modifier.</p><p
+      style="text-align:center">Size modifier = 2d12</p><p
+      style="text-align:center">Height = 4 feet + 10 inches + your size modifier
+      in inches</p><p style="text-align:center">Weight in pounds = 125 + (2d6 x
+      your size modifier)</p><p><strong>Speed</strong>. Your base walking speed
+      is 35 feet.</p><p><strong>Extra Arms</strong>. You have two pairs of arms,
+      a major pair and a minor pair. Your major arms can perform all the
+      functions a normal humanoid’s arms and hands can, but your minor arms are
+      smaller and weaker. You cannot effectively wield weapons or use a shield
+      with your minor arms, nor can you fulfill somatic components for spells
+      with them, but you may otherwise perform any other action with them, such
+      as writing, opening doors, retrieving or stowing an item, or even drawing
+      a weapon and passing it to a major arm’s hand.</p><p>Additionally, having
+      a second pair of arms allows you to interact with a second object during
+      your turn without using your action. If you want to interact with a third
+      object, you need to use your action. (Some magic items and other special
+      objects always require an action to use, as stated in their
+      descriptions.)</p><p><strong>Thri-Kreen Weapon Training.</strong> You have
+      proficiency with the gythka and chatkcha. These weapons have the same
+      statistics as the orc double axe and Adaran boomerang detailed in
+      Korranberg Chronicle: Adventurer’s Almanac, respectively.</p><p>If your
+      game does not make use of that book, use the statistics for the greataxe
+      and handaxe instead, except the handaxe has the finesse
+      property.</p><p><strong>Natural Armor</strong>. You have a hard, chitinous
+      exoskeleton. When you aren't wearing armor, your AC is 13 + your Dexterity
+      modifier. You can use your natural armor to determine your AC if the armor
+      you wear would leave you with a lower AC. A shield's benefits apply as
+      normal while you use your natural armor.</p><p><strong>Thri-Kreen
+      Psionics</strong>. You know the primal metabolism psionic talent. Once you
+      reach 3rd level, you learn the psionic leap augment. Once you reach 5th
+      level, you learn the bestial claws augment. Wisdom is your psionic ability
+      for these powers.</p><p>Whenever you manifest psionic leap using this
+      feature, the power augments primal metabolism instead of the normal talent
+      mentioned in the power’s description.</p><p><strong>Naturally
+      Psionic</strong>. You gain an internal reserve of psionic energy
+      represented by psi points. Your psi point maximum is 2, or your existing
+      psi point maximum from another source (such as levels in a class with the
+      Psionics feature) increases by 2. When you reach 5th level, your psi point
+      maximum increases by an additional 2.</p><p>All expended psi points are
+      restored when you finish a long rest. Your psi limit is 2, and when you
+      reach 5th level your psi limit increases to 4, if it is not already
+      higher.</p><p><strong>Reverie</strong>. You cannot be magically put to
+      sleep, and you are immune to magical spells and effects that require you
+      to dream, like the dream spell.</p><p><strong>Languages</strong>. You can
+      communicate in a language unique to Thri-kreen and can understand one
+      other language of your choice. Thri-kreen do not speak, but can
+      communicate in their own language through their antennae movements,
+      mandible clacking, and pheromones. When expressing yourself in other
+      languages, you are limited to writing only</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Psion's Primer
+    page: Ch. 2
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: DMMur3w1cvVKaFnB
@@ -65,7 +122,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628717150
-  modifiedTime: 1702848008277
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703835116128
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!j2pDggt8nYWcNl1A'
 

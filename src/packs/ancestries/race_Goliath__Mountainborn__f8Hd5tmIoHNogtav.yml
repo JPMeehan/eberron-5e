@@ -5,10 +5,33 @@ _id: f8Hd5tmIoHNogtav
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>The goliath families of Sarlona are some of the oldest settlers of the
+      continent. Though even your greatest elders cannot remember when and why
+      their ancestors made the journey from Xen’drik to Sarlona, you have called
+      this land home for millennia. You are most likely a member of the goliath
+      clans in the mountains of Adar, known as the pathadrik or “wandering
+      giants” in Adaran.</p><p><strong>Creature Type</strong>. You are a
+      Humanoid.</p><p><strong>Size</strong>. Your size is
+      Medium.</p><p><strong>Speed</strong>. Your walking speed is 30
+      feet.</p><p><strong>Little Giant</strong>. You have proficiency in the
+      Athletics skill, and you count as one size larger when determining your
+      carrying weight and the weight you can push, drag, or
+      lift.</p><p><strong>Mountain Born</strong>. You have resistance to cold
+      damage. You also naturally acclimate to high altitudes, even if you've
+      never been to one. This includes elevations above 20,000
+      feet.</p><p>Stone's Endurance. You can supernaturally draw on unyielding
+      stone to shrug off harm. When you take damage, you can use your reaction
+      to roll a d12. Add your79 Constitution modifier to the number rolled and
+      reduce the damage by that total.</p><p>You can use this trait a number of
+      times equal to your proficiency bonus, and you regain all expended uses
+      when you finish a long rest</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: zMrM7ybop0tFkc5H
@@ -65,7 +88,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700627934869
-  modifiedTime: 1702848011616
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703833127421
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!f8Hd5tmIoHNogtav'
 

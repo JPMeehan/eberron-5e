@@ -5,10 +5,49 @@ _id: fpl9oFGM0lLaWsIU
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You are one of the elusive spiderfolk of the forests of Dread Lake.
+      Once servants of the Spinner of Shadows, now free to make their own
+      destiny, your people have lived in secrecy for millennia. Their fearsome
+      appearance is a source of myth and legends for others. You might have the
+      form of a drider, chitine, or drow with spidery features. Your people are
+      skilled in stealth and illusion, but growing threats such as the Crawling
+      Queen may have brought you bravely into the light.</p><p>When creating a
+      Child of the Mist, consider:</p><ol><li>How do you feel about people
+      seeing your true appearance?</li><li>Do you feel excitement or trepidation
+      about leaving your hidden home?</li><li>What has caused you to adventure
+      into the surrounding lands?</li></ol><p><strong>Size</strong>. You are
+      Small or Medium, which you choose when you select this
+      ancestry.</p><p><strong>Speed</strong>. Your base walking speed is 30
+      feet, and you have a climb speed equal to your walking
+      speed.</p><p><strong>Darkvision</strong>. You can see in dim light within
+      60 feet of you as if it were bright light, and in darkness as if it were
+      dim light. You can't discern color in darkness, only shades of
+      gray.</p><p><strong>Secondary Arms</strong>. You have two slightly smaller
+      secondary arms below your primary pair of arms. The secondary arms
+      function like your primary arms, but cannot wield a shield, or a weapon
+      without the light property.</p><p><strong>Spider Climb</strong>. At 3rd
+      level, you can move up, down, and across vertical surfaces and upside down
+      along ceilings, while leaving your hands free.</p><p>Spinner’s Webs. You
+      can cast disguise self with this trait. When you cast disguise self in
+      this way, you can hide your secondary arms. Starting at 3rd level, you can
+      cast the web spell with this trait. Once you cast either of these spells
+      with this trait, you can’t cast that spell with it again until you
+      complete a long rest. You can also cast these spells using any spell slots
+      you have of the appropriate level. Intelligence, Wisdom, or Charisma is
+      your spellcasting ability for these spells when you cast them with this
+      trait, which you choose when you select this ancestry.</p><p>Mistfolk
+      names are originally derived from ancient Infernal, and can have sounds
+      intended to be spoken by those with arachnid mouthparts. Between
+      themselves, these names are conveyed via pheromones, and speaking them
+      aloud to strangers can take some getting used to.</p><p>Names: Kitashr,
+      Vekjai, Ikkisek, Takress, Sasares, Zjas</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Giant Guide to Xen'drik
+    page: Ch. 7
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: inaJPUFNpLEP0iLX
@@ -54,7 +93,7 @@ system:
   type:
     value: humanoid
 effects: []
-sort: 0
+sort: 2100000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -65,7 +104,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628346018
-  modifiedTime: 1702848006140
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703830861432
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!fpl9oFGM0lLaWsIU'
 

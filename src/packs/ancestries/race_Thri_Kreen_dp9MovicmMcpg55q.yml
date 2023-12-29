@@ -1,7 +1,7 @@
 folder: kufvqvtSm57lhpth
-name: Dre'kalak Thri-Kreen
+name: Thri-Kreen
 type: race
-_id: IQAU6Bs0L5W5xQqm
+_id: dp9MovicmMcpg55q
 img: icons/svg/item-bag.svg
 system:
   description:
@@ -40,26 +40,27 @@ system:
       without the light property.</p><p><strong>Sleepless
       Revitalization</strong>. You do not require sleep and can choose to remain
       conscious during a long rest, though you must still refrain from strenuous
-      activity to gain the benefit of the rest.</p><p><strong>Thri-kreen
-      Telepathy.</strong> You have the magical ability to communicate mentally
-      with any number of willing creatures you can see within 120 feet of you. A
-      contacted creature doesn’t need to share a language with you, but it must
-      be able to understand at least one language. Your telepathic link to a
-      creature is broken if you and the creature move more than 120 feet apart,
-      if either of you is incapacitated, or if either of you mentally breaks the
-      contact (no action required).</p><p>Thri-kreen names are naturally derived
-      from their language, and contain consonants meant to be pronounced with
-      insectoid mouthparts.</p><p><strong>Names</strong>: Tak’ikt, Ik-chal,
-      Nakt, Kultil, Than-ik’ti, Chathak, Ptikal, Chachat’ka, Drulnat</p>
+      activity to gain the benefit of the rest.</p><p>Thri-kreen Telepathy. You
+      have the magical ability to communicate mentally with any number of
+      willing creatures you can see within 120 feet of you. A contacted creature
+      doesn’t need to share a language with you, but it must be able to
+      understand at least one language. Your telepathic link to a creature is
+      broken if you and the creature move more than 120 feet apart, if either of
+      you is incapacitated, or if either of you mentally breaks the contact (no
+      action required).</p><p>Thri-kreen names are naturally derived from their
+      language, and contain consonants meant to be pronounced with insectoid
+      mouthparts.</p><p><strong>Names</strong>: Tak’ikt, Ik-chal, Nakt, Kultil,
+      Than-ik’ti, Chathak, Ptikal, Chachat’ka, Drulnat</p>
     chat: ''
     unidentified: ''
   source:
     book: Giant Guide to Xen'drik
     page: Ch. 7
+    custom: ''
     license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
-      _id: VFW3eDBZTtSEkngc
+      _id: 8OsD7OWskXq1pNRt
       configuration:
         points: 0
         fixed: {}
@@ -68,7 +69,7 @@ system:
         type: asi
       level: 0
     - type: Size
-      _id: u9UJ6MB9PEUJigUH
+      _id: Kp6KkUQvLotzAj7t
       configuration:
         sizes:
           - med
@@ -81,7 +82,7 @@ system:
         mode: default
         allowReplacements: false
         choices: []
-      _id: xwwVA8hBlZw6GACU
+      _id: gbBI8Jx30iwAw7wP
       level: 0
       value: {}
   movement:
@@ -102,18 +103,17 @@ system:
   type:
     value: humanoid
 effects: []
-sort: 1200000
+sort: 900000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
   coreVersion: '11.315'
-  createdTime: 1700628544124
+  createdTime: 1703830097654
   modifiedTime: 1703830861432
   lastModifiedBy: MVioF9x1qI1WYGx1
-_key: '!items!IQAU6Bs0L5W5xQqm'
+_key: '!items!dp9MovicmMcpg55q'
 

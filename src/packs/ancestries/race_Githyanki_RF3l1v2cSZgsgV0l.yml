@@ -5,10 +5,39 @@ _id: RF3l1v2cSZgsgV0l
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Your world died to the powers of Xoriat, and that fact angers you on a
+      level others cannot comprehend. Now in a different material world, you
+      have chosen to fight against inevitability. Whether you have decided to
+      raid Eberron and the planes with city-ships, or take up arms to defend
+      Adar, the land that has given you a home, the desire to fight runs deep
+      within your training.</p><p><strong>Creature Type</strong>. You are a
+      Humanoid.</p><p><strong>Size</strong>. You are
+      Medium.</p><p><strong>Speed</strong>. Your walking speed is 30
+      feet.</p><p><strong>Astral Knowledge</strong>. You can mystically access a
+      reservoir of experiences of entities connected to the Astral Plane.
+      Whenever you finish a long rest, you gain proficiency in one skill of your
+      choice and with one weapon or tool of your choice, selected from the
+      Player's Handbook, as you momentarily project your consciousness into the
+      Astral Plane. These proficiencies last until the end of your next long
+      rest.</p><p><strong>Githyanki Psionics</strong>. You know the mage hand
+      cantrip, and the hand is invisible when you cast the cantrip with this
+      trait.</p><p>Starting at 3rd level, you can cast the jump spell with this
+      trait. Starting at 5th level, you can also cast misty step with it. Once
+      you cast jump or misty step with this trait, you can't cast that spell
+      with it again until you finish a long rest. You can also cast either of
+      those spells using any spell slots you have of the appropriate level.
+      Intelligence, Wisdom, or Charisma is your spellcasting ability for these
+      spells when you cast them with this trait (choose when you select this
+      race). None of these spells require spell components when you cast them
+      with this trait.</p><p><strong>Psychic Resilience</strong>. You have
+      resistance to psychic damage</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: Eh2ryCmGmFhvv3ic
@@ -53,6 +82,8 @@ system:
     special: ''
   type:
     value: humanoid
+    custom: ''
+    subtype: Gith
 effects: []
 sort: 0
 ownership:
@@ -65,7 +96,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700627916117
-  modifiedTime: 1702848011616
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703832868000
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!RF3l1v2cSZgsgV0l'
 

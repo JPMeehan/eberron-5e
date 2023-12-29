@@ -5,10 +5,63 @@ _id: nwlkWFdhsmFNJ7zT
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p><strong>Age</strong>. Daelkyr madbloods mature at the same rate as
+      humans but do not generally live as long, since they are more likely to
+      suffer from degenerative health conditions in the twilight of their
+      lives.</p><p><strong>Alignment</strong>. Daelkyr madbloods must always
+      fight vile thoughts that may or may not be their own. They tend toward
+      evil, and are usually neutral at best, but it is not impossible for an
+      exceptional individual to find comfort in altruism and become good. In any
+      case, their roiling madness almost always tends toward chaotic
+      alignments.</p><p><strong>Size</strong>. Daelkyr madbloods are built much
+      like humans but typically appear a little sickly. Your size is Medium. To
+      set your height and weight randomly, start with rolling a size
+      modifier.</p><p style="text-align:center">Size modifier = 2d4</p><p
+      style="text-align:center">Height = 5 feet + 1 inches + your size modifier
+      in inches</p><p style="text-align:center">Weight in pounds = 105 + (1d6 x
+      your size modifier)</p><p><strong>Speed</strong>. Your base walking speed
+      is 30 feet.</p><p><strong>Aberrant</strong>. Your body might appear to be
+      humanoid, but something about your presence is anathema to natural
+      creatures. You have proficiency in the Intimidation skill, and your
+      proficiency bonus is doubled on all Charisma (Intimidation) checks you
+      make to influence humanoids.</p><p>However, you also have disadvantage on
+      Charisma (Persuasion) checks made to influence humanoids if you do not
+      have proficiency in the Persuasion skill, and on Wisdom (Animal Handling)
+      checks if you do not have proficiency in the Animal Handling
+      skill.</p><p><strong>Touched by Madness.</strong> You know one of the
+      following psionic talents: energy ray, primal metabolism, or wild talent.
+      Once you reach 3rd level, you learn one 1st-level psionic power of your
+      choice that augments the talent you selected for this trait. Once you
+      reach 5th level, you learn another 1st-level psionic power of your choice
+      that augments the talent you selected for this trait. Charisma is your
+      psionic ability for these powers.</p><p>Whenever you manifest or cast a
+      psionic power granted by this trait, roll a d20. On a roll of 20, you
+      manifest the power as normal and immediately regain any psi points you
+      spent to manifest it, if any. On a roll of 1, the power fails and each
+      creature within a 10- foot radius sphere centered on you takes 2d4 psychic
+      damage. This damage increases by 1d4 whenever your proficiency bonus
+      increases. On any other roll, the power manifests as
+      normal.</p><p><strong>Naturally Psionic</strong>. You gain an internal
+      reserve of psionic energy represented by psi points. Your psi point
+      maximum is 2, or your existing psi point maximum from another source (such
+      as levels in a class with the Psionics feature) increases by 2. When you
+      reach 5th level, your psi point maximum increases by an additional
+      2.</p><p>All expended psi points are restored when you finish a long rest.
+      Your psi limit is 2, and when you reach 5th level your psi limit increases
+      to 4, if it is not already higher.</p><p><strong>Unbalanced Mind</strong>.
+      Your mind is in constant self-revolt and contact with it can be
+      debilitating. Any creature that attempts to read your thoughts, study your
+      mind, or make a Wisdom (Insight) check to determine information about you
+      suffers disadvantage on Intelligence, Wisdom, and Charisma saves until the
+      end of their next turn.</p><p><strong>Languages</strong>. You can speak,
+      read, and write Common and two other languages of your choice</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Psion's Primer
+    page: Ch. 2
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: m8Jjsbf88wUc27ZF
@@ -65,7 +118,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628631644
-  modifiedTime: 1702848008277
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703834769121
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!nwlkWFdhsmFNJ7zT'
 

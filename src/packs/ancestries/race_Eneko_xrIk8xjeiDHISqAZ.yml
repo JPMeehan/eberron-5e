@@ -5,10 +5,34 @@ _id: xrIk8xjeiDHISqAZ
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p><strong>Age</strong>: Eneko mature at the same rate as humans, though
+      they live slightly longer — about 150 years on
+      average.</p><p><strong>Size</strong>: Though eneko are generally on the
+      taller end, they’re not nearly as large as true ogres or giants. Your size
+      is Medium.</p><p><strong>Speed</strong>: Your walking speed is 30
+      feet.</p><p><strong>Creature Type</strong>: You are either a humanoid or a
+      giant, your choice.</p><p><strong>Darkvision</strong>: You can see in dim
+      light within 60 feet of you as if it were bright light and in darkness as
+      if it were dim light. You discern colors in that darkness only as shades
+      of gray.</p><p><strong>Powerful Build</strong>: You count as one size
+      larger when determining your carrying capacity, the amount of weight you
+      can push, drag, or lift, and the sizes of creatures you can
+      grapple.</p><p><strong>Eneko Resilience</strong>: You have resistance to
+      poison damage and advantage on saving throws against the poisoned
+      condition.</p><p><strong>Innate Spellcasting</strong>: You carry a spark
+      of the magic practiced by your giant ancestors. You can cast longstrider
+      once per long rest with this trait. At 3rd level, you can cast pass
+      without trace once per long rest, and at 5th level you can cast protection
+      from energy once per long rest. Your spellcasting ability for this trait
+      is Wisdom.</p><p><strong>Languages</strong>: You can speak, read, and
+      write Sarlonan and Giant</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Linvakri's Guide to Syrkarn
+    page: Ch. 5
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: 2xR9HXCZZx0yuKOR
@@ -65,7 +89,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700627898655
-  modifiedTime: 1702848007228
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703831736715
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!xrIk8xjeiDHISqAZ'
 

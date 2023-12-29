@@ -5,10 +5,49 @@ _id: UYqeD4EdqOV3IwxZ
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You are an asherati, a child of the First Families of the Menechtarun
+      marked by your skin made from fluid sand. You have spent your life in the
+      blazing sands of the western deserts, hidden and protected within a
+      subterranean village. Your family works together as a unit to survive,
+      using the ability to swim through sand like water to travel, trade, and
+      hunt. Asherati use their innate ability to produce light as a form of
+      fashion; many display beautiful patterns of light across their skin, often
+      mirroring the constellations. Whether as a druid, sandshaper, or zealot of
+      the Star Pilgrims, you have found reason to part from your family - and
+      the foreign green and blue oceans beyond now beckon you to unknown
+      goals.</p><p>When creating an asherati character, consider:</p><ol><li>Why
+      are you leaving your desert home?</li><li>Do you find the moist greenery
+      of northern Xen’drik to be exciting, or unnerving?</li><li>How do you
+      react to the prospect of the ocean, or sailing on
+      it?</li></ol><p><strong>Size</strong>. Asherati stand between 5-6 feet
+      tall. Your size is Medium.</p><p><strong>Speed</strong>. Your base walking
+      speed is 30 feet, and you have a burrowing speed equal to your walking
+      speed in loose sand, dust, and ash, but not soil. You leave no tunnel
+      behind when you burrow in this way, and can breathe as normal while doing
+      so.</p><p><strong>Desert Adaptation</strong>. You have resistance to fire
+      damage.</p><p><strong>Harsh Survivor</strong>. You gain proficiency in the
+      Survival and Stealth skills.</p><p><strong>Inner Light</strong>. As a
+      bonus action, you can cause your body to magically glow, providing bright
+      light in a 20 foot radius around you and dim light for an additional 20
+      feet. If you are burrowing underground, this light allows your adapted
+      eyes to navigate and identify objects in a 60 foot radius as if you were
+      in normal dim light.</p><p>You can use an action to bring your inner light
+      to full brilliance. Every creature within 15 feet of you must succeed on a
+      Constitution saving throw or become blinded until the end of their next
+      turn. When you select this ancestry, you can choose Intelligence, Wisdom,
+      or Charisma as your spellcasting ability for this feature. You regain the
+      ability to use this feature upon completing a long rest.</p><p>Asherati
+      typically place their family name first, and personal name second. For
+      example, siblings might be called Em-Sarhi and Em-Zeresh</p><p>Names:
+      Inuras, Sehev, Asharha, Larash, Umvir, Dasra</p><p>Family: Em, Na, Vei,
+      Idu, Sa, Dve, Ehz</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Giant Guide to Xen'drik
+    page: Ch. 7
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: nIb9HtQgq3gjO2b9
@@ -54,7 +93,7 @@ system:
   type:
     value: humanoid
 effects: []
-sort: 0
+sort: 1600000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -65,7 +104,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628336091
-  modifiedTime: 1702848006140
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703830861432
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!UYqeD4EdqOV3IwxZ'
 

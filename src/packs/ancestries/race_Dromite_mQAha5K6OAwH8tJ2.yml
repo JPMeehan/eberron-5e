@@ -5,10 +5,45 @@ _id: mQAha5K6OAwH8tJ2
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You are a dromite, a member of a vast underground society of hive
+      cities and psionic prowess. You have spent nearly your entire life
+      underground, venturing to the surface to barter for goods or explore lands
+      beyond rock and stone. For some, this is a great honor, as you may have
+      served as a guide or mail carrier. For others, this has led only to
+      tragedy at the hands of the Unity of Riedra.</p><p><strong>Creature
+      Type</strong>. You are a Humanoid.</p><p><strong>Size</strong>. Your size
+      is Small.</p><p><strong>Speed</strong>. Your walking speed is 30
+      feet.</p><p><strong>Darkvision</strong>. Thanks to your compound,
+      insectoid eyes, you have superior vision in dark and dim conditions. You
+      can see in dim light within 60 feet of you as if it were bright light, and
+      in darkness as if it were dim light. You can’t discern color in darkness,
+      only shades of gray.</p><p><strong>Essence Form</strong>. You developed an
+      affinity for a particular essence when you grew to full maturity. Choose
+      an essence from the Essence Forms table. Your choice of essence cannot be
+      changed, and determines the damage type for your other traits, as shown on
+      the table.</p><table><caption><strong>Essence
+      Form</strong></caption><thead><tr><th>Essence</th><th>Damage
+      Type</th></tr></thead><tbody><tr><td>Glimmer</td><td>Lightning</td></tr><tr><td>Ice</td><td>Cold</td></tr><tr><td>Torch</td><td>Fire</td></tr><tr><td>Voice</td><td>Thunder</td></tr></tbody></table><p><strong>Psychokinetic
+      Ray</strong>. You can channel psionic power to fire psychokinetic rays. As
+      an action, you fire a number of rays equal to half your Proficiency Bonus
+      (rounded up). For each ray, you make a spell attack against an object or
+      creature within 90 feet of you. On a hit you deal damage of the type
+      associated with your Essence Form equal to 2d8 + your spellcasting ability
+      modifier. Intelligence, Wisdom, or Charisma is your spellcasting ability
+      for these rays (choose when you select this species).</p><p>You can use
+      this action a number of times equal to your Proficiency Bonus, and you
+      regain all expended uses when you finish a long rest.</p><p><strong>Damage
+      Resistance</strong>. You have Resistance to the damage type determined by
+      your Essence Form.</p><p><strong>Insectoid Senses</strong>. You have
+      antennae that supplement your other senses. You have proficiency in the
+      Perception skill</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: MhXerGG5DeldOIt1
@@ -23,9 +58,11 @@ system:
       _id: DxxjHdDKmnLHK8yY
       configuration:
         sizes:
-          - med
+          - sm
+        hint: ''
       level: 0
-      value: {}
+      title: ''
+      icon: null
     - type: Trait
       configuration:
         grants:
@@ -65,7 +102,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700627794008
-  modifiedTime: 1702848011616
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703832291898
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!mQAha5K6OAwH8tJ2'
 

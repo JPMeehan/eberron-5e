@@ -5,10 +5,59 @@ _id: 33W1nUtISjqlicEX
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Most likely, if you are an eladrin in Adar, you are from Shae Tan
+      Feilar, the City of Cliff and Gale. You have spent countless years
+      searching for the greatest feats, performing daring stunts, great dances,
+      and stunning displays of athleticism. You are away from home for likely
+      the same reason you’re always away from home; searching for the next great
+      story to take home to your friends and family.</p><p>Choose your eladrin's
+      season: autumn, winter, spring, or summer. When finishing a long rest, you
+      can change your season.</p><p><strong>Creature Type</strong>. You are a
+      Fey. You are also considered an elf for any prerequisite or effect that
+      requires you to be an elf.</p><p><strong>Size</strong>. You are
+      Medium.</p><p><strong>Speed</strong>. Your walking speed is 30
+      feet.</p><p><strong>Darkvision</strong>. You can see in dim light within
+      60 feet of you as if it were bright light and in darkness as if it were
+      dim light. You discern colors in that darkness only as shades of
+      gray.</p><p><strong>Fey Ancestry</strong>. You have advantage on saving
+      throws you make to avoid or end the charmed condition on yourself. Fey
+      Step. As a bonus action, you can magically teleport up to 30 feet to an
+      unoccupied space you can see. You can use this trait a number of times
+      equal to your proficiency bonus, and you regain all expended uses when you
+      finish a long rest.</p><p>When you reach 3rd level, your Fey Step gains an
+      additional effect based on your season; if the effect requires a saving
+      throw, the DC equals 8 + your proficiency bonus + your Intelligence,
+      Wisdom, or Charisma modifier (choose when you select this
+      species):</p><ul><li><strong>Autumn</strong>. Immediately after you use
+      your Fey Step, up to two creatures of your choice that you can see within
+      10 feet of you must succeed on a Wisdom saving throw or be charmed by you
+      for 1 minute, or until you or your companions deal any damage to the
+      creatures.</li><li><strong>Winter</strong>. When you use your Fey Step,
+      one creature of your choice that you can see within 5 feet of you before
+      you teleport must succeed on a Wisdom saving throw or be frightened of you
+      until the end of your next turn.</li><li><strong>Spring</strong>. When you
+      use your Fey Step, you can touch one willing creature within 5 feet of
+      you. That creature then teleports instead of you, appearing in an
+      unoccupied space of your choice that you can see within 30 feet of
+      you.</li><li><strong>Summer</strong>. Immediately after you use your Fey
+      Step, each creature of your choice that you can see within 5 feet of you
+      takes fire damage equal to your proficiency bonus. Keen Senses. You have
+      proficiency in the Perception skill.</li></ul><p><strong>Trance</strong>.
+      You don't need to sleep, and magic can't put you to sleep. You can finish
+      a long rest in 4 hours if you spend those hours in a trancelike
+      meditation, during which you retain consciousness.</p><p>Whenever you
+      finish this trance, you can change your season, and you can gain two
+      proficiencies that you don't have, each one with a weapon or a tool of
+      your choice selected from the Player's Handbook. You mystically acquire
+      these proficiencies by drawing them from shared elven memory, and you
+      retain them until you finish your next long rest</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: 8dY9VeSUlmy4hXl0
@@ -52,7 +101,9 @@ system:
     units: null
     special: ''
   type:
-    value: humanoid
+    value: fey
+    custom: ''
+    subtype: Elf
 effects: []
 sort: 0
 ownership:
@@ -65,7 +116,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700627861579
-  modifiedTime: 1702848011616
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703832819203
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!33W1nUtISjqlicEX'
 

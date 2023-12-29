@@ -5,10 +5,37 @@ _id: o5aO4KcpkliDN2PM
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>The daelkyr have corrupted Sardior, but you do not think that has to be
+      the end for your people. This material world is not yours, but it makes a
+      fine enough home for now. As a githzerai, you would rather make do with
+      the world you have been given — either to make it into a home for your
+      descendants or to remake via psionic will into the lost Sardior. The
+      githzerai are often on better terms with Adarans as a whole, respecting
+      their discipline and bent towards monastic life.</p><p><strong>Creature
+      Type</strong>. You are a Humanoid.</p><p><strong>Size</strong>. You are
+      Medium.</p><p><strong>Speed</strong>. Your walking speed is 30
+      feet.</p><p><strong>Githzerai Psionics</strong>. You know the mage hand
+      cantrip, and the hand is invisible when you cast the cantrip with this
+      trait.</p><p>Starting at 3rd level, you can cast the shield spell with
+      this trait. Starting at 5th level, you can also cast the detect thoughts
+      spell with it. Once you cast shield or detect thoughts spell with this
+      trait, you can't cast that spell with it again until you finish a long
+      rest. You can also cast either of those spells using any spell slots you
+      have of the appropriate level.</p><p>Intelligence, Wisdom, or Charisma is
+      your spellcasting ability for these spells when you cast them with this
+      trait (choose when you select this race). None of these spells require
+      spell components when you cast them with this trait.</p><p><strong>Mental
+      Discipline</strong>. Your innate psychic defenses grant you advantage on
+      saving throws you make to avoid or end the charmed and frightened
+      conditions on yourself. Psychic Resilience. You have resistance to psychic
+      damage</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: WAlgvofeJpAnYUrB
@@ -65,7 +92,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700627922987
-  modifiedTime: 1702848011616
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703833062770
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!o5aO4KcpkliDN2PM'
 

@@ -5,10 +5,37 @@ _id: FxrdqYkvxPRgeeDl
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You do not have the luxury of forgetting that the Unmaker rages beneath
+      the weight of Korrandar. You are a sakah, a tiefling who has gained their
+      fiendish influence from an Overlord, and the influence of Ran Iishiv is
+      written on your disintegrating horns and shattered ceramic skin. Though
+      mortal and capable of choosing your own destiny, many consider you a sign
+      of ill omen at best.</p><p><strong>Creature Type</strong>. You are a
+      Humanoid.</p><p><strong>Size</strong>. You are Medium or Small. You choose
+      the size when you select this species.</p><p><strong>Speed</strong>. Your
+      walking speed is 30 feet.</p><p><strong>Darkvision</strong>. You can see
+      in dim light within 60 feet of you as if it were bright light and in
+      darkness as if it were dim light. You discern colors in that darkness only
+      as shades of gray.</p><p><strong>Oblivion Resistance</strong>. You have
+      resistance to force and necrotic damage.</p><p>Omen of the End. Other
+      creatures within 10 feet of you have disadvantage on death saving throws.
+      While you are conscious, creatures of your choice you can see are immune
+      to this trait.</p><p>Aura of Unmaking. Starting at 3rd level, as a bonus
+      action you can activate your aura, an emanation of annihilation and
+      existential dread, that lasts for 1 minute or until you end it with
+      another bonus action. While your aura is active, at the end of each of
+      your turns, each creature within 10 feet of you takes force damage equal
+      to your proficiency bonus and must succeed on a Wisdom saving throw (DC 8
+      + your proficiency bonus + your Charisma modifier) or become frightened of
+      you until the end of your next turn.</p><p>Once you activate your aura,
+      you can’t activate it again until you finish a long rest.</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: GNzDOwdnVw3zPZKz
@@ -53,6 +80,8 @@ system:
     special: ''
   type:
     value: humanoid
+    custom: ''
+    subtype: Tiefling
 effects: []
 sort: 0
 ownership:
@@ -65,7 +94,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628085860
-  modifiedTime: 1702848011616
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703833852130
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!FxrdqYkvxPRgeeDl'
 

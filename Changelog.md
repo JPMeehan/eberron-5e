@@ -2,7 +2,9 @@
 
 ## 0.7.1
 
-- Updated Spells of levels 0—2
+- Updated Spells of levels 0—2.
+- Added descriptions to all ancestries.
+  - Moved Shulassakar from Sarhain's to GGtX and removed the Sarhain's folder.
 
 ## 0.7.0 Initial Release
 
@@ -20,3 +22,6 @@
   - Chronicles of Eberron
 - Complete ancestries
   - Scales of Q'barra
+- Semi-complete ancestries
+  - Exploring Eberron
+  - Chronicles of Eberron

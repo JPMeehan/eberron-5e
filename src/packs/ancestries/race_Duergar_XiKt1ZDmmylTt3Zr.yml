@@ -5,10 +5,33 @@ _id: XiKt1ZDmmylTt3Zr
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p><strong>Superior Darkvision</strong>. Your darkvision has a radius of
+      120 feet.</p><p><strong>Extra Language</strong>. You can speak, read, and
+      write Riedran. Resilient Psyche. You have advantage on saving throws
+      against telepathy and being charmed or paralyzed.</p><p><strong>Duergar
+      Psionics</strong>. At first level, you know the blind spot psionic talent.
+      Once you reach 3rd level, you learn the titanic form augment. Once you
+      reach 5th level, you learn the obscure augment. Intelligence is your
+      psionic ability for these powers. When you manifest titanic form, you may
+      do so even when focusing on blind spot instead of the appropriate psionic
+      talent listed in the power.</p><p><strong>Naturally Psionic</strong>. You
+      gain an internal reserve of psionic energy represented by psi points. Your
+      psi point maximum is 2, or your existing psi point maximum from another
+      source (such as levels in a class with the Psionics feature) increases by
+      2. When you reach 5th level, your psi point maximum increases by an
+      additional 2.</p><p>All expended psi points are restored when you finish a
+      long rest. Your psi limit is 2, and when you reach 5th level your psi
+      limit increases to 4, if it is not already higher.</p><p><strong>Sunlight
+      Sensitivity</strong>. You have disadvantage on attack rolls and on Wisdom
+      (Perception) checks that rely on sight when you, the target of your
+      attack, or whatever you are trying to perceive is in direct sunlight</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Psion's Primer
+    page: Ch. 2
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: LBUwneXXAqj4B8Y9
@@ -65,7 +88,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628663319
-  modifiedTime: 1702848008277
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703834676638
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!XiKt1ZDmmylTt3Zr'
 

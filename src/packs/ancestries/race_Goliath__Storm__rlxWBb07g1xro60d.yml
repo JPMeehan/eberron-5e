@@ -1,0 +1,112 @@
+folder: kufvqvtSm57lhpth
+name: Goliath (Storm)
+type: race
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>You are a true descendant of the giants of old, who gave up their size
+      and power in exchange for equity and peace. Whether a fire goliath
+      descendant of the Sul’at League, or a cloud goliath of the nomadic
+      Gallimaufry, you retain a spark of planar power in your soul - and can
+      wield it to ward off your foes. Whether you see pride in the legacy of the
+      giants, or curse them for their ruinous wake, your ties to them are
+      undeniable. Some goliaths dwell in cities such as Kul Lerek, while others
+      prefer a nomadic life - or one in search of the power their ancestors were
+      fools to leave behind.</p><p>Goliaths stand between 7-8 feet tall, with
+      sturdy builds. They have lifespans comparable to humans.</p><p>When
+      creating a goliath character, consider:</p><ol><li>What link do you have
+      to the giants of old?</li><li>Are you keen to recover their secrets, or do
+      you see no connection to the tyrants of history?</li><li>Do you feel in
+      control of the spark of magic within you, or do you fear the power it
+      brings?</li></ol><p><strong>Size</strong>. Goliaths are between 7 and 8
+      feet tall. Your size is Medium.</p><p><strong>Speed</strong>. Your base
+      walking speed is 30 feet.</p><p><strong>Powerful Build</strong>. You count
+      as one size larger when determining your carrying capacity and the weight
+      you can push, drag, or lift.</p><p><strong>Giant Spark</strong>. Starting
+      at 3rd level, you gain the ability to grow by stoking the spark of magic
+      within you. As a bonus action, you can change your size to Large, provided
+      you’re in a big enough space, causing your dimensions to double and your
+      weight to be multiplied by eight. Your equipment similarly increases in
+      size. While Large, you have advantage on Strength ability checks and
+      Saving throws, your speed increases by 5 feet, and your first attack that
+      hits on your turn deals an additional 1d4 damage. This transformation
+      lasts for 10 minutes, or until you end it as a bonus action. Once you use
+      this feature, you can’t use it again until you complete a long
+      rest.</p><p><strong>Titan Heritage</strong>. You inherit abilities innate
+      to your giant lineage. Choose one of the following lineages; you
+      permanently gain its abilities:</p><p>Goliath names are based on the Giant
+      language, and often feature titles and deeds instead of family names, as a
+      cultural callback to the nations of old. Goliath leaders (in societies
+      that don’t see their history as a disgrace) often include a glottal stop (
+      ‘ ) in their name as a sign of status. </p><p><strong>Names:</strong>
+      Thenghor, Omnakara, Sohlus, Jusenka, Andrahsa, Ouron, Ahlmar, Harghost,
+      Kandarn </p><p><strong>Second Names:</strong> Stormcaller, Of The Anvil,
+      Scalebane, Cloudbreak, Flame-Heart, Twice-Cursed, Worldwake</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    page: Ch. 7
+    license: DMsGuild CCA
+  advancement:
+    - type: AbilityScoreImprovement
+      _id: IDzYSW5c1EsBCEIn
+      configuration:
+        points: 0
+        fixed: {}
+        cap: 2
+      value:
+        type: asi
+      level: 0
+    - type: Size
+      _id: zmXz6XLuJ25xbQEQ
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: Trait
+      configuration:
+        grants:
+          - languages:standard:common
+        mode: default
+        allowReplacements: false
+        choices: []
+      _id: WjP3axv1tHFZVQ3o
+      level: 0
+      value: {}
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: 30
+    units: null
+    hover: false
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: humanoid
+effects: []
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1700628359862
+  modifiedTime: 1703830861432
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_id: rlxWBb07g1xro60d
+sort: 700000
+_key: '!items!rlxWBb07g1xro60d'
+

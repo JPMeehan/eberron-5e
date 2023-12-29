@@ -5,10 +5,39 @@ _id: 3XRWaPSr8kxR7G4I
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>It is unknown exactly when the goliaths of Sarlona began practicing
+      psionics. Some claim that their distant ancestors in Xen’drik once
+      practiced psionics to their great devastation. Others believe the scars of
+      their ancestors’ wars with ‘dreams and nightmares’ scarred their people’s
+      souls to the point where their distant descendants still bear the burden
+      of that calamity. Regardless of the origins, you were born with a bit more
+      psionic potential than your peers, something you use to great advantage in
+      the mountains of Adar.</p><p><strong>Creature Type</strong>. You are a
+      Humanoid.</p><p><strong>Size</strong>. Your size is
+      Medium.</p><p><strong>Speed</strong>. Your walking speed is 30
+      feet.</p><p><strong>Goliath Psionics</strong>. You know the thaumaturgy
+      cantrip. Starting at 3rd level, you can cast the thunderwave spell with
+      this trait. Starting at 5th level, you can also cast the enhance ability
+      spell with it. Once you cast thunderwave or enhance ability with this
+      trait, you can’t cast that spell with it again until you finish a long
+      rest. You can also cast either of those spells using any spell slots you
+      have of the appropriate level.</p><p>Intelligence, Wisdom, or Charisma is
+      your spellcasting ability for these spells when you cast them with this
+      trait (choose when you select this species). None of these spells require
+      spell components when you cast them with this
+      trait.</p><p><strong>Mountain Born</strong>. You have resistance to cold
+      damage. You also naturally acclimate to high altitudes, even if you’ve
+      never been to one. This includes elevations above 20,000
+      feet.</p><p><strong>Stone Grip</strong>. You count as one size larger when
+      grappling and determining your carrying capacity and the weight you can
+      push, drag, or lift</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
   advancement:
     - type: AbilityScoreImprovement
       _id: zpkQiAxdaRoRSGZN
@@ -65,7 +94,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700627953759
-  modifiedTime: 1702848011616
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1703833179013
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!3XRWaPSr8kxR7G4I'
 
