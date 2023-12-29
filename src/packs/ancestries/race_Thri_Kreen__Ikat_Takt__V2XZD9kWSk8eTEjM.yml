@@ -1,5 +1,5 @@
 folder: kufvqvtSm57lhpth
-name: Ikat-Takt Thri-Kreen
+name: Thri-Kreen (Ikat-Takt)
 type: race
 _id: V2XZD9kWSk8eTEjM
 img: icons/svg/item-bag.svg
@@ -23,34 +23,32 @@ system:
       creating a thri-kreen character, consider:</p><ol><li>How do you see the
       ‘sleep’ and dreams of other mortals?</li><li>With your short lifespan,
       what is your view on death?</li><li>What do you hope to achieve by
-      becoming an adventurer?</li></ol><p><strong>Size</strong>. You are Medium
-      or Small. You choose the size when you select this
-      race.</p><p><strong>Speed</strong>. Your base walking speed is 30
-      feet.</p><p><strong>Chameleon Carapace</strong>. While you aren’t wearing
-      armor, your carapace gives you a base Armor Class of 13 + your Dexterity
-      modifier. As an action, you can change the color of your carapace to match
-      the color and texture of your surroundings, giving you advantage on
-      Dexterity (Stealth) checks made to hide in those
-      surroundings.</p><p><strong>Darkvision</strong>. You can see in dim light
-      within 60 feet of you as if it were bright light, and in darkness as if it
-      were dim light. You can't discern color in darkness, only shades of
-      gray.</p><p><strong>Secondary Arms</strong>. You have two slightly smaller
-      secondary arms below your primary pair of arms. The secondary arms
-      function like your primary arms, but cannot wield a shield, or a weapon
-      without the light property.</p><p><strong>Sleepless
-      Revitalization</strong>. You do not require sleep and can choose to remain
-      conscious during a long rest, though you must still refrain from strenuous
-      activity to gain the benefit of the rest.</p><p><strong>Thri-kreen
-      Telepathy.</strong> You have the magical ability to communicate mentally
-      with any number of willing creatures you can see within 120 feet of you. A
-      contacted creature doesn’t need to share a language with you, but it must
-      be able to understand at least one language. Your telepathic link to a
-      creature is broken if you and the creature move more than 120 feet apart,
-      if either of you is incapacitated, or if either of you mentally breaks the
-      contact (no action required).</p><p>Thri-kreen names are naturally derived
-      from their language, and contain consonants meant to be pronounced with
-      insectoid mouthparts.</p><p><strong>Names</strong>: Tak’ikt, Ik-chal,
-      Nakt, Kultil, Than-ik’ti, Chathak, Ptikal, Chachat’ka, Drulnat</p>
+      becoming an adventurer?</li></ol><p><strong>Size</strong>. You are
+      Medium.</p><p><strong>Speed</strong>. Your base walking speed is 30
+      feet.</p><p><strong>Darkvision</strong>. You can see in dim light within
+      60 feet of you as if it were bright light, and in darkness as if it were
+      dim light. You can't discern color in darkness, only shades of gray.
+      Secondary Arms. You have two slightly smaller secondary arms below your
+      primary pair of arms. The secondary arms function like your primary arms,
+      but cannot wield a shield, or a weapon with the heavy
+      property.</p><p><strong>Sleepless Revitalization</strong>. You do not
+      require sleep and can choose to remain conscious during a long rest,
+      though you must still refrain from strenuous activity to gain the benefit
+      of the rest.</p><p><strong>Solid Build</strong>. You count as one size
+      larger when determining your carrying capacity and the weight you can
+      push, drag, or lift.</p><p><strong>Thick Carapace</strong>. While you
+      aren’t wearing armor, your carapace gives you a base Armor Class of 13 +
+      your Constitution modifier.</p><p><strong>Thri-kreen Telepathy</strong>.
+      You have the magical ability to communicate mentally with any number of
+      willing creatures you can see within 120 feet of you. A contacted creature
+      doesn’t need to share a language with you, but it must be able to
+      understand at least one language. Your telepathic link to a creature is
+      broken if you and the creature move more than 120 feet apart, if either of
+      you is incapacitated, or if either of you mentally breaks the contact (no
+      action required)</p><p>Thri-kreen names are naturally derived from their
+      language, and contain consonants meant to be pronounced with insectoid
+      mouthparts.</p><p><strong>Names</strong>: Tak’ikt, Ik-chal, Nakt, Kultil,
+      Than-ik’ti, Chathak, Ptikal, Chachat’ka, Drulnat</p>
     chat: ''
     unidentified: ''
   source:
@@ -113,7 +111,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628577452
-  modifiedTime: 1703830861432
+  modifiedTime: 1703880327024
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!V2XZD9kWSk8eTEjM'
 

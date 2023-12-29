@@ -33,12 +33,20 @@ system:
       dim light. You can't discern color in darkness, only shades of
       gray.</p><p><strong>Piscine Form</strong>. You have advantage on saving
       throws and ability checks made to avoid or resist being grappled or
-      restrained.</p><p>Locathah family names are often geographical in nature,
-      due to their penchant for exploring new
-      seas.</p><p><strong>Names</strong>: Rishi, Haghawa, Ehuru, Sawar, Larhi,
-      Gyar, Uori, Shoshi, Giroi, Gahasha</p><p><strong>Family Names</strong>:
-      (Of) Rowa’s Reef, Griha’s Tide, Mt. Opal, Blackgrove Refuge, Citadel
-      Glisza, The Bone Fall of Sajz</p>
+      restrained.</p><p><strong>Fisheye View</strong>. You have proficiency in
+      the Perception skill.</p><p><strong>Natural Armor</strong>. You have
+      tough, scaly skin. When you aren’t wearing armor, your AC is 12 + your
+      Dexterity modifier. You can use your natural armor to determine your AC if
+      the armor you wear would leave you with a lower AC. A shield’s benefits
+      apply as normal while you use your natural
+      armor.</p><p><strong>Resilient</strong>. You can reroll a saving throw
+      that you fail. If you do so, you must use the new roll, and you can't use
+      this feature again until you finish a long rest.</p><p>Locathah family
+      names are often geographical in nature, due to their penchant for
+      exploring new seas.</p><p><strong>Names</strong>: Rishi, Haghawa, Ehuru,
+      Sawar, Larhi, Gyar, Uori, Shoshi, Giroi, Gahasha</p><p><strong>Family
+      Names</strong>: (Of) Rowa’s Reef, Griha’s Tide, Mt. Opal, Blackgrove
+      Refuge, Citadel Glisza, The Bone Fall of Sajz</p>
     chat: ''
     unidentified: ''
   source:
@@ -101,7 +109,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628436794
-  modifiedTime: 1703830861432
+  modifiedTime: 1703879753379
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!S4z1XmIf2v2tEvdo'
 

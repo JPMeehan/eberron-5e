@@ -33,16 +33,23 @@ system:
       hits on your turn deals an additional 1d4 damage. This transformation
       lasts for 10 minutes, or until you end it as a bonus action. Once you use
       this feature, you can’t use it again until you complete a long
-      rest.</p><p><strong>Titan Heritage</strong>. You inherit abilities innate
+      rest.</p><p><strong>Titan Heritage:</strong>. You inherit abilities innate
       to your giant lineage. Choose one of the following lineages; you
-      permanently gain its abilities:</p><p>Goliath names are based on the Giant
-      language, and often feature titles and deeds instead of family names, as a
-      cultural callback to the nations of old. Goliath leaders (in societies
-      that don’t see their history as a disgrace) often include a glottal stop (
-      ‘ ) in their name as a sign of status. </p><p><strong>Names:</strong>
-      Thenghor, Omnakara, Sohlus, Jusenka, Andrahsa, Ouron, Ahlmar, Harghost,
-      Kandarn </p><p><strong>Second Names:</strong> Stormcaller, Of The Anvil,
-      Scalebane, Cloudbreak, Flame-Heart, Twice-Cursed, Worldwake</p>
+      permanently gain its abilities:</p><h3>Cloud</h3><p><strong>Sky
+      Born</strong>. You have resistance to thunder damage. You’re also
+      acclimated to high altitude, including elevations above 20,000
+      feet.</p><p><strong>Air Affinity</strong>. As a bonus action, you can
+      magically teleport to an unoccupied space within 30 feet that you can see.
+      You can use this action a number of times equal to your proficiency bonus,
+      and regain all expended uses upon completing a long rest.</p><hr
+      /><p>Goliath names are based on the Giant language, and often feature
+      titles and deeds instead of family names, as a cultural callback to the
+      nations of old. Goliath leaders (in societies that don’t see their history
+      as a disgrace) often include a glottal stop ( ‘ ) in their name as a sign
+      of status.</p><p><strong>Names:</strong> Thenghor, Omnakara, Sohlus,
+      Jusenka, Andrahsa, Ouron, Ahlmar, Harghost, Kandarn</p><p><strong>Second
+      Names:</strong> Stormcaller, Of The Anvil, Scalebane, Cloudbreak,
+      Flame-Heart, Twice-Cursed, Worldwake</p>
     chat: ''
     unidentified: ''
   source:
@@ -104,7 +111,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628359862
-  modifiedTime: 1703830861432
+  modifiedTime: 1703877750835
   lastModifiedBy: MVioF9x1qI1WYGx1
 _id: SUCHgwAS7PIfuwjR
 sort: 1800000

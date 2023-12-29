@@ -22,8 +22,30 @@ system:
       mood and emotions?</li><li>You can go for up to a week without eating a
       large meal; when you do, how do you treat your relationship to
       food?</li><li>How do you deal with uncomfortably cold temperatures before
-      you have time to warm up</li></ol><p>Lizardfolk have secondary names
-      shared between clutchmates, based on the events of their
+      you have time to warm up</li></ol><p><strong>Size</strong>: You are Medium
+      or Small. You choose the size when you select this
+      race.</p><p><strong>Speed</strong>: Your walking speed is 30
+      feet.</p><p><strong>Darkvision</strong>. You can see in dim light within
+      60 feet of you as if it were bright light and in darkness as if it were
+      dim light. You discern colors in that darkness only as shades of
+      gray.</p><p><strong>Bite</strong>. You have a fanged maw that you can use
+      to make unarmed strikes. When you hit with it, the strike deals
+      1d6</p><ul><li>your Strength modifier slashing damage, instead of the
+      bludgeoning damage normal for an unarmed
+      strike.</li></ul><p><strong>Desert Adaptation</strong>. You are immune to
+      the effects of extreme heat, and only need to drink water once every two
+      weeks. Additionally, you gain proficiency in
+      Survival.</p><p><strong>Natural Armor</strong>. While you aren’t wearing
+      armor, your scaly skin gives you a base Armor Class of 13 + your Dexterity
+      modifier. You can use your natural armor to determine your AC if the armor
+      you wear would leave you with a lower AC.</p><p><strong>Spined
+      Scales</strong>. You can flare your scales, raising spines against
+      aggressors as a bonus action. Until you end the effect as a bonus action,
+      any creature that strikes you with its body or an unarmed attack, attempts
+      to grapple you, or begins its turn grappling you, takes piercing damage
+      equal to your proficiency modifier. Additionally, you gain advantage on
+      Charisma (Intimidation) ability checks</p><p>Lizardfolk have secondary
+      names shared between clutchmates, based on the events of their
       hatching.</p><p><strong>Names</strong>: Ghruzh, Aktesh, Ihathu, Sesk,
       Ara’saz, Thrijast, Ukathsi, Aqelka</p><p><strong>Clutch Names</strong>:
       Dark Sky, Sun Tide, Year of Plenty, Grand Hunt, River Song, Sky Fall</p>
@@ -89,7 +111,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628400121
-  modifiedTime: 1703830861432
+  modifiedTime: 1703879341134
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!1xxcCLeTwvSm28TC'
 

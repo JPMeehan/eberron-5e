@@ -35,13 +35,17 @@ system:
       this feature, you can’t use it again until you complete a long
       rest.</p><p><strong>Titan Heritage</strong>. You inherit abilities innate
       to your giant lineage. Choose one of the following lineages; you
-      permanently gain its abilities:</p><p>Goliath names are based on the Giant
+      permanently gain its abilities:</p><h3
+      id="storm">Storm</h3><p><strong>Storm Born</strong>. You have resistance
+      to cold and lightning damage.</p><p><strong>Oceanic Adaptation</strong>.
+      You can breathe both air and water, and gain a swimming speed equal to
+      your walking speed.</p><hr /><p>Goliath names are based on the Giant
       language, and often feature titles and deeds instead of family names, as a
       cultural callback to the nations of old. Goliath leaders (in societies
       that don’t see their history as a disgrace) often include a glottal stop (
-      ‘ ) in their name as a sign of status. </p><p><strong>Names:</strong>
+      ‘ ) in their name as a sign of status.</p><p><strong>Names:</strong>
       Thenghor, Omnakara, Sohlus, Jusenka, Andrahsa, Ouron, Ahlmar, Harghost,
-      Kandarn </p><p><strong>Second Names:</strong> Stormcaller, Of The Anvil,
+      Kandarn</p><p><strong>Second Names:</strong> Stormcaller, Of The Anvil,
       Scalebane, Cloudbreak, Flame-Heart, Twice-Cursed, Worldwake</p>
     chat: ''
     unidentified: ''
@@ -104,7 +108,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628359862
-  modifiedTime: 1703830861432
+  modifiedTime: 1703878289816
   lastModifiedBy: MVioF9x1qI1WYGx1
 _id: rlxWBb07g1xro60d
 sort: 700000

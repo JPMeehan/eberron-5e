@@ -49,12 +49,12 @@ system:
       modifier. You can use your natural armor to determine your AC if the armor
       you wear would leave you with a lower AC. A shield’s benefits apply as
       normal while you use your natural armor.</p>
-    chat: ''
-    unidentified: ''
+    chat: ""
+    unidentified: ""
   source:
     book: Scales of Q'barra
     page: Appendix
-    custom: ''
+    custom: ""
     license: DMsGuild CCA
   advancement:
     - type: Size
@@ -72,40 +72,40 @@ system:
         mode: default
         allowReplacements: false
         choices: []
-        hint: ''
+        hint: ""
       _id: NYEraRNpMeea7vqC
       level: 0
-      title: ''
+      title: ""
       icon: null
       value: {}
     - _id: jtp9hGweDLJmRVbq
       type: ItemChoice
       configuration:
         choices:
-          '0': 1
+          "0": 1
         allowDrops: false
         type: feat
         pool:
           - >-
-            Compendium.chaosos-5e-content.community-backgrounds.Item.jWYK9wGXxEkLNyYw
+            Compendium.eberron-5e.ancestries.Item.jWYK9wGXxEkLNyYw
           - >-
-            Compendium.chaosos-5e-content.community-backgrounds.Item.ljxvUib7garJ5x20
+            Compendium.eberron-5e.ancestries.Item.ljxvUib7garJ5x20
           - >-
-            Compendium.chaosos-5e-content.community-backgrounds.Item.BoAYURW5X4ddWTRU
+            Compendium.eberron-5e.ancestries.Item.BoAYURW5X4ddWTRU
           - >-
-            Compendium.chaosos-5e-content.community-backgrounds.Item.WtOzjLv8FmstjWwr
+            Compendium.eberron-5e.ancestries.Item.WtOzjLv8FmstjWwr
           - >-
-            Compendium.chaosos-5e-content.community-backgrounds.Item.53OSDXgiUkRhyghI
+            Compendium.eberron-5e.ancestries.Item.53OSDXgiUkRhyghI
           - >-
-            Compendium.chaosos-5e-content.community-backgrounds.Item.KMzOqVIGjSzyp6Q4
+            Compendium.eberron-5e.ancestries.Item.KMzOqVIGjSzyp6Q4
           - >-
-            Compendium.chaosos-5e-content.community-backgrounds.Item.QL047q6ibAh5BcJI
+            Compendium.eberron-5e.ancestries.Item.QL047q6ibAh5BcJI
           - >-
-            Compendium.chaosos-5e-content.community-backgrounds.Item.FnqZszcUsKcuWRPC
+            Compendium.eberron-5e.ancestries.Item.FnqZszcUsKcuWRPC
           - >-
-            Compendium.chaosos-5e-content.community-backgrounds.Item.ZMS8kMm43OnqwAoK
+            Compendium.eberron-5e.ancestries.Item.ZMS8kMm43OnqwAoK
           - >-
-            Compendium.chaosos-5e-content.community-backgrounds.Item.1htNCx3HBJoomg7g
+            Compendium.eberron-5e.ancestries.Item.1htNCx3HBJoomg7g
         spell: null
         hint: Choose a breath weapon damage and area type
         restriction:
@@ -119,21 +119,21 @@ system:
         identifier: breath-weapon
         type: dice
         distance:
-          units: ''
+          units: ""
         scale:
-          '0':
+          "0":
             number: 2
             faces: 6
-          '5':
+          "5":
             number: 3
             faces: 6
-          '9':
+          "9":
             number: 4
             faces: 6
-          '13':
+          "13":
             number: 5
             faces: 6
-          '17':
+          "17":
             number: 6
             faces: 6
       value: {}
@@ -172,7 +172,7 @@ system:
     tremorsense: null
     truesight: null
     units: null
-    special: ''
+    special: ""
   type:
     value: humanoid
 effects: []
@@ -185,9 +185,8 @@ flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: "11.315"
   createdTime: 1700446153065
   modifiedTime: 1702848010327
   lastModifiedBy: q6n1efCGVB98drEQ
-_key: '!items!7w0dYkPi8JJ34e9A'
-
+_key: "!items!7w0dYkPi8JJ34e9A"

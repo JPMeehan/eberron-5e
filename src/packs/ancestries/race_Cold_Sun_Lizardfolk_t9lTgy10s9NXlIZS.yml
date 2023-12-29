@@ -37,12 +37,12 @@ system:
       Dexterity modifier. You can use your natural armor to determine your AC if
       the armor you wear would leave you with a lower AC. A shield’s benefits
       apply as normal while you use your natural armor. </p>
-    chat: ''
-    unidentified: ''
+    chat: ""
+    unidentified: ""
   source:
     book: Scales of Q'barra
     page: Appendix
-    custom: ''
+    custom: ""
     license: DMsGuild CCA
   advancement:
     - type: Size
@@ -50,9 +50,9 @@ system:
       configuration:
         sizes:
           - med
-        hint: ''
+        hint: ""
       level: 0
-      title: ''
+      title: ""
       icon: null
       value: {}
     - type: Trait
@@ -63,10 +63,10 @@ system:
         mode: default
         allowReplacements: false
         choices: []
-        hint: ''
+        hint: ""
       _id: Ht9PXGZOXGMjY2sG
       level: 0
-      title: ''
+      title: ""
       icon: null
       value: {}
     - _id: 95FoPeDwLcOFB7wN
@@ -79,7 +79,7 @@ system:
           - count: 1
             pool:
               - tool:art:*
-        hint: ''
+        hint: ""
       level: 0
       title: Ancient Artisan
       icon: null
@@ -104,7 +104,7 @@ system:
           - count: 1
             pool:
               - tool:art:*
-        hint: ''
+        hint: ""
       level: 0
       title: Dream Lore
       icon: null
@@ -114,11 +114,11 @@ system:
       configuration:
         items:
           - >-
-            Compendium.chaosos-5e-content.community-backgrounds.Item.LtM4NlGNqS5T2Vug
+            Compendium.eberron-5e.ancestries.Item.LtM4NlGNqS5T2Vug
           - >-
-            Compendium.chaosos-5e-content.community-backgrounds.Item.9cYW9I7a7VrBdmbw
+            Compendium.eberron-5e.ancestries.Item.9cYW9I7a7VrBdmbw
           - >-
-            Compendium.chaosos-5e-content.community-backgrounds.Item.N9ciKqxpVskyQnfW
+            Compendium.eberron-5e.ancestries.Item.N9ciKqxpVskyQnfW
         optional: false
         spell: null
       value: {}
@@ -139,7 +139,7 @@ system:
     tremorsense: null
     truesight: null
     units: null
-    special: ''
+    special: ""
   type:
     value: humanoid
 effects: []
@@ -152,9 +152,8 @@ flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: "11.315"
   createdTime: 1700444592531
   modifiedTime: 1702848010327
   lastModifiedBy: q6n1efCGVB98drEQ
-_key: '!items!t9lTgy10s9NXlIZS'
-
+_key: "!items!t9lTgy10s9NXlIZS"

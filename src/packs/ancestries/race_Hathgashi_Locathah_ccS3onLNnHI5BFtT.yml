@@ -33,8 +33,14 @@ system:
       dim light. You can't discern color in darkness, only shades of
       gray.</p><p><strong>Piscine Form</strong>. You have advantage on saving
       throws and ability checks made to avoid or resist being grappled or
-      restrained.</p><p>Locathah family names are often geographical in nature,
-      due to their penchant for exploring new
+      restrained.</p><p><strong>Arctic Resistance</strong>. You have resistance
+      to cold damage.</p><p><strong>Glacial Metabolism</strong>. Your maximum
+      age increases to around 1000 years. You only need to eat and drink once
+      every 10 days.</p><p><strong>Rime Shell</strong>. You can cast the spell
+      armor of agathys without expending a spell slot. You can cast the spell in
+      this way a number of times equal to your proficiency bonus, and regain all
+      expended uses upon finishing a long rest.</p><p>Locathah family names are
+      often geographical in nature, due to their penchant for exploring new
       seas.</p><p><strong>Names</strong>: Rishi, Haghawa, Ehuru, Sawar, Larhi,
       Gyar, Uori, Shoshi, Giroi, Gahasha</p><p><strong>Family Names</strong>:
       (Of) Rowa’s Reef, Griha’s Tide, Mt. Opal, Blackgrove Refuge, Citadel
@@ -101,7 +107,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628480652
-  modifiedTime: 1703830861432
+  modifiedTime: 1703879792102
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!ccS3onLNnHI5BFtT'
 

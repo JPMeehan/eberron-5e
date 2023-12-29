@@ -33,8 +33,12 @@ system:
       dim light. You can't discern color in darkness, only shades of
       gray.</p><p><strong>Piscine Form</strong>. You have advantage on saving
       throws and ability checks made to avoid or resist being grappled or
-      restrained.</p><p>Locathah family names are often geographical in nature,
-      due to their penchant for exploring new
+      restrained.</p><p><strong>Deathly Resistance</strong>. You have resistance
+      to necrotic damage.</p><p><strong>Ghostly Bioluminescence</strong>. You
+      can cast the light cantrip. When you do, the light produced is a pale blue
+      in color.</p><p><strong>Veilsight</strong>. You can see into the ethereal
+      plane at all times.</p><p>Locathah family names are often geographical in
+      nature, due to their penchant for exploring new
       seas.</p><p><strong>Names</strong>: Rishi, Haghawa, Ehuru, Sawar, Larhi,
       Gyar, Uori, Shoshi, Giroi, Gahasha</p><p><strong>Family Names</strong>:
       (Of) Rowa’s Reef, Griha’s Tide, Mt. Opal, Blackgrove Refuge, Citadel
@@ -101,7 +105,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628501369
-  modifiedTime: 1703830861432
+  modifiedTime: 1703879848165
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!Hd00cxAfbglhpFFX'
 

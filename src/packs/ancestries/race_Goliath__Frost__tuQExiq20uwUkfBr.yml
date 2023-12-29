@@ -35,13 +35,18 @@ system:
       this feature, you can’t use it again until you complete a long
       rest.</p><p><strong>Titan Heritage</strong>. You inherit abilities innate
       to your giant lineage. Choose one of the following lineages; you
-      permanently gain its abilities:</p><p>Goliath names are based on the Giant
-      language, and often feature titles and deeds instead of family names, as a
-      cultural callback to the nations of old. Goliath leaders (in societies
-      that don’t see their history as a disgrace) often include a glottal stop (
-      ‘ ) in their name as a sign of status. </p><p><strong>Names:</strong>
-      Thenghor, Omnakara, Sohlus, Jusenka, Andrahsa, Ouron, Ahlmar, Harghost,
-      Kandarn </p><p><strong>Second Names:</strong> Stormcaller, Of The Anvil,
+      permanently gain its abilities:</p><h3 id="frost">Frost</h3><p><strong>Ice
+      Born</strong>. You have resistance to cold damage.</p><p><strong>Rime
+      Armor</strong>. As a bonus action, you gain temporary hit points equal to
+      your level. You can use this action a number of times equal to your
+      proficiency bonus, and regain all expended uses upon completing a long
+      rest.</p><hr /><p>Goliath names are based on the Giant language, and often
+      feature titles and deeds instead of family names, as a cultural callback
+      to the nations of old. Goliath leaders (in societies that don’t see their
+      history as a disgrace) often include a glottal stop ( ‘ ) in their name as
+      a sign of status.</p><p><strong>Names:</strong> Thenghor, Omnakara,
+      Sohlus, Jusenka, Andrahsa, Ouron, Ahlmar, Harghost,
+      Kandarn</p><p><strong>Second Names:</strong> Stormcaller, Of The Anvil,
       Scalebane, Cloudbreak, Flame-Heart, Twice-Cursed, Worldwake</p>
     chat: ''
     unidentified: ''
@@ -104,7 +109,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628359862
-  modifiedTime: 1703830861432
+  modifiedTime: 1703878041252
   lastModifiedBy: MVioF9x1qI1WYGx1
 _id: tuQExiq20uwUkfBr
 sort: 800000
