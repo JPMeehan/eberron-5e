@@ -83,7 +83,7 @@ system:
   recharge:
     value: null
     charged: false
-img: icons/skills/trades/textiles-cloth-dye-red.webp
+img: icons/svg/book.svg
 flags:
   adnd5e:
     itemInfo:
@@ -96,12 +96,12 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686418408559
-  modifiedTime: 1702949011915
+  modifiedTime: 1703911612523
   lastModifiedBy: MVioF9x1qI1WYGx1
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
 _id: CJwFrPhJi3JSSJmZ
-sort: 305440
+sort: 3000
 _key: '!items!CJwFrPhJi3JSSJmZ'
 

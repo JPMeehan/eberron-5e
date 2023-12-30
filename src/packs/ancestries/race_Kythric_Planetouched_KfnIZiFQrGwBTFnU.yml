@@ -5,7 +5,61 @@ _id: KfnIZiFQrGwBTFnU
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Chaos runs through your veins, quite literally. The Churning Chaos has
+      imbued you with elemental power, shifting and ever-changing. If you are an
+      aasimar, sporting a celestial connection to the Churning Chaos, you may
+      have a glowing elemental halo and technicolor wings. If you are a genasi,
+      your elemental connection shows in lava cracking your skin and hair always
+      blowing in the wind. If you are a tiefling with a spark of chaotic
+      fiendish power, you may sport branching horns, cloven feet, and a wide
+      array of scales and spines and sulfuric breaths.</p><p><strong>Creature
+      Type</strong>. You are a Humanoid.</p><p><strong>Size</strong>. If you
+      replace a species with this lineage, use your species to determine your
+      size. If you choose this lineage at character creation, you are Medium or
+      Small. You choose the size when you select this
+      lineage.</p><p><strong>Speed</strong>. Your base walking speed is 30
+      feet.</p><p><strong>Ancestral Legacy</strong>. If you replace a species
+      with this lineage, you can keep the following elements of that race: any
+      skill proficiencies you gained from it and any climbing, flying, or
+      swimming speed you gained from it. If you don't keep any of those elements
+      or you choose this lineage at character creation, you gain proficiency in
+      two skills of your choice.</p><p><strong>Darkvision</strong>. You can see
+      in dim light within 60 feet of you as if it were bright light, and in
+      darkness as if it were dim light. You can't discern color in darkness,
+      only shades of gray.</p><p><strong>Chaotic Resistance</strong>. You have a
+      changing resistance to damage. When you finish a long rest, roll a d6 and
+      consult the Chaotic Resistance table below for the damage
+      type:</p><p><strong>Planetouched Nature</strong>. When you choose this
+      lineage, choose the nature of your planar tie to Kythri: Celestial,
+      Elemental, or Fiendish. Your choice grants you one of the traits
+      below:</p><p><em><strong>Celestial</strong></em>. When you reach 3rd
+      level, you can unleash the celestial energy within yourself as a bonus
+      action, transforming yourself for 1 minute or until you end the
+      transformation with another bonus action. When you transform, two
+      luminous, spectral wings of chaotic energy sprout from your back. Until
+      your transformation ends, you have a flying speed equal to your walking
+      speed, and once on each of your turns, you can deal extra damage to one
+      target when you deal damage to it with an attack or spell. The type of
+      damage is the same as your current resistance granted by your Chaotic
+      Resistance trait, and the amount of extra damage equals your proficiency
+      bonus. Once you transform this way, you can’t do so again until you finish
+      a long rest.</p><p><em><strong>Elemental</strong></em>. When you choose
+      this lineage, choose one of the elements on the Chaotic Resistance table.
+      You always have resistance to this type of damage, and this resistance is
+      separate and in addition to the one granted by your Chaotic Resistance
+      trait. If you roll this resistance on the table when you finish a long
+      rest, reroll on the table until you gain a different resistance for your
+      Chaotic Resistance trait.</p><p><em><strong>Fiendish</strong></em>. You
+      know the prestidigitation cantrip. Starting at 3rd level, you can cast the
+      chaos bolt spell with this trait, without requiring a material component.
+      Starting at 5th level, you can also cast the blink spell with this trait.
+      Once you cast chaos bolt or blink with this trait, you can’t cast that
+      spell with it again until you finish a long rest. You can also cast either
+      of those spells using any spell slots you have of the appropriate
+      level.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting
+      ability for these spells when you cast them with this trait (choose when
+      you select this lineage).</p>
     chat: ''
     unidentified: ''
   source:
@@ -68,7 +122,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628112970
-  modifiedTime: 1703825815056
+  modifiedTime: 1703886630642
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!KfnIZiFQrGwBTFnU'
 

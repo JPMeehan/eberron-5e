@@ -1,0 +1,101 @@
+folder: 4hrqRwNaXtiGo7XS
+name: Oni (Clan Morlu)
+type: race
+_id: JlijTZJG5RNgxyPi
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>The ogres of Boranun once bound many types of fiends to their
+      bloodlines, creating the first oni. Once upon a time, these oni lines were
+      once formed into great clans, and you carry a spark of that ancient
+      legacy. Borunan oni stand between 6-8 feet tall depending on their
+      fiendish origin and weigh between 200-400 pounds. Oni reach adulthood at
+      20 and live up to 150 years.</p><p>In a turn of cosmic irony, your
+      bloodline jails a chain devil — one of the Legion of Tyranny’s diabolic
+      captains and torturers. The fiend’s innate powers allow you to manipulate
+      ropes and chains, and grant familiarity with locks and restraints. Clan
+      Morlu are hornless with ochrered skin, and often wield weapons such as
+      whips and flails in battle.</p><p><strong>Creature Type</strong>. You are
+      a Humanoid.</p><p><strong>Size</strong>: Your size is
+      Medium.</p><p><strong>Speed</strong>: Your base walking speed is 30
+      feet.</p><p><strong>Darkvision</strong>. You can see in dim light within
+      60 feet of you as if it were bright light, and in darkness as if it were
+      dim light. You can't discern color in darkness, only shades of
+      gray.</p><p>Master of Chains. You can cast the ensnaring strike and snare
+      spells with this trait. Once you cast either of these spells with this
+      trait, you can’t cast that spell with it again until you finish a long
+      rest. You can also cast these spells using any spell slots you
+      have.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting ability
+      for these spells (choose when you gain this species). Neither of these
+      spells require spell components when you cast them with this
+      trait.</p><p><strong>Powerful Build</strong>. You count as one size larger
+      when determining your carrying capacity and the weight you can push, drag,
+      or lift.</p><p><strong>Unbound</strong>. You have advantage on saving
+      throws made to avoid or end the paralyzed condition on yourself.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    custom: ''
+    license: DMsGuild CCA
+  advancement:
+    - type: AbilityScoreImprovement
+      _id: s4utQKI4tku0Aruc
+      configuration:
+        points: 0
+        fixed: {}
+        cap: 2
+      value:
+        type: asi
+      level: 0
+    - type: Size
+      _id: cwB0Qj0M3Ar13KjG
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: Trait
+      configuration:
+        grants:
+          - languages:standard:common
+        mode: default
+        allowReplacements: false
+        choices: []
+      _id: X42firoWXylvuiaX
+      level: 0
+      value: {}
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: null
+    units: null
+    hover: false
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703884742030
+  modifiedTime: 1703884782707
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!JlijTZJG5RNgxyPi'
+

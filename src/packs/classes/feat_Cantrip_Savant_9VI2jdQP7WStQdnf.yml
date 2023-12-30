@@ -2,7 +2,7 @@ folder: L7f2HdWXA5KSNCXo
 name: Cantrip Savant
 type: feat
 _id: 9VI2jdQP7WStQdnf
-img: icons/magic/symbols/runes-triangle-blue.webp
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -73,7 +73,7 @@ system:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 5000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -84,7 +84,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700530733671
-  modifiedTime: 1702949011867
+  modifiedTime: 1703911612439
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!9VI2jdQP7WStQdnf'
 

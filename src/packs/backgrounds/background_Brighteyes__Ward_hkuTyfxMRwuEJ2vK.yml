@@ -1,0 +1,30 @@
+folder: nVwvcfqhImz0gofI
+name: Brighteyes' Ward
+type: background
+_id: hkuTyfxMRwuEJ2vK
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    book: Linvakri's Guide to Syrkarn
+    page: Ch. 5
+    license: DMsGuild CCA
+  advancement: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703887078050
+  modifiedTime: 1703887233941
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!hkuTyfxMRwuEJ2vK'
+

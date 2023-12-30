@@ -74,7 +74,7 @@ system:
   recharge:
     value: null
     charged: false
-img: icons/skills/melee/strike-weapons-orange.webp
+img: icons/svg/book.svg
 flags: {}
 effects: []
 folder: W6EkdOjhNVCRHSHW
@@ -84,9 +84,9 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686418598885
-  modifiedTime: 1702949011882
+  modifiedTime: 1703911612462
   lastModifiedBy: MVioF9x1qI1WYGx1
-sort: 318370
+sort: 3000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3

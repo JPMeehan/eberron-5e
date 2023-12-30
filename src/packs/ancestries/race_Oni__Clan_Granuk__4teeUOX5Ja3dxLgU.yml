@@ -5,7 +5,34 @@ _id: 4teeUOX5Ja3dxLgU
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>The ogres of Boranun once bound many types of fiends to their
+      bloodlines, creating the first oni. Once upon a time, these oni lines were
+      once formed into great clans, and you carry a spark of that ancient
+      legacy. Borunan oni stand between 6-8 feet tall depending on their
+      fiendish origin and weigh between 200-400 pounds. Oni reach adulthood at
+      20 and live up to 150 years.</p><p>A powerful bone devil commander was
+      captured and bound to your bloodline. The oni of Clan Granuk are pale,
+      with bony plates over sections of their body and razorsharp claws. Many
+      once served on the frontlines of Gul Dol as masters of unarmed
+      combat.</p><p><strong>Creature Type</strong>. You are a
+      Humanoid.</p><p><strong>Size</strong>: Your size is
+      Medium.</p><p><strong>Speed</strong>: Your base walking speed is 30
+      feet.</p><p><strong>Darkvision</strong>. You can see in dim light within
+      60 feet of you as if it were bright light, and in darkness as if it were
+      dim light. You can't discern color in darkness, only shades of
+      gray.</p><p><strong>Bone Plating</strong>. Sections of your skin are
+      covered in bony plates. While you aren’t wearing armor, your base Armor
+      Class is 13 + your Dexterity modifier.</p><p><strong>Fiendish
+      Resistance</strong>. Your devil heritage gives you resistance to poison
+      damage and advantage on saving throws made to avoid or end the poisoned
+      condition on yourself.</p><p><strong>Natural Weapons</strong>. Your hands
+      end in sharp talons that you can use to make unarmed strikes. When you hit
+      with them, the attack deals slashing damage equal to 1d6 + your Strength
+      modifier, instead of the bludgeoning damage normal for an unarmed
+      strike.</p><p><strong>Powerful Build</strong>. You count as one size
+      larger when determining your carrying capacity and the weight you can
+      push, drag, or lift.</p>
     chat: ''
     unidentified: ''
   source:
@@ -68,7 +95,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628068391
-  modifiedTime: 1703825815056
+  modifiedTime: 1703885724435
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!4teeUOX5Ja3dxLgU'
 

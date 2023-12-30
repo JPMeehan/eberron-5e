@@ -2,7 +2,7 @@ folder: YSjy3z9zodEt5IB9
 name: Shadow's Apotheosis
 type: feat
 _id: IzL3Al8lY7wcRJ9z
-img: icons/skills/social/theft-pickpocket-bribery-brown.webp
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -67,7 +67,7 @@ system:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 17000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -78,7 +78,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700547466161
-  modifiedTime: 1702949011739
+  modifiedTime: 1703911612202
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!IzL3Al8lY7wcRJ9z'
 

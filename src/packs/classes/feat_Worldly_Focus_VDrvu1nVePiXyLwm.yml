@@ -65,7 +65,7 @@ system:
   recharge:
     value: null
     charged: false
-img: icons/magic/earth/construct-stone.webp
+img: icons/svg/book.svg
 flags: {}
 effects: []
 folder: 0cGAxH6m8T0cE8Uv
@@ -75,9 +75,9 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686418543359
-  modifiedTime: 1702949011896
+  modifiedTime: 1703911612479
   lastModifiedBy: MVioF9x1qI1WYGx1
-sort: 623470
+sort: 6000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3

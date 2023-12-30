@@ -2,7 +2,7 @@ folder: 1V7oabEr11Fjb6LZ
 name: Mastermaker Spells
 type: feat
 _id: N9IOGAUIWKHvc3b9
-img: icons/magic/symbols/runes-etched-steel-blade.webp
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -68,7 +68,7 @@ system:
     value: null
     charged: false
 effects: []
-sort: 400000
+sort: 3000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -79,7 +79,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700538493912
-  modifiedTime: 1702949011788
+  modifiedTime: 1703911612330
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!N9IOGAUIWKHvc3b9'
 

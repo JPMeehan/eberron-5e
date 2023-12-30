@@ -1,0 +1,86 @@
+folder: a637tbYcpKtbT65D
+name: Burning Vitality
+type: feat
+_id: H74un4xD55FmW5Mu
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>You can grant a spark of your burning lifeforce to your allies. As an
+      action, you can touch another creature, granting it temporary hit points
+      equal to your barbarian level. A creature with any of these temporary hit
+      points can use their reaction upon failing a Strength, Dexterity or
+      Constitution ability check or saving throw to expend the hit points and
+      add 1d6 to the roll, potentially causing them to succeed.</p><p>You can
+      grant these temporary hit points a number of times equal to your
+      proficiency modifier per long rest.</p>
+    chat: ''
+    unidentified: ''
+  source: {}
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703912444150
+  modifiedTime: 1703912459461
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!H74un4xD55FmW5Mu'
+

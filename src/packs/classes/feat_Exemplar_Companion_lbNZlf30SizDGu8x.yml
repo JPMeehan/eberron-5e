@@ -2,7 +2,7 @@ folder: DtvTuEZZqXFMP4In
 name: Exemplar Companion
 type: feat
 _id: lbNZlf30SizDGu8x
-img: icons/magic/holy/meditation-chi-focus-blue.webp
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -71,7 +71,7 @@ system:
     value: null
     charged: false
 effects: []
-sort: 750000
+sort: 15000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -82,7 +82,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700550573535
-  modifiedTime: 1702949011757
+  modifiedTime: 1703911612254
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!lbNZlf30SizDGu8x'
 

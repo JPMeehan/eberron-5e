@@ -2,7 +2,7 @@ folder: 7LxVcmEqx7ApHgg7
 name: Fury's Revelry
 type: feat
 _id: aXJXH5PLzz3eqbDP
-img: icons/skills/social/intimidation-impressing.webp
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -75,7 +75,7 @@ system:
     value: null
     charged: false
 effects: []
-sort: 400000
+sort: 3000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -86,7 +86,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700544042679
-  modifiedTime: 1702949011940
+  modifiedTime: 1703911612578
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!aXJXH5PLzz3eqbDP'
 

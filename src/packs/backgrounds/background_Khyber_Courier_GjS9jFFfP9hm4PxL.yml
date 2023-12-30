@@ -1,0 +1,30 @@
+folder: AnoS2GFpcTxIfARj
+name: Khyber Courier
+type: background
+_id: GjS9jFFfP9hm4PxL
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    page: Ch. 10
+    license: DMsGuild CCA
+  advancement: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703887031750
+  modifiedTime: 1703887253177
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!GjS9jFFfP9hm4PxL'
+

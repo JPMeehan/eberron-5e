@@ -67,7 +67,7 @@ system:
   recharge:
     value: null
     charged: false
-img: icons/magic/fire/explosion-mushroom-nuke-orange.webp
+img: icons/svg/book.svg
 flags: {}
 effects: []
 folder: 5Oy6Dulk9VEw6pKB
@@ -77,9 +77,9 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686418397409
-  modifiedTime: 1702949011949
+  modifiedTime: 1703911612591
   lastModifiedBy: MVioF9x1qI1WYGx1
-sort: 1503470
+sort: 15000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3

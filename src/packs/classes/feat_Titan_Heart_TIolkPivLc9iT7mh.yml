@@ -1,0 +1,91 @@
+folder: kUvBIUwfNYm7gPEU
+name: Titan Heart
+type: feat
+_id: TIolkPivLc9iT7mh
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>Your Behemoth Shape grows in its awesome power. The benefits you gain
+      when transforming into a Large or larger creature improve, replacing their
+      previous effects:</p><ul><li><strong>Thick Hide</strong>. You gain a +3
+      bonus to your armor class.</li><li><strong>Primal Strength</strong>. You
+      gain advantage on Strength ability checks and saving throws, and deal
+      double damage to objects and structures.</li><li><strong>Powerful
+      Blows</strong>. Your first attack that hits on your turn deals an
+      additional 1d8 damage. Additionally, your attacks count as
+      magical.</li><li><strong>Predatory Instincts</strong>. If you critically
+      hit a creature, every hostile creature within 10 feet of you must succeed
+      on a Wisdom saving throw against your Spell Save DC or become frightened
+      of you. A frightened creature can repeat the saving throw at the end of
+      each of their turns to end the effect.</li></ul>
+    chat: ''
+    unidentified: ''
+  source: {}
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703915893060
+  modifiedTime: 1703915959735
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!TIolkPivLc9iT7mh'
+

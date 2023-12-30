@@ -1,0 +1,83 @@
+folder: tjsud7IonT1Vatxe
+name: Huntsmaster
+type: feat
+_id: BBbHjkWy6rN1za07
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>Your nimbleness and trust in your allies allows you to run circles
+      around your prey. You gain the following benefits: While wearing light
+      armor, you can Dash or Hide as bonus action. </p><p>When you Dash or Hide,
+      one ally you can see within 60 feet of you can use their reaction to move
+      up to their speed towards a target marked as your Divine Quarry</p>
+    chat: ''
+    unidentified: ''
+  source: {}
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703914164851
+  modifiedTime: 1703915695549
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!BBbHjkWy6rN1za07'
+

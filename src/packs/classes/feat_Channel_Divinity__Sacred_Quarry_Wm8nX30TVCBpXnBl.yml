@@ -1,0 +1,88 @@
+folder: tjsud7IonT1Vatxe
+name: 'Channel Divinity: Sacred Quarry'
+type: feat
+_id: Wm8nX30TVCBpXnBl
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>You can use your Channel Divinity when you hit a creature with a weapon
+      attack, or as an action against a creature you can see, to mark it as the
+      target of your divine hunt. While marked in this way, the creature cannot
+      benefit from being hidden or invisible, and you know whether it is within
+      500 feet of you or not (but not where). Additionally, whenever one of your
+      allies makes a melee attack against the creature, you can use your
+      reaction to grant that attack advantage. On a hit, it deals an additional
+      1d8 radiant damage. The mark lasts until either you or the creature is
+      reduced to 0 hit points, or you choose to mark a different creature before
+      that happens</p>
+    chat: ''
+    unidentified: ''
+  source: {}
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: channelDivinity
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703914158304
+  modifiedTime: 1703915672800
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!Wm8nX30TVCBpXnBl'
+

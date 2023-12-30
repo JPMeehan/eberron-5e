@@ -1,0 +1,81 @@
+folder: DYYair8R4grZPWH1
+name: Speak, and the World Answers
+type: feat
+_id: kpsVZhdJ5s1EDEkE
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>You learn the spells bones of the earth, fire storm, wall of ice, and
+      wind walk. You can cast one of these spells without expending a spell
+      slot, and regain the ability to do so upon finishing a long rest</p>
+    chat: ''
+    unidentified: ''
+  source: {}
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703913270321
+  modifiedTime: 1703913275029
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!kpsVZhdJ5s1EDEkE'
+

@@ -89,7 +89,7 @@ system:
   recharge:
     value: null
     charged: false
-img: icons/magic/time/hourglass-brown-orange.webp
+img: icons/svg/book.svg
 flags: {}
 effects: []
 folder: Cn5COtkfkIRqM6Ec
@@ -99,9 +99,9 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686418621832
-  modifiedTime: 1702949011766
+  modifiedTime: 1703911612270
   lastModifiedBy: MVioF9x1qI1WYGx1
-sort: 620410
+sort: 6000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3

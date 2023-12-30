@@ -1,26 +1,19 @@
-folder: 4hrqRwNaXtiGo7XS
-name: Oni (Clan Morlu)
-type: weapon
-_id: 8IehEWXPu0FsE9p8
+folder: DYYair8R4grZPWH1
+name: Call the Elements
+type: feat
+_id: STlm5BPnPyvbRjig
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>As part of the College of Nature, you can call on spirits of the land
+      to aid you. You learn the cantrips gustXGE, produce flame, mold earthXGE,
+      and ray of frost. As part of the bonus action to give a creature Bardic
+      Inspiration, you can replicate the effects of casting one of these
+      cantrip</p>
     chat: ''
     unidentified: ''
-  source:
-    book: Talvakri's Guide to Adar
-    page: Ch. 10
-    license: DMsGuild CCA
-  quantity: 1
-  weight: 0
-  price:
-    value: 0
-    denomination: gp
-  attunement: 0
-  equipped: false
-  rarity: ''
-  identified: true
+  source: {}
   activation:
     type: ''
     cost: null
@@ -66,49 +59,25 @@ system:
     ability: ''
     dc: null
     scaling: spell
-  armor:
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
     value: null
-  hp:
-    value: null
-    max: null
-    dt: null
-    conditions: ''
-  weaponType: simpleM
-  baseItem: ''
-  properties:
-    ada: false
-    amm: false
-    fin: false
-    fir: false
-    foc: false
-    hvy: false
-    lgt: false
-    lod: false
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: false
-    thr: false
-    two: false
-    ver: false
-  proficient: null
+    charged: false
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
-  q6n1efCGVB98drEQ: 3
-flags:
-  chaosos-5e-content:
-    weaponMastered: false
+flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
   coreVersion: '11.315'
-  createdTime: 1700628047718
-  modifiedTime: 1703825815056
+  createdTime: 1703913010671
+  modifiedTime: 1703913018540
   lastModifiedBy: MVioF9x1qI1WYGx1
-_key: '!items!8IehEWXPu0FsE9p8'
+_key: '!items!STlm5BPnPyvbRjig'
 

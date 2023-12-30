@@ -5,7 +5,40 @@ _id: eBykJnrYP6LMo9lY
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>The ogres of Boranun once bound many types of fiends to their
+      bloodlines, creating the first oni. Once upon a time, these oni lines were
+      once formed into great clans, and you carry a spark of that ancient
+      legacy. Borunan oni stand between 6-8 feet tall depending on their
+      fiendish origin and weigh between 200-400 pounds. Oni reach adulthood at
+      20 and live up to 150 years</p><p>A cunning winged fiend, such as a horned
+      devil or erinyes, is held by the oni of your bloodline. Lies and deceit
+      come to you as easily as you breathe, and you can manifest fiendish wings
+      to soar through the air - but only for short periods, lest you draw too
+      hard on the evil held in your soul. Oni from Clan Naksha are lean,
+      confident, and often smaller than their kin from other
+      bloodlines.</p><p><strong>Creature Type</strong>. You are a
+      Humanoid.</p><p><strong>Size</strong>: Your size is
+      Medium.</p><p><strong>Speed</strong>: Your base walking speed is 30
+      feet.</p><p><strong>Darkvision</strong>. You can see in dim light within
+      60 feet of you as if it were bright light, and in darkness as if it were
+      dim light. You can't discern color in darkness, only shades of
+      gray.</p><p><strong>Fiendish Wings</strong>. You have vestigial wings. As
+      a result, when you fall at least 10 feet, you can use your Reaction to
+      safely glide downward, taking no damage from the fall. Additionally, when
+      you make a Strength (Athletics) check to jump, you can use your reaction
+      to flap your wings and gain advantage on the ability check.</p><p>When you
+      reach 5th level, you can channel your inner fiend to strengthen your
+      wings, but must limit your reliance on them to avoid corruption. As a
+      bonus action, your vestigial wings grow significantly in size for 10
+      minutes, until you are incapacitated or you allow your wings to return to
+      their natural vestigial state as a bonus action. While your wings are
+      grown, you have a fly speed equal to your speed. Once you use this trait
+      to grow your vestigial wings, you can’t do so again until you finish a
+      long rest.</p><p><strong>Forked Tongue</strong>. You gain proficiency in
+      the Deception skill.</p><p><strong>Powerful Build</strong>. You count as
+      one size larger when determining your carrying capacity and the weight you
+      can push, drag, or lift</p>
     chat: ''
     unidentified: ''
   source:
@@ -68,7 +101,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628000929
-  modifiedTime: 1703825815056
+  modifiedTime: 1703884533071
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!eBykJnrYP6LMo9lY'
 

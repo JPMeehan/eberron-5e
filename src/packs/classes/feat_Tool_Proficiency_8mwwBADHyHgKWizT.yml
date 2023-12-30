@@ -67,7 +67,7 @@ system:
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
-img: icons/skills/trades/textiles-cloth-dye-red.webp
+img: icons/svg/book.svg
 flags:
   core: {}
 effects: []
@@ -77,9 +77,9 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686418409184
-  modifiedTime: 1702949011916
+  modifiedTime: 1703911612524
   lastModifiedBy: MVioF9x1qI1WYGx1
 _id: 8mwwBADHyHgKWizT
-sort: 320470
+sort: 3000
 _key: '!items!8mwwBADHyHgKWizT'
 

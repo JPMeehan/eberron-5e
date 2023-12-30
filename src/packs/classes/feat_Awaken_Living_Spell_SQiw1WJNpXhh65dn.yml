@@ -71,7 +71,7 @@ system:
   recharge:
     value: null
     charged: false
-img: icons/magic/symbols/ring-circle-smoke-blue.webp
+img: icons/svg/book.svg
 flags: {}
 effects: []
 folder: hf00BCLr7wArjrxW
@@ -81,9 +81,9 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686425405769
-  modifiedTime: 1702949011887
+  modifiedTime: 1703911612467
   lastModifiedBy: MVioF9x1qI1WYGx1
-sort: 601550
+sort: 6000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3

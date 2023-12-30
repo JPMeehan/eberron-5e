@@ -2,7 +2,7 @@ folder: MpfBGrNWckVdKq79
 name: Master Commander
 type: feat
 _id: 3M1s4p1ZkFzg4xlK
-img: icons/tools/instruments/horn-flared-wood.webp
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -72,7 +72,7 @@ system:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 14000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -83,7 +83,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700543781857
-  modifiedTime: 1702949011859
+  modifiedTime: 1703911612422
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!3M1s4p1ZkFzg4xlK'
 

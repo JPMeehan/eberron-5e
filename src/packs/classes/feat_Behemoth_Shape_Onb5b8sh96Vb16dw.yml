@@ -1,0 +1,93 @@
+folder: kUvBIUwfNYm7gPEU
+name: Behemoth Shape
+type: feat
+_id: Onb5b8sh96Vb16dw
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>You gain the power to channel pure primal might, transforming into the
+      titans of the wild in battle. You can Wild Shape as a bonus action.
+      Additionally, when you Wild Shape into a Beast, you can choose to increase
+      the size of your Beast form by one category compared to its normal size.
+      When you take the form of a Large or larger Beast, you gain the following
+      benefits while transformed:</p><ul><li><strong>Thick Hide</strong>. You
+      gain a +2 bonus to your armor class.</li><li><strong>Primal
+      Strength</strong>. You gain advantage on Strength ability checks and
+      saving throws.</li><li><strong>Powerful Blows</strong>. Your first attack
+      that hits on your turn deals an additional 1d4
+      damage.</li><li><strong>Predatory Instincts</strong>. If you critically
+      hit a creature, it must succeed on a Wisdom saving throw against your
+      Spell Save DC or become frightened of you. A frightened creature can
+      repeat the saving throw at the end of each of their turns to end the
+      effect.</li></ul>
+    chat: ''
+    unidentified: ''
+  source: {}
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703915875288
+  modifiedTime: 1703916288910
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!Onb5b8sh96Vb16dw'
+

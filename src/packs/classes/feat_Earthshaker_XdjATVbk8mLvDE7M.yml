@@ -1,0 +1,85 @@
+folder: kUvBIUwfNYm7gPEU
+name: Earthshaker
+type: feat
+_id: XdjATVbk8mLvDE7M
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>Your walk shakes the very world, and let none stand in your path. While
+      you have taken the form of a Huge or larger Beast, if you move at least 15
+      feet in a straight line on your turn, you gain advantage on your next
+      attack roll. You can gain this benefit multiple times in a turn.
+      </p><p>Additionally, you can choose to expend two uses of Wild Shape to
+      take the form of any Beast with a Challenge Rating equal to half your
+      level or lower.</p>
+    chat: ''
+    unidentified: ''
+  source: {}
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703915900327
+  modifiedTime: 1703915929007
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!XdjATVbk8mLvDE7M'
+

@@ -2,7 +2,7 @@ folder: hzHaNMqMnKppCil1
 name: Azur's Advantage
 type: feat
 _id: Iug7eCiVPalkvmRO
-img: icons/skills/melee/sword-engraved-glow-purple.webp
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -68,7 +68,7 @@ system:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 9000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -79,7 +79,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700550112570
-  modifiedTime: 1702949011774
+  modifiedTime: 1703911612288
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!Iug7eCiVPalkvmRO'
 

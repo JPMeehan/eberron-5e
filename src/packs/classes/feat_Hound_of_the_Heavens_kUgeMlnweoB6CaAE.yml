@@ -1,0 +1,84 @@
+folder: tjsud7IonT1Vatxe
+name: Hound of the Heavens
+type: feat
+_id: kUgeMlnweoB6CaAE
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>A lone hunter is weak, but a pack can bring down the mightiest of prey.
+      When you use your reaction to grant an ally advantage on an attack against
+      a Sacred Quarry, you can choose a different ally within 30 feet of that
+      Quarry who can see or hear you. That ally can use their reaction to move
+      up to their speed and make a single weapon attack against it with
+      advantage, which deals an additional 1d8 radiant damage on a hit.</p>
+    chat: ''
+    unidentified: ''
+  source: {}
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703914176661
+  modifiedTime: 1703915720364
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!kUgeMlnweoB6CaAE'
+

@@ -2,7 +2,7 @@ folder: DtvTuEZZqXFMP4In
 name: Oath Spells
 type: feat
 _id: NhiCb9R3FOwBBMel
-img: icons/magic/holy/meditation-chi-focus-blue.webp
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -76,7 +76,7 @@ system:
     value: null
     charged: false
 effects: []
-sort: 150000
+sort: 3000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -87,7 +87,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700550432250
-  modifiedTime: 1702949011754
+  modifiedTime: 1703911612246
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!NhiCb9R3FOwBBMel'
 

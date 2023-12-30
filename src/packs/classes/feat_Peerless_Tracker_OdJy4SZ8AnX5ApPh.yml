@@ -1,0 +1,88 @@
+folder: tjsud7IonT1Vatxe
+name: Peerless Tracker
+type: feat
+_id: OdJy4SZ8AnX5ApPh
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>You gain proficiency in the Survival skill. If you are already
+      proficient, you can instead add twice your proficiency modifier to Wisdom
+      (Survival) checks. When you succeed on a Wisdom (Survival) check to follow
+      or track a creature, you can additionally choose to learn two of the
+      following pieces of information about it:</p><ul><li>Whether it was hurt
+      in any way.</li><li>Its general emotional state at the time (angry,
+      scared, carefree).</li><li>Whether it is currently within 1 mile of
+      you.</li><li>Whether it is intelligent enough to
+      communicate.</li><li>Whether fighting it would likely be deadly for you
+      and your allies</li></ul>
+    chat: ''
+    unidentified: ''
+  source: {}
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703914142010
+  modifiedTime: 1703914385334
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!OdJy4SZ8AnX5ApPh'
+

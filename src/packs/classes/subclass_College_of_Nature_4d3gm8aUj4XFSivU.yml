@@ -31,7 +31,42 @@ system:
     license: DMsGuild CCA
   identifier: college-of-nature
   classIdentifier: bard
-  advancement: []
+  advancement:
+    - _id: FX4x3T6UsvZU8n07
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.STlm5BPnPyvbRjig
+          - Compendium.eberron-5e.classes.Item.ZYplOdA5qbd9rWO7
+          - Compendium.eberron-5e.classes.Item.UpXfMKj7a9IiMhqC
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: null
+    - _id: 2c1EBqim8vGQEQHy
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.eIYJvjvb3ZwmUlzZ
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: 4AnuPlGA3bInlnkJ
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.kpsVZhdJ5s1EDEkE
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -46,7 +81,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702705741398
-  modifiedTime: 1702886424283
+  modifiedTime: 1703913324170
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!4d3gm8aUj4XFSivU'
 

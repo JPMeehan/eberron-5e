@@ -30,7 +30,76 @@ system:
     license: DMsGuild CCA
   identifier: hunt-domain
   classIdentifier: cleric
-  advancement: []
+  advancement:
+    - _id: yIebMXlRC5DV8INa
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.OdJy4SZ8AnX5ApPh
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+    - _id: 8USFlxxtMm0tKDl2
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - weapon:mar:longbow
+          - tool:art:leatherworker
+        choices: []
+        hint: |-
+          When you choose this domain, you gain proficiency with
+          longbows and leatherworker’s tools.
+      level: 1
+      title: Bonus Proficiencies
+      icon: null
+      value: {}
+    - _id: DI5PHEThrqa6bqtp
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.Wm8nX30TVCBpXnBl
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: ''
+      icon: null
+    - _id: IPgHlVWEc8PfdVLc
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.BBbHjkWy6rN1za07
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: nwaKMu8gTcxtJzUu
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.VKnbTMtnrrDtG6Jj
+        optional: false
+        spell: null
+      value: {}
+      level: 8
+      title: ''
+      icon: null
+    - _id: 03ORq9xaDgmwOeGp
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.kUgeMlnweoB6CaAE
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -45,7 +114,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702705776068
-  modifiedTime: 1702886424283
+  modifiedTime: 1703914533668
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!vXLYKmM78gjhyPhY'
 

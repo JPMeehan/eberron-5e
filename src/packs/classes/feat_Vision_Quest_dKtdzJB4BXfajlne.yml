@@ -64,7 +64,7 @@ system:
   recharge:
     value: null
     charged: false
-img: icons/magic/unholy/silhouette-light-fire-blue.webp
+img: icons/svg/book.svg
 flags: {}
 effects: []
 folder: AxCOxJAGG16MkcKu
@@ -74,9 +74,9 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686418613115
-  modifiedTime: 1702949011955
+  modifiedTime: 1703911612601
   lastModifiedBy: MVioF9x1qI1WYGx1
-sort: 1122410
+sort: 11000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3

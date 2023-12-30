@@ -1,0 +1,84 @@
+folder: DYYair8R4grZPWH1
+name: Speech of Beast and Bough
+type: feat
+_id: UpXfMKj7a9IiMhqC
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>Your words ring true to primal beings. You learn the language
+      Primordial. You can communicate in a limited manner with beasts,
+      elementals, and plants when you speak Primordial, which magically
+      understand the meaning of your words, but have no special ability to
+      respond in kind unless they speak at least one language. You have
+      advantage on Charisma checks you make to influence them.</p>
+    chat: ''
+    unidentified: ''
+  source: {}
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703913080134
+  modifiedTime: 1703913084337
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!UpXfMKj7a9IiMhqC'
+

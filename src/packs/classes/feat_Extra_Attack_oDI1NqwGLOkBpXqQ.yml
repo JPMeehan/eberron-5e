@@ -67,7 +67,7 @@ ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-img: icons/magic/symbols/runes-etched-steel-blade.webp
+img: icons/svg/book.svg
 flags:
   core: {}
 effects: []
@@ -77,9 +77,9 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1685144917771
-  modifiedTime: 1702949011790
+  modifiedTime: 1703911612333
   lastModifiedBy: MVioF9x1qI1WYGx1
 _id: oDI1NqwGLOkBpXqQ
-sort: 700000
+sort: 5000
 _key: '!items!oDI1NqwGLOkBpXqQ'
 

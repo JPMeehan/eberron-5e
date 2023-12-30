@@ -2,7 +2,7 @@ folder: 1V7oabEr11Fjb6LZ
 name: Prosthesis Expertise
 type: feat
 _id: 6TSc4qsVneMCytoC
-img: icons/magic/symbols/runes-etched-steel-blade.webp
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -70,7 +70,7 @@ system:
     value: null
     charged: false
 effects: []
-sort: 500000
+sort: 3000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -81,7 +81,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700538537408
-  modifiedTime: 1702949011789
+  modifiedTime: 1703911612332
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!6TSc4qsVneMCytoC'
 

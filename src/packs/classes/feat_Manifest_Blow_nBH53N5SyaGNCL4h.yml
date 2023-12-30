@@ -2,7 +2,7 @@ folder: L8n7GuJVs9l1JFCl
 name: Manifest Blow
 type: feat
 _id: nBH53N5SyaGNCL4h
-img: icons/skills/melee/hand-grip-staff-teal.webp
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -73,7 +73,7 @@ system:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 6000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -84,7 +84,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700618337669
-  modifiedTime: 1702949011907
+  modifiedTime: 1703911612511
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!nBH53N5SyaGNCL4h'
 

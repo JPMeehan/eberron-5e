@@ -1,0 +1,82 @@
+folder: DYYair8R4grZPWH1
+name: Natural Connection
+type: feat
+_id: ZYplOdA5qbd9rWO7
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>You gain proficiency in the Nature skill. When you gain a level in
+      Bard, including when you take this subclass, you can choose to learn new
+      spells or replace your current spells with those from the Druid spell
+      list, which count as Bard spells for you.</p>
+    chat: ''
+    unidentified: ''
+  source: {}
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703913038564
+  modifiedTime: 1703913048010
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!ZYplOdA5qbd9rWO7'
+

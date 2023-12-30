@@ -1,0 +1,83 @@
+folder: JwDbpGniHs8ne6JR
+name: Serenity of the Soul
+type: feat
+_id: edTxY4HC1CRA6QlJ
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>When you use your Miracle Worker feature to grant a creature temporary
+      hit points as a reaction to failing a saving throw, you can additionally
+      expend one use of Flash of Genius to grant its effects as part of the same
+      reaction, potentially causing them to succeed on the saving throw</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Divine Crucible 9
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 9000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703909621171
+  modifiedTime: 1703911612130
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!edTxY4HC1CRA6QlJ'
+

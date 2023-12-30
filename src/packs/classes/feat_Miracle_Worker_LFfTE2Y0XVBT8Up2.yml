@@ -1,0 +1,94 @@
+folder: JwDbpGniHs8ne6JR
+name: Miracle Worker
+type: feat
+_id: LFfTE2Y0XVBT8Up2
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You ignite the divine spark within your creations, causing them to
+      flare with radiant power. This feature grants you two
+      benefits:</p><p><strong>Wrath</strong>. As a reaction to a character you
+      can see hitting an enemy with a weapon that you have infused, you can
+      cause the attack to deal an additional 1d8 radiant damage, and force the
+      target to make a Constitution saving throw against your Spell Save DC. On
+      a failure, they are blinded until the end of their next
+      turn.</p><p><strong>Refuge</strong>. Alternatively, when an ally you can
+      see who is wearing or carrying an item you have infused is hit by an
+      attack or fails a saving throw, you can use your reaction to grant them
+      temporary hit points equal to 1d8 + your artificer level before the damage
+      resolves. You can use this feature to grant temporary hit points a number
+      of times equal to your Proficiency Bonus, and you regain all expended uses
+      when you finish a long rest.</p><p>Both reactions increase to 2d8 at 11th
+      level</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Divine Crucible 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703908684360
+  modifiedTime: 1703911612125
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!LFfTE2Y0XVBT8Up2'
+

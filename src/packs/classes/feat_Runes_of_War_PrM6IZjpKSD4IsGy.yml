@@ -2,7 +2,7 @@ folder: M8AyGcZ3UAB4rZHi
 name: Runes of War
 type: feat
 _id: PrM6IZjpKSD4IsGy
-img: icons/skills/trades/smithing-tongs-metal-red.webp
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -76,7 +76,7 @@ system:
     value: null
     charged: false
 effects: []
-sort: 400000
+sort: 9000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -86,7 +86,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1699122372533
-  modifiedTime: 1702949011748
+  modifiedTime: 1703911612232
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!PrM6IZjpKSD4IsGy'
 

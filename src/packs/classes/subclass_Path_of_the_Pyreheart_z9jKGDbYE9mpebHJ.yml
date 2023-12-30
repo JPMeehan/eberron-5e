@@ -28,7 +28,51 @@ system:
     license: DMsGuild CCA
   identifier: path-of-the-pyreheart
   classIdentifier: barbarian
-  advancement: []
+  advancement:
+    - _id: j9VNG5cX7hQN560E
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.Im4UTeb68CoOFlYv
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: null
+    - _id: 5XkG1GcdtlS91MHt
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.H74un4xD55FmW5Mu
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: Xv5WDaGXEPBXs5uo
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.GSAFbJZ27jI8xlgm
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: ''
+      icon: null
+    - _id: qkjpoGEYL3kyQKHk
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.fNAlMO8A9rbJIZns
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -43,7 +87,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702705701311
-  modifiedTime: 1702886424283
+  modifiedTime: 1703912747024
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!z9jKGDbYE9mpebHJ'
 

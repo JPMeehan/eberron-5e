@@ -1,10 +1,12 @@
 # Changelog
 
-## 0.7.1
+## 0.8.0
 
 - Updated Spells of levels 0—2.
 - Added descriptions to all ancestries.
   - Moved Shulassakar from Sarhain's to GGtX and removed the Sarhain's folder.
+- Added classs featuers for remaining subclasses on main classes
+- Listed LGtS and TGtA backgrounds
 
 ## 0.7.0 Initial Release
 

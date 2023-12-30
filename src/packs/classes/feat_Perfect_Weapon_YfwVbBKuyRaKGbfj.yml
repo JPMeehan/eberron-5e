@@ -2,7 +2,7 @@ folder: M8AyGcZ3UAB4rZHi
 name: Perfect Weapon
 type: feat
 _id: YfwVbBKuyRaKGbfj
-img: icons/skills/trades/smithing-tongs-metal-red.webp
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -81,7 +81,7 @@ system:
     value: null
     charged: false
 effects: []
-sort: 500000
+sort: 15000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -91,7 +91,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1699122386835
-  modifiedTime: 1702949011750
+  modifiedTime: 1703911612234
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!YfwVbBKuyRaKGbfj'
 

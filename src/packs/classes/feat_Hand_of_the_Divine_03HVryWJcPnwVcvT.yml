@@ -1,0 +1,90 @@
+folder: JwDbpGniHs8ne6JR
+name: Hand of the Divine
+type: feat
+_id: 03HVryWJcPnwVcvT
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>This feature grants you two
+      benefits:</p><p><strong>Redemption</strong>. When you use your reaction to
+      deal radiant damage with Miracle Worker, the next spell you cast within 1
+      minute that restores hit points restores 1d8 additional hit points to one
+      target of the spell.</p><p><strong>Sanction</strong>. When you use your
+      reaction to grant temporary hit points with Miracle Worker, the next spell
+      you cast within 1 minute that deals damage deals an extra radiant damage
+      to one target of the spell. This extra radiant damage is equal to 1d8 +
+      your Intelligence modifier.</p><p>You can only apply one of this feature's
+      benefits at a time, and the benefit it grants is determined by the most
+      recent use of your Miracle Worker feature</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Divine Crucible 5
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 5000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703908933474
+  modifiedTime: 1703911612128
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!03HVryWJcPnwVcvT'
+

@@ -1,0 +1,93 @@
+folder: a637tbYcpKtbT65D
+name: Heart of Flame
+type: feat
+_id: Im4UTeb68CoOFlYv
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>You can choose to manifest your rage as searing magical flames to burn
+      your foes to ash. You gain resistance to fire damage; additionally, you
+      can choose where to channel your flames each time you rage, choosing one
+      option from below that lasts until your rage ends:</p><p><strong>Boiling
+      Blood</strong>. You seethe with fury, internalizing the fire that burns in
+      your veins. Whenever you begin your turn grappled by a creature, or a
+      creature begins its turn grappled by you, you can choose for it to take
+      fire damage equal to 1d6 + your proficiency bonus. Additionally, whenever
+      a creature hits you with an attack while within 5ft of you, they take fire
+      damage equal to your proficiency bonus.</p><p><strong>Blazing
+      Blows</strong>. You focus your rage outwards, causing your weapons to
+      ignite. When you make a melee attack for the first time on your turn,
+      every creature of your choice in a 15ft cone originating from you in the
+      direction of your attack takes fire damage equal to your proficiency
+      bonus</p>
+    chat: ''
+    unidentified: ''
+  source: {}
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703912358972
+  modifiedTime: 1703912409504
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!Im4UTeb68CoOFlYv'
+

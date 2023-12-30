@@ -73,7 +73,7 @@ system:
   recharge:
     value: null
     charged: false
-img: icons/magic/holy/prayer-hands-glowing-yellow.webp
+img: icons/svg/book.svg
 flags: {}
 effects: []
 folder: SMG8a1fU051AIjhX
@@ -83,9 +83,9 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686418500242
-  modifiedTime: 1702949011855
+  modifiedTime: 1703911612415
   lastModifiedBy: MVioF9x1qI1WYGx1
-sort: 1723330
+sort: 17000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3

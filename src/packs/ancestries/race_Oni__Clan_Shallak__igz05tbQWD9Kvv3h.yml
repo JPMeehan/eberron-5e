@@ -5,7 +5,36 @@ _id: igz05tbQWD9Kvv3h
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>The ogres of Boranun once bound many types of fiends to their
+      bloodlines, creating the first oni. Once upon a time, these oni lines were
+      once formed into great clans, and you carry a spark of that ancient
+      legacy. Borunan oni stand between 6-8 feet tall depending on their
+      fiendish origin and weigh between 200-400 pounds. Oni reach adulthood at
+      20 and live up to 150 years.</p><p>Clan Shallak bear the burden of an
+      imprisoned arcanaloth mercenary — one of the Legion of Tyranny’s dangerous
+      war mages. The fiend grants you an innate sense for the workings of magic,
+      and an understanding of the workings of spells. Many oni of Clan Shallak
+      once trained as battlesages and spellsmiths within the Cauldron. Such oni
+      often have sharp fangs and bestial eyes as a mark of their
+      heritage.</p><p><strong>Creature Type</strong>. You are a
+      Humanoid.</p><p><strong>Size</strong>: Your size is
+      Medium.</p><p><strong>Speed</strong>: Your base walking speed is 30
+      feet.</p><p><strong>Darkvision</strong>. You can see in dim light within
+      60 feet of you as if it were bright light, and in darkness as if it were
+      dim light. You can't discern color in darkness, only shades of
+      gray.</p><p><strong>Arcane Intuition</strong>. You gain proficiency in the
+      Arcana skill.</p><p>Master of Lore. You can cast the detect magic and
+      identify spells with this trait without requiring components. Once you
+      cast either of these spells with this trait, you can’t cast that spell
+      with it again until you finish a long rest. You can also cast these spells
+      as rituals or you may cast them using any spell slots you
+      have.</p><p>Intelligence, Wisdom, or Charisma is your spellcasting ability
+      for these spells (choose when you gain this species). None of these spells
+      require spell components when you cast them with this
+      trait.</p><p><strong>Powerful Build</strong>. You count as one size larger
+      when determining your carrying capacity and the weight you can push, drag,
+      or lift</p>
     chat: ''
     unidentified: ''
   source:
@@ -68,7 +97,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700628060666
-  modifiedTime: 1703825815056
+  modifiedTime: 1703885673259
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!igz05tbQWD9Kvv3h'
 

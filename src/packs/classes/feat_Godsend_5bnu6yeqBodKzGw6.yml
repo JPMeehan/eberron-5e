@@ -1,0 +1,88 @@
+folder: JwDbpGniHs8ne6JR
+name: Godsend
+type: feat
+_id: 5bnu6yeqBodKzGw6
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>An allied character wearing or carrying an item that you have infused
+      can choose to gain a bonus to a single ability check, attack roll or
+      saving throw equal to the number of allies they can see or hear who are
+      also wearing or carrying items infused by you. A character can use this
+      feature once, and they regain the ability to do so when they finish a long
+      rest.</p><p>Additionally, you can cast the spell holy weapon without
+      expending a spell slot on a weapon you have infused. You can cast the
+      spell in this way once, and regain the ability to do so when you finish a
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Divine Crucible 15
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 15000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703909651908
+  modifiedTime: 1703911612132
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!5bnu6yeqBodKzGw6'
+

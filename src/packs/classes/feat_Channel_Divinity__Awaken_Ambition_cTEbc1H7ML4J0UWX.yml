@@ -2,7 +2,7 @@ folder: YSjy3z9zodEt5IB9
 name: 'Channel Divinity: Awaken Ambition'
 type: feat
 _id: cTEbc1H7ML4J0UWX
-img: icons/skills/social/theft-pickpocket-bribery-brown.webp
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -70,7 +70,7 @@ system:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 2000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -81,7 +81,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700547326993
-  modifiedTime: 1702949011737
+  modifiedTime: 1703911612186
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!cTEbc1H7ML4J0UWX'
 
