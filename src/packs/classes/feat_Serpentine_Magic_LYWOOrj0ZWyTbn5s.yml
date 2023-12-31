@@ -1,0 +1,81 @@
+folder: OQKntTBFL3m60h4x
+name: Serpentine Magic
+type: feat
+_id: LYWOOrj0ZWyTbn5s
+img: icons/svg/book.svg
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Serpentblood 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 1000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704056087467
+  modifiedTime: 1704061286147
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!LYWOOrj0ZWyTbn5s'
+

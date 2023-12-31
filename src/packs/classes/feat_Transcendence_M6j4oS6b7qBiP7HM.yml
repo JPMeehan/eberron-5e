@@ -1,0 +1,92 @@
+folder: A19PFixmJlTFsgYO
+name: Transcendence
+type: feat
+_id: M6j4oS6b7qBiP7HM
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You are closer than ever to the Silver Flame, and the gestalt
+      consciousness within, and can draw upon its power to transform you in
+      battle. As a bonus action on your turn, you can assume the form of a
+      transcendent shulassakar for one minute, gaining the following
+      benefits:</p><ul><li>Your creature type becomes celestial.</li><li>Your
+      unarmed strikes and telekinetic assault attacks deal additional radiant
+      damage equal to one roll of your martial arts die.</li><li>When you damage
+      a creature with your Psionic Strike, force ripples out from the strike,
+      and you can deal the Psionic Strike damage to one additional target within
+      30 feet of you.</li></ul><p>Once you use this feature, you can’t do so
+      again until you finish a long rest, unless you spend 5 ki to do so.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Sarhain's Guide to the Silver Flame
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Shulassakar 17
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 17000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704054149699
+  modifiedTime: 1704061286157
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!M6j4oS6b7qBiP7HM'
+

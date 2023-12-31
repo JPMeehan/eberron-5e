@@ -1,0 +1,86 @@
+folder: 7PMZ3AO0zqY0bgPv
+name: Controlled Chaos
+type: feat
+_id: WvTuhVR2Yh1llaT7
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 14th level, you have finally achieved mastery over the unpredictable
+      energy you harness. Whenever you would roll on the Chaotic Form table, you
+      can instead choose an element. Additionally, once per short rest, you may
+      replace one of your prepared druid spells — other than your circle spells
+      — with another spell on the druid list. Level Spells Learned</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Circle of Chaos 14
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 14000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704058046455
+  modifiedTime: 1704061286121
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!WvTuhVR2Yh1llaT7'
+

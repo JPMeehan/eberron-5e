@@ -1,0 +1,86 @@
+folder: OQKntTBFL3m60h4x
+name: Face of the Couatl
+type: feat
+_id: 60xz70rEaDQwVyU0
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 14th level, your form becomes serpentine and flexible, allowing you
+      to move unnaturally and get yourself out of trouble. You have advantage on
+      saving throws against being paralyzed or restrained by magic, and can
+      spend five feet of movement to escape from nonmagical restraints or a
+      creature that has you grappled.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Serpentblood 14
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 14000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704056155296
+  modifiedTime: 1704061286149
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!60xz70rEaDQwVyU0'
+

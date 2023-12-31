@@ -25,6 +25,8 @@ system:
     unidentified: ''
   source:
     book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
   activation:
     type: ''
     cost: null
@@ -88,7 +90,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1703908684360
-  modifiedTime: 1703911612125
+  modifiedTime: 1704060172176
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!LFfTE2Y0XVBT8Up2'
 

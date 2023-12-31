@@ -6,12 +6,11 @@ img: icons/creatures/reptiles/snake-poised-white.webp
 system:
   description:
     value: >-
-      <p>The Silver Flame doesnÃ¢â‚¬â„¢t have a large legacy of monastic
-      traditions, limited largely to the shulassakar, who blend their psionic
-      abilities with divine power. Shulassakar monks might follow the Astral
-      Self or Sun Soul traditions. Another option is presented below in the Way
-      of the Shulassakar, which is focused on emulating the couatl they serve.
-      </p>
+      <p>The Silver Flame doesn't have a large legacy of monastic traditions,
+      limited largely to the shulassakar, who blend their psionic abilities with
+      divine power. Shulassakar monks might follow the Astral Self or Sun Soul
+      traditions. Another option is presented below in the Way of the
+      Shulassakar, which is focused on emulating the couatl they serve.</p>
     chat: ''
     unidentified: ''
   source:
@@ -20,7 +19,52 @@ system:
     book: Sarhain's Guide to the Silver Flame
   identifier: way-of-the-shulassakar
   classIdentifier: monk
-  advancement: []
+  advancement:
+    - _id: xrWRwis9vA1RQIub
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.kC1AT78J9ZbFEeCL
+          - Compendium.eberron-5e.classes.Item.QRz7R0OEUizzzaoX
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: null
+    - _id: Gi7ClfUfUNmfBbRN
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.iqnIDcrEiOF8Wdqw
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: b5gSzfwfv333A1fP
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.xIk0w7PGpITaNRiy
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: ''
+      icon: null
+    - _id: MrgxagevuIMXerY8
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.M6j4oS6b7qBiP7HM
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -35,7 +79,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686185307743
-  modifiedTime: 1702886723204
+  modifiedTime: 1704054404281
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!xMQg8SVYqFlbEtwQ'
 

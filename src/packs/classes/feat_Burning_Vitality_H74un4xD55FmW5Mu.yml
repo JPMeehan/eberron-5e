@@ -2,7 +2,7 @@ folder: a637tbYcpKtbT65D
 name: Burning Vitality
 type: feat
 _id: H74un4xD55FmW5Mu
-img: icons/svg/item-bag.svg
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -16,7 +16,10 @@ system:
       proficiency modifier per long rest.</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Giant Guide to Xen'drik
   activation:
     type: ''
     cost: null
@@ -63,14 +66,14 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
-  requirements: ''
+  requirements: Path of the Pyreheart 6
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 6000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -80,7 +83,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1703912444150
-  modifiedTime: 1703912459461
+  modifiedTime: 1704061286160
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!H74un4xD55FmW5Mu'
 

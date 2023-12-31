@@ -1,0 +1,85 @@
+folder: A19PFixmJlTFsgYO
+name: Shielded Mind
+type: feat
+_id: iqnIDcrEiOF8Wdqw
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You have closed your mind off to external influences, other than those
+      you allow. You gain resistance to psychic damage and are immune to any
+      effect that would sense your emotions, read your thoughts, or detect your
+      location</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Sarhain's Guide to the Silver Flame
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Shulassakar 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 6000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704054069523
+  modifiedTime: 1704061286155
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!iqnIDcrEiOF8Wdqw'
+

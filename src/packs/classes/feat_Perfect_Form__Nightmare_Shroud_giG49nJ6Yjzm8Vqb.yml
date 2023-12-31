@@ -2,7 +2,7 @@ folder: L8n7GuJVs9l1JFCl
 name: 'Perfect Form: Nightmare Shroud'
 type: feat
 _id: giG49nJ6Yjzm8Vqb
-img: icons/svg/item-bag.svg
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -14,6 +14,8 @@ system:
     unidentified: ''
   source:
     license: DMsGuild CCA
+    custom: ''
+    book: Exploring Eberron
   activation:
     type: ''
     cost: null
@@ -60,14 +62,14 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
-  requirements: ''
+  requirements: Way of the Living Weapon 17
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 17000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -78,7 +80,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700618733456
-  modifiedTime: 1702886575024
+  modifiedTime: 1704062551463
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!giG49nJ6Yjzm8Vqb'
 

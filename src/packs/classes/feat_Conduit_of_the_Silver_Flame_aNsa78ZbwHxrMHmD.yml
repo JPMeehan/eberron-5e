@@ -1,0 +1,85 @@
+folder: E2oUVtYugc8gXNPR
+name: Conduit of the Silver Flame
+type: feat
+_id: aNsa78ZbwHxrMHmD
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You can add your Intelligence modifier to one damage roll of any wizard
+      spell you cast that deals fire or radiant damage. Additionally, whenever
+      you cast a spell that deals fire damage, you can instead choose to have
+      that spell deal radiant damage</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Sarhain's Guide to the Silver Flame
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Silver Pyromancer 10
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 10000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704055270061
+  modifiedTime: 1704061286096
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!aNsa78ZbwHxrMHmD'
+

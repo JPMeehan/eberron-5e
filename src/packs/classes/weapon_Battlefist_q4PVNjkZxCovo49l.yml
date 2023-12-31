@@ -23,6 +23,7 @@ system:
     unidentified: ''
   source:
     license: DMsGuild CCA
+    custom: ''
   quantity: 1
   weight: 0
   price:
@@ -121,7 +122,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700538640026
-  modifiedTime: 1702949392526
+  modifiedTime: 1704060172176
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!q4PVNjkZxCovo49l'
 

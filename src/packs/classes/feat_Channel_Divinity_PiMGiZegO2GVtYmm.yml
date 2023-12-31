@@ -1,0 +1,88 @@
+folder: E2oUVtYugc8gXNPR
+name: Channel Divinity
+type: feat
+_id: PiMGiZegO2GVtYmm
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You gain the ability to channel arcane energy directly from the Silver
+      Flame, using that energy to fuel magical effects. You start with only one
+      such effect: Turn the Unholy.</p><p> When you use your Channel Divinity,
+      you choose which effect to create. You must then finish a short or long
+      rest to use your Channel Divinity again. Some Channel Divinity effects
+      require saving throws. When you use such an effect, the save DC equals
+      your wizard spell save DC.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Sarhain's Guide to the Silver Flame
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Silver Pyromancer 2
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 2000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704054613841
+  modifiedTime: 1704061286069
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!PiMGiZegO2GVtYmm'
+

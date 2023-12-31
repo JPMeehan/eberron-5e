@@ -2,10 +2,19 @@ folder: 7PMZ3AO0zqY0bgPv
 name: Circle of Chaos
 type: subclass
 _id: Ip0fmi0P3GU9KWfo
-img: icons/svg/item-bag.svg
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You harness Kythri’s storm of elemental chaos, in an attempt to find
+      order among the havoc and bend it to your will. This tradition is
+      particularly common among the druids of Maszani, or other settlements in
+      proximity to Kythri wild zones, though it also comes naturally to
+      Kythri-based planetouched as a whole. Many chaos druids find that their
+      appearance changes as their abilities grow stronger: your hair and eyes
+      might change color based on which element you’re attuned to, or your
+      features might shift constantly, as difficult to pin down as the magic you
+      channel.</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,7 +23,53 @@ system:
     book: Linvakri's Guide to Syrkarn
   identifier: circle-of-chaos
   classIdentifier: druid
-  advancement: []
+  advancement:
+    - _id: IVSCcfOTOdtWkkHx
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.FdBu8C7pR5ez4EE3
+          - Compendium.eberron-5e.classes.Item.xW4O4YqgGljFiAYY
+          - Compendium.eberron-5e.classes.Item.lQs2BmjaiTLEbBlq
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: ''
+      icon: null
+    - _id: kIIzvcYeAlX3iXQf
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.JVnnHyaawAAlLh7O
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: SKamm13Z6nmr8U75
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.Azec0SzVXecEidW7
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: ''
+      icon: null
+    - _id: yDlTFZahxENjWjNa
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.WvTuhVR2Yh1llaT7
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -29,7 +84,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686184932323
-  modifiedTime: 1702886723204
+  modifiedTime: 1704058266264
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!Ip0fmi0P3GU9KWfo'
 

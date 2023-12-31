@@ -1,0 +1,93 @@
+folder: OQKntTBFL3m60h4x
+name: Serpentine Shapeshifting
+type: feat
+_id: huNGrdrSp9LooL0c
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 1st level, you learn to adopt the form of a serpent. As a bonus
+      action, you can turn into a Tiny or Small snake. During this time, you
+      keep your racial traits, ability scores, and ability to speak and cast
+      spells. Spells cast in this form do not require somatic components. You
+      also gain blindsight to 10 feet. This transformation lasts for one hour,
+      until you take damage, or until you use a bonus action to end it. You can
+      use this feature a number of times equal to your Charisma modifier per
+      long rest.</p><p> Additionally, at 3rd level, you can cast alter self
+      either by spending 2 sorcery points or by expending a spell slot as
+      normal. If you cast it with sorcery points, you may select all three
+      options — Aquatic Adaptation, Change Appearance, and Natural Weapons — at
+      once</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Serpentblood 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 1000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704056102096
+  modifiedTime: 1704061286147
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!huNGrdrSp9LooL0c'
+

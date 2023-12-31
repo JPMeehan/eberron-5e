@@ -1,0 +1,86 @@
+folder: PPi7Yc5M39RMH0tj
+name: Embodiment of Freedom
+type: feat
+_id: InpWB5TcT5MM033Q
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 17th level, you gain immunity to being charmed. If a creature tries
+      to charm you, it must make a Wisdom saving throw against your spell save
+      DC. On a failure, it takes 4d10+your Wisdom modifier psychic damage and is
+      stunned until the end of your next turn, or half as much and has no other
+      effects on a success</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Liberation Domain 17
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 17000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704059902332
+  modifiedTime: 1704061286130
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!InpWB5TcT5MM033Q'
+

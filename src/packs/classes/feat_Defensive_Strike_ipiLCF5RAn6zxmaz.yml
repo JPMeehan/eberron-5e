@@ -1,0 +1,89 @@
+folder: n6hAZmCF5371AD5g
+name: Defensive Strike
+type: feat
+_id: ipiLCF5RAn6zxmaz
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Also at 3rd level, you learn maneuvers to shield your allies from harm,
+      even while you attack. Once per turn when you hit with a weapon attack,
+      you can choose to deal an extra 1d8 damage of the weapon’s type. One other
+      creature you can see, within 5 feet of either you or your target, gains a
+      bonus to AC equal to the extra damage dealt by this feature until the end
+      of your next turn. At 11th level in this class, the extra damage and AC
+      boost both increase to 2d8 instead. You can use this feature a number of
+      times equal to your Wisdom modifier (minimum of 1) per long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Summit Road 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704055728223
+  modifiedTime: 1704061286124
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!ipiLCF5RAn6zxmaz'
+

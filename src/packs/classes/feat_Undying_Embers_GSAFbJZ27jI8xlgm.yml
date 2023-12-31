@@ -2,7 +2,7 @@ folder: a637tbYcpKtbT65D
 name: Undying Embers
 type: feat
 _id: GSAFbJZ27jI8xlgm
-img: icons/svg/item-bag.svg
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -14,7 +14,10 @@ system:
       use it again until you complete a long rest.</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Giant Guide to Xen'drik
   activation:
     type: ''
     cost: null
@@ -61,14 +64,14 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
-  requirements: ''
+  requirements: Path of the Pyreheart 10
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 10000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -78,7 +81,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1703912491057
-  modifiedTime: 1703912501242
+  modifiedTime: 1704061286161
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!GSAFbJZ27jI8xlgm'
 

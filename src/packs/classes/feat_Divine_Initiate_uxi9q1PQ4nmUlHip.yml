@@ -1,0 +1,88 @@
+folder: E2oUVtYugc8gXNPR
+name: Divine Initiate
+type: feat
+_id: uxi9q1PQ4nmUlHip
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Whenever you gain a wizard level, you can replace one of the wizard
+      spells you add to your spellbook with a paladin spell. The spell must be
+      of a level for which you have spell slots. Any paladin spell you gain from
+      this feature is considered a wizard spell for you, but other wizards can't
+      copy paladin spells from your spellbook into their own spellbooks.</p><p>
+      Additionally, you can use a Holy Symbol as a spellcasting focus for your
+      wizard spells</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Sarhain's Guide to the Silver Flame
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Silver Pyromancer 2
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 2000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704054559644
+  modifiedTime: 1704061286057
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!uxi9q1PQ4nmUlHip'
+

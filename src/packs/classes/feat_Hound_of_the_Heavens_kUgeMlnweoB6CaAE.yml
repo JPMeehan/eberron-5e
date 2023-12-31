@@ -2,7 +2,7 @@ folder: tjsud7IonT1Vatxe
 name: Hound of the Heavens
 type: feat
 _id: kUgeMlnweoB6CaAE
-img: icons/svg/item-bag.svg
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -14,7 +14,10 @@ system:
       advantage, which deals an additional 1d8 radiant damage on a hit.</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Giant Guide to Xen'drik
   activation:
     type: ''
     cost: null
@@ -61,14 +64,14 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
-  requirements: ''
+  requirements: Hunt Domain 17
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 17000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -78,7 +81,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1703914176661
-  modifiedTime: 1703915720364
+  modifiedTime: 1704061286153
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!kUgeMlnweoB6CaAE'
 

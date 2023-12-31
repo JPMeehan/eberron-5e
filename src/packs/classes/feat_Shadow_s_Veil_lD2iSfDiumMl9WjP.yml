@@ -19,6 +19,7 @@ system:
   source:
     license: DMsGuild CCA
     book: Chronicles of Eberron
+    custom: ''
   activation:
     type: ''
     cost: null
@@ -83,7 +84,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700550130071
-  modifiedTime: 1703911612289
+  modifiedTime: 1704060172176
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!lD2iSfDiumMl9WjP'
 

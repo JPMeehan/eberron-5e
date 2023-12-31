@@ -2,7 +2,7 @@ folder: kUvBIUwfNYm7gPEU
 name: Earthshaker
 type: feat
 _id: XdjATVbk8mLvDE7M
-img: icons/svg/item-bag.svg
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -15,7 +15,10 @@ system:
       level or lower.</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Giant Guide to Xen'drik
   activation:
     type: ''
     cost: null
@@ -62,14 +65,14 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
-  requirements: ''
+  requirements: Circle of the Behemoth 14
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 14000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -79,7 +82,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1703915900327
-  modifiedTime: 1703915929007
+  modifiedTime: 1704061286146
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!XdjATVbk8mLvDE7M'
 

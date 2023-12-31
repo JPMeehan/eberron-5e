@@ -2,10 +2,17 @@ folder: OQKntTBFL3m60h4x
 name: Serpentblood
 type: subclass
 _id: r0bOdHKG8ScGZbSU
-img: icons/svg/item-bag.svg
+img: icons/creatures/reptiles/snake-fangs-bite-green.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>The yuan-ti may be the descendants of fallen shulassakar, but this
+      doesn’t mean they cannot attempt to rise again. Among these communities, a
+      new sorcerous tradition has begun to emerge, consisting of yuan-ti who
+      practice magic similar to that of the couatls in an attempt at redeeming
+      themselves. This subclass is not race-locked: anyone with yuan-ti or
+      shulassakar ancestry, regardless of their mechanical race, is capable of
+      learning it.</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,7 +21,50 @@ system:
     book: Linvakri's Guide to Syrkarn
   identifier: serpentblood
   classIdentifier: sorcerer
-  advancement: []
+  advancement:
+    - _id: INWaamVXRmILZAoL
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.LYWOOrj0ZWyTbn5s
+          - Compendium.eberron-5e.classes.Item.huNGrdrSp9LooL0c
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+    - _id: Ev2H3iafAVw3JCdm
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.Khe5UCQKVEs37VG8
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: 2rPRfsF6bWpgc68T
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.60xz70rEaDQwVyU0
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: ''
+      icon: null
+    - _id: RWR7dr8ZIHV0KXcO
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.GbMHlSDwkJKKhZc8
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -29,7 +79,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686184883598
-  modifiedTime: 1702886723204
+  modifiedTime: 1704056226315
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!r0bOdHKG8ScGZbSU'
 

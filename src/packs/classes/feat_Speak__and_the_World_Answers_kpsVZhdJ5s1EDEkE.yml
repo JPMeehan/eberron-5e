@@ -2,7 +2,7 @@ folder: DYYair8R4grZPWH1
 name: Speak, and the World Answers
 type: feat
 _id: kpsVZhdJ5s1EDEkE
-img: icons/svg/item-bag.svg
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -11,7 +11,10 @@ system:
       slot, and regain the ability to do so upon finishing a long rest</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Giant Guide to Xen'drik
   activation:
     type: ''
     cost: null
@@ -58,14 +61,14 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
-  requirements: ''
+  requirements: College of Nature 14
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 14000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -75,7 +78,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1703913270321
-  modifiedTime: 1703913275029
+  modifiedTime: 1704061286050
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!kpsVZhdJ5s1EDEkE'
 

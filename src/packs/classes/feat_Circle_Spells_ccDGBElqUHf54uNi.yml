@@ -1,0 +1,87 @@
+folder: wYHD0A6W7wuN06EL
+name: Circle Spells
+type: feat
+_id: ccDGBElqUHf54uNi
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>You learn the thorn whip cantrip. Additionally, your bond to the land
+      itself grants you access to additional spells when you reach certain
+      levels in this class, as shown on the Circle of the Verdant Spells
+      table.</p><p>Once you gain access to one of these spells, you always have
+      them prepared, and they don’t count against the number of spells you can
+      prepare each day. If you gain access to a spell that doesn't appear on the
+      Druid Spell List, the spell is nonetheless a druid spell for you.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1703953644453
+  modifiedTime: 1704060172176
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!ccDGBElqUHf54uNi'
+

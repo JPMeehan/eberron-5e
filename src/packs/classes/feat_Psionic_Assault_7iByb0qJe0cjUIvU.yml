@@ -1,0 +1,88 @@
+folder: n6hAZmCF5371AD5g
+name: Psionic Assault
+type: feat
+_id: 7iByb0qJe0cjUIvU
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 11th level, you have learned to channel the same psychic power
+      you’ve trained to defend against. Before making a weapon attack, you can
+      change all the damage dealt by the attack to psychic or force damage. If
+      you do, this damage ignores the target’s resistances, and treats immunity
+      as resistance. When changing the damage type in this way, your reach or
+      range becomes 10 feet longer than normal, as you psionically manipulate
+      your weapon</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Summit Road 11
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 11000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704055760335
+  modifiedTime: 1704061286126
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!7iByb0qJe0cjUIvU'
+

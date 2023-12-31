@@ -1,0 +1,86 @@
+folder: PPi7Yc5M39RMH0tj
+name: Divine Strike
+type: feat
+_id: lZVGI4J2Kx4k6SN1
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 8th level, you gain the ability to infuse your weapon strikes with
+      divine energy. Once on each of your turns when you hit a creature with a
+      weapon attack, you can cause the attack to deal an extra 1d8 radiant
+      damage to the target. When you reach 14th level, the extra damage
+      increases to 2d8.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Liberation Domain 8
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 8000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704059878382
+  modifiedTime: 1704061286130
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!lZVGI4J2Kx4k6SN1'
+

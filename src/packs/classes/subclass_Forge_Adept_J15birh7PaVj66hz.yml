@@ -22,7 +22,7 @@ system:
     custom: ''
     license: DMsGuild CCA
     book: Exploring Eberron
-    page: ''
+    page: Ch. 6
   identifier: forge-adept
   classIdentifier: artificer
   advancement:
@@ -85,7 +85,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686341166752
-  modifiedTime: 1702886630173
+  modifiedTime: 1704062130343
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!J15birh7PaVj66hz'
 

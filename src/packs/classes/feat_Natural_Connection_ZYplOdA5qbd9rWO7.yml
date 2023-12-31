@@ -2,7 +2,7 @@ folder: DYYair8R4grZPWH1
 name: Natural Connection
 type: feat
 _id: ZYplOdA5qbd9rWO7
-img: icons/svg/item-bag.svg
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -12,7 +12,10 @@ system:
       list, which count as Bard spells for you.</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Giant Guide to Xen'drik
   activation:
     type: ''
     cost: null
@@ -59,14 +62,14 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
-  requirements: ''
+  requirements: College of Nature 3
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 3000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -76,7 +79,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1703913038564
-  modifiedTime: 1703913048010
+  modifiedTime: 1704061286022
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!ZYplOdA5qbd9rWO7'
 

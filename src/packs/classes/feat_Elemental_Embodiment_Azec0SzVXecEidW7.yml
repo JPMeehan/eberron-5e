@@ -1,0 +1,89 @@
+folder: 7PMZ3AO0zqY0bgPv
+name: Elemental Embodiment
+type: feat
+_id: Azec0SzVXecEidW7
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 10th level, you can expend two uses of your Wild Shape feature to
+      become the personification of elemental chaos. For the normal duration of
+      the ability, you can Wild Shape into either an air, earth, fire, or water
+      elemental — but the uncontrollable nature of your power makes it difficult
+      to pin down which. Roll on the Chaotic Form table to determine which kind
+      of elemental you turn into. Additionally, your attacks in this form count
+      as magical for the purpose of overcoming resistance and immunity to
+      nonmagical attacks</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Circle of Chaos 10
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 10000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704058030648
+  modifiedTime: 1704061286120
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!Azec0SzVXecEidW7'
+

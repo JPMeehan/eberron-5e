@@ -22,6 +22,9 @@ system:
     unidentified: ''
   source:
     license: DMsGuild CCA
+    custom: ''
+    book: Exploring Eberron
+    page: Ch. 6
   identifier: college-of-the-dirge-singer
   classIdentifier: bard
   advancement:
@@ -73,7 +76,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686341327776
-  modifiedTime: 1702886575024
+  modifiedTime: 1704062145862
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!g8TMe5LK4Gx8h7nx'
 

@@ -1,0 +1,88 @@
+folder: PPi7Yc5M39RMH0tj
+name: Voice of Speed
+type: feat
+_id: MT3QTmMJJ8vhVMpr
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, you can invoke the power of chaos to drive an
+      ally to reposition. If you cast a spell with a spell slot of 1st level or
+      higher and target an ally with the spell, that ally can use their reaction
+      immediately after the spell to move up to their speed without provoking
+      attacks of opportunity, or to try to escape a grapple (against the normal
+      DC). </p><p>If the spell targets more than one ally, you choose the ally
+      who can make the attack</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Liberation Domain 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 1000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704059597614
+  modifiedTime: 1704061286128
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!MT3QTmMJJ8vhVMpr'
+

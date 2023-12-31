@@ -2,10 +2,17 @@ folder: n6hAZmCF5371AD5g
 name: Summit Road
 type: subclass
 _id: TgH3v1qmHAvnlmZZ
-img: icons/svg/item-bag.svg
+img: icons/environment/wilderness/cave-entrance-mountain-blue.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>The Summit Road isn’t for the faint of heart: its members face threats
+      from within as well as without, and as a result, secrecy and vigilance are
+      absolute necessities. Many guides receive the training typical of the
+      ranger class, but with a focus on stealth and protecting their allies. Not
+      every member of the Summit Road has levels in this specific subclass —
+      it’s meant to represent what an elite scout would mechanically look
+      like</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,7 +21,53 @@ system:
     book: Linvakri's Guide to Syrkarn
   identifier: summit-road
   classIdentifier: ranger
-  advancement: []
+  advancement:
+    - _id: cCSyKqOZvelxbBQg
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.dMElRXHEWbDtqTXv
+          - Compendium.eberron-5e.classes.Item.74pFjyEJ4UeJGUYq
+          - Compendium.eberron-5e.classes.Item.ipiLCF5RAn6zxmaz
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: null
+    - _id: OnApHBpNwvTbqWhl
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.2NS8gKCwTFvwWhxt
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: ''
+      icon: null
+    - _id: wp9RIXEh2Xqsts7a
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.7iByb0qJe0cjUIvU
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: ''
+      icon: null
+    - _id: hBNhQZ9t21BxVuA2
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.ZhJg50lb9ixM3jK9
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -29,7 +82,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686184867624
-  modifiedTime: 1702886723204
+  modifiedTime: 1704055936959
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!TgH3v1qmHAvnlmZZ'
 

@@ -1,0 +1,87 @@
+folder: OQKntTBFL3m60h4x
+name: Acidic Armor
+type: feat
+_id: Khe5UCQKVEs37VG8
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 6th level, you release a wave of caustic energy to repel incoming
+      attacks. As a reaction when you take damage from a creature you can see,
+      you can force that creature to make a Constitution saving throw against
+      your spell save DC. On a fail, that creature takes a number of d6’s of
+      acid damage equal to your Charisma modifier. You can use this feature a
+      number of times equal to your Charisma modifier per long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Serpentblood 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 6000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704056124424
+  modifiedTime: 1704061286148
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!Khe5UCQKVEs37VG8'
+

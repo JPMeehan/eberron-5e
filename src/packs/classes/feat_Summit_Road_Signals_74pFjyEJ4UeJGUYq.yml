@@ -1,0 +1,87 @@
+folder: n6hAZmCF5371AD5g
+name: Summit Road Signals
+type: feat
+_id: 74pFjyEJ4UeJGUYq
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 3rd level, you learn a unique form of thieves’ cant used by your
+      fellow guides to send secret messages. Similarly to the version presented
+      in the Rogue class, it takes four times longer to convey an idea in this
+      code than to speak it plainly, and you also learn a set of signs and
+      symbols to communicate nonverbally. Creatures who know this code can’t
+      decipher messages in other similar systems, and vice versa.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Summit Road 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704055710702
+  modifiedTime: 1704061286123
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!74pFjyEJ4UeJGUYq'
+

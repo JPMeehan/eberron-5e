@@ -1,0 +1,91 @@
+folder: OQKntTBFL3m60h4x
+name: Anathemic Apotheosis
+type: feat
+_id: GbMHlSDwkJKKhZc8
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 18th level, you can assume the form of a great feathered serpent
+      with multiple heads and rainbow wings, inspiring awe and fear in your
+      enemies. As a bonus action, once per short rest, you you gain the
+      following benefits for one minute:</p><ul><li>Once per turn, whenever you
+      deal damage to a creature with an attack or a spell, you can deal an extra
+      3d10 radiant damage.</li><li>You gain a fly speed of 60 feet.</li><li>If a
+      creature ends its turn within 5 feet of you, you can use a reaction to
+      force them to make a Wisdom saving throw against your spell DC. On a fail,
+      they are either charmed or frightened of you (your choice) until the end
+      of their next turn.</li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Serpentblood 18
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 18000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704056171602
+  modifiedTime: 1704061286149
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!GbMHlSDwkJKKhZc8'
+

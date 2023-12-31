@@ -20,7 +20,69 @@ system:
     book: Sarhain's Guide to the Silver Flame
   identifier: silver-pyromancer
   classIdentifier: wizard
-  advancement: []
+  advancement:
+    - _id: tXj0fzIzpGdm1K5G
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - weapon:mar
+          - armor:lgt
+        choices: []
+        hint: |-
+          You gain proficiency with light armor, and martial
+          weapons
+      level: 2
+      title: Templar Training
+      icon: null
+      value: {}
+    - _id: XpB14bE65oYmZQLx
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.uxi9q1PQ4nmUlHip
+          - Compendium.eberron-5e.classes.Item.PiMGiZegO2GVtYmm
+          - Compendium.eberron-5e.classes.Item.h5mmJHjRjZWAS20u
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: ''
+      icon: null
+    - _id: dNGkKhSFo08EuBhN
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.Km93IkVwqTNkcI0Q
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: YkXOrccmw86uZ2gz
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.aNsa78ZbwHxrMHmD
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: ''
+      icon: null
+    - _id: nz8CJfw3N9sfue5r
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.EEo3bi6z6dtc06Ts
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -35,7 +97,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686185344350
-  modifiedTime: 1702886723204
+  modifiedTime: 1704055415815
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!D15lPZDWlBxa1aYH'
 

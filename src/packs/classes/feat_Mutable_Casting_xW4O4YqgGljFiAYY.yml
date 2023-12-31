@@ -1,0 +1,86 @@
+folder: 7PMZ3AO0zqY0bgPv
+name: Mutable Casting
+type: feat
+_id: xW4O4YqgGljFiAYY
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 2nd level, you learn the ways of the elements, and can transmute
+      them at your whim. When you cast a spell that deals acid, cold, fire,
+      lightning, or thunder damage, you may change that damage type to any of
+      the other types listed above. You can use this feature a number of times
+      equal to your Wisdom modifier per long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Circle of Chaos 2
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 2000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704057784646
+  modifiedTime: 1704061286117
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!xW4O4YqgGljFiAYY'
+

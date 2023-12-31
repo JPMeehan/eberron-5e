@@ -1,0 +1,114 @@
+folder: PPi7Yc5M39RMH0tj
+name: Liberation Domain
+type: subclass
+_id: YLwZiuycqUPZSKQU
+img: icons/magic/control/debuff-chains-shackle-movement-red.webp
+system:
+  description:
+    value: >-
+      <p>Many chaotic people feel that freedom is the right of all beings, and
+      this is nowhere believed more than in Syrkarn. The Path of Reconstruction
+      and the Spirit of Syrkarn give access to this domain, but so does the
+      Sundered Heart. Freedom means different things to different people, and
+      there are those who feel it should mean the freedom to kill and destroy
+      whatever they please. Even the good-aligned followers of this domain often
+      clash with their more lawful allies.</p><p> On other settings, gods such
+      as Trithereon and Aerdrie Faenya offer it</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Linvakri's Guide to Syrkarn
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  identifier: liberation-domain
+  classIdentifier: ''
+  advancement:
+    - _id: TLtDIp467httDEpT
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.MT3QTmMJJ8vhVMpr
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+    - _id: 6nWVWTpzGhYko2Ma
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.5mzWLvoU8APzLoP7
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: ''
+      icon: null
+    - _id: hj0bTr7jXHaPeohG
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.9Dukq7ywjoraNSvO
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: iZDGaSokSM4n92zE
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.lZVGI4J2Kx4k6SN1
+        optional: false
+        spell: null
+      value: {}
+      level: 8
+      title: ''
+      icon: null
+    - _id: 9BmcVrbKn1DL5DLQ
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.InpWB5TcT5MM033Q
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: ''
+      icon: null
+    - _id: bKQGZEHce1l4BIny
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:acr
+          - weapon:mar
+        choices: []
+        hint: |-
+          When you choose this domain at 1st level, you gain
+          proficiency with martial weapons. You also gain
+          proficiency in the Acrobatics skill.
+      level: 1
+      title: Bonus Proficiencies
+      icon: null
+      value: {}
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704059419389
+  modifiedTime: 1704060172176
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!YLwZiuycqUPZSKQU'
+

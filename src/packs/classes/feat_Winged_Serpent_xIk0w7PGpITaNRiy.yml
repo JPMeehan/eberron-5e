@@ -1,0 +1,89 @@
+folder: A19PFixmJlTFsgYO
+name: Winged Serpent
+type: feat
+_id: xIk0w7PGpITaNRiy
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Your connection to the couatl has grown more powerful. You can use a
+      bonus action to manifest a pair of iridescent rainbow-feathered wings from
+      your back. While the wings are present, you have a flying speed equal to
+      your walking speed. The wings last until you're incapacitated, you die, or
+      you dismiss them as a bonus action.</p><p>In addition, when you make an
+      unarmed strike with Flurry of Blows, you can use Psionic Strike with that
+      strike without spending the ki point for Psionic Strike. You can still use
+      Psionic Strike only once per turn</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Sarhain's Guide to the Silver Flame
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Shulassakar 11
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 11000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704054086797
+  modifiedTime: 1704061286156
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!xIk0w7PGpITaNRiy'
+

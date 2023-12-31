@@ -2,7 +2,7 @@ folder: tjsud7IonT1Vatxe
 name: Peerless Tracker
 type: feat
 _id: OdJy4SZ8AnX5ApPh
-img: icons/svg/item-bag.svg
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -18,7 +18,10 @@ system:
       and your allies</li></ul>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Giant Guide to Xen'drik
   activation:
     type: ''
     cost: null
@@ -65,14 +68,14 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
-  requirements: ''
+  requirements: Hunt Domain 1
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 1000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -82,7 +85,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1703914142010
-  modifiedTime: 1703914385334
+  modifiedTime: 1704061286150
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!OdJy4SZ8AnX5ApPh'
 

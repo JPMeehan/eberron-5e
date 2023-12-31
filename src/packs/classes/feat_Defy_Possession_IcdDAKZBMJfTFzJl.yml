@@ -42,7 +42,7 @@ system:
     target: null
     amount: null
     scale: false
-  ability: null
+  ability: ''
   actionType: other
   attackBonus: ''
   chatFlavor: ''
@@ -74,7 +74,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686418495801
-  modifiedTime: 1703911612390
+  modifiedTime: 1704061533542
   lastModifiedBy: MVioF9x1qI1WYGx1
 sort: 1000
 ownership:

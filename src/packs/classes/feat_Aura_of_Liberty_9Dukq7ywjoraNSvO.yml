@@ -1,0 +1,85 @@
+folder: PPi7Yc5M39RMH0tj
+name: Aura of Liberty
+type: feat
+_id: 9Dukq7ywjoraNSvO
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 6th level, you and all allies within 30 feet are unaffected by
+      difficult terrain and cannot have your speed reduced by magic.
+      </p><p>Additionally, spells and other magical effects cannot cause you to
+      be paralyzed or restrained.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Linvakri's Guide to Syrkarn
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Liberation Domain 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 6000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704059807087
+  modifiedTime: 1704061286129
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!9Dukq7ywjoraNSvO'
+

@@ -2,7 +2,7 @@ folder: DYYair8R4grZPWH1
 name: Speech of Beast and Bough
 type: feat
 _id: UpXfMKj7a9IiMhqC
-img: icons/svg/item-bag.svg
+img: icons/svg/book.svg
 system:
   description:
     value: >-
@@ -14,7 +14,10 @@ system:
       advantage on Charisma checks you make to influence them.</p>
     chat: ''
     unidentified: ''
-  source: {}
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Giant Guide to Xen'drik
   activation:
     type: ''
     cost: null
@@ -61,14 +64,14 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
-  requirements: ''
+  requirements: College of Nature 3
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 3000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -78,7 +81,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1703913080134
-  modifiedTime: 1703913084337
+  modifiedTime: 1704061286032
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!UpXfMKj7a9IiMhqC'
 
