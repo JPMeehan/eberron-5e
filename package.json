@@ -5,7 +5,8 @@
   "main": "eberron-5e.mjs",
   "scripts": {
     "pushLDBtoYML": "node ./tools/pushLDBtoYML.mjs",
-    "pullYMLtoLDB": "node ./tools/pullYMLtoLDB.mjs"
+    "pullYMLtoLDB": "node ./tools/pullYMLtoLDB.mjs",
+    "updateAdvancements": "node ./tools/updateAdvancements.mjs"
   },
   "repository": {
     "type": "git",

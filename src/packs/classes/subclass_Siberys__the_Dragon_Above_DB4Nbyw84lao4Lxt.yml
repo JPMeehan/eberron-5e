@@ -32,6 +32,7 @@ system:
         spell: null
       value: {}
       level: 1
+      title: Otherworldly Patron Feature
     - _id: Iq2awC3nClVIZqEq
       type: ItemGrant
       configuration:
@@ -69,7 +70,7 @@ system:
     progression: none
     ability: ''
 effects: []
-sort: -100000
+sort: 500
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -82,4 +83,3 @@ _stats:
   modifiedTime: 1702848617698
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!DB4Nbyw84lao4Lxt'
-

@@ -57,7 +57,7 @@ system:
         spell: null
       value: {}
       level: 3
-      title: ''
+      title: Artificer Specialist Feature
       icon: null
     - _id: 6GK2wX6VQYDXxdZF
       type: ItemGrant
@@ -68,7 +68,7 @@ system:
         spell: null
       value: {}
       level: 5
-      title: ''
+      title: Artificer Specialist Feature
       icon: null
     - _id: 9e7w2ITPkpxGoZiz
       type: ItemGrant
@@ -79,7 +79,7 @@ system:
         spell: null
       value: {}
       level: 9
-      title: ''
+      title: Artificer Specialist Feature
       icon: null
     - _id: xz7e36i6P10GMAjn
       type: ItemGrant
@@ -90,13 +90,13 @@ system:
         spell: null
       value: {}
       level: 15
-      title: ''
+      title: Artificer Specialist Feature
       icon: null
   spellcasting:
     progression: none
     ability: ''
 effects: []
-sort: 0
+sort: 500
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -109,4 +109,3 @@ _stats:
   modifiedTime: 1703910434127
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!8Svo7NlQjqqiNXhj'
-

@@ -40,7 +40,7 @@ system:
         spell: null
       value: {}
       level: 2
-      title: ''
+      title: Druid Circle Feature
       icon: null
     - _id: WXiPSMktXPxMb1ah
       type: Trait
@@ -64,7 +64,7 @@ system:
         spell: null
       value: {}
       level: 6
-      title: ''
+      title: Druid Circle Feature
       icon: null
     - _id: 4hGEX71jCK8By8Uc
       type: ItemGrant
@@ -75,7 +75,7 @@ system:
         spell: null
       value: {}
       level: 10
-      title: ''
+      title: Druid Circle Feature
       icon: null
     - _id: Af17hTjJMx8y3tdA
       type: ItemGrant
@@ -86,13 +86,13 @@ system:
         spell: null
       value: {}
       level: 14
-      title: ''
+      title: Druid Circle Feature
       icon: null
   spellcasting:
     progression: none
     ability: ''
 effects: []
-sort: 0
+sort: 500
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -105,4 +105,3 @@ _stats:
   modifiedTime: 1703920033938
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!nJEHKHM0LrZj6siq'
-

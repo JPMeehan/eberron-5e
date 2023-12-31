@@ -66,7 +66,7 @@ system:
     progression: none
     ability: ''
 effects: []
-sort: -400000
+sort: 500
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -79,4 +79,3 @@ _stats:
   modifiedTime: 1704062145862
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!g8TMe5LK4Gx8h7nx'
-

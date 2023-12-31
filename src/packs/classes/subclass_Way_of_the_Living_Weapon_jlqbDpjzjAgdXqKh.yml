@@ -89,7 +89,7 @@ system:
         spell: null
       value: {}
       level: 11
-      title: Monastic Tradition
+      title: Monastic Tradition Feature
       icon: null
     - _id: 5L8TkHP0dojryhcQ
       type: ScaleValue
@@ -135,7 +135,7 @@ system:
     progression: none
     ability: ''
 effects: []
-sort: 0
+sort: 500
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -148,4 +148,3 @@ _stats:
   modifiedTime: 1704062202732
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!jlqbDpjzjAgdXqKh'
-

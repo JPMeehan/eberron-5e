@@ -48,7 +48,7 @@ system:
         spell: null
       value: {}
       level: 2
-      title: ''
+      title: Arcane Tradition Feature
       icon: null
     - _id: dNGkKhSFo08EuBhN
       type: ItemGrant
@@ -59,7 +59,7 @@ system:
         spell: null
       value: {}
       level: 6
-      title: ''
+      title: Arcane Tradition Feature
       icon: null
     - _id: YkXOrccmw86uZ2gz
       type: ItemGrant
@@ -70,7 +70,7 @@ system:
         spell: null
       value: {}
       level: 10
-      title: ''
+      title: Arcane Tradition Feature
       icon: null
     - _id: nz8CJfw3N9sfue5r
       type: ItemGrant
@@ -81,13 +81,13 @@ system:
         spell: null
       value: {}
       level: 14
-      title: ''
+      title: Arcane Tradition Feature
       icon: null
   spellcasting:
     progression: none
     ability: ''
 effects: []
-sort: 19410
+sort: 500
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -100,4 +100,3 @@ _stats:
   modifiedTime: 1704055415815
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!D15lPZDWlBxa1aYH'
-
