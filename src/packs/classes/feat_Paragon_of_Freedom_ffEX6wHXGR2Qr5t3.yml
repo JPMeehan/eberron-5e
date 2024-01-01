@@ -1,0 +1,87 @@
+folder: kUQ4lj2SUBWTAyeV
+name: Paragon of Freedom
+type: feat
+_id: ffEX6wHXGR2Qr5t3
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>In battle, you become a dauntless vanguard, leading the charge against
+      your foes no matter the situation. You gain the following
+      benefits:</p><ul><li>You gain a swimming and climbing speed equal to your
+      movement speed.</li><li>You gain immunity to being paralysed or
+      restrained, and are unaffected by difficult terrain.</li><li>You can cast
+      zephyr strike at will without expending a spell splot.</li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Oath of Freedom 20
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 20000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704139485642
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!ffEX6wHXGR2Qr5t3'
+

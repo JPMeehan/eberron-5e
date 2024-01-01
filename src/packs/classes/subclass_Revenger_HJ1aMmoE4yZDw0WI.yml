@@ -2,7 +2,7 @@ folder: eHtWGBmYvQgOWaAs
 name: Revenger
 type: subclass
 _id: HJ1aMmoE4yZDw0WI
-img: icons/svg/item-bag.svg
+img: icons/skills/melee/blood-slash-foam-red.webp
 system:
   description:
     value: >-
@@ -32,7 +32,67 @@ system:
     license: DMsGuild CCA
   identifier: revenger
   classIdentifier: rogue
-  advancement: []
+  advancement:
+    - _id: QtHvFUS6MwpIMuo8
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.ul3mRDIeHIcFrUmW
+          - Compendium.eberron-5e.classes.Item.NOhpD0JzN2ohuH34
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Roguish Archetype Feature
+      icon: null
+    - _id: bkxt6zDiM932qTqE
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: false
+        grants:
+          - skills:dec
+        choices: []
+        hint: >-
+          You gain proficiency in Deception. If you already have proficiency,
+          your proficiency bonus is instead doubled for Deception checks.
+      level: 3
+      title: Vendetta
+      icon: null
+      value: {}
+    - _id: kWzBzdSXlBkadgHm
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.s54YiEp59DrYpnlW
+        optional: false
+        spell: null
+      value: {}
+      level: 9
+      title: Roguish Archetype Feature
+      icon: null
+    - _id: kVLK0ZtsdDtuFUXn
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.YitUTbKgl0zYeTWb
+        optional: false
+        spell: null
+      value: {}
+      level: 13
+      title: Roguish Archetype Feature
+      icon: null
+    - _id: sbyhTGwFMbzIwmrF
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.mmVSUKj3bvYJZhNc
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Roguish Archetype Feature
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -47,7 +107,6 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702706548203
-  modifiedTime: 1702886424283
+  modifiedTime: 1704140322221
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!HJ1aMmoE4yZDw0WI'
-

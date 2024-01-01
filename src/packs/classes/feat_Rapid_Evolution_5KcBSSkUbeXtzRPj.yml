@@ -1,0 +1,85 @@
+folder: n6rJjE9GmtVSvd30
+name: Rapid Evolution
+type: feat
+_id: 5KcBSSkUbeXtzRPj
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>When you use Second Wind, immediately after triggering any Mutagens and
+      restoring hit points, you can choose to switch focus from one of your
+      active Mutagens to another that you have access to. This causes any active
+      effects on you from the Mutagen that was switched out to end.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Patchwork Blade 10
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 10000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704137200557
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!5KcBSSkUbeXtzRPj'
+

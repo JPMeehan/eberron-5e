@@ -1,0 +1,86 @@
+folder: n6rJjE9GmtVSvd30
+name: I, Monster
+type: feat
+_id: 7raPpxH1O9yUWTSe
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You have ascended to the pinnacle - a prime hunter undefeated by the
+      horrors of the world. When you Action Surge or use Second Wind, you gain
+      advantage on all of your attacks until the end of your turn. Additionally,
+      when you make a Strength (Athletics) or Charisma (Intimidation) check, you
+      can treat a d20 roll of 9 or lower as a 10.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Patchwork Blade 18
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 18000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704137305268
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!7raPpxH1O9yUWTSe'
+

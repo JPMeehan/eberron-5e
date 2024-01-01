@@ -1,0 +1,98 @@
+folder: a9PSrI8B3r938dBB
+name: Incarnate Titan
+type: feat
+_id: tser8F2BHffayn4d
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You can call on the magic of the giants to grow to a towering size with
+      barely-contained power. When you cast a sorcerer spell and expend a spell
+      slot, you can choose to enter your Titan State before the spell resolves,
+      gaining the following benefits until it ends:</p><ul><li>Your size
+      increases to Large, and your reach increases by 5 feet.</li><li>You gain a
+      bonus to Strength ability checks and saving throws equal to your Charisma
+      modifier.</li><li>You gain temporary hit points equal to 5 x the level of
+      the expended spell slot.</li><li>When you deal damage with a non-cantrip
+      spell (including the spell cast to enter Titan state), you can choose to
+      lose a number of hit points equal to the level of the spell. Doing so does
+      not force any saving throws to maintain concentration. If you do so, one
+      creature that took damage from the spell takes additional force damage
+      equal to twice the hit points lost. You can choose to lose hit points in
+      this way any number of times, choosing a different creature to take the
+      damage every time you do so.</li></ul><p>This state lasts for 1 minute, or
+      until you end it as a bonus action. Once used, you cannot use this ability
+      again until you complete a long or short rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Giant Soul 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 1000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704140431353
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!tser8F2BHffayn4d'
+

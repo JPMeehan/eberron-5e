@@ -1,0 +1,86 @@
+folder: M4J7Hgsjxx3uGSmE
+name: Aberration
+type: feat
+_id: p28KVBoSXjEaONDi
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>While this mutagen is active, you have resistance to psychic damage,
+      and whenever a creature deals psychic damage to you, that creature takes
+      the same amount of damage that you do.</p><p> When you Action Surge or use
+      Second Wind, your reach cumulatively increases by 5 feet as your anatomy
+      becomes pliable and warped. This lasts until you next complete a short or
+      long rest</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: mutagen
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704137885951
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!p28KVBoSXjEaONDi'
+

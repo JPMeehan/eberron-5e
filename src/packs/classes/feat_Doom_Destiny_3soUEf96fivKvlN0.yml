@@ -1,0 +1,92 @@
+folder: pxx6ef00hjtlSCcD
+name: Doom Destiny
+type: feat
+_id: 3soUEf96fivKvlN0
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 14th level, you can damn a creature to the worst possible fate,
+      consigning it to a rapid demise. As an action, you can choose a creature
+      that you can see within 60 feet of you and curse it to a doomed destiny.
+      The creature has disadvantage on all ability checks, attack rolls, and
+      saving throws, and all attack rolls against it have advantage. The effect
+      lasts until removed by a spell such as remove curse, or until you lose
+      concentration on the effect (as though concentrating on a spell). You can
+      use this ability multiple times, but subsequent uses after the first
+      require you to expend a 5th-level spell slot. You regain the ability to
+      use this feature without expending a spell slot upon completing a long
+      rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Fateweaver 14
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 14000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704141004781
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!3soUEf96fivKvlN0'
+

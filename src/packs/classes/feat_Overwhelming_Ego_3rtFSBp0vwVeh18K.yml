@@ -1,0 +1,96 @@
+folder: LeD433lVZ3MmHCvY
+name: Overwhelming Ego
+type: feat
+_id: 3rtFSBp0vwVeh18K
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Your fame and exploits are so great that they spread through the land
+      ahead of you. Before speaking to someone for the first time (including
+      during combat), you can declare that they have heard of you and your
+      accomplishments. The target must share at least one language in common
+      with you. This does not necessarily mean they like you (in fact, they may
+      now hate you as a result), but they have heard of you. When interacting
+      with someone that has heard of you in this way, you can add twice your
+      Wisdom modifier to all Charisma ability checks made to interact with them.
+      You can declare this once, and regain the ability to do so upon completing
+      a long rest.</p><p>Additionally, if you are ever in combat against them,
+      their opinion of you clouds their judgment. When you hit them with a melee
+      attack, you can spend 1 ki point to give them disadvantage on attack rolls
+      against targets other than you until they next hit you with an attack, as
+      your infuriating attitude (presumably) drives them up the wall.</p><p>One
+      should keep a list of their adoring fans…just in case</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Explorer 11
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 11000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704138322628
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!3rtFSBp0vwVeh18K'
+

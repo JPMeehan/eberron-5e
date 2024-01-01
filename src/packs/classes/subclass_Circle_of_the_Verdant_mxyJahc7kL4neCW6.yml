@@ -2,7 +2,7 @@ folder: wYHD0A6W7wuN06EL
 name: Circle of the Verdant
 type: subclass
 _id: mxyJahc7kL4neCW6
-img: icons/svg/item-bag.svg
+img: icons/magic/nature/leaf-rune-glow-green.webp
 system:
   description:
     value: >-
@@ -33,7 +33,78 @@ system:
     license: DMsGuild CCA
   identifier: circle-of-the-verdant
   classIdentifier: druid
-  advancement: []
+  advancement:
+    - _id: 8VQqptYgo1TiH5AP
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - skills:nat
+        choices: []
+        hint: ''
+      level: 2
+      title: Bonus Proficiencies
+      icon: null
+      value: {}
+    - _id: l9YXn41QKYpGDzc4
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: false
+        grants:
+          - tool:herb
+        choices: []
+        hint: ''
+      level: 2
+      title: Bonus Proficiencies
+      icon: null
+      value: {}
+    - _id: t1EQ7xYmyGMTsoAD
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.ccDGBElqUHf54uNi
+          - Compendium.eberron-5e.classes.Item.2b5e3axOBSAousfU
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Druid Circle Feature
+      icon: null
+    - _id: FTj1ECrCVYZByQo1
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.0JezkWGiMDH1u985
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Druid Circle Feature
+      icon: null
+    - _id: y3zdaOPX4K875QYs
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.jLNMhihZQPhFRtS5
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Druid Circle Feature
+      icon: null
+    - _id: 29St7yeU3FiwS95y
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.ykQ3YqLWwiOnZ5Fb
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Druid Circle Feature
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -48,7 +119,6 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702705863606
-  modifiedTime: 1702886424283
+  modifiedTime: 1704136388490
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!mxyJahc7kL4neCW6'
-

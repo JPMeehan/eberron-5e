@@ -39,7 +39,7 @@ system:
         spell: null
       value: {}
       level: 3
-      title: ''
+      title: Ranger Archetype Feature
       icon: null
     - _id: 6toYxuHoAEq09cWU
       type: ItemGrant
@@ -50,7 +50,7 @@ system:
         spell: null
       value: {}
       level: 7
-      title: ''
+      title: Ranger Archetype Feature
       icon: null
     - _id: SfhwWK09HpmzbAL1
       type: ItemGrant
@@ -61,7 +61,7 @@ system:
         spell: null
       value: {}
       level: 11
-      title: ''
+      title: Ranger Archetype Feature
       icon: null
     - _id: 5N4lg6sIhaWxsLBj
       type: ItemGrant
@@ -72,7 +72,7 @@ system:
         spell: null
       value: {}
       level: 15
-      title: ''
+      title: Ranger Archetype Feature
       icon: null
     - _id: GF4ie3CQeSxotfei
       type: Trait
@@ -106,4 +106,3 @@ _stats:
   modifiedTime: 1704091993363
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!7aZpr68vrkkKRHRH'
-

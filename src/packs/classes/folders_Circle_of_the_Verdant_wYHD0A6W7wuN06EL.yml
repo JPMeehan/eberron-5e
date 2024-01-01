@@ -1,5 +1,5 @@
 name: Circle of the Verdant
-sorting: a
+sorting: m
 folder: 7b9wAlyBfk9fIR1D
 type: Item
 _id: wYHD0A6W7wuN06EL
@@ -7,11 +7,11 @@ sort: 0
 color: null
 flags: {}
 _stats:
-  systemId: null
-  systemVersion: null
-  coreVersion: null
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
+  modifiedTime: 1704141413937
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!folders!wYHD0A6W7wuN06EL'
 

@@ -1,0 +1,86 @@
+folder: wYHD0A6W7wuN06EL
+name: Deep Roots
+type: feat
+_id: jLNMhihZQPhFRtS5
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>While in your Forest Form, you and all allied creatures within 15 feet
+      of you have advantage on Constitution and Strength saving throws, and
+      cannot be moved by other creatures unless that creature is Huge or larger,
+      they are teleported, or are displaced by the creation of an object or
+      barrier in their space.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Circle of the Verdant 10
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 10000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704136262065
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!jLNMhihZQPhFRtS5'
+

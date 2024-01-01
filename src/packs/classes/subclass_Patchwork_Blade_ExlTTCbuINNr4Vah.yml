@@ -2,7 +2,7 @@ folder: n6rJjE9GmtVSvd30
 name: Patchwork Blade
 type: subclass
 _id: ExlTTCbuINNr4Vah
-img: icons/svg/item-bag.svg
+img: icons/magic/control/fear-fright-jackolanter-orange.webp
 system:
   description:
     value: >-
@@ -38,7 +38,113 @@ system:
     license: DMsGuild CCA
   identifier: patchwork-blade
   classIdentifier: fighter
-  advancement: []
+  advancement:
+    - _id: 69VXYb1av7f6O8gc
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - skills:arc
+        choices: []
+        hint: |-
+          Your study of occult magicks and rituals grants you
+          proficiency in Arcana.
+      level: 3
+      title: Occult Hunter
+      icon: null
+      value: {}
+    - _id: wRkLAJxdy5IgCCSK
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: false
+        grants:
+          - skills:itm
+        choices: []
+        hint: |-
+          Your increasingly monstrous visage is awesome to behold.
+          You gain proficiency in Charisma (Intimidation) checks;
+          if you are already proficient, you instead add twice your
+          proficiency bonus.
+      level: 7
+      title: Dark Kinship
+      icon: null
+      value: {}
+    - _id: pMvshK5tGhHe5qZj
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.ArMSnJrc7DChDycd
+          - Compendium.eberron-5e.classes.Item.cJhmTBU3dLX9qJn3
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Martial Archetype Feature
+      icon: null
+    - _id: cmUwRsYqUvkYD0Bd
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.tPrdb6N4Z4EysqID
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Martial Archetype Feature
+      icon: null
+    - _id: 96UzFBmSdgHgX04M
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.5KcBSSkUbeXtzRPj
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Martial Archetype Feature
+      icon: null
+    - _id: l6N95Z6wIOzqRL0x
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.sc55Y4Qza7KNZWd2
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Martial Archetype Feature
+      icon: null
+    - _id: pkNz3cmasyWiE0d1
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.7raPpxH1O9yUWTSe
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Martial Archetype Feature
+      icon: null
+    - _id: 1lFvWPk5ye8Tl0mJ
+      type: ItemChoice
+      configuration:
+        choices:
+          '3': 1
+        allowDrops: true
+        type: feat
+        pool: []
+        spell: null
+        hint: >-
+          When you choose this archetype, you gain access to one Mutagen of your
+          choice.
+        restriction:
+          type: class
+          subtype: mutagen
+      value: {}
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -53,7 +159,6 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702705915851
-  modifiedTime: 1702886424283
+  modifiedTime: 1704138445668
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!ExlTTCbuINNr4Vah'
-

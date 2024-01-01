@@ -1,0 +1,100 @@
+folder: n6rJjE9GmtVSvd30
+name: Mutagenic Form
+type: feat
+_id: ArMSnJrc7DChDycd
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You can augment your body with the power of the horrors you face,
+      enhancing your abilities in gruesome fashion. When you and your party
+      battle against and kill a creature with a type from the following list,
+      you can spend 1 hour of undisturbed time (which can be performed during a
+      short rest) to bind some of its power to you in an occult ritual. The
+      exact method by which you do this is up to you, and might involve
+      consecrating the weapon used in the name of your religion, implanting part
+      of the creature’s essence within your physical form, or preserving part of
+      its body as a trinket on your person. Upon completion, you permanently
+      unlock that Mutagen. Additionally, when you choose this archetype, you
+      gain access to one Mutagen of your choice.</p><p>When you finish a long
+      rest, you can choose to focus on Mutagens you have unlocked, gaining their
+      benefits. This lasts until you choose to focus on a different Mutagen,
+      switching their effects. You can focus on a number of Mutagens at once
+      equal to your proficiency bonus. If a Mutagen requires a saving throw,
+      your Mutagenic Form save DC equals 8 + your proficiency bonus + your
+      Constitution modifier.</p><p>For every two Mutagens that you focus on,
+      your first melee attack on your turn that hits deals an additional 1d6
+      damage.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Patchwork Blade 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704136415339
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!ArMSnJrc7DChDycd'
+

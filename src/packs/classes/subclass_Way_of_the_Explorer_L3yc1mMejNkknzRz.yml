@@ -2,7 +2,7 @@ folder: LeD433lVZ3MmHCvY
 name: Way of the Explorer
 type: subclass
 _id: L3yc1mMejNkknzRz
-img: icons/svg/item-bag.svg
+img: icons/tools/navigation/map-marked-green.webp
 system:
   description:
     value: >-
@@ -28,7 +28,68 @@ system:
     license: DMsGuild CCA
   identifier: way-of-the-explorer
   classIdentifier: monk
-  advancement: []
+  advancement:
+    - _id: 2HkQscVoIH8THRa6
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - tool:navg
+          - weapon:mar:whip
+        choices: []
+        hint: |-
+          You gain proficiency with whips and navigator’s tools. Whips
+          count as a monk weapon for you.
+      level: 3
+      title: Uncharted Traversal
+      icon: null
+      value: {}
+    - _id: dJBN14dYfUxCX9q9
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.BiKjg9Nre72PmGk3
+          - Compendium.eberron-5e.classes.Item.r1NA3zzE7EDrOnfG
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Monastic Tradition Feature
+      icon: null
+    - _id: 2weYghALjWjqL02H
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.3MpMKNMcAZID9mBl
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Monastic Tradition Feature
+      icon: null
+    - _id: NwAZVNz1lMuIuheO
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.3rtFSBp0vwVeh18K
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Monastic Tradition Feature
+      icon: null
+    - _id: KNEs2WIxhVNHaakF
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.52V7vTN9LZ47wuIm
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Monastic Tradition Feature
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -43,7 +104,6 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702705963860
-  modifiedTime: 1702886424283
+  modifiedTime: 1704138553039
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!L3yc1mMejNkknzRz'
-

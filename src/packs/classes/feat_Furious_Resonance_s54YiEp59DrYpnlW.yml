@@ -1,0 +1,91 @@
+folder: eHtWGBmYvQgOWaAs
+name: Furious Resonance
+type: feat
+_id: s54YiEp59DrYpnlW
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 9th level, you can easily read the scars left behind on the hearts
+      of others. As an action, you can make a Wisdom (Insight) check contested
+      by the Charisma (Deception) check of a creature you can see within 60 feet
+      of you. If you succeed, you learn what they hate the most, and what they
+      fear the most. You and any ally you share this information with gain
+      advantage on Charisma (Persuasion) and (Intimidation) checks against that
+      creature for the next 24 hours. On a failure, the target becomes immune to
+      this ability for the next 24 hours. You can use this ability a number of
+      times equal to your proficiency bonus, and regain all expended uses upon
+      completing a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Revenger 9
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 9000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704140107823
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!s54YiEp59DrYpnlW'
+

@@ -1,0 +1,92 @@
+folder: WKIMYns7vZVhf9cx
+name: Heavy Slumber
+type: feat
+_id: kqKrc3pgjnil90Cj
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>When you cast a spell with an instantaneous duration that deals damage,
+      you can instead choose to forgo all potential damage to attempt to send
+      affected creatures into a magical slumber. Roll the spell’s damage die as
+      normal. If a creature has hit points equal to or lower than the amount of
+      damage they would have taken + your wizard level, they immediately fall
+      asleep and become unconscious. Creatures immune to being charmed are
+      unaffected. Creatures fall asleep for a number of hours equal to the level
+      of the spell cast, with the exception of cantrips, which cause a creature
+      to fall asleep for 1 minute. A sleeping creature wakes up if they take
+      damage, or if another creature uses an action to slap or shake them
+      awake</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: School of Oneiromancy 2
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 2000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704141203695
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!kqKrc3pgjnil90Cj'
+

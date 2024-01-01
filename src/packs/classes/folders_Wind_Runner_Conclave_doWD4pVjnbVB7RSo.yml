@@ -1,5 +1,5 @@
 name: Wind Runner Conclave
-sorting: a
+sorting: m
 folder: reoPQ18jg7p986JA
 type: Item
 _id: doWD4pVjnbVB7RSo
@@ -7,11 +7,11 @@ sort: 0
 color: null
 flags: {}
 _stats:
-  systemId: null
-  systemVersion: null
-  coreVersion: null
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
+  modifiedTime: 1704141392513
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!folders!doWD4pVjnbVB7RSo'
 

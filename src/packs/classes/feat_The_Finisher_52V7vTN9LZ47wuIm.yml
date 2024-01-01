@@ -1,0 +1,88 @@
+folder: LeD433lVZ3MmHCvY
+name: The Finisher
+type: feat
+_id: 52V7vTN9LZ47wuIm
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Your legendary exploits have given rise to your trademark finisher -
+      the one that everyone knows has taken down countless foes and cemented
+      your place in history. When you hit with a melee attack, you can choose to
+      make it The Finisher by spending 6 ki points to deal an additional 8d10
+      damage. If you are under half your maximum hit points, it instead costs 4
+      ki points, and you gain temporary hit points equal to half the additional
+      damage rolled.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Explorer 17
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 17000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704138366672
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!52V7vTN9LZ47wuIm'
+

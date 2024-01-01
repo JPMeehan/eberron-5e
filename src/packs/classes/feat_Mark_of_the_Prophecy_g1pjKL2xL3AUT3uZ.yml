@@ -71,7 +71,7 @@ system:
   type:
     value: class
     subtype: ''
-  requirements: Siberys, the Dragon Above 10
+  requirements: The Dragon Above 10
   recharge:
     value: null
     charged: false
@@ -86,7 +86,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702529965985
-  modifiedTime: 1704060172176
+  modifiedTime: 1704141393921
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!g1pjKL2xL3AUT3uZ'
 

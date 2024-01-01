@@ -1,5 +1,5 @@
 folder: Z8cJ4pD0gInbszXb
-name: Siberys, the Dragon Above
+name: The Dragon Above
 type: subclass
 _id: DB4Nbyw84lao4Lxt
 img: icons/magic/light/beam-horizon-strike-yellow.webp
@@ -80,7 +80,6 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686377731106
-  modifiedTime: 1702848617698
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1704135399666
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!DB4Nbyw84lao4Lxt'
-

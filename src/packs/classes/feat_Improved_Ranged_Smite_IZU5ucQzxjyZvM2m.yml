@@ -5,7 +5,10 @@ _id: IZU5ucQzxjyZvM2m
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You channel the Silver Flame expertly, such that all your ranged
+      attacks carry divine power with them. Whenever you hit a creature with a
+      ranged weapon attack, the creature takes an extra 1d8 radiant damage.</p>
     chat: ''
     unidentified: ''
   source:
@@ -58,14 +61,14 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Paladin 11
   recharge:
     value: null
     charged: false
 effects: []
-sort: 1109450
+sort: 118330
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -75,7 +78,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686185271149
-  modifiedTime: 1702886723204
+  modifiedTime: 1704139149076
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!IZU5ucQzxjyZvM2m'
 

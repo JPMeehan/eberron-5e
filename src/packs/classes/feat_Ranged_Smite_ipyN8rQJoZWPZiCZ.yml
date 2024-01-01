@@ -5,7 +5,15 @@ _id: ipyN8rQJoZWPZiCZ
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>When you hit a creature with a ranged weapon attack, you can expend one
+      spell slot to deal radiant damage to the target, in addition to the
+      weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus
+      1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage
+      increases by 1d8 if the target is an undead or a fiend, to a maximum of
+      6d8.</p><p> Additionally, your ranged weapon attacks are treated as melee
+      weapon attacks for the purposes of Paladin spells you cast, such as
+      searing smite or thunderous smite.</p>
     chat: ''
     unidentified: ''
   source:
@@ -58,14 +66,14 @@ system:
     dc: null
     scaling: spell
   type:
-    value: ''
+    value: class
     subtype: ''
   requirements: Paladin 2
   recharge:
     value: null
     charged: false
 effects: []
-sort: 218330
+sort: 18330
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -75,7 +83,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686185240173
-  modifiedTime: 1702886723204
+  modifiedTime: 1704139143938
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!ipyN8rQJoZWPZiCZ'
 

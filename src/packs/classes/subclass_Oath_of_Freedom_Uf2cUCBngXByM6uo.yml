@@ -2,7 +2,7 @@ folder: kUQ4lj2SUBWTAyeV
 name: Oath of Freedom
 type: subclass
 _id: Uf2cUCBngXByM6uo
-img: icons/svg/item-bag.svg
+img: icons/skills/social/intimidation-impressing.webp
 system:
   description:
     value: >-
@@ -12,13 +12,21 @@ system:
       their own path, and often act as noble revolutionaries and freedom
       fighters. When an invading army oppresses a nation, when a tyrant king
       imprisons his people, or a criminal group begins dealing in lives, that is
-      when the Oath of Freedom rises.</p><p> In Xen’drik, both the Unbound
+      when the Oath of Freedom rises.</p><p>In Xen’drik, both the Unbound
       Brigade and the Silaes Tairn often embody the Oath, fighting against the
       giants who once enslaved them and their kin. Their sworn enemies are those
       such as the Battalion of Basalt Towers, who would use ancient magic to
       rule over the continent once more. In Khorvaire, Oath of Freedom paladins
       arose during the Last War, especially in conquered cities such as
-      Thaliost, or rebelling nations such as the Eldeen Reaches and Darguun.</p>
+      Thaliost, or rebelling nations such as the Eldeen Reaches and
+      Darguun.</p><h3 id="tenets-of-freedom">Tenets of Freedom</h3><p><strong>No
+      Fear.</strong> The odds are never in one’s favor; the battle is never won
+      easily. As long as one fights for what is right, good shall
+      prevail.</p><p><strong>No Chains.</strong> Injustice and shackles are the
+      tools of the oppressor. All beings deserve to be free, and have control
+      over their own fate.</p><p><strong>No Masters.</strong> The thrones of
+      tyrants are built on the bones of the innocent. It is not for a people to
+      serve their leader - a leader exists to serve their people.</p>
     chat: ''
     unidentified: ''
   source:
@@ -28,7 +36,53 @@ system:
     license: DMsGuild CCA
   identifier: oath-of-freedom
   classIdentifier: paladin
-  advancement: []
+  advancement:
+    - _id: OMR3nkQN6GU5RDrg
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.PHDsnPWVQha5om7N
+          - Compendium.eberron-5e.classes.Item.DDDRcvkZ5Rr68zkp
+          - Compendium.eberron-5e.classes.Item.eRSqvL87vbcBQnZe
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Sacred Oath Feature
+      icon: null
+    - _id: wyUYMADcm7MAD9lu
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.ELcCM4qLJYjaakcv
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Sacred Oath Feature
+      icon: null
+    - _id: QQ4LJxZajnWa8uwk
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.3YxM5F0xKN2pwzwS
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Sacred Oath Feature
+      icon: null
+    - _id: YF2ANgI38g7msicS
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.ffEX6wHXGR2Qr5t3
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Sacred Oath Feature
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -43,7 +97,6 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702705996812
-  modifiedTime: 1702886424283
+  modifiedTime: 1704139546074
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!Uf2cUCBngXByM6uo'
-

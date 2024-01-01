@@ -1,5 +1,5 @@
 folder: eOjSkOhpWdYszd1S
-name: Khyber, the Dragon Below
+name: The Dragon Below
 type: subclass
 _id: Qbjmv4IzQINofbbq
 img: icons/magic/light/beam-explosion-pink-purple.webp
@@ -79,7 +79,6 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686377802610
-  modifiedTime: 1702848617698
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1704135405296
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!Qbjmv4IzQINofbbq'
-

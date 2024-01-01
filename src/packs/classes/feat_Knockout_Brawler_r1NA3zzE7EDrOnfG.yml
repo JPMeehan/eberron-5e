@@ -1,0 +1,89 @@
+folder: LeD433lVZ3MmHCvY
+name: Knockout Brawler
+type: feat
+_id: r1NA3zzE7EDrOnfG
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>One’s fists are the first and greatest weapon they are born with, and
+      you are no stranger to good old-fashioned fisticuffs. When a creature hits
+      you with an attack, your first unarmed strike or attack with a whip
+      against them on your next turn has advantage and deals additional damage
+      on a hit equal to a roll of your martial arts die. This increases to two
+      rolls of your martial arts die if you are under half your maximum hit
+      points, spend 1 ki point when you hit with the attack, or have used
+      Uncharted Traversal to add distance to your jump this turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Explorer 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704138271839
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!r1NA3zzE7EDrOnfG'
+

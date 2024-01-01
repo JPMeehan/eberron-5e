@@ -1,0 +1,96 @@
+folder: pxx6ef00hjtlSCcD
+name: Thief of Fate
+type: feat
+_id: vUTzMI7MdA4AoVzW
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Starting at 1st level, when you hit a creature with an attack roll, you
+      can choose to bind it within the strings of fate. The creature must
+      succeed on a Strength saving throw against your spell save DC or become
+      restrained. The creature can repeat the Strength saving throw at the end
+      of each of their turns to end the effect. You can use this feature a
+      number of times equal to your proficiency modifier, and regain all
+      expended uses upon completing a long rest.</p><p> When an enemy creature
+      restrained in this way is reduced to 0 hit points, you can choose to steal
+      part of their fate for yourself, by rolling one d20 and recording the
+      number rolled. You can replace any attack roll, saving throw, or ability
+      check made by you or a creature that you can see with this foretelling
+      roll. You must choose to do so before the roll. The foretelling roll can
+      be used only once, and is lost when you finish a long rest. You can only
+      have one foretelling roll at a time, and lose a held roll if you choose to
+      roll for another.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Fateweaver 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 1000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704140922541
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!vUTzMI7MdA4AoVzW'
+

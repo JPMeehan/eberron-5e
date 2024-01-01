@@ -1,0 +1,86 @@
+folder: pxx6ef00hjtlSCcD
+name: Timeline Shift
+type: feat
+_id: xNIB2jk0MapIq0an
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 10th level, you can stretch your luck to save yourself from death.
+      The first time each day that you would make a death saving throw, you
+      instead regain consciousness with a number of hit points equal to twice
+      your level. The next death saving throw you make before your next long
+      rest counts as a failure regardless of the result.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Fateweaver 10
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 10000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704140964105
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!xNIB2jk0MapIq0an'
+

@@ -1,0 +1,87 @@
+folder: kUQ4lj2SUBWTAyeV
+name: Inspiring Rescue
+type: feat
+_id: 3YxM5F0xKN2pwzwS
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>When you hit a creature with your Savior’s Strike, or grant them a
+      spell with Break the Chains, all allies within 30 feet of that creature
+      can use their reaction to move up their speed as they wish without
+      provoking opportunity attacks. Additionally, any creature that moves in
+      this way gains temporary hit points equal to your Paladin level + your
+      Charisma modifier</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Oath of Freedom 15
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 15000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704139453946
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!3YxM5F0xKN2pwzwS'
+

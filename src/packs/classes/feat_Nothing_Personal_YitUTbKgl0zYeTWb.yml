@@ -1,0 +1,87 @@
+folder: eHtWGBmYvQgOWaAs
+name: Nothing Personal
+type: feat
+_id: YitUTbKgl0zYeTWb
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 13th level, the targets of your Vendetta will always fear the bite
+      of your weapons in their back. When you curse a creature with your
+      Vendetta, as part of the reaction, you can choose to teleport to an
+      available space within 10 feet of them.</p><p> Additionally, your sneak
+      attack damage dice become d10s against targets marked by your
+      Vendetta.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Revenger 13
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 13000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704140251262
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!YitUTbKgl0zYeTWb'
+

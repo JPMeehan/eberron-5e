@@ -1,0 +1,96 @@
+folder: n6rJjE9GmtVSvd30
+name: Dark Kinship
+type: feat
+_id: tPrdb6N4Z4EysqID
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Your increasingly monstrous visage is awesome to behold. You gain
+      proficiency in Charisma (Intimidation) checks; if you are already
+      proficient, you instead add twice your proficiency
+      bonus.</p><p>Additionally, your experience in battle grants you a greater
+      understanding of the foes you face. As a bonus action, you can make an
+      Intelligence (Arcana) check contested by a Charisma (Deception) check from
+      a creature that you can see within 30 feet of you to gauge its fighting
+      capabilities. On a success, you can choose to learn one of the following
+      pieces of information about them:</p><ul><li>Their damage immunities and
+      resistances.</li><li>Which of their ability scores is the
+      highest.</li><li>Whether they are above or below half their maximum hit
+      points.</li><li>Whether they are intelligent enough to speak or understand
+      a language.</li></ul><p>You can attempt to learn about a creature multiple
+      times, but if the target succeeds on the contested ability check, you
+      cannot use this ability against that individual creature for 24 hours.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Patchwork Blade 7
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 7000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704137053356
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!tPrdb6N4Z4EysqID'
+

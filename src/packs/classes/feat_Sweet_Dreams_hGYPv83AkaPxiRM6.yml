@@ -1,0 +1,89 @@
+folder: WKIMYns7vZVhf9cx
+name: Sweet Dreams
+type: feat
+_id: hGYPv83AkaPxiRM6
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>When you fall asleep or are knocked unconscious, you are unaffected by
+      the negative effects of the condition, but are instead considered blinded
+      and lose any ongoing concentration. As a result, you do not fall prone
+      (unless you choose) and can move and act as normal. If you are knocked
+      unconscious as a result of being reduced to 0 hit points, you continue to
+      make death saving throws while in this state.</p><p> Additionally, your
+      dreams cannot be affected by other creatures, spells, or magical effects
+      unless you allow it.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: School of Oneiromancy 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 6000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704141222215
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!hGYPv83AkaPxiRM6'
+

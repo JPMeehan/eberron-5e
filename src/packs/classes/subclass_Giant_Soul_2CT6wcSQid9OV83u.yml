@@ -2,7 +2,7 @@ folder: a9PSrI8B3r938dBB
 name: Giant Soul
 type: subclass
 _id: 2CT6wcSQid9OV83u
-img: icons/svg/item-bag.svg
+img: icons/skills/melee/unarmed-punch-fist.webp
 system:
   description:
     value: >-
@@ -26,7 +26,51 @@ system:
     license: DMsGuild CCA
   identifier: giant-soul
   classIdentifier: sorcerer
-  advancement: []
+  advancement:
+    - _id: dDMD3BAvjJDWwLeq
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.wb9zh46cO021WbAE
+          - Compendium.eberron-5e.classes.Item.tser8F2BHffayn4d
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Sorcerous Origin Feature
+    - _id: b4aNDzbtrq50nAgT
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.7cV2gPvZXRuoUQ55
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Sorcerous Origin Feature
+      icon: null
+    - _id: DEiNoWOePbfq7Ov5
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.5t0Orb9BwqKXC9RI
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Sorcerous Origin Feature
+      icon: null
+    - _id: qMX9rY4IpRWellzC
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.SZeQ1sb1OqwrKW27
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Sorcerous Origin Feature
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -41,7 +85,6 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702706619093
-  modifiedTime: 1702886424283
+  modifiedTime: 1704140750530
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!2CT6wcSQid9OV83u'
-

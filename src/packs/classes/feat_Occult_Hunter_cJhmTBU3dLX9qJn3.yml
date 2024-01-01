@@ -1,0 +1,85 @@
+folder: n6rJjE9GmtVSvd30
+name: Occult Hunter
+type: feat
+_id: cJhmTBU3dLX9qJn3
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Your study of occult magicks and rituals grants you proficiency in
+      Arcana. You have advantage on Intelligence checks made to recall
+      information you have learnt in the past about foes, their abilities, and
+      their weaknesses.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Patchwork Blade 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704136951896
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!cJhmTBU3dLX9qJn3'
+

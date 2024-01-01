@@ -1,0 +1,97 @@
+folder: wYHD0A6W7wuN06EL
+name: One With The Earth
+type: feat
+_id: 0JezkWGiMDH1u985
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>When you take a short or long rest outside of a man-made construction,
+      you can set down roots and enhance the plant life in the area. After 30
+      minutes of resting, you can choose to imbue the land in a 30 foot radius
+      around you with two of the following effects:</p><ul><li>You induce rapid
+      growth in the land, causing the region to become difficult terrain for all
+      creatures except the allies you rest with, as new life blooms.</li><li>You
+      focus on establishing a magic link with the existing plant life, allowing
+      you to communicate with the plants as if you shared a common language. You
+      can question the plants about events in the spell’s area within the past
+      day, gaining information about creatures that have passed, weather, and
+      other circumstances.</li><li>One healing goodberry grows for each hour you
+      spend resting. A berry can be eaten or fed to another creature as an
+      action to restore 1 hit point, and provides enough nourishment to sustain
+      a creature for one day. The berries last until you begin your next long
+      rest.</li></ul><p>These effects last until you leave the affected area,
+      and are blocked by total cover.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Circle of the Verdant 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 6000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704136109352
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!0JezkWGiMDH1u985'
+

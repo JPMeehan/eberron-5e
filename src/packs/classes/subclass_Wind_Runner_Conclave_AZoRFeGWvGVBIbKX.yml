@@ -2,7 +2,7 @@ folder: doWD4pVjnbVB7RSo
 name: Wind Runner Conclave
 type: subclass
 _id: AZoRFeGWvGVBIbKX
-img: icons/svg/item-bag.svg
+img: icons/magic/air/air-wave-gust-blue.webp
 system:
   description:
     value: >-
@@ -30,7 +30,69 @@ system:
     license: DMsGuild CCA
   identifier: wind-runner-conclave
   classIdentifier: ranger
-  advancement: []
+  advancement:
+    - _id: avhwtrVWXN3GQ2Ef
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: false
+        grants:
+          - skills:acr
+        choices: []
+        hint: >-
+          You gain proficiency in the Acrobatics skill. If you are already
+          proficient in Acrobatics, you can add twice your proficiency bonus to
+          ability checks you make with it.
+      level: 3
+      title: Sky Dancer
+      icon: null
+      value: {}
+    - _id: GR29qFhHspXdwRwf
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.Way1kxcTXgkmlBD0
+          - Compendium.eberron-5e.classes.Item.0wx1YjXd0acZTM2W
+          - Compendium.eberron-5e.classes.Item.NKvokz7F5LMY1sMY
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Ranger Archetype Feature
+      icon: null
+    - _id: aMgzSv5XmyTx6gwh
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.uCAMVyVTBpxa6SkB
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Ranger Archetype Feature
+      icon: null
+    - _id: TpUjQCCUdgevMOpa
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.LME7xve3vhE36HTu
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Ranger Archetype Feature
+      icon: null
+    - _id: 0fshq5ov9D2BTRyW
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.UF7USlRgLf2snsze
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Ranger Archetype Feature
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -45,7 +107,6 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702706490717
-  modifiedTime: 1702886424283
+  modifiedTime: 1704139869175
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!AZoRFeGWvGVBIbKX'
-

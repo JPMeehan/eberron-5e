@@ -1,0 +1,90 @@
+folder: wYHD0A6W7wuN06EL
+name: Forest Form
+type: feat
+_id: 2b5e3axOBSAousfU
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You gain the ability to channel the strength and power of nature in
+      battle. As a bonus action while you are not wearing heavy armor, you can
+      expend a use of your Wild Shape feature to take on a forest form, rather
+      than transforming into a beast. The form lasts for 10 minutes. While in
+      your Forest Form, you gain the following benefits:</p><ul><li>You gain a
+      bonus to your armor class equal to your proficiency bonus.</li><li>As long
+      as you are in contact with the ground, the ground in a 10 foot radius
+      around you becomes difficult terrain for creatures of your
+      choosing.</li><li>You can cast thorn whip as a bonus action.</li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Circle of the Verdant 2
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 2000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704136061276
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!2b5e3axOBSAousfU'
+

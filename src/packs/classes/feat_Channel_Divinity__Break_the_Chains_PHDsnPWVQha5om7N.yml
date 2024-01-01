@@ -1,0 +1,87 @@
+folder: kUQ4lj2SUBWTAyeV
+name: 'Channel Divinity: Break the Chains'
+type: feat
+_id: PHDsnPWVQha5om7N
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>When you cast one of your Oath spells, you can expend your Channel
+      Divinity while doing so to grant that spell to a willing ally you can see
+      within 60 feet of you. The spell takes effect as though that ally had cast
+      it from their position, allowing them to choose any targets of the spell
+      if it has a range other than self. If the spell requires concentration,
+      you maintain concentration when cast in this way.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: channelDivinity
+  requirements: Oath of Freedom 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704139387628
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!PHDsnPWVQha5om7N'
+

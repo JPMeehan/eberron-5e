@@ -1,0 +1,89 @@
+folder: pxx6ef00hjtlSCcD
+name: Swinging Scales
+type: feat
+_id: 0SGtg2i2v2to5nKd
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Starting at 6th level, when your plans go awry, you can improve the
+      luck of an ally. When a creature succeeds on a saving throw against a
+      spell that you cast on your turn, you can grant a creature of your choice
+      within 30 feet of you advantage on their next attack roll, ability check,
+      or saving throw they make within the next minute. You can only grant this
+      to one creature, regardless of how many creatures succeeded on the saving
+      throw. You regain the ability to grant advantage in this way upon
+      completing a short or long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Fateweaver 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 6000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704140949190
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!0SGtg2i2v2to5nKd'
+

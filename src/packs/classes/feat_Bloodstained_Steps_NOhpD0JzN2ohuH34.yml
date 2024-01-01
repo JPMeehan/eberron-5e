@@ -1,0 +1,90 @@
+folder: eHtWGBmYvQgOWaAs
+name: Bloodstained Steps
+type: feat
+_id: NOhpD0JzN2ohuH34
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 3rd level, those who have wronged you will never be able to run for
+      long. As an action, you can focus your senses on a creature marked by your
+      Vendetta. You sense the direction to the creature’s location, as long as
+      that creature is within 1,000 feet of you, and is not protected from
+      divination by spells or effects. If the creature is moving, you know the
+      direction of its movement. This lasts for one hour, or until you drop
+      concentration (as though concentrating on a spell). You can use this
+      ability a number of times equal to half your proficiency bonus (rounded
+      down), and regain all expended uses upon completing a long rest</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Revenger 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704139976581
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!NOhpD0JzN2ohuH34'
+

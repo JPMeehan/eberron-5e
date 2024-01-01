@@ -2,7 +2,7 @@ folder: WKIMYns7vZVhf9cx
 name: School of Oneiromancy
 type: subclass
 _id: LmIYUzoQpvGiJ4nx
-img: icons/svg/item-bag.svg
+img: icons/magic/control/sleep-bubble-purple.webp
 system:
   description:
     value: >-
@@ -32,7 +32,52 @@ system:
     license: DMsGuild CCA
   identifier: school-of-oneiromancy
   classIdentifier: wizard
-  advancement: []
+  advancement:
+    - _id: V7WhsdyxItYpmARi
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.jARa2CFGGd44TWIa
+          - Compendium.eberron-5e.classes.Item.kqKrc3pgjnil90Cj
+        optional: false
+        spell: null
+      value: {}
+      level: 2
+      title: Arcane Tradition Feature
+      icon: null
+    - _id: 1IwrVqHtqgl4WlgS
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.hGYPv83AkaPxiRM6
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Arcane Tradition Feature
+      icon: null
+    - _id: ZR34jxRsRKRvpBRS
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.07Qak3UMbDu1k5C5
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Arcane Tradition Feature
+      icon: null
+    - _id: SLYHLsULwBAPAZAb
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.J4AiMIP3NYFdWCqI
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Arcane Tradition Feature
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -47,7 +92,6 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702706847501
-  modifiedTime: 1702886424283
+  modifiedTime: 1704141365752
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!LmIYUzoQpvGiJ4nx'
-

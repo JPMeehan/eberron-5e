@@ -1,0 +1,88 @@
+folder: LeD433lVZ3MmHCvY
+name: Uncharted Traversal
+type: feat
+_id: BiKjg9Nre72PmGk3
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You gain proficiency with whips and navigator’s tools. Whips count as a
+      monk weapon for you.</p><p> While you have a whip or a 50ft length of rope
+      on your person, you can deftly use it to swing and traverse through
+      terrain. Before or during a jump, you may add up to 20 feet of horizontal
+      distance to your jump by latching on to an overhanging object within reach
+      of your whip, requiring no action or ability check to do so. This extra
+      distance does not count towards your movement.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Explorer 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704138072380
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!BiKjg9Nre72PmGk3'
+

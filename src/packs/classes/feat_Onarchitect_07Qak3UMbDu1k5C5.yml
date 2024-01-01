@@ -1,0 +1,100 @@
+folder: WKIMYns7vZVhf9cx
+name: Onarchitect
+type: feat
+_id: 07Qak3UMbDu1k5C5
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You learn the spells dream and dreamwalk*, which you can scribe into
+      your spellbook at no cost. You count as having both spells prepared at all
+      times, which do not count towards your prepared spell
+      limit.</p><p>Additionally, if you touch a creature that you have magically
+      put to sleep, you can charm it with mesmerizing dreams, affecting its
+      behavior in the waking world. Creatures immune to being charmed are
+      unaffected. Choose one of the following options:</p><ul><li>You can ask
+      one question of the creature, which answers it truthfully to the best of
+      its ability if it can speak a language.</li><li>With you concentrating (as
+      though on a spell), the creature sleepwalks, and follows behind you at
+      half its normal speed. The creature follows you for up to 10 minutes,
+      until it wakes up, or until you lose concentration. If the creature would
+      be made to move into an environment that would cause it harm (such as long
+      drop, fire, or water), its subconscious kicks in, allowing it to make a
+      Wisdom saving throw against your Spell Save DC to wake up
+      first.</li><li>It forgets the last minute of events before it fell asleep,
+      regarding them as a strange hazy nightmare.</li></ul><p>You can use this
+      ability once, and regain the ability to do so upon completing a short or
+      long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: School of Oneiromancy 10
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 10000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704141279853
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!07Qak3UMbDu1k5C5'
+

@@ -66,7 +66,7 @@ system:
   type:
     value: class
     subtype: ''
-  requirements: Eberron, the Dragon Between 1
+  requirements: The Dragon Between 1
   recharge:
     value: null
     charged: false
@@ -81,7 +81,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1702530093402
-  modifiedTime: 1704060172176
+  modifiedTime: 1704141387446
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!aFTLAr21caWdrdGC'
 

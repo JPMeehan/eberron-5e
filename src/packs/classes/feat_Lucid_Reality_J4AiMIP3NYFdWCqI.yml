@@ -1,0 +1,98 @@
+folder: WKIMYns7vZVhf9cx
+name: Lucid Reality
+type: feat
+_id: J4AiMIP3NYFdWCqI
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Your fundamental connection to the realm of dreams weakens the barrier
+      between it and the waking world. You learn the spell mirage arcane, which
+      you can scribe into your spellbook at no cost. You count as having the
+      spell prepared at all times, which does not count towards your prepared
+      spell limit.</p><p>Additionally, while inside your mirage arcane, you can
+      create one of the following effects at the start of your turn, warping
+      reality into a surreal dreamscape. All effects end upon leaving the area
+      of the spell. The effects are:</p><ul><li>All melee weapons become
+      oversized; a character wielding a melee weapon deals an additional 1d8
+      weapon damage on a hit.</li><li>When a creature ends their turn within 30
+      feet of you, you can use your reaction to force them to make a Dexterity
+      saving throw. On a failure, a hidden trap or feature of the landscape
+      pushes them 20 feet horizontally in a direction of your
+      choice.</li><li>All creatures within the illusion gain a flying speed
+      equal to their walking speed up to a maximum height equal to the length of
+      the affected area.</li><li>All creatures gain disadvantage on saving
+      throws against Illusion and Enchantment spells.</li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: School of Oneiromancy 14
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 14000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704141308058
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!J4AiMIP3NYFdWCqI'
+

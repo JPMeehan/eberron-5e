@@ -1,0 +1,99 @@
+folder: a9PSrI8B3r938dBB
+name: Planar Scion
+type: feat
+_id: 7cV2gPvZXRuoUQ55
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Your growing mastery of magic allows you to better harness the raw
+      power you wield. You gain a benefit whenever you cast one of your Giant
+      Magic spells, with the benefit depending on your
+      ancestry:</p><p><strong>Cloud</strong>. Immediately after casting the
+      spell, you can choose to magically teleport to an unoccupied space that
+      you can see. You can teleport a number of feet equal to 5 x your
+      proficiency bonus.</p><p><strong>Fire</strong>. When you roll for damage
+      caused by the spell, you deal additional fire damage equal to your
+      Proficiency bonus.</p><p><strong>Frost</strong>. Immediately after casting
+      the spell, you gain temporary hit points equal to your proficiency bonus.
+      If you are in your Titan state, the temporary hit points are additive, but
+      cannot exceed the initial number of temporary hit points you gained when
+      you entered the state.</p><p><strong>Stone</strong>. Immediately after
+      casting the spell, you gain a bonus to your AC equal to your proficiency
+      bonus until the start of your next turn.</p><p><strong>Storm</strong>.
+      Immediately after casting the spell, you can choose to deal lightning
+      damage equal to your proficiency bonus to every creature within 5ft of
+      you</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Giant Soul 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 6000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704140479267
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!7cV2gPvZXRuoUQ55'
+

@@ -1,0 +1,90 @@
+folder: kUQ4lj2SUBWTAyeV
+name: 'Channel Divinity: Savior''s Strike'
+type: feat
+_id: DDDRcvkZ5Rr68zkp
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You can use your Channel Divinity to save your allies from harm’s way
+      when you hit a creature with a melee attack, marking it for a quick
+      downfall. On a hit, the creature gains disadvantage on all attacks against
+      creatures other than you for 1 minute, until you end your turn without
+      making an attack against that creature, become incapacitated, or fall
+      unconscious. While marked in this way, If the creature is at least one
+      size larger than you, or grappling an ally, you deal an additional 1d6
+      radiant damage when you hit it with an attack for the first time on your
+      turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: channelDivinity
+  requirements: Oath of Freedom 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704139358264
+  modifiedTime: 1704141442473
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!DDDRcvkZ5Rr68zkp'
+
