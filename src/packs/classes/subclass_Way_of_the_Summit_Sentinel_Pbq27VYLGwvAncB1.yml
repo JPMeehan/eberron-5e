@@ -30,7 +30,7 @@ system:
         spell: null
       value: {}
       level: 3
-      title: ''
+      title: Monastic Tradition Feature
       icon: null
     - _id: 57w6dRXLAHPh37gN
       type: ItemGrant
@@ -42,7 +42,7 @@ system:
         spell: null
       value: {}
       level: 6
-      title: ''
+      title: Monastic Tradition Feature
       icon: null
     - _id: zq7mG5KrzGf6GvSb
       type: ItemGrant
@@ -53,7 +53,7 @@ system:
         spell: null
       value: {}
       level: 11
-      title: ''
+      title: Monastic Tradition Feature
       icon: null
     - _id: KI3xKAzetQ2YdVK2
       type: ItemGrant
@@ -64,7 +64,7 @@ system:
         spell: null
       value: {}
       level: 17
-      title: ''
+      title: Monastic Tradition Feature
       icon: null
   spellcasting:
     progression: none
@@ -83,4 +83,3 @@ _stats:
   modifiedTime: 1704065295895
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!Pbq27VYLGwvAncB1'
-

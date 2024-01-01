@@ -32,6 +32,7 @@ system:
         spell: null
       value: {}
       level: 1
+      title: Sorcerous Origin Feature
     - _id: gQxrF6h0F4Sjr6Tv
       type: Trait
       configuration:
@@ -55,7 +56,7 @@ system:
         spell: null
       value: {}
       level: 6
-      title: ''
+      title: Sorcerous Origin Feature
       icon: null
     - _id: nwM4S3SUDuLvu7bF
       type: ItemGrant
@@ -66,7 +67,7 @@ system:
         spell: null
       value: {}
       level: 14
-      title: ''
+      title: Sorcerous Origin Feature
       icon: null
     - _id: jYH3J7cpIDrvYYIv
       type: ItemGrant
@@ -77,7 +78,7 @@ system:
         spell: null
       value: {}
       level: 18
-      title: ''
+      title: Sorcerous Origin Feature
       icon: null
     - _id: knddFNc4psbViaaR
       type: Trait
@@ -119,4 +120,3 @@ _stats:
   modifiedTime: 1704068076788
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!nooxfcG6aig1I8WE'
-
