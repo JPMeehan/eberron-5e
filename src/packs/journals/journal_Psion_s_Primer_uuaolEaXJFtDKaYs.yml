@@ -1,0 +1,176 @@
+name: Psion's Primer
+pages:
+  - sort: 100000
+    name: Empath
+    type: class
+    _id: Qc7Vmga9CM3Bkti8
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: ''
+      description:
+        value: ''
+        additionalHitPoints: ''
+        additionalTraits: ''
+        additionalEquipment: ''
+        subclass: ''
+      subclassHeader: ''
+      subclassItems: []
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.4.1
+      coreVersion: '11.315'
+      createdTime: 1686379372218
+      modifiedTime: 1703737515806
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!journal.pages!uuaolEaXJFtDKaYs.Qc7Vmga9CM3Bkti8'
+  - sort: 200000
+    name: Icon
+    type: class
+    _id: uRT2ZW7h6uq5HVEG
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.chaosos-5e-content.community-classes.Item.MsiBPk2Mj0atngAa
+      description:
+        value: ''
+        additionalHitPoints: ''
+        additionalTraits: ''
+        additionalEquipment: ''
+        subclass: ''
+      subclassHeader: ''
+      subclassItems: []
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.2.2
+      coreVersion: '11.305'
+      createdTime: 1686380014656
+      modifiedTime: 1689281713371
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!uuaolEaXJFtDKaYs.uRT2ZW7h6uq5HVEG'
+  - sort: 300000
+    name: Psion
+    type: class
+    _id: 8odJ4066Ybj6ukSM
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.chaosos-5e-content.community-classes.Item.o8gBj9zGXnHmoIhX
+      description:
+        value: ''
+        additionalHitPoints: ''
+        additionalTraits: ''
+        additionalEquipment: ''
+        subclass: ''
+      subclassHeader: ''
+      subclassItems: []
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.2.2
+      coreVersion: '11.305'
+      createdTime: 1686380020302
+      modifiedTime: 1689282418522
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!uuaolEaXJFtDKaYs.8odJ4066Ybj6ukSM'
+  - sort: 0
+    name: Class Overview
+    type: text
+    _id: gbYc4McqjWOv983u
+    title:
+      show: false
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>These unofficial classes, all sourced to <em>Korranberg Chronicle:
+        Psion's Primer</em>, are additional options to
+        play.</p><table><caption><h2>Classes
+        Summary</h2></caption><thead><tr><th><p>Class</p></th><th><p>Description</p></th><th><p>Hit
+        Die</p></th><th><p>Primary Ability</p></th><th><p>Saving Throw
+        Proficiencies</p></th><th><p>Armor and Weapon
+        Proficiencies</p></th></tr></thead><tbody><tr><td><p>@UUID[Compendium.eberron-5e.classes.Item.wwicwAaBPFeM7x50]{Empath}</p></td><td><p>An
+        insightful guide on the path of mystic
+        enlightenment</p></td><td><p>d8</p></td><td><p>Wisdom</p></td><td><p>Wisdom
+        &amp; Charisma</p></td><td><p>Shields, simple
+        weapons</p></td></tr><tr><td><p>@UUID[Compendium.eberron-5e.classes.Item.MsiBPk2Mj0atngAa]{Icon}</p></td><td><p>A
+        dynamic warrior that wields the power of their ego as well as any
+        weapon</p></td><td><p>d10</p></td><td><p>Charisma</p></td><td><p>Dexterity
+        &amp; Charisma</p></td><td><p>Light armor, shields, simple and martial
+        weapons</p></td></tr><tr><td><p>@UUID[Compendium.eberron-5e.classes.Item.o8gBj9zGXnHmoIhX]{Psion}</p></td><td><p>A
+        master of manifesting psychic abilities that reshape the world around
+        them</p></td><td><p>d6</p></td><td><p>Intelligence</p></td><td><p>Intelligence
+        &amp; Wisdom</p></td><td><p>Clubs, darts, slings, quarterstaffs,
+        spears</p></td></tr></tbody></table>
+      markdown: ''
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system: {}
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 2.4.1
+      coreVersion: '11.315'
+      createdTime: 1696871928015
+      modifiedTime: 1704093651527
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!journal.pages!uuaolEaXJFtDKaYs.gbYc4McqjWOv983u'
+folder: null
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+  MVioF9x1qI1WYGx1: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1685144353970
+  modifiedTime: 1704093651527
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_id: uuaolEaXJFtDKaYs
+sort: 0
+_key: '!journal!uuaolEaXJFtDKaYs'
+
