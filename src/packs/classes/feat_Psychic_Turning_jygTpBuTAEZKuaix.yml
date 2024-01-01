@@ -1,0 +1,104 @@
+folder: EzPt2D4StiYxU6ZO
+name: Psychic Turning
+type: feat
+_id: jygTpBuTAEZKuaix
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You can enter a battle of wills and attempt to expel spiritual and
+      mental parasites. As an action, you can send out a subtle psychic
+      shockwave only perceptible to possessing creatures. Each creature
+      currently possessing another creature within 30 feet of you must make a
+      Wisdom saving throw against your spell save DC. A quori must make this
+      saving throw with disadvantage. On a failed save, the creature is turned
+      for 1 minute or until it takes damage.</p><p>A creature turned by this
+      effect must use its reaction to immediately leave the creature it has
+      possessed, or as a bonus action on its next turn if it has already used
+      its reaction, appearing within reach of its former host. A creature that
+      would normally return to a different plane of existence when expelled from
+      its host instead manifests on your plane of existence, and is not returned
+      to its plane when this effect’s duration is over. </p><p>For the duration,
+      a turned creature must spend its turns trying to move as far away from you
+      as it can, and it can't willingly move to a space within 30 feet of you.
+      It also can't take reactions after leaving its host. For its action, it
+      can use only the Dash action or try to escape from an effect that prevents
+      it from moving. If there's nowhere to move, the creature can use the Dodge
+      action. If the creature's true form is concealed by an illusion,
+      shapeshifting, or other effect, that form is revealed while it is
+      turned.</p><p>You can use this feature a number of times equal to your
+      Proficiency Bonus, and you regain all expended uses when you finish a long
+      rest</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Quori Mindhunter 7
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 7000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704066435867
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!jygTpBuTAEZKuaix'
+

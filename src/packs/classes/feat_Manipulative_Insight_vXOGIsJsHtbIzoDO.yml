@@ -1,0 +1,96 @@
+folder: 74xiOU8CkZyqpLaN
+name: Manipulative Insight
+type: feat
+_id: vXOGIsJsHtbIzoDO
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You can target one creature you can see as an action and attempt to
+      read, and possibly influence, their ambitions, desires, or fears. The
+      target must make a Wisdom saving throw against your spell save DC. A
+      creature with an Intelligence of 3 or lower, or that doesn’t understand
+      any language, automatically succeeds on the saving throw. On a failed
+      save, you can read the target’s surface thoughts as long as you
+      concentrate (as though concentrating on a spell), for up to 1
+      hour.</p><p>You also gain a vague sense of the creature’s deepest desires
+      or fears. Once while you concentrate, you can pull on the target’s
+      emotions as a bonus action to make the target either charmed or frightened
+      for as long as you concentrate. If the charmed or frightened creature
+      takes damage, it can begin repeating the saving throw at the end of each
+      of its subsequent turns, ending this effect on a success.</p><p>You can
+      use this feature a number of times equal to your proficiency bonus, and
+      you regain all expended uses when you finish a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: The Visage 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 1000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704070114039
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!vXOGIsJsHtbIzoDO'
+

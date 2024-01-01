@@ -2,10 +2,16 @@ folder: ZrosQXEa5K3mNIiB
 name: Way of the Dreaming Fist
 type: subclass
 _id: 725dsnlhsD0a8npb
-img: icons/svg/item-bag.svg
+img: icons/magic/control/sleep-bubble-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Though the Inspired are capable of devastating psionic power in Riedra,
+      the quori are limited in number, and they can only possess one empty
+      vessel at a time. When skirmishes happen and combat must be had, Riedra
+      instead turns to Chosen unarmed fighters wielding the powers of Dal Quor.
+      In response, the kalashtar developed similar techniques drawing upon their
+      quori, dubbing their warriors the ‘fists of Dal Quor’.</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,7 +20,51 @@ system:
     book: Talvakri's Guide to Adar
   identifier: way-of-the-dreaming-fist
   classIdentifier: monk
-  advancement: []
+  advancement:
+    - _id: eaZB0RfBm71xqGf6
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.kXxrAURfQfOoEfiH
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: null
+    - _id: EpLnbB0rbUmTLjIb
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.ernFkr1hVp8MiXK9
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: 1FEes0dTaY61b4lg
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.iSmR6F9zYypprvll
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: ''
+      icon: null
+    - _id: z0FQYusl2ir5aNwj
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.vGlz8yOQ0R7bgxDW
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -29,6 +79,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686185093917
-  modifiedTime: 1702886723204
+  modifiedTime: 1704063751958
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!725dsnlhsD0a8npb'
+

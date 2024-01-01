@@ -2,10 +2,16 @@ folder: Phx6I1SAw5Njln9c
 name: Psion
 type: subclass
 _id: nooxfcG6aig1I8WE
-img: icons/svg/item-bag.svg
+img: icons/magic/symbols/circled-gem-pink.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>For most sorcerers, their innate magical talent is akin to that of a
+      sculptor. The sculptor is not the stone, clay, or wood they sculpt. They
+      are but the talent, the will, that shapes the medium of their art. For
+      you, however, your talent is your medium. Your magic is not an external
+      force, channeled through you to be shaped by arcane gestures or words.
+      Your magic is your will itself, manifesting upon reality.</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,7 +20,88 @@ system:
     book: Talvakri's Guide to Adar
   identifier: psion
   classIdentifier: sorcerer
-  advancement: []
+  advancement:
+    - _id: Blbe876z0nyGfpT7
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.reo4bZNKSuPbzZRK
+          - Compendium.eberron-5e.classes.Item.vA53nFpp1Cx1cJR6
+          - Compendium.eberron-5e.classes.Item.OX0udgwvz6vBoBlx
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+    - _id: gQxrF6h0F4Sjr6Tv
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:arc
+        choices: []
+        hint: ''
+      level: 1
+      title: ''
+      icon: null
+      value: {}
+    - _id: 59QgrHHOZg4dkPvf
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.R7xxwieKRgEEHOGb
+          - Compendium.eberron-5e.classes.Item.0Z47XHOjY2eOCsfy
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: nwM4S3SUDuLvu7bF
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.VNvQBvnn1r8yKzGp
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: ''
+      icon: null
+    - _id: jYH3J7cpIDrvYYIv
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.bsQaKaBNPGelxCYK
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: ''
+      icon: null
+    - _id: knddFNc4psbViaaR
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices: []
+        hint: ''
+      level: 14
+      title: Psionic Augmentation
+      icon: null
+      value: {}
+    - _id: 88sM6fy6qMK5GZRe
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices: []
+        hint: ''
+      level: 18
+      title: Psychic Transcendence
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -29,6 +116,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686184973210
-  modifiedTime: 1702886723204
+  modifiedTime: 1704068076788
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!nooxfcG6aig1I8WE'
+

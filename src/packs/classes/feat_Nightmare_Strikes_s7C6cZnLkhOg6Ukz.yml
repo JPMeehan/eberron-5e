@@ -1,0 +1,85 @@
+folder: EzPt2D4StiYxU6ZO
+name: Nightmare Strikes
+type: feat
+_id: s7C6cZnLkhOg6Ukz
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Drawing on the techniques of those you hunt, you can augment your
+      strikes with power drawn from nightmares. When you hit a creature with a
+      weapon attack, you can deal extra psychic damage to the target equal to
+      half your Proficiency Bonus (round up).</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Quori Mindhunter 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704066418738
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!s7C6cZnLkhOg6Ukz'
+

@@ -1,0 +1,90 @@
+folder: vMllsaSXEu2GODo1
+name: Detect Planar Breach
+type: feat
+_id: 8elpGf5i6Jsi7YRc
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You can feel where the barrier between realities is permeable. As an
+      action, you can automatically determine the direction and distance to the
+      nearest planar breach. You also identify which plane the breach is tied
+      to. A planar breach is any manifest zone, wild zone, reality storm tied to
+      a plane of existence, or extraplanar portal (but not a portal to an
+      extradimensional space, such as that created by a rope trick spell or an
+      open bag of holding).</p><p> You can use this feature a number of times
+      equal to your proficiency bonus, and you regain all expended uses when you
+      finish a long rest</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Manifest Power 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 1000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704067053844
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!8elpGf5i6Jsi7YRc'
+

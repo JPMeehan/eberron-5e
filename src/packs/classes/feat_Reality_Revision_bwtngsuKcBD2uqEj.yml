@@ -1,0 +1,91 @@
+folder: 74xiOU8CkZyqpLaN
+name: Reality Revision
+type: feat
+_id: bwtngsuKcBD2uqEj
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You can attempt to reject reality, and replace it with your own. As an
+      action, you assert your will, describing to the DM a revision in reality
+      you would like to occur, and roll a d20. If you roll a number equal to or
+      lower than your half warlock level, your chosen reality manifests and
+      becomes real. The DM chooses the exact nature of how your reality
+      manifests; the effect of any spell of up to 7th level is
+      appropriate.</p><p>If you manage to manifest your reality, you can’t use
+      this feature again for 1d4 days. Otherwise; you can use it again after you
+      finish a long rest.</p><p> At 20th level, your attempt to revise reality
+      succeeds automatically, no roll required.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: The Visage 14
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 14000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704070208101
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!bwtngsuKcBD2uqEj'
+

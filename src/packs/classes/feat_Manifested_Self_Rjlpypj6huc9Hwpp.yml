@@ -1,0 +1,98 @@
+folder: vMllsaSXEu2GODo1
+name: Manifested Self
+type: feat
+_id: Rjlpypj6huc9Hwpp
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>When you cast summon beast, summon fey, summon elemental, summon
+      celestial, or summon fiend, you can spend a number of sorcerer points
+      equal to the level at which you cast the spell in order to alter the
+      spell’s magic so that you subsume it into yourself. When you cast one of
+      these spells this way, the spell does not require concentration.
+      Additionally, when you cast these spells this way, instead of manifesting
+      a spirit within the spell’s range, you transform yourself into the
+      creature you would manifest.</p><p>While transformed, your game statistics
+      are replaced by the statistics of the manifested creature, but you retain
+      your alignment, personality, Intelligence, Wisdom, and Charisma scores,
+      your languages, and your ability to cast spells. Your transformation lasts
+      for the duration of the spell, or until you drop to 0 hit points or die.
+      When you revert to your normal form, you return to the number of hit
+      points you had before you transformed. If you revert as a result of
+      dropping to 0 hit points, any excess damage carries over to your normal
+      form. As long as the excess damage doesn’t reduce your normal form to 0
+      hit points, you don’t lose consciousness</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Manifest Power 18
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 18000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704067140777
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!Rjlpypj6huc9Hwpp'
+

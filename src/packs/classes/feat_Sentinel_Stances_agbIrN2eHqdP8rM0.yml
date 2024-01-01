@@ -1,0 +1,93 @@
+folder: vRmZmn1HtzIJZm1R
+name: Sentinel Stances
+type: feat
+_id: agbIrN2eHqdP8rM0
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You can focus your ki in emulation of the mountains to enter a magical
+      stance. Once per turn, requiring no action, you may spend 1 ki to enter or
+      change your stance to one of the ones listed below. You gain the stance’s
+      effects until you enter a different stance, become incapacitated, or
+      finish a short rest.</p><p><strong>Cliff Stride</strong>. You gain a climb
+      speed equal to your walking speed, and can climb difficult surfaces,
+      including upside down on ceilings, without needing to make an ability
+      check.</p><p><strong>Pinnacle Endurance</strong>. You gain resistance to
+      cold and lightning damage.</p><p><strong>Stone Serenity</strong>. You
+      cannot be knocked prone.</p><p>Additionally, you cannot be moved from your
+      space by other creatures against your will, except by effects that
+      teleport you or transport you to another plane</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Summit Sentinel 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704065010151
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!agbIrN2eHqdP8rM0'
+

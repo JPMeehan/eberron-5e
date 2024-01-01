@@ -2,10 +2,15 @@ folder: vRmZmn1HtzIJZm1R
 name: Way of the Summit Sentinel
 type: subclass
 _id: Pbq27VYLGwvAncB1
-img: icons/svg/item-bag.svg
+img: icons/environment/wilderness/terrain-rocks-brown.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>While Hazgaal is best known for his acceptance of the rebel quori to
+      Adar, before he became Haztaratai, he developed a form of martial arts
+      that merged Adar’s sturdy mountains with the crackling lightning of its
+      storms. The Haztaratain order is its official name, but it is better known
+      colloquially as the Way of the Summit Sentinel (or parahdi in Adaran).</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,7 +19,53 @@ system:
     book: Talvakri's Guide to Adar
   identifier: way-of-the-summit-sentinel
   classIdentifier: monk
-  advancement: []
+  advancement:
+    - _id: f32IhuUqg8aPHX63
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.o0BqkDcl6Py8vJXd
+          - Compendium.eberron-5e.classes.Item.agbIrN2eHqdP8rM0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: null
+    - _id: 57w6dRXLAHPh37gN
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.52eLVfSwMia2JPfQ
+          - Compendium.eberron-5e.classes.Item.iK1r9gUkDDjbq0Oh
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: zq7mG5KrzGf6GvSb
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.ApQVm92bXaoKxIuf
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: ''
+      icon: null
+    - _id: KI3xKAzetQ2YdVK2
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.cKgQO8GeB6R32g7q
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -29,6 +80,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686185123550
-  modifiedTime: 1702886723204
+  modifiedTime: 1704065295895
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!Pbq27VYLGwvAncB1'
+

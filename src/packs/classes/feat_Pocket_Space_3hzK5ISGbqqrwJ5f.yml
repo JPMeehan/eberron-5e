@@ -1,0 +1,100 @@
+folder: vMllsaSXEu2GODo1
+name: Pocket Space
+type: feat
+_id: 3hzK5ISGbqqrwJ5f
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Your magic has grown large enough for you to create and access your own
+      personal extradimensional space. Your extradimensional space is a
+      featureless room 30 feet in each dimension. The walls and floor of this
+      room appear as you wish. Your extradimensional space persists forever,
+      even should you die. You can access this extradimensional space in two
+      ways.</p><p>First, you can pass any object you can lift or carry into the
+      extradimensional space as a bonus action. The object disappears from your
+      hands and appears where you choose in your extradimensional space. You can
+      retrieve items you’ve stowed in your extradimensional space with another
+      bonus action, provided you have a hand free. </p><p>The second way you can
+      access your extradimensional space is by touching a solid surface at least
+      6 feet in diameter and spending 8 sorcery points as an action. When you
+      do, a shimmering white portal 6 feet in diameter appears on the surface,
+      leading to your extradimensional space. You and creatures of your choice
+      you can see when you create the portal can enter it and appear safely in
+      your extradimensional space, emerging from a matching portal there. The
+      portals last for as long as a creature is present in your extradimensional
+      space, or until the start of your next turn if no creatures are present
+      there.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Manifest Power 14
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 14000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704067089739
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!3hzK5ISGbqqrwJ5f'
+

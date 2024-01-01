@@ -1,0 +1,99 @@
+folder: Phx6I1SAw5Njln9c
+name: Telepathic Metaconcert
+type: feat
+_id: R7xxwieKRgEEHOGb
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You can speak telepathically to any creature you can see, provided the
+      creature is within a number of feet of you equal to 10 times your level in
+      this class. You don't need to share a language with the creature for it to
+      understand your telepathic utterances, but the creature must be able to
+      understand at least one language.</p><p>When you're using this feature to
+      speak telepathically to a creature, you can spend 1 sorcery point as an
+      action to give that creature the ability to speak telepathically with you
+      for 1 hour or until you end this effect as an action. To use this ability,
+      the creature must be able to see you and must be within range of your
+      ability to speak telepathically with them. You can grant this ability to
+      multiple creatures at the same time, and all creatures that have this
+      ability can hear the telepathic utterances of yourself and all other
+      creatures with the ability, allowing you to converse telepathically as a
+      group. The number of creatures you can grant this telepathic ability to at
+      the same time equals 1 plus your Intelligence or Charisma modifier
+      (minimum 2 creatures besides yourself); giving it to a creature that would
+      exceed this amount causes the ability to end for the creature with the
+      ability who was granted it for the longest amount of time.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Psion 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 6000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704067877681
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!R7xxwieKRgEEHOGb'
+

@@ -1,0 +1,97 @@
+folder: 74xiOU8CkZyqpLaN
+name: Harness Visions
+type: feat
+_id: BjuZGiYAhHj8tNKQ
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Whenever you sleep during a long rest, roll a d20. On a roll of 2
+      through 20, you can decide whether you have dreamlike visions or
+      nightmarish ones during your sleep. On a roll of 1, you have a nightmare.
+      When you finish a long rest, you can harness your dreams or nightmares,
+      turning them into impulses that can instill moments of heroism or dread.
+      Depending on which you experienced, you gain one special reaction
+      below:</p><p><strong>Dreams</strong>. Whenever a creature you can see
+      within 30 feet of you is about to make an attack roll, a saving throw, or
+      an ability check, you can use your reaction to grant the creature
+      advantage on their attack, save, or
+      check.</p><p><strong>Nightmares</strong>. Whenever a creature you can see
+      within 30 feet of you is about to make an attack roll, a saving throw, or
+      an ability check, you can use your reaction to impose disadvantage on the
+      creature’s attack, save, or check.</p><p>You can use this reaction a
+      number of times equal to your proficiency bonus, and you regain all
+      expended uses when you finish a long rest.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: The Visage 6
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 6000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704070146395
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!BjuZGiYAhHj8tNKQ'
+

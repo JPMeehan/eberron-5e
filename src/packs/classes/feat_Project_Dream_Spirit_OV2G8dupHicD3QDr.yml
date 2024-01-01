@@ -1,0 +1,101 @@
+folder: 74xiOU8CkZyqpLaN
+name: Project Dream Spirit
+type: feat
+_id: OV2G8dupHicD3QDr
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You gain the ability to project a spirit of dreams and nightmares into
+      reality. You can call forth this dream spirit as an action, and it
+      manifests in an unoccupied space that you can see within 90 feet of you.
+      This corporeal form uses the
+      @UUID[Compendium.eberron-5e.bestiary.Actor.CoKtmiQhTHaapgqc]{Dream Spirit}
+      stat block. Whenever you call forth this spirit, choose an emotion:
+      Despair, Fear, Fury, Joy, or Pride. The creature resembles a quori spirit
+      tied to each emotion; du’ulora (Fury), hashalaq (Joy), kalaraq (Pride),
+      tsucora or tsoreva (Fear), or usvapna (Despair). Your choice determines
+      certain traits in its stat block. The creature disappears when it drops to
+      0 hit points, or until you finish a short or long rest.</p><p>The creature
+      is an ally to you and your companions. In combat, the creature shares your
+      initiative count, but it takes its turns immediately after yours. It obeys
+      your telepathic commands (no action required by you). If you don’t issue
+      any, it takes the Dodge action and uses its move to avoid
+      danger.</p><p>You can use this feature once, and you regain the ability to
+      do so when you finish a long rest. You can also use this feature by
+      expending a spell slot. You can only have one dream spirit manifested at a
+      time; if you use this feature again while the first dream spirit still
+      exists, the older dream spirit disappears.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: The Visage 10
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 10000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704070162715
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!OV2G8dupHicD3QDr'
+

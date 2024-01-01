@@ -1,0 +1,89 @@
+folder: vMllsaSXEu2GODo1
+name: Manifest Magic
+type: feat
+_id: 22D7cGi5bOlo83Ad
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You learn additional spells when you reach certain levels in this
+      class, as shown on the Manifest Magic table. Each of these spells counts
+      as a sorcerer spell for you, but it doesn’t count against the number of
+      sorcerer spells you know.</p><p> Whenever you gain a sorcerer level, you
+      can replace one spell you gained from this feature with another spell of
+      the same level. The new spell must be an abjuration, divination, or
+      conjuration spell from the sorcerer, cleric, warlock, or wizard spell
+      list.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Manifest Power 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 1000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704067030413
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!22D7cGi5bOlo83Ad'
+

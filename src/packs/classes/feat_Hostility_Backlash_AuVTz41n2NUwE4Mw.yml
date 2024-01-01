@@ -1,0 +1,86 @@
+folder: EzPt2D4StiYxU6ZO
+name: Hostility Backlash
+type: feat
+_id: AuVTz41n2NUwE4Mw
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>When you take damage from a creature you can see within 60 feet of you,
+      as a reaction you can force that creature to make an Intelligence saving
+      throw against your spell save DC. On a failed save, the creature takes
+      2d10 force damage.</p><p> The damage increases to 3d10 when you reach 17th
+      level in this class.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Quori Mindhunter 11
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 11000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704066497677
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!AuVTz41n2NUwE4Mw'
+

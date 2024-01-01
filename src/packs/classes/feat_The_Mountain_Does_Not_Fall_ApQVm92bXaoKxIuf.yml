@@ -1,0 +1,90 @@
+folder: vRmZmn1HtzIJZm1R
+name: The Mountain Does Not Fall
+type: feat
+_id: ApQVm92bXaoKxIuf
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You can draw on the strength of mountains to endure any pain. On your
+      turn, you can spend 5 ki points, requiring no action, to begin
+      concentrating (as though concentrating on a spell) for up to 1 minute.
+      While you maintain your concentration, your hit points cannot drop below 1
+      while you are in contact with the ground. If your concentration is broken
+      due to taking damage while you are in contact with the ground, your
+      concentration ends but your hit points are not reduced below 1 by that
+      damage. You can use this feature once, and you must finish a short or long
+      rest before you can do so again</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Summit Sentinel 11
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 11000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704065069430
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!ApQVm92bXaoKxIuf'
+

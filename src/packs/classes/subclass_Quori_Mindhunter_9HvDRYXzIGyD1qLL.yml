@@ -1,0 +1,91 @@
+folder: EzPt2D4StiYxU6ZO
+name: Quori Mindhunter
+type: subclass
+_id: 9HvDRYXzIGyD1qLL
+img: icons/magic/control/fear-fright-shadow-monster-purple.webp
+system:
+  description:
+    value: >-
+      <p>Those who learn the truth of the Dreaming Dark are often terrified by
+      its implications for Eberron and the world. A small number of those choose
+      to strike back against the quori. An even smaller number choose to fight
+      the quori with their own. The quori mindhunters have found ways to trap
+      quori within their minds, drawing upon the nightmare spirit and its power
+      while keeping it bound. It is one of the most dangerous ways to fight the
+      Dreaming Dark, as the bound quori is constantly struggling against its
+      bonds, but the powers it can bring against the Inspired are
+      devastating.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  identifier: quori-mindhunter
+  classIdentifier: ranger
+  advancement:
+    - _id: Q1L9JwvjVTPHzIzl
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.UTMJQ5P4qHGQUP06
+          - Compendium.eberron-5e.classes.Item.oGMcRKgtYm408e4e
+          - Compendium.eberron-5e.classes.Item.s7C6cZnLkhOg6Ukz
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: null
+    - _id: 5aMcXFadSzqP7aZq
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.jygTpBuTAEZKuaix
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: ''
+      icon: null
+    - _id: Msjva3LnuqDdHReg
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.AuVTz41n2NUwE4Mw
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: ''
+      icon: null
+    - _id: dxeI8sqgebOwmPOk
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.vaO2FxSTZZMpAzmm
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: ''
+      icon: null
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704065461043
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!9HvDRYXzIGyD1qLL'
+

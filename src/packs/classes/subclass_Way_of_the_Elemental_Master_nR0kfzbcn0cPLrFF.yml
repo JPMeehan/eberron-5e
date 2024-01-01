@@ -2,10 +2,16 @@ folder: QeItNewWjf6Eulyy
 name: Way of the Elemental Master
 type: subclass
 _id: nR0kfzbcn0cPLrFF
-img: icons/svg/item-bag.svg
+img: icons/magic/symbols/elements-air-earth-fire-water.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Ghoza Monastery was built within a great Kythri manifest zone. Within
+      the shifting elemental halls, its martial artists have developed a
+      fighting style that draws upon the Churning Chaos, blending them together
+      in a seamless display of elemental power. Practitioners can summon jets of
+      flame, bend water to their will, and at their pinnacle, even control the
+      weather.</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,7 +20,53 @@ system:
     book: Talvakri's Guide to Adar
   identifier: way-of-the-elemental-master
   classIdentifier: monk
-  advancement: []
+  advancement:
+    - _id: 9OFlpsZcVXbCU3UK
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.bUUhW1wtoI0cXz2f
+          - Compendium.eberron-5e.classes.Item.bzCWdeWMcHXh3cKz
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: null
+    - _id: vnDGKvSod3bO4MIg
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.CmzUOFS1kcVthDqs
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: E9GNjCg5yXo9GZhZ
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.RNZpXFWeDvYFSAI2
+          - Compendium.eberron-5e.classes.Item.6hhGlvIZi27zZjN2
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: ''
+      icon: null
+    - _id: Ps7yfujrRvcU9abj
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.a0FeU1ZKESXLzioX
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -29,6 +81,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686185111303
-  modifiedTime: 1702886723204
+  modifiedTime: 1704064875279
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!nR0kfzbcn0cPLrFF'
+

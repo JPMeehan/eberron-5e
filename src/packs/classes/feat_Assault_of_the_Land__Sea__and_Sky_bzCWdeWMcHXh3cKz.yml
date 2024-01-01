@@ -1,0 +1,114 @@
+folder: QeItNewWjf6Eulyy
+name: Assault of the Land, Sea, and Sky
+type: feat
+_id: bzCWdeWMcHXh3cKz
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>When you strike your foes, you can summon the fires and tremors of the
+      earth, the thunder of the clouds, and the lashing waves of the sea.
+      Immediately after you take the Attack action on your turn, you can spend 1
+      ki point to use one of the following magical effects. You can choose a new
+      effect each time you use this feature</p><p><strong>Earthen
+      Tremor</strong>. You strike the ground and cause a disruptive tremor to
+      emanate in a 5-foot radius from a point you can see on the ground within
+      15 feet of you. Each creature in contact with the ground within the area
+      must make a Dexterity saving throw. On a failed save, a creature takes
+      bludgeoning damage equal to 1d4 + your Wisdom modifier and is knocked
+      prone. If the ground in that area is loose earth or stone, it becomes
+      difficult terrain until cleared (requiring at least 1 minute of manual
+      labor to do so by hand). This effect’s damage dice increases when you
+      reach 5th level (2d4), 11th level (3d4), and 17th level
+      (4d4).</p><p><strong>Flame Bolt</strong>. Make a ranged spell attack
+      against a creature or object within 120 feet of you. On a hit, the target
+      takes fire damage equal to 1d10 + your Wisdom modifier. A flammable object
+      hit by this effect ignites if it isn’t being worn or carried. This
+      effect’s damage dice increases when you reach 5th level (2d10), 11th level
+      (3d10), and 17th level (4d10).</p><p><strong>Thunder Impact</strong>. Make
+      a melee spell attack against a creature within 30 feet of you. On a hit,
+      the target takes thunder damage equal to 1d8 + your Wisdom modifier and
+      you can force the creature to make a Constitution saving throw, pushing it
+      10 feet directly away from you and knocking it prone on a failed saving
+      throw. This effect’s damage dice increases when you reach 5th level (2d8),
+      11th level (3d8), and 17th level (4d8).</p><p><strong>Water Whip</strong>.
+      Choose a source of water that you can see within 60 feet of you that has a
+      volume of at least 1 liter. Make a melee spell attack against a creature
+      within 30 feet of the source of water. On a hit, the target takes slashing
+      damage equal to 1d6 + your Wisdom modifier and you can force the creature
+      to make a Strength saving throw, pulling it up to 10 feet towards the body
+      of water on a failed saving throw. This effect’s damage dice increases
+      when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Elemental Master 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704064664195
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!bzCWdeWMcHXh3cKz'
+

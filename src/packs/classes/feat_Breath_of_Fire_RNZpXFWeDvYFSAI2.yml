@@ -1,0 +1,91 @@
+folder: QeItNewWjf6Eulyy
+name: Breath of Fire
+type: feat
+_id: RNZpXFWeDvYFSAI2
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>As an action, you can spend 4 ki points to exhale a blast of fiery
+      breath in a 60-foot cone. Each creature in the cone must make a Dexterity
+      saving throw, taking 5d10 fire damage on a failed save, or half as much
+      damage on a successful one. You can use this feature once, and you must
+      finish a short or long rest before you can do so again.</p><p> As you grow
+      stronger, you can spend additional ki points when you use this feature to
+      increase its damage. Each additional ki point you spend increases the
+      feature's damage by 1d10. The maximum number of ki points (5 plus any
+      additional points) that you can spend on the feature equals half your monk
+      level</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Elemental Master 11
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 11000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704064742669
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!RNZpXFWeDvYFSAI2'
+

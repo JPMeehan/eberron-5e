@@ -2,10 +2,18 @@ folder: 74xiOU8CkZyqpLaN
 name: The Visage
 type: subclass
 _id: caSbUHSDDOi4d2n9
-img: icons/svg/item-bag.svg
+img: icons/magic/control/sleep-bubble-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Your patron is one you have never met, though you see them regularly.
+      They come to you in your dreams, and whisper of your potential, revealing
+      to you pathways to power. Though you can only vaguely recall these
+      encounters, the powers they grant you are real. But does that necessarily
+      mean your patron is real as well? Is the visage in your dreams an entity
+      foreign to your mind, come to visit you in the night and entreat with or
+      tempt you? Or is the visage your own, a glimpse into your future, one
+      where you wield the power of dreams?</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,7 +22,49 @@ system:
     book: Talvakri's Guide to Adar
   identifier: the-visage
   classIdentifier: warlock
-  advancement: []
+  advancement:
+    - _id: QoWrs6UOtsAjwNlh
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.vXOGIsJsHtbIzoDO
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+    - _id: DmssJejdj0odT5Pz
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.BjuZGiYAhHj8tNKQ
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: e0w9ys9GkKIH9sJs
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.OV2G8dupHicD3QDr
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: ''
+      icon: null
+    - _id: TQEkRYuFNifruMmZ
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.bwtngsuKcBD2uqEj
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -29,6 +79,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686185075411
-  modifiedTime: 1702886723204
+  modifiedTime: 1704070259678
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!caSbUHSDDOi4d2n9'
+

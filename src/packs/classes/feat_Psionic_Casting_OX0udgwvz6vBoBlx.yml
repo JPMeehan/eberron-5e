@@ -1,0 +1,89 @@
+folder: Phx6I1SAw5Njln9c
+name: Psionic Casting
+type: feat
+_id: OX0udgwvz6vBoBlx
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Whenever you cast a spell, it requires no verbal or somatic components,
+      and it requires no material components, unless they are consumed by the
+      spell. However, other creatures can still tell you are casting a spell, as
+      your eyes glow, a palpable thrum emanates from you, or some other
+      observable display occurs indicating you are casting.</p><p> When you
+      reach 3rd level in this class, you can use the Subtle Spell Metamagic
+      option when you cast a spell to prevent this observable display from
+      occurring</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Psion 1
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 1000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704067850745
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!OX0udgwvz6vBoBlx'
+

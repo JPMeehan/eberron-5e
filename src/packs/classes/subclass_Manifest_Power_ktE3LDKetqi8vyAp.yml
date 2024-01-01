@@ -2,10 +2,17 @@ folder: vMllsaSXEu2GODo1
 name: Manifest Power
 type: subclass
 _id: ktE3LDKetqi8vyAp
-img: icons/svg/item-bag.svg
+img: icons/magic/symbols/rune-sigil-red-orange.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Whether you were descended from an otherworldly bloodline, born in a
+      wild zone, or encountered a reality storm later in life, the spark of your
+      sorcerous talents was ignited by planar energy. However, just as the
+      Material Plane itself feels the influence of all planes, your power is not
+      tied to a single extraplanar realm. Instead, your magic is drawn from all
+      planes, granting you the power to reach across the barriers that separate
+      them.</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,7 +21,50 @@ system:
     book: Talvakri's Guide to Adar
   identifier: manifest-power
   classIdentifier: sorcerer
-  advancement: []
+  advancement:
+    - _id: EHzwEBiJTnRxMqax
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.22D7cGi5bOlo83Ad
+          - Compendium.eberron-5e.classes.Item.8elpGf5i6Jsi7YRc
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+    - _id: 22ucm8mgGKGmLWoj
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.OC3w9i1CmbghFg0u
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: ''
+      icon: null
+    - _id: til3HqIRLaXF7b6q
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.3hzK5ISGbqqrwJ5f
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: ''
+      icon: null
+    - _id: CbUE0QKeFop34M7d
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.Rjlpypj6huc9Hwpp
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -29,6 +79,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686185020497
-  modifiedTime: 1702886723204
+  modifiedTime: 1704067178972
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!ktE3LDKetqi8vyAp'
+

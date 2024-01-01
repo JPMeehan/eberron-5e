@@ -1,0 +1,86 @@
+folder: ZrosQXEa5K3mNIiB
+name: Tranquility Wakes the Dreamer
+type: feat
+_id: vGlz8yOQ0R7bgxDW
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>Whenever you hit a creature with an unarmed strike, you may spend 8 ki
+      points to forgo dealing damage with the attack and instead cast feeblemind
+      on the attack’s target, requiring no action or spell components. You can
+      use this feature once, and you must finish a long rest before you can do
+      so again</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Way of the Dreaming Fist 17
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 17000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704063558276
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!vGlz8yOQ0R7bgxDW'
+

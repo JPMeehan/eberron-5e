@@ -1,0 +1,89 @@
+folder: Phx6I1SAw5Njln9c
+name: Psychic Transcendence
+type: feat
+_id: bsQaKaBNPGelxCYK
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>You have unlocked the deepest understanding of your ego, and your
+      personal reality becomes nigh unassailable. You gain the following
+      benefits:</p><ul><li>You gain resistance to bludgeoning, piercing, and
+      slashing damage from nonmagical attacks.</li><li>You no longer age and
+      cannot be magically aged.</li><li>You are immune to disease, poison
+      damage, and the poisoned condition.</li><li>You add half your proficiency
+      bonus to any saving throw you make that doesn’t already include your
+      proficiency bonus.</li></ul>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Talvakri's Guide to Adar
+    license: DMsGuild CCA
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Psion 18
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 18000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704067983581
+  modifiedTime: 1704070539813
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!bsQaKaBNPGelxCYK'
+
