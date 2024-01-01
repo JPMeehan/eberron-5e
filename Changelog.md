@@ -5,7 +5,8 @@
 - Updated Spells of levels 0—2.
 - Added descriptions to all ancestries.
   - Moved Shulassakar from Sarhain's to GGtX and removed the Sarhain's folder.
-- Added classs featuers for remaining subclasses on main classes
+- Added class features for remaining subclasses on official classes
+  - Subclass spell lists are still largely TODO
 - Listed LGtS and TGtA backgrounds
 
 ## 0.7.0 Initial Release

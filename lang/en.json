@@ -7,5 +7,10 @@
       "Quori": "Quori",
       "Riedran": "Riedran"
     }
+  },
+  "DND5E": {
+    "ClassFeature": {
+      "Mutagen": "Mutagen"
+    }
   }
 }

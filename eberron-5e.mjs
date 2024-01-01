@@ -1,4 +1,4 @@
-const MODULE_ID = "eberron-5e";
+const MODULE_ID = 'eberron-5e';
 
 const CUSTOMCONFIG = {
   DND5E: {},
@@ -6,34 +6,42 @@ const CUSTOMCONFIG = {
 };
 
 CUSTOMCONFIG.DND5E.weaponIds = {
-  lightbayonet: "eberron-5e.equipment.Bh03iHj0RFE4mVLG",
-  heavybayonet: "eberron-5e.equipment.Y69JxRP5RlU2zGRE",
-  handsentiralens: "eberron-5e.equipment.6K6KK1Y3mSPWTmQ1",
-  lightsentiralens: "eberron-5e.equipment.c70FIpBxD0Q9sDl9",
-  heavysentiralens: "eberron-5e.equipment.fx30to824cYf2N6E",
+  lightbayonet: 'eberron-5e.equipment.Bh03iHj0RFE4mVLG',
+  heavybayonet: 'eberron-5e.equipment.Y69JxRP5RlU2zGRE',
+  handsentiralens: 'eberron-5e.equipment.6K6KK1Y3mSPWTmQ1',
+  lightsentiralens: 'eberron-5e.equipment.c70FIpBxD0Q9sDl9',
+  heavysentiralens: 'eberron-5e.equipment.fx30to824cYf2N6E',
 };
 
-Hooks.once("init", () => {
+CUSTOMCONFIG.DND5E.featureTypes = {
+  class: {
+    subtypes: {
+      mutagen: 'DND5E.ClassFeature.Mutagen',
+    },
+  },
+};
+
+Hooks.once('init', () => {
   foundry.utils.mergeObject(CONFIG, CUSTOMCONFIG);
-  game.settings.register(MODULE_ID, "language", {
-    name: "Setting Language Group",
+  game.settings.register(MODULE_ID, 'language', {
+    name: 'Setting Language Group',
     hint: "Choose a setting's languages to use",
-    scope: "world",
+    scope: 'world',
     config: true,
     requiresReload: true,
     type: String,
     choices: {
-      default: "Default",
-      eberron: "Eberron",
+      default: 'Default',
+      eberron: 'Eberron',
     },
-    default: "eberron",
+    default: 'eberron',
   });
-  switch (game.settings.get(MODULE_ID, "language")) {
-    case "eberron":
+  switch (game.settings.get(MODULE_ID, 'language')) {
+    case 'eberron':
       applyEberronLanguages();
       break;
     default:
-      CONFIG.DND5E.languages.standard.children.csl = "DND5E.LanguagesCSL";
+      CONFIG.DND5E.languages.standard.children.csl = 'DND5E.LanguagesCSL';
   }
 });
 
@@ -46,15 +54,15 @@ function applyEberronLanguages() {
   delete CONFIG.DND5E.languages.exotic.children.undercommon;
 
   foundry.utils.mergeObject(CONFIG.DND5E.languages, {
-    "standard.children": {
-      riedran: "Eberron.Languages.Riedran",
-      gasl: "Eberron.Languages.GaSL",
-      gosl: "Eberron.Languages.GoSL",
+    'standard.children': {
+      riedran: 'Eberron.Languages.Riedran',
+      gasl: 'Eberron.Languages.GaSL',
+      gosl: 'Eberron.Languages.GoSL',
     },
-    "exotic.children": {
-      daelkyr: "Eberron.Languages.Daelkyr",
-      orc: "DND5E.LanguagesOrc",
-      quori: "Eberron.Languages.Quori",
+    'exotic.children': {
+      daelkyr: 'Eberron.Languages.Daelkyr',
+      orc: 'DND5E.LanguagesOrc',
+      quori: 'Eberron.Languages.Quori',
     },
   });
 }
