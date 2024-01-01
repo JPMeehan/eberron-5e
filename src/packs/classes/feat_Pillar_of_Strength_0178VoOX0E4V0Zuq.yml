@@ -1,0 +1,89 @@
+folder: tlGfav9X9hPVRlGp
+name: Pillar of Strength
+type: feat
+_id: 0178VoOX0E4V0Zuq
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 15th level, you have learnt to embody the unbreakable faith of the
+      Kalok Shash. You cannot be moved against your will by other creatures,
+      except by effects that would teleport you or create an object or
+      impassable barrier in your space.</p><p>When you have expended the last
+      spell slot you have remaining, for up to 1 minute afterward you have
+      advantage on all Strength saving throws and checks, and on melee weapon
+      attacks. Once you gain this benefit you must finish a long rest before you
+      can do so again.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Ghaash'kala - Paladins of the Wastes
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Oath of Wrath 15
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 15000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704076814079
+  modifiedTime: 1704092058301
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!0178VoOX0E4V0Zuq'
+

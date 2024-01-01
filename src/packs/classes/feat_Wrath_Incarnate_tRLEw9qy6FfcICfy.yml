@@ -1,0 +1,91 @@
+folder: tlGfav9X9hPVRlGp
+name: Wrath Incarnate
+type: feat
+_id: tRLEw9qy6FfcICfy
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 20th level, you become an embodiment of divine fury - an indomitable
+      warrior that strikes fear into the hearts of evil, your own filled with
+      burning piety. Once per long rest as a bonus action, you can enter a state
+      of incandescent rage, by channeling the divinity of your faith. While in
+      this state, you cannot be reduced below 1 hit point by any means, and can
+      take the Dash action as a bonus action.</p><p>Additionally, you regain a
+      1st level spell slot whenever you reduce an enemy to 0 hit points. At the
+      start of your turn, the state ends if you have not made an attack against
+      an enemy since the start of your last turn. You can maintain this state
+      for a maximum of 1 minute.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Ghaash'kala - Paladins of the Wastes
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Oath of Wrath 20
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 20000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704076842598
+  modifiedTime: 1704092058309
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!tRLEw9qy6FfcICfy'
+

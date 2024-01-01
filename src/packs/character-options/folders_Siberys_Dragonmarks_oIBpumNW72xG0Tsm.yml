@@ -1,0 +1,17 @@
+name: Siberys Dragonmarks
+sorting: a
+folder: null
+type: Item
+_id: oIBpumNW72xG0Tsm
+sort: 0
+color: null
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704073160638
+  modifiedTime: 1704073160638
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!folders!oIBpumNW72xG0Tsm'
+

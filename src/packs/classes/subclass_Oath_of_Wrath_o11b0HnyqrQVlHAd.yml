@@ -2,10 +2,29 @@ folder: tlGfav9X9hPVRlGp
 name: Oath of Wrath
 type: subclass
 _id: o11b0HnyqrQVlHAd
-img: icons/svg/item-bag.svg
+img: icons/skills/melee/strike-axe-red.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Many among the Ghaash’kala swear the simplest oaths - ones known to
+      all, but never spoken. The Oath of Wrath is a fire lit within a paladin’s
+      heart to stand firm without vanity or hesitation. At its core, it is
+      blinding in its simplicity - a vow to protect the innocent from evil like
+      a flame against the night.</p><p>Paladins of Wrath are instruments of
+      righteous justice. Most never hesitate to throw themselves into battle,
+      shrugging off terrible wounds to cut down their foes. Their rage at those
+      who would threaten what is precious to them manifests around them as
+      radiant angelic fire. Paladins of Wrath might be blessed by the warrior
+      angels of Shavarath, fight amongst the Ghaash’kala of the Labyrinth, or
+      worship Dol Arrah, the Sovereign of Sun and Sacrifice.</p><h3>Tenets of
+      Wrath</h3><p><strong>The Sword</strong>. You are the blade forged in
+      argent flame. No matter the means, no matter the personal cost, it is by
+      your hand that evil shall be sundered.</p><p><strong>The Shield</strong>.
+      You are the bastion that stands before the world. The unshakable rock on
+      which so many lives stand. It is by your hand that good can
+      prevail.</p><p><strong>The Sacrifice</strong>. You are the martyr honored
+      by the heavens. Do not fear your passing, nor the coming night - for there
+      is naught but beauty in the embers of the dying light</p>
     chat: ''
     unidentified: ''
   source:
@@ -14,7 +33,52 @@ system:
     book: Ghaash'kala - Paladins of the Wastes
   identifier: oath-of-wrath
   classIdentifier: paladin
-  advancement: []
+  advancement:
+    - _id: lU5SmXAK1CQssslr
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.WFFIbUPXXOT23nbg
+          - Compendium.eberron-5e.classes.Item.3wlz4kosVEwI1SJf
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: null
+    - _id: kdeAc6EVwfKWZnnD
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.mc9P72a0ekDjU1dn
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: ''
+      icon: null
+    - _id: Ysxk2mjfVopigwOf
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.0178VoOX0E4V0Zuq
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: ''
+      icon: null
+    - _id: JJUXuhdkfqweCPGy
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.tRLEw9qy6FfcICfy
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: ''
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -29,6 +93,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686185690091
-  modifiedTime: 1702886723204
+  modifiedTime: 1704076912183
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!o11b0HnyqrQVlHAd'
+

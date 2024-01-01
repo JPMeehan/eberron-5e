@@ -1,0 +1,90 @@
+folder: 3CrbOjEiO5JbGeLa
+name: Holy Bond
+type: feat
+_id: cCH1FpjHwv8Kx1G9
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 3rd level, you gain proficiency in the Religion skill. If you
+      already have proficiency, you can add your proficiency bonus twice to
+      Religion checks.</p><p> Additionally, you can prepare a number of spells
+      from the paladin spell list each day equal to your proficiency bonus.
+      These spells are ranger spells for you, and must of a level for which you
+      have spell slots. You can change these prepared spells when you finish a
+      long rest. Preparing a new list of spells requires time spent in prayer
+      and meditation: at least 1 minute per spell level for each spell on your
+      list</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Ghaash'kala - Paladins of the Wastes
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Divine Sentinel 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704091743369
+  modifiedTime: 1704092058208
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!cCH1FpjHwv8Kx1G9'
+

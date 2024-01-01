@@ -2,10 +2,24 @@ folder: 3CrbOjEiO5JbGeLa
 name: Divine Sentinel
 type: subclass
 _id: 7aZpr68vrkkKRHRH
-img: icons/svg/item-bag.svg
+img: icons/magic/holy/projectiles-blades-salvo-yellow.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Divine Sentinels are blessed hunters of the gods, tasked with tracking
+      down the vile and the monstrous in accordance with their faith. Each is
+      physically marked with a symbol of their duty, whether born as a fated
+      warrior, changed by circumstance, or empowered by pure belief. Divine
+      Sentinels are most at home in the wilderness, especially where
+      supernatural evil threatens to spread to populated areas. In Eberron,
+      Divine Sentinels can be found among the Kastar and Vaanka clans of the
+      Ghaash’kala, guarding the haunted forests of Thrane, and protecting the
+      Undying Court of Aerenal.</p><p>Your divine providence manifests as a
+      radiant sign or mark upon your person. Choose your blessing from the table
+      below, or roll to determine one randomly.</p><ol><li>A magical halo that
+      hovers behind your head.</li><li>A scar that burns when you feel
+      emotional.</li><li>Eyes that glow, especially when using
+      magic.</li><li>Unusually coloured or feathered hair.</li></ol>
     chat: ''
     unidentified: ''
   source:
@@ -14,7 +28,67 @@ system:
     book: Ghaash'kala - Paladins of the Wastes
   identifier: divine-sentinel
   classIdentifier: ranger
-  advancement: []
+  advancement:
+    - _id: wlEM1DuSBvSJ1FxA
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.TdxwZQZK61Yx1SLB
+          - Compendium.eberron-5e.classes.Item.cCH1FpjHwv8Kx1G9
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: ''
+      icon: null
+    - _id: 6toYxuHoAEq09cWU
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.RPPKnUXKtxI9Blby
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: ''
+      icon: null
+    - _id: SfhwWK09HpmzbAL1
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.YfJzLFLUaIPtirEA
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: ''
+      icon: null
+    - _id: 5N4lg6sIhaWxsLBj
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.classes.Item.1CZ74amvY2Wj6M0W
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: ''
+      icon: null
+    - _id: GF4ie3CQeSxotfei
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: false
+        grants:
+          - skills:rel
+        choices: []
+        hint: >-
+          At 3rd level, you gain proficiency in the Religion skill. If you
+          already have proficiency, you can add your proficiency bonus twice to
+          Religion checks.
+      level: 3
+      title: Holy Bond
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -29,6 +103,7 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1686185738077
-  modifiedTime: 1702886723204
+  modifiedTime: 1704091993363
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!7aZpr68vrkkKRHRH'
+

@@ -1,0 +1,88 @@
+folder: 3CrbOjEiO5JbGeLa
+name: Heavenly Charge
+type: feat
+_id: 1CZ74amvY2Wj6M0W
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 15th level, your prowess is rewarded with a companion steed to carry
+      you in battle. You learn the spell find greater steed, which does not
+      count against your total spells known, and counts as a ranger spell for
+      you. You can also cast it once without using a spell slot, and regain the
+      ability to do so when you finish a long rest.</p><p> Your steed benefits
+      from your Favored Enemy/Foe feature, and also deals the extra damage of
+      hunter’s mark when hitting an affected creature.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Ghaash'kala - Paladins of the Wastes
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Divine Sentinel 15
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 15000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704091849002
+  modifiedTime: 1704092058242
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!1CZ74amvY2Wj6M0W'
+

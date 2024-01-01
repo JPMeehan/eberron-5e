@@ -1,0 +1,88 @@
+folder: 3CrbOjEiO5JbGeLa
+name: Divine Blows
+type: feat
+_id: TdxwZQZK61Yx1SLB
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>At 3rd level, you can channel your gifts to smite foes with radiant
+      strength. Once per turn when you hit with any weapon attack, you can
+      expend one spell slot to deal radiant damage to the target in addition to
+      the weapon’s damage. The extra damage is 2d6 for a 1st-level spell slot,
+      plus 1d6 for each spell level higher than the 1st, to a maximum of 6d6.
+      The damage increases by 1d6 if the target is an undead or fiend, to a
+      maximum of 7d6.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Ghaash'kala - Paladins of the Wastes
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Divine Sentinel 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704091724178
+  modifiedTime: 1704092058186
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!TdxwZQZK61Yx1SLB'
+

@@ -1,0 +1,86 @@
+folder: tlGfav9X9hPVRlGp
+name: 'Channel Divinity: Unbreakable Spirit'
+type: feat
+_id: 3wlz4kosVEwI1SJf
+img: icons/svg/book.svg
+system:
+  description:
+    value: >-
+      <p>As a reaction to taking damage that would reduce you to 0 hit points,
+      you can use your Channel Divinity to bolster your spirit, ensuring you do
+      not fall until all evil is slain. You roar with furious will, preventing
+      you from falling below 1 hit point by any means until the end of your next
+      turn.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    license: DMsGuild CCA
+    custom: ''
+    book: Ghaash'kala - Paladins of the Wastes
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: class
+    subtype: ''
+  requirements: Oath of Wrath 3
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 3000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704076755638
+  modifiedTime: 1704092058272
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!3wlz4kosVEwI1SJf'
+
