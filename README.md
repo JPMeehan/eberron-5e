@@ -16,6 +16,6 @@ Includes the following
 - Hektula's Khyber Codex
 - Ghaash'khala: Paladins of the Wastes
 - Psion's Primer
-- Talvakri's GUide to Adar
+- Talvakri's Guide to Adar
 - Linvakri's Guide to Syrkarn
 - Giant Guide to Xen'drik
