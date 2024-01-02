@@ -1,7 +1,7 @@
 {
   "id": "eberron-5e",
   "title": "Eberron 5e",
-  "version": "0.7.0",
+  "version": "#{VERSION}#",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
