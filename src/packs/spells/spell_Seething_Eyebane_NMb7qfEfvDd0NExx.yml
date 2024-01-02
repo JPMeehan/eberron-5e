@@ -1,0 +1,106 @@
+folder: F1gsAFdTkSB3M1RM
+name: Seething Eyebane
+type: spell
+_id: NMb7qfEfvDd0NExx
+img: icons/magic/acid/dissolve-pool-bubbles.webp
+system:
+  description:
+    value: >-
+      <p>When you cast this spell, if you are not a fiend you take 1d12 necrotic
+      damage that cannot be mitigated in any way.</p><p>Make a melee spell
+      attack against a creature you can reach. On a hit, the target must make a
+      Constitution saving throw. On a failed save, the target is permanently
+      blinded as its eyes explode in a spray of acid, dealing 1d6 points of acid
+      damage to each creature within a 5-foot radius of the target (including
+      the target).</p><p>If the initial target of this spell is a construct or a
+      creature without eyes, the spell fails. A creature’s eyes destroyed by
+      this spell can be restored by a lesser restoration spell or similar
+      magic.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: radius
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: msak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d6
+        - acid
+    versatile: ''
+  formula: 1d12
+  save:
+    ability: con
+    dc: null
+    scaling: spell
+  level: 1
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704156402129
+  modifiedTime: 1704159786767
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!NMb7qfEfvDd0NExx'
+

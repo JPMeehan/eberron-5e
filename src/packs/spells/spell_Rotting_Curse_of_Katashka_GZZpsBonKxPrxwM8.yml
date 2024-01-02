@@ -1,0 +1,94 @@
+folder: qgty36A5lW2ISTfx
+name: Rotting Curse of Katashka
+type: spell
+_id: GZZpsBonKxPrxwM8
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: ''
+    chat: ''
+    unidentified: ''
+  source:
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 5
+  school: trs
+  components:
+    vocal: false
+    somatic: false
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704156382620
+  modifiedTime: 1704159786767
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!GZZpsBonKxPrxwM8'
+

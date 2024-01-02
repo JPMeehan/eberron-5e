@@ -1,0 +1,105 @@
+folder: 8HZDRNglvfgWO2oB
+name: Cheat
+type: spell
+_id: AR7VtwfAKNHUPtG8
+img: icons/sundries/gaming/dice-pair-white-green.webp
+system:
+  description:
+    value: >-
+      <p>When you cast this spell, if you are not a fiend you take 1 point of
+      psychic damage that cannot be mitigated in any way.</p><p>At one point
+      during the duration of this spell, you can alter the probability of a
+      game, cheating the odds in your favor. You may reroll any ability check or
+      die roll used to determine the results of the game, taking the better
+      result.</p><p>This spell can only affect nonmagical games, such as those
+      using mundane cards or dice. It cannot affect a game involving magic, such
+      as an archfey’s magically enforced wager, nor a magic item involved in a
+      game, such as a deck of many things.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: abil
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - '1'
+        - psychic
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 0
+  school: div
+  components:
+    vocal: false
+    somatic: false
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: a pair of dice made from humanoid bones
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704155917875
+  modifiedTime: 1704159786767
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!AR7VtwfAKNHUPtG8'
+

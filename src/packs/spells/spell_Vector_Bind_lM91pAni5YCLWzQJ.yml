@@ -1,0 +1,102 @@
+folder: F1gsAFdTkSB3M1RM
+name: Vector Bind
+type: spell
+_id: lM91pAni5YCLWzQJ
+img: icons/skills/movement/arrow-upward-blue.webp
+system:
+  description:
+    value: >-
+      <p>You tie together your own momentum and velocity with those of a
+      creature that you can see within range. Until the end of your turn,
+      whenever you move, the creature moves the same distance and direction as
+      you. It cannot be made to move further than its own speed, and does not
+      provoke opportunity attacks while moving in this way. A creature with
+      multiple types of movement can choose which of its movement speeds to
+      use.</p><p>An unwilling creature can attempt a Wisdom saving throw to
+      resist the effect.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: action
+    cost: null
+    condition: ''
+  duration:
+    value: '1'
+    units: turn
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    prompt: true
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  level: 1
+  school: enc
+  components:
+    vocal: true
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: a length of string tied in a knot
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704148682823
+  modifiedTime: 1704159786767
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!lM91pAni5YCLWzQJ'
+

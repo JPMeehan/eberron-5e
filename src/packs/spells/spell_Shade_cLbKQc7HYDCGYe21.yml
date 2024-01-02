@@ -1,0 +1,103 @@
+folder: 8HZDRNglvfgWO2oB
+name: Shade
+type: spell
+_id: cLbKQc7HYDCGYe21
+img: icons/magic/unholy/orb-swirling-teal.webp
+system:
+  description:
+    value: >-
+      <p>You touch one object that is no larger than 10 feet wide. Until the
+      spell ends, wispy tendrils of shadow emanate from it; the light in a
+      10-foot radius centered on that object cannot be brighter than dim unless
+      that light is magical, and a creature in that radius has advantage on
+      saving throws against extreme heat if the sun is visible. Completely
+      covering the object with something opaque blocks this effect. The spell
+      ends if you cast it again or dismiss it as an action.</p><p>If you target
+      an object held or worn by a hostile creature, that creature must succeed
+      on a Dexterity saving throw to avoid the spell.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: hour
+  cover: null
+  crewed: false
+  target:
+    value: 10
+    width: null
+    units: ft
+    type: radius
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 0
+  school: evo
+  components:
+    vocal: false
+    somatic: true
+    material: true
+    ritual: false
+    concentration: false
+  materials:
+    value: a pinch of soot
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704148510814
+  modifiedTime: 1704159786767
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!cLbKQc7HYDCGYe21'
+

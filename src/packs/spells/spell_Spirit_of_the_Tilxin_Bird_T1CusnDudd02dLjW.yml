@@ -1,0 +1,106 @@
+folder: F1gsAFdTkSB3M1RM
+name: Spirit of the Tilxin Bird
+type: spell
+_id: T1CusnDudd02dLjW
+img: icons/creatures/birds/songbird-yellow-flying.webp
+system:
+  description:
+    value: >-
+      <p>You call forth a nature spirit to bestow your allies with a bird’s
+      speed in flight. The intangible spirit appears in a space that is a 5-foot
+      cube you can see within range, appearing as an intangible tilxin
+      hummingbird.</p><p>Until the spell ends, whenever you or a creature you
+      can see moves into the spirit’s space for the first time on a turn or
+      starts its turn there, you can cause the spirit to grant them a tilxin’s
+      speed. An affected creature gains an extra action for that turn, which
+      they can only use to Dash, Disengage, or Dodge.</p><p>As a bonus action on
+      your turn, you can move the spirit up to 80 feet to a space you can see.
+      The spirit can grant this blessing a number of times equal to 1 + your
+      spellcasting ability modifier (minimum of twice), and disappears after
+      doing so.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: bonus
+    cost: null
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 5
+    width: null
+    units: ft
+    type: cube
+    prompt: true
+  range:
+    value: 80
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  school: con
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: true
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704148645113
+  modifiedTime: 1704159786767
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!T1CusnDudd02dLjW'
+

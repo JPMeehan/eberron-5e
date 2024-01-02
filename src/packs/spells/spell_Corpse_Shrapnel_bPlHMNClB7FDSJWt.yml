@@ -1,0 +1,106 @@
+folder: F1gsAFdTkSB3M1RM
+name: Corpse Shrapnel
+type: spell
+_id: bPlHMNClB7FDSJWt
+img: icons/magic/death/bones-crossed-gray.webp
+system:
+  description:
+    value: >-
+      <p>As a reaction to a creature that you can see dying, you cause its
+      corpse to explode loudly, the bones shattering in a hail of vicious
+      shards. Every creature in a 15ft cone in a direction of your choice
+      originating from the creature’s corpse must succeed on a Dexterity saving
+      throw or take 2d12 piercing damage. Creatures behind full cover are
+      unaffected. The corpse itself is destroyed without a trace. Corpses
+      without bones, such as the remains of oozes, are unaffected by this
+      spell.</p><p><strong>At Higher Levels:</strong> When you cast this spell
+      using a spell slot of 2nd level or higher, the damage increases by 1d12
+      for each spell slot above 1st.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Giant Guide to Xen'drik
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: reaction
+    cost: 1
+    condition: a creature that you can see dying
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: 15
+    width: null
+    units: ft
+    type: cone
+    prompt: true
+  range:
+    value: 60
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d12
+        - piercing
+    versatile: ''
+  formula: ''
+  save:
+    ability: dex
+    dc: null
+    scaling: spell
+  level: 1
+  school: trs
+  components:
+    vocal: true
+    somatic: true
+    material: false
+    ritual: false
+    concentration: false
+  materials:
+    value: ''
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: level
+    formula: 1d12
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704141838291
+  modifiedTime: 1704159786767
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!bPlHMNClB7FDSJWt'
+
