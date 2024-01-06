@@ -4,7 +4,38 @@ type: race
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Seeker aasimar draw divine power from their own blood. The aura of a
+      Seeker aasimar can consume the life force of enemies, while sustaining
+      those on the verge of death.</p><h3>Seeker Aasimar Traits</h3><p>Your
+      aasimar character has the following racial
+      traits.</p><p><strong>Age</strong>. Aasimar mature at the same rate as
+      humans, but they can live up to 160 years.</p><p><strong>Size</strong>.
+      Aasimar have the same range of height and weight as
+      humans.</p><p><strong>Speed</strong>. Your base walking speed is 30
+      feet.</p><p><strong>Darkvision</strong>. Blessed with a radiant soul, your
+      vision can easily cut through darkness. You can see in dim light within 60
+      feet of you as if it were bright light, and in darkness as if it were dim
+      light. You can’t discern color in darkness, only shades of
+      gray.</p><p><strong>Celestial Resistance</strong>. You have resistance to
+      necrotic damage and radiant damage.</p><p><strong>Healing Hands</strong>.
+      As an action, you can touch a creature and cause it to regain a number of
+      hit points equal to your level. Once you use this trait, you can’t use it
+      again until you finish a long rest.</p><p><strong>Light Bearer</strong>.
+      You know the light cantrip. Charisma is your spellcasting ability for
+      it.</p><p><strong>Languages</strong>. You can speak, read, and write
+      Common and Celestial.</p><p></p><p><strong>Shroud of Life and
+      Death.</strong> Starting at 3rd level, you can use your action to awaken
+      the power in your blood, causing a nimbus of crimson energy to flow out
+      from you.</p><p>Your transformation lasts for 1 minute or until you end it
+      as a bonus action. During it, you shed dim light in a 10-foot radius, and
+      at the end of each of your turns, one creature within 30 feet of you takes
+      necrotic damage equal to half your level (rounded up). In addition, if you
+      or an ally within 30 feet drops to 0 hit points without being killed
+      outright, you can use your reaction to preserve them, causing them to drop
+      to 1 hit point instead. When you use this reaction, it ends your
+      transformation early.</p><p>Once you use this trait, you can’t use it
+      again until you finish a long rest.</p>
     chat: ''
     unidentified: ''
   source:
@@ -68,8 +99,8 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700378683464
-  modifiedTime: 1702848468030
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1704525115451
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _id: lsJbX9YvTEaW2B3N
 sort: 0
 _key: '!items!lsJbX9YvTEaW2B3N'

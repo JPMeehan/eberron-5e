@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.8.1
+
+- Added descriptions to ExE Aasimar
+- Added Siberys Dragonmarks
+
 ## 0.8.0
 
 - Updated Spells of levels 0—2.

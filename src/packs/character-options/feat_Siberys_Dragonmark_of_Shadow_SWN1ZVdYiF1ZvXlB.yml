@@ -1,0 +1,89 @@
+folder: y3rUxKeYuwC2Bu5O
+name: Siberys Dragonmark of Shadow
+type: feat
+img: icons/svg/item-bag.svg
+system:
+  description:
+    value: >-
+      <p>You have advantage on Dexterity (Stealth) checks. In addition, you can
+      cast the mislead or scrying spell without expending a spell slot or
+      requiring material components. Once you do so, you can’t cast either spell
+      in this way again until you finish a long rest. Charisma is your
+      spellcasting ability for these spells.</p>
+    chat: ''
+    unidentified: ''
+  source:
+    book: Exploring Eberron
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: feat
+    subtype: ''
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags:
+  core:
+    sourceId: Compendium.eberron-5e.character-options.Item.SYaGobt5lRhuAr6h
+_stats:
+  systemId: dnd5e
+  systemVersion: 2.4.1
+  coreVersion: '11.315'
+  createdTime: 1704525811527
+  modifiedTime: 1704526153562
+  lastModifiedBy: MVioF9x1qI1WYGx1
+sort: 100000
+_id: SWN1ZVdYiF1ZvXlB
+_key: '!items!SWN1ZVdYiF1ZvXlB'
+

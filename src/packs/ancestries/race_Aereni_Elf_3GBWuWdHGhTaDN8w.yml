@@ -5,17 +5,18 @@ img: icons/svg/item-bag.svg
 system:
   description:
     value: >-
-      <p>Your elf character has a variety of natural abilities, the result of
-      thousands of years of elven refinement.</p><p><em><strong>Ability Score
-      Increase.</strong></em> Your Dexterity score increases by
-      2.</p><p><em><strong>Age.</strong></em> Although elves reach physical
-      maturity at about the same age as humans, the elven understanding of
-      adulthood goes beyond physical growth to encompass worldly experience. An
-      elf typically claims adulthood and an adult name around the age of 100 and
-      can live to be 750 years old.</p><p><em><strong>Alignment.</strong></em>
-      Elves love freedom, variety, and self-expression, so they lean strongly
-      toward the gentler aspects of chaos. They value and protect others'
-      freedom as well as their own, and they are more often good than
+      <p>As an Aereni elf, you were born into a world shaped by magic and honed
+      by tradition. Whether you have a keen mind or are driven by deep faith,
+      you’ve spent your youth perfecting one of the skills prized by your
+      ancestors. </p><p><em><strong>Age.</strong></em> Although elves reach
+      physical maturity at about the same age as humans, the elven understanding
+      of adulthood goes beyond physical growth to encompass worldly experience.
+      An elf typically claims adulthood and an adult name around the age of 100
+      and can live to be 750 years
+      old.</p><p><em><strong>Alignment.</strong></em> Elves love freedom,
+      variety, and self-expression, so they lean strongly toward the gentler
+      aspects of chaos. They value and protect others' freedom as well as their
+      own, and they are more often good than
       not.</p><p><em><strong>Size.</strong></em> Elves range from under 5 to
       over 6 feet tall and have slender builds. Your size is
       Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is
@@ -177,8 +178,8 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700378683464
-  modifiedTime: 1702848462258
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1704525523287
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _id: 3GBWuWdHGhTaDN8w
 sort: 100000
 _key: '!items!3GBWuWdHGhTaDN8w'

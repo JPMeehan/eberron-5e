@@ -4,7 +4,39 @@ type: race
 img: icons/svg/item-bag.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Court aasimar appear among the elves of Eberron, and combine the
+      celestial gifts of the aasimar with the long lifespan and fey blood of the
+      elves. </p><h3>Court Aasimar Traits</h3><p>Your aasimar character has the
+      following racial traits.</p><p><strong>Age</strong>. You mature at the
+      same rate as an elf, but you can live up to 1,000
+      years.</p><p><strong>Size</strong>. Aasimar have the same range of height
+      and weight as humans.</p><p><strong>Speed</strong>. Your base walking
+      speed is 30 feet.</p><p><strong>Darkvision</strong>. Blessed with a
+      radiant soul, your vision can easily cut through darkness. You can see in
+      dim light within 60 feet of you as if it were bright light, and in
+      darkness as if it were dim light. You can’t discern color in darkness,
+      only shades of gray.</p><p><strong>Celestial Resistance</strong>. You have
+      resistance to necrotic damage and radiant damage.</p><p><strong>Healing
+      Hands</strong>. As an action, you can touch a creature and cause it to
+      regain a number of hit points equal to your level. Once you use this
+      trait, you can’t use it again until you finish a long
+      rest.</p><p><strong>Light Bearer</strong>. You know the light cantrip.
+      Charisma is your spellcasting ability for
+      it.</p><p><strong>Languages</strong>. You can speak, read, and write
+      Common and Celestial.</p><p><strong>Fey Ancestry</strong>. You have
+      advantage on saving throws against being charmed, and magic can’t put you
+      to sleep.</p><p><strong>Trance</strong>. You don’t need to sleep. Instead,
+      you meditate deeply, remaining semiconscious, for 4 hours a day. After
+      resting in this way, you gain the same benefit that a human does from 8
+      hours of sleep.</p><p><strong>Extra Language</strong>. You can speak,
+      read, and write Elvish. Guidance From the Past. Starting at 3rd level, you
+      can use an action to draw on your connection to your ancestors. Misty
+      tendrils flow around you, whispering advice only you can hear. Your
+      transformation lasts for 1 minute or until you end it as a bonus action.
+      During it, you gain advantage on all Wisdom checks and saving
+      throws.</p><p>Once you use this trait, you can’t use it again until you
+      finish a long rest.</p>
     chat: ''
     unidentified: ''
   source:
@@ -68,8 +100,8 @@ _stats:
   systemVersion: 2.4.1
   coreVersion: '11.315'
   createdTime: 1700378683464
-  modifiedTime: 1702848462258
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1704525150900
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _id: lc1pHuelF2nAWi2V
 sort: 200000
 _key: '!items!lc1pHuelF2nAWi2V'
