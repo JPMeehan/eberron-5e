@@ -1,11 +1,11 @@
 const MODULE_ID = 'eberron-5e';
 
-const CUSTOMCONFIG = {
+const EBERRONCONFIG = {
   DND5E: {},
   EBERRON: {},
 };
 
-CUSTOMCONFIG.DND5E.weaponIds = {
+EBERRONCONFIG.DND5E.weaponIds = {
   lightbayonet: 'eberron-5e.equipment.Bh03iHj0RFE4mVLG',
   heavybayonet: 'eberron-5e.equipment.Y69JxRP5RlU2zGRE',
   handsentiralens: 'eberron-5e.equipment.6K6KK1Y3mSPWTmQ1',
@@ -13,7 +13,7 @@ CUSTOMCONFIG.DND5E.weaponIds = {
   heavysentiralens: 'eberron-5e.equipment.fx30to824cYf2N6E',
 };
 
-CUSTOMCONFIG.DND5E.featureTypes = {
+EBERRONCONFIG.DND5E.featureTypes = {
   class: {
     subtypes: {
       mutagen: 'DND5E.ClassFeature.Mutagen',
@@ -22,7 +22,7 @@ CUSTOMCONFIG.DND5E.featureTypes = {
 };
 
 Hooks.once('init', () => {
-  foundry.utils.mergeObject(CONFIG, CUSTOMCONFIG);
+  foundry.utils.mergeObject(CONFIG, EBERRONCONFIG);
   game.settings.register(MODULE_ID, 'language', {
     name: 'Setting Language Group',
     hint: "Choose a setting's languages to use",

@@ -15,5 +15,5 @@ packs/**/MANIFEST-*
 
 ## Foundry
 *.lock
-foundry.js
-dnd5e.mjs
+foundry
+dnd5e
