@@ -1,24 +1,42 @@
 const MODULE_ID = 'eberron-5e';
 
 const EBERRONCONFIG = {
-  DND5E: {},
-  EBERRON: {},
-};
-
-EBERRONCONFIG.DND5E.weaponIds = {
-  lightbayonet: 'eberron-5e.equipment.Bh03iHj0RFE4mVLG',
-  heavybayonet: 'eberron-5e.equipment.Y69JxRP5RlU2zGRE',
-  handsentiralens: 'eberron-5e.equipment.6K6KK1Y3mSPWTmQ1',
-  lightsentiralens: 'eberron-5e.equipment.c70FIpBxD0Q9sDl9',
-  heavysentiralens: 'eberron-5e.equipment.fx30to824cYf2N6E',
-};
-
-EBERRONCONFIG.DND5E.featureTypes = {
-  class: {
-    subtypes: {
-      mutagen: 'DND5E.ClassFeature.Mutagen',
+  DND5E: {
+    weaponIds: {
+      lightbayonet: 'eberron-5e.equipment.Bh03iHj0RFE4mVLG',
+      heavybayonet: 'eberron-5e.equipment.Y69JxRP5RlU2zGRE',
+      handsentiralens: 'eberron-5e.equipment.6K6KK1Y3mSPWTmQ1',
+      lightsentiralens: 'eberron-5e.equipment.c70FIpBxD0Q9sDl9',
+      heavysentiralens: 'eberron-5e.equipment.fx30to824cYf2N6E',
+    },
+    featureTypes: {
+      class: {
+        subtypes: {
+          mutagen: 'DND5E.ClassFeature.Mutagen',
+        },
+      },
+    },
+    sourceBooks: {
+      'Exploring Eberron': 'by Keith Baker',
+      'Chronicles of Eberron': 'by Keith Baker',
+      'Dread Metrol': 'by Keith Baker',
+      'Archetypes of Eberron':
+        'by Will Brolley, Imogen Gingell, Laura Hirsbrunner',
+      'Warlocks of Eberron': 'by Imogen Gingell',
+      "Scales of Q'barra": 'by Joseph Meehan and Stuart Broz',
+      'Map Perilous': 'by Anthony J. Turco',
+      'Threat Dispatch': 'by Anthony J. Turco',
+      "Sarhain's Guide to the Silver Flame": 'by Luke Robinson',
+      "Hektula's Khyber Codex": 'by Jamie Bernstein',
+      "Ghaash'khala: Paladins of the Wastes": 'by Jamie Bernstein',
+      "Psion's Primer": 'by Anthony J. Turco',
+      "Talvakri's Guide to Adar": 'by Megan Caldwell',
+      "Linvakri's Guide to Syrkarn": 'by Vani Srinavasan',
+      "Giant Guide to Xen'drik":
+        'by Jamie Berstein, Anthony Turco, & Nausicaä Enriquez',
     },
   },
+  EBERRON: {},
 };
 
 Hooks.once('init', () => {
