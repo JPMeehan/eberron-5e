@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.0
+
+- Bumped minimum system version to dnd5e `3.0`
+- Added sourceBooks to CONFIG
+
 ## 0.8.1
 
 - Added descriptions to ExE Aasimar

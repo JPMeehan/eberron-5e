@@ -7,6 +7,16 @@
     "verified": "11"
   },
   "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3",
+          "verified": "3.0.0"
+        }
+      }
+    ],
     "recommends": [
       {
         "id": "prime-psionics",
