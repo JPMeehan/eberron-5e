@@ -18,7 +18,6 @@ system:
       bayonet that isn’t attached to a crossbow. It takes an action to attach or
       remove a bayonet from a weapon</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     book: Chronicles of Eberron
@@ -87,30 +86,16 @@ system:
     max: null
     dt: null
     conditions: ''
-  weaponType: simpleM
-  baseItem: ''
   properties:
-    ada: false
-    amm: false
-    fin: false
-    fir: false
-    foc: false
-    hvy: false
-    lgt: false
-    lod: false
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: true
-    thr: false
-    two: true
-    ver: false
+    - spc
+    - two
   proficient: null
   type:
     baseItem: lightbayonet
     value: simpleM
+  unidentified:
+    description: ''
+  container: null
 effects: []
 ownership:
   default: 0
@@ -124,7 +109,7 @@ _stats:
   systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1686376009793
-  modifiedTime: 1706920824184
+  modifiedTime: 1707003540120
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: Y9KNEEWMWf6WdlvP
 sort: 300000

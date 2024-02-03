@@ -31,7 +31,6 @@ system:
       they can’t be sensed with the detect magic spell or similar magic.
       However, they don’t function in an antimagic field.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     book: Chronicles of Eberron
@@ -100,30 +99,16 @@ system:
     max: null
     dt: null
     conditions: ''
-  weaponType: martialR
-  baseItem: handcrossbow
   properties:
-    ada: false
-    amm: false
-    fin: false
-    fir: false
-    foc: false
-    hvy: false
-    lgt: false
-    lod: false
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: true
-    thr: false
-    two: true
-    ver: false
+    - spc
+    - two
   proficient: null
   type:
     baseItem: handsentiralens
     value: martialR
+  unidentified:
+    description: ''
+  container: null
 effects: []
 ownership:
   default: 0
@@ -137,7 +122,7 @@ _stats:
   systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1686376733715
-  modifiedTime: 1706920811335
+  modifiedTime: 1707003540074
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: IaBIyzprECOO69cR
 sort: 400000

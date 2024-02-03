@@ -14,7 +14,6 @@ system:
       your attack doesn't give away your location. Once this property is used,
       it can’t be used again for 10 minutes.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: CoE
   quantity: 1
@@ -73,20 +72,24 @@ system:
     scaling: spell
   armor:
     value: null
-    type: trinket
     dex: null
   hp:
     value: null
     max: null
     dt: null
     conditions: ''
-  baseItem: ''
   speed:
     value: null
     conditions: ''
   strength: null
-  stealth: false
   proficient: null
+  unidentified:
+    description: ''
+  type:
+    value: trinket
+    baseItem: ''
+  container: null
+  properties: []
 effects: []
 ownership:
   default: 0
@@ -95,10 +98,10 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1686376335558
-  modifiedTime: 1702848991130
+  modifiedTime: 1707003540049
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: 4jeEtuzSxg2e15T9
 sort: 0

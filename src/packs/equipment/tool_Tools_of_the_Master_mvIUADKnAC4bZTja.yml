@@ -12,7 +12,6 @@ system:
       In addition, you can add this bonus to any ability check you make using
       this tool.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ExE
   quantity: 1
@@ -24,12 +23,17 @@ system:
   equipped: false
   rarity: uncommon
   identified: true
-  toolType: ''
-  baseItem: ''
   ability: ''
   chatFlavor: ''
   proficient: null
   bonus: '+1'
+  unidentified:
+    description: ''
+  type:
+    value: ''
+    baseItem: ''
+  container: null
+  properties: []
 effects:
   - icon: icons/tools/hand/hammer-and-nail.webp
     origin: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
@@ -136,10 +140,10 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1687066268181
-  modifiedTime: 1702848985706
+  modifiedTime: 1707003540166
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: mvIUADKnAC4bZTja
 sort: 0

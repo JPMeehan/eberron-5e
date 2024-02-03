@@ -21,7 +21,6 @@ system:
       is 13. Once the imbued spell is cast, the spellbolt is destroyed and turns
       to dust.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: CoE
   quantity: 1
@@ -79,11 +78,13 @@ system:
     ability: ''
     dc: 13
     scaling: flat
-  consumableType: ammo
-  properties:
-    ada: false
-    mgc: false
-    sil: false
+  properties: []
+  unidentified:
+    description: ''
+  type:
+    value: ammo
+    subtype: ''
+  container: null
 effects: []
 ownership:
   default: 0
@@ -92,10 +93,10 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1686376505466
-  modifiedTime: 1702848994572
+  modifiedTime: 1707003540092
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: K63myVwgBsBmLdu1
 sort: 0

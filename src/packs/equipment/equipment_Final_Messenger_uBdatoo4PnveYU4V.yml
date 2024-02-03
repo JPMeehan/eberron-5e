@@ -41,7 +41,6 @@ system:
       must complete a short or long rest attached to a warforged, after which it
       regains its energy, as well as regaining all lost hit points.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ExE
   quantity: 1
@@ -100,20 +99,24 @@ system:
     scaling: spell
   armor:
     value: null
-    type: trinket
     dex: null
   hp:
     value: null
     max: null
     dt: null
     conditions: ''
-  baseItem: ''
   speed:
     value: null
     conditions: ''
   strength: null
-  stealth: false
   proficient: null
+  unidentified:
+    description: ''
+  type:
+    value: trinket
+    baseItem: ''
+  container: null
+  properties: []
 effects: []
 ownership:
   default: 0
@@ -122,10 +125,10 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1687067286651
-  modifiedTime: 1702848997423
+  modifiedTime: 1707003540188
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: uBdatoo4PnveYU4V
 sort: 0
