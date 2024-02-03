@@ -4,6 +4,7 @@
 
 - Bumped minimum system version to dnd5e `3.0`
 - Added sourceBooks to CONFIG
+- Fixed base item configuration
 
 ## 0.8.1
 

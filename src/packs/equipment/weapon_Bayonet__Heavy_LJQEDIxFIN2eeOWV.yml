@@ -20,7 +20,10 @@ system:
     chat: ''
     unidentified: ''
   source:
-    custom: CoE
+    custom: ''
+    book: Chronicles of Eberron
+    page: ''
+    license: DMsGuild CCA
   quantity: 1
   weight: 1
   price:
@@ -105,6 +108,9 @@ system:
     two: true
     ver: false
   proficient: null
+  type:
+    baseItem: heavybayonet
+    value: martialM
 effects: []
 ownership:
   default: 0
@@ -118,7 +124,7 @@ _stats:
   systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1686376009793
-  modifiedTime: 1706919539158
+  modifiedTime: 1706920819879
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: LJQEDIxFIN2eeOWV
 sort: 100000
