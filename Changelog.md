@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.1
+
+- Re-ran migrations to actually fix the base item deprecation warnings.
+
 ## 0.9.0
 
 - Bumped minimum system version to dnd5e `3.0`
