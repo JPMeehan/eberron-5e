@@ -124,12 +124,14 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
+  chaosos-5e-content:
+    weaponMastered: false
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1686376733715
-  modifiedTime: 1702849030583
+  modifiedTime: 1706919537841
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: bB8AjYgH1NVWIKjl
 sort: 0

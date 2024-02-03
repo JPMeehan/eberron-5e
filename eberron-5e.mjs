@@ -3,11 +3,11 @@ const MODULE_ID = 'eberron-5e';
 const EBERRONCONFIG = {
   DND5E: {
     weaponIds: {
-      lightbayonet: 'eberron-5e.equipment.Bh03iHj0RFE4mVLG',
-      heavybayonet: 'eberron-5e.equipment.Y69JxRP5RlU2zGRE',
-      handsentiralens: 'eberron-5e.equipment.6K6KK1Y3mSPWTmQ1',
-      lightsentiralens: 'eberron-5e.equipment.c70FIpBxD0Q9sDl9',
-      heavysentiralens: 'eberron-5e.equipment.fx30to824cYf2N6E',
+      lightbayonet: 'eberron-5e.equipment.Y9KNEEWMWf6WdlvP',
+      heavybayonet: 'eberron-5e.equipment.LJQEDIxFIN2eeOWV',
+      handsentiralens: 'eberron-5e.equipment.IaBIyzprECOO69cR',
+      lightsentiralens: 'eberron-5e.equipment.bB8AjYgH1NVWIKjl',
+      heavysentiralens: 'eberron-5e.equipment.23TyYaYlvyrbOiEy',
     },
     featureTypes: {
       class: {
