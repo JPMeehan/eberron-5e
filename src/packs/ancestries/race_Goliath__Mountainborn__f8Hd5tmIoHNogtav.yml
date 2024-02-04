@@ -2,7 +2,7 @@ folder: 4hrqRwNaXtiGo7XS
 name: Goliath (Mountainborn)
 type: race
 _id: f8Hd5tmIoHNogtav
-img: icons/svg/item-bag.svg
+img: systems/dnd5e/icons/svg/items/race.svg
 system:
   description:
     value: >-
@@ -85,10 +85,10 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1700627934869
-  modifiedTime: 1703833127421
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1707007768482
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!f8Hd5tmIoHNogtav'
 

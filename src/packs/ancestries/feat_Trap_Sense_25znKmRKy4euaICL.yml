@@ -2,7 +2,7 @@ folder: uZswVWNGZH0IQvZE
 name: Trap Sense
 type: feat
 _id: 25znKmRKy4euaICL
-img: icons/svg/item-bag.svg
+img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
     value: <p>You have advantage on saving throws against traps and lair actions.</p>
@@ -74,10 +74,9 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1700456748081
-  modifiedTime: 1703883413956
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1707007768482
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!25znKmRKy4euaICL'
-

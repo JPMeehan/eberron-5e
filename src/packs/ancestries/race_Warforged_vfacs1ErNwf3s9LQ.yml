@@ -1,7 +1,7 @@
 folder: VOaafup309BfsT6j
 name: Warforged
 type: race
-img: icons/svg/item-bag.svg
+img: systems/dnd5e/icons/svg/items/race.svg
 system:
   description:
     value: >-
@@ -109,10 +109,10 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1700378683464
-  modifiedTime: 1702848469395
+  modifiedTime: 1707007768482
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: vfacs1ErNwf3s9LQ
 sort: 100000

@@ -2,7 +2,7 @@ folder: 4hrqRwNaXtiGo7XS
 name: Illumian
 type: race
 _id: 7Wv72a4wOsVapKni
-img: icons/svg/item-bag.svg
+img: systems/dnd5e/icons/svg/items/race.svg
 system:
   description:
     value: >-
@@ -116,10 +116,10 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1700627987414
-  modifiedTime: 1703833669663
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1707007768482
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!7Wv72a4wOsVapKni'
 

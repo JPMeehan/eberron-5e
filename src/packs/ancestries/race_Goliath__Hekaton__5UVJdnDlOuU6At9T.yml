@@ -1,7 +1,7 @@
 folder: kufvqvtSm57lhpth
 name: Goliath (Hekaton)
 type: race
-img: icons/svg/item-bag.svg
+img: systems/dnd5e/icons/svg/items/race.svg
 system:
   description:
     value: >-
@@ -108,11 +108,11 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1700628359862
-  modifiedTime: 1703878068882
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1707007768482
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: 5UVJdnDlOuU6At9T
 sort: 200000
 _key: '!items!5UVJdnDlOuU6At9T'

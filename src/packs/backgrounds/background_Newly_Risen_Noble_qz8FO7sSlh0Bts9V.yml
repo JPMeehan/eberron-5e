@@ -1,6 +1,6 @@
 name: Newly Risen Noble
 type: background
-img: icons/svg/item-bag.svg
+img: systems/dnd5e/icons/svg/items/background.svg
 system:
   description:
     value: >-
@@ -28,10 +28,10 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1700463433143
-  modifiedTime: 1702848494644
+  modifiedTime: 1707007882628
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: qz8FO7sSlh0Bts9V
 sort: 100000

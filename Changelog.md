@@ -3,6 +3,7 @@
 ## 0.9.1
 
 - Re-ran migrations to actually fix the base item deprecation warnings.
+- Updated item icons to use the new default artwork
 
 ## 0.9.0
 

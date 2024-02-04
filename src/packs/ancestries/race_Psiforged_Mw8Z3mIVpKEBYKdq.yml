@@ -2,7 +2,7 @@ folder: GhbUKEQK0T0F66Q5
 name: Psiforged
 type: race
 _id: Mw8Z3mIVpKEBYKdq
-img: icons/svg/item-bag.svg
+img: systems/dnd5e/icons/svg/items/race.svg
 system:
   description:
     value: >-
@@ -104,10 +104,10 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1700628722871
-  modifiedTime: 1703835242575
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1707007768482
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!Mw8Z3mIVpKEBYKdq'
 

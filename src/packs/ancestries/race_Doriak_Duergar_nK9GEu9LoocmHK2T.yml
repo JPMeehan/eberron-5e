@@ -2,7 +2,7 @@ folder: 4hrqRwNaXtiGo7XS
 name: Doriak Duergar
 type: race
 _id: nK9GEu9LoocmHK2T
-img: icons/svg/item-bag.svg
+img: systems/dnd5e/icons/svg/items/race.svg
 system:
   description:
     value: >-
@@ -96,10 +96,10 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1700627814635
-  modifiedTime: 1703832354210
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1707007768482
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!nK9GEu9LoocmHK2T'
 

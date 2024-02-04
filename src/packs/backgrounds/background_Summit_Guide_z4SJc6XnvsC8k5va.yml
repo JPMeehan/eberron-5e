@@ -2,7 +2,7 @@ folder: AnoS2GFpcTxIfARj
 name: Summit Guide
 type: background
 _id: z4SJc6XnvsC8k5va
-img: icons/svg/item-bag.svg
+img: systems/dnd5e/icons/svg/items/background.svg
 system:
   description:
     value: ''
@@ -21,10 +21,10 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1703887048062
-  modifiedTime: 1703887253177
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1707007882628
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!z4SJc6XnvsC8k5va'
 

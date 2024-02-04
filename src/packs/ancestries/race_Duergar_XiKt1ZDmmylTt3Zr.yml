@@ -2,7 +2,7 @@ folder: GhbUKEQK0T0F66Q5
 name: Duergar
 type: race
 _id: XiKt1ZDmmylTt3Zr
-img: icons/svg/item-bag.svg
+img: systems/dnd5e/icons/svg/items/race.svg
 system:
   description:
     value: >-
@@ -85,10 +85,10 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.0
   coreVersion: '11.315'
   createdTime: 1700628663319
-  modifiedTime: 1703834676638
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1707007768482
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!XiKt1ZDmmylTt3Zr'
 
