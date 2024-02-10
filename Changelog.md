@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.2
+
+- Updated folder colors
+- More item icon migrations
+
 ## 0.9.1
 
 - Re-ran migrations to actually fix the base item deprecation warnings.

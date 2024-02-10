@@ -4,14 +4,14 @@ folder: 3ztbQQgca8wUx1b9
 type: Item
 _id: w6X11D83Q38dH29u
 sort: 0
-color: null
+color: '#b18dcd'
 flags: {}
 _stats:
-  systemId: null
-  systemVersion: null
-  coreVersion: null
+  systemId: dnd5e
+  systemVersion: 3.0.1
+  coreVersion: '11.315'
   createdTime: null
-  modifiedTime: null
-  lastModifiedBy: null
+  modifiedTime: 1707585926103
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!folders!w6X11D83Q38dH29u'
 

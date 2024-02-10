@@ -4,14 +4,14 @@ folder: null
 type: Item
 _id: SNZnX7ZXF9rngqD4
 sort: 100000
-color: null
+color: '#7B469B'
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.1
   coreVersion: '11.315'
   createdTime: 1702848617597
-  modifiedTime: 1702848617873
+  modifiedTime: 1707586298044
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!folders!SNZnX7ZXF9rngqD4'
 
