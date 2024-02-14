@@ -1,0 +1,102 @@
+name: Desert Born
+type: feat
+system:
+  description:
+    value: >-
+      <p>You have resistance to &amp;Reference[Fire]{fire} damage. You also
+      naturally acclimate to hot climates and aren’t adversely affected by
+      extreme heat.</p>
+    chat: ''
+  source:
+    book: Chronicles of Eberron
+    page: ''
+    license: ''
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: race
+    subtype: ''
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+flags:
+  ddbimporter:
+    type: race
+    entityRaceId: 1026392
+    version: 4.0.4
+    baseName: Mountain Born
+    spellListIds: []
+    definitionKey: racial-trait:8429486
+    baseRaceName: Goliath
+    baseRaceId: 1026392
+    subRaceShortName: null
+    fullRaceName: Goliath
+    isSubRace: true
+    groupIds: []
+    groupName: Goliath
+  obsidian:
+    source:
+      type: race
+img: icons/environment/wilderness/cave-entrance-rocky.webp
+folder: 7W3tA3UjYoprpp70
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '11.315'
+  createdTime: 1707350475157
+  modifiedTime: 1707889628346
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: kGtf0x4gewpFnJ1N
+sort: 200000
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!kGtf0x4gewpFnJ1N'
+

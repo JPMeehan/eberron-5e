@@ -1,0 +1,103 @@
+name: Little Giant
+type: feat
+system:
+  description:
+    value: >-
+      <p>You have proficiency in the &amp;Reference[ath]{Athletics} skill, and
+      you count as one size larger when determining your carrying capacity and
+      the weight you can push, drag, or lift.</p>
+    chat: ''
+  source:
+    book: MPMM
+    page: ''
+    license: ''
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: race
+    subtype: ''
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+flags:
+  ddbimporter:
+    type: race
+    entityRaceId: 1026392
+    version: 4.0.4
+    baseName: Little Giant
+    spellListIds: []
+    definitionKey: racial-trait:8429484
+    baseRaceName: Goliath
+    baseRaceId: 1026392
+    subRaceShortName: null
+    fullRaceName: Goliath
+    isSubRace: true
+    groupIds: []
+    groupName: Goliath
+  obsidian:
+    source:
+      type: race
+  core: {}
+img: systems/dnd5e/icons/svg/items/feature.svg
+folder: 7W3tA3UjYoprpp70
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '11.315'
+  createdTime: 1707350475147
+  modifiedTime: 1707890005767
+  lastModifiedBy: q6n1efCGVB98drEQ
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_id: Vks3jrVLUpM4gMen
+sort: 0
+_key: '!items!Vks3jrVLUpM4gMen'
+

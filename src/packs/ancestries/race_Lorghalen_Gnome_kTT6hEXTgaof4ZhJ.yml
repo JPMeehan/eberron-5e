@@ -84,6 +84,8 @@ system:
       configuration:
         items:
           - Compendium.dnd5e.races.EHhr9umJ5kxJFCQH
+          - Compendium.eberron-5e.ancestries.Item.qv4JXOu6CQgJh9vY
+          - Compendium.eberron-5e.ancestries.Item.JnOaDufTLdMMO2y2
         optional: false
         spell:
           ability: ''
@@ -94,16 +96,32 @@ system:
       value: {}
       level: 0
       title: ''
+    - _id: lvD5jDCOU9WXm4zb
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.dnd5e.spells.Item.SbSvZKkJASyk8jKo
+        optional: false
+        spell:
+          ability: cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 0
+      title: Song of the Elements
+      icon: null
   movement:
     burrow: null
     climb: null
     fly: null
     swim: null
-    walk: null
+    walk: 25
     units: null
     hover: false
   senses:
-    darkvision: null
+    darkvision: 60
     blindsight: null
     tremorsense: null
     truesight: null
@@ -120,10 +138,10 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.0
+  systemVersion: 3.0.2
   coreVersion: '11.315'
   createdTime: 1700378683464
-  modifiedTime: 1707007768482
+  modifiedTime: 1707890631245
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: kTT6hEXTgaof4ZhJ
 sort: 300000

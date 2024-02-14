@@ -1,0 +1,86 @@
+folder: MQfTrPIS9qJMbGOu
+name: Song of the Elements
+type: feat
+_id: JnOaDufTLdMMO2y2
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>You know the
+      @UUID[Compendium.dnd5e.spells.Item.SbSvZKkJASyk8jKo]{druidcraft} cantrip.
+      Charisma is your spellcasting ability for it. In addition, you can speak,
+      read, and write Primordial.</p>
+    chat: ''
+  source:
+    book: Chronicles of Eberron
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  properties: []
+  requirements: Lorghalen Gnome
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '11.315'
+  createdTime: 1707890549621
+  modifiedTime: 1707890588052
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!JnOaDufTLdMMO2y2'
+

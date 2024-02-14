@@ -14,20 +14,21 @@ system:
       comparable to humans. They enter adulthood in their late teens and usually
       live less than a century.</p><p><em><strong>Size. </strong></em>Eneko are
       between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size
-      is Medium.</p><p><em><strong>Speed. </strong></em>Your base walking speed
-      is 30 feet.</p><p><em><strong>Natural Athlete. </strong></em>You have
-      proficiency in the Athletics skill.</p><p><em><strong>Stone’s Endurance.
-      </strong></em>You can focus yourself to occasionally shrug off injury.
-      When you take damage, you can use your reaction to roll a d12. Add your
-      Constitution modifier to the number rolled and reduce the damage by that
-      total. After you use this trait, you can’t use it again until you finish a
-      short or long rest.</p><p><em><strong>Powerful Build. </strong></em>You
-      count as one size larger when determining your carrying capacity and the
-      weight you can push, drag, or lift.</p><p><em><strong>Desert
-      Born.</strong></em> You have resistance to fire damage. You also naturally
-      acclimate to hot climates and aren’t adversely affected by extreme
-      heat.</p><p><em><strong>Languages. </strong></em>You can speak, read, and
-      write Common and Giant.</p>
+      is Medium.</p><p><em><strong>Creature Type.</strong></em> You are a
+      Humanoid.</p><p><em><strong>Speed.</strong></em> Your walking speed is 30
+      feet.</p><p><em><strong>Little Giant.</strong></em> You have proficiency
+      in the Athletics skill, and you count as one size larger when determining
+      your carrying capacity and the weight you can push, drag, or
+      lift.</p><p><em><strong>Stone’s Endurance. </strong></em>You can
+      supernaturally draw on unyielding stone to shrug off harm. When you take
+      damage, you can use your reaction to roll a d12. Add your Constitution
+      modifier to the number rolled and reduce the damage by that
+      total.</p><p>You can use this trait a number of times equal to your
+      proficiency bonus, and you regain all expended uses when you finish a long
+      rest.</p><p><em><strong>Desert Born.</strong></em> You have resistance to
+      fire damage. You also naturally acclimate to hot climates and aren’t
+      adversely affected by extreme heat.</p><p><em><strong>Languages.
+      </strong></em>You can speak, read, and write Common and Giant.</p>
     chat: ''
     unidentified: ''
   source:
@@ -58,10 +59,15 @@ system:
           - languages:standard:common
         mode: default
         allowReplacements: false
-        choices: []
+        choices:
+          - count: 1
+            pool:
+              - languages:*
+        hint: ''
       _id: B3jKzCfxokGrwvTQ
       level: 0
-      value: {}
+      title: ''
+      icon: null
     - _id: dhpBX0CXnY7HqVq5
       type: Trait
       configuration:
@@ -73,6 +79,30 @@ system:
         hint: ''
       level: 0
       title: Desert Born
+      icon: null
+      value: {}
+    - _id: djEAfeQcyDd4CoJV
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.ancestries.Item.kGtf0x4gewpFnJ1N
+          - Compendium.eberron-5e.ancestries.Item.pQbP3T6FzriG9ZJq
+          - Compendium.eberron-5e.ancestries.Item.Vks3jrVLUpM4gMen
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+    - _id: D0ydffxuKwh3jsV0
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:ath
+        choices: []
+        hint: ''
+      level: 0
+      title: Little Giant
       icon: null
       value: {}
   movement:
@@ -101,10 +131,10 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.0
+  systemVersion: 3.0.2
   coreVersion: '11.315'
   createdTime: 1700378683464
-  modifiedTime: 1707007768482
+  modifiedTime: 1707890129476
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: qVh3cqGSEn0PKOoo
 sort: 200000

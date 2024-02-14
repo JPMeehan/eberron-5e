@@ -55,15 +55,6 @@ system:
     custom: ''
     license: DMsGuild CCA
   advancement:
-    - type: AbilityScoreImprovement
-      _id: ENfcrCb7jiQKKair
-      configuration:
-        points: 0
-        fixed: {}
-        cap: 2
-      value:
-        type: asi
-      level: 0
     - type: Size
       _id: ULcdxPVstWWYUxaw
       configuration:
@@ -80,6 +71,38 @@ system:
         choices: []
       _id: B3jKzCfxokGrwvTQ
       level: 0
+      value: {}
+    - _id: Rj043509qhD484qb
+      type: ItemGrant
+      configuration:
+        items:
+          - Compendium.eberron-5e.ancestries.Item.WORvdKJBgxZo3irE
+          - Compendium.eberron-5e.ancestries.Item.ebWD63992LerDETu
+          - Compendium.eberron-5e.ancestries.Item.DCc268qUcjkn3Grw
+          - Compendium.eberron-5e.ancestries.Item.Cj6OlCSEMmyJuOJU
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+    - _id: Cp9bB90RTS8jM8x8
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - skills:*
+          - count: 1
+            pool:
+              - tool:*
+        hint: >-
+          You gain one skill proficiency and one tool proficiency of your
+          choice.
+      level: 0
+      title: Specialized Design
+      icon: null
       value: {}
   movement:
     burrow: null
@@ -109,10 +132,10 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.0
+  systemVersion: 3.0.2
   coreVersion: '11.315'
   createdTime: 1700378683464
-  modifiedTime: 1707007768482
+  modifiedTime: 1707890427972
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: vfacs1ErNwf3s9LQ
 sort: 100000

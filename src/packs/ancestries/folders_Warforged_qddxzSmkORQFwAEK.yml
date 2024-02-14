@@ -1,0 +1,19 @@
+_id: qddxzSmkORQFwAEK
+name: Warforged
+color: '#222222'
+type: Item
+folder: 3VSYURmYC8CuL9nX
+flags:
+  ddbimporter:
+    flagTag: trait/Warforged/Warforged
+sorting: a
+sort: -100000
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1707889453708
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!folders!qddxzSmkORQFwAEK'
+

@@ -1,0 +1,19 @@
+_id: 7W3tA3UjYoprpp70
+name: Eneko
+color: '#222222'
+type: Item
+folder: 3VSYURmYC8CuL9nX
+flags:
+  ddbimporter:
+    flagTag: trait/Goliath/Goliath
+sorting: a
+sort: 0
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '11.315'
+  createdTime: null
+  modifiedTime: 1707889470436
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!folders!7W3tA3UjYoprpp70'
+

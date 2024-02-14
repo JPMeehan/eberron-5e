@@ -1,0 +1,105 @@
+name: Speak with Small Beasts
+type: feat
+system:
+  description:
+    value: >-
+      <p>Through sounds and gestures, you can communicate simple ideas with
+      Small or smaller beasts. Forest gnomes love animals and often keep
+      squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as
+      beloved pets.</p>
+    chat: ''
+  source:
+    book: Player's Handbook
+    page: '37'
+    license: ''
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: race
+    subtype: ''
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+flags:
+  ddbimporter:
+    type: race
+    entityRaceId: 17
+    version: 4.0.4
+    baseName: Speak with Small Beasts
+    spellListIds: []
+    definitionKey: racial-trait:47
+    baseRaceName: Gnome
+    baseRaceId: 18
+    subRaceShortName: Forest
+    fullRaceName: Forest Gnome
+    isSubRace: true
+    groupIds:
+      - 9
+    groupName: Gnome
+  obsidian:
+    source:
+      type: race
+  core: {}
+img: icons/commodities/treasure/figurine-rabbit.webp
+folder: MQfTrPIS9qJMbGOu
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '11.315'
+  createdTime: 1707350475913
+  modifiedTime: 1707890538633
+  lastModifiedBy: q6n1efCGVB98drEQ
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_id: qv4JXOu6CQgJh9vY
+sort: 0
+_key: '!items!qv4JXOu6CQgJh9vY'
+

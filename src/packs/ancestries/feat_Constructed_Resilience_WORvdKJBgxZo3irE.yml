@@ -1,0 +1,115 @@
+name: Constructed Resilience
+type: feat
+system:
+  description:
+    value: >-
+      <p>You were created to have remarkable fortitude, represented by the
+      following benefits:</p>
+
+      <ul>
+
+      <li>You have advantage on saving throws against being
+      &amp;Reference[poisoned]{poisoned}, and you have resistance to
+      &amp;Reference[poison]{poison} damage.</li>
+
+      <li>You don’t need to eat, drink, or breathe.</li>
+
+      <li>You are immune to disease.</li>
+
+      <li>You don’t need to sleep, and magic can’t put you to sleep.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Eberron: Rising from the Last War'
+    page: '36'
+    license: ''
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: race
+    subtype: ''
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+flags:
+  ddbimporter:
+    type: race
+    entityRaceId: 260828
+    version: 4.0.4
+    baseName: Constructed Resilience
+    spellListIds: []
+    definitionKey: racial-trait:2149609
+    baseRaceName: Warforged
+    baseRaceId: 260828
+    subRaceShortName: null
+    fullRaceName: Warforged
+    isSubRace: true
+    groupIds: []
+    groupName: Warforged
+  obsidian:
+    source:
+      type: race
+img: icons/environment/creatures/golem-stone-purple.webp
+folder: qddxzSmkORQFwAEK
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '11.315'
+  createdTime: 1707350473710
+  modifiedTime: 1707889453678
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: WORvdKJBgxZo3irE
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!WORvdKJBgxZo3irE'
+

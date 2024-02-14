@@ -1,0 +1,139 @@
+name: Integrated Protection
+type: feat
+system:
+  description:
+    value: >-
+      <p>Your body has built-in defensive layers, which can be enhanced with
+      armor:</p>
+
+      <ul>
+
+      <li>You gain a +1 bonus to Armor Class.</li>
+
+      <li>You can don only armor with which you have proficiency. To don armor
+      other than a shield, you must incorporate it into your body over the
+      course of 1 hour, during which you remain in contact with the armor. To
+      doff armor, you must spend 1 hour removing it. You can rest while donning
+      or doffing armor in this way.</li>
+
+      <li>While you live, the armor incorporated into your body can’t be removed
+      against your will.</li>
+
+      </ul>
+    chat: ''
+  source:
+    book: 'Eberron: Rising from the Last War'
+    page: '36'
+    license: ''
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: race
+    subtype: ''
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+flags:
+  ddbimporter:
+    type: race
+    entityRaceId: 260828
+    version: 4.0.4
+    baseName: Integrated Protection
+    spellListIds: []
+    definitionKey: racial-trait:2149646
+    baseRaceName: Warforged
+    baseRaceId: 260828
+    subRaceShortName: null
+    fullRaceName: Warforged
+    isSubRace: true
+    groupIds: []
+    groupName: Warforged
+  obsidian:
+    source:
+      type: race
+img: icons/equipment/hand/gauntlet-armored-black.webp
+folder: qddxzSmkORQFwAEK
+effects:
+  - name: Integrated Protection
+    icon: icons/equipment/hand/gauntlet-armored-black.webp
+    origin: Compendium.eberron-5e.ancestries.Item.ebWD63992LerDETu
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: false
+    _id: bzWl5Rj950upYGPa
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: '1'
+    description: <p>You gain a +1 bonus to Armor Class.</p>
+    transfer: true
+    statuses: []
+    flags: {}
+    tint: null
+    _key: '!items.effects!ebWD63992LerDETu.bzWl5Rj950upYGPa'
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '11.315'
+  createdTime: 1707350473730
+  modifiedTime: 1707890264884
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: ebWD63992LerDETu
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!ebWD63992LerDETu'
+

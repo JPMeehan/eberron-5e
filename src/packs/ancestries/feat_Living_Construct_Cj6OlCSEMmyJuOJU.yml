@@ -1,0 +1,90 @@
+folder: qddxzSmkORQFwAEK
+name: Living Construct
+type: feat
+_id: Cj6OlCSEMmyJuOJU
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>The livewood and alchemical fluids in your body allow you to benefit
+      from several spells that preserve life but normally don’t affect
+      Constructs: @UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{cure
+      wounds}, @UUID[Compendium.dnd5e.spells.Item.o8Dh7fblk1d16tnO]{healing
+      word}, @UUID[Compendium.dnd5e.spells.Item.Pyzmm8R7rVsNAPsd]{mass cure
+      wounds}, @UUID[Compendium.dnd5e.spells.Item.34ddoYIrnOZ2GFYi]{mass healing
+      word}, and @UUID[Compendium.dnd5e.spells.Item.8zT7njvqbpXs4Cel]{spare the
+      dying}.</p>
+    chat: ''
+  source:
+    book: Chronicles of Eberron
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: ''
+    subtype: ''
+  properties: []
+  requirements: Warforged
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '11.315'
+  createdTime: 1707890284356
+  modifiedTime: 1707890364544
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!Cj6OlCSEMmyJuOJU'
+

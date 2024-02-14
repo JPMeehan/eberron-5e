@@ -1,0 +1,104 @@
+name: Sentry's Rest
+type: feat
+system:
+  description:
+    value: >-
+      <p>When you take a long rest, you must spend at least six hours in an
+      inactive, motionless state, rather than sleeping. In this state, you
+      appear inert, but it doesn’t render you
+      &amp;Reference[unconscious]{unconscious}, and you can see and hear as
+      normal.</p>
+    chat: ''
+  source:
+    book: 'Eberron: Rising from the Last War'
+    page: '36'
+    license: ''
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: null
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: race
+    subtype: ''
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+flags:
+  ddbimporter:
+    type: race
+    entityRaceId: 260828
+    version: 4.0.4
+    baseName: Sentry's Rest
+    spellListIds: []
+    definitionKey: racial-trait:2149621
+    baseRaceName: Warforged
+    baseRaceId: 260828
+    subRaceShortName: null
+    fullRaceName: Warforged
+    isSubRace: true
+    groupIds: []
+    groupName: Warforged
+  obsidian:
+    source:
+      type: race
+img: icons/sundries/lights/lantern-iron-yellow.webp
+folder: qddxzSmkORQFwAEK
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.2
+  coreVersion: '11.315'
+  createdTime: 1707350473720
+  modifiedTime: 1707889453678
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: DCc268qUcjkn3Grw
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_key: '!items!DCc268qUcjkn3Grw'
+
