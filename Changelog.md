@@ -4,6 +4,7 @@
 
 - Updated folder colors
 - More item icon migrations
+- Updated and configured Chronicles of Eberron ancestries
 
 ## 0.9.1
 
