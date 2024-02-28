@@ -48,7 +48,7 @@ const EBERRONCONFIG = {
 Hooks.once('init', () => {
   foundry.utils.mergeObject(CONFIG, EBERRONCONFIG);
 
-  DND5E.validProperties.weapon.add('bye');
+  CONFIG.DND5E.validProperties.weapon.add('bye');
 
   game.settings.register(MODULE_ID, 'language', {
     name: 'Setting Language Group',
