@@ -1,0 +1,1563 @@
+name: Mind Flayer
+type: npc
+img: https://www.dndbeyond.com/avatars/30833/422/638063863516115418.png
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 19
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 17
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 17
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      value: 1
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      value: 0
+      ability: str
+      bonuses:
+        check: ''
+        passive: ''
+    cul:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      value: 1
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    eng:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      value: 1
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      value: 0
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      value: 1
+      ability: cha
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      value: 0
+      ability: int
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      value: 0
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      value: 1
+      ability: dex
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      value: 0
+      ability: wis
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init: {}
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: ft
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 120
+      blindsight: 0
+      tremorsense: 0
+      truesight: 0
+      units: ft
+      special: ''
+    spellcasting: int
+    exhaustion: 0
+    ac:
+      flat: 15
+      calc: default
+      formula: ''
+    hp:
+      value: 71
+      max: 71
+      temp: 0
+      tempmax: 0
+      formula: 13d8 + 13
+  details:
+    biography:
+      value: >-
+        <p>Mind flayers are not native to the planet of Eberron. Khorvairian
+        sages believe they hail from Xoriat, the Realm of Madness, like their
+        daelkyr masters, but few know that their true origins lie even further
+        back on the gith homeworld.</p><p><strong>Aberrant Resistances.</strong>
+        In the Eberron campaign setting, several kinds of aberrant creatures,
+        mind flayers foremost among them, have resistance to damage dealt by
+        nearly all kinds of weapons, even magical ones. The only known substance
+        that these aberrations are susceptible to is an incredibly dense and
+        heavy purple metal found only in the mountain ranges of western
+        Khorvaire, known as byeshk. This resistance increases the challenge
+        rating of mind flayers and other aberrations in Eberron campaigns, as
+        noted in their stat blocks</p><hr /><p>When the Gatekeepers sealed the
+        dimensional gates, some mind flayers in Eberron were cut off from the
+        elder brains controlling them from Xoriat. These orphaned mind flayers
+        became independently sentient, something elder brains find abhorrent,
+        like a hand that acts on its own, refusing to listen to the mind. The
+        elder brains imprisoned in Khyber attempt to hunt these orphans and
+        integrate them into their own hiveminds. Some orphaned mind flayers
+        welcome this, while others prefer to make use of their own independence
+        and their ability to execute their own inscrutable
+        plans.</p><p><strong>Psionic Mind Flayer.</strong> Psionic mind flayers
+        do not possess the Innate Spellcasting (Psionics) trait of standard mind
+        flayers. Instead, they have the Innate Psionic Powers trait.</p>
+      public: ''
+    alignment: Lawful Evil
+    race: null
+    type:
+      value: aberration
+      subtype: ''
+    environment: Underdark
+    cr: 8
+    spellLevel: 0
+    source:
+      book: Psion's Primer
+      page: ''
+      custom: ''
+      license: ''
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+  traits:
+    size: med
+    di:
+      value: []
+      bypasses: []
+      custom: ''
+    dr:
+      value:
+        - bludgeoning
+        - piercing
+        - slashing
+      bypasses:
+        - bye
+      custom: ''
+    dv:
+      value: []
+      bypasses: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - daelkyr
+        - gith
+      custom: Telepathy 120 ft.
+prototypeToken:
+  name: Mind Flayer
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  texture:
+    src: >-
+      https://foundryvtt-josephm.s3.us-east-1.amazonaws.com/tokens/monsters/DDB/monster/token/aberration/Mind-Flayer.webp
+    scaleX: 1
+    scaleY: 1
+    offsetX: 0
+    offsetY: 0
+    rotation: 0
+  width: 1
+  height: 1
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 120
+    angle: 360
+    visionMode: darkvision
+    attenuation: 0
+    brightness: 0
+    saturation: -1
+    contrast: 0
+  detectionModes: []
+  flags:
+    tagger:
+      tags:
+        - dndbeyond
+        - ddb-importer
+        - aberration
+  randomImg: false
+items:
+  - name: Tentacles
+    type: weapon
+    system:
+      description:
+        value: >-
+          <p> <em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one
+          creature. <em>Hit:</em> 15 (2d10 + 4) psychic damage. If the target is
+          Medium or smaller, it is grappled (escape DC 15) and must succeed on a
+          DC 15 Intelligence saving throw or be stunned until this grapple
+          ends.</p>
+        chat: ''
+      source:
+        book: MM
+        page: '222'
+        custom: ''
+        license: ''
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight: 0
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: 0
+      equipped: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: 5
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: int
+      actionType: mwak
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 2d10[psychic] + @mod
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        dc: 15
+        ability: int
+        scaling: flat
+      armor:
+        value: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: natural
+        baseItem: ''
+      properties: []
+      proficient: 1
+    effects: []
+    flags:
+      ddbimporter:
+        dndbeyond: {}
+      monsterMunch:
+        titleHTML: <strong>Tentacles.</strong>
+        fullName: Tentacles.
+        actionCopy: false
+        type: action
+    img: icons/commodities/biological/tentacle-purple-white.webp
+    _id: LXgbAsxMdc9KuhZY
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!kFJZmsOnqW8mPZMY.LXgbAsxMdc9KuhZY'
+  - name: Extract Brain
+    type: weapon
+    system:
+      description:
+        value: >-
+          <p> <em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one
+          incapacitated humanoid grappled by the mind flayer. <em>Hit:</em> The
+          target takes 55 (10d10) piercing damage. If this damage reduces the
+          target to 0 hit points, the mind flayer kills the target by extracting
+          and devouring its brain.</p>
+        chat: ''
+      source:
+        book: MM
+        page: '222'
+        custom: ''
+        license: ''
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight: 0
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      attunement: 0
+      equipped: true
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: 5
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: int
+      actionType: mwak
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 10d10[piercing]
+            - piercing
+        versatile: ''
+      formula: ''
+      save:
+        dc: null
+        ability: ''
+        scaling: flat
+      armor:
+        value: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: simpleM
+        baseItem: ''
+      properties: []
+      proficient: 1
+    effects: []
+    flags:
+      ddbimporter:
+        dndbeyond: {}
+      monsterMunch:
+        titleHTML: <strong>Extract Brain.</strong>
+        fullName: Extract Brain.
+        actionCopy: false
+        type: action
+    img: icons/commodities/biological/organ-brain-pink-purple.webp
+    _id: C4tTWP6vhBqF30lT
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      systemId: null
+      systemVersion: null
+      coreVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!kFJZmsOnqW8mPZMY.C4tTWP6vhBqF30lT'
+  - name: Mind Blast
+    type: feat
+    system:
+      description:
+        value: >-
+          <p> The mind flayer magically emits psychic energy in a 60-foot cone.
+          Each creature in that area must succeed on a DC 15 Intelligence saving
+          throw or take 22 (4d8 + 4) psychic damage and be stunned for 1 minute.
+          A creature can repeat the saving throw at the end of each of its
+          turns, ending the effect on itself on a success.</p>
+        chat: ''
+      source:
+        book: MM
+        page: '222'
+        custom: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 60
+        width: null
+        units: ft
+        type: cone
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: charges
+        target: V5WRhdT83mOZkwLv
+        amount: null
+        scale: false
+      ability: ''
+      actionType: save
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 4d8[psychic] + 4
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        dc: 15
+        ability: int
+        scaling: flat
+      type:
+        value: ''
+        subtype: ''
+      properties: []
+      requirements: ''
+      recharge:
+        value: 5
+        charged: true
+    effects: []
+    flags:
+      ddbimporter:
+        dndbeyond: {}
+      monsterMunch:
+        titleHTML: <strong>Mind Blast (Recharge 5–6).</strong>
+        fullName: Mind Blast (Recharge 5–6).
+        actionCopy: false
+        type: action
+    _id: V5WRhdT83mOZkwLv
+    img: icons/magic/control/energy-stream-link-large-teal.webp
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: null
+      modifiedTime: 1709137821493
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!kFJZmsOnqW8mPZMY.V5WRhdT83mOZkwLv'
+  - name: Psionic Resistance
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>The mind flayer has advantage on saving throws against psionic
+          powers and all other magical effects.</p>
+        chat: ''
+      source:
+        book: Psion's Primer
+        page: ''
+        custom: ''
+        license: ''
+      activation:
+        cost: null
+        type: ''
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        dc: null
+        ability: ''
+        scaling: flat
+      type:
+        value: ''
+        subtype: ''
+      properties: []
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    flags:
+      ddbimporter:
+        dndbeyond: {}
+      monsterMunch:
+        titleHTML: <em><strong>Magic Resistance.</strong></em>
+        fullName: Magic Resistance.
+        actionCopy: false
+        type: special
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    _id: ng3eDgKW8Nae3UyB
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: null
+      modifiedTime: 1709085076612
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!kFJZmsOnqW8mPZMY.ng3eDgKW8Nae3UyB'
+  - name: Innate Spellcasting (Psionics)
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>The mind flayer’s psionic ability is Intelligence (power save DC
+          15). The mind flayer can innately use the following powers:</p><p>At
+          will: <em>gravitic field</em>, <em>mystic traveler</em> (self only),
+          <em>read thoughts</em></p><p>1/day each: <em>assume control</em>,
+          <em>mystic caravan</em> (self only)</p>
+        chat: ''
+      source:
+        book: Psion's Primer
+        page: ''
+        custom: ''
+        license: ''
+      activation:
+        cost: null
+        type: ''
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        dc: null
+        ability: ''
+        scaling: flat
+      type:
+        value: ''
+        subtype: ''
+      properties: []
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    effects: []
+    flags:
+      ddbimporter:
+        dndbeyond: {}
+      monsterMunch:
+        titleHTML: <em><strong>Innate Spellcasting (Psionics).</strong></em>
+        fullName: Innate Spellcasting (Psionics).
+        actionCopy: false
+        type: special
+    img: icons/magic/unholy/orb-smoking-green.webp
+    _id: 35BieXTVvkts0GJ0
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: null
+      modifiedTime: 1709085137911
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!kFJZmsOnqW8mPZMY.35BieXTVvkts0GJ0'
+  - folder: ND8imwT4ZNwNEWzm
+    name: Mystic Traveler
+    type: prime-psionics.power
+    img: icons/magic/symbols/runes-star-orange-purple.webp
+    system:
+      description:
+        value: >-
+          <p>You or one willing creature you touch become a mystic traveler,
+          able to join a group journey enabled by the
+          @UUID[Compendium.eberron-5e.spells.Item.kP7HCc2ClFR8CtJ4]{mystic
+          caravan} power. This power’s duration ends early if the mystic
+          traveler is not affected by you manifesting mystic caravan within 1
+          hour of manifesting this power. This power also ends early if the
+          mystic caravan journey ends.</p><p>For the duration of a mystic
+          caravan journey, mystic travelers must remain within 15 feet of at
+          least one other mystic traveler. If a mystic traveler is out of this
+          formation for more than 1 round, the mystic traveler power is
+          automatically dispelled on that creature, and it is sent tumbling
+          through the rough psychic currents of the Astral Plane. Such creatures
+          must make a [[/save charisma dc=@attributes.spelldc]] saving throw,
+          taking [[/damage 10d6 psychic]] damage on a failure, or half as much
+          on a success, and are then transported to a random plane of
+          existence.</p>
+        chat: ''
+      source:
+        book: Psion's Primer
+        page: ''
+        custom: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: disp
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: willing
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 1
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      discipline: pst
+      augmenting: mystic displacement
+      properties: []
+      scaling:
+        mode: none
+        formula: ''
+    effects: []
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.Gkt1NW0CDxiZqEvT
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706766922765
+      modifiedTime: 1709137484389
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _id: fhQdn5xz9Uw1uwyh
+    sort: 100000
+    _key: '!actors.items!kFJZmsOnqW8mPZMY.fhQdn5xz9Uw1uwyh'
+  - folder: RGC6MCftdeEqsIch
+    name: Read Thoughts
+    type: prime-psionics.power
+    img: icons/magic/light/explosion-star-teal-purple.webp
+    system:
+      description:
+        value: >-
+          <p>When you manifest this augment, and as your action on each turn
+          until your concentration ends, you can focus your mind on one creature
+          you are telepathically communicating with.</p><p>When you initially
+          begin to focus on a creature, you initially learn its surface
+          thoughts—what is most on its mind in that moment. As an action, you
+          can attempt to probe deeper into the same creature's mind. If you
+          probe deeper, the target must make a Wisdom saving throw. If it fails,
+          you gain insight into its reasoning (if any), its emotional state, and
+          something that looms large in its mind (such as something it worries
+          over, loves, or hates). If it succeeds, this power ends. Either way,
+          the target knows that you are probing into its mind.</p><p>Questions
+          verbally directed at the target creature naturally shape the course of
+          its thoughts, so this power is particularly effective as part of an
+          interrogation.</p>
+        chat: ''
+      source:
+        book: Psion's Primer
+        page: ''
+        custom: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: '1'
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 3
+        scale: false
+      ability: ''
+      actionType: save
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: null
+        scaling: spell
+      level: 2
+      discipline: tlp
+      augmenting: mindlink
+      properties:
+        - concentration
+      scaling:
+        mode: none
+        formula: ''
+    effects: []
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.9KMC1vrdMCIwlnBz
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706766922765
+      modifiedTime: 1709137487695
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _id: 2nAShlWqhTBOgJ6U
+    sort: 0
+    _key: '!actors.items!kFJZmsOnqW8mPZMY.2nAShlWqhTBOgJ6U'
+  - folder: kKmsF7qSqB8YE1CY
+    name: Gravitic Field
+    type: prime-psionics.power
+    img: icons/magic/control/energy-stream-link-white.webp
+    system:
+      description:
+        value: >-
+          <p>You suspend gravity around you and seize control of the angular
+          velocity of your inertia. For the duration, you gain a flying speed of
+          60 feet.</p><p><em><strong>Intensify.</strong></em> When you spend
+          extra psi points to manifest this augment, you may affect one
+          additional creature within 30 feet of you for every 2 additional psi
+          points spent beyond the minimum cost. Affected creatures gain a flying
+          speed of 60 feet for as long as you concentrate.</p>
+        chat: ''
+      source:
+        book: Psion's Primer
+        page: ''
+        custom: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: '10'
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: creature
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 6
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 3
+      discipline: pst
+      augmenting: inertial transference
+      properties:
+        - observable
+        - concentration
+      scaling:
+        mode: intensify2
+        formula: ''
+    effects: []
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.xU538OkJcqCnZf6F
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706766922765
+      modifiedTime: 1709137490325
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _id: r5Os0HoxQ0oCXvm4
+    sort: 0
+    _key: '!actors.items!kFJZmsOnqW8mPZMY.r5Os0HoxQ0oCXvm4'
+  - folder: caQfRwcQOMwGhqOZ
+    name: Assume Control
+    type: prime-psionics.power
+    img: icons/magic/air/air-burst-spiral-large-pink.webp
+    system:
+      description:
+        value: >-
+          <p>Your force of will overwhelms another creature, allowing you to
+          control its higher motor functions. You target one creature you are
+          telepathically communicating with. The target must make a Charisma
+          saving throw. On a failed save, while you concentrate, you choose the
+          target’s movement on each of its turns and all of its actions and
+          reactions. On a successful save, the target is unaffected. At the end
+          of each of the target’s turns it can repeat the saving throw, ending
+          the power on a success.</p><p> A creature is immune to this effect if
+          it is immune to being charmed.</p>
+        chat: ''
+      source:
+        book: Psion's Primer
+        page: ''
+        custom: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: '1'
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        prompt: true
+      range:
+        value: 30
+        long: null
+        units: ft
+      uses:
+        value: 1
+        max: '1'
+        per: lr
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 9
+        scale: false
+      ability: ''
+      actionType: save
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: cha
+        dc: null
+        scaling: spell
+      level: 5
+      discipline: tlp
+      augmenting: mindlink
+      properties:
+        - auditory
+        - concentration
+      scaling:
+        mode: none
+        formula: ''
+    effects: []
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.bSpi5PEqAFnzyuPb
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706766922765
+      modifiedTime: 1709137645068
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _id: jqYG1oUt7Fna5TMx
+    sort: 300000
+    _key: '!actors.items!kFJZmsOnqW8mPZMY.jqYG1oUt7Fna5TMx'
+  - folder: caQfRwcQOMwGhqOZ
+    name: Mystic Caravan
+    type: prime-psionics.power
+    img: icons/magic/symbols/runes-star-pentagon-orange-purple.webp
+    system:
+      description:
+        value: >-
+          <p>You lead a caravan of two or more willing mystic travelers
+          (creatures affected by the
+          @UUID[Compendium.eberron-5e.spells.Item.Gkt1NW0CDxiZqEvT]{mystic
+          traveler} power manifested by you previously, one of which must be
+          yourself) into the Astral Plane and beyond. When you manifest this
+          power, you must specify another plane of existence as your destination
+          (and may choose a specific location within that plane). Then, all
+          mystic travelers are transported to the Astral Plane, where you begin
+          to travel to your destination. This power automatically fails if you
+          are already on the Astral Plane when you manifest it.</p><p>Your
+          journey through the Astral Plane is not instantaneous, instead taking
+          several days, and arrival at your destination is not guaranteed. At
+          the end of each day of astral travel, you must make a [[/skill arcana
+          15]] check. Successes bring you closer to your destination and
+          failures lead you further away. Your journey ends if you accrue either
+          three successes or three failures. The DM may grant you disadvantage
+          or advantage on these checks, depending on certain factors (the waxing
+          or waning periods of your destination plane, your familiarity with
+          your destination, etc.). The result of your journey depends on how
+          many failures you accrued before it ends:</p><p>If your journey ends
+          with no failures, all mystic travelers are transported to your
+          intended plane of existence, within [[/r 1d10]] miles of your
+          destination on that plane if you specified one, or arriving at a
+          random location on that plane if you did not.</p><p>If your journey
+          ends with only 1 failure, all mystic travelers are transported to your
+          intended plane of existence, arriving at a random location, but suffer
+          two levels of exhaustion due to the difficulties of the astral
+          journey.</p><p>If your journey ends with 2 failures, you are forced to
+          turn back, arriving within [[/r 1d10]] miles of the location you
+          manifested this power. Additionally, all mystic travelers suffer four
+          levels of exhaustion as your astral journey was especially tiring and
+          rough.</p><p>If your journey ends because you accrued 3 failures, all
+          mystic travelers run afoul of turbulent psychic currents of the Astral
+          Plane. Each mystic traveler must make a [[/save charisma
+          dc=@attributes.spelldc]] saving throw, taking [[/damage 10d6 psychic
+          average]] on a failed save, or half as much on a successful one. Then,
+          regardless of the result of the saving throw, each mystic traveler
+          suffers two levels of exhaustion and is transported to a random plane
+          of existence, separated from its fellow travelers.</p><p>In addition
+          to the pure navigational challenge of the journey, the DM may describe
+          additional encounters and challenges the mystic travelers might face
+          along the way.</p>
+        chat: ''
+      source:
+        book: Psion's Primer
+        page: ''
+        custom: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: '5'
+        units: day
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: 1
+        max: '1'
+        per: lr
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 9
+        scale: false
+      ability: int
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: 1d20 + @mod + @skills.arc.bonuses.check
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 5
+      discipline: pst
+      augmenting: mystic displacement
+      properties:
+        - observable
+      scaling:
+        mode: none
+        formula: ''
+    effects: []
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.kP7HCc2ClFR8CtJ4
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706766922765
+      modifiedTime: 1709137632038
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _id: QzjsO9Qw5WdxbXAH
+    sort: 100000
+    _key: '!actors.items!kFJZmsOnqW8mPZMY.QzjsO9Qw5WdxbXAH'
+  - _id: IKwVCSKnF8rdAKgW
+    name: Breastplate
+    type: equipment
+    img: icons/equipment/chest/breastplate-collared-steel-grey.webp
+    system:
+      description:
+        value: >-
+          <p>This armor consists of a fitted metal chest piece worn with supple
+          leather. Although it leaves the legs and arms relatively unprotected,
+          this armor provides good protection for the wearer's vital organs
+          while leaving the wearer relatively unencumbered.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+      quantity: 1
+      weight: 20
+      price:
+        value: 400
+        denomination: gp
+      attunement: 0
+      rarity: ''
+      identified: true
+      activation:
+        type: ''
+        cost: null
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      armor:
+        value: 14
+        dex: 2
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      speed:
+        value: null
+        conditions: ''
+      strength: null
+      type:
+        value: medium
+        baseItem: breastplate
+      unidentified:
+        description: ''
+      container: null
+      properties: []
+      equipped: true
+      proficient: null
+    effects: []
+    folder: JqTP017wj3uxDJ8g
+    sort: 0
+    ownership:
+      default: 0
+      MVioF9x1qI1WYGx1: 3
+    flags:
+      core:
+        sourceId: Compendium.dnd5e.items.Item.SK2HATQ4abKUlV8i
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1661787233661
+      modifiedTime: 1709137749829
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!actors.items!kFJZmsOnqW8mPZMY.IKwVCSKnF8rdAKgW'
+effects: []
+folder: xXqW5zZE9axoFXIR
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags:
+  dnd5e: {}
+  monsterMunch:
+    url: https://www.dndbeyond.com/monsters/17104-mind-flayer
+    img: https://www.dndbeyond.com/avatars/30833/422/638063863516115418.png
+    tokenImg: https://www.dndbeyond.com/avatars/8/601/636312287871741533.jpeg
+    isStockImg: false
+    spellList:
+      class: []
+      pact: []
+      atwill: []
+      innate:
+        - name: detect thoughts
+          type: atwill
+          value: null
+          innate: true
+        - name: levitate
+          type: atwill
+          value: null
+          innate: true
+        - name: dominate monster
+          type: day
+          value: '1'
+          innate: true
+        - name: plane shift
+          type: day
+          value: '1'
+          innate: true
+      edgeCases:
+        - name: plane shift
+          type: innate
+          edge: self only
+      material: false
+      innateMatch: true
+  ddbimporter:
+    id: 17104
+    entityTypeId: 779871897
+    creatureGroupId: null
+    creatureFlags: []
+    version: 4.0.10
+    isLegacy: false
+    flatAC: false
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '11.315'
+  createdTime: 1708886046964
+  modifiedTime: 1709137821493
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_id: kFJZmsOnqW8mPZMY
+sort: 0
+_key: '!actors!kFJZmsOnqW8mPZMY'
+

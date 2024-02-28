@@ -1,0 +1,96 @@
+folder: RGC6MCftdeEqsIch
+name: Read Thoughts
+type: prime-psionics.power
+img: icons/magic/light/explosion-star-teal-purple.webp
+system:
+  description:
+    value: >-
+      <p>When you manifest this augment, and as your action on each turn until
+      your concentration ends, you can focus your mind on one creature you are
+      telepathically communicating with.</p><p>When you initially begin to focus
+      on a creature, you initially learn its surface thoughts—what is most on
+      its mind in that moment. As an action, you can attempt to probe deeper
+      into the same creature's mind. If you probe deeper, the target must make a
+      Wisdom saving throw. If it fails, you gain insight into its reasoning (if
+      any), its emotional state, and something that looms large in its mind
+      (such as something it worries over, loves, or hates). If it succeeds, this
+      power ends. Either way, the target knows that you are probing into its
+      mind.</p><p>Questions verbally directed at the target creature naturally
+      shape the course of its thoughts, so this power is particularly effective
+      as part of an interrogation.</p>
+    chat: ''
+  source:
+    book: Psion's Primer
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: self
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: flags
+    target: pp
+    amount: 3
+    scale: false
+  ability: ''
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: wis
+    dc: null
+    scaling: spell
+  level: 2
+  discipline: tlp
+  augmenting: mindlink
+  properties:
+    - concentration
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '11.315'
+  createdTime: 1706766922765
+  modifiedTime: 1709104568914
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_id: 9KMC1vrdMCIwlnBz
+sort: 0
+_key: '!items!9KMC1vrdMCIwlnBz'
+

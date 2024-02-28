@@ -1,0 +1,92 @@
+folder: caQfRwcQOMwGhqOZ
+name: Assume Control
+type: prime-psionics.power
+img: icons/magic/air/air-burst-spiral-large-pink.webp
+system:
+  description:
+    value: >-
+      <p>Your force of will overwhelms another creature, allowing you to control
+      its higher motor functions. You target one creature you are telepathically
+      communicating with. The target must make a Charisma saving throw. On a
+      failed save, while you concentrate, you choose the target’s movement on
+      each of its turns and all of its actions and reactions. On a successful
+      save, the target is unaffected. At the end of each of the target’s turns
+      it can repeat the saving throw, ending the power on a success.</p><p> A
+      creature is immune to this effect if it is immune to being charmed.</p>
+    chat: ''
+  source:
+    book: Psion's Primer
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '1'
+    units: minute
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    prompt: true
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: flags
+    target: pp
+    amount: 9
+    scale: false
+  ability: ''
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  level: 5
+  discipline: tlp
+  augmenting: mindlink
+  properties:
+    - auditory
+    - concentration
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '11.315'
+  createdTime: 1706766922765
+  modifiedTime: 1709104573482
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_id: bSpi5PEqAFnzyuPb
+sort: 300000
+_key: '!items!bSpi5PEqAFnzyuPb'
+

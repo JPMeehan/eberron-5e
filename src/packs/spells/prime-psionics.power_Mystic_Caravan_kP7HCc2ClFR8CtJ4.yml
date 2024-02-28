@@ -1,0 +1,123 @@
+folder: caQfRwcQOMwGhqOZ
+name: Mystic Caravan
+type: prime-psionics.power
+img: icons/magic/symbols/runes-star-pentagon-orange-purple.webp
+system:
+  description:
+    value: >-
+      <p>You lead a caravan of two or more willing mystic travelers (creatures
+      affected by the
+      @UUID[Compendium.eberron-5e.spells.Item.Gkt1NW0CDxiZqEvT]{mystic traveler}
+      power manifested by you previously, one of which must be yourself) into
+      the Astral Plane and beyond. When you manifest this power, you must
+      specify another plane of existence as your destination (and may choose a
+      specific location within that plane). Then, all mystic travelers are
+      transported to the Astral Plane, where you begin to travel to your
+      destination. This power automatically fails if you are already on the
+      Astral Plane when you manifest it.</p><p>Your journey through the Astral
+      Plane is not instantaneous, instead taking several days, and arrival at
+      your destination is not guaranteed. At the end of each day of astral
+      travel, you must make a [[/skill arcana 15]] check. Successes bring you
+      closer to your destination and failures lead you further away. Your
+      journey ends if you accrue either three successes or three failures. The
+      DM may grant you disadvantage or advantage on these checks, depending on
+      certain factors (the waxing or waning periods of your destination plane,
+      your familiarity with your destination, etc.). The result of your journey
+      depends on how many failures you accrued before it ends:</p><p>If your
+      journey ends with no failures, all mystic travelers are transported to
+      your intended plane of existence, within [[/r 1d10]] miles of your
+      destination on that plane if you specified one, or arriving at a random
+      location on that plane if you did not.</p><p>If your journey ends with
+      only 1 failure, all mystic travelers are transported to your intended
+      plane of existence, arriving at a random location, but suffer two levels
+      of exhaustion due to the difficulties of the astral journey.</p><p>If your
+      journey ends with 2 failures, you are forced to turn back, arriving within
+      [[/r 1d10]] miles of the location you manifested this power. Additionally,
+      all mystic travelers suffer four levels of exhaustion as your astral
+      journey was especially tiring and rough.</p><p>If your journey ends
+      because you accrued 3 failures, all mystic travelers run afoul of
+      turbulent psychic currents of the Astral Plane. Each mystic traveler must
+      make a [[/save charisma dc=@attributes.spelldc]] saving throw, taking
+      [[/damage 10d6 psychic average]] on a failed save, or half as much on a
+      successful one. Then, regardless of the result of the saving throw, each
+      mystic traveler suffers two levels of exhaustion and is transported to a
+      random plane of existence, separated from its fellow travelers.</p><p>In
+      addition to the pure navigational challenge of the journey, the DM may
+      describe additional encounters and challenges the mystic travelers might
+      face along the way.</p>
+    chat: ''
+  source:
+    book: Psion's Primer
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: '5'
+    units: day
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: flags
+    target: pp
+    amount: 9
+    scale: false
+  ability: int
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: 1d20 + @mod + @skills.arc.bonuses.check
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 5
+  discipline: pst
+  augmenting: mystic displacement
+  properties:
+    - observable
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '11.315'
+  createdTime: 1706766922765
+  modifiedTime: 1709104621808
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_id: kP7HCc2ClFR8CtJ4
+sort: 100000
+_key: '!items!kP7HCc2ClFR8CtJ4'
+
