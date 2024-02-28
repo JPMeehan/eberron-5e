@@ -2,6 +2,12 @@ const MODULE_ID = 'eberron-5e';
 
 const EBERRONCONFIG = {
   DND5E: {
+    itemProperties: {
+      bye: {
+        label: 'Eberron.Item.Property.Byeshk',
+        isPhysical: true,
+      },
+    },
     weaponIds: {
       lightbayonet: 'eberron-5e.equipment.Y9KNEEWMWf6WdlvP',
       heavybayonet: 'eberron-5e.equipment.LJQEDIxFIN2eeOWV',
@@ -41,6 +47,9 @@ const EBERRONCONFIG = {
 
 Hooks.once('init', () => {
   foundry.utils.mergeObject(CONFIG, EBERRONCONFIG);
+
+  DND5E.validProperties.weapon.add('bye');
+
   game.settings.register(MODULE_ID, 'language', {
     name: 'Setting Language Group',
     hint: "Choose a setting's languages to use",
