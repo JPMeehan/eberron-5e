@@ -1,0 +1,97 @@
+folder: ND8imwT4ZNwNEWzm
+name: Mystic Traveler
+type: prime-psionics.power
+img: icons/magic/symbols/runes-star-orange-purple.webp
+system:
+  description:
+    value: >-
+      <p>You or one willing creature you touch become a mystic traveler, able to
+      join a group journey enabled by the
+      @UUID[Compendium.eberron-5e.spells.Item.kP7HCc2ClFR8CtJ4]{mystic caravan}
+      power. This power’s duration ends early if the mystic traveler is not
+      affected by you manifesting mystic caravan within 1 hour of manifesting
+      this power. This power also ends early if the mystic caravan journey
+      ends.</p><p>For the duration of a mystic caravan journey, mystic travelers
+      must remain within 15 feet of at least one other mystic traveler. If a
+      mystic traveler is out of this formation for more than 1 round, the mystic
+      traveler power is automatically dispelled on that creature, and it is sent
+      tumbling through the rough psychic currents of the Astral Plane. Such
+      creatures must make a [[/save charisma dc=@attributes.spelldc]] saving
+      throw, taking [[/damage 10d6 psychic]] damage on a failure, or half as
+      much on a success, and are then transported to a random plane of
+      existence.</p>
+    chat: ''
+  source:
+    book: Psion's Primer
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: disp
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: willing
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: touch
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: flags
+    target: pp
+    amount: 1
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  discipline: pst
+  augmenting: mystic displacement
+  properties: []
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '11.315'
+  createdTime: 1706766922765
+  modifiedTime: 1709104606286
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_id: Gkt1NW0CDxiZqEvT
+sort: 100000
+_key: '!items!Gkt1NW0CDxiZqEvT'
+
