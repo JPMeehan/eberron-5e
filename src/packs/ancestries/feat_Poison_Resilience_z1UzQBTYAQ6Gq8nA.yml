@@ -1,0 +1,103 @@
+name: Poison Resilience
+type: feat
+system:
+  description:
+    value: >-
+      <p>You have advantage on saving throws you make to avoid or end the
+      &amp;Reference[poisoned]{poisoned} condition on yourself. You also have
+      resistance to &amp;Reference[poison]{poison} damage.</p>
+    chat: ''
+  source:
+    book: TGtA
+    page: ''
+    license: ''
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: race
+    subtype: ''
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+flags:
+  ddbimporter:
+    type: race
+    entityRaceId: 1026407
+    version: 4.0.4
+    baseName: Poison Resilience
+    spellListIds: []
+    definitionKey: racial-trait:8429635
+    baseRaceName: Yuan-ti
+    baseRaceId: 1026407
+    subRaceShortName: null
+    fullRaceName: Yuan-ti
+    isSubRace: true
+    groupIds: []
+    groupName: Yuan-ti
+  obsidian:
+    source:
+      type: race
+  core: {}
+img: systems/dnd5e/icons/svg/items/feature.svg
+folder: VlgGbhI9MSq4wb0j
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '11.315'
+  createdTime: 1707350474595
+  modifiedTime: 1708883026269
+  lastModifiedBy: q6n1efCGVB98drEQ
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_id: z1UzQBTYAQ6Gq8nA
+sort: 300000
+_key: '!items!z1UzQBTYAQ6Gq8nA'
+

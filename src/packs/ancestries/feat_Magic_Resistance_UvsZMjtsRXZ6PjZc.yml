@@ -1,0 +1,100 @@
+name: Magic Resistance
+type: feat
+system:
+  description:
+    value: <p>You have advantage on saving throws against spells.</p>
+    chat: ''
+  source:
+    book: TGtA
+    page: ''
+    license: ''
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: race
+    subtype: ''
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+flags:
+  ddbimporter:
+    type: race
+    entityRaceId: 1026407
+    version: 4.0.4
+    baseName: Magic Resistance
+    spellListIds: []
+    definitionKey: racial-trait:8429634
+    baseRaceName: Yuan-ti
+    baseRaceId: 1026407
+    subRaceShortName: null
+    fullRaceName: Yuan-ti
+    isSubRace: true
+    groupIds: []
+    groupName: Yuan-ti
+  obsidian:
+    source:
+      type: race
+  core: {}
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+folder: VlgGbhI9MSq4wb0j
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '11.315'
+  createdTime: 1707350474584
+  modifiedTime: 1708883023882
+  lastModifiedBy: q6n1efCGVB98drEQ
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_id: UvsZMjtsRXZ6PjZc
+sort: 200000
+_key: '!items!UvsZMjtsRXZ6PjZc'
+

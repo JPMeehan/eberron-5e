@@ -1,0 +1,113 @@
+name: Serpentine Spellcasting
+type: feat
+system:
+  description:
+    value: >-
+      <p>You know the
+      @UUID[Compendium.dnd5e.spells.Item.g2u9PYfqWQAyg9OI]{poison spray}
+      cantrip. You can cast
+      @UUID[Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B]{animal friendship} an
+      unlimited number of times with this trait, but you can target only snakes
+      with it. Starting at 3rd level, you can also cast
+      @UUID[Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4]{suggestion} with this
+      trait. Once you cast it, you can’t do so again until you finish a long
+      rest. You can also cast it using any spell slots you have of 2nd level or
+      higher.</p><p>&amp;Reference[int]{Intelligence},
+      &amp;Reference[wis]{Wisdom}, or &amp;Reference[cha]{Charisma} is your
+      spellcasting ability for these spells when you cast them with this trait
+      (choose when you select this race).</p>
+    chat: ''
+  source:
+    book: TGtA
+    page: ''
+    license: ''
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  type:
+    value: race
+    subtype: ''
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+flags:
+  ddbimporter:
+    type: race
+    entityRaceId: 1026407
+    version: 4.0.4
+    baseName: Serpentine Spellcasting
+    spellListIds: []
+    definitionKey: racial-trait:8429636
+    baseRaceName: Yuan-ti
+    baseRaceId: 1026407
+    subRaceShortName: null
+    fullRaceName: Yuan-ti
+    isSubRace: true
+    groupIds: []
+    groupName: Yuan-ti
+  obsidian:
+    source:
+      type: race
+  core: {}
+img: systems/dnd5e/icons/svg/items/feature.svg
+folder: VlgGbhI9MSq4wb0j
+effects: []
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '11.315'
+  createdTime: 1707350474607
+  modifiedTime: 1708883188737
+  lastModifiedBy: q6n1efCGVB98drEQ
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+_id: b6mDFNRGZMfKMIO4
+sort: 100000
+_key: '!items!b6mDFNRGZMfKMIO4'
+
