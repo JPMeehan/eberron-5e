@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.9.3
+
+- Configured Yuan-ti from Talvakri's
+- Added Psionic Mind Flayer from Psion's Primer and its powers
+- Added Byeshk as a new weapon property
+
 ## 0.9.2
 
 - Updated folder colors
