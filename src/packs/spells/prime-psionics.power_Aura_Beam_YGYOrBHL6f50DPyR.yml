@@ -1,10 +1,18 @@
 folder: kKmsF7qSqB8YE1CY
 name: Aura Beam
 type: prime-psionics.power
-img: modules/prime-psionics/assets/icons/power.svg
+img: icons/magic/light/explosion-star-small-blue-yellow.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You lens the light of your aura beacon into a coherent beam and project
+      it at one creature you can see within range. The target must make a
+      Dexterity saving throw. On a failed save, it takes 5d6 radiant damage and
+      is blinded until the end of your next turn. On a successful save, it takes
+      half as much damage and is not
+      blinded.</p><p><em><strong>Intensify.</strong></em> When you spend extra
+      psi points to manifest this augment, the damage increases by 1d6 for each
+      additional psi point spent beyond the minimum cost.</p>
     chat: ''
   source:
     custom: ''
@@ -12,24 +20,24 @@ system:
     page: ''
     license: ''
   activation:
-    type: ''
-    cost: null
+    type: action
+    cost: 1
     condition: ''
   duration:
     value: ''
-    units: ''
+    units: inst
   cover: null
   crewed: false
   target:
-    value: null
+    value: 1
     width: null
     units: ''
-    type: ''
+    type: creature
     prompt: true
   range:
-    value: null
+    value: 60
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''
@@ -37,32 +45,35 @@ system:
     recovery: ''
     prompt: true
   consume:
-    type: ''
-    target: null
-    amount: null
+    type: flags
+    target: pp
+    amount: 5
     scale: false
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 5d6
+        - radiant
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: dex
     dc: null
     scaling: spell
-  level: 0
-  discipline: ''
-  augmenting: ''
+  level: 3
+  discipline: mtc
+  augmenting: aura beacon
   scaling:
-    mode: none
-    formula: ''
-  properties: []
+    mode: intensify
+    formula: 1d6
+  properties:
+    - observable
   preparation:
     mode: always
 effects: []
@@ -76,7 +87,7 @@ _stats:
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1706750789644
-  modifiedTime: 1709168043844
+  modifiedTime: 1709237352137
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: YGYOrBHL6f50DPyR
 sort: 300000

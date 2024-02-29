@@ -1,10 +1,20 @@
 folder: RGC6MCftdeEqsIch
 name: Obscure
 type: prime-psionics.power
-img: modules/prime-psionics/assets/icons/power.svg
+img: icons/magic/perception/shadow-stealth-eyes-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You cloak yourself from sight. You are invisible to all creatures you
+      can see until your concentration ends, or until immediately after you
+      damage or otherwise affect any creature with an attack, magical effect, or
+      other ability.</p><p><em><strong>Intensify.</strong></em> When you
+      manifest this augment, you can target one creature you can see in addition
+      to yourself within 60 feet of you for each additional psi point spent
+      beyond the minimum cost. Each target is invisible to all creatures seen by
+      at least one target. Your concentration ends if any creature affected by
+      this augment damages or otherwise affects any creature with an attack,
+      magical effect, or other ability.</p>
     chat: ''
   source:
     custom: ''
@@ -12,12 +22,12 @@ system:
     page: ''
     license: ''
   activation:
-    type: ''
-    cost: null
+    type: bonus
+    cost: 1
     condition: ''
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: minute
   cover: null
   crewed: false
   target:
@@ -29,7 +39,7 @@ system:
   range:
     value: null
     long: null
-    units: ''
+    units: self
   uses:
     value: null
     max: ''
@@ -37,9 +47,9 @@ system:
     recovery: ''
     prompt: true
   consume:
-    type: ''
-    target: null
-    amount: null
+    type: flags
+    target: pp
+    amount: 3
     scale: false
   ability: null
   actionType: ''
@@ -56,13 +66,15 @@ system:
     ability: ''
     dc: null
     scaling: spell
-  level: 0
-  discipline: ''
-  augmenting: ''
+  level: 2
+  discipline: tlp
+  augmenting: blind spot
   scaling:
     mode: none
     formula: ''
-  properties: []
+  properties:
+    - auditory
+    - concentration
   preparation:
     mode: always
 effects: []
@@ -76,7 +88,7 @@ _stats:
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1706750789644
-  modifiedTime: 1709168127365
+  modifiedTime: 1709237352139
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: YwjCGAqsUd4g3enh
 sort: 0

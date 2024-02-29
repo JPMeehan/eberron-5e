@@ -1,10 +1,18 @@
 folder: caQfRwcQOMwGhqOZ
 name: Telepathic Weight
 type: prime-psionics.power
-img: modules/prime-psionics/assets/icons/power.svg
+img: icons/magic/perception/eye-slit-pink.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You generate a crushing telepathic presence in a 20-foot cube within
+      range. Each creature in that area must make a Charisma saving throw. On a
+      failed save, a target takes 7d8 psychic damage, is incapacitated, and has
+      their speed halved until the end of your next turn. On a successful save,
+      the target takes half as much damage and suffers no further
+      effects.</p><p><em><strong>Intensify.</strong></em> When you spend extra
+      psi points to manifest this augment, the damage increases by 1d8 for each
+      additional psi point spent.</p>
     chat: ''
   source:
     custom: ''
@@ -12,24 +20,24 @@ system:
     page: ''
     license: ''
   activation:
-    type: ''
-    cost: null
+    type: action
+    cost: 1
     condition: ''
   duration:
     value: ''
-    units: ''
+    units: inst
   cover: null
   crewed: false
   target:
-    value: null
+    value: 20
     width: null
-    units: ''
-    type: ''
+    units: ft
+    type: cube
     prompt: true
   range:
-    value: null
+    value: 120
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''
@@ -37,32 +45,35 @@ system:
     recovery: ''
     prompt: true
   consume:
-    type: ''
-    target: null
-    amount: null
+    type: flags
+    target: pp
+    amount: 9
     scale: false
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 7d8
+        - psychic
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: cha
     dc: null
     scaling: spell
-  level: 0
-  discipline: ''
-  augmenting: ''
+  level: 5
+  discipline: tlp
+  augmenting: mind thrust
   scaling:
-    mode: none
-    formula: ''
-  properties: []
+    mode: intensify
+    formula: 1d8
+  properties:
+    - auditory
   preparation:
     mode: always
 effects: []
@@ -76,7 +87,7 @@ _stats:
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1706750789644
-  modifiedTime: 1709168169138
+  modifiedTime: 1709237352140
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: bfmr3S5AsubtQf9m
 sort: 0

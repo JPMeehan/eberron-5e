@@ -1,10 +1,21 @@
 folder: caQfRwcQOMwGhqOZ
 name: Nomadic Doorway
 type: prime-psionics.power
-img: modules/prime-psionics/assets/icons/power.svg
+img: icons/magic/air/wind-stream-blue-gray.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You fold the fabric of reality and bore a doorway between two points in
+      space. You create a 5-foot cube of dim, gray light within 5 feet of you,
+      and an identical cube at any point of your choice within 1 mile that you
+      have viewed within the past 24 hours. The cubes last for the duration. A
+      creature entering one of the cubes immediately teleports to the other one,
+      appearing in an unoccupied space next to it. The teleportation fails if
+      there is no space for the creature to appear
+      in.</p><p><em><strong>Intensify.</strong></em> When you spend extra psi
+      points to manifest this augment, the maximum distance you can teleport is
+      increased by 1 mile for each additional psi point spent beyond the minimum
+      cost.</p>
     chat: ''
   source:
     custom: ''
@@ -12,24 +23,24 @@ system:
     page: ''
     license: ''
   activation:
-    type: ''
-    cost: null
+    type: action
+    cost: 1
     condition: ''
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: hour
   cover: null
   crewed: false
   target:
-    value: null
+    value: 5
     width: null
-    units: ''
-    type: ''
+    units: ft
+    type: cube
     prompt: true
   range:
-    value: null
+    value: 1
     long: null
-    units: ''
+    units: mi
   uses:
     value: null
     max: ''
@@ -37,9 +48,9 @@ system:
     recovery: ''
     prompt: true
   consume:
-    type: ''
-    target: null
-    amount: null
+    type: flags
+    target: pp
+    amount: 9
     scale: false
   ability: null
   actionType: ''
@@ -56,13 +67,16 @@ system:
     ability: ''
     dc: null
     scaling: spell
-  level: 0
-  discipline: ''
-  augmenting: ''
+  level: 5
+  discipline: pst
+  augmenting: Speed of Thought
   scaling:
     mode: none
     formula: ''
-  properties: []
+  properties:
+    - auditory
+    - observable
+    - concentration
   preparation:
     mode: always
 effects: []
@@ -76,7 +90,7 @@ _stats:
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1706750789644
-  modifiedTime: 1709168111922
+  modifiedTime: 1709247947184
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: 1FVY9FnfZbIhqMdz
 sort: 0

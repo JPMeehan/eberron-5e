@@ -1,10 +1,22 @@
 folder: 9txztt6GnCA9euni
 name: Thought Projection
 type: prime-psionics.power
-img: modules/prime-psionics/assets/icons/power.svg
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You create a psychic projection within 60 feet of you, hovering in the
+      air. The projection lasts for as long as you concentrate and is invisible.
+      It has normal vision and darkvision with a range of 60 feet and can look
+      in all directions, and you mentally receive visual information from it. As
+      an action, you can move the projection up to 30 feet in any direction.
+      There is no limit to how far away from you the projection can move, but it
+      can’t enter another plane of existence. A solid barrier blocks the
+      projection’s movement, but it can pass through an opening as small as 1
+      inch in diameter.</p><p><em><strong>Intensify.</strong></em> If you spend
+      1 additional psi point beyond the minimum cost, the projection you create
+      can move through solid objects, but can’t end its movement in one. If it
+      does so, the power immediately ends.</p>
     chat: ''
   source:
     custom: ''
@@ -12,12 +24,12 @@ system:
     page: ''
     license: ''
   activation:
-    type: ''
-    cost: null
+    type: action
+    cost: 1
     condition: ''
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: hour
   cover: null
   crewed: false
   target:
@@ -27,9 +39,9 @@ system:
     type: ''
     prompt: true
   range:
-    value: null
+    value: 60
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''
@@ -37,9 +49,9 @@ system:
     recovery: ''
     prompt: true
   consume:
-    type: ''
-    target: null
-    amount: null
+    type: flags
+    target: pp
+    amount: 7
     scale: false
   ability: null
   actionType: ''
@@ -56,13 +68,15 @@ system:
     ability: ''
     dc: null
     scaling: spell
-  level: 0
-  discipline: ''
-  augmenting: ''
+  level: 4
+  discipline: cla
+  augmenting: sixth sense
   scaling:
     mode: none
     formula: ''
-  properties: []
+  properties:
+    - auditory
+    - concentration
   preparation:
     mode: always
 effects: []
@@ -76,7 +90,7 @@ _stats:
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1706750789644
-  modifiedTime: 1709168182983
+  modifiedTime: 1709237352126
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: 3PriMeAw3Ifn41HF
 sort: 100000

@@ -1,10 +1,21 @@
 folder: RGC6MCftdeEqsIch
 name: Ego Whip
 type: prime-psionics.power
-img: modules/prime-psionics/assets/icons/power.svg
+img: icons/magic/perception/eye-slit-pink.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You form your thoughts into a briefly perceptible whip of telepathic
+      energy, and strike the mind of one creature you can see within range,
+      forcefully imposing a sudden and intense feeling of self-doubt in it. The
+      target must make a Wisdom saving throw. On a failed save, the creature
+      takes 3d8 psychic damage, and it can only take the Dodge, Disengage, or
+      Hide actions on its next turn. On a successful saving throw, the target
+      takes half as much damage, and its choice of action is not limited by this
+      power.</p><p><em><strong>Intensify.</strong></em> When you spend extra psi
+      points to manifest this augment, you may target 1 additional creature you
+      can see within range for every 2 additional psi points spent beyond the
+      minimum cost.</p>
     chat: ''
   source:
     custom: ''
@@ -12,24 +23,24 @@ system:
     page: ''
     license: ''
   activation:
-    type: ''
-    cost: null
+    type: action
+    cost: 1
     condition: ''
   duration:
     value: ''
-    units: ''
+    units: inst
   cover: null
   crewed: false
   target:
     value: null
     width: null
     units: ''
-    type: ''
+    type: creature
     prompt: true
   range:
-    value: null
+    value: 60
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''
@@ -37,32 +48,35 @@ system:
     recovery: ''
     prompt: true
   consume:
-    type: ''
-    target: null
-    amount: null
+    type: flags
+    target: pp
+    amount: 3
     scale: false
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 3d8
+        - psychic
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: wis
     dc: null
     scaling: spell
-  level: 0
-  discipline: ''
-  augmenting: ''
+  level: 2
+  discipline: tlp
+  augmenting: mind thrust
   scaling:
     mode: none
     formula: ''
-  properties: []
+  properties:
+    - observable
   preparation:
     mode: always
 effects: []
@@ -76,7 +90,7 @@ _stats:
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1706750789644
-  modifiedTime: 1709168078530
+  modifiedTime: 1709237352142
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: c3us4EBDldTC9H6l
 sort: 300000

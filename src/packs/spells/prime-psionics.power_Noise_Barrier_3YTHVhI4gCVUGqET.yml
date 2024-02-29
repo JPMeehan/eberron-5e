@@ -1,10 +1,22 @@
 folder: 9txztt6GnCA9euni
 name: Noise Barrier
 type: prime-psionics.power
-img: modules/prime-psionics/assets/icons/power.svg
+img: icons/magic/fire/projectile-meteor-salvo-light-pink.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You mentally excite the air molecules before you, forming a wall of
+      pure sound. The wall is 60 feet long, 15 feet high, and 1 foot thick. At
+      least one 10-foot-long section of the wall must be within range when you
+      form the wall. The wall lasts for the duration. Every foot moved through
+      the wall costs 1 extra foot of movement. When a creature moves into the
+      wall’s space for the first time on a turn or starts its turn there, that
+      creature must succeed on a Strength saving throw, or it takes 6d6 thunder
+      damage, is pushed in a straight line up to 30 feet away from the wall, and
+      is knocked prone.</p><p> The wall blocks any sound from passing through
+      it, and the cacophony it creates can be heard up to 500 feet away. If
+      another effect that deals thunder damage overlaps with the wall or crosses
+      through it, the wall absorbs the effect, dispelling or destroying it.</p>
     chat: ''
   source:
     custom: ''
@@ -12,24 +24,24 @@ system:
     page: ''
     license: ''
   activation:
-    type: ''
-    cost: null
+    type: action
+    cost: 1
     condition: ''
   duration:
-    value: ''
-    units: ''
+    value: '10'
+    units: minute
   cover: null
   crewed: false
   target:
-    value: null
+    value: 60
     width: null
-    units: ''
-    type: ''
+    units: ft
+    type: wall
     prompt: true
   range:
-    value: null
+    value: 60
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''
@@ -37,32 +49,37 @@ system:
     recovery: ''
     prompt: true
   consume:
-    type: ''
-    target: null
-    amount: null
+    type: flags
+    target: pp
+    amount: 7
     scale: false
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 6d6
+        - thunder
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: str
     dc: null
     scaling: spell
-  level: 0
-  discipline: ''
-  augmenting: ''
+  level: 4
+  discipline: psk
+  augmenting: energy ray
   scaling:
     mode: none
     formula: ''
-  properties: []
+  properties:
+    - auditory
+    - observable
+    - concentration
   preparation:
     mode: always
 effects: []
@@ -76,7 +93,7 @@ _stats:
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1706750789644
-  modifiedTime: 1709168182983
+  modifiedTime: 1709237352133
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: 3YTHVhI4gCVUGqET
 sort: 200000

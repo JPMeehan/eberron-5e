@@ -3,7 +3,8 @@
 ## 0.9.3
 
 - Configured Yuan-ti from Talvakri's
-- Added Psionic Mind Flayer from Psion's Primer and its powers
+- Added Psionic Mind Flayer and the Telepath variant from Psion's Primer
+  - Also added their powers
 - Added Byeshk as a new weapon property
 
 ## 0.9.2

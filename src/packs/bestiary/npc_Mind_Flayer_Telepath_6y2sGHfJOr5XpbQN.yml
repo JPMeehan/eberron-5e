@@ -2717,6 +2717,1183 @@ items:
     _id: 5ci33dcWnRm9rG0H
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.5ci33dcWnRm9rG0H'
+  - folder: RGC6MCftdeEqsIch
+    name: Ego Whip
+    type: prime-psionics.power
+    img: icons/magic/perception/eye-slit-pink.webp
+    system:
+      description:
+        value: >-
+          <p>You form your thoughts into a briefly perceptible whip of
+          telepathic energy, and strike the mind of one creature you can see
+          within range, forcefully imposing a sudden and intense feeling of
+          self-doubt in it. The target must make a Wisdom saving throw. On a
+          failed save, the creature takes 3d8 psychic damage, and it can only
+          take the Dodge, Disengage, or Hide actions on its next turn. On a
+          successful saving throw, the target takes half as much damage, and its
+          choice of action is not limited by this
+          power.</p><p><em><strong>Intensify.</strong></em> When you spend extra
+          psi points to manifest this augment, you may target 1 additional
+          creature you can see within range for every 2 additional psi points
+          spent beyond the minimum cost.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: creature
+        prompt: true
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 3
+        scale: false
+      ability: ''
+      actionType: save
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 3d8
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: null
+        scaling: spell
+      level: 2
+      discipline: tlp
+      augmenting: mind thrust
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - observable
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.c3us4EBDldTC9H6l
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709244182366
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: L1QZiI0Uo6F0p9or
+    sort: 300000
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.L1QZiI0Uo6F0p9or'
+  - folder: RGC6MCftdeEqsIch
+    name: Missive
+    type: prime-psionics.power
+    img: icons/magic/control/energy-stream-link-teal.webp
+    system:
+      description:
+        value: >-
+          <p>You broadcast a short telepathic message of up to 25-words to every
+          creature within range. Any creature you can see, as well as any
+          creatures that you know or know of in the area can be included or
+          excluded from this communication. This communication is oneway only
+          and instantaneous. If a recipient of your communication does not share
+          a language with you, it perceives only garbled mental gibberish.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 500
+        width: null
+        units: ft
+        type: radius
+        prompt: true
+      range:
+        value: 500
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 3
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 2
+      discipline: tlp
+      augmenting: mindlink
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - auditory
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.GUtIXCyS2gh16guI
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709244184231
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: jdv93TBFXAvkHtQT
+    sort: 100000
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.jdv93TBFXAvkHtQT'
+  - folder: RGC6MCftdeEqsIch
+    name: Obscure
+    type: prime-psionics.power
+    img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+    system:
+      description:
+        value: >-
+          <p>You cloak yourself from sight. You are invisible to all creatures
+          you can see until your concentration ends, or until immediately after
+          you damage or otherwise affect any creature with an attack, magical
+          effect, or other ability.</p><p><em><strong>Intensify.</strong></em>
+          When you manifest this augment, you can target one creature you can
+          see in addition to yourself within 60 feet of you for each additional
+          psi point spent beyond the minimum cost. Each target is invisible to
+          all creatures seen by at least one target. Your concentration ends if
+          any creature affected by this augment damages or otherwise affects any
+          creature with an attack, magical effect, or other ability.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: bonus
+        cost: 1
+        condition: ''
+      duration:
+        value: '1'
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 3
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 2
+      discipline: tlp
+      augmenting: blind spot
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - auditory
+        - concentration
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.YwjCGAqsUd4g3enh
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709244185189
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: hVQ5eALj2a5psKHw
+    sort: 0
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.hVQ5eALj2a5psKHw'
+  - folder: kKmsF7qSqB8YE1CY
+    name: Aura Beam
+    type: prime-psionics.power
+    img: icons/magic/light/explosion-star-small-blue-yellow.webp
+    system:
+      description:
+        value: >-
+          <p>You lens the light of your aura beacon into a coherent beam and
+          project it at one creature you can see within range. The target must
+          make a Dexterity saving throw. On a failed save, it takes 5d6 radiant
+          damage and is blinded until the end of your next turn. On a successful
+          save, it takes half as much damage and is not
+          blinded.</p><p><em><strong>Intensify.</strong></em> When you spend
+          extra psi points to manifest this augment, the damage increases by 1d6
+          for each additional psi point spent beyond the minimum cost.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        prompt: true
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 5
+        scale: false
+      ability: ''
+      actionType: save
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 5d6
+            - radiant
+        versatile: ''
+      formula: ''
+      save:
+        ability: dex
+        dc: null
+        scaling: spell
+      level: 3
+      discipline: mtc
+      augmenting: aura beacon
+      scaling:
+        mode: intensify
+        formula: 1d6
+      properties:
+        - observable
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.YGYOrBHL6f50DPyR
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709244189573
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: 5nuogmOZbHLH9OuS
+    sort: 300000
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.5nuogmOZbHLH9OuS'
+  - folder: kKmsF7qSqB8YE1CY
+    name: Id Insinuation
+    type: prime-psionics.power
+    img: icons/magic/perception/eye-slit-pink.webp
+    system:
+      description:
+        value: >-
+          <p>You worm disrupting thoughts into the mind of a creature you can
+          see within range. The target must make a Wisdom saving throw. On a
+          failure, the target takes 3d8 psychic damage and acts erratically for
+          the duration. An affected target can’t take reactions and must roll a
+          [[/r d10]] at the start of each of its turns to determine its behavior
+          for that
+          turn.</p><p>@UUID[Compendium.dnd5e.tables.RollTable.LHEts1oDaDwcehuj]{Confusion
+          Table}</p><p><em><strong>Intensify.</strong></em> When you spend extra
+          psi points to manifest this augment, you may target 1 additional
+          creature you can see within range for every 2 additional psi points
+          spent beyond the minimum cost.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: '1'
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: creature
+        prompt: true
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 5
+        scale: false
+      ability: ''
+      actionType: save
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 3d8
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 3
+      discipline: tlp
+      augmenting: mind thrust
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - observable
+        - concentration
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.dg0xQO8xro4i1x3n
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709244193352
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: ZwfYeYqA89MNqdfi
+    sort: 100000
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.ZwfYeYqA89MNqdfi'
+  - folder: kKmsF7qSqB8YE1CY
+    name: Sudden Step
+    type: prime-psionics.power
+    img: icons/magic/air/wind-stream-blue-gray.webp
+    system:
+      description:
+        value: >-
+          <p>When you are hit by an attack, you manifest this augment to
+          suddenly teleport out of the way of danger. The triggering attack
+          misses you, and you teleport up to 10 feet to an unoccupied space you
+          can see.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: reaction
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 5
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 3
+      discipline: pst
+      augmenting: Speed of Thought
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - observable
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.kg622WTASI3VZZDE
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709244194269
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: h35atjk7ERjVANy5
+    sort: 0
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.h35atjk7ERjVANy5'
+  - folder: kKmsF7qSqB8YE1CY
+    name: Third Eye
+    type: prime-psionics.power
+    img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+    system:
+      description:
+        value: >-
+          <p>You partially open your third eye, or the third eye of a willing
+          creature you touch, granting the target a mystic sense that allows it
+          to perceive what would not normally be possible. Until your
+          concentration ends, the target can see all creatures, including hidden
+          and invisible ones, regardless of lighting
+          conditions.</p><p><em><strong>Intensify.</strong></em> If you spend 2
+          additional psi points when manifesting this augment beyond its minimum
+          cost, you manifest it as a 4th level power, and you open the target
+          creature’s third eye even wider, granting them this augment’s normal
+          effects and allowing them to see through objects that are up to 1 foot
+          thick within 30 feet of them.</p><p>If you spend a total of 4
+          additional psi point when manifesting this augment beyond its minimum
+          cost, you manifest it as a 5th level power, opening the creature’s
+          third eye completely, granting them this augment’s 3rd and 4th-level
+          effects, plus truesight with a range of 30 feet for the duration of
+          the power.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: action
+        cost: null
+        condition: ''
+      duration:
+        value: '1'
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: willing
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: touch
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 5
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 3
+      discipline: cla
+      augmenting: sixth sense
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - observable
+        - concentration
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.drhGkzpXtBQo9pIQ
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709244195762
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: BZt2kqEtQxAKCv5r
+    sort: 0
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.BZt2kqEtQxAKCv5r'
+  - folder: 9txztt6GnCA9euni
+    name: Noise Barrier
+    type: prime-psionics.power
+    img: icons/magic/fire/projectile-meteor-salvo-light-pink.webp
+    system:
+      description:
+        value: >-
+          <p>You mentally excite the air molecules before you, forming a wall of
+          pure sound. The wall is 60 feet long, 15 feet high, and 1 foot thick.
+          At least one 10-foot-long section of the wall must be within range
+          when you form the wall. The wall lasts for the duration. Every foot
+          moved through the wall costs 1 extra foot of movement. When a creature
+          moves into the wall’s space for the first time on a turn or starts its
+          turn there, that creature must succeed on a Strength saving throw, or
+          it takes 6d6 thunder damage, is pushed in a straight line up to 30
+          feet away from the wall, and is knocked prone.</p><p> The wall blocks
+          any sound from passing through it, and the cacophony it creates can be
+          heard up to 500 feet away. If another effect that deals thunder damage
+          overlaps with the wall or crosses through it, the wall absorbs the
+          effect, dispelling or destroying it.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: '10'
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: 60
+        width: null
+        units: ft
+        type: wall
+        prompt: true
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 7
+        scale: false
+      ability: ''
+      actionType: save
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 6d6
+            - thunder
+        versatile: ''
+      formula: ''
+      save:
+        ability: str
+        dc: null
+        scaling: spell
+      level: 4
+      discipline: psk
+      augmenting: energy ray
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - auditory
+        - observable
+        - concentration
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.3YTHVhI4gCVUGqET
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709244205096
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: Aayr3K2sBZGHkMKn
+    sort: 200000
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.Aayr3K2sBZGHkMKn'
+  - folder: 9txztt6GnCA9euni
+    name: Post-Hypnotic Suggestion
+    type: prime-psionics.power
+    img: icons/magic/control/energy-stream-link-teal.webp
+    system:
+      description:
+        value: >-
+          <p>You mentally implant a suggested course of activity (limited to a
+          sentence or two) and a triggering event (such as “when you awake two
+          days from now” or “when you come within sixty feet of the local
+          Countess”) to magically influence a creature you are telepathically
+          communicating with. Creatures that can't be charmed are immune to this
+          effect.</p><p>When you manifest this power, the target must
+          immediately make a Wisdom saving throw. On a success, the target
+          perceives a faint whisper intruding into its mind, but is not
+          otherwise affected, and you know the suggestion did not take hold. On
+          a failure, the suggestion and trigger are telepathically implanted in
+          the target without their notice. The suggestion must be worded in such
+          a manner as to make the course of action sound reasonable. Suggesting
+          the creature stab itself, throw itself onto a spear, immolate itself,
+          or do some other obviously harmful act ends the effect.</p><p>Once the
+          triggering condition is met, the target pursues the course of action
+          you described to the best of its ability. The suggested course of
+          action can continue for up to 8 hours after the triggering condition
+          is met. If the suggested activity can be completed in a shorter time,
+          the power ends when the subject finishes what it was influenced to do.
+          The target will not be able to explain why it took the actions you
+          compelled it to take after the suggestion is triggered and it will
+          have no memory of the suggestion or trigger being
+          implanted.</p><p>Whenever the target creature finishes a long rest, it
+          may repeat the Wisdom saving throw, ending the effect on a success,
+          though it will still not realize it was affected. If the triggering
+          condition is not met before the power expires, the suggested activity
+          isn’t performed. If you or any of your companions damage the target,
+          the power ends.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: '7'
+        units: day
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 7
+        scale: false
+      ability: ''
+      actionType: save
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: null
+        scaling: spell
+      level: 4
+      discipline: tlp
+      augmenting: mindlink
+      scaling:
+        mode: none
+        formula: ''
+      properties: []
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.djReedPCzTgHFqC7
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709244206339
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: V6hEy4goaRl3qapz
+    sort: 300000
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.V6hEy4goaRl3qapz'
+  - folder: 9txztt6GnCA9euni
+    name: Thought Projection
+    type: prime-psionics.power
+    img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+    system:
+      description:
+        value: >-
+          <p>You create a psychic projection within 60 feet of you, hovering in
+          the air. The projection lasts for as long as you concentrate and is
+          invisible. It has normal vision and darkvision with a range of 60 feet
+          and can look in all directions, and you mentally receive visual
+          information from it. As an action, you can move the projection up to
+          30 feet in any direction. There is no limit to how far away from you
+          the projection can move, but it can’t enter another plane of
+          existence. A solid barrier blocks the projection’s movement, but it
+          can pass through an opening as small as 1 inch in
+          diameter.</p><p><em><strong>Intensify.</strong></em> If you spend 1
+          additional psi point beyond the minimum cost, the projection you
+          create can move through solid objects, but can’t end its movement in
+          one. If it does so, the power immediately ends.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: '1'
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 7
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 4
+      discipline: cla
+      augmenting: sixth sense
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - auditory
+        - concentration
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.3PriMeAw3Ifn41HF
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709244207953
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: RqYpe3kzQJmsAXzZ
+    sort: 100000
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.RqYpe3kzQJmsAXzZ'
+  - folder: caQfRwcQOMwGhqOZ
+    name: Nomadic Doorway
+    type: prime-psionics.power
+    img: icons/magic/air/wind-stream-blue-gray.webp
+    system:
+      description:
+        value: >-
+          <p>You fold the fabric of reality and bore a doorway between two
+          points in space. You create a 5-foot cube of dim, gray light within 5
+          feet of you, and an identical cube at any point of your choice within
+          1 mile that you have viewed within the past 24 hours. The cubes last
+          for the duration. A creature entering one of the cubes immediately
+          teleports to the other one, appearing in an unoccupied space next to
+          it. The teleportation fails if there is no space for the creature to
+          appear in.</p><p><em><strong>Intensify.</strong></em> When you spend
+          extra psi points to manifest this augment, the maximum distance you
+          can teleport is increased by 1 mile for each additional psi point
+          spent beyond the minimum cost.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: '1'
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: 5
+        width: null
+        units: ft
+        type: cube
+        prompt: true
+      range:
+        value: 1
+        long: null
+        units: mi
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 9
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 5
+      discipline: pst
+      augmenting: Speed of Thought
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - auditory
+        - observable
+        - concentration
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.1FVY9FnfZbIhqMdz
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709247930825
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: TEH6XbIipzfVT6jw
+    sort: 0
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.TEH6XbIipzfVT6jw'
+  - folder: caQfRwcQOMwGhqOZ
+    name: Telepathic Weight
+    type: prime-psionics.power
+    img: icons/magic/perception/eye-slit-pink.webp
+    system:
+      description:
+        value: >-
+          <p>You generate a crushing telepathic presence in a 20-foot cube
+          within range. Each creature in that area must make a Charisma saving
+          throw. On a failed save, a target takes 7d8 psychic damage, is
+          incapacitated, and has their speed halved until the end of your next
+          turn. On a successful save, the target takes half as much damage and
+          suffers no further effects.</p><p><em><strong>Intensify.</strong></em>
+          When you spend extra psi points to manifest this augment, the damage
+          increases by 1d8 for each additional psi point spent.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 20
+        width: null
+        units: ft
+        type: cube
+        prompt: true
+      range:
+        value: 120
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 9
+        scale: false
+      ability: ''
+      actionType: save
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 7d8
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: cha
+        dc: null
+        scaling: spell
+      level: 5
+      discipline: tlp
+      augmenting: mind thrust
+      scaling:
+        mode: intensify
+        formula: 1d8
+      properties:
+        - auditory
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.bfmr3S5AsubtQf9m
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709244217767
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: P7cmJtToPZRkyZRV
+    sort: 0
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.P7cmJtToPZRkyZRV'
 effects: []
 folder: xXqW5zZE9axoFXIR
 ownership:
@@ -2773,7 +3950,7 @@ _stats:
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1708886046964
-  modifiedTime: 1709170491602
+  modifiedTime: 1709247930825
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: 6y2sGHfJOr5XpbQN
 sort: 0

@@ -1,10 +1,16 @@
 folder: RGC6MCftdeEqsIch
 name: Missive
 type: prime-psionics.power
-img: modules/prime-psionics/assets/icons/power.svg
+img: icons/magic/control/energy-stream-link-teal.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You broadcast a short telepathic message of up to 25-words to every
+      creature within range. Any creature you can see, as well as any creatures
+      that you know or know of in the area can be included or excluded from this
+      communication. This communication is oneway only and instantaneous. If a
+      recipient of your communication does not share a language with you, it
+      perceives only garbled mental gibberish.</p>
     chat: ''
   source:
     custom: ''
@@ -12,24 +18,24 @@ system:
     page: ''
     license: ''
   activation:
-    type: ''
-    cost: null
+    type: action
+    cost: 1
     condition: ''
   duration:
     value: ''
-    units: ''
+    units: inst
   cover: null
   crewed: false
   target:
-    value: null
+    value: 500
     width: null
-    units: ''
-    type: ''
+    units: ft
+    type: radius
     prompt: true
   range:
-    value: null
+    value: 500
     long: null
-    units: ''
+    units: self
   uses:
     value: null
     max: ''
@@ -37,9 +43,9 @@ system:
     recovery: ''
     prompt: true
   consume:
-    type: ''
-    target: null
-    amount: null
+    type: flags
+    target: pp
+    amount: 3
     scale: false
   ability: null
   actionType: ''
@@ -56,13 +62,14 @@ system:
     ability: ''
     dc: null
     scaling: spell
-  level: 0
-  discipline: ''
-  augmenting: ''
+  level: 2
+  discipline: tlp
+  augmenting: mindlink
   scaling:
     mode: none
     formula: ''
-  properties: []
+  properties:
+    - auditory
   preparation:
     mode: always
 effects: []
@@ -76,7 +83,7 @@ _stats:
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1706750789644
-  modifiedTime: 1709168078530
+  modifiedTime: 1709237352136
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: GUtIXCyS2gh16guI
 sort: 100000

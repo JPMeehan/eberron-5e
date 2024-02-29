@@ -1,10 +1,20 @@
 folder: kKmsF7qSqB8YE1CY
 name: Id Insinuation
 type: prime-psionics.power
-img: modules/prime-psionics/assets/icons/power.svg
+img: icons/magic/perception/eye-slit-pink.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You worm disrupting thoughts into the mind of a creature you can see
+      within range. The target must make a Wisdom saving throw. On a failure,
+      the target takes 3d8 psychic damage and acts erratically for the duration.
+      An affected target can’t take reactions and must roll a [[/r d10]] at the
+      start of each of its turns to determine its behavior for that
+      turn.</p><p>@UUID[Compendium.dnd5e.tables.RollTable.LHEts1oDaDwcehuj]{Confusion
+      Table}</p><p><em><strong>Intensify.</strong></em> When you spend extra psi
+      points to manifest this augment, you may target 1 additional creature you
+      can see within range for every 2 additional psi points spent beyond the
+      minimum cost.</p>
     chat: ''
   source:
     custom: ''
@@ -12,24 +22,24 @@ system:
     page: ''
     license: ''
   activation:
-    type: ''
-    cost: null
+    type: action
+    cost: 1
     condition: ''
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: minute
   cover: null
   crewed: false
   target:
     value: null
     width: null
     units: ''
-    type: ''
+    type: creature
     prompt: true
   range:
-    value: null
+    value: 60
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''
@@ -37,32 +47,36 @@ system:
     recovery: ''
     prompt: true
   consume:
-    type: ''
-    target: null
-    amount: null
+    type: flags
+    target: pp
+    amount: 5
     scale: false
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
     threshold: null
     damage: ''
   damage:
-    parts: []
+    parts:
+      - - 3d8
+        - psychic
     versatile: ''
   formula: ''
   save:
     ability: ''
     dc: null
     scaling: spell
-  level: 0
-  discipline: ''
-  augmenting: ''
+  level: 3
+  discipline: tlp
+  augmenting: mind thrust
   scaling:
     mode: none
     formula: ''
-  properties: []
+  properties:
+    - observable
+    - concentration
   preparation:
     mode: always
 effects: []
@@ -76,7 +90,7 @@ _stats:
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1706750789644
-  modifiedTime: 1709168043844
+  modifiedTime: 1709237352144
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: dg0xQO8xro4i1x3n
 sort: 100000

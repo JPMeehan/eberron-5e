@@ -1,10 +1,36 @@
 folder: 9txztt6GnCA9euni
 name: Post-Hypnotic Suggestion
 type: prime-psionics.power
-img: modules/prime-psionics/assets/icons/power.svg
+img: icons/magic/control/energy-stream-link-teal.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You mentally implant a suggested course of activity (limited to a
+      sentence or two) and a triggering event (such as “when you awake two days
+      from now” or “when you come within sixty feet of the local Countess”) to
+      magically influence a creature you are telepathically communicating with.
+      Creatures that can't be charmed are immune to this effect.</p><p>When you
+      manifest this power, the target must immediately make a Wisdom saving
+      throw. On a success, the target perceives a faint whisper intruding into
+      its mind, but is not otherwise affected, and you know the suggestion did
+      not take hold. On a failure, the suggestion and trigger are telepathically
+      implanted in the target without their notice. The suggestion must be
+      worded in such a manner as to make the course of action sound reasonable.
+      Suggesting the creature stab itself, throw itself onto a spear, immolate
+      itself, or do some other obviously harmful act ends the effect.</p><p>Once
+      the triggering condition is met, the target pursues the course of action
+      you described to the best of its ability. The suggested course of action
+      can continue for up to 8 hours after the triggering condition is met. If
+      the suggested activity can be completed in a shorter time, the power ends
+      when the subject finishes what it was influenced to do. The target will
+      not be able to explain why it took the actions you compelled it to take
+      after the suggestion is triggered and it will have no memory of the
+      suggestion or trigger being implanted.</p><p>Whenever the target creature
+      finishes a long rest, it may repeat the Wisdom saving throw, ending the
+      effect on a success, though it will still not realize it was affected. If
+      the triggering condition is not met before the power expires, the
+      suggested activity isn’t performed. If you or any of your companions
+      damage the target, the power ends.</p>
     chat: ''
   source:
     custom: ''
@@ -12,12 +38,12 @@ system:
     page: ''
     license: ''
   activation:
-    type: ''
-    cost: null
+    type: action
+    cost: 1
     condition: ''
   duration:
-    value: ''
-    units: ''
+    value: '7'
+    units: day
   cover: null
   crewed: false
   target:
@@ -27,9 +53,9 @@ system:
     type: ''
     prompt: true
   range:
-    value: null
+    value: 60
     long: null
-    units: ''
+    units: ft
   uses:
     value: null
     max: ''
@@ -37,12 +63,12 @@ system:
     recovery: ''
     prompt: true
   consume:
-    type: ''
-    target: null
-    amount: null
+    type: flags
+    target: pp
+    amount: 7
     scale: false
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -53,12 +79,12 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: wis
     dc: null
     scaling: spell
-  level: 0
-  discipline: ''
-  augmenting: ''
+  level: 4
+  discipline: tlp
+  augmenting: mindlink
   scaling:
     mode: none
     formula: ''
@@ -76,7 +102,7 @@ _stats:
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1706750789644
-  modifiedTime: 1709168182983
+  modifiedTime: 1709237352146
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: djReedPCzTgHFqC7
 sort: 300000

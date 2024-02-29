@@ -1,10 +1,25 @@
 folder: kKmsF7qSqB8YE1CY
 name: Third Eye
 type: prime-psionics.power
-img: modules/prime-psionics/assets/icons/power.svg
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You partially open your third eye, or the third eye of a willing
+      creature you touch, granting the target a mystic sense that allows it to
+      perceive what would not normally be possible. Until your concentration
+      ends, the target can see all creatures, including hidden and invisible
+      ones, regardless of lighting
+      conditions.</p><p><em><strong>Intensify.</strong></em> If you spend 2
+      additional psi points when manifesting this augment beyond its minimum
+      cost, you manifest it as a 4th level power, and you open the target
+      creature’s third eye even wider, granting them this augment’s normal
+      effects and allowing them to see through objects that are up to 1 foot
+      thick within 30 feet of them.</p><p>If you spend a total of 4 additional
+      psi point when manifesting this augment beyond its minimum cost, you
+      manifest it as a 5th level power, opening the creature’s third eye
+      completely, granting them this augment’s 3rd and 4th-level effects, plus
+      truesight with a range of 30 feet for the duration of the power.</p>
     chat: ''
   source:
     custom: ''
@@ -12,24 +27,24 @@ system:
     page: ''
     license: ''
   activation:
-    type: ''
+    type: action
     cost: null
     condition: ''
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: minute
   cover: null
   crewed: false
   target:
     value: null
     width: null
     units: ''
-    type: ''
+    type: willing
     prompt: true
   range:
     value: null
     long: null
-    units: ''
+    units: touch
   uses:
     value: null
     max: ''
@@ -37,9 +52,9 @@ system:
     recovery: ''
     prompt: true
   consume:
-    type: ''
-    target: null
-    amount: null
+    type: flags
+    target: pp
+    amount: 5
     scale: false
   ability: null
   actionType: ''
@@ -56,13 +71,15 @@ system:
     ability: ''
     dc: null
     scaling: spell
-  level: 0
-  discipline: ''
-  augmenting: ''
+  level: 3
+  discipline: cla
+  augmenting: sixth sense
   scaling:
     mode: none
     formula: ''
-  properties: []
+  properties:
+    - observable
+    - concentration
   preparation:
     mode: always
 effects: []
@@ -76,7 +93,7 @@ _stats:
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1706750789644
-  modifiedTime: 1709168176171
+  modifiedTime: 1709237352148
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: drhGkzpXtBQo9pIQ
 sort: 0

@@ -1,10 +1,13 @@
 folder: kKmsF7qSqB8YE1CY
 name: Sudden Step
 type: prime-psionics.power
-img: modules/prime-psionics/assets/icons/power.svg
+img: icons/magic/air/wind-stream-blue-gray.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>When you are hit by an attack, you manifest this augment to suddenly
+      teleport out of the way of danger. The triggering attack misses you, and
+      you teleport up to 10 feet to an unoccupied space you can see.</p>
     chat: ''
   source:
     custom: ''
@@ -12,8 +15,8 @@ system:
     page: ''
     license: ''
   activation:
-    type: ''
-    cost: null
+    type: reaction
+    cost: 1
     condition: ''
   duration:
     value: ''
@@ -29,7 +32,7 @@ system:
   range:
     value: null
     long: null
-    units: ''
+    units: self
   uses:
     value: null
     max: ''
@@ -37,9 +40,9 @@ system:
     recovery: ''
     prompt: true
   consume:
-    type: ''
-    target: null
-    amount: null
+    type: flags
+    target: pp
+    amount: 5
     scale: false
   ability: null
   actionType: ''
@@ -56,13 +59,14 @@ system:
     ability: ''
     dc: null
     scaling: spell
-  level: 0
-  discipline: ''
-  augmenting: ''
+  level: 3
+  discipline: pst
+  augmenting: Speed of Thought
   scaling:
     mode: none
     formula: ''
-  properties: []
+  properties:
+    - observable
   preparation:
     mode: always
 effects: []
@@ -76,7 +80,7 @@ _stats:
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1706750789644
-  modifiedTime: 1709168156507
+  modifiedTime: 1709237352152
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: kg622WTASI3VZZDE
 sort: 0
