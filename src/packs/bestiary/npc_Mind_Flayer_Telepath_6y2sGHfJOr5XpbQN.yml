@@ -1,4 +1,4 @@
-name: Mind Flayer
+name: Mind Flayer Telepath
 type: npc
 img: https://www.dndbeyond.com/avatars/30833/422/638063863516115418.png
 system:
@@ -279,7 +279,11 @@ system:
         and their ability to execute their own inscrutable
         plans.</p><p><strong>Psionic Mind Flayer.</strong> Psionic mind flayers
         do not possess the Innate Spellcasting (Psionics) trait of standard mind
-        flayers. Instead, they have the Innate Psionic Powers trait.</p>
+        flayers. Instead, they have the Innate Psionic Powers trait.</p><hr
+        /><p>While all mind flayers have psionically potent minds, some
+        discipline themselves and study to further their psychic potential. Most
+        often, these illithid psions focus on the psionic discipline of
+        domination, as befits their natural telepathic abilities.</p>
       public: ''
     alignment: Lawful Evil
     race: null
@@ -287,8 +291,8 @@ system:
       value: aberration
       subtype: ''
     environment: Underdark
-    cr: 8
-    spellLevel: 0
+    cr: 9
+    spellLevel: 10
     source:
       book: Psion's Primer
       page: ''
@@ -504,7 +508,7 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!kFJZmsOnqW8mPZMY.LXgbAsxMdc9KuhZY'
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.LXgbAsxMdc9KuhZY'
   - name: Extract Brain
     type: weapon
     system:
@@ -614,7 +618,7 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!kFJZmsOnqW8mPZMY.C4tTWP6vhBqF30lT'
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.C4tTWP6vhBqF30lT'
   - name: Mind Blast
     type: feat
     system:
@@ -708,7 +712,7 @@ items:
       createdTime: null
       modifiedTime: 1709137821493
       lastModifiedBy: MVioF9x1qI1WYGx1
-    _key: '!actors.items!kFJZmsOnqW8mPZMY.V5WRhdT83mOZkwLv'
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.V5WRhdT83mOZkwLv'
   - name: Psionic Resistance
     type: feat
     system:
@@ -797,7 +801,7 @@ items:
       createdTime: null
       modifiedTime: 1709085076612
       lastModifiedBy: MVioF9x1qI1WYGx1
-    _key: '!actors.items!kFJZmsOnqW8mPZMY.ng3eDgKW8Nae3UyB'
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.ng3eDgKW8Nae3UyB'
   - name: Innate Spellcasting (Psionics)
     type: feat
     system:
@@ -889,7 +893,7 @@ items:
       createdTime: null
       modifiedTime: 1709085137911
       lastModifiedBy: MVioF9x1qI1WYGx1
-    _key: '!actors.items!kFJZmsOnqW8mPZMY.35BieXTVvkts0GJ0'
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.35BieXTVvkts0GJ0'
   - folder: ND8imwT4ZNwNEWzm
     name: Mystic Traveler
     type: prime-psionics.power
@@ -989,7 +993,7 @@ items:
       lastModifiedBy: q6n1efCGVB98drEQ
     _id: fhQdn5xz9Uw1uwyh
     sort: 100000
-    _key: '!actors.items!kFJZmsOnqW8mPZMY.fhQdn5xz9Uw1uwyh'
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.fhQdn5xz9Uw1uwyh'
   - folder: RGC6MCftdeEqsIch
     name: Read Thoughts
     type: prime-psionics.power
@@ -1088,7 +1092,7 @@ items:
       lastModifiedBy: q6n1efCGVB98drEQ
     _id: 2nAShlWqhTBOgJ6U
     sort: 0
-    _key: '!actors.items!kFJZmsOnqW8mPZMY.2nAShlWqhTBOgJ6U'
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.2nAShlWqhTBOgJ6U'
   - folder: kKmsF7qSqB8YE1CY
     name: Gravitic Field
     type: prime-psionics.power
@@ -1181,7 +1185,7 @@ items:
       lastModifiedBy: q6n1efCGVB98drEQ
     _id: r5Os0HoxQ0oCXvm4
     sort: 0
-    _key: '!actors.items!kFJZmsOnqW8mPZMY.r5Os0HoxQ0oCXvm4'
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.r5Os0HoxQ0oCXvm4'
   - folder: caQfRwcQOMwGhqOZ
     name: Assume Control
     type: prime-psionics.power
@@ -1276,7 +1280,7 @@ items:
       lastModifiedBy: q6n1efCGVB98drEQ
     _id: jqYG1oUt7Fna5TMx
     sort: 300000
-    _key: '!actors.items!kFJZmsOnqW8mPZMY.jqYG1oUt7Fna5TMx'
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.jqYG1oUt7Fna5TMx'
   - folder: caQfRwcQOMwGhqOZ
     name: Mystic Caravan
     type: prime-psionics.power
@@ -1403,7 +1407,7 @@ items:
       lastModifiedBy: q6n1efCGVB98drEQ
     _id: QzjsO9Qw5WdxbXAH
     sort: 100000
-    _key: '!actors.items!kFJZmsOnqW8mPZMY.QzjsO9Qw5WdxbXAH'
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.QzjsO9Qw5WdxbXAH'
   - _id: IKwVCSKnF8rdAKgW
     name: Breastplate
     type: equipment
@@ -1511,12 +1515,1213 @@ items:
       createdTime: 1661787233661
       modifiedTime: 1709137749829
       lastModifiedBy: MVioF9x1qI1WYGx1
-    _key: '!actors.items!kFJZmsOnqW8mPZMY.IKwVCSKnF8rdAKgW'
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.IKwVCSKnF8rdAKgW'
+  - name: Psionic Powers
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>The mind flayer is a 10th-level psionic character. Its psionic
+          ability is Intelligence (power save DC 16, +8 to hit with power
+          attacks). It has a psi point maximum of 82 and a psi limit of 10. It
+          knows the following psion talents and powers that augment
+          them:</p><p>Aura beacon: aura beam (5+)</p><p>Blind spot: obscure
+          (3+)</p><p>Energy ray: noise barrier (7), synaptic leap
+          (5+)</p><p>Mind thrust: ego whip (3+), id insinuation (5+), telepathic
+          weight (9+)</p><p>Mindlink: compel confession (2), mental inquisition
+          (2), metaconcert (1+), missive (3), post-hypnotic suggestion (7), read
+          thoughts (3)</p><p>Sixth sense: precognition (2), third eye (5+),
+          thought projection (7+)</p><p>Speed of thought: nomadic doorway (9+),
+          nomadic shift (1+), sudden step (5)</p>
+        chat: ''
+      source: {}
+      activation:
+        type: ''
+        cost: null
+        condition: ''
+      duration:
+        value: ''
+        units: ''
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: ''
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      type:
+        value: monster
+        subtype: ''
+      properties: []
+      requirements: ''
+      recharge:
+        value: null
+        charged: false
+    _id: nRhkr6QAHkb10AHQ
+    img: modules/prime-psionics/assets/icons/power.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1709170219962
+      modifiedTime: 1709170258408
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.nRhkr6QAHkb10AHQ'
+  - folder: w6X11D83Q38dH29u
+    name: Aura Beacon
+    type: prime-psionics.power
+    img: icons/magic/light/explosion-star-small-blue-yellow.webp
+    system:
+      description:
+        value: >-
+          <p>You visibly manifest your aura. While you focus, a bright light
+          radiates from your body. When you cast this spell, and as a bonus
+          action while you continue to focus on it, you may modulate the radius
+          of the aura’s light, from as short as 1 inch, to as long as 20 feet.
+          Regardless of the length of this radius of bright light, a radius of
+          dim light of equal length extends out from the bright light. Your
+          aura’s light can be colored as you like.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: bonus
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: foc
+      cover: null
+      crewed: false
+      target:
+        value: 40
+        width: null
+        units: ft
+        type: radius
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 0
+      discipline: mtc
+      augmenting: ''
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - observable
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.EHhtrVfGUWtnJkHJ
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709170270791
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: 2V51kuJSlfESpZ4I
+    sort: 100000
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.2V51kuJSlfESpZ4I'
+  - folder: w6X11D83Q38dH29u
+    name: Blind Spot
+    type: prime-psionics.power
+    img: icons/magic/perception/shadow-stealth-eyes-purple.webp
+    system:
+      description:
+        value: >-
+          <p>While you focus on this power, you can use your action to try to
+          erase notice of yourself from a creature you can see in range. The
+          target must succeed on a Wisdom saving throw, or you are invisible to
+          it until the end of your next turn or until you take an action. If you
+          take an action, your invisibility ends before your action.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: bonus
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: foc
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        prompt: true
+      range:
+        value: 120
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: ''
+      actionType: save
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: wis
+        dc: null
+        scaling: spell
+      level: 0
+      discipline: tlp
+      augmenting: ''
+      scaling:
+        mode: none
+        formula: ''
+      properties: []
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.JGJJpNaxCenTIJbs
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709170277438
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: VeHLnR3az7ifrwqz
+    sort: 0
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.VeHLnR3az7ifrwqz'
+  - folder: w6X11D83Q38dH29u
+    name: Energy Ray
+    type: prime-psionics.power
+    img: icons/magic/fire/projectile-meteor-salvo-light-pink.webp
+    system:
+      description:
+        value: >-
+          <p>You hold your hand aloft and generate a font of pure energy within
+          it. When you cast this spell, choose one of the following damage
+          types: cold, fire, lightning, or thunder.</p><p>Until your focus ends,
+          you can use your action to target one creature within range and shoot
+          a ray of energy at it. Make a ranged power attack against the target.
+          On a hit, the target takes 1d8 points of damage of the type you chose
+          when you cast this spell.</p><p> This power allows you to shoot more
+          than one ray as an action when you reach higher levels: two rays at
+          5th level, three rays at 11th level, and four rays at 17th level. You
+          can direct the rays at the same target or at different ones. Make a
+          separate attack roll for each ray</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: bonus
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: foc
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        prompt: true
+      range:
+        value: 90
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: ''
+      actionType: rsak
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d8
+            - fire
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 0
+      discipline: psk
+      augmenting: ''
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - auditory
+        - observable
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.GFqC4YLyuafqKzkh
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709170280338
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: yOu5YfAf2zMCKnyA
+    sort: 0
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.yOu5YfAf2zMCKnyA'
+  - folder: w6X11D83Q38dH29u
+    name: Mind Thrust
+    type: prime-psionics.power
+    img: icons/magic/perception/eye-slit-pink.webp
+    system:
+      description:
+        value: >-
+          <p>While you focus on this power, you can use your action to target
+          one creature you can see within range, making your eyes flare
+          noticeably for an instant. The target must succeed on a Charisma
+          saving throw or take 1d10 points of psychic damage.</p><p> This
+          cantrip’s damage increases by 1d10 when you reach 5th level (2d10),
+          11th level (3d10), and 17th level (4d10).</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: bonus
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: foc
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        prompt: true
+      range:
+        value: 60
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: ''
+      actionType: save
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts:
+          - - 1d10
+            - psychic
+        versatile: ''
+      formula: ''
+      save:
+        ability: cha
+        dc: null
+        scaling: spell
+      level: 0
+      discipline: tlp
+      augmenting: ''
+      scaling:
+        mode: talent
+        formula: ''
+      properties:
+        - observable
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.BkvZsA4L7JO6V0cu
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709170283184
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: 0kjCmZGtADb72iSa
+    sort: 0
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.0kjCmZGtADb72iSa'
+  - folder: w6X11D83Q38dH29u
+    name: Mindlink
+    type: prime-psionics.power
+    img: icons/magic/control/energy-stream-link-teal.webp
+    system:
+      description:
+        value: >-
+          <p>You contact the mind of another creature you can see within range,
+          granting you the ability to communicate with it telepathically while
+          you focus on this power. While you focus, the target can
+          telepathically communicate with you as well. If you don’t share a
+          language with the target, you can convey emotions and feelings, but
+          can’t engage in complex conversation. The target must have an
+          Intelligence of at least 4, otherwise this spell fails and the casting
+          time is wasted. You can only communicate with the target while it
+          remains in range.</p><p> Until your focus ends, you can use a bonus
+          action to switch the target of this spell to another creature you can
+          see within range. The spell ends if the new target does not have an
+          Intelligence of at least 4</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: bonus
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: foc
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        prompt: true
+      range:
+        value: 120
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 0
+      discipline: tlp
+      augmenting: ''
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - auditory
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.Nsq6O1OYVxpHwN7O
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709170286605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: lE4cO2h8UxIdUNyp
+    sort: 0
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.lE4cO2h8UxIdUNyp'
+  - folder: w6X11D83Q38dH29u
+    name: Sixth Sense
+    type: prime-psionics.power
+    img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+    system:
+      description:
+        value: >-
+          <p>You gain a prescient sense that improves your reflexive response to
+          danger, granting you advantage on initiative rolls until your focus
+          ends.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: bonus
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: foc
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ft
+        type: ''
+        prompt: true
+      range:
+        value: 30
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 0
+      discipline: cla
+      augmenting: ''
+      scaling:
+        mode: none
+        formula: ''
+      properties: []
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.2osZIq5SqQraPP3b
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709170290297
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: 0PWltJi13Ah2zTIo
+    sort: 0
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.0PWltJi13Ah2zTIo'
+  - folder: w6X11D83Q38dH29u
+    name: Speed of Thought
+    type: prime-psionics.power
+    img: icons/magic/air/wind-stream-blue-gray.webp
+    system:
+      description:
+        value: >-
+          <p>Your body’s responses to your thoughts quicken, increasing your
+          walking speed by 10 feet until your focus ends.</p><p> Additionally,
+          while you focus, you may teleport to your feet from a prone position
+          once per round on your turn, requiring no action and expending none of
+          your movement. Your speed must not be 0 for you to teleport this
+          way.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: bonus
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: foc
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: ''
+        target: null
+        amount: null
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 0
+      discipline: pst
+      augmenting: ''
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - observable
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.fEykoPdMhyl1FHi7
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709170292038
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: s9FJoh0O5Ti5tuQi
+    sort: 0
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.s9FJoh0O5Ti5tuQi'
+  - folder: ND8imwT4ZNwNEWzm
+    name: Mental Inquisition
+    type: prime-psionics.power
+    img: icons/magic/control/energy-stream-link-teal.webp
+    system:
+      description:
+        value: >-
+          <p>While you concentrate on this power, you know when a creature
+          communicating with you via telepathy is lying.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: '1'
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 2
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      discipline: tlp
+      augmenting: mindlink
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - concentration
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.3PpKrPp5d0kyd22R
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709170300070
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: QBnfDONivcnhAwlk
+    sort: 300000
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.QBnfDONivcnhAwlk'
+  - folder: ND8imwT4ZNwNEWzm
+    name: Compel Confession
+    type: prime-psionics.power
+    img: icons/magic/control/energy-stream-link-teal.webp
+    system:
+      description:
+        value: >-
+          <p>You ask a question of one creature that can see and hear you within
+          range, your voice reverberating with unnatural gravitas. The question
+          must be phrased so that it can be answered with a yes or no, otherwise
+          the power fails. The target must succeed on a Charisma saving throw,
+          or it replies with a truthful answer.</p><p> A creature is immune to
+          this effect if it does not share a language with you or if it is
+          immune to being charmed</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: action
+        cost: null
+        condition: ''
+      duration:
+        value: ''
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: 1
+        width: null
+        units: ''
+        type: creature
+        prompt: true
+      range:
+        value: 30
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 2
+        scale: false
+      ability: ''
+      actionType: save
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: cha
+        dc: null
+        scaling: spell
+      level: 1
+      discipline: tlp
+      augmenting: mindlink
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - auditory
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.Hy3i86X428HSGV6Z
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709170383702
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: KWXcu0fxfETrTfHh
+    sort: 200000
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.KWXcu0fxfETrTfHh'
+  - folder: ND8imwT4ZNwNEWzm
+    name: Metaconcert
+    type: prime-psionics.power
+    img: icons/magic/control/energy-stream-link-teal.webp
+    system:
+      description:
+        value: >-
+          <p>When you manifest this augment, you begin communicating
+          telepathically using
+          @UUID[Compendium.eberron-5e.spells.Item.Nsq6O1OYVxpHwN7O]{mindlink}
+          with one additional target creature.</p><p>In addition, for the
+          duration of this augment, you can use a bonus action on your turn to
+          share one memory of your choice with all targets of mindlink, or allow
+          one target to share one of its memories with yourself and all other
+          targets of mindlink. The recipients of a memory gain perfect recall of
+          one thing the sender of the memory saw or
+          did.</p><p><strong>Intensify.</strong> When you spend extra psi points
+          to manifest this augment, you can add an additional target creature to
+          your mindlink communication for each additional psi point spent beyond
+          the minimum cost.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: reaction
+        cost: 1
+        condition: ''
+      duration:
+        value: '1'
+        units: hour
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: creature
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 1
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      discipline: tlp
+      augmenting: mindlink
+      scaling:
+        mode: none
+        formula: ''
+      properties: []
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.eZnIxHtaYmIGPKyg
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709170416633
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: RnDPX170GaDwnhuC
+    sort: 100000
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.RnDPX170GaDwnhuC'
+  - folder: ND8imwT4ZNwNEWzm
+    name: Nomadic Shift
+    type: prime-psionics.power
+    img: icons/magic/air/wind-stream-blue-gray.webp
+    system:
+      description:
+        value: >-
+          <p>You store your potential energy and release it as a burst of
+          psychoportation. If you have not yet moved on your turn, you may
+          manifest this augment to teleport up to 20 feet, and then your speed
+          is reduced to 0 until the beginning of your next turn. If you manifest
+          this augment after you have moved on your turn, it fails.
+          </p><p><em><strong>Intensify.</strong></em> When you spend extra psi
+          points to manifest this augment, the maximum distance you can teleport
+          is increased by 20 feet for each additional psi point spent beyond the
+          minimum cost.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: reaction
+        cost: 1
+        condition: ''
+      duration:
+        value: ''
+        units: inst
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: self
+        prompt: true
+      range:
+        value: 20
+        long: null
+        units: ft
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 1
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      discipline: pst
+      augmenting: Speed of Thought
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - observable
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.LEU2NLVmvXXdKwIC
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709170331688
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: ZGj6NfnWg0Q7zzU7
+    sort: 0
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.ZGj6NfnWg0Q7zzU7'
+  - folder: ND8imwT4ZNwNEWzm
+    name: Precognition
+    type: prime-psionics.power
+    img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
+    system:
+      description:
+        value: >-
+          <p>You open your mind to receive momentary insights from the future,
+          improving your odds of success. Until your concentration ends,
+          whenever you make an attack roll, saving throw, or ability check, you
+          roll a [[/r d4]] and add it to the
+          total.</p><p><em><strong>Intensify.</strong></em> If you spend 10
+          extra psi points beyond the minimum cost to manifest this augment, you
+          manifest it as a 6th-level power, and you roll [[/r 2d4]] instead of a
+          d4 for this power’s effect.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Psion's Primer
+        page: ''
+        license: ''
+      activation:
+        type: action
+        cost: 1
+        condition: ''
+      duration:
+        value: '1'
+        units: minute
+      cover: null
+      crewed: false
+      target:
+        value: null
+        width: null
+        units: ''
+        type: ''
+        prompt: true
+      range:
+        value: null
+        long: null
+        units: self
+      uses:
+        value: null
+        max: ''
+        per: null
+        recovery: ''
+        prompt: true
+      consume:
+        type: flags
+        target: pp
+        amount: 2
+        scale: false
+      ability: null
+      actionType: ''
+      attackBonus: ''
+      chatFlavor: ''
+      critical:
+        threshold: null
+        damage: ''
+      damage:
+        parts: []
+        versatile: ''
+      formula: ''
+      save:
+        ability: ''
+        dc: null
+        scaling: spell
+      level: 1
+      discipline: cla
+      augmenting: sixth sense
+      scaling:
+        mode: none
+        formula: ''
+      properties:
+        - observable
+        - concentration
+      preparation:
+        mode: always
+    effects: []
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      core:
+        sourceId: Compendium.eberron-5e.spells.Item.pvEUEj3ZbJ1YAnM1
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.0.3
+      coreVersion: '11.315'
+      createdTime: 1706750789644
+      modifiedTime: 1709170335747
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: 5ci33dcWnRm9rG0H
+    sort: 0
+    _key: '!actors.items!6y2sGHfJOr5XpbQN.5ci33dcWnRm9rG0H'
 effects: []
 folder: xXqW5zZE9axoFXIR
 ownership:
   default: 0
-  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags:
   dnd5e: {}
   monsterMunch:
@@ -1560,14 +2765,17 @@ flags:
     isLegacy: false
     flatAC: false
   core: {}
+  prime-psionics:
+    pp:
+      value: 82
 _stats:
   systemId: dnd5e
   systemVersion: 3.0.3
   coreVersion: '11.315'
   createdTime: 1708886046964
-  modifiedTime: 1709160704849
+  modifiedTime: 1709170491602
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: kFJZmsOnqW8mPZMY
+_id: 6y2sGHfJOr5XpbQN
 sort: 0
-_key: '!actors!kFJZmsOnqW8mPZMY'
+_key: '!actors!6y2sGHfJOr5XpbQN'
 

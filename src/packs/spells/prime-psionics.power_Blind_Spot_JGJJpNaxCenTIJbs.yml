@@ -1,22 +1,24 @@
 folder: w6X11D83Q38dH29u
-name: Verve
+name: Blind Spot
 type: prime-psionics.power
-img: icons/magic/control/silhouette-aura-energy.webp
+img: icons/magic/perception/shadow-stealth-eyes-purple.webp
 system:
   description:
     value: >-
-      <p>When you cast this spell, you are energized and briefly glow as you
-      intone a low hum that reverberates through your body.</p><p>Until your
-      focus ends, you don’t need to eat, breathe, or sleep. To gain the benefits
-      of a long rest, you can spend 8 hours engaged in light activity. </p>
+      <p>While you focus on this power, you can use your action to try to erase
+      notice of yourself from a creature you can see in range. The target must
+      succeed on a Wisdom saving throw, or you are invisible to it until the end
+      of your next turn or until you take an action. If you take an action, your
+      invisibility ends before your action.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
-    license: DMsGuild CCA
+    book: Psion's Primer
+    page: ''
+    license: ''
   activation:
     type: bonus
-    cost: null
+    cost: 1
     condition: ''
   duration:
     value: ''
@@ -24,15 +26,15 @@ system:
   cover: null
   crewed: false
   target:
-    value: null
+    value: 1
     width: null
     units: ''
-    type: ''
+    type: creature
     prompt: true
   range:
-    value: null
+    value: 120
     long: null
-    units: self
+    units: ft
   uses:
     value: null
     max: ''
@@ -44,8 +46,8 @@ system:
     target: null
     amount: null
     scale: false
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: save
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -56,20 +58,18 @@ system:
     versatile: ''
   formula: ''
   save:
-    ability: ''
+    ability: wis
     dc: null
     scaling: spell
   level: 0
-  discipline: psm
+  discipline: tlp
   augmenting: ''
-  components:
-    auditory: true
-    observable: true
-    concentration: false
-    ritual: false
   scaling:
     mode: none
     formula: ''
+  properties: []
+  preparation:
+    mode: always
 effects: []
 ownership:
   default: 0
@@ -80,10 +80,10 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.0.3
   coreVersion: '11.315'
-  createdTime: 1685921440876
-  modifiedTime: 1709162643987
+  createdTime: 1706750789644
+  modifiedTime: 1709167775690
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: yRyhLa4cFmbCnvph
-sort: 300000
-_key: '!items!yRyhLa4cFmbCnvph'
+_id: JGJJpNaxCenTIJbs
+sort: 0
+_key: '!items!JGJJpNaxCenTIJbs'
 

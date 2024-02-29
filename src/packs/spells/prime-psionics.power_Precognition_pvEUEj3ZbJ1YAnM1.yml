@@ -1,29 +1,29 @@
-folder: kKmsF7qSqB8YE1CY
-name: Gravitic Field
+folder: ND8imwT4ZNwNEWzm
+name: Precognition
 type: prime-psionics.power
-img: icons/magic/control/energy-stream-link-white.webp
+img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
 system:
   description:
     value: >-
-      <p>You suspend gravity around you and seize control of the angular
-      velocity of your inertia. For the duration, you gain a flying speed of 60
-      feet.</p><p><em><strong>Intensify.</strong></em> When you spend extra psi
-      points to manifest this augment, you may affect one additional creature
-      within 30 feet of you for every 2 additional psi points spent beyond the
-      minimum cost. Affected creatures gain a flying speed of 60 feet for as
-      long as you concentrate.</p>
+      <p>You open your mind to receive momentary insights from the future,
+      improving your odds of success. Until your concentration ends, whenever
+      you make an attack roll, saving throw, or ability check, you roll a [[/r
+      d4]] and add it to the total.</p><p><em><strong>Intensify.</strong></em>
+      If you spend 10 extra psi points beyond the minimum cost to manifest this
+      augment, you manifest it as a 6th-level power, and you roll [[/r 2d4]]
+      instead of a d4 for this power’s effect.</p>
     chat: ''
   source:
+    custom: ''
     book: Psion's Primer
     page: ''
-    custom: ''
     license: ''
   activation:
     type: action
     cost: 1
     condition: ''
   duration:
-    value: '10'
+    value: '1'
     units: minute
   cover: null
   crewed: false
@@ -31,7 +31,7 @@ system:
     value: null
     width: null
     units: ''
-    type: creature
+    type: ''
     prompt: true
   range:
     value: null
@@ -46,7 +46,7 @@ system:
   consume:
     type: flags
     target: pp
-    amount: 6
+    amount: 2
     scale: false
   ability: null
   actionType: ''
@@ -63,29 +63,31 @@ system:
     ability: ''
     dc: null
     scaling: spell
-  level: 3
-  discipline: pst
-  augmenting: inertial transference
+  level: 1
+  discipline: cla
+  augmenting: sixth sense
+  scaling:
+    mode: none
+    formula: ''
   properties:
     - observable
     - concentration
-  scaling:
-    mode: intensify2
-    formula: ''
+  preparation:
+    mode: always
 effects: []
 ownership:
   default: 0
-  MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags:
   core: {}
 _stats:
   systemId: dnd5e
   systemVersion: 3.0.3
   coreVersion: '11.315'
-  createdTime: 1706766922765
-  modifiedTime: 1709168043844
+  createdTime: 1706750789644
+  modifiedTime: 1709170088397
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: xU538OkJcqCnZf6F
-sort: 200000
-_key: '!items!xU538OkJcqCnZf6F'
+_id: pvEUEj3ZbJ1YAnM1
+sort: 0
+_key: '!items!pvEUEj3ZbJ1YAnM1'
 

@@ -1,0 +1,99 @@
+folder: w6X11D83Q38dH29u
+name: Energy Ray
+type: prime-psionics.power
+img: icons/magic/fire/projectile-meteor-salvo-light-pink.webp
+system:
+  description:
+    value: >-
+      <p>You hold your hand aloft and generate a font of pure energy within it.
+      When you cast this spell, choose one of the following damage types: cold,
+      fire, lightning, or thunder.</p><p>Until your focus ends, you can use your
+      action to target one creature within range and shoot a ray of energy at
+      it. Make a ranged power attack against the target. On a hit, the target
+      takes 1d8 points of damage of the type you chose when you cast this
+      spell.</p><p> This power allows you to shoot more than one ray as an
+      action when you reach higher levels: two rays at 5th level, three rays at
+      11th level, and four rays at 17th level. You can direct the rays at the
+      same target or at different ones. Make a separate attack roll for each
+      ray</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Psion's Primer
+    page: ''
+    license: ''
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: foc
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    prompt: true
+  range:
+    value: 90
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: rsak
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 1d8
+        - fire
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 0
+  discipline: psk
+  augmenting: ''
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - auditory
+    - observable
+  preparation:
+    mode: always
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '11.315'
+  createdTime: 1706750789644
+  modifiedTime: 1709167799448
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: GFqC4YLyuafqKzkh
+sort: 0
+_key: '!items!GFqC4YLyuafqKzkh'
+

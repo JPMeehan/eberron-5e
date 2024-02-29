@@ -8,14 +8,15 @@ system:
       <p>While you focus on this power, you can use your action to target one
       creature you can see within range, making your eyes flare noticeably for
       an instant. The target must succeed on a Charisma saving throw or take
-      1d10 points of psychic damage.</p><p>This cantrip’s damage increases by
+      1d10 points of psychic damage.</p><p> This cantrip’s damage increases by
       1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level
-      (4d10). </p>
+      (4d10).</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
-    license: DMsGuild CCA
+    book: Psion's Primer
+    page: ''
+    license: ''
   activation:
     type: bonus
     cost: 1
@@ -66,14 +67,13 @@ system:
   level: 0
   discipline: tlp
   augmenting: ''
-  components:
-    auditory: false
-    observable: true
-    concentration: false
-    ritual: false
   scaling:
-    mode: none
-    formula: 1d10
+    mode: talent
+    formula: ''
+  properties:
+    - observable
+  preparation:
+    mode: always
 effects: []
 ownership:
   default: 0
@@ -82,12 +82,12 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.0.3
   coreVersion: '11.315'
-  createdTime: 1685938806751
-  modifiedTime: 1703816052044
-  lastModifiedBy: MVioF9x1qI1WYGx1
-_id: eASH0dJrPZOwqwah
+  createdTime: 1706750789644
+  modifiedTime: 1709167887815
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: BkvZsA4L7JO6V0cu
 sort: 0
-_key: '!items!eASH0dJrPZOwqwah'
+_key: '!items!BkvZsA4L7JO6V0cu'
 

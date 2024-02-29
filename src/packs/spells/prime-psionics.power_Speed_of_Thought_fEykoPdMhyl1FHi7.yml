@@ -1,22 +1,24 @@
 folder: w6X11D83Q38dH29u
-name: Verve
+name: Speed of Thought
 type: prime-psionics.power
-img: icons/magic/control/silhouette-aura-energy.webp
+img: icons/magic/air/wind-stream-blue-gray.webp
 system:
   description:
     value: >-
-      <p>When you cast this spell, you are energized and briefly glow as you
-      intone a low hum that reverberates through your body.</p><p>Until your
-      focus ends, you don’t need to eat, breathe, or sleep. To gain the benefits
-      of a long rest, you can spend 8 hours engaged in light activity. </p>
+      <p>Your body’s responses to your thoughts quicken, increasing your walking
+      speed by 10 feet until your focus ends.</p><p> Additionally, while you
+      focus, you may teleport to your feet from a prone position once per round
+      on your turn, requiring no action and expending none of your movement.
+      Your speed must not be 0 for you to teleport this way.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
-    license: DMsGuild CCA
+    book: Psion's Primer
+    page: ''
+    license: ''
   activation:
     type: bonus
-    cost: null
+    cost: 1
     condition: ''
   duration:
     value: ''
@@ -60,16 +62,15 @@ system:
     dc: null
     scaling: spell
   level: 0
-  discipline: psm
+  discipline: pst
   augmenting: ''
-  components:
-    auditory: true
-    observable: true
-    concentration: false
-    ritual: false
   scaling:
     mode: none
     formula: ''
+  properties:
+    - observable
+  preparation:
+    mode: always
 effects: []
 ownership:
   default: 0
@@ -80,10 +81,10 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.0.3
   coreVersion: '11.315'
-  createdTime: 1685921440876
-  modifiedTime: 1709162643987
+  createdTime: 1706750789644
+  modifiedTime: 1709167743722
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: yRyhLa4cFmbCnvph
-sort: 300000
-_key: '!items!yRyhLa4cFmbCnvph'
+_id: fEykoPdMhyl1FHi7
+sort: 0
+_key: '!items!fEykoPdMhyl1FHi7'
 

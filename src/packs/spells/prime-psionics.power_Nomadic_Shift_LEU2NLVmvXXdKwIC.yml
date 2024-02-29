@@ -1,0 +1,94 @@
+folder: ND8imwT4ZNwNEWzm
+name: Nomadic Shift
+type: prime-psionics.power
+img: icons/magic/air/wind-stream-blue-gray.webp
+system:
+  description:
+    value: >-
+      <p>You store your potential energy and release it as a burst of
+      psychoportation. If you have not yet moved on your turn, you may manifest
+      this augment to teleport up to 20 feet, and then your speed is reduced to
+      0 until the beginning of your next turn. If you manifest this augment
+      after you have moved on your turn, it fails.
+      </p><p><em><strong>Intensify.</strong></em> When you spend extra psi
+      points to manifest this augment, the maximum distance you can teleport is
+      increased by 20 feet for each additional psi point spent beyond the
+      minimum cost.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Psion's Primer
+    page: ''
+    license: ''
+  activation:
+    type: reaction
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: null
+    width: null
+    units: ''
+    type: self
+    prompt: true
+  range:
+    value: 20
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: flags
+    target: pp
+    amount: 1
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 1
+  discipline: pst
+  augmenting: Speed of Thought
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - observable
+  preparation:
+    mode: always
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '11.315'
+  createdTime: 1706750789644
+  modifiedTime: 1709170088391
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: LEU2NLVmvXXdKwIC
+sort: 0
+_key: '!items!LEU2NLVmvXXdKwIC'
+

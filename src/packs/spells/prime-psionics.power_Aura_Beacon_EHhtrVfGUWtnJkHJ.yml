@@ -1,22 +1,26 @@
 folder: w6X11D83Q38dH29u
-name: Verve
+name: Aura Beacon
 type: prime-psionics.power
-img: icons/magic/control/silhouette-aura-energy.webp
+img: icons/magic/light/explosion-star-small-blue-yellow.webp
 system:
   description:
     value: >-
-      <p>When you cast this spell, you are energized and briefly glow as you
-      intone a low hum that reverberates through your body.</p><p>Until your
-      focus ends, you don’t need to eat, breathe, or sleep. To gain the benefits
-      of a long rest, you can spend 8 hours engaged in light activity. </p>
+      <p>You visibly manifest your aura. While you focus, a bright light
+      radiates from your body. When you cast this spell, and as a bonus action
+      while you continue to focus on it, you may modulate the radius of the
+      aura’s light, from as short as 1 inch, to as long as 20 feet. Regardless
+      of the length of this radius of bright light, a radius of dim light of
+      equal length extends out from the bright light. Your aura’s light can be
+      colored as you like.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
-    license: DMsGuild CCA
+    book: Psion's Primer
+    page: ''
+    license: ''
   activation:
     type: bonus
-    cost: null
+    cost: 1
     condition: ''
   duration:
     value: ''
@@ -24,10 +28,10 @@ system:
   cover: null
   crewed: false
   target:
-    value: null
+    value: 40
     width: null
-    units: ''
-    type: ''
+    units: ft
+    type: radius
     prompt: true
   range:
     value: null
@@ -60,16 +64,15 @@ system:
     dc: null
     scaling: spell
   level: 0
-  discipline: psm
+  discipline: mtc
   augmenting: ''
-  components:
-    auditory: true
-    observable: true
-    concentration: false
-    ritual: false
   scaling:
     mode: none
     formula: ''
+  properties:
+    - observable
+  preparation:
+    mode: always
 effects: []
 ownership:
   default: 0
@@ -80,10 +83,10 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.0.3
   coreVersion: '11.315'
-  createdTime: 1685921440876
-  modifiedTime: 1709162643987
+  createdTime: 1706750789644
+  modifiedTime: 1709167760972
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: yRyhLa4cFmbCnvph
-sort: 300000
-_key: '!items!yRyhLa4cFmbCnvph'
+_id: EHhtrVfGUWtnJkHJ
+sort: 100000
+_key: '!items!EHhtrVfGUWtnJkHJ'
 

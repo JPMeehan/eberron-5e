@@ -1,0 +1,96 @@
+folder: w6X11D83Q38dH29u
+name: Mindlink
+type: prime-psionics.power
+img: icons/magic/control/energy-stream-link-teal.webp
+system:
+  description:
+    value: >-
+      <p>You contact the mind of another creature you can see within range,
+      granting you the ability to communicate with it telepathically while you
+      focus on this power. While you focus, the target can telepathically
+      communicate with you as well. If you don’t share a language with the
+      target, you can convey emotions and feelings, but can’t engage in complex
+      conversation. The target must have an Intelligence of at least 4,
+      otherwise this spell fails and the casting time is wasted. You can only
+      communicate with the target while it remains in range.</p><p> Until your
+      focus ends, you can use a bonus action to switch the target of this spell
+      to another creature you can see within range. The spell ends if the new
+      target does not have an Intelligence of at least 4</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Psion's Primer
+    page: ''
+    license: ''
+  activation:
+    type: bonus
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: foc
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    prompt: true
+  range:
+    value: 120
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  level: 0
+  discipline: tlp
+  augmenting: ''
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - auditory
+  preparation:
+    mode: always
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '11.315'
+  createdTime: 1706750789644
+  modifiedTime: 1709167921826
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: Nsq6O1OYVxpHwN7O
+sort: 0
+_key: '!items!Nsq6O1OYVxpHwN7O'
+

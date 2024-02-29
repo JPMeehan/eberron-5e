@@ -1,26 +1,23 @@
-folder: w6X11D83Q38dH29u
-name: Verve
+folder: RGC6MCftdeEqsIch
+name: Ego Whip
 type: prime-psionics.power
-img: icons/magic/control/silhouette-aura-energy.webp
+img: modules/prime-psionics/assets/icons/power.svg
 system:
   description:
-    value: >-
-      <p>When you cast this spell, you are energized and briefly glow as you
-      intone a low hum that reverberates through your body.</p><p>Until your
-      focus ends, you don’t need to eat, breathe, or sleep. To gain the benefits
-      of a long rest, you can spend 8 hours engaged in light activity. </p>
+    value: ''
     chat: ''
-    unidentified: ''
   source:
     custom: ''
-    license: DMsGuild CCA
+    book: Psion's Primer
+    page: ''
+    license: ''
   activation:
-    type: bonus
+    type: ''
     cost: null
     condition: ''
   duration:
     value: ''
-    units: foc
+    units: ''
   cover: null
   crewed: false
   target:
@@ -32,7 +29,7 @@ system:
   range:
     value: null
     long: null
-    units: self
+    units: ''
   uses:
     value: null
     max: ''
@@ -60,16 +57,14 @@ system:
     dc: null
     scaling: spell
   level: 0
-  discipline: psm
+  discipline: ''
   augmenting: ''
-  components:
-    auditory: true
-    observable: true
-    concentration: false
-    ritual: false
   scaling:
     mode: none
     formula: ''
+  properties: []
+  preparation:
+    mode: always
 effects: []
 ownership:
   default: 0
@@ -80,10 +75,10 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.0.3
   coreVersion: '11.315'
-  createdTime: 1685921440876
-  modifiedTime: 1709162643987
+  createdTime: 1706750789644
+  modifiedTime: 1709168078530
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: yRyhLa4cFmbCnvph
+_id: c3us4EBDldTC9H6l
 sort: 300000
-_key: '!items!yRyhLa4cFmbCnvph'
+_key: '!items!c3us4EBDldTC9H6l'
 

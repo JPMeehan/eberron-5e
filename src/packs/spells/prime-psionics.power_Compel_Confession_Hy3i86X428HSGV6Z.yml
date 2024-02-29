@@ -1,0 +1,92 @@
+folder: ND8imwT4ZNwNEWzm
+name: Compel Confession
+type: prime-psionics.power
+img: icons/magic/control/energy-stream-link-teal.webp
+system:
+  description:
+    value: >-
+      <p>You ask a question of one creature that can see and hear you within
+      range, your voice reverberating with unnatural gravitas. The question must
+      be phrased so that it can be answered with a yes or no, otherwise the
+      power fails. The target must succeed on a Charisma saving throw, or it
+      replies with a truthful answer.</p><p> A creature is immune to this effect
+      if it does not share a language with you or if it is immune to being
+      charmed</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Psion's Primer
+    page: ''
+    license: ''
+  activation:
+    type: action
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: inst
+  cover: null
+  crewed: false
+  target:
+    value: 1
+    width: null
+    units: ''
+    type: creature
+    prompt: true
+  range:
+    value: 30
+    long: null
+    units: ft
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: flags
+    target: pp
+    amount: 2
+    scale: false
+  ability: ''
+  actionType: save
+  attackBonus: ''
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  formula: ''
+  save:
+    ability: cha
+    dc: null
+    scaling: spell
+  level: 1
+  discipline: tlp
+  augmenting: mindlink
+  scaling:
+    mode: none
+    formula: ''
+  properties:
+    - auditory
+  preparation:
+    mode: always
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  core: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.0.3
+  coreVersion: '11.315'
+  createdTime: 1706750789644
+  modifiedTime: 1709170377431
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: Hy3i86X428HSGV6Z
+sort: 200000
+_key: '!items!Hy3i86X428HSGV6Z'
+
