@@ -51,7 +51,7 @@ system:
     target: null
     amount: null
     scale: false
-  ability: null
+  ability: ''
   actionType: other
   attackBonus: ''
   chatFlavor: ''
@@ -80,11 +80,11 @@ folder: 5Oy6Dulk9VEw6pKB
 _id: q9rEJmPBT5kQdlX4
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.1.0
   coreVersion: '11.315'
   createdTime: 1686418394728
-  modifiedTime: 1703911612587
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1711332429632
+  lastModifiedBy: q6n1efCGVB98drEQ
 sort: 3000
 ownership:
   default: 0

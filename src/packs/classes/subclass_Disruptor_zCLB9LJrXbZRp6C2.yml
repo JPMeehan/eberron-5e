@@ -30,7 +30,7 @@ system:
     - _id: 8J7POwljyBCkXCHP
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.h3T9LFGgSEbU845Q
+          - uuid: Compendium.eberron-5e.classes.Item.h3T9LFGgSEbU845Q
         optional: false
         spell: null
       value: {}
@@ -40,10 +40,9 @@ system:
     - _id: QA1snf7FQU4SKR4d
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.8bf280DLpAAK9bbw
-          - Compendium.eberron-5e.classes.Item.cA5RyYjnybTlG9Bn
-          - Compendium.eberron-5e.classes.Item.q9rEJmPBT5kQdlX4
-          - Compendium.eberron-5e.classes.Item.MBOSNK4YiDdqcUPa
+          - uuid: Compendium.eberron-5e.classes.Item.8bf280DLpAAK9bbw
+          - uuid: Compendium.eberron-5e.classes.Item.cA5RyYjnybTlG9Bn
+          - uuid: Compendium.eberron-5e.classes.Item.q9rEJmPBT5kQdlX4
         optional: false
         spell: null
       value: {}
@@ -53,7 +52,7 @@ system:
     - _id: F0R9YD5cm3xKF3GU
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.oCbQyPYZiMKwOzin
+          - uuid: Compendium.eberron-5e.classes.Item.oCbQyPYZiMKwOzin
         optional: false
         spell: null
       value: {}
@@ -63,13 +62,111 @@ system:
     - _id: UhvJOxztuL85K8hS
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.VitSFn6wBvpkaXx9
+          - uuid: Compendium.eberron-5e.classes.Item.VitSFn6wBvpkaXx9
         optional: false
         spell: null
       value: {}
       level: 9
       title: Artificer Specialist Feature
       type: ItemGrant
+    - _id: 3TjThPAppkWXNocN
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - tool:art:mason
+        choices: []
+        hint: >-
+          When you adopt this specialization at 3rd level, you gain proficiency
+          with mason's tools. If you already have this proficiency, you gain
+          proficiency with one other type of artisan's tools of your choice.
+      value:
+        chosen: []
+      level: 3
+      title: Tool Proficiency
+      icon: null
+    - _id: QorL5O9ILnUVZ7f4
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe
+          - uuid: Compendium.dnd5e.spells.Item.IBJmWjzbQGu7M4UX
+        optional: false
+        spell:
+          ability: ''
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 3
+      title: Disruptor Spells
+      icon: null
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.9gYGkrL6qFTsE6fw
+        optional: false
+        spell:
+          ability: ''
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 5
+      title: Disruptor Spells
+      icon: null
+      _id: kdruAaoE8CDpULnA
+    - _id: qHAztc5TR0pVKbGL
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j
+        optional: false
+        spell:
+          ability: ''
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 9
+      title: Disruptor Spells
+      icon: null
+    - _id: 8AZGGV5LhDMgfWLd
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.DGONTFbk5eORs5qv
+        optional: false
+        spell:
+          ability: ''
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 13
+      title: Disruptor Spells
+      icon: null
+    - _id: JMctHdKBJtUuaQRt
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd5e.spells.Item.o9ZCvuD2B1OTcubb
+        optional: false
+        spell:
+          ability: ''
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 17
+      title: Disruptor Spells
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -81,10 +178,10 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.1.0
   coreVersion: '11.315'
   createdTime: 1686201649785
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1711332425526
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!zCLB9LJrXbZRp6C2'
 

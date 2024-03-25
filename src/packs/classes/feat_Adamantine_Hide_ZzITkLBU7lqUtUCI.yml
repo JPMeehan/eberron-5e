@@ -69,7 +69,54 @@ system:
   recharge:
     value: null
     charged: false
-effects: []
+effects:
+  - name: Adamantine Hide
+    icon: icons/svg/book.svg
+    origin: Compendium.eberron-5e.classes.Item.ZzITkLBU7lqUtUCI
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: true
+    _id: 1YOIzCKN653CrCVS
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+    description: ''
+    transfer: true
+    statuses: []
+    flags:
+      ActiveAuras:
+        isAura: false
+        aura: None
+        nameOverride: ''
+        radius: ''
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: false
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+    tint: null
+    _key: '!items.effects!ZzITkLBU7lqUtUCI.1YOIzCKN653CrCVS'
 sort: 10000
 ownership:
   default: 0
@@ -78,10 +125,10 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.1.0
   coreVersion: '11.315'
   createdTime: 1700548432659
-  modifiedTime: 1704062551470
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1711331053981
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!ZzITkLBU7lqUtUCI'
 

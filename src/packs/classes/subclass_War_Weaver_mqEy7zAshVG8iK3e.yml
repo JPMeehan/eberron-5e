@@ -33,7 +33,7 @@ system:
     - _id: dDSTAwU2dQ6rQjiT
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Es2cKXOeeu7Hgb3T
+          - uuid: Compendium.eberron-5e.classes.Item.Es2cKXOeeu7Hgb3T
         optional: false
         spell: null
       value: {}
@@ -43,7 +43,7 @@ system:
     - _id: EM56zw7XFsXEmCVY
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.z29qUOtND3qeuRlx
+          - uuid: Compendium.eberron-5e.classes.Item.z29qUOtND3qeuRlx
         optional: false
         spell: null
       value: {}
@@ -53,9 +53,8 @@ system:
     - _id: t4Q7cfkJumjVazXY
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.CJwFrPhJi3JSSJmZ
-          - Compendium.eberron-5e.classes.Item.8mwwBADHyHgKWizT
-          - Compendium.eberron-5e.classes.Item.Rg30B5JFW0iPndSK
+          - uuid: Compendium.eberron-5e.classes.Item.CJwFrPhJi3JSSJmZ
+          - uuid: Compendium.eberron-5e.classes.Item.Rg30B5JFW0iPndSK
         optional: false
         spell: null
       value: {}
@@ -65,13 +64,30 @@ system:
     - _id: RrvCi0KG7IWPuwtD
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.rBxsR40SGneo6JQG
+          - uuid: Compendium.eberron-5e.classes.Item.rBxsR40SGneo6JQG
         optional: false
         spell: null
       value: {}
       level: 9
       title: Artificer Specialist Feature
       type: ItemGrant
+    - _id: BwXbnjFvc7rySFj3
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - tool:art:weaver
+        choices: []
+        hint: >-
+          When you adopt this specialization at 3rd level, you gain proficiency
+          with weaver's tools. If you already have this proficiency, you gain
+          proficiency with one other type of artisan's tools of your choice.
+      value:
+        chosen: []
+      level: 3
+      title: Tool Proficiency
+      icon: null
   spellcasting:
     progression: none
     ability: ''
@@ -83,10 +99,10 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.1.0
   coreVersion: '11.315'
   createdTime: 1686201664489
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1711331727320
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!mqEy7zAshVG8iK3e'
 

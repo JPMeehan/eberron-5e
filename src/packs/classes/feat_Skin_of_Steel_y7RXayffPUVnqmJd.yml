@@ -74,7 +74,46 @@ system:
   recharge:
     value: null
     charged: false
-effects: []
+effects:
+  - name: Skin of Steel
+    icon: icons/svg/book.svg
+    origin: Compendium.eberron-5e.classes.Item.y7RXayffPUVnqmJd
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: true
+    _id: xwcbZ2KOhDpk6LKy
+    changes:
+      - key: system.attributes.ac.bonuse
+        mode: 2
+        value: '2'
+        priority: null
+    description: ''
+    transfer: true
+    statuses: []
+    flags:
+      ActiveAuras:
+        isAura: false
+        aura: None
+        nameOverride: ''
+        radius: ''
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: false
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+    tint: null
+    _key: '!items.effects!y7RXayffPUVnqmJd.xwcbZ2KOhDpk6LKy'
 sort: 2000
 ownership:
   default: 0
@@ -83,10 +122,10 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.1.0
   coreVersion: '11.315'
   createdTime: 1700548248546
-  modifiedTime: 1704062551467
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1711330774630
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!y7RXayffPUVnqmJd'
 

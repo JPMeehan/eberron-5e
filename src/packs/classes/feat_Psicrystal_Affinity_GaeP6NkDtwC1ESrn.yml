@@ -20,11 +20,9 @@ system:
       your psicrystal by expending a spell slot of 1st level or higher for each
       one. When you do so, you use your action to touch your psicrystal and
       store the emotion in it.</p><table><caption>Psicrystal
-      Affinities</caption><thead><tr><th
-      data-rd-isroller="false">Emotion</th><th
-      data-rd-isroller="false">Artificer Level</th><th
-      data-rd-isroller="false">Stored Benefit</th><th
-      data-rd-isroller="false">Augmentation
+      Affinities</caption><thead><tr><th style="width:70px">Emotion</th><th
+      style="width:60px">Artificer Level</th><th>Stored
+      Benefit</th><th>Augmentation
       Effect</th></tr></thead><tbody><tr><td>Joy</td><td>3rd</td><td>You gain
       advantage on saving throws against being charmed.</td><td>The target must
       succeed on an Intelligence saving throw or become charmed by you or one
@@ -112,7 +110,7 @@ system:
     target: null
     amount: null
     scale: false
-  ability: null
+  ability: ''
   actionType: other
   attackBonus: ''
   chatFlavor: ''
@@ -141,11 +139,11 @@ flags: {}
 effects: []
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.1.0
   coreVersion: '11.315'
   createdTime: 1686418371462
-  modifiedTime: 1703911612450
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1711331800021
+  lastModifiedBy: q6n1efCGVB98drEQ
 folder: MVHoTydfDvrOUgvY
 _id: GaeP6NkDtwC1ESrn
 sort: 3000

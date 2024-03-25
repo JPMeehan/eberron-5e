@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.4
+- Refactored Artificer tool profs to use Trait advancements instead of features
+- Added some active effects to the Circle of the Forged
+
 ## 0.9.3
 
 - Configured Yuan-ti from Talvakri's

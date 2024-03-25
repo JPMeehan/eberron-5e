@@ -67,7 +67,66 @@ system:
   recharge:
     value: null
     charged: false
-effects: []
+effects:
+  - name: Constructed Perfection
+    icon: icons/svg/book.svg
+    origin: Compendium.eberron-5e.classes.Item.XhtpSGq0yv3iBZW6
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: true
+    _id: LIZJwe7zOJImUxKc
+    changes:
+      - key: system.traits.ci.value
+        mode: 2
+        value: charmed
+        priority: null
+      - key: system.traits.ci.value
+        mode: 2
+        value: frightened
+        priority: null
+      - key: system.traits.ci.value
+        mode: 2
+        value: paralyzed
+        priority: null
+      - key: system.traits.ci.value
+        mode: 2
+        value: petrified
+        priority: null
+      - key: system.traits.ci.value
+        mode: 2
+        value: poisoned
+        priority: null
+      - key: system.traits.di.value
+        mode: 2
+        value: poison
+        priority: null
+    description: ''
+    transfer: true
+    statuses: []
+    flags:
+      ActiveAuras:
+        isAura: false
+        aura: None
+        nameOverride: ''
+        radius: ''
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: false
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+    tint: null
+    _key: '!items.effects!XhtpSGq0yv3iBZW6.LIZJwe7zOJImUxKc'
 sort: 14000
 ownership:
   default: 0
@@ -76,10 +135,10 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.1.0
   coreVersion: '11.315'
   createdTime: 1700548464551
-  modifiedTime: 1704062551471
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1711331127346
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!XhtpSGq0yv3iBZW6'
 
