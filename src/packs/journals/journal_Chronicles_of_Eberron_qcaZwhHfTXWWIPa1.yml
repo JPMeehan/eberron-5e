@@ -1,0 +1,138 @@
+name: Chronicles of Eberron
+_id: qcaZwhHfTXWWIPa1
+pages:
+  - sort: 100000
+    name: College of the Fury
+    type: subclass
+    _id: CWUDRdXrMPIKhNEv
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.vb9y1sVqrWpt8DtW
+      description:
+        value: ''
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716397307921
+      modifiedTime: 1716397313719
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!qcaZwhHfTXWWIPa1.CWUDRdXrMPIKhNEv'
+  - sort: 200000
+    name: Aspiration Domain
+    type: subclass
+    _id: oWguxmyypFlQIrTm
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.Do1gBcnDGQQ37gE3
+      description:
+        value: ''
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716397337269
+      modifiedTime: 1716397339500
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!qcaZwhHfTXWWIPa1.oWguxmyypFlQIrTm'
+  - sort: 300000
+    name: Oath of Veneration
+    type: subclass
+    _id: YvKb4c7UTRLScAdf
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.OYu8f5qp5zUOqodB
+      description:
+        value: ''
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716397350566
+      modifiedTime: 1716397357752
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!qcaZwhHfTXWWIPa1.YvKb4c7UTRLScAdf'
+  - sort: 400000
+    name: Dark Petitioner
+    type: subclass
+    _id: sOJmwNEo5nQTWvsA
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.Wjjq7CqMj38mTqmz
+      description:
+        value: ''
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716397368959
+      modifiedTime: 1716397375328
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!qcaZwhHfTXWWIPa1.sOJmwNEo5nQTWvsA'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.0
+  coreVersion: '11.315'
+  createdTime: 1716397255943
+  modifiedTime: 1716397375328
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!journal!qcaZwhHfTXWWIPa1'
+

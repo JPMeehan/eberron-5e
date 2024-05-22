@@ -44,14 +44,14 @@ system:
     max: '4'
     per: charges
     recovery: 1d4
-    prompt: true
+    prompt: false
   consume:
     type: ''
     target: null
     amount: null
     scale: false
   ability: ''
-  actionType: other
+  actionType: ench
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -74,7 +74,81 @@ system:
   recharge:
     value: null
     charged: false
-effects: []
+  enchantment:
+    items:
+      max: ''
+      period: ''
+    classIdentifier: artificer
+    restrictions:
+      type: weapon
+  properties: []
+effects:
+  - name: Bane Weapon
+    icon: icons/magic/symbols/mask-yellow-orange.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+      ActiveAuras:
+        isAura: false
+        aura: None
+        nameOverride: ''
+        radius: ''
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: false
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+    _id: 9gAcACJ1FhFpwN0a
+    changes:
+      - key: name
+        mode: 5
+        value: Bane {}
+        priority: null
+      - key: system.properties
+        mode: 2
+        value: mgc
+        priority: null
+      - key: system.magicalBonus
+        mode: 5
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span style="font-family:Signika, sans-serif">This magic weapon grants
+      a +1 bonus to attack and damage rolls made with it.</span></p><p
+      style="box-sizing:border-box;user-select:text;margin:0.5em
+      0px;margin-block-end:0px;color:rgb(25, 24, 19);font-family:Signika,
+      sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Signika, sans-serif">When you infuse this item, choose
+      one of the following creature types: aberration, beast, celestial, dragon,
+      fiend, giant, or undead. The weapon has 4 charges. When the wielder hits a
+      creature of this type with the weapon, they can expend 1 charge and
+      inflict an additional 2d6 damage of the weapon’s type with the attack. The
+      weapon regains 1d4 charges daily at dawn.</span></p>
+    origin: null
+    transfer: false
+    statuses: []
+    tint: null
+    _key: '!items.effects!XwHDelPBu0FBhaGE.9gAcACJ1FhFpwN0a'
 sort: 100000
 ownership:
   default: 0
@@ -82,10 +156,10 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.2.0
   coreVersion: '11.315'
   createdTime: 1687054583454
-  modifiedTime: 1702886723204
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1716395828123
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!XwHDelPBu0FBhaGE'
 

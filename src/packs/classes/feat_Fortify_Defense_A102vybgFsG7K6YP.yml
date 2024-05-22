@@ -41,14 +41,14 @@ system:
     max: '4'
     per: charges
     recovery: 1d4
-    prompt: true
+    prompt: false
   consume:
     type: ''
     target: null
     amount: null
     scale: false
-  ability: null
-  actionType: ''
+  ability: ''
+  actionType: ench
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -69,6 +69,13 @@ system:
   recharge:
     value: null
     charged: false
+  enchantment:
+    items:
+      max: ''
+      period: ''
+    classIdentifier: artificer
+    restrictions:
+      type: equipment
 effects:
   - icon: icons/magic/symbols/rune-sigil-rough-white-teal.webp
     origin: Item.c3ZN8i0tu8A8gaW3
@@ -91,9 +98,70 @@ effects:
     description: <p>Artificer Infusion. The Infused armor gives +1 to AC.</p>
     transfer: false
     statuses: []
-    flags: {}
+    flags:
+      dnd5e: {}
     tint: null
     _key: '!items.effects!A102vybgFsG7K6YP.QGsTQ779fMSfKVsP'
+  - name: Fortify Defense
+    icon: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+    flags:
+      dnd5e:
+        type: enchantment
+        enchantment:
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+      ActiveAuras:
+        isAura: false
+        aura: None
+        nameOverride: ''
+        radius: ''
+        alignment: ''
+        type: ''
+        customCheck: ''
+        ignoreSelf: false
+        height: false
+        hidden: false
+        displayTemp: false
+        hostile: false
+        onlyOnce: false
+        wallsBlock: system
+    _id: VIDJ2ihhtkoqLlX9
+    changes:
+      - key: name
+        mode: 5
+        value: Fortified {}
+        priority: null
+      - key: system.properties
+        mode: 2
+        value: mgc
+        priority: null
+      - key: system.magicalBonus
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>A creature gains a +1 bonus to Armor Class while wearing this
+      armor.</p><p>The armor has 4 charges. As a reaction when the wearer
+      suffers a critical hit, they can expend 1 charge and count that hit as a
+      normal hit instead. Any effects triggered by the critical hit are negated.
+      The armor regains 1d4 expended charges daily at dawn.</p>
+    origin: null
+    transfer: false
+    statuses: []
+    tint: null
+    _key: '!items.effects!A102vybgFsG7K6YP.VIDJ2ihhtkoqLlX9'
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -101,11 +169,11 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
+  systemVersion: 3.2.0
   coreVersion: '11.315'
   createdTime: 1687054583454
-  modifiedTime: 1702886723204
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1716395792692
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: A102vybgFsG7K6YP
 sort: 200000
 _key: '!items!A102vybgFsG7K6YP'

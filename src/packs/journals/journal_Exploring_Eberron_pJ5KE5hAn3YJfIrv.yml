@@ -1,0 +1,198 @@
+name: Exploring Eberron
+_id: pJ5KE5hAn3YJfIrv
+pages:
+  - sort: 100000
+    name: Forge Adept
+    type: subclass
+    _id: hV7PxW7WpsUjPX8k
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.J15birh7PaVj66hz
+      description:
+        value: ''
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716396427438
+      modifiedTime: 1716396430703
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!pJ5KE5hAn3YJfIrv.hV7PxW7WpsUjPX8k'
+  - sort: 200000
+    name: Maverick
+    type: subclass
+    _id: 2VkmuPhQhGsRcEon
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.h2YFqZ1SLMM59oba
+      description:
+        value: ''
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716396443038
+      modifiedTime: 1716396450793
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!pJ5KE5hAn3YJfIrv.2VkmuPhQhGsRcEon'
+  - sort: 300000
+    name: College of the Dirge Singer
+    type: subclass
+    _id: CyfKPU9FYF7Nr7sY
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.g8TMe5LK4Gx8h7nx
+      description:
+        value: ''
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716396640554
+      modifiedTime: 1716396653206
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!pJ5KE5hAn3YJfIrv.CyfKPU9FYF7Nr7sY'
+  - sort: 400000
+    name: Mind Domain
+    type: subclass
+    _id: xGrmPGpCS2naCoWx
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.ekinJhKejD6rekVJ
+      description:
+        value: ''
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716396670919
+      modifiedTime: 1716396686483
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!pJ5KE5hAn3YJfIrv.xGrmPGpCS2naCoWx'
+  - sort: 500000
+    name: Circle of the Forged
+    type: subclass
+    _id: SFpsJRrDlAXrZLal
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.nvB37MBen63zLM5V
+      description:
+        value: ''
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716396694391
+      modifiedTime: 1716396703766
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!pJ5KE5hAn3YJfIrv.SFpsJRrDlAXrZLal'
+  - sort: 600000
+    name: Way of the Living Weapon
+    type: subclass
+    _id: MUD3V8hsU8GurJnf
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.jlqbDpjzjAgdXqKh
+      description:
+        value: ''
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716396710864
+      modifiedTime: 1716396718626
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!pJ5KE5hAn3YJfIrv.MUD3V8hsU8GurJnf'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.0
+  coreVersion: '11.315'
+  createdTime: 1716396406398
+  modifiedTime: 1716396718626
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!journal!pJ5KE5hAn3YJfIrv'
+
