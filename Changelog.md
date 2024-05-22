@@ -1,6 +1,11 @@
 # Changelog
 
+## 0.9.5
+
+- Increased minimum system version to 3.2
+
 ## 0.9.4
+
 - Refactored Artificer tool profs to use Trait advancements instead of features
 - Added some active effects to the Circle of the Forged
 
