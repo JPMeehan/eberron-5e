@@ -1,0 +1,279 @@
+name: Talvakri's Guide to Adar
+_id: sCNtrTmPjnHHuiKE
+pages:
+  - name: Way of the Dreaming Fist
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.725dsnlhsD0a8npb
+      description:
+        value: >-
+          <p>Though the Inspired are capable of devastating psionic power in
+          Riedra, the quori are limited in number, and they can only possess one
+          empty vessel at a time. When skirmishes happen and combat must be had,
+          Riedra instead turns to Chosen unarmed fighters wielding the powers of
+          Dal Quor. In response, the kalashtar developed similar techniques
+          drawing upon their quori, dubbing their warriors the ‘fists of Dal
+          Quor’.</p>
+    _id: TvYX6WbgFt1xmuu6
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 10000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716431972589
+      modifiedTime: 1716433807060
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!sCNtrTmPjnHHuiKE.TvYX6WbgFt1xmuu6'
+  - name: Quori Mindhunter
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.9HvDRYXzIGyD1qLL
+      description:
+        value: >-
+          <p>Those who learn the truth of the Dreaming Dark are often terrified
+          by its implications for Eberron and the world. A small number of those
+          choose to strike back against the quori. An even smaller number choose
+          to fight the quori with their own. The quori mindhunters have found
+          ways to trap quori within their minds, drawing upon the nightmare
+          spirit and its power while keeping it bound. It is one of the most
+          dangerous ways to fight the Dreaming Dark, as the bound quori is
+          constantly struggling against its bonds, but the powers it can bring
+          against the Inspired are devastating.</p>
+    _id: PiHtv0vdDkbPVEc2
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 13000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716431972589
+      modifiedTime: 1716433807060
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!sCNtrTmPjnHHuiKE.PiHtv0vdDkbPVEc2'
+  - name: Way of the Summit Sentinel
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.Pbq27VYLGwvAncB1
+      description:
+        value: >-
+          <p>While Hazgaal is best known for his acceptance of the rebel quori
+          to Adar, before he became Haztaratai, he developed a form of martial
+          arts that merged Adar’s sturdy mountains with the crackling lightning
+          of its storms. The Haztaratain order is its official name, but it is
+          better known colloquially as the Way of the Summit Sentinel (or
+          parahdi in Adaran).</p>
+    _id: Sqs15AXbuwuIoUIY
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 12000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716431972589
+      modifiedTime: 1716433807060
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!sCNtrTmPjnHHuiKE.Sqs15AXbuwuIoUIY'
+  - name: The Visage
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.caSbUHSDDOi4d2n9
+      description:
+        value: >-
+          <p>Your patron is one you have never met, though you see them
+          regularly. They come to you in your dreams, and whisper of your
+          potential, revealing to you pathways to power. Though you can only
+          vaguely recall these encounters, the powers they grant you are real.
+          But does that necessarily mean your patron is real as well? Is the
+          visage in your dreams an entity foreign to your mind, come to visit
+          you in the night and entreat with or tempt you? Or is the visage your
+          own, a glimpse into your future, one where you wield the power of
+          dreams?</p>
+    _id: 6yU06XIl8G3iCeEV
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 16000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716431972589
+      modifiedTime: 1716433807060
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!sCNtrTmPjnHHuiKE.6yU06XIl8G3iCeEV'
+  - name: Manifest Power
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.ktE3LDKetqi8vyAp
+      description:
+        value: >-
+          <p>Whether you were descended from an otherworldly bloodline, born in
+          a wild zone, or encountered a reality storm later in life, the spark
+          of your sorcerous talents was ignited by planar energy. However, just
+          as the Material Plane itself feels the influence of all planes, your
+          power is not tied to a single extraplanar realm. Instead, your magic
+          is drawn from all planes, granting you the power to reach across the
+          barriers that separate them.</p>
+    _id: cxLOk7gqga9BB4Bf
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 14000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716431972589
+      modifiedTime: 1716433807060
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!sCNtrTmPjnHHuiKE.cxLOk7gqga9BB4Bf'
+  - name: Way of the Elemental Master
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.nR0kfzbcn0cPLrFF
+      description:
+        value: >-
+          <p>Ghoza Monastery was built within a great Kythri manifest zone.
+          Within the shifting elemental halls, its martial artists have
+          developed a fighting style that draws upon the Churning Chaos,
+          blending them together in a seamless display of elemental power.
+          Practitioners can summon jets of flame, bend water to their will, and
+          at their pinnacle, even control the weather.</p>
+    _id: kppyokMUt3ZLnpzx
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 11000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716431972589
+      modifiedTime: 1716433807060
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!sCNtrTmPjnHHuiKE.kppyokMUt3ZLnpzx'
+  - name: Psion
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.nooxfcG6aig1I8WE
+      description:
+        value: >-
+          <p>For most sorcerers, their innate magical talent is akin to that of
+          a sculptor. The sculptor is not the stone, clay, or wood they sculpt.
+          They are but the talent, the will, that shapes the medium of their
+          art. For you, however, your talent is your medium. Your magic is not
+          an external force, channeled through you to be shaped by arcane
+          gestures or words. Your magic is your will itself, manifesting upon
+          reality.</p>
+    _id: Adfw4GeSPuH8AHdM
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 15000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716431972589
+      modifiedTime: 1716433807060
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!sCNtrTmPjnHHuiKE.Adfw4GeSPuH8AHdM'
+folder: K7D9TeJ6y6Z4mTe0
+sort: 106250
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.0
+  coreVersion: '11.315'
+  createdTime: 1716431961944
+  modifiedTime: 1716433931079
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!journal!sCNtrTmPjnHHuiKE'
+

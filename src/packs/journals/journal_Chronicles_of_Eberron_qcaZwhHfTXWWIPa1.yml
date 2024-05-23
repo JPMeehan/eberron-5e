@@ -18,7 +18,13 @@ pages:
     system:
       item: Compendium.eberron-5e.classes.Item.vb9y1sVqrWpt8DtW
       description:
-        value: ''
+        value: >-
+          <p>Bards who follow the College of the Fury know that intense revelry,
+          unbound by taboo and pretenses of decency, is among the most powerful
+          expressions of the Music of Creation. These bards are overtly
+          passionate, sometimes hedonistic, and eager to call others into their
+          dance. Harpies of the Cazhaak Creed are the most common practitioners
+          of this college, reveling in Szorawai’s name.</p>
     ownership:
       default: -1
       q6n1efCGVB98drEQ: 3
@@ -28,7 +34,7 @@ pages:
       systemVersion: 3.2.0
       coreVersion: '11.315'
       createdTime: 1716397307921
-      modifiedTime: 1716397313719
+      modifiedTime: 1716432412511
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!qcaZwhHfTXWWIPa1.CWUDRdXrMPIKhNEv'
   - sort: 200000
@@ -48,7 +54,13 @@ pages:
     system:
       item: Compendium.eberron-5e.classes.Item.Do1gBcnDGQQ37gE3
       description:
-        value: ''
+        value: >-
+          <p>Clerics of the Aspiration domain consider themselves mentors—though
+          others are more likely to call them tempters. They offer forbidden
+          knowledge and challenge people to live up to their full potential,
+          eschewing the confines of what others might consider right, proper, or
+          safe. The most common clerics to earn these gifts of the faith are
+          followers of the Shadow under the Cazhaak Creed.</p>
     ownership:
       default: -1
       q6n1efCGVB98drEQ: 3
@@ -58,7 +70,7 @@ pages:
       systemVersion: 3.2.0
       coreVersion: '11.315'
       createdTime: 1716397337269
-      modifiedTime: 1716397339500
+      modifiedTime: 1716432412453
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!qcaZwhHfTXWWIPa1.oWguxmyypFlQIrTm'
   - sort: 300000
@@ -78,7 +90,23 @@ pages:
     system:
       item: Compendium.eberron-5e.classes.Item.OYu8f5qp5zUOqodB
       description:
-        value: ''
+        value: >-
+          <p>Paladins who are called to follow in the footsteps of a great hero
+          take the Oath of Veneration. The Tairnadal are the most common culture
+          in Eberron to keep these ideals, taking up arms in hopes of emulating
+          the patron ancestor assigned to them by the Keepers of the Past.
+          However, this path isn't limited to the elves. A goblinoid warrior
+          might choose to emulate ancient Dhakaani heroes, or a human of the
+          Five Nations might consider themself the inheritor of Karrn the
+          Conqueror’s will.</p><h5>Tenets Of Veneration</h5><p>The tenets of the
+          Oath of Veneration challenge a paladin to uphold the legend of a
+          treasured ancestor.</p><ul><li><p><em><strong>Respect the
+          Past.</strong></em> The deeds and legends of our ancient ancestors are
+          our greatest treasure.</p></li><li><p><em><strong>Emulate Your
+          Patron.</strong></em> Keep your patron ancestor’s stories alive by
+          reliving their victories.</p></li><li><p><em><strong>Fight for Your
+          Future.</strong></em> Resist the tyranny your ancestors devoted their
+          lives to defeating.</p></li></ul>
     ownership:
       default: -1
       q6n1efCGVB98drEQ: 3
@@ -88,7 +116,7 @@ pages:
       systemVersion: 3.2.0
       coreVersion: '11.315'
       createdTime: 1716397350566
-      modifiedTime: 1716397357752
+      modifiedTime: 1716432412467
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!qcaZwhHfTXWWIPa1.YvKb4c7UTRLScAdf'
   - sort: 400000
@@ -108,7 +136,19 @@ pages:
     system:
       item: Compendium.eberron-5e.classes.Item.Wjjq7CqMj38mTqmz
       description:
-        value: ''
+        value: >-
+          <p>As a rogue, you know that the path to peace and prosperity is
+          rarely as virtuous as the Vassals of the Sovereign Host claim. Victory
+          must be won by pragmatism, sacrifice, and the blood of those who
+          aren’t afraid to get their hands dirty—like you. With these tenets,
+          you ask the Dark Six for the gift of their power.</p><p>Though some
+          Dark Petitioners worship the Six as great leaders to venerate and
+          emulate, many among the Five Nations don’t hold their patrons in such
+          high esteem. For these petitioners, their rites and rituals instead
+          serve to appease the dark powers, and to turn the Six’s attention to
+          their enemies. Do you enjoy the power of Dol Azur’s blessing on a
+          poisoned blade? Or do you only hope that your offerings to the Mockery
+          will cause your opponent to stumble first?</p>
     ownership:
       default: -1
       q6n1efCGVB98drEQ: 3
@@ -118,11 +158,11 @@ pages:
       systemVersion: 3.2.0
       coreVersion: '11.315'
       createdTime: 1716397368959
-      modifiedTime: 1716397375328
+      modifiedTime: 1716432412493
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!qcaZwhHfTXWWIPa1.sOJmwNEo5nQTWvsA'
-folder: null
-sort: 0
+folder: 1wQBRGfu5I72bywP
+sort: 100000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -132,7 +172,7 @@ _stats:
   systemVersion: 3.2.0
   coreVersion: '11.315'
   createdTime: 1716397255943
-  modifiedTime: 1716397375328
+  modifiedTime: 1716433924256
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!journal!qcaZwhHfTXWWIPa1'
 

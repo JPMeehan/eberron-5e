@@ -1,0 +1,170 @@
+name: Linvakri's Guide to Syrkarn
+_id: ovNyPliIjgd7wPUA
+pages:
+  - name: Circle of Chaos
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.Ip0fmi0P3GU9KWfo
+      description:
+        value: >-
+          <p>You harness Kythri’s storm of elemental chaos, in an attempt to
+          find order among the havoc and bend it to your will. This tradition is
+          particularly common among the druids of Maszani, or other settlements
+          in proximity to Kythri wild zones, though it also comes naturally to
+          Kythri-based planetouched as a whole. Many chaos druids find that
+          their appearance changes as their abilities grow stronger: your hair
+          and eyes might change color based on which element you’re attuned to,
+          or your features might shift constantly, as difficult to pin down as
+          the magic you channel.</p>
+    _id: BA60bL5U3vOagKqJ
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 11000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716431943583
+      modifiedTime: 1716433768515
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!ovNyPliIjgd7wPUA.BA60bL5U3vOagKqJ'
+  - name: Summit Road
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.TgH3v1qmHAvnlmZZ
+      description:
+        value: >-
+          <p>The Summit Road isn’t for the faint of heart: its members face
+          threats from within as well as without, and as a result, secrecy and
+          vigilance are absolute necessities. Many guides receive the training
+          typical of the ranger class, but with a focus on stealth and
+          protecting their allies. Not every member of the Summit Road has
+          levels in this specific subclass — it’s meant to represent what an
+          elite scout would mechanically look like</p>
+    _id: XdhRzu2EAOtr60hz
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 12000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716431943583
+      modifiedTime: 1716433768515
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!ovNyPliIjgd7wPUA.XdhRzu2EAOtr60hz'
+  - name: Liberation Domain
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.YLwZiuycqUPZSKQU
+      description:
+        value: >-
+          <p>Many chaotic people feel that freedom is the right of all beings,
+          and this is nowhere believed more than in Syrkarn. The Path of
+          Reconstruction and the Spirit of Syrkarn give access to this domain,
+          but so does the Sundered Heart. Freedom means different things to
+          different people, and there are those who feel it should mean the
+          freedom to kill and destroy whatever they please. Even the
+          good-aligned followers of this domain often clash with their more
+          lawful allies.</p><p> On other settings, gods such as Trithereon and
+          Aerdrie Faenya offer it</p>
+    _id: VEjY3dHvqn7IMAed
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 10000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716431943583
+      modifiedTime: 1716433768515
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!ovNyPliIjgd7wPUA.VEjY3dHvqn7IMAed'
+  - name: Serpentblood
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.r0bOdHKG8ScGZbSU
+      description:
+        value: >-
+          <p>The yuan-ti may be the descendants of fallen shulassakar, but this
+          doesn’t mean they cannot attempt to rise again. Among these
+          communities, a new sorcerous tradition has begun to emerge, consisting
+          of yuan-ti who practice magic similar to that of the couatls in an
+          attempt at redeeming themselves. This subclass is not race-locked:
+          anyone with yuan-ti or shulassakar ancestry, regardless of their
+          mechanical race, is capable of learning it.</p>
+    _id: EuZpHMZWKTEMlhAX
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 13000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716431943583
+      modifiedTime: 1716433768515
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!ovNyPliIjgd7wPUA.EuZpHMZWKTEMlhAX'
+folder: K7D9TeJ6y6Z4mTe0
+sort: 150000
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.0
+  coreVersion: '11.315'
+  createdTime: 1716431932780
+  modifiedTime: 1716433926815
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!journal!ovNyPliIjgd7wPUA'
+

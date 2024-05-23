@@ -1,0 +1,1399 @@
+name: Archetypes of Eberron
+_id: rKBee26ENnEo9GzR
+pages:
+  - name: Hearth Domain
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.4ADcUyt8CeDSriUq
+      description:
+        value: >-
+          <p>The Hearth domain is not just about safety, security, and the
+          gentle glow of a fire when the day is done. It's about finding warmth
+          in the love of friends and family, supporting each other through thick
+          and thin, and building a community that feels like home.</p><p>Clerics
+          to Boldrei of the Sovereign Host often choose this domain, as well as
+          devotees of the Path of Light, believing the best way to combat
+          darkness is to seek goodness in community. A Cyran seeking a new home
+          for their loved ones might gravitate toward such a calling, driven not
+          by religion, but their own love for their people. Or a halfling
+          bearing the Mark of Hospitality could dedicate themselves to
+          furthering their community, drawing on the mark's powers of hearth and
+          home. </p>
+    _id: mEEXRla1lGAedWTm
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 19000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.mEEXRla1lGAedWTm'
+  - name: The Elemental
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.7bWoh8vbChZru2w3
+      description:
+        value: >-
+          <p>Unlike most warlocks, you didn’t make a deal with a powerful
+          mysterious patron. Rather, you found an elemental; perhaps it was
+          already bound, perhaps you bound it yourself, or perhaps found the
+          spark deep within your own spirit. Regardless of your methodology, you
+          are the master of this relationship, and you take what you need from
+          it without being at its beck and call.</p><p>The Sulatar drow of the
+          Xen'drik jungles are true masters of the art of elemental binding,
+          able to control bound fire elementals without need for a dragonmark.
+          Binding a fire elemental to their soul is merely an extension of that
+          ability.</p><p>Gnomes of Zilargo are also known to follow this path as
+          a result of their own elemental binding skills, and though they lack
+          the same fundamental connection as the Sulatar, they are far more
+          varied in their elemental types.</p><p>Far more rarely, planetouched
+          folks might have a deep, intrinsic connection to an outer plane that
+          exemplifies an elemental as part of their very nature. Such creatures
+          as genasi or tieflings of Fernia have a connection to the elements
+          that's deeper even than the Sulatar, and their bond can reach depths
+          that the drow of Xen'drik can only dream of. </p>
+    _id: HP7TfBvI7mdipgCK
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 36000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.HP7TfBvI7mdipgCK'
+  - name: Circle of Storms
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.9CUB4X4znz5kGqz7
+      description:
+        value: >-
+          <p>Weather is a primal source of power, and no weather is more iconic
+          than that of the howling winds of a tornado, the thunderous rebuke of
+          a thunderstorm, or the torrential rainfall of a hurricane. While some
+          sorcerers claim to harness the power of the storm, you know this to be
+          a lie. The storm cannot be tamed—it is merely ridden and guided by a
+          wise hand. You know the lullabies that can call and soothe the storms,
+          and the anthems that summon a mighty tempest to take away the breath
+          of those who deny its power.</p><p>Adepts of the Devourer are by far
+          the most common practitioners of this circle, especially sahuagin and
+          privateers. House Lyrandar's dragonmarked heirs often can manifest
+          these powers, as do some humans of the Seren Islands. However, any
+          sailor who lives on the seas and has sufficient respect for the Storm
+          might learn to channel these abilities.</p><p>Though the nomads of the
+          Tashana Tundra have little familiarity with the sea, their unique
+          relationship with planar powers means that druids of the Storm are not
+          unknown there. </p>
+    _id: Rl0NAeCfdzX1kgPA
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 22000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.Rl0NAeCfdzX1kgPA'
+  - name: The Hidden One
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.9Q7a6nUlhvRCGW0N
+      description:
+        value: >-
+          <p>Your patron has a vested interest in the affairs of mortal life. Be
+          it a powerful dragon of the Chamber, a Lord of Dust, or another
+          immortal creature dedicated to manipulating the Draconic Prophecy, you
+          are their hands and eyes in the cities of Khorvaire and
+          beyond.</p><p>Anyone could be an agent of one of the Hidden Ones—the
+          baker down the street, the savvy Cannith tinker who comes to your
+          village every month or two, or the noble lord's daughter, eyes burning
+          with curiosity. Warlocks of the Hidden One might be chosen due to
+          their important positions, with influence to change nations through
+          seemingly insignificant actions. However, the innocuous figure of a
+          servant or simple guard is easily ignored, and their ranks might
+          include a warlock of the Hidden One, with eyes ever-open. </p>
+    _id: ogE63qf0gM2vhFPC
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 37000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.ogE63qf0gM2vhFPC'
+  - name: Path of the Feral Heart
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.ATpWPZ6JAQTWeGbp
+      description:
+        value: >-
+          <p>A wild animal lies deep within your soul, but long practice and
+          meditation allow you to harness its power and control the beast, not
+          the other way around. This path is most commonly followed by shifters
+          honing their natural abilities, but its adherents are also found among
+          the tribes of the Demon Wastes and among lycanthropes, their bodies
+          twisted by unnatural powers. Rarely, one born in a Lamannian manifest
+          zone might find this path, and rumor tells of a rare breed of symbiont
+          in the dwarven Realm Below that can transform its host, granting
+          increased power in exchange for a terrifying appearance. Rarest of all
+          are the kalashtar and Inspired who take up this path; projecting an
+          image of their tsoreva spirit, the damage their mindblades deal is
+          very real.</p>
+    _id: tIv1JR0j3jteudhE
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 13000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.tIv1JR0j3jteudhE'
+  - name: Cataclysm Mage
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.DTjidtJtsQGgYLy9
+      description:
+        value: >-
+          <p>As a Cataclysm Mage, your innate power is born of the mysteries
+          that ended four ages of the world. This rare power might blossom
+          following intense meditation, or its manifestation may be written into
+          the Draconic Prophecy itself. Your destiny drives your obsession with
+          the past and haunts you with visions of the great cataclysms yet to
+          come. While this origin might come to a devoted researcher of ancient
+          history or a descendant of those affected by the great cataclysms of
+          the past, a Cataclysm Mage can spring from anywhere, a sign of the
+          Prophecy unfolding. </p>
+    _id: 34oCbFpZ9Ub8wGLN
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 34000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.34oCbFpZ9Ub8wGLN'
+  - name: Change Domain
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.Fetdu5h8BgUNvxB2
+      description:
+        value: >-
+          <p>What is life but a series of changes, one after another? Clerics of
+          change believe that the current moment could be the thing to change
+          everything, the first step on the journey of a lifetime, the single
+          spark that starts a revolution. Most serve gods of chaos, skilled
+          trades, and travel, especially the Traveler. However, anyone seeking
+          inspiration or pursuing change could find value in it, whether an
+          adept of Onatar pursuing magical innovation or a skilled con artist
+          with utter confidence in their skills. </p>
+    _id: 1YlazC4ec3FUWXq8
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 17000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.1YlazC4ec3FUWXq8'
+  - name: The Soulborn
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.NPFubwsyiZXJqshJ
+      description:
+        value: >-
+          <p>You share a far closer bond with your patron that most warlocks
+          dream of. You have either bound yourself to a single mighty spirit of
+          a long-dead warrior, or to a gestalt force of mighty warriors. You are
+          guided by your patron and instructed in the ways of war and combat,
+          especially single combat.</p><p>The Tairnadal of Aerenal and Valenar
+          are by far the most common source of Soulborn warlocks, their patron
+          ancestor guiding and acting through them. Karrnathi patriots, Deneith
+          wardens, and Dhakaani dar have also been known to practice this form
+          of binding, though reports are scattered and sometimes unreliable.
+          </p>
+    _id: p2Doadr8pcUj5SPF
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 38000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.p2Doadr8pcUj5SPF'
+  - name: Way of the Tashalatora
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.TFJoFXsZsOZrA8Nc
+      description:
+        value: >-
+          <p>The Way of the Tashalatora teaches that mind and body must be
+          aligned and honed as one to truly ascend. Paragons of psionic power,
+          they have learned not only to touch the minds of others, but to alter
+          the flow of time itself.</p><p>The vast majority of adherents of this
+          Way come from the Adaran mountain-fortresses that guard the passages
+          into Adar from Riedra. In Khorvaire, the kalashtar and Adarans might
+          rarely teach a chosen outsider this art; those first-generation
+          students have started to teach as well, and are rather less selective
+          with who they accept as students.</p><p>Certain undead and aberrant
+          creatures also have a loose association with time and space, and
+          although they can serve as an alternative source of the powers of a
+          Tashalatora, it's rare to find a dolgaunt that's willing to take on a
+          non-aberrant student, let alone to allow them survive the encounter.
+          </p>
+    _id: 2VavwxabbACGgVIY
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 26000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.2VavwxabbACGgVIY'
+  - name: Divine Sniper
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.VOVlZjQ0flWumI31
+      description:
+        value: >-
+          <p>Armed with arrows made of pure faith and light, the Divine Sniper
+          specializes in getting in, eliminating their target, and getting out.
+          Empowered by light that shines forth from their very soul, their
+          arrows can light the blackest night.</p><p>This tradition is common in
+          Thrane and other fortresses of the Silver Flame, as its lay
+          worshippers are encouraged to practice archery. The Argentum actively
+          recruits Divine Snipers, both for their potent archery skills and
+          their roguish abilities.</p><p>The shulassakar of the Talenta Plains
+          also share deep ties to the Silver Flame, and Divine Snipers are
+          counted among their number. The Deathguard of Aerenal holds both
+          deathless and mortal Divine Snipers, empowered by the light of Irian.
+          Kalashtar and Adarans of the Path of Light refer to Divine Snipers as
+          Soulbows, according them great respect. </p>
+    _id: gvzJTuXGydEphkhJ
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 31000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.gvzJTuXGydEphkhJ'
+  - name: Oath of the Bone Knight
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.X3tnbXZyl1J0wg1S
+      description:
+        value: >-
+          <p>Bone Knights are Karrn patriots, living protectors who fight
+          alongside the undead legions of their land. During the Last War, they
+          provided tactical expertise and controlled the legions of undead that
+          the Blood of Vol priesthood raised to defend the Karrnathi
+          people.</p><p>Although the founders of the order of Bone Knights were
+          powerful members of the Emerald Claw, they recruited freely from
+          amongst the populace, seeking those with the ability and willpower to
+          control the dead, rather than prioritizing matters of faith. In
+          post-war Karrnath, the surviving Bone Knights are elite emissaries who
+          travel abroad to complete missions that serve the greater glory of
+          Karrnath and King Kaius III. The only recognized Bone Knight training
+          facilities are located in Karrnath, and most come from that grim land.
+          However, the Order of the Emerald Claw pioneered the order, so a new
+          trainee could crop up anywhere their reach extends.</p><p>Though
+          unknown to most of Khorvaire, similar traditions exist amongst the
+          elves of the Bloodsail Principality and in Aerenal itself. Rumors of
+          an ancient and powerful group of elven necromancers in the Xen'drik
+          jungles could also lead to this path.</p><h5><span
+          class="fontstyle0">T</span>enets of the Bone Knight</h5><p>Sworn to
+          the service of Karrnath, these knights follow a simple
+          code.</p><p><em><strong>Never Bow Down.</strong></em> You are the
+          elite. Do not kneel to one who has not proven your superior unless
+          ordered by the Crown.</p><p><em><strong>Hold Firm.</strong></em>
+          Commanding legions of undead requires an iron will and confidence.
+          Resist temptations and do not make excuses for poor behavior. Learn
+          from your mistakes so that you do not repeat
+          them.</p><p><em><strong>Bound by Loyalty.</strong></em> Your word is
+          your life. Once you have sworn your service to another, you will serve
+          to death and beyond, if necessary. However, if they prove unworthy of
+          your service, dispense the necessary judgment and find another who is
+          worthy. <br /></p>
+    _id: tOxR9z5uNstAWuxc
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 27000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.tOxR9z5uNstAWuxc'
+  - name: Path of the Rage Mage
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.XaoBceywED1vwl09
+      description:
+        value: >-
+          <p>Some barbarians are overcome by a fury powered not entirely by
+          their own will, crackling with arcane power. Known as Rage Mages,
+          these barbarians can cast a limited number of spells even while
+          raging, and slowly develop the ability to have magic bleeding out of
+          them into their melee attacks. </p><p>In Khorvaire, Rage Mages are
+          most often found among Mournborn warped by the Day of Mourning,
+          creatures touched by Kythri, and bearers of aberrant dragonmarks. The
+          reality storms that wrack Sarlona might also produce Rage Mages, and
+          sailors of the Thunder Sea claim they've seen sahuagin who've
+          demonstrated similar abilities. Few others have the necessary
+          connection to the raw eldritch power needed to follow this path</p>
+    _id: EMayfb9cWx5zP51n
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 14000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.EMayfb9cWx5zP51n'
+  - name: Guerilla
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.cdMVWFPWzweB4N8r
+      description:
+        value: >-
+          <p>Slipping through the darkness, the Guerilla is a master of silent
+          movement, poisons, and hit-and-run tactics. As their knowledge grows,
+          their poisons become more and more potent, until even the most
+          resistant of beasts cannot help but fall prey. The Guerilla's ability
+          to slip into shadows is legendary, as even the most junior of their
+          order are exceedingly difficult to track.</p><p>Guerillas are commonly
+          found among the scorpionworshiping Vulkoori drow in the jungles of
+          Xen'drik, as well as with lizardfolk in the hot swampy waters of the
+          Q'barra swamps.</p><p>Although less common, intelligence agencies and
+          assassin guilds also train their members in these arts, finding their
+          tactics are just as effective on the city streets as beneath the cover
+          of greenery. </p>
+    _id: OAbM6P2PSgl4C03P
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 30000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.OAbM6P2PSgl4C03P'
+  - name: Combat Medic
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.cvlrrSErEMdfqNlu
+      description:
+        value: >-
+          <p>In the trenches of the front lines, injury is inevitable. Where the
+          bodies are thickest and the scent of blood lies heaviest, the Combat
+          Medic finds their place. Where many fighters assert that the best
+          defense is a good offense, the medic places a higher priority on
+          caring for their allies. Their ability to keep forces in the fight
+          makes them an extremely valuable addition to any force.</p><p>Although
+          they cast cleric spells, Combat Medics need not hold to any official
+          religion. Many channel their power not through traditional religious
+          faith, but through their belief in their nation, their commitment to
+          patriotism, and their faith in their comrades.</p><p>Combat Medics
+          found a place in all of the armies of the Last War, though the Five
+          Nations had the heaviest concentrations in their ranks. House Jorasco
+          has also trained a small number of these martial healers for the most
+          dangerous of tasks. </p>
+    _id: ztG7MYCZZwUg61eF
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 23000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.ztG7MYCZZwUg61eF'
+  - name: Extreme Explorer
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.eGA03diwEYpLozMh
+      description:
+        value: >-
+          <p>Tales of dangerous traps and terrifying monsters fill most hearts
+          with fear, but the Extreme Explorer relishes the challenge. Fear is
+          nothing more than a four-letter word; it's the thrill of life or death
+          that keeps the heart of an Extreme Explorer beating, the unyielding
+          longing to see what's over the horizon or around the next
+          corner.</p><p>Extreme Explorers often serve as guides or adventurers
+          that specialize in plumbing the depths of the jungles of Xen'drik or
+          the utter blackness of Khyber. Stormreachers and explorers from the
+          fringes of society most commonly choose this daring path. </p>
+    _id: 1CUU9qBf8EjLCVdV
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 29000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.1CUU9qBf8EjLCVdV'
+  - name: Circle of Civilization
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.ednbDZhwQd149Q5V
+      description:
+        value: >-
+          <p>The origins of the Circle of Civilization are a mystery. No one can
+          pinpoint the very first adept, but their power is undeniable. After
+          all, humanoids are a part of nature as much as the bird or the fish,
+          and they share much in common with insects. Changing their environment
+          to suit their needs, swarming in droves to settle new lands, and
+          grouping together in large colonies that they call
+          'cities.'</p><p>While rare, these druids are found all over Khorvaire,
+          joined together in a loose sect known as the Community. Druids of the
+          Circle of Civilization rarely appear in Aerenal and Sarlona, mostly
+          due to the persecution that they face in Riedra and the elves'
+          affinity for necromancy.</p><p>The only continent that they do not
+          appear on is Xen'drik; despite the growing city of Stormreach, no
+          native of that continent has ever been recorded as hearing this
+          calling. </p>
+    _id: Mwmiyr8wg8bzgE0Y
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 20000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.Mwmiyr8wg8bzgE0Y'
+  - name: Exorcism Domain
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.emPOCtm5LClUThBS
+      description:
+        value: >-
+          <p>Clerics of the Exorcism domain dedicate themselves to protecting
+          the innocent from supernatural evils. These valiant souls fight to
+          drive out and exterminate fiends and undead, and to die in service of
+          this duty is a great honor.</p><p>Exorcists of the Silver Flame are
+          common, as the Church of the Silver Flame holds the front lines
+          against supernatural forces of evil across Khorvaire. Kalashtar
+          following the Path of Light might choose the path of an Exorcism
+          cleric as they seek to expel the nightmarish spirits of the Dreaming
+          Dark from human and Chosen vessels alike. Rarely, a Gatekeeper might
+          follow a different path than the traditional druid, instead choosing
+          to specialize in finding and stamping out corruption. </p>
+    _id: nvwS0wJyxnoCWWWB
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 18000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.nvwS0wJyxnoCWWWB'
+  - name: Oath of the Kell Knight
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.gE8jsYjNBaC8wbsg
+      description:
+        value: >-
+          <p>The legendary Daughters of Sora Kell occasionally choose champions,
+          marked by a specific brand. Though their influence nearly equals that
+          of the Droaamish warlords, more often than not, the Knights of Kell
+          are bound only to the service of these enigmatic hag queens. Natives
+          of Droaam recognize the brand of a Kell Knight, but elsewhere in the
+          world, the Mark of Kell draws indifference or passing curiosity. As
+          knights continue in service, the rewards gifted by their patrons
+          increase exponentially, but few survive long enough to see the
+          pinnacle of their knighthood due to their bizarre and dangerous
+          missions.</p><p>Although most Kell Knights are in Droaam, they can be
+          found across the Five Nations, serving the interests of the Daughters.
+          Sora Teraza has been known to recruit servitors via their dreams, and
+          these dream-bound knights can be found anywhere.</p><h5>Tenets of the
+          Kell Knight</h5><p>Emissaries of the enigmatic Queens of Droaam adhere
+          to the Rule of Three. This oath places importance on power, whether it
+          be physical or mental. The tenets are said to be ideals held by the
+          Night Mother herself.</p><p><em><strong>By Hook.</strong></em> Your
+          actions should import your mission’s weight. Callous cruelty is
+          unnecessary, but everyone must know their place. Respect the chain of
+          command and assert your authority.</p><p><em><strong>By
+          Crook.</strong></em> A fool is friend to many, but used by all. Guile
+          and deception are at your disposal to complete your objectives. A
+          competent knight always has a plan.</p><p><em><strong>By
+          Book.</strong></em> Knowledge is a universal commodity. Whether it be
+          advantage over your foes or long-kept secrets, you always strive to
+          learn and to share that information—for a price. <br /></p>
+    _id: WqJBYaIS6eKyc20F
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 28000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.WqJBYaIS6eKyc20F'
+  - name: Crystal Shaper
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.hkCiDsMC0TSgl6FP
+      description:
+        value: >-
+          <p>As a crystal shaper, you have closely studied the mystical
+          properties of quartz, ruby, and sapphire. Within the precise layers
+          and cleaved edges of each crystal lattice is the potential to awaken
+          vast psionic magics. Far beyond the careful meditations of psions or
+          the explosive power of wilders, you have learned how to use crystal
+          structures to construct a reservoir for your own psyche. After all,
+          your mind is a tool to be harnessed just like any other in your
+          supply.</p><p>The crystal shaping tradition first appeared among the
+          Inspired, the quori-possessed leaders of the Unity of Riedra. Most
+          Chosen psions have little sentimental attachment to their own minds,
+          after all their will is destined to be subservient to il altas, the
+          spirits that guide their people. Despite the best efforts by the
+          Inspired to restrict the knowledge of crystal shaping, teaching it
+          only to trusted Chosen artisans, the kalashtar of Adar developed
+          similar practices with a healthier respect for the artificerâ€™s own
+          mind. Adaran refugees eventually introduced the practice to Khorvaire,
+          though it remains little more than an academic curiosity outside
+          kalashtar communities such as Overlook in Sharn.</p>
+    _id: CNQsBM2qmUzinxLK
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 10000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.CNQsBM2qmUzinxLK'
+  - name: Marshal
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.iD4zmsg00pXwS6ih
+      description:
+        value: >-
+          <p>Order. Discipline. Steadfastness. These cornerstones of your
+          education served you well on the battlefield. Most Marshals are
+          graduates of the famous Rekkenmark Academy in Karrnath, and though the
+          war closed its doors to non-Karrns, graduates of previous generations
+          passed on their traditions to talented students in their own
+          nations.</p><p>Rarely, a folk hero might rise from the masses, an icon
+          to rally the common people despite having no formal instruction in the
+          art of war. These uniquely talented individuals can change the face of
+          a battle, with the grit to remain standing and commanding their allies
+          in face of overwhelming odds. </p>
+    _id: KkWZRXZKdGjVmmVu
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 24000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.KkWZRXZKdGjVmmVu'
+  - name: School of Living Spells
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.iLZwiDpMny3XVin7
+      description:
+        value: >-
+          <p>The Mourning horrifies and fascinates the people of Khorvaire.
+          Numerous studies have been attempted in the short years since the
+          Mourning in hopes of studying its effects, discovering its cause, and
+          determining if it's reversible... or possible to tame.</p><p>The
+          School of Living Spells makes a special study of how magic has gone
+          awry in the Mournland. These wizards' expertise is on how the Day of
+          Mourning affected magic cast on that day, turning spells into
+          constructs of trapped magical energy. These wizards have discovered
+          how to create a living spell of their own, small enough to tame, yet
+          holding enormous potential within.</p><p>Lucia ir'Brenith, a Cyran
+          refugee living in New Cyre, is the mother of this movement, and her
+          lab has become a haven for anyone wishing to study the Mournland and
+          living spells in particular. Her research stays well-financed by
+          Prince Oargev, who holds out hope that her work can lead to something
+          that would explain the Mourning. </p>
+    _id: Be15LlUgOg2ypawt
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 40000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.Be15LlUgOg2ypawt'
+  - name: Circle of Eberron
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.jNEmnfB86jxaCzm2
+      description:
+        value: >-
+          <p>Druids of the Circle of Eberron communicate with the progenitor
+          Eberron herself. They can hear her words in the passage of the winds,
+          and read her messages in leaves of the forest and shifting sands of
+          the desert. These druids believe in the sacredness of all life, and
+          can entreat the world to provide them with an ally formed out of
+          Eberron's body in times of need. They are staunch opponents of
+          extraplanar creatures that seek to impose their will on their world,
+          such as creatures from Khyber and Xoriat.</p><p>Many Gatekeepers find
+          themselves drawn to this circle, as well as hermits who spend decades
+          listening to the heartbeat of the Dragon Between. Adepts of this
+          tradition can also be found among iredar kobolds and Talentan mask
+          weavers. And to the surprise of many, warforged that seek deep
+          connections to the earth might follow this circle, including the
+          warforged Followers of the Broken Path and the Landforged Walkers.
+          </p>
+    _id: 8JiNhZ8cTqGgTG3g
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 21000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.8JiNhZ8cTqGgTG3g'
+  - name: Blood Magus
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.jiPopWSkidf1ZQKF
+      description:
+        value: >-
+          <p>All Blood Magi have one thing in common. You died. It might have
+          been at birth, and no one bothered to tell you. Or perhaps you died
+          later in life, then were subsequently called back from the misty
+          embrace of Dolurrh. Whatever the cause, you were dead, briefly—and it
+          will not happen again. You seek to first master the power of your own
+          blood so you will never be defenseless, then as you increase in power,
+          you hear the siren call of the blood of others.</p><p>Due to the cost
+          of this power, it's rare to encounter another Blood Magus in the
+          world, as most practitioners of this art are scattered. The most
+          common place to find a Blood Magus is in Karrnath and anywhere the
+          Blood of Vol faith is strong, as adherents of this faith understand
+          the intricate link of blood and power. The Bloodsail Principality in
+          Lhazaar holds Blood Magi both living and undead; as vampires possess
+          the most neceesary of components—blood—they too can learn this art.
+          Rumors also tell of Blood Magi hiding deep in the Shadow Marches and
+          the Demon Wastes. </p>
+    _id: Ef3tl4whwdJeLrPy
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 33000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.Ef3tl4whwdJeLrPy'
+  - name: Cult of the Alienist
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.mWeCgwgnzcQZO6qb
+      description:
+        value: >-
+          <p>They told you to put down the <em>Codex Anathema</em>. They feared
+          that you would plumb its depths too greedily, too deep. They were
+          right to fear you.</p><p>The infamous <em>Codex Anathema</em> is the
+          single greatest source of Alienists in Eberron. Originally written as
+          a book of lore by a mad Dhakaani scholar, its dangerous pages have
+          been replicated and passed down for millennia. At one point, there
+          were twelve complete copies of the Codex Anathema, but the books were
+          lost, destroyed, or broken apart in the intervening timeframe. The
+          last scholar to find a complete copy of the book was Mordain
+          d'Phiarlan, who mastered its secrets. Any formal arcane institution
+          might hold a secret Cult of the Alienist, its adepts of the Codex
+          hiding in the wings, seeking to recruit young minds that are easy to
+          corrupt and mold into the next generation of Alienists.</p><p>A dwarf
+          of the Mror Holds might also have sought—and found—the twisted
+          knowledge of Dyrrn the Conqueror in the Realm Below. Beyond that, an
+          Alienist wizard might be any scholar that delved too far into the
+          secrets of Xoriat or had a chance encounter with the fleshwarping
+          daelkyr. </p>
+    _id: kHmk9kRekNCcHcRe
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 39000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.kHmk9kRekNCcHcRe'
+  - name: War Weaver
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.mqEy7zAshVG8iK3e
+      description:
+        value: >-
+          <p>The survival of a military unit largely depends on the unity of its
+          members, and the War Weaver excels at ensuring this cooperation and
+          cohesiveness. Creating a magical tapestry to blanket their close
+          allies, the War Weaver can support from afar, pick others up if they
+          fall, and punish those who dare attack their unit.</p><p>This art
+          finds its recent origins in Aundairian spellcraft before the Last War.
+          It was incorporated into Cyre's elite legions and Breland's Dark
+          Lanterns, then spread over all of the Five Nations before the war
+          began. Cyran and Aundairian artificers have the greatest natural
+          inclination for the craft.</p><p>Though Aundair proudly claims the War
+          Weaver tradition as their own creation, it predates even the arrival
+          of humanity on the shores of Khorvaire. The oral traditions of Talenta
+          halflings recount rare and powerful War Weavers through the ages,
+          though their druidic traditions are far stronger. And earlier still,
+          tens of thousands of years ago, elven War Weavers perfected the art
+          during their exodus from Xen'drik.</p>
+    _id: tycL54gN4UTnb9XK
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 12000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.tycL54gN4UTnb9XK'
+  - name: Wilder
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.o4DMaiCzX7W4SPH9
+      description:
+        value: >-
+          <p>Sometimes psionic potential manifests in an individual as a
+          massive, volatile outpouring of extreme emotion. Such Wilders can
+          summon intense emotions within themselves to increase the power of
+          their spells. These wild surges can be tremendously powerful, but
+          carry with them their own risks.</p><p>Unlike the more regulated and
+          controlled psions, Wilders can appear anywhere, with no formal
+          training beyond mere survival. Wilders are often linked to Xoriat in
+          some way, be it through circumstance of birth or chance encounters
+          with planar forces. Devotees of the Fury are also known to become
+          Wilders, their passionate nature spilling over into their powers.
+          Kythrian influences can also lead to the manifestation of these
+          signature abilities.</p><p>Wilders are most commonly encountered along
+          the fringes of society and in areas with strong ties to Xoriat, such
+          as in the Shadow Marches or near old Dhakaani sites. They might also
+          be found anywhere in the wilds of the world. </p>
+    _id: Uftv9Y7MEKewJtxc
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 35000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.Uftv9Y7MEKewJtxc'
+  - name: College of Revelation
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.q49MrTFdMFKRCTzs
+      description:
+        value: >-
+          <p>When a mortal mind is touched by a power and an understanding far
+          beyond what they can comprehend, one of two things happen. The unlucky
+          ones inevitably lose their sanity, muttering incomprehensible passages
+          that others dismiss as imaginary tales. The lucky ones? They survive,
+          but not as they once were, changed by the revelations that they
+          experienced. While these creatures can have incredible insight, they
+          pay a price that separates them from the rest of the world.</p><p>Most
+          people call Xoriat the Plane of Madness. But to those that have
+          touched it and truly known it, Xoriat is the Plane of Revelations, and
+          it has birthed great bards of this college. Some learn the truth due
+          to direct exposure to the plane, others through attempting to
+          translate texts written by those that Knew before; either way, they
+          learn that which is hidden to all but a few.</p><p>Though extraplanar
+          influence is the most common, other paths also lead to the College of
+          Revelation. Perhaps the Shadow of the Dark Six gifted a determined
+          seeker with dangerous arcane secrets that were shunned by conventional
+          schools of arcane magic, or perhaps an innocent stumbled on them
+          unwittingly with the help of a Keeper of Secrets such as Sul Khatesh.
+          </p>
+    _id: bCbURCrBmTOqkTG3
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 15000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.bCbURCrBmTOqkTG3'
+  - name: College of Spies
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.t4qBKZpZjqXUJw1j
+      description:
+        value: >-
+          <p>Eberron is a world ravaged by recent conflict, and an uneasy peace
+          holds over the land in a cold war. No one knows who or what caused the
+          Mourning, so no country is willing to risk making the first move... at
+          least not overtly. Thus, bards of the College of Spies have honed the
+          art of diplomacy and cunning, and were invaluable during the Last War
+          as secret agents and information gatherers.</p><p>The Dark Lanterns of
+          Galifar were the first to hone the bard's social graces to a keen
+          dagger. By the time the Last War broke out, espionage was a widespread
+          tradition across the Five Nations. The Dark Lanterns of Breland have
+          traditionally maintained the highest numbers of this college, but the
+          Royal Eyes of Aundair and the remains of the Fifth Crown of Cyre are
+          just as proactive in recruitment as their Brelish counterparts. Houses
+          Phiarlan and Thuranni also have strong traditions of Spy
+          bards.</p><p>Unknown to Khorvaire, the Thousand Eyes of Riedra have
+          also perfected a variant of this college that uses psionic, not arcane
+          magic. These agents have likely infiltrated the governments of the
+          Five Nations and beyond. </p>
+    _id: ZCZr26WezXydbOC2
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 16000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.ZCZr26WezXydbOC2'
+  - name: Souknife
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.wLePiaio7qHH4RoV
+      description:
+        value: >-
+          <p>Most rogues perfect the art of deadly combat with easily concealed
+          physical weapons. The Soulknife, however, needs no physical weapon at
+          all, instead manifesting their deadly weapons with the power of their
+          mind. They are excellent assassins and undercover agents, summoning a
+          weapon in a heartbeat where an opponent expects an unarmed
+          foe.</p><p>Psionic power is the easiest route to learning the basic
+          tenets of this path—manifesting a mindblade. As a result, most
+          Soulknives are either kalashtar or denizens of Sarlona, though the
+          spark of psionic power might be found in any of the common
+          races.</p><p>Two other traditions have evolved among elves, neither of
+          them psionic. Rarely, elves with the Mark of Shadow have learned to
+          manipulate the darkness to form solid blades. Meanwhile, the Umbragen
+          of Xen'drik have discovered how to manifest blades of pure darkness
+          through the pact of their people with the Umbra. </p>
+    _id: RpaTPVaB7KDVKOPw
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 32000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.RpaTPVaB7KDVKOPw'
+  - name: Disruptor
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.zCLB9LJrXbZRp6C2
+      description:
+        value: >-
+          <p>The Disruptor excels at controlling the battlefield, then when the
+          moment is right, blowing it all to Khyber. The blast disks they use to
+          spread mayhem were developed at the start of the Last War in a
+          collaboration between Brelish artificers and the gnomes of Zilargo,
+          but the practice quickly spread to the other nations, and within a
+          generation, all nations employed their own Disruptors as valued combat
+          specialists. Now that the Last War is ended, Disruptors gravitate
+          toward pursuits where they feel valued and useful, especially
+          adventuring and mercenary companies.</p><p>Scholars at Morgrave
+          University also report finding evidence of ancient Dhakaani stone
+          disks that suggest a similar tradition of arcane explosives. Explorers
+          to the Tashana Tundra of Sarlona bear tales of dwarves there with
+          similarly advanced explosive techniques.</p>
+    _id: V0z1fbFEgaCmiaPE
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 11000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.V0z1fbFEgaCmiaPE'
+  - name: Way of the Conduit
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.zd6waep8iPxSFdZn
+      description:
+        value: >-
+          <p>Monks of the Way of the Conduit learn to listen to spirits and
+          ghosts in the world around them, giving each a voice in exchange for
+          augmenting the monk's own abilities. Followers of this path teach that
+          true enlightenment cannot be found by one's self, but rather, wisdom
+          must come from the spirits of those around you. After all, those who
+          fail to learn from history are doomed to repeat it.</p><p>The most
+          common practitioners of this Way are kalashtar mystics channeling the
+          former hosts of their line, as well as Karrnathi monks who bind heroic
+          spirits to help them in battle. A more unusual tradition exists among
+          the orcs and shifters of the Eldeen Reaches and Shadow Marches, who
+          communicate with spirits of nature and bargain with them for aid.
+          Certain halfling adepts of the Talenta Plains also communicate with
+          nature spirits as well. </p>
+    _id: 4uyDDESOGpwGVFor
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 25000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418937905
+      modifiedTime: 1716433719605
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!rKBee26ENnEo9GzR.4uyDDESOGpwGVFor'
+folder: K7D9TeJ6y6Z4mTe0
+sort: 100000
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.0
+  coreVersion: '11.315'
+  createdTime: 1716418927236
+  modifiedTime: 1716433923308
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!journal!rKBee26ENnEo9GzR'
+

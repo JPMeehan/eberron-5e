@@ -1,0 +1,55 @@
+folder: 1wQBRGfu5I72bywP
+name: Other Keith
+_id: a4ZGRt8KlBmtAb5J
+pages:
+  - sort: 100000
+    name: Mastermaker
+    type: subclass
+    _id: uko60hVO8KEdVvpf
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.arVZcmKMljhP0Nbi
+      description:
+        value: >-
+          <p><span style="font-family:Signika, sans-serif">A Mastermaker
+          specializes in integrating flesh and steel, creating powerful
+          construct limbs and replacing weak organs of flesh with components of
+          metal and stone. The actions of a few renegade Mastermakers have
+          caused House Cannith to shun this path in Eberron, but an artificer
+          might learn these techniques in Dread Metrol or develop them on their
+          own.</span></p>
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716434103858
+      modifiedTime: 1716434119938
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!a4ZGRt8KlBmtAb5J.uko60hVO8KEdVvpf'
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.0
+  coreVersion: '11.315'
+  createdTime: 1716434096002
+  modifiedTime: 1716434119938
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!journal!a4ZGRt8KlBmtAb5J'
+

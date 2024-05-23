@@ -1,0 +1,674 @@
+name: Giant Guide to Xen'drik
+_id: wU36iIkCIiURAjaq
+pages:
+  - name: Giant Soul
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.2CT6wcSQid9OV83u
+      description:
+        value: >-
+          <p>The ancient giants channeled the power of the planes to become
+          sorcerers, growing in size in proportion to their arcane power. You
+          have inherited this overflowing power, or bound it within you using
+          ancient Xen’drik arcana. Unleashed, you can grow into a true titan,
+          hurling the destructive power of the elements at your foes - but such
+          power comes with a price.</p><p> As a Giant Soul sorcerer, you decide
+          how you have inherited your powers, and how it manifests upon you. You
+          must also decide how to wield it - as a whirlwind of barely-contained
+          power, or as a towering herald of order. The giants of the Battalion
+          of Basalt Towers seek to wield their primordial fire to conquer and
+          destroy, while the Zephyr Guard of Kul Lerek harness the winds in
+          defense of their home.</p>
+    _id: zIFABgLCaULmRdYL
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 21000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.zIFABgLCaULmRdYL'
+  - name: College of Nature
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.4d3gm8aUj4XFSivU
+      description:
+        value: >-
+          <p>Since the dawn of time, the whistling wind, rushing rivers and
+          calls of birds have inspired countless works of art. Some bards see
+          beauty in the world around us, acting as emissaries to the powers of
+          nature, and working with the land as their canvas. The College of
+          Nature is less an organization than an ideal - to protect the wonder
+          of the wild, and find joy in its splendor. Their commitment to harmony
+          allows them to speak to animals, plants, and even elementals. When
+          nature comes under attack, they call on those powers to protect it -
+          and can unleash devastating natural disasters in defense.</p><p> Bards
+          of the College of Nature might use any instrument, from paints, to
+          flutes, to dance - anything that allows them to attune to the rhythms
+          of the world. In Xen’drik, the Vulkoor, Qaltiar, and Na’qalla drow
+          venerate and call upon the spirits of nature, while the Rimewalker
+          druids of the Iceflow often speak with the giant animals of their
+          home. In Khorvaire, the Greensingers of the Reaches combine druidic
+          and bardic traditions to treat with the fey, while the gnomes of
+          Lorghalan survive through their close friendship with elementals</p>
+    _id: yZWEy2vOTjDPHrf5
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 12000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.yZWEy2vOTjDPHrf5'
+  - name: Divine Crucible
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.8Svo7NlQjqqiNXhj
+      description:
+        value: >-
+          <p>Divine Crucibles are the smiths of the gods, forging relics in
+          radiant flame. Their craftwork is belief, and their belief lies in the
+          glory of their craft. When heroes seek out blessed weapons to smite
+          evil, it’s Crucibles who provide. It is said that each one places a
+          divine spark in their masterpieces; in battle, they can ignite these
+          sparks, causing the relics to flare with holy fire, and bolster their
+          wielders.</p><p> Crucibles can be found across Eberron, serving the
+          Silver Flame, or gods of the forge such as Onatar. The Ghaash’kala and
+          Shulassakar both rely on skilled Crucibles to forge and shape
+          songsilver - the unbreakable essence of the couatl. In Xen’drik, the
+          fire giants of the Torch of Progress see the silver flame as a force
+          for peace and enlightenment, and create items to support the people.
+          Their kin within the hidden city of Daomon once powered their forges
+          with the Fernian fires of Onatar, creating sacred relics of the
+          Sovereigns - though the Shattering has scattered their works to the
+          ashes of time</p>
+    _id: WWqdODaqedRsn9u5
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 10000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.WWqdODaqedRsn9u5'
+  - name: Wind Runner Conclave
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.AZoRFeGWvGVBIbKX
+      description:
+        value: >-
+          <p>Some rangers bear a connection to the primal spirits of the wind,
+          using their gifts to soar through the air and strike with zephyr
+          speed. Their grace is breathtaking, but a Wind Runner is as elusive as
+          they are dangerous. Many are carefree spirits who see beauty in
+          freedom; others serve as natural protectors of aeries and high peaks,
+          communing with the flying beasts that they see as kin.</p><p> In
+          Eberron, Wind Runners are often found in the Zephyr Guard of the
+          flying city of Kul Lerek, and among the halfelves of the Mark of
+          Storm. Both House Lyrandar and the piratical Wind Whisperers train the
+          dragonmarked to harness such skills, especially those who aspire to
+          fly an airship. During the Last War, several nations also fielded
+          aerial infantry as part of their forces, including the flying Angels
+          of Thrane. A Wind Runner might also be touched by the planes of
+          Syrania or Lamannia, or be descended from the cloud giants of
+          Xen’drik. In Sarlona, Wind Runners can be found in the high mountains
+          of Adar, and often form bonds with the nation’s flying asperi
+          steeds.</p>
+    _id: KJgIpVRRL8Dj3ol8
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 19000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.KJgIpVRRL8Dj3ol8'
+  - name: Fateweaver
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.CsumN3hUWIS9lpVJ
+      description:
+        value: >-
+          <p>The many paths of the Draconic Prophecy plot out the course of
+          future events. All manner of powerful creatures from the dragons of
+          Argonnessen to the fiendish Overlords seek to influence its path,
+          often using mortal pawns such as you. You’ve made a pact with a being
+          with insights into the future, granting you dark luck and the destiny
+          to succeed. As a fateweaver, your powers guide you down a certain
+          path, ensuring your success - but don’t push your luck, or you may
+          find yourself cutting the strings of your own destiny.</p><p> Examples
+          of beings with the power of a Fateweaver include Sphinxes such as
+          Flamewind with their mastery of time, the Overlord known as the
+          Spinner of Shadows, and the ancient giants of Crux, who may wish to
+          restore their planar citystate to its former glory.</p>
+    _id: uhsKfmep4AEpNYTg
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 22000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.uhsKfmep4AEpNYTg'
+  - name: Patchwork Blade
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.ExlTTCbuINNr4Vah
+      description:
+        value: >-
+          <p>‘What doesn’t kill you makes you stronger’ is normally a joke for
+          adventurers. Patchwork Blades are those who take it to the extreme.
+          These bestial warriors take on the strength of the creatures they
+          hunt, growing in monstrous power with every victory. As consummate
+          hunters, Patchwork Blades study their prey, making use of their
+          weaknesses. When you fight the ultimate hunters, it takes one to know
+          one. Some Blades believe that they receive strength from the gods with
+          every kill. Others take a more direct route, and physically alter
+          their own forms using the magical blood or remnants of their prey.
+          Regardless, all are a fearsome sight, and stray further and further
+          from mortality with each notch in the axe.</p><p>Patchwork Blades can
+          be flavored in different ways, and can be found in a variety of places
+          within Eberron as a result. The greatest number form part of the Wyrd
+          Vigil of Vralkast, taking on the horrors of Khyber and warping
+          themselves to defend their city. The disciples of the daelkyr Dyrrn
+          the Corruptor might also travel such a path, taking the body parts of
+          their prey to further their own evolution. Some changelings,
+          especially the doppelgangers of Lost, take the opposite approach -
+          they study and mimic the forms of others to master their shapechanging
+          techniques. Those Patchwork Blades who take on the spiritual strength
+          of their prey tend to belong to druidic communities, as well as
+          Stormreach’s Lords of the Hunt. The goliaths of the Blood of Kanda see
+          The Hunt to be a religious ritual, and take on the aspects of the
+          dragons and leviathans of the Dark Sea that they slay in their
+          duties.</p>
+    _id: qNQRV1T6tLh8SddQ
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 16000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.qNQRV1T6tLh8SddQ'
+  - name: Revenger
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.HJ1aMmoE4yZDw0WI
+      description:
+        value: >-
+          <p>The course of your life was forever thrown off-kilter by the
+          schemes of those plotting your downfall; now, your heart burns with
+          the goal of hunting those who wronged you, empowered by your zeal and
+          desire for vengeance. Perhaps you made a deal with a powerful entity
+          to give you the tools for murder, or made a binding oath to right the
+          wrongs of the past; regardless, you are now an arrow loosed on a
+          single path, and none can run from the bite of your steel. Revenger
+          rogues are experts at social manipulation, gathering information on
+          their foes by reading people’s dark desires - all to bring low the
+          targets of their vendettas.</p><p> In Eberron, Revengers might arise
+          from any number of situations. In Xen’drik, the overlord known as the
+          Scar that Abides is an incarnation of cold rage, and empowers his
+          servants to violently deal with perceived slights against him. The
+          Spinner of Shadows also gives dark pacts to those seeking revenge,
+          changing their destinies to spread pain and suffering through the
+          land. Revengers can also arise through sincere personal oaths. Those
+          who lost everything in the Last War, Cyran avengers, and followers of
+          the Fury might all walk down this dark path.</p>
+    _id: 9ED4aCiHLJ1ufnUw
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 20000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.9ED4aCiHLJ1ufnUw'
+  - name: Way of the Explorer
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.L3yc1mMejNkknzRz
+      description:
+        value: >-
+          <p>Delving into ruins and dungeons lost to time is a common pastime
+          for many would-be adventurers. Typically, this is a gamble on one’s
+          life. Explorers don’t just gamble on their lives - they go all in,
+          every time. Whether through skill, gumption, or divinely-blessed luck,
+          these heroes of tavern tales are famed for their derring-do. It’s not
+          just about finding treasure; it’s about the thrill and adventure to an
+          almost obsessive degree.</p><p> A true Explorer is marked by their
+          luck, their keen sense for traps and survival, and their faith in
+          throwing hands at any problem that comes their way. In Xen’drik, such
+          individuals share drinks together in the taverns of Stormreach, the
+          merchant guilds of Kul Lerek, and the halls of Blackgrove Refuge.
+          Professional explorers can also be found in the adventuring guilds of
+          Khorvaire, including the Wayfinder Foundation, and Clifftop Guild.</p>
+    _id: G5AoXiRkWOGniNJ4
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 17000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.G5AoXiRkWOGniNJ4'
+  - name: School of Oneiromancy
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.LmIYUzoQpvGiJ4nx
+      description:
+        value: >-
+          <p>The school of Oneiromancy was born in the nascent Cul’sir Empire,
+          and led to its dominion over the surrounding lands. The giants shaped
+          dreams to sustain their kingdom, weaving them into its very
+          foundations. Now, the link to the Sea of Dreams is severed, but those
+          who pursue its study can still walk the same path. Oneiromancers
+          believe that dreams are inspirational and prophetic; their magic
+          removes the barrier between dream and consciousness, allowing them to
+          live within surreal worlds of their own. The primary mission of many
+          such wizards is to restore their school to glory - by repairing the
+          damaged planar link to the wonder found behind closed eyes.</p><p> As
+          an Oneiromancy Wizard, you may have stumbled upon ancient giant texts,
+          or relics of the Quori, that kickstarted your path into lost and
+          ancient magic. Perhaps you see your own dreams as inspirational and
+          prophetic, or use them to communicate with the Quori of your kalashtar
+          lineage. Or, stranger still, you were a mind long trapped in Dal Quor,
+          and found your way out in a fitting mortal host. Either way, the
+          dream-scarred lands of Xen’drik are sure to hold the secrets you
+          seek…</p>
+    _id: 87sdfZhvjYAaeRAM
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 23000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.87sdfZhvjYAaeRAM'
+  - name: Oath of Freedom
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.Uf2cUCBngXByM6uo
+      description:
+        value: >-
+          <p>The Oath of Freedom is a vow to fight back against the tyrants,
+          conquerors, and slavers who would use their power to oppress others.
+          Paladins who swear this oath believe that all have the right to
+          dictate their own path, and often act as noble revolutionaries and
+          freedom fighters. When an invading army oppresses a nation, when a
+          tyrant king imprisons his people, or a criminal group begins dealing
+          in lives, that is when the Oath of Freedom rises.</p><p>In Xen’drik,
+          both the Unbound Brigade and the Silaes Tairn often embody the Oath,
+          fighting against the giants who once enslaved them and their kin.
+          Their sworn enemies are those such as the Battalion of Basalt Towers,
+          who would use ancient magic to rule over the continent once more. In
+          Khorvaire, Oath of Freedom paladins arose during the Last War,
+          especially in conquered cities such as Thaliost, or rebelling nations
+          such as the Eldeen Reaches and Darguun.</p><h3
+          id="tenets-of-freedom">Tenets of Freedom</h3><p><strong>No
+          Fear.</strong> The odds are never in one’s favor; the battle is never
+          won easily. As long as one fights for what is right, good shall
+          prevail.</p><p><strong>No Chains.</strong> Injustice and shackles are
+          the tools of the oppressor. All beings deserve to be free, and have
+          control over their own fate.</p><p><strong>No Masters.</strong> The
+          thrones of tyrants are built on the bones of the innocent. It is not
+          for a people to serve their leader - a leader exists to serve their
+          people.</p>
+    _id: VWRUp5RKPA8uwLUM
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 18000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.VWRUp5RKPA8uwLUM'
+  - name: Circle of the Verdant
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.mxyJahc7kL4neCW6
+      description:
+        value: >-
+          <p>Druids of the Verdant Circle are floral guardians of plant life,
+          finding purpose in the beauty of vegetation. They see purity and
+          wonder in primal forest, and strength in the ancient trees of the
+          wilds. A verdant druid might go for months in the deep jungles without
+          seeing another soul, pursuing their goal of protecting nature from the
+          ravages of unnatural threats. Druids of this circle often find the
+          line blurred between plants and animals, and take on aspects of the
+          flora they protect when defending their ‘friends’. Fighting such a
+          warrior in the wilds is to have the very land turn against you, as
+          plants rise up to support them in a wave of branches and tangled
+          briars.</p><p> In Eberron, the largest group of such druids are the
+          Verdant Path in Xen’drik, who learn from and protect the land spirit
+          Kwinharin. Their home in the Rainwoods is draped with ancient moss and
+          vines that hang between gargantuan trees. Others can be found in the
+          Na’qalla drow, and the Rushemé druids. In Khorvaire, Verdant druids
+          can be found in the Eldeen reaches, especially among the devout
+          followers of the Greatpine Oalian. The strangest are those who deal
+          with aberrant and planar flora - the cultists of the daelkyr Avassh,
+          and the bizarre gardeners of the Grim Lord Varonaen on the umbral
+          island of Farlnen</p>
+    _id: 6uTVVZbjENaF8pbo
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 15000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.6uTVVZbjENaF8pbo'
+  - name: Circle of the Behemoth
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.nJEHKHM0LrZj6siq
+      description:
+        value: >-
+          <p>Since the dawn of time, mortals have gazed with wonder and fear
+          upon the titans of the natural world. Behemoth druids are those who
+          find strength in the existence of such giants, for what greater sign
+          can there be of the power of nature? Many find purpose in living
+          alongside whales, dinosaurs, and other immense beasts, protecting them
+          from harmful poaching and unnatural threats. In doing so, they gain
+          insights into their roles in nature - and learn to take on their forms
+          to terrifying effect.</p><p> Behemoth druids can be found wherever
+          such creatures congregate, from the mountain aeries of giant eagles,
+          to the vast plains on which sauropods roam. Some are more than happy
+          to welcome visitors, as long as they agree not to disturb the titans
+          before them. Others are brutal and wild, tracking prey alongside
+          powerful dinosaurs and predatory beasts. Perhaps the strangest are
+          those who live in the Astral Plane, and ride beneath the stars with
+          celestial kindori whales.</p>
+    _id: 74pJWGfYYLlNux5E
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 14000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.74pJWGfYYLlNux5E'
+  - name: Hunt Domain
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.vXLYKmM78gjhyPhY
+      description:
+        value: >-
+          <p>Since the dawn of history, mortalkind has prayed to the gods for
+          bountiful hunts. Taking down prey means survival; failure means
+          becoming prey in turn. Clerics of the Hunt domain take up this ancient
+          duty, ensuring that luck is on their allies' side, while joining the
+          battle with bow and spear. To them, their prey are part of the cycle
+          of life, and sent as divine gifts that should never be
+          squandered.</p><p> Hunt domain clerics seek to protect the course of
+          nature, often by hunting monsters that would threaten communities or
+          upset the local balance. Many fiercely oppose poachers. The concept of
+          hunting creatures for sport without making use of their sacrifice, or
+          respecting their strength, is anathema to their beliefs. In Eberron,
+          Hunt doman clerics can be found worshiping the god Balinor in
+          Khorvaire, especially in the Eldeen Reaches and Lhazaar
+          Principalities. In Xen’drik, the Vulkoori and Qaltiar drow worship the
+          aspect of Vulkoor known as the Hunter, while goliaths descended from
+          the Esht Primacy often venerate Banor the Bloody Spear.</p>
+    _id: Gcb6APQeS04Cep7G
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 13000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.Gcb6APQeS04Cep7G'
+  - name: Path of the Pyreheart
+    type: subclass
+    system:
+      item: Compendium.eberron-5e.classes.Item.z9jKGDbYE9mpebHJ
+      description:
+        value: >-
+          <p>Whether through the ancestry of an efreet, a deal with a demon, or
+          an elemental influence, those on the Path of the Pyreheart draw from a
+          very real inner fire. These barbarians summon flames that sear their
+          enemies and smolder within superheated veins.</p><p> Pyrehearts can
+          draw from a number of different sources ranging from the demonic to
+          the artificial. A Warforged might possess an inner furnace or be
+          imbued with a bound elemental, casting forth flames like the famous
+          Lord of Blades. The chieftain of a Carrion Tribe might hurl demonic
+          flames at her foes, born from the influence of the Demon Wastes, or a
+          pact with the Overlord Kharna Rayva. A Tiefling touched by Fernia or
+          Lamannia might find their anger manifesting as elemental fire - a
+          dangerous ability for those unaware of their birthright. A Pyreheart
+          is often physically marked by their inner flame, which you can
+          determine by rolling on the table below:</p>
+    _id: tbLVE7c3WTBRnI1a
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    sort: 11000
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716418953865
+      modifiedTime: 1716433754811
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!wU36iIkCIiURAjaq.tbLVE7c3WTBRnI1a'
+folder: K7D9TeJ6y6Z4mTe0
+sort: 200000
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.0
+  coreVersion: '11.315'
+  createdTime: 1716418791875
+  modifiedTime: 1716433925847
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!journal!wU36iIkCIiURAjaq'
+

@@ -1,0 +1,142 @@
+name: Other Community
+_id: 2RIxxNIp3esFwe4A
+pages:
+  - sort: 100000
+    name: Eberron, the Dragon Between
+    type: subclass
+    _id: hBAJFIaKMGUlgTW3
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.4KoSv8HpJzGPoWKJ
+      description:
+        value: >-
+          <p><span style="font-family:Signika, sans-serif">Eberron, the Dragon
+          Between, is the progenitor wyrm responsible for the innumerable forms
+          of life across the surface world. Eberron dragonshards grant and store
+          arcane power, and this gift is reflected in any pact made with the
+          Dragon Between.</span></p><p
+          style="box-sizing:border-box;user-select:text;margin:0.5em
+          0px;color:rgb(25, 24, 19);font-family:Signika,
+          sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+          style="font-family:Signika, sans-serif">Eberron seeks to shield its
+          children from the conflicts of the other progenitors and their spawn,
+          and to spread life in all its wondrous variation.</span></p>
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716433947330
+      modifiedTime: 1716433956992
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!2RIxxNIp3esFwe4A.hBAJFIaKMGUlgTW3'
+  - sort: 200000
+    name: Khyber, The Dragon Below
+    type: subclass
+    _id: RSD8sfqATDJfr1DL
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.Qbjmv4IzQINofbbq
+      description:
+        value: >-
+          <p><span style="font-family:Signika, sans-serif">The Dragon Below is a
+          selfish force. It embodies a lust for power and holds within itself
+          the trophies of its abuse. The Daelkyr and the demon Overlords are
+          bound deep within Khyber's caverns, and even on the surface world its
+          magic is used to trap elementals into servitude.</span></p><p
+          style="box-sizing:border-box;user-select:text;margin:0.5em
+          0px;color:rgb(25, 24, 19);font-family:Signika,
+          sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+          style="font-family:Signika, sans-serif">A pact with the Dragon Below
+          is not merely a gift of power from the underworld: it is a tool to
+          take that power from other creatures</span></p>
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716433972898
+      modifiedTime: 1716433981286
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!2RIxxNIp3esFwe4A.RSD8sfqATDJfr1DL'
+  - sort: 300000
+    name: Siberys, the Dragon Above
+    type: subclass
+    _id: MiBSPaqYUzJ2NJs2
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    system:
+      item: Compendium.eberron-5e.classes.Item.DB4Nbyw84lao4Lxt
+      description:
+        value: >-
+          <p><span style="font-family:Signika, sans-serif">Siberys may have been
+          killed by Khyber, but yet it reveals its will in the dance of stars
+          and dragonshards that light the sky. The dragons who were born from
+          the blood of their fallen father still seek its wisdom in the
+          Prophecy.</span></p><p
+          style="box-sizing:border-box;user-select:text;margin:0.5em
+          0px;color:rgb(25, 24, 19);font-family:Signika,
+          sans-serif;font-size:13px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+          style="font-family:Signika, sans-serif">A warlock who has made a pact
+          with the Dragon Above may need to read the Prophecy to understand
+          their purpose. However, all wise creatures know that Siberys stands
+          against the darkness of the Dragon Below.</span></p>
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      systemId: dnd5e
+      systemVersion: 3.2.0
+      coreVersion: '11.315'
+      createdTime: 1716433996612
+      modifiedTime: 1716434008249
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!2RIxxNIp3esFwe4A.MiBSPaqYUzJ2NJs2'
+folder: K7D9TeJ6y6Z4mTe0
+sort: 125000
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  systemId: dnd5e
+  systemVersion: 3.2.0
+  coreVersion: '11.315'
+  createdTime: 1716433908931
+  modifiedTime: 1716434008249
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!journal!2RIxxNIp3esFwe4A'
+

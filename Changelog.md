@@ -3,6 +3,8 @@
 ## 0.9.5
 
 - Increased minimum system version to 3.2
+- Added enchantments to Artificer infusions
+- Added journal entries for each book with subclass pages in the Journals compendium
 
 ## 0.9.4
 
