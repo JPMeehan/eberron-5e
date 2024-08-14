@@ -351,6 +351,11 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
   width: 1
   height: 1
   lockRotation: false
@@ -381,6 +386,9 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
+    negative: false
+    priority: 0
+    color: null
   sight:
     enabled: false
     range: 120
@@ -390,6 +398,7 @@ prototypeToken:
     brightness: 0
     saturation: -1
     contrast: 0
+    color: null
   detectionModes: []
   flags:
     tagger:
@@ -398,6 +407,18 @@ prototypeToken:
         - ddb-importer
         - aberration
   randomImg: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 items:
   - name: Tentacles
     type: weapon
@@ -504,10 +525,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.327'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.LXgbAsxMdc9KuhZY'
   - name: Extract Brain
     type: weapon
@@ -614,10 +637,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.327'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.C4tTWP6vhBqF30lT'
   - name: Mind Blast
     type: feat
@@ -708,10 +733,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: null
       modifiedTime: 1709137821493
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.V5WRhdT83mOZkwLv'
   - name: Psionic Resistance
     type: feat
@@ -797,10 +824,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: null
       modifiedTime: 1709085076612
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.ng3eDgKW8Nae3UyB'
   - name: Innate Spellcasting (Psionics)
     type: feat
@@ -889,16 +918,25 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: null
       modifiedTime: 1709085137911
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.35BieXTVvkts0GJ0'
   - folder: ND8imwT4ZNwNEWzm
     name: Mystic Traveler
     type: prime-psionics.power
     img: icons/magic/symbols/runes-star-orange-purple.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You or one willing creature you touch become a mystic traveler,
@@ -987,10 +1025,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706766922765
       modifiedTime: 1709160695161
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.Gkt1NW0CDxiZqEvT
+      duplicateSource: null
     _id: fhQdn5xz9Uw1uwyh
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.fhQdn5xz9Uw1uwyh'
@@ -999,6 +1039,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/light/explosion-star-teal-purple.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>When you manifest this augment, and as your action on each turn
@@ -1086,10 +1133,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706766922765
       modifiedTime: 1709160685171
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.9KMC1vrdMCIwlnBz
+      duplicateSource: null
     _id: 2nAShlWqhTBOgJ6U
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.2nAShlWqhTBOgJ6U'
@@ -1098,6 +1147,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/control/energy-stream-link-white.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You suspend gravity around you and seize control of the angular
@@ -1179,10 +1235,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706766922765
       modifiedTime: 1709160690133
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.xU538OkJcqCnZf6F
+      duplicateSource: null
     _id: r5Os0HoxQ0oCXvm4
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.r5Os0HoxQ0oCXvm4'
@@ -1191,6 +1249,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/air/air-burst-spiral-large-pink.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>Your force of will overwhelms another creature, allowing you to
@@ -1274,10 +1339,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706766922765
       modifiedTime: 1709160704849
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.bSpi5PEqAFnzyuPb
+      duplicateSource: null
     _id: jqYG1oUt7Fna5TMx
     sort: 300000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.jqYG1oUt7Fna5TMx'
@@ -1286,6 +1353,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/symbols/runes-star-pentagon-orange-purple.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You lead a caravan of two or more willing mystic travelers
@@ -1401,10 +1475,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706766922765
       modifiedTime: 1709160700533
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.kP7HCc2ClFR8CtJ4
+      duplicateSource: null
     _id: QzjsO9Qw5WdxbXAH
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.QzjsO9Qw5WdxbXAH'
@@ -1511,10 +1587,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1661787233661
       modifiedTime: 1709137749829
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: Compendium.dnd5e.items.Item.SK2HATQ4abKUlV8i
+      duplicateSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.IKwVCSKnF8rdAKgW'
   - name: Psionic Powers
     type: feat
@@ -1600,16 +1678,25 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1709170219962
       modifiedTime: 1709170258408
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.nRhkr6QAHkb10AHQ'
   - folder: w6X11D83Q38dH29u
     name: Aura Beacon
     type: prime-psionics.power
     img: icons/magic/light/explosion-star-small-blue-yellow.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You visibly manifest your aura. While you focus, a bright light
@@ -1690,10 +1777,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709170270791
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.EHhtrVfGUWtnJkHJ
+      duplicateSource: null
     _id: 2V51kuJSlfESpZ4I
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.2V51kuJSlfESpZ4I'
@@ -1702,6 +1791,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/perception/shadow-stealth-eyes-purple.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>While you focus on this power, you can use your action to try to
@@ -1779,10 +1875,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709170277438
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.JGJJpNaxCenTIJbs
+      duplicateSource: null
     _id: VeHLnR3az7ifrwqz
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.VeHLnR3az7ifrwqz'
@@ -1791,6 +1889,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/fire/projectile-meteor-salvo-light-pink.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You hold your hand aloft and generate a font of pure energy within
@@ -1878,10 +1983,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709170280338
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.GFqC4YLyuafqKzkh
+      duplicateSource: null
     _id: yOu5YfAf2zMCKnyA
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.yOu5YfAf2zMCKnyA'
@@ -1890,6 +1997,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/perception/eye-slit-pink.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>While you focus on this power, you can use your action to target
@@ -1971,10 +2085,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709170283184
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.BkvZsA4L7JO6V0cu
+      duplicateSource: null
     _id: 0kjCmZGtADb72iSa
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.0kjCmZGtADb72iSa'
@@ -1983,6 +2099,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/control/energy-stream-link-teal.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You contact the mind of another creature you can see within range,
@@ -2068,10 +2191,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709170286605
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.Nsq6O1OYVxpHwN7O
+      duplicateSource: null
     _id: lE4cO2h8UxIdUNyp
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.lE4cO2h8UxIdUNyp'
@@ -2080,6 +2205,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You gain a prescient sense that improves your reflexive response to
@@ -2155,10 +2287,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709170290297
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.2osZIq5SqQraPP3b
+      duplicateSource: null
     _id: 0PWltJi13Ah2zTIo
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.0PWltJi13Ah2zTIo'
@@ -2167,6 +2301,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/air/wind-stream-blue-gray.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>Your body’s responses to your thoughts quicken, increasing your
@@ -2246,10 +2387,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709170292038
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.fEykoPdMhyl1FHi7
+      duplicateSource: null
     _id: s9FJoh0O5Ti5tuQi
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.s9FJoh0O5Ti5tuQi'
@@ -2258,6 +2401,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/control/energy-stream-link-teal.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>While you concentrate on this power, you know when a creature
@@ -2333,10 +2483,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709170300070
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.3PpKrPp5d0kyd22R
+      duplicateSource: null
     _id: QBnfDONivcnhAwlk
     sort: 300000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.QBnfDONivcnhAwlk'
@@ -2345,6 +2497,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/control/energy-stream-link-teal.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You ask a question of one creature that can see and hear you within
@@ -2425,10 +2584,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709170383702
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.Hy3i86X428HSGV6Z
+      duplicateSource: null
     _id: KWXcu0fxfETrTfHh
     sort: 200000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.KWXcu0fxfETrTfHh'
@@ -2437,6 +2598,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/control/energy-stream-link-teal.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>When you manifest this augment, you begin communicating
@@ -2522,10 +2690,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709170416633
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.eZnIxHtaYmIGPKyg
+      duplicateSource: null
     _id: RnDPX170GaDwnhuC
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.RnDPX170GaDwnhuC'
@@ -2534,6 +2704,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/air/wind-stream-blue-gray.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You store your potential energy and release it as a burst of
@@ -2616,10 +2793,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709170331688
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.LEU2NLVmvXXdKwIC
+      duplicateSource: null
     _id: ZGj6NfnWg0Q7zzU7
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.ZGj6NfnWg0Q7zzU7'
@@ -2628,6 +2807,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You open your mind to receive momentary insights from the future,
@@ -2710,10 +2896,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709170335747
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.pvEUEj3ZbJ1YAnM1
+      duplicateSource: null
     _id: 5ci33dcWnRm9rG0H
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.5ci33dcWnRm9rG0H'
@@ -2722,6 +2910,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/perception/eye-slit-pink.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You form your thoughts into a briefly perceptible whip of
@@ -2809,10 +3004,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709244182366
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.c3us4EBDldTC9H6l
+      duplicateSource: null
     _id: L1QZiI0Uo6F0p9or
     sort: 300000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.L1QZiI0Uo6F0p9or'
@@ -2821,6 +3018,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/control/energy-stream-link-teal.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You broadcast a short telepathic message of up to 25-words to every
@@ -2900,10 +3104,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709244184231
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.GUtIXCyS2gh16guI
+      duplicateSource: null
     _id: jdv93TBFXAvkHtQT
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.jdv93TBFXAvkHtQT'
@@ -2912,6 +3118,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/perception/shadow-stealth-eyes-purple.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You cloak yourself from sight. You are invisible to all creatures
@@ -2996,10 +3209,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709244185189
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.YwjCGAqsUd4g3enh
+      duplicateSource: null
     _id: hVQ5eALj2a5psKHw
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.hVQ5eALj2a5psKHw'
@@ -3008,6 +3223,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/light/explosion-star-small-blue-yellow.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You lens the light of your aura beacon into a coherent beam and
@@ -3091,10 +3313,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709244189573
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.YGYOrBHL6f50DPyR
+      duplicateSource: null
     _id: 5nuogmOZbHLH9OuS
     sort: 300000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.5nuogmOZbHLH9OuS'
@@ -3103,6 +3327,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/perception/eye-slit-pink.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You worm disrupting thoughts into the mind of a creature you can
@@ -3190,10 +3421,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709244193352
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.dg0xQO8xro4i1x3n
+      duplicateSource: null
     _id: ZwfYeYqA89MNqdfi
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.ZwfYeYqA89MNqdfi'
@@ -3202,6 +3435,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/air/wind-stream-blue-gray.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>When you are hit by an attack, you manifest this augment to
@@ -3279,10 +3519,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709244194269
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.kg622WTASI3VZZDE
+      duplicateSource: null
     _id: h35atjk7ERjVANy5
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.h35atjk7ERjVANy5'
@@ -3291,6 +3533,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You partially open your third eye, or the third eye of a willing
@@ -3381,10 +3630,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709244195762
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.drhGkzpXtBQo9pIQ
+      duplicateSource: null
     _id: BZt2kqEtQxAKCv5r
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.BZt2kqEtQxAKCv5r'
@@ -3393,6 +3644,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/fire/projectile-meteor-salvo-light-pink.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You mentally excite the air molecules before you, forming a wall of
@@ -3483,10 +3741,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709244205096
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.3YTHVhI4gCVUGqET
+      duplicateSource: null
     _id: Aayr3K2sBZGHkMKn
     sort: 200000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.Aayr3K2sBZGHkMKn'
@@ -3495,6 +3755,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/control/energy-stream-link-teal.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You mentally implant a suggested course of activity (limited to a
@@ -3595,10 +3862,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709244206339
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.djReedPCzTgHFqC7
+      duplicateSource: null
     _id: V6hEy4goaRl3qapz
     sort: 300000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.V6hEy4goaRl3qapz'
@@ -3607,6 +3876,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You create a psychic projection within 60 feet of you, hovering in
@@ -3694,10 +3970,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709244207953
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.3PriMeAw3Ifn41HF
+      duplicateSource: null
     _id: RqYpe3kzQJmsAXzZ
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.RqYpe3kzQJmsAXzZ'
@@ -3706,6 +3984,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/air/wind-stream-blue-gray.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You fold the fabric of reality and bore a doorway between two
@@ -3792,10 +4077,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709247930825
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.1FVY9FnfZbIhqMdz
+      duplicateSource: null
     _id: TEH6XbIipzfVT6jw
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.TEH6XbIipzfVT6jw'
@@ -3804,6 +4091,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/perception/eye-slit-pink.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You generate a crushing telepathic presence in a 20-foot cube
@@ -3887,10 +4181,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706750789644
       modifiedTime: 1709244217767
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.bfmr3S5AsubtQf9m
+      duplicateSource: null
     _id: P7cmJtToPZRkyZRV
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.P7cmJtToPZRkyZRV'
@@ -3948,10 +4244,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 3.0.3
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1708886046964
   modifiedTime: 1709247930825
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: 6y2sGHfJOr5XpbQN
 sort: 0
 _key: '!actors!6y2sGHfJOr5XpbQN'

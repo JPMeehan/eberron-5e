@@ -121,10 +121,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 3.0.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1686376733715
   modifiedTime: 1707003540025
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: 23TyYaYlvyrbOiEy
 sort: 200000
 _key: '!items!23TyYaYlvyrbOiEy'

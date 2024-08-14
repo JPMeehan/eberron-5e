@@ -3,6 +3,13 @@ name: Sixth Sense
 type: prime-psionics.power
 img: icons/magic/perception/orb-crystal-ball-scrying-blue.webp
 system:
+  htmlFields:
+    - description.value
+    - description.chat
+    - description.unidentified
+  filePathFields:
+    img:
+      - IMAGE
   description:
     value: >-
       <p>You gain a prescient sense that improves your reflexive response to
@@ -76,11 +83,13 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.3
-  coreVersion: '11.315'
+  systemVersion: 3.3.1
+  coreVersion: '12.330'
   createdTime: 1706750789644
-  modifiedTime: 1709167932728
+  modifiedTime: 1723671205292
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: 2osZIq5SqQraPP3b
 sort: 0
 _key: '!items!2osZIq5SqQraPP3b'

@@ -34,7 +34,7 @@ system:
   cover: null
   crewed: false
   target:
-    value: 1
+    value: '1'
     width: null
     units: ''
     type: creature
@@ -90,19 +90,30 @@ system:
   scaling:
     mode: level
     formula: 1d8
+  attack:
+    bonus: ''
+    flat: false
+  enchantment: null
+  summons: null
+  properties:
+    - somatic
+    - material
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
+  dnd5e: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '11.315'
+  systemVersion: 3.3.1
+  coreVersion: '12.330'
   createdTime: 1686367867221
-  modifiedTime: 1703816195775
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1723671206765
+  lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: Xixg7CTCDeBTLKy4
 sort: 0
 _key: '!items!Xixg7CTCDeBTLKy4'

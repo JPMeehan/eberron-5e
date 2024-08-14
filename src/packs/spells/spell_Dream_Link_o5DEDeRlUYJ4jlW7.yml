@@ -71,7 +71,7 @@ system:
   cover: null
   crewed: false
   target:
-    value: 10
+    value: '10'
     width: null
     units: ft
     type: radius
@@ -125,18 +125,28 @@ system:
   scaling:
     mode: none
     formula: ''
+  attack:
+    bonus: ''
+    flat: false
+  enchantment: null
+  summons: null
+  properties:
+    - somatic
 effects: []
 sort: 0
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '11.315'
+  systemVersion: 3.3.1
+  coreVersion: '12.330'
   createdTime: 1702707454921
-  modifiedTime: 1703817182155
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1723671206881
+  lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _key: '!items!o5DEDeRlUYJ4jlW7'
 

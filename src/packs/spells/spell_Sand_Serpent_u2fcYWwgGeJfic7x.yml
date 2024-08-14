@@ -33,7 +33,7 @@ system:
   cover: null
   crewed: false
   target:
-    value: 5
+    value: '5'
     width: 5
     units: ft
     type: wall
@@ -89,18 +89,31 @@ system:
   scaling:
     mode: level
     formula: 1d6
+  attack:
+    bonus: ''
+    flat: false
+  enchantment: null
+  summons: null
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
-flags: {}
+flags:
+  dnd5e: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '11.315'
+  systemVersion: 3.3.1
+  coreVersion: '12.330'
   createdTime: 1704148452106
-  modifiedTime: 1704159786767
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1723671206915
+  lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _key: '!items!u2fcYWwgGeJfic7x'
 

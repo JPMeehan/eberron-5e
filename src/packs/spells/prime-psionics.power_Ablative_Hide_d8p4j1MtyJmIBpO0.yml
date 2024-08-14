@@ -3,6 +3,13 @@ name: Ablative Hide
 type: prime-psionics.power
 img: icons/magic/defensive/armor-stone-skin.webp
 system:
+  htmlFields:
+    - description.value
+    - description.chat
+    - description.unidentified
+  filePathFields:
+    img:
+      - IMAGE
   description:
     value: >-
       <p>When you are hit by an attack, you can instantly transmogrify the outer
@@ -81,11 +88,13 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.3
-  coreVersion: '11.315'
+  systemVersion: 3.3.1
+  coreVersion: '12.330'
   createdTime: 1685921255391
-  modifiedTime: 1709168059880
+  modifiedTime: 1723671205384
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: d8p4j1MtyJmIBpO0
 sort: 600000
 _key: '!items!d8p4j1MtyJmIBpO0'

@@ -3,6 +3,13 @@ name: Gravitic Field
 type: prime-psionics.power
 img: icons/magic/control/energy-stream-link-white.webp
 system:
+  htmlFields:
+    - description.value
+    - description.chat
+    - description.unidentified
+  filePathFields:
+    img:
+      - IMAGE
   description:
     value: >-
       <p>You suspend gravity around you and seize control of the angular
@@ -80,11 +87,13 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.3
-  coreVersion: '11.315'
+  systemVersion: 3.3.1
+  coreVersion: '12.330'
   createdTime: 1706766922765
-  modifiedTime: 1709168043844
+  modifiedTime: 1723671205416
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: xU538OkJcqCnZf6F
 sort: 200000
 _key: '!items!xU538OkJcqCnZf6F'

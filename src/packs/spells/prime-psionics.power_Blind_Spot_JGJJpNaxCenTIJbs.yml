@@ -3,6 +3,13 @@ name: Blind Spot
 type: prime-psionics.power
 img: icons/magic/perception/shadow-stealth-eyes-purple.webp
 system:
+  htmlFields:
+    - description.value
+    - description.chat
+    - description.unidentified
+  filePathFields:
+    img:
+      - IMAGE
   description:
     value: >-
       <p>While you focus on this power, you can use your action to try to erase
@@ -78,11 +85,13 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.3
-  coreVersion: '11.315'
+  systemVersion: 3.3.1
+  coreVersion: '12.330'
   createdTime: 1706750789644
-  modifiedTime: 1709167775690
+  modifiedTime: 1723671205321
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: JGJJpNaxCenTIJbs
 sort: 0
 _key: '!items!JGJJpNaxCenTIJbs'

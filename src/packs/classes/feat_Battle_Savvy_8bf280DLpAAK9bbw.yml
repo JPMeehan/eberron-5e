@@ -71,7 +71,6 @@ img: icons/svg/book.svg
 flags: {}
 effects:
   - name: Battle Savvy
-    icon: icons/svg/book.svg
     origin: Compendium.eberron-5e.classes.Item.8bf280DLpAAK9bbw
     duration:
       startTime: null
@@ -87,6 +86,7 @@ effects:
       - key: system.attributes.init.bonus
         mode: 2
         value: '@abilities.int.mod'
+        priority: null
     description: ''
     transfer: true
     statuses: []
@@ -106,17 +106,32 @@ effects:
         hostile: false
         onlyOnce: false
         wallsBlock: system
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.327'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/svg/book.svg
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!8bf280DLpAAK9bbw.T3zNEJoF1oXvoSdg'
 folder: 5Oy6Dulk9VEw6pKB
 _id: 8bf280DLpAAK9bbw
 _stats:
   systemId: dnd5e
   systemVersion: 3.1.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1686418393411
   modifiedTime: 1711331622538
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 sort: 3000
 ownership:
   default: 0

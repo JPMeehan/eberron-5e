@@ -76,7 +76,6 @@ system:
       type: weapon
 effects:
   - name: Resistance Breaker
-    icon: icons/magic/symbols/rune-sigil-hook-white-red.webp
     flags:
       dnd5e:
         type: enchantment
@@ -106,6 +105,7 @@ effects:
       - key: name
         mode: 5
         value: Resistance Breaker {}
+        priority: null
     disabled: false
     duration:
       startTime: null
@@ -124,7 +124,20 @@ effects:
     origin: null
     transfer: false
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.327'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/magic/symbols/rune-sigil-hook-white-red.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!Eua045sS7DQwdJnV.XA41qgpXYHs3GuuP'
 ownership:
   default: 0
@@ -134,10 +147,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 3.2.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1687054583454
   modifiedTime: 1716395886358
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: Eua045sS7DQwdJnV
 sort: 600000
 _key: '!items!Eua045sS7DQwdJnV'

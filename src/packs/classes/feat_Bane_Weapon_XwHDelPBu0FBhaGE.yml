@@ -84,7 +84,6 @@ system:
   properties: []
 effects:
   - name: Bane Weapon
-    icon: icons/magic/symbols/mask-yellow-orange.webp
     flags:
       dnd5e:
         type: enchantment
@@ -147,7 +146,20 @@ effects:
     origin: null
     transfer: false
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.327'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/magic/symbols/mask-yellow-orange.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!XwHDelPBu0FBhaGE.9gAcACJ1FhFpwN0a'
 sort: 100000
 ownership:
@@ -157,9 +169,11 @@ flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 3.2.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1687054583454
   modifiedTime: 1716395828123
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _key: '!items!XwHDelPBu0FBhaGE'
 

@@ -34,10 +34,12 @@ pages:
     _stats:
       systemId: dnd5e
       systemVersion: 3.2.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1716434103858
       modifiedTime: 1716434119938
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: null
+      duplicateSource: null
     _key: '!journal.pages!a4ZGRt8KlBmtAb5J.uko60hVO8KEdVvpf'
 sort: 0
 ownership:
@@ -47,9 +49,11 @@ flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 3.2.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1716434096002
   modifiedTime: 1716434119938
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _key: '!journal!a4ZGRt8KlBmtAb5J'
 

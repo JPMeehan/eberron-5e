@@ -74,10 +74,12 @@ folder: M8AyGcZ3UAB4rZHi
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1685144917771
   modifiedTime: 1703911612227
   lastModifiedBy: MVioF9x1qI1WYGx1
+  compendiumSource: null
+  duplicateSource: null
 _id: D7eV0kUG8C92l2gj
 sort: 5000
 _key: '!items!D7eV0kUG8C92l2gj'

@@ -144,10 +144,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1700446215397
   modifiedTime: 1703881290861
   lastModifiedBy: MVioF9x1qI1WYGx1
+  compendiumSource: null
+  duplicateSource: null
 _id: JJH3QOZUEVkijthn
 sort: 200000
 _key: '!items!JJH3QOZUEVkijthn'

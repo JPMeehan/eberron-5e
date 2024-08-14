@@ -73,10 +73,12 @@ _id: aFUMDkAPuy45p19H
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1686418598216
   modifiedTime: 1703911612460
   lastModifiedBy: MVioF9x1qI1WYGx1
+  compendiumSource: null
+  duplicateSource: null
 sort: 3000
 ownership:
   default: 0

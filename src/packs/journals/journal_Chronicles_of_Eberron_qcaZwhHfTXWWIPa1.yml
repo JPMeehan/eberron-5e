@@ -32,10 +32,12 @@ pages:
     _stats:
       systemId: dnd5e
       systemVersion: 3.2.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1716397307921
       modifiedTime: 1716432412511
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: null
+      duplicateSource: null
     _key: '!journal.pages!qcaZwhHfTXWWIPa1.CWUDRdXrMPIKhNEv'
   - sort: 200000
     name: Aspiration Domain
@@ -68,10 +70,12 @@ pages:
     _stats:
       systemId: dnd5e
       systemVersion: 3.2.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1716397337269
       modifiedTime: 1716432412453
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: null
+      duplicateSource: null
     _key: '!journal.pages!qcaZwhHfTXWWIPa1.oWguxmyypFlQIrTm'
   - sort: 300000
     name: Oath of Veneration
@@ -114,10 +118,12 @@ pages:
     _stats:
       systemId: dnd5e
       systemVersion: 3.2.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1716397350566
       modifiedTime: 1716432412467
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: null
+      duplicateSource: null
     _key: '!journal.pages!qcaZwhHfTXWWIPa1.YvKb4c7UTRLScAdf'
   - sort: 400000
     name: Dark Petitioner
@@ -156,10 +162,12 @@ pages:
     _stats:
       systemId: dnd5e
       systemVersion: 3.2.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1716397368959
       modifiedTime: 1716432412493
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: null
+      duplicateSource: null
     _key: '!journal.pages!qcaZwhHfTXWWIPa1.sOJmwNEo5nQTWvsA'
 folder: 1wQBRGfu5I72bywP
 sort: 100000
@@ -170,9 +178,11 @@ flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 3.2.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1716397255943
   modifiedTime: 1716433924256
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _key: '!journal!qcaZwhHfTXWWIPa1'
 

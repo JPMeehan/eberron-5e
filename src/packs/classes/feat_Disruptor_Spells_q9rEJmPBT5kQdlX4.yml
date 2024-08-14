@@ -81,10 +81,12 @@ _id: q9rEJmPBT5kQdlX4
 _stats:
   systemId: dnd5e
   systemVersion: 3.1.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1686418394728
   modifiedTime: 1711332429632
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 sort: 3000
 ownership:
   default: 0

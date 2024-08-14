@@ -85,10 +85,12 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '11.315'
+  systemVersion: 3.3.1
+  coreVersion: '12.330'
   createdTime: 1702707662562
-  modifiedTime: 1707007914854
+  modifiedTime: 1723671205320
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _key: '!items!ILkx9bHgiIp2B9kC'
 

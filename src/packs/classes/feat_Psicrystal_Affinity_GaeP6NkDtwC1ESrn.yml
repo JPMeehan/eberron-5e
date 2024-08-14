@@ -140,10 +140,12 @@ effects: []
 _stats:
   systemId: dnd5e
   systemVersion: 3.1.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1686418371462
   modifiedTime: 1711331800021
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 folder: MVHoTydfDvrOUgvY
 _id: GaeP6NkDtwC1ESrn
 sort: 3000

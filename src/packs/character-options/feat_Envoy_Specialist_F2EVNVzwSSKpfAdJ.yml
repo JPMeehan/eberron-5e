@@ -86,10 +86,12 @@ folder: qQfshd6Ve28n209Q
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1686370356619
   modifiedTime: 1702848545890
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: F2EVNVzwSSKpfAdJ
 sort: 0
 _key: '!items!F2EVNVzwSSKpfAdJ'

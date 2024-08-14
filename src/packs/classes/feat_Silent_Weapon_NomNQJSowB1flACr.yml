@@ -77,7 +77,6 @@ system:
       type: weapon
 effects:
   - name: Silent Weapon
-    icon: icons/magic/symbols/arrowhead-green.webp
     flags:
       dnd5e:
         type: enchantment
@@ -134,7 +133,20 @@ effects:
     origin: null
     transfer: false
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.327'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/magic/symbols/arrowhead-green.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!NomNQJSowB1flACr.LDIEDVr4xUPKLLQk'
 ownership:
   default: 0
@@ -144,10 +156,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 3.2.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1687054583454
   modifiedTime: 1716396089199
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: NomNQJSowB1flACr
 sort: 700000
 _key: '!items!NomNQJSowB1flACr'

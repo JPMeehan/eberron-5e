@@ -35,7 +35,7 @@ system:
   cover: null
   crewed: false
   target:
-    value: null
+    value: ''
     width: null
     units: ''
     type: ''
@@ -91,18 +91,29 @@ system:
   scaling:
     mode: none
     formula: ''
+  attack:
+    bonus: ''
+    flat: false
+  enchantment: null
+  summons: null
+  properties:
+    - somatic
+    - material
 effects: []
 sort: 0
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '11.315'
+  systemVersion: 3.3.1
+  coreVersion: '12.330'
   createdTime: 1702707640212
-  modifiedTime: 1702848255841
+  modifiedTime: 1723671206610
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _key: '!items!K0G9uOGb4lTKTZju'
 

@@ -310,6 +310,11 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
   width: 1
   height: 1
   lockRotation: false
@@ -340,6 +345,9 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
+    negative: false
+    priority: 0
+    color: null
   sight:
     enabled: false
     range: 0
@@ -349,9 +357,22 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
+    color: null
   detectionModes: []
   flags: {}
   randomImg: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 items:
   - name: Multiattack
     type: feat
@@ -425,10 +446,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065747659
       modifiedTime: 1701065747659
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.bMdKc2pCPjZeWBOT'
   - name: Greataxe
     type: weapon
@@ -536,10 +559,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065747778
       modifiedTime: 1701065747778
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.PpdjcC4ir4gGLMfr'
   - name: Crusader Stances
     type: feat
@@ -625,10 +650,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065747875
       modifiedTime: 1701065747875
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.TINd4DZeNt5ms66b'
   - name: Furious Retaliation
     type: feat
@@ -708,10 +735,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065747942
       modifiedTime: 1701065747942
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.eIF94K9UnDz1DRVD'
   - name: Crusader Maneuvers (1/turn)
     type: feat
@@ -789,10 +818,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065748184
       modifiedTime: 1701065748184
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.FToQfyJ9qWm3Gu84'
   - name: Distracting Strike
     type: feat
@@ -868,10 +899,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065748256
       modifiedTime: 1701065748256
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.QXhew0GrAafogrvK'
   - name: Revitalizing Strike
     type: feat
@@ -945,10 +978,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065748342
       modifiedTime: 1701065748342
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.t1QntRiRbmFTjHPd'
   - name: Stone Vise
     type: feat
@@ -1024,10 +1059,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065748422
       modifiedTime: 1701065748422
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.0BLxUb2cgFjQsTzw'
   - name: Foehammer
     type: feat
@@ -1103,10 +1140,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065748502
       modifiedTime: 1701065748502
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.Cn1SDu4kVLCVOVCw'
   - name: Guiding Smite
     type: feat
@@ -1183,10 +1222,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065748571
       modifiedTime: 1701065748571
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.FVFX2MSk7q8U56cA'
 effects: []
 ownership:
@@ -1198,10 +1239,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1701065747481
   modifiedTime: 1702848184332
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: 7mpbNFoXjtml7DHr
 sort: 0
 _key: '!actors!7mpbNFoXjtml7DHr'

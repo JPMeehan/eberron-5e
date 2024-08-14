@@ -78,10 +78,12 @@ effects: []
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1686418384036
   modifiedTime: 1703911612454
   lastModifiedBy: MVioF9x1qI1WYGx1
+  compendiumSource: null
+  duplicateSource: null
 folder: MVHoTydfDvrOUgvY
 _id: zs2dPIptOgE1pz0c
 sort: 15000

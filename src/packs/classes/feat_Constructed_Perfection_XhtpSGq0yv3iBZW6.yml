@@ -69,7 +69,6 @@ system:
     charged: false
 effects:
   - name: Constructed Perfection
-    icon: icons/svg/book.svg
     origin: Compendium.eberron-5e.classes.Item.XhtpSGq0yv3iBZW6
     duration:
       startTime: null
@@ -125,7 +124,20 @@ effects:
         hostile: false
         onlyOnce: false
         wallsBlock: system
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.327'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/svg/book.svg
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!XhtpSGq0yv3iBZW6.LIZJwe7zOJImUxKc'
 sort: 14000
 ownership:
@@ -136,9 +148,11 @@ flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 3.1.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1700548464551
   modifiedTime: 1711331127346
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _key: '!items!XhtpSGq0yv3iBZW6'
 

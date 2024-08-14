@@ -89,10 +89,12 @@ folder: 77LP2bOE5vCNpeve
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1686370356550
   modifiedTime: 1702848531610
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: shSnsK46FmtI9QDk
 sort: 0
 _key: '!items!shSnsK46FmtI9QDk'

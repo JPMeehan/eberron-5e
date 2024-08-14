@@ -307,6 +307,11 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
   width: 1
   height: 1
   lockRotation: false
@@ -337,6 +342,9 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
+    negative: false
+    priority: 0
+    color: null
   sight:
     enabled: false
     range: 60
@@ -346,9 +354,22 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
+    color: null
   detectionModes: []
   flags: {}
   randomImg: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 items:
   - name: Multiattack
     type: feat
@@ -424,10 +445,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.1
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1704070285265
       modifiedTime: 1704070285265
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.Rrxsl6UeYefvQAsf'
   - name: Rend
     type: feat
@@ -503,10 +526,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.1
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1704070285360
       modifiedTime: 1704070285360
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.BFFRgDjoZRrAWAhR'
   - name: Mind Strike
     type: feat
@@ -582,10 +607,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.1
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1704070285504
       modifiedTime: 1704070285504
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.dRNgvS8CZDi11pKS'
   - name: Burning Rage (Fury Only)
     type: feat
@@ -662,10 +689,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.1
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1704070285694
       modifiedTime: 1704070285694
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.H27dO76jZQOZxTT7'
   - name: Jump Scare (Fear Only)
     type: feat
@@ -746,10 +775,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.1
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1704070285785
       modifiedTime: 1704070285785
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.nuMVdc7FgNpltCMS'
   - name: Blissful Touch (Joy Only)
     type: feat
@@ -828,10 +859,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.1
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1704070285897
       modifiedTime: 1704070285897
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.LmDGNnUxYd91BqZg'
   - name: Empathic Feedback (Joy Only)
     type: feat
@@ -912,10 +945,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.1
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1704070285991
       modifiedTime: 1704070285991
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.SlPsaVtgMMcdPab1'
   - name: Aura Of Apathy (Despair Only)
     type: feat
@@ -993,10 +1028,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.1
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1704070286457
       modifiedTime: 1704070286457
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.G8qgEp4ZqDeG1Pxc'
   - name: Spider Climb (Fear Only)
     type: feat
@@ -1072,10 +1109,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.1
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1704070286483
       modifiedTime: 1704070286483
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.a574O1VXKObP9tNR'
   - name: Unassailable Presence (Pride Only)
     type: feat
@@ -1151,10 +1190,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.1
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1704070286556
       modifiedTime: 1704070286556
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.tISNB6dzIjH8oFPW'
 effects: []
 ownership:
@@ -1165,10 +1206,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1704070285040
   modifiedTime: 1704070378255
   lastModifiedBy: MVioF9x1qI1WYGx1
+  compendiumSource: null
+  duplicateSource: null
 _id: CoKtmiQhTHaapgqc
 sort: 0
 _key: '!actors!CoKtmiQhTHaapgqc'

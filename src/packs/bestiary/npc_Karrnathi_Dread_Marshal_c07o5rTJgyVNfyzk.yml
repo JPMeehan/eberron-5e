@@ -322,6 +322,11 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
   width: 1
   height: 1
   lockRotation: false
@@ -352,6 +357,9 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
+    negative: false
+    priority: 0
+    color: null
   sight:
     enabled: false
     range: 60
@@ -361,9 +369,22 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
+    color: null
   detectionModes: []
   flags: {}
   randomImg: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 items:
   - name: Greatsword
     type: weapon
@@ -471,10 +492,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065477174
       modifiedTime: 1701065477174
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!c07o5rTJgyVNfyzk.c46mMrxzghN4u6gu'
   - name: Vampiric Siphon
     type: weapon
@@ -583,10 +606,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065477316
       modifiedTime: 1701065477316
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!c07o5rTJgyVNfyzk.SHzvTIqKev8IVRP9'
   - name: Aura Of Night
     type: feat
@@ -677,10 +702,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065477475
       modifiedTime: 1701065477475
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!c07o5rTJgyVNfyzk.GVP1N2WjHmlVZkjW'
   - name: Undead Fortitude
     type: feat
@@ -758,10 +785,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065478047
       modifiedTime: 1701065478047
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!c07o5rTJgyVNfyzk.Iwd8TyJiqL5e142j'
 effects: []
 ownership:
@@ -773,10 +802,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1701065476968
   modifiedTime: 1702848184332
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: c07o5rTJgyVNfyzk
 sort: 200000
 _key: '!actors!c07o5rTJgyVNfyzk'

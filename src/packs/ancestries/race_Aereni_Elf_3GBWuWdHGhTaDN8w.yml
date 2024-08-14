@@ -176,10 +176,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 3.0.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1700378683464
   modifiedTime: 1707007961897
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: 3GBWuWdHGhTaDN8w
 sort: 100000
 _key: '!items!3GBWuWdHGhTaDN8w'

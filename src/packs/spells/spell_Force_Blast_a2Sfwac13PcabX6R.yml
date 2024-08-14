@@ -26,7 +26,7 @@ system:
   cover: null
   crewed: false
   target:
-    value: 0
+    value: '0'
     width: null
     units: ''
     type: ''
@@ -82,6 +82,14 @@ system:
   scaling:
     mode: cantrip
     formula: 1d8
+  attack:
+    bonus: ''
+    flat: false
+  enchantment: null
+  summons: null
+  properties:
+    - vocal
+    - somatic
 img: icons/magic/fire/projectile-fireball-orange-yellow.webp
 ownership:
   default: 0
@@ -93,15 +101,18 @@ flags:
     hash: force%20blast_exploringeberron
     propDroppable: spell
   core: {}
+  dnd5e: {}
 effects: []
 folder: 8HZDRNglvfgWO2oB
 _stats:
   systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '11.315'
+  systemVersion: 3.3.1
+  coreVersion: '12.330'
   createdTime: 1686367606324
-  modifiedTime: 1703816219296
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1723671206780
+  lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: a2Sfwac13PcabX6R
 sort: 100000
 _key: '!items!a2Sfwac13PcabX6R'

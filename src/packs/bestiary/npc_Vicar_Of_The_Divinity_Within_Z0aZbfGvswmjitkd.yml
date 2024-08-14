@@ -309,6 +309,11 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
   width: 1
   height: 1
   lockRotation: false
@@ -339,6 +344,9 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
+    negative: false
+    priority: 0
+    color: null
   sight:
     enabled: false
     range: 0
@@ -348,9 +356,22 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
+    color: null
   detectionModes: []
   flags: {}
   randomImg: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 items:
   - name: Blood Lash
     type: weapon
@@ -458,10 +479,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065795547
       modifiedTime: 1701065795547
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!Z0aZbfGvswmjitkd.ZwbCRj8NrCC4H4OO'
   - name: Spirit Guardians (5th-level Spell; Requires 2/day)
     type: feat
@@ -546,10 +569,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065795653
       modifiedTime: 1701065795653
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!Z0aZbfGvswmjitkd.Tdm2C388pfTWgPKo'
   - name: Spellcasting
     type: feat
@@ -630,10 +655,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065795735
       modifiedTime: 1701065795735
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!Z0aZbfGvswmjitkd.YPiIUaUoveLuhykR'
   - name: Healing Light (2nd-level Spell; 3/day)
     type: feat
@@ -712,10 +739,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065795817
       modifiedTime: 1701065795817
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!Z0aZbfGvswmjitkd.eb8ELlJEkv3m762Y'
   - name: Sentinel At Death’s Door (Recharges After A Short Or Long Rest)
     type: feat
@@ -795,10 +824,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065795902
       modifiedTime: 1701065795902
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!Z0aZbfGvswmjitkd.kN6unEVkYngnzbGF'
   - _id: TYqrfBeZrlE4OvOx
     name: Chain Mail
@@ -897,10 +928,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1661787233889
       modifiedTime: 1701065796152
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!Z0aZbfGvswmjitkd.TYqrfBeZrlE4OvOx'
   - name: Deny Mortality
     type: feat
@@ -977,10 +1010,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065796454
       modifiedTime: 1701065796454
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!Z0aZbfGvswmjitkd.r2MiQJWTQ68apdKX'
   - name: Faith’s Shield
     type: feat
@@ -1054,10 +1089,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065796540
       modifiedTime: 1701065796540
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!Z0aZbfGvswmjitkd.R77CYW50sk6Mz4xg'
 effects: []
 ownership:
@@ -1069,10 +1106,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1701065795332
   modifiedTime: 1702848184332
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: Z0aZbfGvswmjitkd
 sort: 0
 _key: '!actors!Z0aZbfGvswmjitkd'

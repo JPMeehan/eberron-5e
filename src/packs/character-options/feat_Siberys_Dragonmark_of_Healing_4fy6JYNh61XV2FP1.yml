@@ -79,10 +79,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 3.0.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1704525811527
   modifiedTime: 1707008007392
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: Compendium.eberron-5e.character-options.Item.SYaGobt5lRhuAr6h
+  duplicateSource: null
 sort: 100000
 _id: 4fy6JYNh61XV2FP1
 _key: '!items!4fy6JYNh61XV2FP1'

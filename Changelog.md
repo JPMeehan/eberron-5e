@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.5
+
+- Updated verified compatibility to 3.3.1 and v12
+- Migrated spells compendium to new data model
+
 ## 0.9.4
 
 - Increased minimum system version to 3.2

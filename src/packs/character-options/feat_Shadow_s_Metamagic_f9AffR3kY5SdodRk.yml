@@ -81,10 +81,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1686369149015
   modifiedTime: 1702848530186
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: f9AffR3kY5SdodRk
 sort: 0
 _key: '!items!f9AffR3kY5SdodRk'

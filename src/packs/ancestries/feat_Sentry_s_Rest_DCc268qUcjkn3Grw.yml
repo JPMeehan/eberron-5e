@@ -91,10 +91,12 @@ effects: []
 _stats:
   systemId: dnd5e
   systemVersion: 3.0.2
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1707350473720
   modifiedTime: 1707889453678
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: DCc268qUcjkn3Grw
 sort: 0
 ownership:

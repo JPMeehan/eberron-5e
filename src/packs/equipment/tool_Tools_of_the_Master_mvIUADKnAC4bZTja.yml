@@ -35,8 +35,7 @@ system:
   container: null
   properties: []
 effects:
-  - icon: icons/tools/hand/hammer-and-nail.webp
-    origin: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
+  - origin: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
     duration:
       startTime: null
       seconds: null
@@ -68,10 +67,22 @@ effects:
       core:
         sourceId: >-
           Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6.ActiveEffect.LsK0vzhJjjNLVtl0
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.327'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/tools/hand/hammer-and-nail.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!mvIUADKnAC4bZTja.LsK0vzhJjjNLVtl0'
-  - icon: icons/tools/hand/hammer-and-nail.webp
-    origin: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
+  - origin: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
     duration:
       startTime: null
       seconds: null
@@ -100,10 +111,22 @@ effects:
     transfer: true
     statuses: []
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.327'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/tools/hand/hammer-and-nail.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!mvIUADKnAC4bZTja.hGCA7e7A0tXhpNIv'
-  - icon: icons/tools/hand/hammer-and-nail.webp
-    origin: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
+  - origin: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
     duration:
       startTime: null
       seconds: null
@@ -131,7 +154,20 @@ effects:
     transfer: true
     statuses: []
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.327'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/tools/hand/hammer-and-nail.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!mvIUADKnAC4bZTja.agcGHfq3Cp1Onxsy'
 ownership:
   default: 0
@@ -141,10 +177,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 3.0.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1687066268181
   modifiedTime: 1707003540166
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: mvIUADKnAC4bZTja
 sort: 0
 _key: '!items!mvIUADKnAC4bZTja'

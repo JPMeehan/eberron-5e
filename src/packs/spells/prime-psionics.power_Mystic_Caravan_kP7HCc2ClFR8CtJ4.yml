@@ -3,6 +3,13 @@ name: Mystic Caravan
 type: prime-psionics.power
 img: icons/magic/symbols/runes-star-pentagon-orange-purple.webp
 system:
+  htmlFields:
+    - description.value
+    - description.chat
+    - description.unidentified
+  filePathFields:
+    img:
+      - IMAGE
   description:
     value: >-
       <p>You lead a caravan of two or more willing mystic travelers (creatures
@@ -112,11 +119,13 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.3
-  coreVersion: '11.315'
+  systemVersion: 3.3.1
+  coreVersion: '12.330'
   createdTime: 1706766922765
-  modifiedTime: 1709104621808
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1723671205389
+  lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: kP7HCc2ClFR8CtJ4
 sort: 100000
 _key: '!items!kP7HCc2ClFR8CtJ4'

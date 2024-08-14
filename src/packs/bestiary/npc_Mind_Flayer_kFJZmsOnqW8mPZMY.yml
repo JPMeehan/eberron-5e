@@ -347,6 +347,11 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
   width: 1
   height: 1
   lockRotation: false
@@ -377,6 +382,9 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
+    negative: false
+    priority: 0
+    color: null
   sight:
     enabled: false
     range: 120
@@ -386,6 +394,7 @@ prototypeToken:
     brightness: 0
     saturation: -1
     contrast: 0
+    color: null
   detectionModes: []
   flags:
     tagger:
@@ -394,6 +403,18 @@ prototypeToken:
         - ddb-importer
         - aberration
   randomImg: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 items:
   - name: Tentacles
     type: weapon
@@ -500,10 +521,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.327'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.LXgbAsxMdc9KuhZY'
   - name: Extract Brain
     type: weapon
@@ -610,10 +633,12 @@ items:
     _stats:
       systemId: null
       systemVersion: null
-      coreVersion: null
+      coreVersion: '12.327'
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.C4tTWP6vhBqF30lT'
   - name: Mind Blast
     type: feat
@@ -704,10 +729,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: null
       modifiedTime: 1709137821493
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.V5WRhdT83mOZkwLv'
   - name: Psionic Resistance
     type: feat
@@ -793,10 +820,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: null
       modifiedTime: 1709085076612
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.ng3eDgKW8Nae3UyB'
   - name: Innate Spellcasting (Psionics)
     type: feat
@@ -885,16 +914,25 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: null
       modifiedTime: 1709085137911
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.35BieXTVvkts0GJ0'
   - folder: ND8imwT4ZNwNEWzm
     name: Mystic Traveler
     type: prime-psionics.power
     img: icons/magic/symbols/runes-star-orange-purple.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You or one willing creature you touch become a mystic traveler,
@@ -983,10 +1021,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706766922765
       modifiedTime: 1709160695161
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.Gkt1NW0CDxiZqEvT
+      duplicateSource: null
     _id: fhQdn5xz9Uw1uwyh
     sort: 100000
     _key: '!actors.items!kFJZmsOnqW8mPZMY.fhQdn5xz9Uw1uwyh'
@@ -995,6 +1035,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/light/explosion-star-teal-purple.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>When you manifest this augment, and as your action on each turn
@@ -1082,10 +1129,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706766922765
       modifiedTime: 1709160685171
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.9KMC1vrdMCIwlnBz
+      duplicateSource: null
     _id: 2nAShlWqhTBOgJ6U
     sort: 0
     _key: '!actors.items!kFJZmsOnqW8mPZMY.2nAShlWqhTBOgJ6U'
@@ -1094,6 +1143,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/control/energy-stream-link-white.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You suspend gravity around you and seize control of the angular
@@ -1175,10 +1231,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706766922765
       modifiedTime: 1709160690133
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.xU538OkJcqCnZf6F
+      duplicateSource: null
     _id: r5Os0HoxQ0oCXvm4
     sort: 0
     _key: '!actors.items!kFJZmsOnqW8mPZMY.r5Os0HoxQ0oCXvm4'
@@ -1187,6 +1245,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/air/air-burst-spiral-large-pink.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>Your force of will overwhelms another creature, allowing you to
@@ -1270,10 +1335,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706766922765
       modifiedTime: 1709160704849
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.bSpi5PEqAFnzyuPb
+      duplicateSource: null
     _id: jqYG1oUt7Fna5TMx
     sort: 300000
     _key: '!actors.items!kFJZmsOnqW8mPZMY.jqYG1oUt7Fna5TMx'
@@ -1282,6 +1349,13 @@ items:
     type: prime-psionics.power
     img: icons/magic/symbols/runes-star-pentagon-orange-purple.webp
     system:
+      htmlFields:
+        - description.value
+        - description.chat
+        - description.unidentified
+      filePathFields:
+        img:
+          - IMAGE
       description:
         value: >-
           <p>You lead a caravan of two or more willing mystic travelers
@@ -1397,10 +1471,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1706766922765
       modifiedTime: 1709160700533
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: Compendium.eberron-5e.spells.Item.kP7HCc2ClFR8CtJ4
+      duplicateSource: null
     _id: QzjsO9Qw5WdxbXAH
     sort: 100000
     _key: '!actors.items!kFJZmsOnqW8mPZMY.QzjsO9Qw5WdxbXAH'
@@ -1507,10 +1583,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 3.0.3
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1661787233661
       modifiedTime: 1709137749829
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: Compendium.dnd5e.items.Item.SK2HATQ4abKUlV8i
+      duplicateSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.IKwVCSKnF8rdAKgW'
 effects: []
 folder: xXqW5zZE9axoFXIR
@@ -1563,10 +1641,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 3.0.3
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1708886046964
   modifiedTime: 1709160704849
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: kFJZmsOnqW8mPZMY
 sort: 0
 _key: '!actors!kFJZmsOnqW8mPZMY'

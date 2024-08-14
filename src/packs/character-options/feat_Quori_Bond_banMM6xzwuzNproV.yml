@@ -96,10 +96,12 @@ folder: pbprG9EdLDYnwbV6
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1686370356726
   modifiedTime: 1702848543356
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: banMM6xzwuzNproV
 sort: 0
 _key: '!items!banMM6xzwuzNproV'

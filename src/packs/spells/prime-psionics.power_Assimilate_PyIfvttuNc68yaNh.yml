@@ -3,6 +3,13 @@ name: Assimilate
 type: prime-psionics.power
 img: icons/magic/unholy/hand-light-green.webp
 system:
+  htmlFields:
+    - description.value
+    - description.chat
+    - description.unidentified
+  filePathFields:
+    img:
+      - IMAGE
   description:
     value: >-
       <p>You touch a creature and assimilate their life force and matter into
@@ -91,11 +98,13 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.3
-  coreVersion: '11.315'
+  systemVersion: 3.3.1
+  coreVersion: '12.330'
   createdTime: 1685921255391
-  modifiedTime: 1709104573482
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1723671205327
+  lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: PyIfvttuNc68yaNh
 sort: 200000
 _key: '!items!PyIfvttuNc68yaNh'

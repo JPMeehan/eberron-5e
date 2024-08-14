@@ -325,6 +325,11 @@ prototypeToken:
     offsetX: 0
     offsetY: 0
     rotation: 0
+    anchorX: 0.5
+    anchorY: 0.5
+    fit: contain
+    tint: '#ffffff'
+    alphaThreshold: 0.75
   width: 1
   height: 1
   lockRotation: false
@@ -355,6 +360,9 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
+    negative: false
+    priority: 0
+    color: null
   sight:
     enabled: false
     range: 0
@@ -364,9 +372,22 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
+    color: null
   detectionModes: []
   flags: {}
   randomImg: false
+  hexagonalShape: 0
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
 items:
   - name: Multiattack
     type: feat
@@ -442,10 +463,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065579065
       modifiedTime: 1701065579065
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!XazpHUmKIoLAcdbD.41HgHJ2K4qDyS46A'
   - name: Greatsword
     type: weapon
@@ -553,10 +576,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065579133
       modifiedTime: 1701065579133
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!XazpHUmKIoLAcdbD.irPAis6w9bQFxedz'
   - name: Toll The Dead (Cantrip)
     type: feat
@@ -637,10 +662,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065579226
       modifiedTime: 1701065579226
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!XazpHUmKIoLAcdbD.Uk2SXdKYqqmkYRud'
   - name: Spellcasting
     type: weapon
@@ -749,10 +776,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065579320
       modifiedTime: 1701065579320
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!XazpHUmKIoLAcdbD.AQte5Wxvw7OBlrNc'
   - name: Arcane Shield (1st-level Spell; 2/day)
     type: feat
@@ -832,10 +861,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065579425
       modifiedTime: 1701065579425
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!XazpHUmKIoLAcdbD.wfTdII2VvSFTWn7K'
   - name: Death Strike (3/day)
     type: feat
@@ -913,10 +944,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065579747
       modifiedTime: 1701065579747
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!XazpHUmKIoLAcdbD.XCbQmtRAdtrhyW8C'
   - name: Undead Fortitude
     type: feat
@@ -994,10 +1027,12 @@ items:
     _stats:
       systemId: dnd5e
       systemVersion: 2.4.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1701065579850
       modifiedTime: 1701065579850
       lastModifiedBy: MVioF9x1qI1WYGx1
+      compendiumSource: null
+      duplicateSource: null
     _key: '!actors.items!XazpHUmKIoLAcdbD.ykaWYlsfL8Cp0YLm'
 effects: []
 ownership:
@@ -1009,10 +1044,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1701065578906
   modifiedTime: 1702848184332
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: XazpHUmKIoLAcdbD
 sort: 300000
 _key: '!actors!XazpHUmKIoLAcdbD'

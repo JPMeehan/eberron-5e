@@ -36,10 +36,12 @@ pages:
     _stats:
       systemId: dnd5e
       systemVersion: 3.2.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1716396427438
       modifiedTime: 1716432395124
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: null
+      duplicateSource: null
     _key: '!journal.pages!pJ5KE5hAn3YJfIrv.hV7PxW7WpsUjPX8k'
   - sort: 200000
     name: Maverick
@@ -73,10 +75,12 @@ pages:
     _stats:
       systemId: dnd5e
       systemVersion: 3.2.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1716396443038
       modifiedTime: 1716432395196
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: null
+      duplicateSource: null
     _key: '!journal.pages!pJ5KE5hAn3YJfIrv.2VkmuPhQhGsRcEon'
   - sort: 300000
     name: College of the Dirge Singer
@@ -116,10 +120,12 @@ pages:
     _stats:
       systemId: dnd5e
       systemVersion: 3.2.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1716396640554
       modifiedTime: 1716432395164
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: null
+      duplicateSource: null
     _key: '!journal.pages!pJ5KE5hAn3YJfIrv.CyfKPU9FYF7Nr7sY'
   - sort: 400000
     name: Mind Domain
@@ -156,10 +162,12 @@ pages:
     _stats:
       systemId: dnd5e
       systemVersion: 3.2.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1716396670919
       modifiedTime: 1716432395137
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: null
+      duplicateSource: null
     _key: '!journal.pages!pJ5KE5hAn3YJfIrv.xGrmPGpCS2naCoWx'
   - sort: 500000
     name: Circle of the Forged
@@ -200,10 +208,12 @@ pages:
     _stats:
       systemId: dnd5e
       systemVersion: 3.2.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1716396694391
       modifiedTime: 1716432395264
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: null
+      duplicateSource: null
     _key: '!journal.pages!pJ5KE5hAn3YJfIrv.SFpsJRrDlAXrZLal'
   - sort: 600000
     name: Way of the Living Weapon
@@ -251,10 +261,12 @@ pages:
     _stats:
       systemId: dnd5e
       systemVersion: 3.2.0
-      coreVersion: '11.315'
+      coreVersion: '12.327'
       createdTime: 1716396710864
       modifiedTime: 1716432395237
       lastModifiedBy: q6n1efCGVB98drEQ
+      compendiumSource: null
+      duplicateSource: null
     _key: '!journal.pages!pJ5KE5hAn3YJfIrv.MUD3V8hsU8GurJnf'
 folder: 1wQBRGfu5I72bywP
 sort: 200000
@@ -265,9 +277,11 @@ flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 3.2.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1716396406398
   modifiedTime: 1716433924966
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _key: '!journal!pJ5KE5hAn3YJfIrv'
 

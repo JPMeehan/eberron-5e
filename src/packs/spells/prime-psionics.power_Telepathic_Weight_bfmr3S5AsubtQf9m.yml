@@ -3,6 +3,13 @@ name: Telepathic Weight
 type: prime-psionics.power
 img: icons/magic/perception/eye-slit-pink.webp
 system:
+  htmlFields:
+    - description.value
+    - description.chat
+    - description.unidentified
+  filePathFields:
+    img:
+      - IMAGE
   description:
     value: >-
       <p>You generate a crushing telepathic presence in a 20-foot cube within
@@ -84,11 +91,13 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.3
-  coreVersion: '11.315'
+  systemVersion: 3.3.1
+  coreVersion: '12.330'
   createdTime: 1706750789644
-  modifiedTime: 1709237352140
+  modifiedTime: 1723671205350
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: bfmr3S5AsubtQf9m
 sort: 0
 _key: '!items!bfmr3S5AsubtQf9m'

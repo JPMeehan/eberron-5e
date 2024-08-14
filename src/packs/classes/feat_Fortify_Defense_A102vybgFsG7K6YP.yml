@@ -77,8 +77,7 @@ system:
     restrictions:
       type: equipment
 effects:
-  - icon: icons/magic/symbols/rune-sigil-rough-white-teal.webp
-    origin: Item.c3ZN8i0tu8A8gaW3
+  - origin: Item.c3ZN8i0tu8A8gaW3
     duration:
       startTime: null
       seconds: null
@@ -100,10 +99,22 @@ effects:
     statuses: []
     flags:
       dnd5e: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.327'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!A102vybgFsG7K6YP.QGsTQ779fMSfKVsP'
   - name: Fortify Defense
-    icon: icons/magic/symbols/rune-sigil-rough-white-teal.webp
     flags:
       dnd5e:
         type: enchantment
@@ -160,7 +171,20 @@ effects:
     origin: null
     transfer: false
     statuses: []
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.327'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/magic/symbols/rune-sigil-rough-white-teal.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!A102vybgFsG7K6YP.VIDJ2ihhtkoqLlX9'
 ownership:
   default: 0
@@ -170,10 +194,12 @@ flags:
 _stats:
   systemId: dnd5e
   systemVersion: 3.2.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1687054583454
   modifiedTime: 1716395792692
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: A102vybgFsG7K6YP
 sort: 200000
 _key: '!items!A102vybgFsG7K6YP'

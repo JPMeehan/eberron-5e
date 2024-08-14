@@ -71,7 +71,6 @@ system:
     charged: false
 effects:
   - name: Adamantine Hide
-    icon: icons/svg/book.svg
     origin: Compendium.eberron-5e.classes.Item.ZzITkLBU7lqUtUCI
     duration:
       startTime: null
@@ -115,7 +114,20 @@ effects:
         hostile: false
         onlyOnce: false
         wallsBlock: system
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.327'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/svg/book.svg
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!ZzITkLBU7lqUtUCI.1YOIzCKN653CrCVS'
 sort: 10000
 ownership:
@@ -126,9 +138,11 @@ flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 3.1.0
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1700548432659
   modifiedTime: 1711331053981
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _key: '!items!ZzITkLBU7lqUtUCI'
 

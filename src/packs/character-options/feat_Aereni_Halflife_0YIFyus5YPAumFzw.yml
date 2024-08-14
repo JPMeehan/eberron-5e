@@ -79,8 +79,7 @@ flags:
     propDroppable: feat
   core: {}
 effects:
-  - icon: icons/magic/holy/yin-yang-balance-symbol.webp
-    origin: Compendium.chaosos-5e-content.kbp-backgrounds.Item.0YIFyus5YPAumFzw
+  - origin: Compendium.chaosos-5e-content.kbp-backgrounds.Item.0YIFyus5YPAumFzw
     duration:
       startTime: null
       seconds: null
@@ -107,16 +106,31 @@ effects:
     transfer: true
     statuses: []
     flags: {}
-    tint: null
+    tint: '#ffffff'
+    _stats:
+      coreVersion: '12.327'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+    img: icons/magic/holy/yin-yang-balance-symbol.webp
+    type: base
+    system: {}
+    sort: 0
     _key: '!items.effects!0YIFyus5YPAumFzw.Xa2Xp8VKS7xztXfx'
 folder: lPDAwbpFhVl0UkYJ
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1686370356496
   modifiedTime: 1702848532735
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 _id: 0YIFyus5YPAumFzw
 sort: 0
 _key: '!items!0YIFyus5YPAumFzw'

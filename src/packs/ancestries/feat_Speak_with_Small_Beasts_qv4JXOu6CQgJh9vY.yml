@@ -92,10 +92,12 @@ effects: []
 _stats:
   systemId: dnd5e
   systemVersion: 3.0.2
-  coreVersion: '11.315'
+  coreVersion: '12.327'
   createdTime: 1707350475913
   modifiedTime: 1707890538633
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
