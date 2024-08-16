@@ -1,0 +1,97 @@
+folder: tLMvRuu0dzQJEf5b
+name: Dark Gift of the Scar
+type: feat
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>Sakinnirot empowers you with its slow and patient hate. Each creature
+      that deals damage to you becomes your resented adversary for as long as
+      you have this dark gift. You have advantage on all attack rolls and
+      opposed ability checks against your resented adversaries. Additionally,
+      when you make an attack roll or opposed ability check against one of your
+      resented adversaries, you can choose to change the die result to a natural
+      20, after which this dark gift vanishes.</p>
+    chat: ''
+  source:
+    book: Chronicles of Eberron
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: supernaturalGift
+    subtype: blessing
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1723789530286
+  modifiedTime: 1723789858090
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: VQjHNFgpQnXii8H0
+sort: 0
+_key: '!items!VQjHNFgpQnXii8H0'
+

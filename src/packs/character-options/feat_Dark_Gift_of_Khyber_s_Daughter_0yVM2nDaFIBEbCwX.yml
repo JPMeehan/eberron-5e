@@ -1,0 +1,101 @@
+folder: tLMvRuu0dzQJEf5b
+name: Dark Gift of Khyber's Daughter
+type: feat
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>Tiamat kindles the rage of dragonfire within your heart. Once on your
+      turn when you make a weapon attack, you can replace that attack with an
+      exhalation of magical energy in a 30-foot line that is 5 feet wide. Each
+      creature in that area must make a Dexterity saving throw (DC = 8 + your
+      Constitution modifier + your proficiency bonus). On a failed save, the
+      creature takes 1d10 acid, cold, fire, lightning, or poison damage (your
+      choice). On a successful save, it takes half as much damage. This damage
+      increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and
+      17th level (4d10). You can use this breath weapon a number of times equal
+      to your proficiency bonus, and you regain all expended uses when you
+      finish a long rest.</p>
+    chat: ''
+  source:
+    book: Chronicles of Eberron
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: supernaturalGift
+    subtype: blessing
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1723789512566
+  modifiedTime: 1723789766467
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: 0yVM2nDaFIBEbCwX
+sort: 100000
+_key: '!items!0yVM2nDaFIBEbCwX'
+

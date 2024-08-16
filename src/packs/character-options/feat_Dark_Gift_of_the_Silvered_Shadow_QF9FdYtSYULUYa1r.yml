@@ -1,0 +1,97 @@
+folder: tLMvRuu0dzQJEf5b
+name: Dark Gift of the Silvered Shadow
+type: feat
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>With Bel Shalor’s gift, your mind opens to the darkness at the edge of
+      all mortal minds. When you see a creature cast a spell or use a magical
+      effect that would restore hit points to one or more other creatures, you
+      can use your reaction to instead cause that effect to deal necrotic damage
+      to each target equal to the number of hit points that would have been
+      restored. Once you use this feature, you can’t do so again until you
+      finish a short or long rest.</p>
+    chat: ''
+  source:
+    book: Chronicles of Eberron
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: supernaturalGift
+    subtype: blessing
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1723789511209
+  modifiedTime: 1723790643409
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: QF9FdYtSYULUYa1r
+sort: 600000
+_key: '!items!QF9FdYtSYULUYa1r'
+

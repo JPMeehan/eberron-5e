@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.6
+
+- Added supernatural gifts from Chronicles of Eberron
+
 ## 0.9.5
 
 - Updated verified compatibility to 3.3.1 and v12

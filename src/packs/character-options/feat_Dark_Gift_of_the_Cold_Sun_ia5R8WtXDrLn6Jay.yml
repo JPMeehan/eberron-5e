@@ -1,0 +1,101 @@
+folder: tLMvRuu0dzQJEf5b
+name: Dark Gift of the Cold Sun
+type: feat
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>Masvirik’s gifts seed primordial fears of all things that slither in
+      the dark. As an action, you can choose to emit an aura that impresses
+      these fears on other creatures for 1 minute. Each creature of your choice,
+      other than a reptilian or draconic creature, that starts its turn within
+      30 feet of you must succeed on a Wisdom saving throw or become frightened
+      of reptilian and draconic creatures. A frightened target can repeat the
+      saving throw at the end of each of its turns, ending the effect on itself
+      on a success. If a target’s saving throw is successful or the effect ends
+      for it, the target is immune to your aura for the next 24 hours. Once you
+      use this feature, you can’t do so again until you finish a short or long
+      rest.</p>
+    chat: ''
+  source:
+    book: Chronicles of Eberron
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: supernaturalGift
+    subtype: blessing
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1723789528080
+  modifiedTime: 1723789909969
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: ia5R8WtXDrLn6Jay
+sort: 200000
+_key: '!items!ia5R8WtXDrLn6Jay'
+
