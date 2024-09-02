@@ -3,7 +3,7 @@
   "title": "Eberron 5e",
   "version": "#{VERSION}#",
   "compatibility": {
-    "minimum": "11",
+    "minimum": "12",
     "verified": "12"
   },
   "relationships": {
@@ -35,7 +35,7 @@
       "flags": {}
     }
   ],
-  "description": "<p>A collection of Community Eberron content. Includes the following </p>\n<ol>\n<li>Exploring Eberron</li>\n<li>Chronicles of Eberron</li>\n<li>Dread Metrol</li>\n<li>Archetypes of Eberron</li>\n<li>Warlocks of Eberron</li>\n<li>Scales of Q'barra</li>\n<li>Map Perilous</li>\n<li>Threat Dispatch</li>\n<li>Sarhain's Guide to the Silver Flame</li>\n<li>Hektula's Khyber Codex</li>\n<li>Ghaash'kala: Paladins of the Wastes</li>\n<li>Psion's Primer</li>\n<li>Talvakri's Guide to Adar</li>\n<li>Linvakri's Guide to Syrkarn</li>\n<li>Giant Guide to Xen'drik</li>\n</ol>",
+  "description": "<p>A collection of Community Eberron content. Includes the following </p>\n<ol>\n<li>Exploring Eberron</li>\n<li>Chronicles of Eberron</li>\n<li>Fontiers of Eberron: Quickstone</li>\n<li>Dread Metrol</li>\n<li>Archetypes of Eberron</li>\n<li>Warlocks of Eberron</li>\n<li>Scales of Q'barra</li>\n<li>Map Perilous</li>\n<li>Threat Dispatch</li>\n<li>Sarhain's Guide to the Silver Flame</li>\n<li>Hektula's Khyber Codex</li>\n<li>Ghaash'kala: Paladins of the Wastes</li>\n<li>Psion's Primer</li>\n<li>Talvakri's Guide to Adar</li>\n<li>Linvakri's Guide to Syrkarn</li>\n<li>Giant Guide to Xen'drik</li>\n</ol>",
   "authors": [
     {
       "name": "Joseph Meehan",

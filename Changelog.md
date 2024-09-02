@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.0
+
+- Updated minimum compatibility to v12 & D&D 4.0
+- Added first draft of Frontiers of Eberron: Quickstone content
+
 ## 0.9.6
 
 - Added supernatural gifts from Chronicles of Eberron

@@ -26,6 +26,7 @@ const EBERRONCONFIG = {
       'Exploring Eberron': 'by Keith Baker',
       'Chronicles of Eberron': 'by Keith Baker',
       'Dread Metrol': 'by Keith Baker',
+      'Frontiers of Eberron: Quickstone': 'by Keith Baker & Imogen Gingell',
       'Archetypes of Eberron':
         'by Will Brolley, Imogen Gingell, Laura Hirsbrunner',
       'Warlocks of Eberron': 'by Imogen Gingell',
