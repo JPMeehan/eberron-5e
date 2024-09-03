@@ -2,7 +2,7 @@ folder: HjXAFxn8JtAat4Zb
 name: Commerce Domain
 type: subclass
 _id: 7HrPb3sLn20SsOIV
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/skills/social/theft-pickpocket-bribery-brown.webp
 system:
   description:
     value: >-
@@ -21,13 +21,53 @@ system:
     page: ''
     license: ''
   identifier: commerce-domain
-  classIdentifier: ''
-  advancement: []
+  classIdentifier: cleric
+  advancement:
+    - _id: YLW9gMR4zhWfflY7
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.EgqPS4EKzNdM94gD
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.tFjP65nD4Pc3WGrV
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.GprlZKZT83qBRKW0
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Divine Domain Feature
+      hint: ''
+    - _id: CgnnSjpr1vyhxXBz
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.BnJVMXXxTHQiyRH7
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Divine Domain Feature
+      hint: ''
+    - _id: OESoYCPt1NYDaWqQ
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.ki4g3jvEEhvkXUIH
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 17
+      title: Divine Domain Feature
+      hint: ''
   spellcasting:
     progression: none
     ability: ''
 effects: []
-sort: 0
+sort: 500
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -39,7 +79,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725335195013
-  modifiedTime: 1725335223437
+  modifiedTime: 1725343943455
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!7HrPb3sLn20SsOIV'
-

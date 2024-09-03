@@ -101,7 +101,7 @@ system:
             per: ''
       value: {}
       level: 3
-      title: Disruptor Spells
+      title: Artificer Specialist Feature
       icon: null
     - type: ItemGrant
       configuration:
@@ -116,7 +116,7 @@ system:
             per: ''
       value: {}
       level: 5
-      title: Disruptor Spells
+      title: Artificer Specialist Feature
       icon: null
       _id: kdruAaoE8CDpULnA
     - _id: qHAztc5TR0pVKbGL
@@ -133,7 +133,7 @@ system:
             per: ''
       value: {}
       level: 9
-      title: Disruptor Spells
+      title: Artificer Specialist Feature
       icon: null
     - _id: 8AZGGV5LhDMgfWLd
       type: ItemGrant
@@ -149,7 +149,7 @@ system:
             per: ''
       value: {}
       level: 13
-      title: Disruptor Spells
+      title: Artificer Specialist Feature
       icon: null
     - _id: JMctHdKBJtUuaQRt
       type: ItemGrant
@@ -165,7 +165,7 @@ system:
             per: ''
       value: {}
       level: 17
-      title: Disruptor Spells
+      title: Artificer Specialist Feature
       icon: null
   spellcasting:
     progression: none
@@ -186,4 +186,3 @@ _stats:
   compendiumSource: null
   duplicateSource: null
 _key: '!items!zCLB9LJrXbZRp6C2'
-

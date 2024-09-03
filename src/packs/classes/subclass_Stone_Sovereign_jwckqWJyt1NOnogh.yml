@@ -21,13 +21,65 @@ system:
     custom: ''
     license: ''
   identifier: stone-sovereign
-  classIdentifier: ''
-  advancement: []
+  classIdentifier: warlock
+  advancement:
+    - _id: Wdt8FhQTiRCNfUkk
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.JbQ8g1J2J6IqHv3c
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.DO7dgaJvQihs4E3F
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.TI0EDvY6CcDmyNQw
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Otherworldly Patron Feature
+      hint: ''
+    - _id: QVkRxNAN7N2aCCkg
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.HukQWA2mBKzxzHki
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Otherworldly Patron Feature
+      hint: ''
+    - _id: juxVoPhAzkadgfAB
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.uuMGSrSaRkJrhKM4
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Otherworldly Patron Feature
+      hint: ''
+    - _id: 4B9vWVdjkAHSkn2v
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.uQmhwy0kYqJz2NB7
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Otherworldly Patron Feature
+      hint: ''
   spellcasting:
     progression: none
     ability: ''
 effects: []
-sort: 0
+sort: 500
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -39,7 +91,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725337180868
-  modifiedTime: 1725337205447
+  modifiedTime: 1725344409544
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!jwckqWJyt1NOnogh'
-

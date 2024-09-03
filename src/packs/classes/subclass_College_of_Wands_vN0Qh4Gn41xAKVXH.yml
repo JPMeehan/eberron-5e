@@ -2,7 +2,7 @@ folder: Xg8J76jBldksf812
 name: College of Wands
 type: subclass
 _id: vN0Qh4Gn41xAKVXH
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/weapons/wands/wand-carved-fire.webp
 system:
   description:
     value: >-
@@ -18,13 +18,53 @@ system:
     custom: ''
     license: ''
   identifier: college-of-wands
-  classIdentifier: ''
-  advancement: []
+  classIdentifier: bard
+  advancement:
+    - _id: uZRimidrjkb97o2F
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.4AOwy1ESC80WntOA
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.rfCwfpAtdWm7cArG
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.SMJXpt9gRC2sf2LZ
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Bard College Feature
+      hint: ''
+    - _id: XkbR2M9uFe4ZGQv4
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.v5nZuhd6poJg0EMt
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Bard College Feature
+      hint: ''
+    - _id: k8Xb3LHlGIbZ57hN
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.YCNpZSgybBdXxDsu
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Bard College Feature
+      hint: ''
   spellcasting:
     progression: none
     ability: ''
 effects: []
-sort: 100000
+sort: 500
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -36,7 +76,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725334759649
-  modifiedTime: 1725334800470
+  modifiedTime: 1725343823260
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!vN0Qh4Gn41xAKVXH'
-

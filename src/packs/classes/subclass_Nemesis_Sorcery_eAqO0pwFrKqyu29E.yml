@@ -2,7 +2,7 @@ folder: mDN1hv6oqOmTKZxo
 name: Nemesis Sorcery
 type: subclass
 _id: eAqO0pwFrKqyu29E
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/defensive/shield-barrier-deflect-teal.webp
 system:
   description:
     value: >-
@@ -21,13 +21,63 @@ system:
     page: ''
     license: ''
   identifier: nemesis-sorcery
-  classIdentifier: ''
-  advancement: []
+  classIdentifier: sorcerer
+  advancement:
+    - _id: tmh2LbZy3OLhdyJb
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.PbCOc55yyOztK83f
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.OANUDYJX59e0ZaIW
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Sorcerous Origin Feature
+      hint: ''
+    - _id: LuV0bhrVipkoYLfY
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.DiHh0glKtWTjE3mV
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Sorcerous Origin Feature
+      hint: ''
+    - _id: WVSzuKLIjFi4Nr0v
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.8AO4F6kJ3gdp4cKa
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Sorcerous Origin Feature
+      hint: ''
+    - _id: znz45kc9ildNRoys
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.Apwysgr3ejQRcnPU
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 18
+      title: Sorcerous Origin Feature
+      hint: ''
   spellcasting:
     progression: none
     ability: ''
 effects: []
-sort: 100000
+sort: 500
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -39,7 +89,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725336490321
-  modifiedTime: 1725336535949
+  modifiedTime: 1725344303364
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!eAqO0pwFrKqyu29E'
-

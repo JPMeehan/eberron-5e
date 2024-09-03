@@ -2,7 +2,7 @@ folder: CeFvb0n1G7IiItir
 name: Bloodhound
 type: subclass
 _id: bFa0C4uMm4yRJUbB
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/skills/targeting/crosshair-mark-rough-pink.webp
 system:
   description:
     value: >-
@@ -84,8 +84,61 @@ system:
   spellcasting:
     progression: none
     ability: ''
+  advancement:
+    - _id: nYOK4PM2yebR3vck
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.hEwAp1ZbfA4zblR3
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.lgb2sMheOaOxUig7
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.UfVFOOefjBDlaRjO
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Ranger Archetype Feature
+      hint: ''
+    - _id: pT1ScyeiIbd4CKJa
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.U1yPOJ0zXapVPVS6
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Ranger Archetype Feature
+      hint: ''
+    - _id: tGwIUUDaFccZfNFn
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.f50UALw6JRAtxWti
+        optional: false
+        spell: null
+      value: {}
+      level: 11
+      title: Ranger Archetype Feature
+      hint: ''
+    - _id: PDTPZo9eHNoPZFfa
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.cRUWKiPa6QfFBdUK
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Ranger Archetype Feature
+      hint: ''
 effects: []
-sort: 0
+sort: 500
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -97,7 +150,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725335744352
-  modifiedTime: 1725335888332
+  modifiedTime: 1725344152173
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!bFa0C4uMm4yRJUbB'
-

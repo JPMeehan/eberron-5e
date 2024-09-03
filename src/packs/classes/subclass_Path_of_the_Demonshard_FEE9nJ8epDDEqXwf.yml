@@ -2,7 +2,7 @@ folder: PyxuSfFS9WdjyZ8d
 name: Path of the Demonshard
 type: subclass
 _id: FEE9nJ8epDDEqXwf
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/commodities/gems/gem-rough-cushion-purple.webp
 system:
   description:
     value: >-
@@ -23,7 +23,7 @@ system:
     custom: ''
     license: ''
   identifier: path-of-the-demonshard
-  classIdentifier: ''
+  classIdentifier: barbarian
   advancement:
     - _id: nMDnNcxESgFZKZpM
       type: Trait
@@ -43,11 +43,59 @@ system:
         Your demonshard grants you innate understanding of the languages of
         fiends. You can speak and understand
                                 your choice of either Abyssal or Infernal.
+    - _id: HdfpBye82buHboEj
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.pH6IufBRCZjyhkzv
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Path Feature
+      hint: ''
+    - _id: kE9CLhUrOTxqgCei
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.WRlMw0XCHiEdSmIv
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Path Feature
+      hint: ''
+    - _id: XhCWgL7BmGnQbJ3t
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.AkUiC62vcmsyhaB3
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 10
+      title: Path Feature
+      hint: ''
+    - _id: sCdypHFpm9WlGKNN
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.XBOxnIn7rgBVzc5e
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Path Feature
+      hint: ''
   spellcasting:
     progression: none
     ability: ''
 effects: []
-sort: 0
+sort: 500
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -59,7 +107,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725334116820
-  modifiedTime: 1725334738121
+  modifiedTime: 1725343706273
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!FEE9nJ8epDDEqXwf'
-
