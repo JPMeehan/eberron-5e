@@ -1,0 +1,41 @@
+folder: vHfVWDRpVZYv55bY
+name: Dragonmarked Bravo
+type: background
+_id: YgygRTlLVpIPfqE8
+img: systems/dnd5e/icons/svg/items/background.svg
+system:
+  description:
+    value: >-
+      <p>Your work for your house took advantage of your strength and speed.
+      Were you a mercenary fighting in the Last War? A guardian protecting your
+      family’s assets and interests? A laborer moving crates in a warehouse?
+      You’re a dragonmarked heir and still have good standing with your family,
+      but you find the freewheeling life of an adventurer to be more compelling
+      than following all the rules and regulations of one of the house
+      guilds.</p>
+    chat: ''
+  source:
+    book: 'Frontiers of Eberron: Quickstone'
+    page: ''
+    custom: ''
+    license: ''
+  startingEquipment: []
+  identifier: ''
+  advancement: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725337823358
+  modifiedTime: 1725337937731
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!YgygRTlLVpIPfqE8'
+

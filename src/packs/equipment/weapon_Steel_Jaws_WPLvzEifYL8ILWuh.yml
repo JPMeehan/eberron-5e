@@ -1,0 +1,118 @@
+folder: xm7kkq8tCfIvvkfX
+name: Steel Jaws
+type: weapon
+_id: WPLvzEifYL8ILWuh
+img: systems/dnd5e/icons/svg/items/weapon.svg
+system:
+  description:
+    value: >-
+      <p>Because they have no hands, worgs cannot wield weapons in the same way
+      that most player characters can. However, worgs can wield a specially
+      designed Martial Melee weapon called “Steel Jaws.” Only Worgs can wield
+      Steel Jaws, fitting as they do over a Worg’s teeth. A Worg cannot use its
+      Bite trait while it is wielding Steel Jaws.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Frontiers of Eberron: Quickstone'
+    page: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 2
+    units: lb
+  price:
+    value: 10
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
+  activation:
+    type: action
+    cost: 1
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: '1'
+    width: null
+    units: ''
+    type: creature
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: ''
+  actionType: mwak
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts:
+      - - 2d6 + @mod
+        - ''
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  armor:
+    value: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: martialM
+    baseItem: ''
+  magicalBonus: null
+  properties:
+    - fin
+  proficient: null
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags:
+  chaosos-5e-content:
+    weaponMastered: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725338771669
+  modifiedTime: 1725338866737
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!WPLvzEifYL8ILWuh'
+

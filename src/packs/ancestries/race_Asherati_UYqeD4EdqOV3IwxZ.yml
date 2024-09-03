@@ -92,6 +92,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: ''
 effects: []
 sort: 1600000
 ownership:
@@ -101,11 +102,11 @@ ownership:
 flags: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1700628336091
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1725338287246
+  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
 _key: '!items!UYqeD4EdqOV3IwxZ'

@@ -1,0 +1,93 @@
+folder: lDMG6f6gTK8V0OFD
+name: Medusa
+type: race
+_id: qQzoMnyMTKVIZInY
+img: systems/dnd5e/icons/svg/items/race.svg
+system:
+  description:
+    value: >-
+      <p>Medusas are infamous across Khorvaire for the deadly power of their
+      petrifying gaze. The medusas of Cazhaak Draal are one of the most powerful
+      forces within Droaam, renowned both for their remarkable stonework and
+      their deep devotion to the Dark Six; the Cazhaak Creed has become the most
+      widespread religion in Droaam. Medusas tend to be calm and calculating,
+      useful traits when a single glance can have devastating consequences.
+      </p><p>Medusa appearance varies by bloodline; some have scaled skin while
+      at a glance others appear to be carved from stone. All medusas have a mane
+      of writhing serpents, and they can use this mane to observe their
+      surroundings even when they are blindfolded or have their main eyes
+      closed. The petrifying gaze that medusa are famous for is something that
+      develops over time. Young medusas have a weaker form known as the Gray
+      Gaze, which eventually evolves into the Shadowswift Gaze that can petrify
+      creatures in an instant.</p>
+    chat: ''
+  source:
+    book: 'Frontiers of Eberron: Quickstone'
+    page: ''
+    custom: ''
+    license: ''
+  advancement:
+    - type: AbilityScoreImprovement
+      _id: FkOgwg31gC4PDj5h
+      configuration:
+        points: 0
+        fixed: {}
+        cap: 2
+      value:
+        type: asi
+      level: 0
+    - type: Size
+      _id: lQxbSO4zfII12CcF
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: Trait
+      configuration:
+        grants:
+          - languages:standard:common
+        mode: default
+        allowReplacements: false
+        choices: []
+      _id: I4xQHOxZr8mivJkn
+      value:
+        chosen: []
+      level: 0
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: 30
+    units: null
+    hover: false
+  senses:
+    darkvision: 60
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: monstrosity
+    custom: ''
+    subtype: ''
+  identifier: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725338493925
+  modifiedTime: 1725338559690
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!qQzoMnyMTKVIZInY'
+

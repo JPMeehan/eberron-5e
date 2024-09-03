@@ -1,0 +1,101 @@
+folder: lDMG6f6gTK8V0OFD
+name: Gargoyle
+type: race
+_id: rFxdTLIxbkvfgu22
+img: systems/dnd5e/icons/svg/items/race.svg
+system:
+  description:
+    value: >-
+      <p>Gargoyles are indistinguishable from stone statues… until they move. In
+      Eberron, the first gargoyles were carved by Dhakaani goblins, but it was
+      the daelkyr Orlassk who brought them to life. The oldest gargoyles have
+      been in a state of torpor for thousands of years. Now they have risen to
+      carve out a place of their own in the new nation of
+      Droaam.</p><p>Gargoyles are humanoids carved from stone. The horned,
+      winged form often associated with the gargoyle is a common design; in
+      Eberron the Dhakaani placed these fierce figures on fortresses. However,
+      gargoyles don’t have to have horns or wings, and they can alter their form
+      over time. Gargoyles reproduce by imbuing a sliver of their life force
+      into a stone and burying it in gravel; this seed assimilates mass from the
+      loose stone and builds its final form.</p><p>Gargoyles have no need of
+      food or drink. They are nearly immune to the passage of time and can
+      remain standing still indefinitely. For any gargoyle, a fundamental
+      question is why they choose to move at all. What drives them? There are a
+      few common archetypes. Seekers are driven by curiosity, and love seeing
+      new places and learning new things. Guardians devote themselves to
+      protecting a person, place, or concept. Movers enjoy motion itself—flight,
+      fighting, dancing—and often become scouts or soldiers. Thinkers are rarely
+      seen, because they have the least reason to actually move; they live to
+      ponder philosophies and ideas. A statue in a temple or a library could be
+      a gargoyle priest or sage, lost in contemplation.</p>
+    chat: ''
+  source:
+    book: 'Frontiers of Eberron: Quickstone'
+    page: ''
+    custom: ''
+    license: ''
+  advancement:
+    - type: AbilityScoreImprovement
+      _id: 9uJLI1cu9TXRnIk3
+      configuration:
+        points: 0
+        fixed: {}
+        cap: 2
+      value:
+        type: asi
+      level: 0
+    - type: Size
+      _id: hvAgfQh2dTaemPRI
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: Trait
+      configuration:
+        grants:
+          - languages:standard:common
+        mode: default
+        allowReplacements: false
+        choices: []
+      _id: uWpYhA8clcr3sIOZ
+      value:
+        chosen: []
+      level: 0
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: 30
+    units: null
+    hover: false
+  senses:
+    darkvision: 60
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: elemental
+    custom: ''
+    subtype: ''
+  identifier: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725338274564
+  modifiedTime: 1725338368068
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!rFxdTLIxbkvfgu22'
+

@@ -1,0 +1,31 @@
+folder: vHfVWDRpVZYv55bY
+name: Magewright
+type: background
+_id: cDf6cFZI3pJkqo9j
+img: systems/dnd5e/icons/svg/items/background.svg
+system:
+  description:
+    value: ''
+    chat: ''
+  source:
+    custom: ''
+  startingEquipment: []
+  identifier: ''
+  advancement: []
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725337885941
+  modifiedTime: 1725337887378
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!cDf6cFZI3pJkqo9j'
+

@@ -1,0 +1,93 @@
+folder: lDMG6f6gTK8V0OFD
+name: Worg
+type: race
+_id: Arir0CLf9rsN46ir
+img: systems/dnd5e/icons/svg/items/race.svg
+system:
+  description:
+    value: >-
+      <p>While sometimes mistaken for large wolves, worgs are a unique species
+      of canid predator possessing keen intelligence and the power of speech.
+      Worg senses are sharper than those of humans, and they feel a deep
+      connection to the natural world; they delight in scents and sounds that
+      others around them may not even notice. The worgs of the Watching Wood are
+      devoted to the Devourer and the Fury, and this faith encourages them to
+      rely on their instincts and intuition, as well as taking joy in the hunt
+      and strengthening their pack.</p><p>The worgs of the Watching Wood are
+      more compact than some other strains of the species. They are Medium
+      creatures, though they can pull heavy loads and carry a Medium creature as
+      a rider. While they have no hands and typically have little interest in
+      material goods, the smiths of Maenya’s Fist have developed specialized
+      armor for worgs, along with Steel Jaws that strengthen a worg’s bite and
+      which can be enchanted like any other weapon.</p>
+    chat: ''
+  source:
+    book: 'Frontiers of Eberron: Quickstone'
+    page: ''
+    custom: ''
+    license: ''
+  advancement:
+    - type: AbilityScoreImprovement
+      _id: vSwsEBRjhxLrmuyW
+      configuration:
+        points: 0
+        fixed: {}
+        cap: 2
+      value:
+        type: asi
+      level: 0
+    - type: Size
+      _id: seogyBOrzuKsorZ0
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: Trait
+      configuration:
+        grants:
+          - languages:standard:common
+        mode: default
+        allowReplacements: false
+        choices: []
+      _id: P7KGkL3GH5fktI5s
+      value:
+        chosen: []
+      level: 0
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: 40
+    units: null
+    hover: false
+  senses:
+    darkvision: 60
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: monstrosity
+    custom: ''
+    subtype: ''
+  identifier: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725338587689
+  modifiedTime: 1725338643665
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!Arir0CLf9rsN46ir'
+
