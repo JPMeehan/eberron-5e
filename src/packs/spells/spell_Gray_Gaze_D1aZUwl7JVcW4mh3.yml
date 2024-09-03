@@ -1,0 +1,103 @@
+folder: 8HZDRNglvfgWO2oB
+name: Gray Gaze
+type: spell
+_id: D1aZUwl7JVcW4mh3
+img: systems/dnd5e/icons/svg/items/spell.svg
+system:
+  description:
+    value: >-
+      <p>You turn your gaze on one creature you can see within range. If the
+      target can see your eyes, their body stiffens and cracks as if it were
+      turning to stone. The target must succeed on a Constitution saving throw
+      or take Necrotic damage equal to your Proficiency Bonus and have
+      Disadvantage on the next Dexterity saving throw it makes before the end of
+      its next turn.</p>
+    chat: ''
+  source:
+    book: 'Frontiers of Eberron: Quickstone'
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  level: 0
+  school: trs
+  properties:
+    - vocal
+    - somatic
+    - material
+  materials:
+    value: a pebble with a hole in it
+    consumed: false
+    cost: 0
+    supply: 0
+  preparation:
+    mode: prepared
+    prepared: false
+  scaling:
+    mode: none
+    formula: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725339703713
+  modifiedTime: 1725339744753
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!D1aZUwl7JVcW4mh3'
+
