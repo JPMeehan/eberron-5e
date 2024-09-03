@@ -1,0 +1,92 @@
+folder: Xg8J76jBldksf812
+name: At Your Fingertips
+type: feat
+_id: SMJXpt9gRC2sf2LZ
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>When you hit a creature with a Bard cantrip or when a creature fails a
+      saving throw against one of your Bard cantrips, you can expend one use of
+      your Bardic Inspiration to deal an extra 2d6 damage to that creature. You
+      can do so only once per round, on your turn.</p><p> The extra damage
+      increases when you reach Bard levels 5 (3d6), 10 (5d6) and 15 (8d6).</p>
+    chat: ''
+  source:
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725335069845
+  modifiedTime: 1725335113482
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!SMJXpt9gRC2sf2LZ'
+

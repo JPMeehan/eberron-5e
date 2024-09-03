@@ -1,0 +1,106 @@
+folder: mDN1hv6oqOmTKZxo
+name: Mindset of Perfect Prediction
+type: feat
+_id: Apwysgr3ejQRcnPU
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>You have learned to enter a focused state of mind. As an Action, you
+      can activate your mindset of perfect prediction, gaining the benefits
+      below. At the end of each of your turns, starting on the turn after you
+      activated your mindset, you must make a Charisma saving throw (DC 8 plus
+      your Charisma modifier and Proficiency Bonus). On a failed save, your
+      mindset ends. If you are concentrating on multiple spells when your
+      mindset ends, you can choose one spell to maintain. The rest of the spells
+      end as if your Concentration had been broken. Once you use this feature,
+      you can’t use it again until you finish a Long
+      Rest.</p><p><em><strong>Quickened Mind.</strong></em> When rolling
+      Initiative, you may instead choose an Initiative count of
+      31.</p><p><em><strong>Expansive Mind.</strong></em> You can concentrate on
+      any number of spells simultaneously. If you are forced to make a saving
+      throw to maintain Concentration while you are concentrating on multiple
+      spells, you make only a single Constitution saving throw. On a failed
+      save, your Concentration breaks on all
+      spells.</p><p><em><strong>Predictive Mind.</strong></em> You have
+      Counterspell prepared. You can cast it as a 6th-level spell without
+      expending a spell slot. </p>
+    chat: ''
+  source:
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725337032711
+  modifiedTime: 1725337061570
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!Apwysgr3ejQRcnPU'
+

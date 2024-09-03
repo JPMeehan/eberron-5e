@@ -1,0 +1,97 @@
+folder: xDGJUgpISOArMeXK
+name: Stone Speaker
+type: feat
+_id: DO7dgaJvQihs4E3F
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>Your pact grants you the ability to commune with earth and stone. As a
+      Magic action, you imbue stones in an immobile 30-foot Emanation with
+      limited sentience, giving them the ability to communicate with you. You
+      can question stones about events in the spell's area within the past day,
+      gaining information about creatures that have passed, items that might
+      have been removed from the area, and other circumstances. </p><p>If an
+      earth Elemental or a creature with the Petrified condition is in the area,
+      you can communicate with it as if you shared a language, but you gain no
+      magical ability to influence it. </p><p>Once you use this feature, you
+      can’t use it again until you finish a Long Rest.</p>
+    chat: ''
+  source:
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725337247804
+  modifiedTime: 1725337264220
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!DO7dgaJvQihs4E3F'
+

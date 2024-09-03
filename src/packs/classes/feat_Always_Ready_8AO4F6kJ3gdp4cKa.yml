@@ -1,0 +1,94 @@
+folder: mDN1hv6oqOmTKZxo
+name: Always Ready
+type: feat
+_id: 8AO4F6kJ3gdp4cKa
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>You always have your next spell dancing on the tip of your tongue. You
+      can use a Bonus Action to Ready a spell as if you had used your Action to
+      do so. If you expend a spell slot when you ready a spell in this way, it
+      does not count against the usual limit of only one spell slot expended to
+      cast a spell per turn.</p><p>Once you use this feature, you can’t use it
+      again until you finish a Short or Long Rest unless you spend 4 Sorcery
+      Points (no action required) to restore your use of it.</p>
+    chat: ''
+  source:
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725336977518
+  modifiedTime: 1725337000405
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!8AO4F6kJ3gdp4cKa'
+

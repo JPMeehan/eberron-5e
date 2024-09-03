@@ -1,0 +1,99 @@
+folder: HjXAFxn8JtAat4Zb
+name: Divine Bargain
+type: feat
+_id: BnJVMXXxTHQiyRH7
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>Transactions are at the heart of your belief system, and you have
+      learned to buy and sell metaphysical boons with your divine wealth. As a
+      Bonus Action, you can magically conduct a metaphysical trade with one
+      creature you can see within 30 feet of yourself. Choose either Buy or
+      Sell. </p><p><em><strong>Buy.</strong></em> Give one of your divine coins
+      to the target. It can spend the divine coin as if it had your Divine
+      Wealth feature. The target takes 1d8 Necrotic damage, and you or one
+      creature that you can see within 30 feet of yourself regains Hit Points
+      equal to the damage taken. </p><p><em><strong>Sell.</strong></em> Gain a
+      divine coin. You take 1d8 Necrotic damage, and the target regains Hit
+      Points equal to the damage taken. The damage cannot be reduced by any
+      means.</p>
+    chat: ''
+  source:
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725335544907
+  modifiedTime: 1725335570501
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!BnJVMXXxTHQiyRH7'
+

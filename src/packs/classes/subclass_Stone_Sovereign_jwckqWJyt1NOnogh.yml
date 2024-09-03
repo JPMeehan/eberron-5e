@@ -1,0 +1,45 @@
+folder: xDGJUgpISOArMeXK
+name: Stone Sovereign
+type: subclass
+_id: jwckqWJyt1NOnogh
+img: systems/dnd5e/icons/svg/items/subclass.svg
+system:
+  description:
+    value: >-
+      <p><em>Hear the Whispering of the Stones</em></p><p>You have listened to
+      the will of the stone, and made a pact with one of Eberron’s great earthen
+      powers. The whispers of the daelkyr Orlassk corrupt many Warlocks to their
+      cause, but similar magics may be the gifts of the greedy fey King
+      Grayfinger or even the medusa Queen Sheshka of Cazhaak Draal. The gnomes
+      of Lorghalan draw their power from their friendship with the earth
+      elementals of their island; perhaps you have made peace with the earth
+      itself.</p>
+    chat: ''
+  source:
+    book: 'Frontiers of Eberron: Quickstone'
+    page: ''
+    custom: ''
+    license: ''
+  identifier: stone-sovereign
+  classIdentifier: ''
+  advancement: []
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725337180868
+  modifiedTime: 1725337205447
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!jwckqWJyt1NOnogh'
+

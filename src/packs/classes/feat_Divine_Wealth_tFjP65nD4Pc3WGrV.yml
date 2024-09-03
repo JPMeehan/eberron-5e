@@ -1,0 +1,99 @@
+folder: HjXAFxn8JtAat4Zb
+name: Divine Wealth
+type: feat
+_id: tFjP65nD4Pc3WGrV
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>Your spiritual savvy manifests as material wealth. When you finish a
+      Long Rest, you conjure two divine coins and lose any previously unspent
+      divine coins. Whenever you make a saving throw against a magical effect
+      caused by a hostile creature, you can choose to spend a divine coin or
+      gain a divine coin. You must choose whether or not to spend a coin before
+      you roll your save. </p><p><em><strong>Spend a Coin.</strong></em> Roll a
+      d4 and add the number rolled to the saving throw. </p><p><em><strong>Gain
+      a Coin.</strong></em> Roll a d4 and subtract the number rolled from the
+      saving throw. </p><p>The number of divine coins you conjure when you
+      finish a Long Rest changes when you reach certain Cleric levels. You
+      conjure three at level 5, four at level 9, five at level 13, and six at
+      level 17.</p>
+    chat: ''
+  source:
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725335347497
+  modifiedTime: 1725335379467
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!tFjP65nD4Pc3WGrV'
+

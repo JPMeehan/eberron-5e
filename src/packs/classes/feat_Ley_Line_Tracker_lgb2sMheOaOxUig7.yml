@@ -1,0 +1,99 @@
+folder: CeFvb0n1G7IiItir
+name: Ley Line Tracker
+type: feat
+_id: lgb2sMheOaOxUig7
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>Given your knowledge of the landscape, you can use ley lines as
+      conduits to stretch your magic over vast distances when tracking a target,
+      granting you the following benefits. </p><p><em><strong>Mark
+      Bounty.</strong></em> Whenever you finish a Short or Long Rest, you can
+      single out one creature as your bounty. To mark a creature as your bounty,
+      you must have seen that creature or possess an object that has been in
+      their possession for at least 24 hours. Once on each of your turns you can
+      change your bounty to one creature you can see (no action required).
+      </p><p><em><strong>Masterful Tracking.</strong></em> Your Ranger spells of
+      the Divination school can target your bounty at any distance, even if you
+      cannot see them, unless your bounty is protected from Divination spells
+      (as with Nondetection) or is on another plane of existence.</p>
+    chat: ''
+  source:
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725335926063
+  modifiedTime: 1725335959097
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!lgb2sMheOaOxUig7'
+

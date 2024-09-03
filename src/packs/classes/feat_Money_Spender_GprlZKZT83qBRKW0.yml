@@ -1,0 +1,99 @@
+folder: HjXAFxn8JtAat4Zb
+name: Money Spender
+type: feat
+_id: GprlZKZT83qBRKW0
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>As a Magic action, you present your Holy Symbol and expend a use of
+      your Channel Divinity to gain favor or turn away prying eyes. Choose a
+      number of creatures within 30 feet of yourself equal to one plus one more
+      for each divine coin you expend when you use this feature. For each
+      target, choose either a bribe or a reward.
+      </p><p><em><strong>Reward.</strong></em> The target must make a Wisdom
+      saving throw. On a failed save, the target has the Charmed condition for 1
+      minute or until it takes damage. While it has the Charmed condition, it is
+      Friendly to you and other creatures you designate.
+      </p><p><em><strong>Bribe.</strong></em> The target must make a Wisdom
+      saving throw. On a failed save, the target has the Blinded condition for 1
+      minute or until it takes damage.</p>
+    chat: ''
+  source:
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725335485466
+  modifiedTime: 1725335522060
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!GprlZKZT83qBRKW0'
+

@@ -1,0 +1,96 @@
+folder: mDN1hv6oqOmTKZxo
+name: Readied Magic
+type: feat
+_id: OANUDYJX59e0ZaIW
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>You have learned to hold back your magical power, prepared to unleash
+      it when the time is just right. If you use an Action to Ready a spell, you
+      have Advantage on saving throws and ability checks until the start of your
+      next turn. Additionally, if the trigger for your readied spell occurs, you
+      can cast the readied spell without using your Reaction. </p><p>If the
+      trigger does not resolve, if you choose not to act on the trigger, or if
+      you lose Concentration on the spell, you gain a number of Sorcery Points
+      equal to the spell’s level at the start of your next turn. You still
+      expend the spell slot as normal.</p>
+    chat: ''
+  source:
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725336892066
+  modifiedTime: 1725336932211
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!OANUDYJX59e0ZaIW'
+
