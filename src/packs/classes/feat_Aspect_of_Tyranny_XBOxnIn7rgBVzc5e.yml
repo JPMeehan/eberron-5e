@@ -20,6 +20,7 @@ system:
     chat: ''
   source:
     custom: ''
+    book: 'Frontiers of Eberron: Quickstone'
   activation:
     type: ''
     cost: null
@@ -70,17 +71,17 @@ system:
     scaling: spell
   summons: null
   type:
-    value: ''
+    value: class
     subtype: ''
   prerequisites:
     level: null
   properties: []
-  requirements: ''
+  requirements: Path of the Demonshard 14
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 14000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -92,7 +93,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725334207270
-  modifiedTime: 1725334594911
+  modifiedTime: 1725512258108
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!XBOxnIn7rgBVzc5e'
 

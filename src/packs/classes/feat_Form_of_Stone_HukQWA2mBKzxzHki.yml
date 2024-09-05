@@ -20,6 +20,7 @@ system:
     chat: ''
   source:
     custom: ''
+    book: 'Frontiers of Eberron: Quickstone'
   activation:
     type: ''
     cost: null
@@ -70,17 +71,17 @@ system:
     scaling: spell
   summons: null
   type:
-    value: ''
+    value: class
     subtype: ''
   prerequisites:
     level: null
   properties: []
-  requirements: ''
+  requirements: Stone Sovereign 6
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 6000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -92,7 +93,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725337300458
-  modifiedTime: 1725337325589
+  modifiedTime: 1725512279199
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!HukQWA2mBKzxzHki'
 

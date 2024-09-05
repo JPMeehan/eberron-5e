@@ -16,6 +16,7 @@ system:
     chat: ''
   source:
     custom: ''
+    book: 'Frontiers of Eberron: Quickstone'
   activation:
     type: ''
     cost: null
@@ -66,17 +67,17 @@ system:
     scaling: spell
   summons: null
   type:
-    value: ''
+    value: class
     subtype: ''
   prerequisites:
     level: null
   properties: []
-  requirements: ''
+  requirements: Nemesis Sorcery 14
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 14000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -88,7 +89,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725336977518
-  modifiedTime: 1725337000405
+  modifiedTime: 1725512271573
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!8AO4F6kJ3gdp4cKa'
 

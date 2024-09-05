@@ -17,6 +17,7 @@ system:
     chat: ''
   source:
     custom: ''
+    book: 'Frontiers of Eberron: Quickstone'
   activation:
     type: ''
     cost: null
@@ -67,17 +68,17 @@ system:
     scaling: spell
   summons: null
   type:
-    value: ''
+    value: class
     subtype: ''
   prerequisites:
     level: null
   properties: []
-  requirements: ''
+  requirements: Commerce Domain 17
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 17000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -89,7 +90,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725335582251
-  modifiedTime: 1725335598602
+  modifiedTime: 1725512250170
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!ki4g3jvEEhvkXUIH'
 

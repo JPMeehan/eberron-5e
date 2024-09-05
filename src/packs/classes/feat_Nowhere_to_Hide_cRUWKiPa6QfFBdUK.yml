@@ -15,6 +15,7 @@ system:
     chat: ''
   source:
     custom: ''
+    book: 'Frontiers of Eberron: Quickstone'
   activation:
     type: ''
     cost: null
@@ -65,17 +66,17 @@ system:
     scaling: spell
   summons: null
   type:
-    value: ''
+    value: class
     subtype: ''
   prerequisites:
     level: null
   properties: []
-  requirements: ''
+  requirements: Bloodhound 15
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 15000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -87,7 +88,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725336326780
-  modifiedTime: 1725336336059
+  modifiedTime: 1725512269671
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!cRUWKiPa6QfFBdUK'
 
