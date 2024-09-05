@@ -21,7 +21,37 @@ system:
     license: ''
   startingEquipment: []
   identifier: ''
-  advancement: []
+  advancement:
+    - _id: 1JyOAxJ4Z2V22JuS
+      type: ItemChoice
+      configuration:
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        allowDrops: false
+        type: feat
+        pool:
+          - uuid: Compendium.eberron-5e.character-options.Item.jdq0e2cxtBXhFpg8
+          - uuid: Compendium.eberron-5e.character-options.Item.ZX6BI37GOaFDmiwC
+          - uuid: Compendium.eberron-5e.character-options.Item.SZ3t6LEFTIb1PkJv
+          - uuid: Compendium.eberron-5e.character-options.Item.bk23U6kxnV9HhUxG
+          - uuid: Compendium.eberron-5e.character-options.Item.s38kGRdbMkFV0xUG
+          - uuid: Compendium.eberron-5e.character-options.Item.XuQQotCfmSegl7Jx
+          - uuid: Compendium.eberron-5e.character-options.Item.2BUgeLkak0h0ViMh
+          - uuid: Compendium.eberron-5e.character-options.Item.SlDarR1ar4HVdZrD
+          - uuid: Compendium.eberron-5e.character-options.Item.Wg0FL9s0pHcGRFdw
+          - uuid: Compendium.eberron-5e.character-options.Item.MAxP6hRwfghIIY3V
+          - uuid: Compendium.eberron-5e.character-options.Item.8NfF0QIDWQGUV9sD
+          - uuid: Compendium.eberron-5e.character-options.Item.IOXyJ8YRcFxjQtAq
+        spell: null
+        restriction:
+          type: feat
+      value:
+        added: {}
+        replaced: {}
+      title: Lesser Dragonmark
+      hint: ''
 effects: []
 sort: 0
 ownership:
@@ -35,7 +65,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725337823358
-  modifiedTime: 1725337937731
+  modifiedTime: 1725517627923
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!YgygRTlLVpIPfqE8'
 
