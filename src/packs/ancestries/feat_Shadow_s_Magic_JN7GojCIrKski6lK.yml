@@ -1,0 +1,100 @@
+folder: WHXwnah2tsDAMo0J
+name: Shadow's Magic
+type: feat
+_id: JN7GojCIrKski6lK
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>If you have the Spellcasting or the Pact Magic class feature, the
+      spells on the Harpy Spells table are added to the spell list of your
+      spellcasting class. You can cast these spells using only Verbal components
+      in place of their usual components.</p><h5>Harpy
+      Spells</h5><table><thead><tr><th>Spell
+      Level</th><th>Spell</th></tr></thead><tbody><tr><td><p>1</p></td><td><p>Charm
+      Person</p></td></tr><tr><td><p>2</p></td><td><p>Suggestion</p></td></tr><tr><td><p>3</p></td><td><p>Enemies
+      Abound</p></td></tr><tr><td><p>4</p></td><td><p>Charm
+      Monster</p></td></tr><tr><td><p>5</p></td><td><p>Dominate
+      Person</p></td></tr></tbody></table>
+    chat: ''
+  source:
+    custom: ''
+    book: 'Frontiers of Eberron: Quickstone'
+    page: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725686895597
+  modifiedTime: 1725686965005
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!JN7GojCIrKski6lK'
+

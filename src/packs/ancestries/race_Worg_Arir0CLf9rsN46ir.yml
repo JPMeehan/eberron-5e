@@ -27,15 +27,6 @@ system:
     custom: ''
     license: ''
   advancement:
-    - type: AbilityScoreImprovement
-      _id: vSwsEBRjhxLrmuyW
-      configuration:
-        points: 0
-        fixed: {}
-        cap: 2
-      value:
-        type: asi
-      level: 0
     - type: Size
       _id: seogyBOrzuKsorZ0
       configuration:
@@ -43,16 +34,23 @@ system:
           - med
       level: 0
       value: {}
-    - type: Trait
+    - _id: xRD1kVYUvM0hN2n4
+      type: ItemGrant
       configuration:
-        grants:
-          - languages:standard:common
-        mode: default
-        allowReplacements: false
-        choices: []
-      _id: P7KGkL3GH5fktI5s
-      value:
-        chosen: []
+        items:
+          - uuid: Compendium.eberron-5e.ancestries.Item.JVzHMV8xspQdLVNm
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.53iltCq6eaUQzndr
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.ToXS7kEzb15y8KsC
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.VhHWDRtiBE1JQufK
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.QwyTW3JdqPODaoX3
+            optional: false
+        optional: false
+        spell: null
+      value: {}
       level: 0
   movement:
     burrow: null
@@ -87,7 +85,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725338587689
-  modifiedTime: 1725338643665
+  modifiedTime: 1725687803418
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!Arir0CLf9rsN46ir'
 

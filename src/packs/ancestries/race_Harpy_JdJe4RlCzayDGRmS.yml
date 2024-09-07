@@ -26,15 +26,6 @@ system:
     custom: ''
     license: ''
   advancement:
-    - type: AbilityScoreImprovement
-      _id: 5zDtNKlBbFgc4qDj
-      configuration:
-        points: 0
-        fixed: {}
-        cap: 2
-      value:
-        type: asi
-      level: 0
     - type: Size
       _id: v9GiNz9u8D6yL5bO
       configuration:
@@ -42,17 +33,31 @@ system:
           - med
       level: 0
       value: {}
-    - type: Trait
+    - _id: N1R2jn9XJE9kvy6t
+      type: ItemGrant
       configuration:
-        grants:
-          - languages:standard:common
+        items:
+          - uuid: Compendium.eberron-5e.ancestries.Item.2H8JmVGaUz05RLFG
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.JN7GojCIrKski6lK
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+    - _id: 7gT9Q3a2DA04ylKz
+      type: Trait
+      configuration:
         mode: default
         allowReplacements: false
+        grants:
+          - skills:prf
         choices: []
-      _id: lERJxdWLDxUGPeiw
       value:
         chosen: []
       level: 0
+      title: Songbird
+      hint: ''
   movement:
     burrow: null
     climb: null
@@ -84,7 +89,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725338401832
-  modifiedTime: 1725338465099
+  modifiedTime: 1725687047912
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!JdJe4RlCzayDGRmS'
 

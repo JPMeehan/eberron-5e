@@ -5,10 +5,21 @@ img: systems/dnd5e/icons/svg/items/race.svg
 system:
   description:
     value: >-
-      <p>Centuries ago, the gnolls of the Znir Pact turned their backs on the
-      worship of fiends, resolving to live as free people. Chapter 4 discusses
-      their role in Droaam and across the land of Khorvaire. Your gnoll
-      character has the following racial
+      <p>Fierce and feral, the first gnolls were hyenas infused with malefic
+      power by archfiends of war and the wild. They were created as cruel
+      soldiers to serve in the endless conflicts of fiends, but over the course
+      of countless generations a number of gnoll clans broke their ties to their
+      demon overlords. These free gnolls are fiercely loyal to their pack and
+      their clan, and serve as a stabilizing force within Droaam.</p><p>Gnolls
+      that are bound to the overlords are vicious and wild. Those who have
+      escaped this bondage still have a fiendish spark within, but they contain
+      and control this power. Some learn to wield it as Warlocks. Others known
+      as hwyri train to fight demons and other supernatural threats. Even free
+      gnolls can be aggressive, but they are gifted hunters and fiercely loyal
+      to those they choose as family.</p><hr /><p>Centuries ago, the gnolls of
+      the Znir Pact turned their backs on the worship of fiends, resolving to
+      live as free people. Chapter 4 discusses their role in Droaam and across
+      the land of Khorvaire. Your gnoll character has the following racial
       traits.</p><p><em><strong>Age.</strong></em> Young gnolls grow with
       uncanny speed. A gnoll is capable of fending for itself after only a few
       months, and is considered an adult at 5 years of age. Gnolls live to be
@@ -41,15 +52,6 @@ system:
     custom: ''
     license: DMsGuild CCA
   advancement:
-    - type: AbilityScoreImprovement
-      _id: ENfcrCb7jiQKKair
-      configuration:
-        points: 0
-        fixed: {}
-        cap: 2
-      value:
-        type: asi
-      level: 0
     - type: Size
       _id: ULcdxPVstWWYUxaw
       configuration:
@@ -57,26 +59,45 @@ system:
           - med
       level: 0
       value: {}
-    - type: Trait
+    - _id: WJm943gUdbcdNBhi
+      type: ItemGrant
       configuration:
-        grants:
-          - languages:standard:common
+        items:
+          - uuid: Compendium.eberron-5e.ancestries.Item.jHIeIMwoneNBu0M9
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.KPdMdb4Dk8s32IRp
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+    - _id: AKgS0wfi0XW0avvG
+      type: Trait
+      configuration:
         mode: default
         allowReplacements: false
-        choices: []
-      _id: B3jKzCfxokGrwvTQ
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - skills:prc
+              - skills:ste
+              - skills:sur
+      value:
+        chosen: []
       level: 0
-      value: {}
+      title: Hunter's Senses
+      hint: ''
   movement:
     burrow: null
     climb: null
     fly: null
     swim: null
-    walk: null
+    walk: 30
     units: null
     hover: false
   senses:
-    darkvision: null
+    darkvision: 60
     blindsight: null
     tremorsense: null
     truesight: null
@@ -84,6 +105,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: ''
 effects: []
 ownership:
   default: 0
@@ -93,11 +115,11 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1700378683464
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1725688265836
+  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
 _id: kiFuCmCguboqWYuO
