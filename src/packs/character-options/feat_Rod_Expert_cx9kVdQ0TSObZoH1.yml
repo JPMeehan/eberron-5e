@@ -5,7 +5,19 @@ _id: cx9kVdQ0TSObZoH1
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You’ve mastered the use of a rod as an Arcane Focus. You gain the
+      following benefits.</p><p><strong>Close-Ranged Focus.</strong> If the
+      target of a cantrip you cast using a Rod as a Spellcasting Focus is within
+      20 feet of you when you roll a 1 or 2 on a damage die, you can reroll the
+      die and must use the new roll, even if the new roll is a 1 or a
+      2.</p><p><strong>Unshakeable Casting.</strong> When you make a ranged
+      spell attack roll while using a Rod as a Spellcasting Focus, you do not
+      have Disadvantage on the roll if you are within 5 feet of an
+      enemy.</p><p><strong>Rough &amp; Tumble.</strong> When you make a ranged
+      spell attack while using a Rod as a Spellcasting Focus, you can use a
+      Bonus Action to make a melee attack with your Rod. It counts as a Club for
+      the purposes of the attack</p>
     chat: ''
   source:
     book: 'Frontiers of Eberron: Quickstone'
@@ -84,7 +96,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725339349639
-  modifiedTime: 1725339375471
+  modifiedTime: 1725518283735
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!cx9kVdQ0TSObZoH1'
 

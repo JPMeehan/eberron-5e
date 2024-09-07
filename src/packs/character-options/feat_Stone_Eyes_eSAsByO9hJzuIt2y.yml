@@ -5,7 +5,17 @@ _id: eSAsByO9hJzuIt2y
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Your Petrifying Gaze has come into its own. If a creature that has the
+      Restrained or Paralyzed condition as a result of one of your spells or
+      your Medusa’s Gift trait fails a saving throw to end the effect by 5 or
+      more, you can choose to turn that creature to stone. Any magical effects
+      causing the creature to have the Restrained or Paralyzed condition end,
+      and the creature has the Petrified condition for 1 minute. You must
+      concentrate to maintain the effect. If you lose your Concentration, the
+      Petrified condition ends.</p><p>If you maintain your Concentration on the
+      effect for the entire possible duration, the target is Petrified until the
+      condition is ended by Greater Restoration or similar magic.</p>
     chat: ''
   source:
     book: 'Frontiers of Eberron: Quickstone'
@@ -84,7 +94,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725339447781
-  modifiedTime: 1725339467659
+  modifiedTime: 1725518414526
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!eSAsByO9hJzuIt2y'
 

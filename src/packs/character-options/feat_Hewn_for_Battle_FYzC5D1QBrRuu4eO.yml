@@ -5,7 +5,21 @@ _id: FYzC5D1QBrRuu4eO
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You have reshaped your stone body to be a more effective and
+      devastating weapon of war. You gain the following
+      benefits.</p><p><strong>Ability Score Increase.</strong> Increase your
+      Strength or Constitution score by 1, to a maximum of
+      20.</p><p><strong>Thickened Hide.</strong> When you finish a Short or Long
+      Rest, you can choose the thickness of your natural armor. While you aren’t
+      wearing armor, your base Armor Class becomes your choice of either 14 plus
+      your Dexterity modifier, or 18. You can use a Shield and still gain this
+      benefit.</p><p><strong>Spellcarving.</strong> Your hide can be enchanted
+      or infused as if it were nonmagical armor.</p><p><strong>Claws.</strong>
+      You have shaped your hands into fearsome claws. Your claws are natural
+      weapons, which you can use to make Unarmed Strikes. If you hit with them,
+      you deal Slashing damage equal to 1d6 plus your Strength modifier in place
+      of the normal Bludgeoning damage of your Unarmed Strike.</p>
     chat: ''
   source:
     custom: ''
@@ -84,7 +98,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725339282923
-  modifiedTime: 1725339296275
+  modifiedTime: 1725518099643
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!FYzC5D1QBrRuu4eO'
 

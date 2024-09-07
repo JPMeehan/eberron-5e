@@ -5,7 +5,18 @@ _id: H37lx4UpEW74g7JR
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You have learned a certain number of secrets and techniques of the
+      Gatekeeper druidic order. You gain the following
+      benefits.</p><p><strong>Ability Score Increase.</strong> Increase your
+      Wisdom or Charisma score by 1, to a maximum of
+      20.</p><p><strong>Gatekeeper Proficiency.</strong> You gain proficiency in
+      the Arcana skill.</p><p><strong>Protection Against Aberrations.</strong>
+      When you make a saving throw against the magic abilities of an Aberration
+      or a spell cast by an Aberration, you can roll 1d4 and add it to your
+      saving throw.</p><p><strong>Gatekeeper Spells.</strong> If you have the
+      Spellcasting or the Pact Magic class feature, the spells on the Gatekeeper
+      Spells table are added to the spell list of your spellcasting class.</p>
     chat: ''
   source:
     book: 'Frontiers of Eberron: Quickstone'
@@ -84,7 +95,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725339201660
-  modifiedTime: 1725339223292
+  modifiedTime: 1725517977354
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!H37lx4UpEW74g7JR'
 

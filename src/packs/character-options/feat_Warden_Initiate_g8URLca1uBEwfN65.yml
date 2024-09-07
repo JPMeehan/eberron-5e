@@ -5,7 +5,20 @@ _id: g8URLca1uBEwfN65
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You have learned some of the secrets and techniques of the Wardens of
+      the Wood druidic order. You gain the following
+      benefits.</p><p><strong>Ability Score Increase.</strong> Increase your
+      Wisdom or Charisma score by 1, to a maximum of 20. </p><p><strong>Warden’s
+      Proficiency.</strong> You gain proficiency in the Animal Handling
+      skill.</p><p><strong>Protect Ally.</strong> When a creature you can see
+      hits another creature within 5 feet of you with an attack roll, you can
+      take a Reaction to reduce the damage dealt to the target by 1d6 + your
+      Proficiency Bonus. Once you use this benefit, you can’t use it again until
+      you finish a Short or Long Rest.</p><p><strong>Warden Spells.</strong> If
+      you have the Spellcasting or the Pact Magic class feature, the spells on
+      the Wardens of the Wood Spells table are added to the spell list of your
+      spellcasting class.</p>
     chat: ''
   source:
     custom: ''
@@ -84,7 +97,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725339529171
-  modifiedTime: 1725339536793
+  modifiedTime: 1725518615464
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!g8URLca1uBEwfN65'
 

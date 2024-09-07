@@ -5,7 +5,21 @@ _id: COOBEFPbKw5DycHF
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You have learned a certain number of secrets and techniques of the
+      Greensinger druidic order. You gain the following
+      benefits:</p><p><strong>Ability Score Increase.</strong> Increase your
+      Wisdom or Charisma score by 1, to a maximum of
+      20.</p><p><strong>Greensinger’s Proficiency.</strong> You gain proficiency
+      in the Performance skill.</p><p><strong>Fey Dancer.</strong> Whenever you
+      cause a creature to gain the Charmed condition, you can join them in dance
+      and revelry. If you do so, you can use your Reaction to move up to half
+      your Speed without provoking Opportunity Attacks.</p><p><strong>Fey
+      Affinity.</strong> Your spells and magical abilities that affect Humanoids
+      also affect Fey.</p><p><strong>Greensinger Spells.</strong> If you have
+      the Spellcasting or the Pact Magic class feature, the spells on the
+      Greensinger Spells table are added to the spell list of your spellcasting
+      class</p>
     chat: ''
   source:
     custom: ''
@@ -84,7 +98,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725339234141
-  modifiedTime: 1725339243710
+  modifiedTime: 1725518049921
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!COOBEFPbKw5DycHF'
 

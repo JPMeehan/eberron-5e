@@ -5,7 +5,18 @@ _id: qtX8TlKGQLqqWNvc
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You have learned a certain number of the secrets and techniques of the
+      Ashbound druidic order. You gain the following
+      benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase
+      your Wisdom or Charisma score by 1, to a maximum of 20.
+      </p><p><strong>Ashbound Proficiency.</strong> You gain proficiency in the
+      Intimidation skill.</p><p><em><strong>Arcane Enmity.</strong></em> When a
+      creature you can see casts a spell, you have Advantage on attack rolls
+      against that creature until the end of your next
+      turn.</p><p><em><strong>Ashbound Spells.</strong></em> If you have the
+      Spellcasting or the Pact Magic class feature, the spells on the Ashbound
+      Spells table are added to the spell list of your spellcasting class.</p>
     chat: ''
   source:
     custom: ''
@@ -84,7 +95,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725339184150
-  modifiedTime: 1725339251971
+  modifiedTime: 1725517990431
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!qtX8TlKGQLqqWNvc'
 

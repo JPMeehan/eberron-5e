@@ -5,7 +5,9 @@ _id: lsQ3NLNBDaz2oNLu
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You have manifested stone wings and achieved mastery of the air. You
+      have a Fly Speed equal to your Speed.</p>
     chat: ''
   source:
     book: 'Frontiers of Eberron: Quickstone'
@@ -84,7 +86,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725339547485
-  modifiedTime: 1725339561091
+  modifiedTime: 1725518551445
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!lsQ3NLNBDaz2oNLu'
 

@@ -5,7 +5,21 @@ _id: 85stFzMITKGXf9iW
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Your skill with magical Orbs helps you evade enemies while overcoming
+      their defenses. You gain the following benefits.</p><p><strong>Fortune
+      Teller.</strong> When you finish a Short or Long Rest, roll 1d6 and record
+      the result. When you cast a spell using an Orb as a Spellcasting Focus,
+      you can add the result of this prescience roll to your spell attack roll,
+      or reduce one target’s saving throw by that amount. You must choose to do
+      so before the attack roll or saving throw.</p><p>Once you use this
+      benefit, you can’t use it again until you finish a Short or Long Rest.
+      Unused prescience rolls are lost when you finish a Short or Long
+      Rest.</p><p><strong>See the Path.</strong> While you are holding an Orb,
+      Opportunity Attacks against you have Disadvantage.</p><p><strong>Prescient
+      Escape.</strong> While you are holding an Orb, whenever a creature you can
+      see enters a space within 5 feet of you, you can use your Reaction to move
+      up to your Speed without provoking an Opportunity Attack.</p>
     chat: ''
   source:
     custom: ''
@@ -84,7 +98,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725339313613
-  modifiedTime: 1725339323246
+  modifiedTime: 1725518210987
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!85stFzMITKGXf9iW'
 

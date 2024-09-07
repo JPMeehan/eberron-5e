@@ -5,7 +5,19 @@ _id: IPAJpgOMtLHuEx5Q
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You’ve unlocked the deadly ranged potential of the Staff. You gain the
+      following benefits.</p><p><strong>Arcane Artillery.</strong> When you cast
+      a spell that has a range of 5 feet or greater using a Staff as your
+      Spellcasting Focus, you can use a Bonus Action to double the range of the
+      spell.</p><p><strong>Powerful Focus.</strong> When you roll a 1 or 2 on a
+      damage die for a cantrip you cast using a Staff as a Spellcasting Focus,
+      you can reroll the die and must use the new roll, even if the new roll is
+      a 1 or a 2.</p><p><strong>Explosive Casting.</strong> If all targets of a
+      spell you cast using a Staff as your Spellcasting Focus are more than half
+      the spell's range from you, one creature of your choice that you hit with
+      a spell attack or that fails a saving throw against the spell has the
+      Prone condition.</p>
     chat: ''
   source:
     book: 'Frontiers of Eberron: Quickstone'
@@ -84,7 +96,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725339428263
-  modifiedTime: 1725339437246
+  modifiedTime: 1725518383316
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!IPAJpgOMtLHuEx5Q'
 

@@ -5,7 +5,17 @@ _id: BISFPO2USjDUaYYn
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You are adept with the use of Wands as a swift Spellcasting Focus. You
+      gain the following benefits.</p><p><strong>Wand Mastery.</strong> If you
+      make a spell attack using a Wand as a Spellcasting Focus, you gain
+      Advantage on the attack roll if the target hasn’t taken a
+      turn.</p><p><strong>Unshakeable Casting.</strong> When you make a ranged
+      spell attack roll while using a Wand as a Spellcasting Focus, you do not
+      have Disadvantage on the roll if you are within 5 feet of an
+      enemy.</p><p><strong>Arcane Quickdraw.</strong> Drawing or stowing a Wand
+      does not count against the number of object interactions you can take for
+      free on your turn.</p>
     chat: ''
   source:
     book: 'Frontiers of Eberron: Quickstone'
@@ -84,7 +94,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725339507991
-  modifiedTime: 1725339518269
+  modifiedTime: 1725518489420
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!BISFPO2USjDUaYYn'
 
