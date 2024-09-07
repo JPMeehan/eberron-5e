@@ -1,22 +1,25 @@
-folder: 8HZDRNglvfgWO2oB
-name: Gray Gaze
-type: spell
-_id: D1aZUwl7JVcW4mh3
-img: icons/creatures/eyes/humanoid-single-blind.webp
+folder: wKED2A23VokEO9ro
+name: Shadow's Magic
+type: feat
+_id: nJwWXDmk9XV2uSJi
+img: icons/magic/control/debuff-energy-hold-pink.webp
 system:
   description:
     value: >-
-      <p>You turn your gaze on one creature you can see within range. If the
-      target can see your eyes, their body stiffens and cracks as if it were
-      turning to stone. The target must succeed on a Constitution saving throw
-      or take Necrotic damage equal to your Proficiency Bonus and have
-      Disadvantage on the next Dexterity saving throw it makes before the end of
-      its next turn.</p>
+      <p>If you have the Spellcasting or the Pact Magic class feature, the
+      spells on the Medusa Spells table are added to the spell list of your
+      spellcasting class. You can cast these spells without Material
+      components.</p><h5>Medusa Spells</h5><table><thead><tr><th>Spell
+      Level</th><th>Spell</th></tr></thead><tbody><tr><td><p>1</p></td><td><p>Ensnaring
+      Strike</p></td></tr><tr><td><p>2</p></td><td><p>Hold
+      Person</p></td></tr><tr><td><p>3</p></td><td><p>Hypnotic
+      Pattern</p></td></tr><tr><td><p>4</p></td><td><p>Stoneskin</p></td></tr><tr><td><p>5</p></td><td><p>Hold
+      Monster</p></td></tr></tbody></table>
     chat: ''
   source:
+    custom: ''
     book: 'Frontiers of Eberron: Quickstone'
     page: ''
-    custom: ''
     license: ''
   activation:
     type: ''
@@ -67,23 +70,16 @@ system:
     dc: null
     scaling: spell
   summons: null
-  level: 0
-  school: trs
-  properties:
-    - vocal
-    - somatic
-    - material
-  materials:
-    value: a pebble with a hole in it
-    consumed: false
-    cost: 0
-    supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
 effects: []
 sort: 0
 ownership:
@@ -96,8 +92,8 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 3.3.1
-  createdTime: 1725339703713
-  modifiedTime: 1725685841860
+  createdTime: 1725686000071
+  modifiedTime: 1725686402300
   lastModifiedBy: MVioF9x1qI1WYGx1
-_key: '!items!D1aZUwl7JVcW4mh3'
+_key: '!items!nJwWXDmk9XV2uSJi'
 

@@ -1,22 +1,18 @@
-folder: 8HZDRNglvfgWO2oB
-name: Gray Gaze
-type: spell
-_id: D1aZUwl7JVcW4mh3
-img: icons/creatures/eyes/humanoid-single-blind.webp
+folder: 2H571Xc1i1Aq5QMr
+name: Sentry's Rest
+type: feat
+_id: CmvxfEmm8XVH4ynD
+img: icons/magic/perception/eye-ringed-glow-angry-red.webp
 system:
   description:
     value: >-
-      <p>You turn your gaze on one creature you can see within range. If the
-      target can see your eyes, their body stiffens and cracks as if it were
-      turning to stone. The target must succeed on a Constitution saving throw
-      or take Necrotic damage equal to your Proficiency Bonus and have
-      Disadvantage on the next Dexterity saving throw it makes before the end of
-      its next turn.</p>
+      <p>You can finish a Long Rest in 6 hours if you spend those hours in an
+      inactive, motionless state, during which you retain consciousness.</p>
     chat: ''
   source:
+    custom: ''
     book: 'Frontiers of Eberron: Quickstone'
     page: ''
-    custom: ''
     license: ''
   activation:
     type: ''
@@ -67,23 +63,16 @@ system:
     dc: null
     scaling: spell
   summons: null
-  level: 0
-  school: trs
-  properties:
-    - vocal
-    - somatic
-    - material
-  materials:
-    value: a pebble with a hole in it
-    consumed: false
-    cost: 0
-    supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
 effects: []
 sort: 0
 ownership:
@@ -96,8 +85,8 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 3.3.1
-  createdTime: 1725339703713
-  modifiedTime: 1725685841860
+  createdTime: 1725683362601
+  modifiedTime: 1725686369541
   lastModifiedBy: MVioF9x1qI1WYGx1
-_key: '!items!D1aZUwl7JVcW4mh3'
+_key: '!items!CmvxfEmm8XVH4ynD'
 

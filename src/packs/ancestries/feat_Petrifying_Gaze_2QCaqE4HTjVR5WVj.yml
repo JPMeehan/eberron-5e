@@ -1,22 +1,23 @@
-folder: 8HZDRNglvfgWO2oB
-name: Gray Gaze
-type: spell
-_id: D1aZUwl7JVcW4mh3
+folder: wKED2A23VokEO9ro
+name: Petrifying Gaze
+type: feat
+_id: 2QCaqE4HTjVR5WVj
 img: icons/creatures/eyes/humanoid-single-blind.webp
 system:
   description:
     value: >-
-      <p>You turn your gaze on one creature you can see within range. If the
-      target can see your eyes, their body stiffens and cracks as if it were
-      turning to stone. The target must succeed on a Constitution saving throw
-      or take Necrotic damage equal to your Proficiency Bonus and have
-      Disadvantage on the next Dexterity saving throw it makes before the end of
-      its next turn.</p>
+      <p>You know the
+      @UUID[Compendium.eberron-5e.spells.Item.D1aZUwl7JVcW4mh3]{Gray Gaze}
+      cantrip and can cast it without components. Intelligence, Wisdom, or
+      Charisma is your spellcasting ability for this spell (choose when you
+      select this species). When you reduce a creature to 0 Hit Points with this
+      spell, you can cause it to turn to stone. A creature turned to stone in
+      this way has the Petrified condition.</p>
     chat: ''
   source:
+    custom: ''
     book: 'Frontiers of Eberron: Quickstone'
     page: ''
-    custom: ''
     license: ''
   activation:
     type: ''
@@ -67,23 +68,16 @@ system:
     dc: null
     scaling: spell
   summons: null
-  level: 0
-  school: trs
-  properties:
-    - vocal
-    - somatic
-    - material
-  materials:
-    value: a pebble with a hole in it
-    consumed: false
-    cost: 0
-    supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
 effects: []
 sort: 0
 ownership:
@@ -96,8 +90,8 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 3.3.1
-  createdTime: 1725339703713
-  modifiedTime: 1725685841860
+  createdTime: 1725685802498
+  modifiedTime: 1725686387575
   lastModifiedBy: MVioF9x1qI1WYGx1
-_key: '!items!D1aZUwl7JVcW4mh3'
+_key: '!items!2QCaqE4HTjVR5WVj'
 

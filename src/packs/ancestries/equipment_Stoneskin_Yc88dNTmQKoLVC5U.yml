@@ -1,23 +1,35 @@
-folder: 8HZDRNglvfgWO2oB
-name: Gray Gaze
-type: spell
-_id: D1aZUwl7JVcW4mh3
-img: icons/creatures/eyes/humanoid-single-blind.webp
+folder: 2H571Xc1i1Aq5QMr
+name: Stoneskin
+type: equipment
+_id: Yc88dNTmQKoLVC5U
+img: icons/magic/defensive/armor-stone-skin.webp
 system:
   description:
     value: >-
-      <p>You turn your gaze on one creature you can see within range. If the
-      target can see your eyes, their body stiffens and cracks as if it were
-      turning to stone. The target must succeed on a Constitution saving throw
-      or take Necrotic damage equal to your Proficiency Bonus and have
-      Disadvantage on the next Dexterity saving throw it makes before the end of
-      its next turn.</p>
+      <p>Your thick stone hide provides you with natural armor. While you aren’t
+      wearing armor, your base Armor Class equals 13 plus your Dexterity
+      modifier. You can use a Shield and still gain this benefit.</p>
     chat: ''
   source:
+    custom: ''
     book: 'Frontiers of Eberron: Quickstone'
     page: ''
-    custom: ''
     license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  attunement: ''
+  attuned: false
+  equipped: false
   activation:
     type: ''
     cost: null
@@ -67,23 +79,24 @@ system:
     dc: null
     scaling: spell
   summons: null
-  level: 0
-  school: trs
-  properties:
-    - vocal
-    - somatic
-    - material
-  materials:
-    value: a pebble with a hole in it
-    consumed: false
-    cost: 0
-    supply: 0
-  preparation:
-    mode: prepared
-    prepared: false
-  scaling:
-    mode: none
-    formula: ''
+  armor:
+    value: 13
+    magicalBonus: null
+    dex: null
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: natural
+    baseItem: ''
+  properties: []
+  speed:
+    value: null
+    conditions: ''
+  strength: null
+  proficient: null
 effects: []
 sort: 0
 ownership:
@@ -96,8 +109,8 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 3.3.1
-  createdTime: 1725339703713
-  modifiedTime: 1725685841860
+  createdTime: 1725683390192
+  modifiedTime: 1725686374694
   lastModifiedBy: MVioF9x1qI1WYGx1
-_key: '!items!D1aZUwl7JVcW4mh3'
+_key: '!items!Yc88dNTmQKoLVC5U'
 

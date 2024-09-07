@@ -27,15 +27,6 @@ system:
     custom: ''
     license: ''
   advancement:
-    - type: AbilityScoreImprovement
-      _id: FkOgwg31gC4PDj5h
-      configuration:
-        points: 0
-        fixed: {}
-        cap: 2
-      value:
-        type: asi
-      level: 0
     - type: Size
       _id: lQxbSO4zfII12CcF
       configuration:
@@ -43,17 +34,44 @@ system:
           - med
       level: 0
       value: {}
-    - type: Trait
+    - _id: 8YmVNbeiEefGJ16H
+      type: Trait
       configuration:
-        grants:
-          - languages:standard:common
         mode: default
         allowReplacements: false
+        grants:
+          - skills:itm
         choices: []
-      _id: I4xQHOxZr8mivJkn
       value:
         chosen: []
       level: 0
+      title: Fearsome Presence
+      hint: ''
+    - _id: MH7P5jIchJo22EZf
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.ancestries.Item.J93xQxoUTXD5AFP8
+            optional: false
+          - uuid: Compendium.eberron-5e.spells.Item.D1aZUwl7JVcW4mh3
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.2QCaqE4HTjVR5WVj
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.EsIMT5QCOQaf9uc5
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.nJwWXDmk9XV2uSJi
+            optional: false
+        optional: false
+        spell:
+          ability: []
+          preparation: innate
+          uses:
+            max: ''
+            per: ''
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
   movement:
     burrow: null
     climb: null
@@ -87,7 +105,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725338493925
-  modifiedTime: 1725338559690
+  modifiedTime: 1725686162728
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!qQzoMnyMTKVIZInY'
 

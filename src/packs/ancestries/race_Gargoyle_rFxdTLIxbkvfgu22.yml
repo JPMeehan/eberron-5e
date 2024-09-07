@@ -35,15 +35,6 @@ system:
     custom: ''
     license: ''
   advancement:
-    - type: AbilityScoreImprovement
-      _id: 9uJLI1cu9TXRnIk3
-      configuration:
-        points: 0
-        fixed: {}
-        cap: 2
-      value:
-        type: asi
-      level: 0
     - type: Size
       _id: hvAgfQh2dTaemPRI
       configuration:
@@ -51,16 +42,36 @@ system:
           - med
       level: 0
       value: {}
-    - type: Trait
+    - _id: 7yMetoxNv4XtXpIl
+      type: Trait
       configuration:
-        grants:
-          - languages:standard:common
         mode: default
         allowReplacements: false
+        grants:
+          - dr:poison
+          - ci:diseased
+          - ci:petrified
         choices: []
-      _id: uWpYhA8clcr3sIOZ
       value:
         chosen: []
+      level: 0
+      title: Elemental Nature
+      hint: ''
+    - _id: aybE90WBTt9ILfys
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.ancestries.Item.fqrV3gneueNkXxz3
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.BwmcXAFhkfQq3hiC
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.CmvxfEmm8XVH4ynD
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.Yc88dNTmQKoLVC5U
+            optional: false
+        optional: false
+        spell: null
+      value: {}
       level: 0
   movement:
     burrow: null
@@ -95,7 +106,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725338274564
-  modifiedTime: 1725338368068
+  modifiedTime: 1725683581107
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!rFxdTLIxbkvfgu22'
 

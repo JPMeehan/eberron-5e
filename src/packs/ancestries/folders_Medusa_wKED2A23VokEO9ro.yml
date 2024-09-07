@@ -1,0 +1,20 @@
+name: Medusa
+sorting: a
+folder: 3VSYURmYC8CuL9nX
+type: Item
+_id: wKED2A23VokEO9ro
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!folders!wKED2A23VokEO9ro'
+
