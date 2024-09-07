@@ -52,6 +52,37 @@ system:
         replaced: {}
       title: Lesser Dragonmark
       hint: ''
+    - _id: rPyVUmaG7PsrHyCR
+      type: AbilityScoreImprovement
+      configuration:
+        points: 3
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - _id: IE7jfL0c8RYbgjUB
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - skills:ath
+          - skills:itm
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
 effects: []
 sort: 0
 ownership:
@@ -65,7 +96,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725337823358
-  modifiedTime: 1725517627923
+  modifiedTime: 1725688875323
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!YgygRTlLVpIPfqE8'
 

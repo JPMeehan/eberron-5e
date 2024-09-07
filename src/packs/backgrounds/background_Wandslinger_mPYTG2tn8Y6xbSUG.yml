@@ -20,7 +20,64 @@ system:
     license: ''
   startingEquipment: []
   identifier: ''
-  advancement: []
+  advancement:
+    - _id: pIM7K5QL1JeTksmW
+      type: AbilityScoreImprovement
+      configuration:
+        points: 3
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - _id: eyYuSMLU7xAidI0M
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+      title: Feat
+      hint: ''
+    - _id: SebcpALxZBxKW3s0
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:itm
+          - skills:slt
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
+    - _id: l1u3y1iIMTLCwAQr
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - tool:art:woodcarver
+              - tool:game:*
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
 effects: []
 sort: 0
 ownership:
@@ -34,7 +91,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725337892488
-  modifiedTime: 1725337919492
+  modifiedTime: 1725689263761
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!mPYTG2tn8Y6xbSUG'
 
