@@ -6,7 +6,7 @@ img: icons/skills/social/theft-pickpocket-bribery-brown.webp
 system:
   description:
     value: >-
-      <p><em>Tip the Scales of Fate with Divine Gold</em> </p><p>Prayer may be
+      <p><em>Tip the Scales of Fate with Divine Gold</em></p><p>Prayer may be
       the currency of the gods, but hard cash makes the world go round. Clerics
       of the Commerce Domain believe that society and economy are two sides of
       the same coin, and defending one’s community means little if you don’t
@@ -79,7 +79,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725335195013
-  modifiedTime: 1725343943455
+  modifiedTime: 1725689820067
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!7HrPb3sLn20SsOIV'
 

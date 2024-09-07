@@ -1,0 +1,261 @@
+folder: 1wQBRGfu5I72bywP
+name: 'Frontiers of Eberron: Quickstone'
+_id: IrsXwcta6Ws3reCs
+pages:
+  - sort: 100000
+    name: Path of the Demonshard
+    type: subclass
+    _id: c4FqCax8LdPSDv3O
+    system:
+      item: Compendium.eberron-5e.classes.Item.FEE9nJ8epDDEqXwf
+      description:
+        value: >-
+          <p><em>Empower Yourself with a Fiendish Presence</em></p><p>Demonglass
+          holds the essence of a fiend—pure malefic power yearning for release.
+          A painful, and often lethal, ritual can embed a shard of demonglass in
+          a mortal’s body; if the mortal survives, they can draw on the power of
+          the fiend. The warriors of the Carrion Tribes in the Demon Wastes and
+          the champions of Turakbar’s Fist in Droaam are eager to augment their
+          might in this way, but there are others—Znir hwyri, Ghaash’kala—who
+          make this sacrifice in order to fight hellfire with hellfire. No
+          matter their intention, a Barbarian who walks the Path of the
+          Demonshard may struggle to keep the fiendish malice contained.</p>
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 3.3.1
+      createdTime: 1725689732745
+      modifiedTime: 1725689753377
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!journal.pages!IrsXwcta6Ws3reCs.c4FqCax8LdPSDv3O'
+  - sort: 200000
+    name: College of Wands
+    type: subclass
+    _id: gnCL6zceB6qn5DIT
+    system:
+      item: Compendium.eberron-5e.classes.Item.vN0Qh4Gn41xAKVXH
+      description:
+        value: >-
+          <p><em>Wield Deadly Magic with Style and Panache</em></p><p>For a Bard
+          of the College of Wands, spellcasting is an art and every duel is a
+          symphony. Whether they use their skills as Entertainers, Smugglers, or
+          Spies, a Bard can draw applause from an audience even as they lay an
+          enemy low with a distracting word, a perfect gesture, and a surge of
+          arcane power.</p>
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 3.3.1
+      createdTime: 1725689774618
+      modifiedTime: 1725689789329
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!journal.pages!IrsXwcta6Ws3reCs.gnCL6zceB6qn5DIT'
+  - sort: 300000
+    name: Commerce Domain
+    type: subclass
+    _id: 0R02oNealCpa5106
+    system:
+      item: Compendium.eberron-5e.classes.Item.7HrPb3sLn20SsOIV
+      description:
+        value: >-
+          <p><em>Tip the Scales of Fate with Divine Gold</em></p><p>Prayer may
+          be the currency of the gods, but hard cash makes the world go round.
+          Clerics of the Commerce Domain believe that society and economy are
+          two sides of the same coin, and defending one’s community means little
+          if you don’t have the resources and trade to back it up. As the
+          Sovereign of World and Wealth, Kol Korran is the most common patron to
+          Clerics of this domain, but those with a more selfish outlook might
+          look to the Keeper to support their greed.</p>
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 3.3.1
+      createdTime: 1725689807494
+      modifiedTime: 1725689822753
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!journal.pages!IrsXwcta6Ws3reCs.0R02oNealCpa5106'
+  - sort: 400000
+    name: Bloodhound
+    type: subclass
+    _id: 3WimmyezRQny1Z7I
+    system:
+      item: Compendium.eberron-5e.classes.Item.bFa0C4uMm4yRJUbB
+      description:
+        value: >-
+          <p><em>Follow your Mark to the Bitter End</em></p><p>Rangers recognise
+          the primal connections between all living things, and as a Bloodhound
+          you know precisely how to exploit them to track down your chosen prey.
+          The Western Frontier is home to countless fugitives and war criminals,
+          and House Tharashk trains its best bounty hunters to follow these
+          ancient techniques— while on the other side of the Border Road, Znir
+          hunters and worgs of the Great Pack use the skills of the Bloodhound
+          to track enemies of Droaam.</p>
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 3.3.1
+      createdTime: 1725689884577
+      modifiedTime: 1725689896589
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!journal.pages!IrsXwcta6Ws3reCs.3WimmyezRQny1Z7I'
+  - sort: 500000
+    name: Nemesis Sorcery
+    type: subclass
+    _id: A6CPI8NqFUAIE700
+    system:
+      item: Compendium.eberron-5e.classes.Item.eAqO0pwFrKqyu29E
+      description:
+        value: >-
+          <p><em>Devastate Foes with Speed and Precision</em></p><p>While some
+          sorcerers revel in unleashing devastation on dozens of enemies at
+          once, you specialize in the arcane duel. You act with absolute
+          precision, focusing your energy to strike at the perfect moment. You
+          learn to break spells directed against you, whether expending your own
+          power to fully counter them or casually dispersing deadly force. You
+          may have learned the arts of magic on the battlefields of the Last
+          War, but now you’re the epitome of the lone wandslinger, always ready
+          for the next duel.</p>
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 3.3.1
+      createdTime: 1725689960185
+      modifiedTime: 1725689977103
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!journal.pages!IrsXwcta6Ws3reCs.A6CPI8NqFUAIE700'
+  - sort: 600000
+    name: Stone Sovereign
+    type: subclass
+    _id: WiNpgVU0Us0rBqL4
+    system:
+      item: Compendium.eberron-5e.classes.Item.jwckqWJyt1NOnogh
+      description:
+        value: >-
+          <p><em>Hear the Whispering of the Stones</em></p><p>You have listened
+          to the will of the stone, and made a pact with one of Eberron’s great
+          earthen powers. The whispers of the daelkyr Orlassk corrupt many
+          Warlocks to their cause, but similar magics may be the gifts of the
+          greedy fey King Grayfinger or even the medusa Queen Sheshka of Cazhaak
+          Draal. The gnomes of Lorghalan draw their power from their friendship
+          with the earth elementals of their island; perhaps you have made peace
+          with the earth itself.</p>
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      MVioF9x1qI1WYGx1: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 3.3.1
+      createdTime: 1725690012326
+      modifiedTime: 1725690040962
+      lastModifiedBy: MVioF9x1qI1WYGx1
+    _key: '!journal.pages!IrsXwcta6Ws3reCs.WiNpgVU0Us0rBqL4'
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725689710096
+  modifiedTime: 1725689828325
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!journal!IrsXwcta6Ws3reCs'
+
