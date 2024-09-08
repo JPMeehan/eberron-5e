@@ -1,0 +1,102 @@
+folder: jwykyCqGdfBTczup
+name: The Right Face for the Job
+type: feat
+_id: eqKIGfltJz4hrCOy
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>Traveler clans use well-established personas to secure shelter and
+      information wherever they go. This could be a priest who will receive
+      sustenance at the local temple, a folk hero who will be sheltered by the
+      common people, or a veteran soldier who can always get a bed at the local
+      garrison. When you’re approaching a new community, work with the DM to
+      determine if there could be a persona with roots in that place; as long as
+      you play that role, you can usually obtain modest food and lodging and
+      gain access to local gossip. </p><p>In addition, when you encounter other
+      members of your clan, you can ask them for help or information, provided
+      this doesn’t place them at risk. However, this is a two-way street; if
+      another member of your clan approaches you with a reasonable request,
+      you’re expected to provide assistance.</p>
+    chat: ''
+  source:
+    book: Exploring Eberron
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725750006259
+  modifiedTime: 1725750027194
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!eqKIGfltJz4hrCOy'
+

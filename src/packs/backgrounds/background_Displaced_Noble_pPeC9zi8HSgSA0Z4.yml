@@ -16,7 +16,17 @@ system:
     page: Ch. 3
     custom: ''
     license: DMsGuild CCA
-  advancement: []
+  advancement:
+    - _id: ZK67kCLVXhzDovqt
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.backgrounds.Item.ikUeA6q0FKH2hIm0
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
 effects: []
 folder: fFy7PSufSbQwKWxJ
 ownership:
@@ -27,11 +37,11 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1700463433143
-  modifiedTime: 1707007882628
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1725754070677
+  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
 _id: pPeC9zi8HSgSA0Z4

@@ -1,0 +1,109 @@
+name: Tour of Duty
+_id: jRSMqqd4YtTBW7v3
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: tEyY2AlFEvGRehxu
+    text: >-
+      You replaced your victim in their youth, and have a well-established
+      relationship with family and friends.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!jRSMqqd4YtTBW7v3.tEyY2AlFEvGRehxu'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: OvgGY1XvqiZZeqr5
+    text: >-
+      You replaced your victim during the Last War, and may have fought in some
+      of the battles yourself.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!jRSMqqd4YtTBW7v3.OvgGY1XvqiZZeqr5'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: 3fDKfzRbiAH03MsJ
+    text: >-
+      Your victim was lost at sea years ago and presumed dead; you have only
+      just “miraculously” returned.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!jRSMqqd4YtTBW7v3.3fDKfzRbiAH03MsJ'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: E7E6anmRqGOknJsk
+    text: >-
+      Your victim’s parents or siblings have also been replaced by malenti, and
+      are serving as spies in a major city.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!jRSMqqd4YtTBW7v3.E7E6anmRqGOknJsk'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: qkjezxbegJgvYQvg
+    text: >-
+      You replaced your victim only a month ago, as they returned from a trip to
+      Stormreach.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!jRSMqqd4YtTBW7v3.qkjezxbegJgvYQvg'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: LvafCXrxgUZlTIKt
+    text: >-
+      You replaced your victim a year ago, but the circumstances were difficult
+      and some of your old acquaintances are still suspicious.
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!jRSMqqd4YtTBW7v3.LvafCXrxgUZlTIKt'
+replacement: true
+displayRoll: true
+folder: sZKjti3gbw3KYrpm
+sort: 100000
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725752339215
+  modifiedTime: 1725752420602
+  lastModifiedBy: MVioF9x1qI1WYGx1
+formula: 1d6
+_key: '!tables!jRSMqqd4YtTBW7v3'
+

@@ -23,7 +23,18 @@ system:
       most respect the people around them; if they acquire an item from a
       single-skin, they’ll compensate with something of equal value. Some sow
       chaos in the name of the Traveler, while others seek to understand people
-      and serve as a bridge between cultures. What path do you follow?</p>
+      and serve as a bridge between cultures. What path do you
+      follow?</p><h3>Fledgling Persona</h3><p>Personas are important tools for
+      traveler clans. Every clan has a set of shared personas, identities that
+      have an established role in a particular region. But these personas need
+      to be refreshed over time, and it’s your duty to develop a new persona
+      that can be useful to the clan. Over the course of your adventuring
+      career, you’re expected to establish useful connections and build a
+      positive reputation for this identity. You can select your persona from
+      the Personas table or roll randomly, then add details to develop them into
+      a unique
+      identity.</p><p>@Embed[Compendium.eberron-5e.tables.RollTable.o5of924Aj0U5kPJf
+      rollable]</p>
     chat: ''
     unidentified: ''
   source:
@@ -31,7 +42,63 @@ system:
     page: Ch. 6
     custom: ''
     license: DMsGuild CCA
-  advancement: []
+  advancement:
+    - _id: rPyVUmaG7PsrHyCR
+      type: AbilityScoreImprovement
+      configuration:
+        points: 3
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - _id: C5aCkEy7pItcB47Z
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - tool:thief
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
+    - _id: DbnOJYIW04OVrabR
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: true
+        grants:
+          - skills:dec
+          - skills:ins
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
+    - _id: BaSSNNFnBYsNKwhz
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.backgrounds.Item.dWNAaqfJFESliDpg
+            optional: false
+          - uuid: Compendium.eberron-5e.backgrounds.Item.eqKIGfltJz4hrCOy
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
 effects: []
 ownership:
   default: 0
@@ -41,11 +108,11 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1700463365161
-  modifiedTime: 1707007882628
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1725753017952
+  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
 _id: jK4Nx0Mvh6Y042kM

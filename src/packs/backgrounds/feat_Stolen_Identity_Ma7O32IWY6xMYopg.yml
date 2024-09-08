@@ -1,0 +1,99 @@
+folder: jwykyCqGdfBTczup
+name: Stolen Identity
+type: feat
+_id: Ma7O32IWY6xMYopg
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>As a malenti, you’ve assumed the identity and memories of a dryskin,
+      and this provides you with the benefits of their position. Choose one of
+      the following background features: By Popular Demand (entertainer),
+      Criminal Contact (criminal), Military Rank (soldier), Position of
+      Privilege (noble), or Shelter of the Faithful (acolyte). Once made, you
+      cannot change this choice. This is who you are now, and the background
+      feature suggests what people will expect of you. If you have Shelter of
+      the Faithful, it’s because you’ve taken the place of an acolyte, and
+      people of your assumed faith expect you to live up to that role.</p>
+    chat: ''
+  source:
+    book: Exploring Eberron
+    page: ''
+    custom: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725752073896
+  modifiedTime: 1725752098731
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!Ma7O32IWY6xMYopg'
+

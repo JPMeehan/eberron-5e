@@ -35,7 +35,12 @@ system:
       already possessed, or is it the result of sahuagin modification? And how
       has the integration of the new personality affected you? Are you still a
       true sahuagin, devoted to the Dominion? Or are the victim’s memories and
-      experiences causing you to question your mission?</p>
+      experiences causing you to question your mission?</p><h3>Tour of
+      Duty</h3><p>As a malenti, you’ve stolen the identity of a surface dweller.
+      But when did this occur? How long have you been playing this role, and how
+      comfortable are you with
+      it?</p><p>@Embed[Compendium.eberron-5e.tables.RollTable.jRSMqqd4YtTBW7v3
+      rollable]</p>
     chat: ''
     unidentified: ''
   source:
@@ -43,7 +48,65 @@ system:
     page: Ch. 6
     custom: ''
     license: Dmsguild
-  advancement: []
+  advancement:
+    - _id: K5NUy3FRXiecFYBp
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.backgrounds.Item.Ma7O32IWY6xMYopg
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+    - _id: rPyVUmaG7PsrHyCR
+      type: AbilityScoreImprovement
+      configuration:
+        points: 3
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        cap: 2
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+    - _id: mzhjiQfJdJToPS5o
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:dec
+          - skills:ins
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
+    - _id: r75zW9SN0ajsWZUM
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 1
+            pool:
+              - tool:forg
+              - tool:pois
+              - tool:thief
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
 effects: []
 ownership:
   default: 0
@@ -53,11 +116,11 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1700378436358
-  modifiedTime: 1707007882628
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1725752587169
+  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
 _id: fu9jPeQmz2A2zYMI
