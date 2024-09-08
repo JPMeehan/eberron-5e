@@ -37,15 +37,6 @@ system:
     custom: ''
     license: DMsGuild CCA
   advancement:
-    - type: AbilityScoreImprovement
-      _id: ENfcrCb7jiQKKair
-      configuration:
-        points: 0
-        fixed: {}
-        cap: 2
-      value:
-        type: asi
-      level: 0
     - type: Size
       _id: ULcdxPVstWWYUxaw
       configuration:
@@ -63,11 +54,12 @@ system:
           - count: 1
             pool:
               - languages:*
-        hint: ''
       _id: B3jKzCfxokGrwvTQ
       level: 0
       title: ''
       icon: null
+      value:
+        chosen: []
     - _id: dhpBX0CXnY7HqVq5
       type: Trait
       configuration:
@@ -76,18 +68,21 @@ system:
         grants:
           - dr:fire
         choices: []
-        hint: ''
       level: 0
       title: Desert Born
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: djEAfeQcyDd4CoJV
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.ancestries.Item.kGtf0x4gewpFnJ1N
-          - Compendium.eberron-5e.ancestries.Item.pQbP3T6FzriG9ZJq
-          - Compendium.eberron-5e.ancestries.Item.Vks3jrVLUpM4gMen
+          - uuid: Compendium.eberron-5e.ancestries.Item.kGtf0x4gewpFnJ1N
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.pQbP3T6FzriG9ZJq
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.Vks3jrVLUpM4gMen
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -100,11 +95,11 @@ system:
         grants:
           - skills:ath
         choices: []
-        hint: ''
       level: 0
       title: Little Giant
       icon: null
-      value: {}
+      value:
+        chosen: []
   movement:
     burrow: null
     climb: null
@@ -122,6 +117,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: ''
 effects: []
 ownership:
   default: 0
@@ -131,11 +127,11 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.2
-  coreVersion: '12.327'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1700378683464
-  modifiedTime: 1707890129476
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1725755372563
+  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
 _id: qVh3cqGSEn0PKOoo

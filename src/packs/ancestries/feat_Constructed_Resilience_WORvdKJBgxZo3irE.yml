@@ -56,7 +56,7 @@ system:
     amount: null
     scale: false
   ability: null
-  actionType: null
+  actionType: ''
   attackBonus: ''
   chatFlavor: ''
   critical:
@@ -101,11 +101,11 @@ folder: qddxzSmkORQFwAEK
 effects: []
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.2
-  coreVersion: '12.327'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1707350473710
-  modifiedTime: 1707889453678
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1725754777753
+  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
 _id: WORvdKJBgxZo3irE

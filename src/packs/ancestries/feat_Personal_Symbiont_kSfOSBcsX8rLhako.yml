@@ -1,0 +1,109 @@
+folder: n8BI6xcLeUPyCknh
+name: Personal Symbiont
+type: feat
+_id: kSfOSBcsX8rLhako
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>You are bound to an alien entity. It’s part of your body and can’t be
+      removed. Your symbiont possesses a minor supernatural ability, which it
+      can use on your behalf.</p><p>Choose a cantrip from the following list:
+      acid splash, guidance (self only), infestation, light, mage hand, poison
+      spray, ray of frost. As long as your personal symbiont is fully exposed,
+      you can cast that cantrip. You can choose to conceal the symbiont, but you
+      can only cast the cantrip you gain with this trait while it’s
+      exposed.</p><p>When you finish a long rest, you can mutate the symbiont,
+      gaining different benefits; when you do so, you can select a different
+      cantrip from this list. Charisma is your spellcasting ability for this
+      cantrip.</p><p>Work with your DM to determine the appearance of your
+      symbiont. It is organic and clearly alien, and when you cast a cantrip
+      with this trait, it should be obvious that the symbiont is the source. A
+      symbiont that casts mage hand could be a thin tentacle or an ectoplasmic
+      insect that emerges from your body and performs the action. An eyestalk
+      protruding from your shoulder could grant you guidance as it studies the
+      situation and telepathically advises you—or it might blast your enemies
+      with a ray of frost. Infestation could reflect a cloud of insects always
+      hovering around you.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Exploring Eberron
+    page: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725757123613
+  modifiedTime: 1725757168070
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!kSfOSBcsX8rLhako'
+

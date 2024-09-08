@@ -7,7 +7,7 @@ system:
     value: >-
       <p>Court aasimar appear among the elves of Eberron, and combine the
       celestial gifts of the aasimar with the long lifespan and fey blood of the
-      elves. </p><h3>Court Aasimar Traits</h3><p>Your aasimar character has the
+      elves.</p><h3>Court Aasimar Traits</h3><p>Your aasimar character has the
       following racial traits.</p><p><strong>Age</strong>. You mature at the
       same rate as an elf, but you can live up to 1,000
       years.</p><p><strong>Size</strong>. Aasimar have the same range of height
@@ -30,13 +30,13 @@ system:
       you meditate deeply, remaining semiconscious, for 4 hours a day. After
       resting in this way, you gain the same benefit that a human does from 8
       hours of sleep.</p><p><strong>Extra Language</strong>. You can speak,
-      read, and write Elvish. Guidance From the Past. Starting at 3rd level, you
-      can use an action to draw on your connection to your ancestors. Misty
-      tendrils flow around you, whispering advice only you can hear. Your
-      transformation lasts for 1 minute or until you end it as a bonus action.
-      During it, you gain advantage on all Wisdom checks and saving
-      throws.</p><p>Once you use this trait, you can’t use it again until you
-      finish a long rest.</p>
+      read, and write Elvish. </p><p><strong>Guidance From the Past.</strong>
+      Starting at 3rd level, you can use an action to draw on your connection to
+      your ancestors. Misty tendrils flow around you, whispering advice only you
+      can hear. Your transformation lasts for 1 minute or until you end it as a
+      bonus action. During it, you gain advantage on all Wisdom checks and
+      saving throws.</p><p>Once you use this trait, you can’t use it again until
+      you finish a long rest.</p>
     chat: ''
     unidentified: ''
   source:
@@ -45,15 +45,6 @@ system:
     custom: ''
     license: DMsGuild CCA
   advancement:
-    - type: AbilityScoreImprovement
-      _id: ENfcrCb7jiQKKair
-      configuration:
-        points: 0
-        fixed: {}
-        cap: 2
-      value:
-        type: asi
-      level: 0
     - type: Size
       _id: ULcdxPVstWWYUxaw
       configuration:
@@ -65,22 +56,85 @@ system:
       configuration:
         grants:
           - languages:standard:common
+          - languages:standard:elvish
+          - languages:exotic:celestial
         mode: default
         allowReplacements: false
         choices: []
       _id: B3jKzCfxokGrwvTQ
       level: 0
+      value:
+        chosen: []
+      title: ''
+      hint: ''
+    - _id: EBdcimuLVsaYenZ3
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - dr:necrotic
+          - dr:radiant
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: Celestial Resistance
+      hint: ''
+    - _id: nvfq9mLnoYPT359P
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.races.Item.cnTbpPPeGW7vGjOV
+          - optional: false
+            uuid: Compendium.dnd5e.races.Item.4v2PiBrAbqDizdSJ
+          - optional: false
+            uuid: Compendium.eberron-5e.ancestries.Item.Skw04T96CZX8sjb2
+          - optional: false
+            uuid: Compendium.eberron-5e.ancestries.Item.PxC8H53caLZuEbba
+        optional: false
+        spell: null
       value: {}
+      level: 0
+      title: ''
+      hint: ''
+    - _id: QAL1xzHI4cuvQdGc
+      type: ItemChoice
+      configuration:
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: spell
+        pool: []
+        spell:
+          ability:
+            - cha
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+        restriction:
+          level: '0'
+      value:
+        added: {}
+        replaced: {}
+      title: Light Bearer
+      hint: >-
+        You know the light cantrip. Charisma is your spellcasting ability for
+        it.
   movement:
     burrow: null
     climb: null
     fly: null
     swim: null
-    walk: null
+    walk: 30
     units: null
     hover: false
   senses:
-    darkvision: null
+    darkvision: 60
     blindsight: null
     tremorsense: null
     truesight: null
@@ -88,6 +142,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: ''
 effects: []
 ownership:
   default: 0
@@ -97,11 +152,11 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1700378683464
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1725761689602
+  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
 _id: lc1pHuelF2nAWi2V

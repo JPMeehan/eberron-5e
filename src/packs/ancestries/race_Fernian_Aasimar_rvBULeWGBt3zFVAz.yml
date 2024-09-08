@@ -41,15 +41,6 @@ system:
     custom: ''
     license: DMsGuild CCA
   advancement:
-    - type: AbilityScoreImprovement
-      _id: ENfcrCb7jiQKKair
-      configuration:
-        points: 0
-        fixed: {}
-        cap: 2
-      value:
-        type: asi
-      level: 0
     - type: Size
       _id: ULcdxPVstWWYUxaw
       configuration:
@@ -61,22 +52,92 @@ system:
       configuration:
         grants:
           - languages:standard:common
+          - languages:exotic:celestial
         mode: default
         allowReplacements: false
         choices: []
       _id: B3jKzCfxokGrwvTQ
       level: 0
+      value:
+        chosen: []
+      title: ''
+      hint: ''
+    - _id: X379xMRTbZcPDVNC
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - dr:fire
+          - dr:necrotic
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: Fernian Resistance
+      hint: ''
+    - _id: DeyLVs4mTNq1Urdr
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.ancestries.Item.dSwIcMAw0RcHwBWK
+            optional: false
+        optional: false
+        spell: null
       value: {}
+      level: 3
+      title: ''
+      hint: ''
+    - _id: V04oNW6IXg9pwIOH
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.eberron-5e.ancestries.Item.PxC8H53caLZuEbba
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+      title: ''
+      hint: >-
+        You know the produce flames cantrip. Charisma is your spellcasting
+        ability for it.
+    - _id: elTihGli92TMvhLq
+      type: ItemChoice
+      configuration:
+        choices:
+          '0':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: spell
+        pool: []
+        spell:
+          ability:
+            - cha
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+        restriction:
+          level: '0'
+      value:
+        added: {}
+        replaced: {}
+      title: Spirit of Fire
+      hint: >-
+        You know the produce flames cantrip. Charisma is your spellcasting
+        ability for it.
   movement:
     burrow: null
     climb: null
     fly: null
     swim: null
-    walk: null
+    walk: 30
     units: null
     hover: false
   senses:
-    darkvision: null
+    darkvision: 60
     blindsight: null
     tremorsense: null
     truesight: null
@@ -84,6 +145,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: ''
 effects: []
 ownership:
   default: 0
@@ -93,11 +155,11 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1700378683464
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1725761788194
+  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
 _id: rvBULeWGBt3zFVAz

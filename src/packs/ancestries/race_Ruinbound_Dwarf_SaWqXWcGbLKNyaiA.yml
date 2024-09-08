@@ -84,7 +84,6 @@ system:
     - _id: rmcKuRQ2Laloq1xp
       type: Trait
       configuration:
-        hint: ''
         mode: default
         allowReplacements: false
         grants:
@@ -93,11 +92,11 @@ system:
         choices: []
       level: 0
       title: ''
-      value: {}
+      value:
+        chosen: []
     - _id: J0UGmCyMy6thWDeU
       type: Trait
       configuration:
-        hint: ''
         mode: default
         allowReplacements: false
         grants:
@@ -108,11 +107,11 @@ system:
         choices: []
       level: 0
       title: Dwarven Combat Training
-      value: {}
+      value:
+        chosen: []
     - _id: 9CYW7Bj53L9G8Zsw
       type: Trait
       configuration:
-        hint: ''
         mode: default
         allowReplacements: false
         grants: []
@@ -124,11 +123,11 @@ system:
               - tool:art:smith
       level: 0
       title: ''
-      value: {}
+      value:
+        chosen: []
     - _id: 5zWGcz9uAerx3Dh5
       type: Trait
       configuration:
-        hint: ''
         mode: default
         allowReplacements: false
         grants:
@@ -136,23 +135,70 @@ system:
         choices: []
       level: 0
       title: Dwarven Resilience
-      value: {}
+      value:
+        chosen: []
     - _id: tNfLTuoHfvAxg2FC
       type: ItemGrant
       configuration:
         items:
-          - Compendium.dnd5e.races.ufysTkqet2Ctmtyi
-          - Compendium.dnd5e.races.mQPZDRbUhgYTbXKa
+          - optional: false
+            uuid: Compendium.dnd5e.races.ufysTkqet2Ctmtyi
+          - optional: false
+            uuid: Compendium.dnd5e.races.mQPZDRbUhgYTbXKa
         optional: false
         spell:
-          ability: ''
+          ability:
+            - ''
           preparation: ''
           uses:
             max: ''
             per: ''
       value: {}
       level: 0
-      title: ''
+      title: Dwarf Features
+      hint: ''
+    - _id: buEw248xY1qlstrp
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.ancestries.Item.kSfOSBcsX8rLhako
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.EqCyDwS9zJG2VEUJ
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+      title: Ruinbound Traits
+      hint: ''
+    - _id: a8ebhNSMNHfdsxVb
+      type: ItemChoice
+      configuration:
+        choices:
+          '0':
+            count: 1
+            replacement: true
+        allowDrops: true
+        type: spell
+        pool: []
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+        restriction:
+          level: '0'
+      value:
+        added: {}
+        replaced: {}
+      title: Symbiont Mastery
+      hint: >-
+        Choose a cantrip from the following list: acid splash, guidance (self
+        only), infestation, light, mage hand, poison spray, ray of frost.
+                
+                When you finish a long rest, you can mutate the symbiont, gaining different benefits; when you do so, you can select a different cantrip from this list. Charisma is your spellcasting ability for this cantrip.
   movement:
     burrow: null
     climb: null
@@ -172,6 +218,7 @@ system:
     value: humanoid
     subtype: dwarf
     custom: ''
+  identifier: ''
 effects: []
 ownership:
   default: 0
@@ -181,11 +228,11 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1700378683464
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1725757386642
+  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
 _id: SaWqXWcGbLKNyaiA

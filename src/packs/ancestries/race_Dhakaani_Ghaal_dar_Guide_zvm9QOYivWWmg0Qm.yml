@@ -36,15 +36,6 @@ system:
     custom: ''
     license: DMsGuild CCA
   advancement:
-    - type: AbilityScoreImprovement
-      _id: ENfcrCb7jiQKKair
-      configuration:
-        points: 0
-        fixed: {}
-        cap: 2
-      value:
-        type: asi
-      level: 0
     - type: Size
       _id: ULcdxPVstWWYUxaw
       configuration:
@@ -56,22 +47,56 @@ system:
       configuration:
         grants:
           - languages:standard:common
+          - languages:standard:goblin
         mode: default
         allowReplacements: false
         choices: []
       _id: B3jKzCfxokGrwvTQ
       level: 0
+      value:
+        chosen: []
+      title: ''
+      hint: ''
+    - _id: uYdF4UOs7aRGF5G8
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.ancestries.Item.d3rRb8LdqygADUo5
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.3ZlBIdmaY3mnp4jJ
+            optional: false
+        optional: false
+        spell: null
       value: {}
+      level: 0
+    - _id: twxoTOrViZ3eV8WJ
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 2
+            pool:
+              - skills:his
+              - skills:med
+              - skills:prf
+              - skills:per
+      value:
+        chosen: []
+      level: 0
+      title: The Guiding Arts
+      hint: ''
   movement:
     burrow: null
     climb: null
     fly: null
     swim: null
-    walk: null
+    walk: 30
     units: null
     hover: false
   senses:
-    darkvision: null
+    darkvision: 60
     blindsight: null
     tremorsense: null
     truesight: null
@@ -79,6 +104,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: ''
 effects: []
 ownership:
   default: 0
@@ -88,11 +114,11 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1700378683464
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1725758643115
+  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
 _id: zvm9QOYivWWmg0Qm

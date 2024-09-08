@@ -45,21 +45,11 @@ system:
     custom: ''
     license: DMsGuild CCA
   advancement:
-    - type: AbilityScoreImprovement
-      _id: ENfcrCb7jiQKKair
-      configuration:
-        points: 0
-        fixed: {}
-        cap: 2
-      value:
-        type: asi
-      level: 0
     - type: Size
       _id: ULcdxPVstWWYUxaw
       configuration:
         sizes:
           - sm
-        hint: ''
       level: 0
       title: ''
       icon: null
@@ -73,22 +63,26 @@ system:
         mode: default
         allowReplacements: false
         choices: []
-        hint: ''
       _id: B3jKzCfxokGrwvTQ
       level: 0
       title: ''
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: oHASjkY2yexn8nAv
       type: ItemGrant
       configuration:
         items:
-          - Compendium.dnd5e.races.EHhr9umJ5kxJFCQH
-          - Compendium.eberron-5e.ancestries.Item.qv4JXOu6CQgJh9vY
-          - Compendium.eberron-5e.ancestries.Item.JnOaDufTLdMMO2y2
+          - uuid: Compendium.dnd5e.races.EHhr9umJ5kxJFCQH
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.qv4JXOu6CQgJh9vY
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.JnOaDufTLdMMO2y2
+            optional: false
         optional: false
         spell:
-          ability: ''
+          ability:
+            - ''
           preparation: ''
           uses:
             max: ''
@@ -100,10 +94,12 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.dnd5e.spells.Item.SbSvZKkJASyk8jKo
+          - uuid: Compendium.dnd5e.spells.Item.SbSvZKkJASyk8jKo
+            optional: false
         optional: false
         spell:
-          ability: cha
+          ability:
+            - cha
           preparation: always
           uses:
             max: ''
@@ -129,6 +125,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: ''
 effects: []
 ownership:
   default: 0
@@ -138,11 +135,11 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.2
-  coreVersion: '12.327'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1700378683464
-  modifiedTime: 1707890631245
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1725755371559
+  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
 _id: kTT6hEXTgaof4ZhJ

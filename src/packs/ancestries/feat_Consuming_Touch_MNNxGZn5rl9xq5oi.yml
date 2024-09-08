@@ -1,0 +1,95 @@
+folder: EsyYY81SZmGz2hyU
+name: Consuming Touch
+type: feat
+_id: MNNxGZn5rl9xq5oi
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>As an action, you can make a melee spell attack against a creature
+      within your reach. On a hit, the target takes necrotic damage equal to
+      your level and you regain hit points equal to half the damage dealt (round
+      up). Once you use this trait, you can’t use it again until you finish a
+      long rest. Charisma is your spellcasting ability for this trait.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Exploring Eberron
+    page: ''
+    license: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1725758734048
+  modifiedTime: 1725758750987
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!MNNxGZn5rl9xq5oi'
+

@@ -59,8 +59,13 @@ system:
       _id: ULcdxPVstWWYUxaw
       configuration:
         sizes:
+          - sm
           - med
       level: 0
+      title: ''
+      hint: >-
+        Medium (about 6–7 feet tall) or Small (about 3–4 feet tall), chosen when
+        you select this species
       value: {}
     - type: Trait
       configuration:
@@ -71,15 +76,20 @@ system:
         choices: []
       _id: B3jKzCfxokGrwvTQ
       level: 0
-      value: {}
+      value:
+        chosen: []
     - _id: Rj043509qhD484qb
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.ancestries.Item.WORvdKJBgxZo3irE
-          - Compendium.eberron-5e.ancestries.Item.ebWD63992LerDETu
-          - Compendium.eberron-5e.ancestries.Item.DCc268qUcjkn3Grw
-          - Compendium.eberron-5e.ancestries.Item.Cj6OlCSEMmyJuOJU
+          - uuid: Compendium.eberron-5e.ancestries.Item.WORvdKJBgxZo3irE
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.ebWD63992LerDETu
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.DCc268qUcjkn3Grw
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.Cj6OlCSEMmyJuOJU
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -97,13 +107,12 @@ system:
           - count: 1
             pool:
               - tool:*
-        hint: >-
-          You gain one skill proficiency and one tool proficiency of your
-          choice.
       level: 0
       title: Specialized Design
       icon: null
-      value: {}
+      value:
+        chosen: []
+      hint: You gain one skill proficiency and one tool proficiency of your choice.
   movement:
     burrow: null
     climb: null
@@ -123,6 +132,7 @@ system:
     value: construct
     subtype: Living
     custom: ''
+  identifier: ''
 effects: []
 ownership:
   default: 0
@@ -132,11 +142,11 @@ flags:
   core: {}
 _stats:
   systemId: dnd5e
-  systemVersion: 3.0.2
-  coreVersion: '12.327'
+  systemVersion: 3.3.1
+  coreVersion: '12.331'
   createdTime: 1700378683464
-  modifiedTime: 1707890427972
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1725755362621
+  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
 _id: vfacs1ErNwf3s9LQ
