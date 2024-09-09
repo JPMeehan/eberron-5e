@@ -2,7 +2,7 @@ folder: WHXwnah2tsDAMo0J
 name: Harpy's Charms
 type: feat
 _id: 2H8JmVGaUz05RLFG
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/control/hypnosis-mesmerism-eye.webp
 system:
   description:
     value: >-
@@ -88,7 +88,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725686860919
-  modifiedTime: 1725686876883
+  modifiedTime: 1725850677332
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!2H8JmVGaUz05RLFG'
 

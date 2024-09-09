@@ -2,7 +2,7 @@ folder: ovyZSFVkY6CCAjBK
 name: Natural Armor
 type: equipment
 _id: VhHWDRtiBE1JQufK
-img: systems/dnd5e/icons/svg/items/equipment.svg
+img: icons/magic/defensive/shield-barrier-glowing-blue.webp
 system:
   description:
     value: >-
@@ -110,7 +110,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725687672296
-  modifiedTime: 1725687771069
+  modifiedTime: 1725851143233
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!VhHWDRtiBE1JQufK'
 

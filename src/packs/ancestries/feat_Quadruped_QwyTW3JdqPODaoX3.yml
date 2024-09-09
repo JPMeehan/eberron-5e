@@ -2,7 +2,7 @@ folder: ovyZSFVkY6CCAjBK
 name: Quadruped
 type: feat
 _id: QwyTW3JdqPODaoX3
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/creatures/abilities/paw-print-pair-purple.webp
 system:
   description:
     value: >-
@@ -97,7 +97,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725687744031
-  modifiedTime: 1725687756156
+  modifiedTime: 1725851173137
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!QwyTW3JdqPODaoX3'
 

@@ -2,7 +2,7 @@ folder: ovyZSFVkY6CCAjBK
 name: Bite
 type: weapon
 _id: JVzHMV8xspQdLVNm
-img: systems/dnd5e/icons/svg/items/weapon.svg
+img: icons/creatures/abilities/mouth-teeth-long-red.webp
 system:
   description:
     value: >-
@@ -108,7 +108,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725687120611
-  modifiedTime: 1725687142040
+  modifiedTime: 1725850727416
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!JVzHMV8xspQdLVNm'
 

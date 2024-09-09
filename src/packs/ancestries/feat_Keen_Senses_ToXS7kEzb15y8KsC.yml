@@ -2,7 +2,7 @@ folder: ovyZSFVkY6CCAjBK
 name: Keen Senses
 type: feat
 _id: ToXS7kEzb15y8KsC
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 system:
   description:
     value: ''
@@ -84,7 +84,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1725687104796
-  modifiedTime: 1725687776576
+  modifiedTime: 1725850844843
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!ToXS7kEzb15y8KsC'
 
