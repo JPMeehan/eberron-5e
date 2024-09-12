@@ -1,0 +1,141 @@
+folder: lDMG6f6gTK8V0OFD
+name: Mabaran Tiefling
+type: race
+img: systems/dnd5e/icons/svg/items/race.svg
+system:
+  description:
+    value: >-
+      <p>Tieflings are rarely seen in the Five Nations, and are often treated
+      with fear and suspicion when they are. Rather than being directly
+      descended from fiends, the most common tieflings of Eberron are touched by
+      the malefic energies of one of the planes. Because of this, their
+      appearance varies dramatically. Mabaran tieflings are reminiscent of
+      incubi and succubi, with sinister beauty and small horns and fangs.
+      Shavaran tieflings have scaly skin and horns of steel, while Risian
+      tieflings are coated in frost and have horns of ice. Others don’t have
+      horns at all. Dolurrhi tieflings usually have gray skin and pale eyes,
+      with tendrils of whispering mist clinging to their skin. Kythrian
+      tieflings slowly change in appearance, with every aspect changing in time.
+      Such plane-touched tieflings don’t pass these traits on to their children;
+      the birth of a tiefling is tied to the flow of planar energies, most often
+      occurring when a child is conceived in a manifest zone at a key point in a
+      plane’s coterminous cycle.</p><p>Tieflings are only created by the malefic
+      influence of a plane, and there are no tieflings tied to Daanvi, Irian,
+      Lamannia, or Syrania, or Thelanis. Popular stories say that tieflings are
+      cursed and that they draw the negative powers of the plane wherever they
+      go; while this is largely just superstition, it can make life difficult
+      for tieflings.</p><p>Planar tieflings don’t pass their traits to their
+      offspring, which is why tieflings are rare in the Five Nations. But there
+      are two other types of tiefling in Khorvaire. The Sakah are said to be
+      descended from rakshasa, fiends who infused their immortal essence into
+      mortal bloodlines. In their natural form, they have feline features with
+      fiendish aspects—burning eyes, backward hands, disturbing fangs—that set
+      them apart from shifters. Most of the Sakah are in the Demon Wastes, but
+      some capable Sakah serve as agents of the Lords of Dust in the wider
+      world. The final source of tieflings are the noble bloodlines of the
+      Venomous Demesne. The Demesne tieflings are the result of fiendish
+      bargains made long ago by the mages of Ohr Kaluun. Demesne tieflings
+      should use the Infernal, Chthonic, or Abyssal legacies as presented in the
+      Player’s Handbook. Planar and Sakah tieflings should use one of the
+      Fiendish Legacies presented in the Eberron Fiendish Legacies table. All
+      other traits for Planar and Sakah tieflings are the same as those in the
+      Player’s Handbook.</p><h3>Tiefling Traits</h3><p><em><strong>Fiendish
+      Legacy.</strong></em> When you choose a legacy, you can select one of the
+      options in the Eberron Fiendish Legacies table instead of one from the
+      <em>Player’s Handbook</em></p>
+    chat: ''
+  source:
+    book: 'Frontiers of Eberron: Quickstone'
+    page: ''
+    custom: ''
+    license: ''
+  advancement:
+    - type: Size
+      _id: bdLLJ2R1HdsNIy6s
+      configuration:
+        sizes:
+          - sm
+          - med
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - _id: 95XjwQ9CPqXAC2mM
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - dr:necrotic
+        choices: []
+      value:
+        chosen: []
+      level: 1
+      title: Fiendish Legacy
+      hint: ''
+    - _id: yY0nK85AnUouwr3f
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 1
+      title: Fiendish Legacy
+      hint: ''
+    - _id: WUw7XpjgvOqDedlw
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Fiendish Legacy
+      hint: ''
+    - _id: 6XBLvXoRiNBaLcSA
+      type: ItemGrant
+      configuration:
+        items: []
+        optional: false
+        spell: null
+      value: {}
+      level: 5
+      title: Fiendish Legacy
+      hint: ''
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: 30
+    units: null
+    hover: false
+  senses:
+    darkvision: 60
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: humanoid
+  identifier: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1726119989953
+  modifiedTime: 1726120877992
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_id: SzkpytMCSzP5fPr5
+_key: '!items!SzkpytMCSzP5fPr5'
+
