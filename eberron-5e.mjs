@@ -41,6 +41,7 @@ const EBERRONCONFIG = {
       "Linvakri's Guide to Syrkarn": 'by Vani Srinavasan',
       "Giant Guide to Xen'drik":
         'by Jamie Berstein, Anthony Turco, & Nausicaä Enriquez',
+      "Textiles of Eberron": "by Rebecca Gray"
     },
   },
   EBERRON: {},

@@ -1,0 +1,99 @@
+folder: q5z5BVhzYnhz63Ew
+name: Oath of Sumptuary Law
+type: subclass
+_id: kMdz09gbQAAxXfmZ
+img: systems/dnd5e/icons/svg/items/subclass.svg
+system:
+  description:
+    value: >-
+      <p>The Oath of the Sumptuary Law calls on paladins to understand the rules
+      set out by the ruling classes to keep each social circle in its place. A
+      follower of sumptuary law understands when you can wear white and straw
+      hats, and what colors are gauche during each season of the year.
+      </p><h3>Tenets of Fashion </h3><p><strong>Conform to Society’s
+      Conventions.</strong> Following the rules of society means that one can
+      move through it effortlessly, and without cause for concern.
+      </p><p><strong>Etiquette Above All Else.</strong> Good manners make a hero
+      a hero. I will follow the rules of etiquette and chivalry even when faced
+      with my greatest enemy. </p><p><strong>Law of Class.</strong> The class
+      structure of society keeps things neat and orderly. Knowing where each
+      person belongs within that structure is important.</p>
+    chat: ''
+  source:
+    custom: ''
+    book: Textiles of Eberron
+    page: ''
+    license: ''
+  identifier: oath-of-sumptuary-law
+  classIdentifier: ''
+  advancement:
+    - _id: aZHrBnTMemBpmVOZ
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.iZ3KTGDCBCJTbUV9
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.MBTh0bm39rJT2g8n
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Sacred Oath Feature
+      hint: ''
+    - _id: ThdscghFPgzRm1D9
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.yi0JFLG4Zxcun0Xw
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 7
+      title: Sacred Oath Feature
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.YQnunFFwbcwqZpuv
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 15
+      title: Sacred Oath Feature
+      hint: ''
+      _id: iSPK3sukdJThOHvK
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.wzLCJBrJvXy1MHBT
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 20
+      title: Sacred Oath Feature
+      hint: ''
+      _id: mp1ReViXH2f1zjjo
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1726205998421
+  modifiedTime: 1726206502001
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!kMdz09gbQAAxXfmZ'
+

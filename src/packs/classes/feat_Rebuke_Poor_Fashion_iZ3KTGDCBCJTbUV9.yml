@@ -1,0 +1,95 @@
+folder: q5z5BVhzYnhz63Ew
+name: Rebuke Poor Fashion
+type: feat
+_id: iZ3KTGDCBCJTbUV9
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>As an action, choose any number of creatures within 30 feet of you that
+      can hear you. Each creature must succeed on a Charisma saving throw
+      against your spell save DC or suffer 1d6 psychic damage and have
+      disadvantage on attack rolls on their next turn as you lambast their awful
+      outfit choices. On a success, they take half damage. Creatures with
+      Intelligence of 3 or less are immune, but creatures with truly abysmal
+      outfits might have disadvantage on the saving throw at the DM’s
+      discretion.</p>
+    chat: ''
+  source:
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: class
+    subtype: channelDivinity
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1726206093281
+  modifiedTime: 1726206118100
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!iZ3KTGDCBCJTbUV9'
+

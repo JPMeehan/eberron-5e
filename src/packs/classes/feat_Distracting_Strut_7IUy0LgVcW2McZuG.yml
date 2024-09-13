@@ -1,0 +1,94 @@
+folder: g78b6F7bRxbqIu03
+name: Distracting Strut
+type: feat
+_id: 7IUy0LgVcW2McZuG
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>Strutting through the battlefield turns the heads of your enemies,
+      giving your allies a chance to strike. As an action, you affect your
+      movement, allowing you to target a number of creatures up to your Charisma
+      modifier that you move within 5 feet of this turn. Targeted creatures must
+      succeed on a Wisdom saving throw against your spell save DC or become
+      incapacitated until the start of your next turn, or until they take
+      damage. On a success, they become immune to this effect for 24 hours.</p>
+    chat: ''
+  source:
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1726205815258
+  modifiedTime: 1726205828883
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!7IUy0LgVcW2McZuG'
+

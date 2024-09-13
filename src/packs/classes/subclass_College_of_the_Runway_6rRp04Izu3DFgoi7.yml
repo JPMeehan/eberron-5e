@@ -1,0 +1,80 @@
+folder: g78b6F7bRxbqIu03
+name: College of the Runway
+type: subclass
+_id: 6rRp04Izu3DFgoi7
+img: systems/dnd5e/icons/svg/items/subclass.svg
+system:
+  description:
+    value: >-
+      <p><em>Fashionistas of the runway, not only showing off the newest
+      fashions from Fairhaven and Sharn, but also inspiring those who view
+      them!</em></p>
+    chat: ''
+  source:
+    book: Textiles of Eberron
+    page: ''
+    custom: ''
+    license: ''
+  identifier: college-of-the-runway
+  classIdentifier: bard
+  advancement:
+    - _id: 87hsOeCMdCdDs3yl
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.HCVecYRFfsF3u9ey
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.Z5DGGA2l48WIOUTz
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.NVI35JPcGSvnpamB
+        optional: false
+        spell: null
+      value: {}
+      level: 3
+      title: Bard College Feature
+      hint: ''
+    - _id: 08pcE9X4B7v506yd
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.classes.Item.7IUy0LgVcW2McZuG
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 6
+      title: Bard College Feature
+      hint: ''
+    - _id: Ip9uRJVJDRMflDYG
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.tMzkGXEfoAG1MBjS
+        optional: false
+        spell: null
+      value: {}
+      level: 14
+      title: Bard College Feature
+      hint: ''
+  spellcasting:
+    progression: none
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1726205505471
+  modifiedTime: 1726205946184
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!6rRp04Izu3DFgoi7'
+

@@ -1,0 +1,92 @@
+folder: q5z5BVhzYnhz63Ew
+name: A Proper Dressing Down
+type: feat
+_id: YQnunFFwbcwqZpuv
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  description:
+    value: >-
+      <p>If the creature you target with a Divine Smite spell is wearing armor
+      or clothing, they must make a Constitution saving throw against your spell
+      save DC. On a failed save, the creature’s AC is reduced by an amount equal
+      to your Charisma modifier (Minimum of 1) for 1 minute. This creature
+      cannot be the target of this feature again for 24 hours.</p>
+    chat: ''
+  source:
+    custom: ''
+  activation:
+    type: ''
+    cost: null
+    condition: ''
+  duration:
+    value: ''
+    units: ''
+  cover: null
+  crewed: false
+  target:
+    value: ''
+    width: null
+    units: ''
+    type: ''
+    prompt: true
+  range:
+    value: null
+    long: null
+    units: ''
+  uses:
+    value: null
+    max: ''
+    per: null
+    recovery: ''
+    prompt: true
+  consume:
+    type: ''
+    target: null
+    amount: null
+    scale: false
+  ability: null
+  actionType: ''
+  attack:
+    bonus: ''
+    flat: false
+  chatFlavor: ''
+  critical:
+    threshold: null
+    damage: ''
+  damage:
+    parts: []
+    versatile: ''
+  enchantment: null
+  formula: ''
+  save:
+    ability: ''
+    dc: null
+    scaling: spell
+  summons: null
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+  recharge:
+    value: null
+    charged: false
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 3.3.1
+  createdTime: 1726206370353
+  modifiedTime: 1726206374931
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!YQnunFFwbcwqZpuv'
+
