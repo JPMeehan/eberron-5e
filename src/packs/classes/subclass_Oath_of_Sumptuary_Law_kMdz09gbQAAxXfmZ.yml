@@ -2,7 +2,7 @@ folder: q5z5BVhzYnhz63Ew
 name: Oath of Sumptuary Law
 type: subclass
 _id: kMdz09gbQAAxXfmZ
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/commodities/cloth/cloth-roll-purple.webp
 system:
   description:
     value: >-
@@ -93,7 +93,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1726205998421
-  modifiedTime: 1726206502001
+  modifiedTime: 1726207201213
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!kMdz09gbQAAxXfmZ'
 

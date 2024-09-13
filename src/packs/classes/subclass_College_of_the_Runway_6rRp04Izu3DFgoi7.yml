@@ -2,13 +2,16 @@ folder: g78b6F7bRxbqIu03
 name: College of the Runway
 type: subclass
 _id: 6rRp04Izu3DFgoi7
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/commodities/cloth/ribbon-red.webp
 system:
   description:
     value: >-
       <p><em>Fashionistas of the runway, not only showing off the newest
       fashions from Fairhaven and Sharn, but also inspiring those who view
-      them!</em></p>
+      them!</em></p><p>A Bard who struts down a runway, their fierce outfits,
+      and fiercer looks strike fear and adoration in the people around them.
+      Able to wear anything and change their outfit in a matter of seconds, this
+      Bard has no problem getting battle ready.</p>
     chat: ''
   source:
     book: Textiles of Eberron
@@ -74,7 +77,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1726205505471
-  modifiedTime: 1726205946184
+  modifiedTime: 1726207186607
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!6rRp04Izu3DFgoi7'
 

@@ -17,6 +17,7 @@ system:
     chat: ''
   source:
     custom: ''
+    book: Textiles of Eberron
   activation:
     type: ''
     cost: null
@@ -72,12 +73,12 @@ system:
   prerequisites:
     level: null
   properties: []
-  requirements: ''
+  requirements: Oath of Sumptuary Law 3
   recharge:
     value: null
     charged: false
 effects: []
-sort: 0
+sort: 3000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
@@ -89,7 +90,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 3.3.1
   createdTime: 1726206093281
-  modifiedTime: 1726206118100
+  modifiedTime: 1726207040265
   lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!iZ3KTGDCBCJTbUV9'
 
