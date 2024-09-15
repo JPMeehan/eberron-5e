@@ -30,14 +30,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716397307921
-      modifiedTime: 1716432412511
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!qcaZwhHfTXWWIPa1.CWUDRdXrMPIKhNEv'
   - sort: 200000
     name: Aspiration Domain
@@ -68,14 +68,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716397337269
-      modifiedTime: 1716432412453
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!qcaZwhHfTXWWIPa1.oWguxmyypFlQIrTm'
   - sort: 300000
     name: Oath of Veneration
@@ -116,14 +116,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716397350566
-      modifiedTime: 1716432412467
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!qcaZwhHfTXWWIPa1.YvKb4c7UTRLScAdf'
   - sort: 400000
     name: Dark Petitioner
@@ -160,14 +160,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716397368959
-      modifiedTime: 1716432412493
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!qcaZwhHfTXWWIPa1.sOJmwNEo5nQTWvsA'
 folder: 1wQBRGfu5I72bywP
 sort: 100000
@@ -176,13 +176,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.2.0
-  coreVersion: '12.327'
-  createdTime: 1716397255943
-  modifiedTime: 1716433924256
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384670869
+  modifiedTime: 1726384670869
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!journal!qcaZwhHfTXWWIPa1'
 

@@ -30,12 +30,13 @@ system:
       religious ritual, and take on the aspects of the dragons and leviathans of
       the Dark Sea that they slay in their duties.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Giant Guide to Xen'drik
     page: ''
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: patchwork-blade
   classIdentifier: fighter
   advancement:
@@ -47,13 +48,14 @@ system:
         grants:
           - skills:arc
         choices: []
-        hint: |-
-          Your study of occult magicks and rituals grants you
-          proficiency in Arcana.
       level: 3
       title: Occult Hunter
       icon: null
-      value: {}
+      value:
+        chosen: []
+      hint: |-
+        Your study of occult magicks and rituals grants you
+        proficiency in Arcana.
     - _id: wRkLAJxdy5IgCCSK
       type: Trait
       configuration:
@@ -62,21 +64,24 @@ system:
         grants:
           - skills:itm
         choices: []
-        hint: |-
-          Your increasingly monstrous visage is awesome to behold.
-          You gain proficiency in Charisma (Intimidation) checks;
-          if you are already proficient, you instead add twice your
-          proficiency bonus.
       level: 7
       title: Dark Kinship
       icon: null
-      value: {}
+      value:
+        chosen: []
+      hint: |-
+        Your increasingly monstrous visage is awesome to behold.
+        You gain proficiency in Charisma (Intimidation) checks;
+        if you are already proficient, you instead add twice your
+        proficiency bonus.
     - _id: pMvshK5tGhHe5qZj
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.ArMSnJrc7DChDycd
-          - Compendium.eberron-5e.classes.Item.cJhmTBU3dLX9qJn3
+          - uuid: Compendium.eberron-5e.classes.Item.ArMSnJrc7DChDycd
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.cJhmTBU3dLX9qJn3
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -87,7 +92,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.tPrdb6N4Z4EysqID
+          - uuid: Compendium.eberron-5e.classes.Item.tPrdb6N4Z4EysqID
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -98,7 +104,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.5KcBSSkUbeXtzRPj
+          - uuid: Compendium.eberron-5e.classes.Item.5KcBSSkUbeXtzRPj
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -109,7 +116,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.sc55Y4Qza7KNZWd2
+          - uuid: Compendium.eberron-5e.classes.Item.sc55Y4Qza7KNZWd2
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -120,7 +128,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.7raPpxH1O9yUWTSe
+          - uuid: Compendium.eberron-5e.classes.Item.7raPpxH1O9yUWTSe
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -131,23 +140,28 @@ system:
       type: ItemChoice
       configuration:
         choices:
-          '3': 1
+          '3':
+            count: 1
+            replacement: false
         allowDrops: true
         type: feat
         pool: []
         spell: null
-        hint: >-
-          When you choose this archetype, you gain access to one Mutagen of your
-          choice.
         restriction:
           type: class
           subtype: mutagen
-      value: {}
+      value:
+        added: {}
+        replaced: {}
       title: ''
       icon: null
+      hint: >-
+        When you choose this archetype, you gain access to one Mutagen of your
+        choice.
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -155,13 +169,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1702705915851
-  modifiedTime: 1704138445668
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384644022
+  modifiedTime: 1726384644022
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!ExlTTCbuINNr4Vah'
 

@@ -21,11 +21,12 @@ system:
       emotional.</li><li>Eyes that glow, especially when using
       magic.</li><li>Unusually coloured or feathered hair.</li></ol>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: Ghaash'kala - Paladins of the Wastes
+    rules: '2014'
+    revision: 1
   identifier: divine-sentinel
   classIdentifier: ranger
   advancement:
@@ -33,8 +34,10 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.TdxwZQZK61Yx1SLB
-          - Compendium.eberron-5e.classes.Item.cCH1FpjHwv8Kx1G9
+          - uuid: Compendium.eberron-5e.classes.Item.TdxwZQZK61Yx1SLB
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.cCH1FpjHwv8Kx1G9
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -45,7 +48,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.RPPKnUXKtxI9Blby
+          - uuid: Compendium.eberron-5e.classes.Item.RPPKnUXKtxI9Blby
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -56,7 +60,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.YfJzLFLUaIPtirEA
+          - uuid: Compendium.eberron-5e.classes.Item.YfJzLFLUaIPtirEA
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -67,7 +72,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.1CZ74amvY2Wj6M0W
+          - uuid: Compendium.eberron-5e.classes.Item.1CZ74amvY2Wj6M0W
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -82,16 +88,19 @@ system:
         grants:
           - skills:rel
         choices: []
-        hint: >-
-          At 3rd level, you gain proficiency in the Religion skill. If you
-          already have proficiency, you can add your proficiency bonus twice to
-          Religion checks.
       level: 3
       title: Holy Bond
       icon: null
+      hint: >-
+        At 3rd level, you gain proficiency in the Religion skill. If you already
+        have proficiency, you can add your proficiency bonus twice to Religion
+        checks.
+      value:
+        chosen: []
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -99,13 +108,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686185738077
-  modifiedTime: 1704091993363
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384640595
+  modifiedTime: 1726384640595
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!7aZpr68vrkkKRHRH'
 

@@ -47,12 +47,13 @@ system:
       lower AC. A shield’s benefits apply as normal while you use your natural
       armor.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Scales of Q'barra
     page: Appendix
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: Size
       _id: SW1nAl3yKRlnz7Hy
@@ -69,37 +70,41 @@ system:
         mode: default
         allowReplacements: false
         choices: []
-        hint: ''
       _id: NYEraRNpMeea7vqC
       level: 0
       title: ''
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: jtp9hGweDLJmRVbq
       type: ItemChoice
       configuration:
         choices:
-          '0': 1
+          '0':
+            count: 1
+            replacement: false
         allowDrops: false
         type: feat
         pool:
-          - Compendium.eberron-5e.ancestries.Item.jWYK9wGXxEkLNyYw
-          - Compendium.eberron-5e.ancestries.Item.ljxvUib7garJ5x20
-          - Compendium.eberron-5e.ancestries.Item.BoAYURW5X4ddWTRU
-          - Compendium.eberron-5e.ancestries.Item.WtOzjLv8FmstjWwr
-          - Compendium.eberron-5e.ancestries.Item.53OSDXgiUkRhyghI
-          - Compendium.eberron-5e.ancestries.Item.KMzOqVIGjSzyp6Q4
-          - Compendium.eberron-5e.ancestries.Item.QL047q6ibAh5BcJI
-          - Compendium.eberron-5e.ancestries.Item.FnqZszcUsKcuWRPC
-          - Compendium.eberron-5e.ancestries.Item.ZMS8kMm43OnqwAoK
-          - Compendium.eberron-5e.ancestries.Item.1htNCx3HBJoomg7g
+          - uuid: Compendium.eberron-5e.ancestries.Item.jWYK9wGXxEkLNyYw
+          - uuid: Compendium.eberron-5e.ancestries.Item.ljxvUib7garJ5x20
+          - uuid: Compendium.eberron-5e.ancestries.Item.BoAYURW5X4ddWTRU
+          - uuid: Compendium.eberron-5e.ancestries.Item.WtOzjLv8FmstjWwr
+          - uuid: Compendium.eberron-5e.ancestries.Item.53OSDXgiUkRhyghI
+          - uuid: Compendium.eberron-5e.ancestries.Item.KMzOqVIGjSzyp6Q4
+          - uuid: Compendium.eberron-5e.ancestries.Item.QL047q6ibAh5BcJI
+          - uuid: Compendium.eberron-5e.ancestries.Item.FnqZszcUsKcuWRPC
+          - uuid: Compendium.eberron-5e.ancestries.Item.ZMS8kMm43OnqwAoK
+          - uuid: Compendium.eberron-5e.ancestries.Item.1htNCx3HBJoomg7g
         spell: null
-        hint: Choose a breath weapon damage and area type
         restriction:
           type: race
-      value: {}
+      value:
+        added: {}
+        replaced: {}
       title: Breath Weapon
       icon: null
+      hint: Choose a breath weapon damage and area type
     - _id: rXLC7smebN2zPOBT
       type: ScaleValue
       configuration:
@@ -111,18 +116,23 @@ system:
           '0':
             number: 2
             faces: 6
+            modifiers: []
           '5':
             number: 3
             faces: 6
+            modifiers: []
           '9':
             number: 4
             faces: 6
+            modifiers: []
           '13':
             number: 5
             faces: 6
+            modifiers: []
           '17':
             number: 6
             faces: 6
+            modifiers: []
       value: {}
       title: Breath Weapon
       icon: null
@@ -143,6 +153,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: scion-of-argonessen-dragonborn
 effects: []
 ownership:
   default: 0
@@ -151,14 +162,14 @@ ownership:
 flags:
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1700446153065
-  modifiedTime: 1702848010327
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384607341
+  modifiedTime: 1726384607341
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: 9I9D462UWAfhqV6A
 sort: 0
 _key: '!items!9I9D462UWAfhqV6A'

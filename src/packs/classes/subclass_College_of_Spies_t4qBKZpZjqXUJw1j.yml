@@ -23,19 +23,22 @@ system:
       uses psionic, not arcane magic. These agents have likely infiltrated the
       governments of the Five Nations and beyond. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: college-of-spies
   classIdentifier: bard
   advancement:
     - _id: h9xss7qU6muFOgj9
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.agVytI5gDzkt9uNX
-          - Compendium.eberron-5e.classes.Item.azKsY8NqN8c8RN35
+          - uuid: Compendium.eberron-5e.classes.Item.agVytI5gDzkt9uNX
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.azKsY8NqN8c8RN35
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -45,8 +48,10 @@ system:
     - _id: 3CyYACkJ9mPkt39m
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.8RqOj7y9R9jXXx8p
-          - Compendium.eberron-5e.classes.Item.tdDAmjI6ObQmQJPW
+          - uuid: Compendium.eberron-5e.classes.Item.8RqOj7y9R9jXXx8p
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.tdDAmjI6ObQmQJPW
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -56,7 +61,8 @@ system:
     - _id: QDADO1nkEmQNqKds
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.jE4ENU70gTA46j6U
+          - uuid: Compendium.eberron-5e.classes.Item.jE4ENU70gTA46j6U
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -66,6 +72,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -73,13 +80,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686201743608
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384662606
+  modifiedTime: 1726384662606
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!t4qBKZpZjqXUJw1j'
 

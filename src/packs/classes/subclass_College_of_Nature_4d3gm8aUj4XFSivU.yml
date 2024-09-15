@@ -23,12 +23,13 @@ system:
       and bardic traditions to treat with the fey, while the gnomes of Lorghalan
       survive through their close friendship with elementals</p>
     chat: ''
-    unidentified: ''
   source:
     book: Giant Guide to Xen'drik
     page: ''
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: college-of-nature
   classIdentifier: bard
   advancement:
@@ -36,9 +37,12 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.STlm5BPnPyvbRjig
-          - Compendium.eberron-5e.classes.Item.ZYplOdA5qbd9rWO7
-          - Compendium.eberron-5e.classes.Item.UpXfMKj7a9IiMhqC
+          - uuid: Compendium.eberron-5e.classes.Item.STlm5BPnPyvbRjig
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.ZYplOdA5qbd9rWO7
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.UpXfMKj7a9IiMhqC
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -49,7 +53,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.eIYJvjvb3ZwmUlzZ
+          - uuid: Compendium.eberron-5e.classes.Item.eIYJvjvb3ZwmUlzZ
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -60,7 +65,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.kpsVZhdJ5s1EDEkE
+          - uuid: Compendium.eberron-5e.classes.Item.kpsVZhdJ5s1EDEkE
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -70,6 +76,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -77,13 +84,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1702705741398
-  modifiedTime: 1703913324170
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384639536
+  modifiedTime: 1726384639536
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!4d3gm8aUj4XFSivU'
 

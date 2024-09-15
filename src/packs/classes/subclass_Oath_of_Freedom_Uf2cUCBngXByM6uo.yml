@@ -28,12 +28,13 @@ system:
       tyrants are built on the bones of the innocent. It is not for a people to
       serve their leader - a leader exists to serve their people.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Giant Guide to Xen'drik
     page: ''
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: oath-of-freedom
   classIdentifier: paladin
   advancement:
@@ -41,9 +42,12 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.PHDsnPWVQha5om7N
-          - Compendium.eberron-5e.classes.Item.DDDRcvkZ5Rr68zkp
-          - Compendium.eberron-5e.classes.Item.eRSqvL87vbcBQnZe
+          - uuid: Compendium.eberron-5e.classes.Item.PHDsnPWVQha5om7N
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.DDDRcvkZ5Rr68zkp
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.eRSqvL87vbcBQnZe
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -54,7 +58,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.ELcCM4qLJYjaakcv
+          - uuid: Compendium.eberron-5e.classes.Item.ELcCM4qLJYjaakcv
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -65,7 +70,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.3YxM5F0xKN2pwzwS
+          - uuid: Compendium.eberron-5e.classes.Item.3YxM5F0xKN2pwzwS
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -76,7 +82,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.ffEX6wHXGR2Qr5t3
+          - uuid: Compendium.eberron-5e.classes.Item.ffEX6wHXGR2Qr5t3
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -86,6 +93,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -93,13 +101,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1702705996812
-  modifiedTime: 1704139546074
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384649670
+  modifiedTime: 1726384649670
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!Uf2cUCBngXByM6uo'
 

@@ -45,11 +45,12 @@ system:
       Tide, Mt. Opal, Blackgrove Refuge, Citadel Glisza, The Bone Fall of
       Sajz</p>
     chat: ''
-    unidentified: ''
   source:
     book: Giant Guide to Xen'drik
     page: Ch. 7
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: AbilityScoreImprovement
       _id: EQEy5Dp3LuzRXygY
@@ -57,6 +58,7 @@ system:
         points: 0
         fixed: {}
         cap: 2
+        locked: []
       value:
         type: asi
       level: 0
@@ -76,7 +78,8 @@ system:
         choices: []
       _id: 1EaXjfpUMoxDu3KB
       level: 0
-      value: {}
+      value:
+        chosen: []
   movement:
     burrow: null
     climb: null
@@ -94,6 +97,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: jahathah-locathah
 effects: []
 sort: 2200000
 ownership:
@@ -102,13 +106,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
-  createdTime: 1700628492689
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384610133
+  modifiedTime: 1726384610133
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!osjVLinBVJ9ubNNF'
 

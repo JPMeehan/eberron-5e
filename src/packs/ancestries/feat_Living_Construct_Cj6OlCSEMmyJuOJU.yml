@@ -20,59 +20,22 @@ system:
     page: ''
     custom: ''
     license: ''
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: ''
     subtype: ''
   properties: []
   requirements: Warforged
-  recharge:
-    value: null
-    charged: false
+  identifier: living-construct
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
 effects: []
 sort: 0
 ownership:
@@ -80,13 +43,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.2
-  coreVersion: '12.327'
-  createdTime: 1707890284356
-  modifiedTime: 1707890364544
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384607469
+  modifiedTime: 1726384607469
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!Cj6OlCSEMmyJuOJU'
 

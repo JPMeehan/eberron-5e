@@ -37,12 +37,13 @@ system:
       early.</p><p>Once you use this trait, you can’t use it again until you
       finish a long rest.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Exploring Eberron
     page: Ch. 6
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: Size
       _id: ULcdxPVstWWYUxaw
@@ -82,6 +83,7 @@ system:
           uses:
             max: ''
             per: ''
+            requireSlot: false
         restriction:
           level: '0'
       value:
@@ -136,7 +138,7 @@ system:
     special: ''
   type:
     value: humanoid
-  identifier: ''
+  identifier: seeker-aasimar
 effects: []
 ownership:
   default: 0
@@ -145,14 +147,14 @@ ownership:
 flags:
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.331'
-  createdTime: 1700378683464
-  modifiedTime: 1725761943752
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384609986
+  modifiedTime: 1726384609986
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: lsJbX9YvTEaW2B3N
 sort: 0
 _key: '!items!lsJbX9YvTEaW2B3N'

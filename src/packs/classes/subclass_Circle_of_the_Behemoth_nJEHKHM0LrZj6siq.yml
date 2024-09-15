@@ -21,12 +21,13 @@ system:
       the strangest are those who live in the Astral Plane, and ride beneath the
       stars with celestial kindori whales.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Giant Guide to Xen'drik
     page: ''
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: circle-of-the-behemoth
   classIdentifier: druid
   advancement:
@@ -34,8 +35,10 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.LEjwThxn4OBwlo2j
-          - Compendium.eberron-5e.classes.Item.Onb5b8sh96Vb16dw
+          - uuid: Compendium.eberron-5e.classes.Item.LEjwThxn4OBwlo2j
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.Onb5b8sh96Vb16dw
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -50,16 +53,17 @@ system:
         grants:
           - skills:ani
         choices: []
-        hint: ''
       level: 2
       title: Megafauna Connection
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: ROjFGxffZLq8rM13
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.M79KrcNgm6yUHF2v
+          - uuid: Compendium.eberron-5e.classes.Item.M79KrcNgm6yUHF2v
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -70,7 +74,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.TIolkPivLc9iT7mh
+          - uuid: Compendium.eberron-5e.classes.Item.TIolkPivLc9iT7mh
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -81,7 +86,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.XdjATVbk8mLvDE7M
+          - uuid: Compendium.eberron-5e.classes.Item.XdjATVbk8mLvDE7M
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -91,6 +97,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -98,13 +105,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1702705826422
-  modifiedTime: 1703920033938
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384659465
+  modifiedTime: 1726384659465
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!nJEHKHM0LrZj6siq'
 

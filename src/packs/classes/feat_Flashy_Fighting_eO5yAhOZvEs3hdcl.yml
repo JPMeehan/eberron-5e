@@ -17,79 +17,109 @@ system:
       make against the creature in the next minute.</li></ul><p>When you reach
       11th level in this class, the extra damage increases to 2d6.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
-  activation:
-    type: bonus
-    cost: 1
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: other
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d6
-        - extra
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: flat
+    recovery: []
+    spent: 0
   type:
     value: class
     subtype: ''
   requirements: Extreme Explorer 3
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: damage
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - extra
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      sort: 0
+  identifier: flashy-fighting
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 img: icons/svg/book.svg
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 effects: []
 folder: BXrwJX4f1qW62SzE
 _id: eO5yAhOZvEs3hdcl
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686425177561
-  modifiedTime: 1703911612364
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384654777
+  modifiedTime: 1726384654777
+  lastModifiedBy: q6n1efCGVB98drEQ
 sort: 3000
 ownership:
   default: 0

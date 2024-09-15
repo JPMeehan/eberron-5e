@@ -18,18 +18,20 @@ system:
       have the necessary connection to the raw eldritch power needed to follow
       this path</p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: path-of-the-rage-mage
   classIdentifier: barbarian
   advancement:
     - _id: p7XdocdpCUgBwmix
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.9W7USG83AdLDth8C
+          - uuid: Compendium.eberron-5e.classes.Item.9W7USG83AdLDth8C
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -39,9 +41,12 @@ system:
     - _id: MVVQoI5RRJM9DFhV
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.iXZxRQOjrIYKtvJh
-          - Compendium.eberron-5e.classes.Item.0ddyI3sE64kS1zyV
-          - Compendium.eberron-5e.classes.Item.UhBzc1oerXUDEXD1
+          - uuid: Compendium.eberron-5e.classes.Item.iXZxRQOjrIYKtvJh
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.0ddyI3sE64kS1zyV
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.UhBzc1oerXUDEXD1
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -51,7 +56,8 @@ system:
     - _id: z2JfOtPeQaI15Y8x
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.0HpfCjXVWGZjO7Un
+          - uuid: Compendium.eberron-5e.classes.Item.0HpfCjXVWGZjO7Un
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -61,7 +67,8 @@ system:
     - _id: mUxdoiovsHAaNCSA
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.0HqIjLZ5q1GJMafs
+          - uuid: Compendium.eberron-5e.classes.Item.0HqIjLZ5q1GJMafs
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -71,6 +78,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -78,13 +86,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686201711969
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384651127
+  modifiedTime: 1726384651127
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!XaoBceywED1vwl09'
 

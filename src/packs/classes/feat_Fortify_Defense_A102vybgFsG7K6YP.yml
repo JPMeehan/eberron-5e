@@ -12,70 +12,100 @@ system:
       effects triggered by the critical hit are negated. The armor regains 1d4
       expended charges daily at dawn.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: ExE
-  activation:
-    type: reaction
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: 4
     max: '4'
-    per: charges
-    recovery: 1d4
-    prompt: false
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: ench
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery:
+      - period: lr
+        type: formula
+        formula: 1d4
+    spent: 0
   type:
     value: class
     subtype: artificerInfusion
   requirements: Artificer 6
-  recharge:
-    value: null
-    charged: false
-  enchantment:
-    items:
-      max: ''
-      period: ''
-    classIdentifier: artificer
-    restrictions:
-      type: equipment
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: enchant
+      activation:
+        type: reaction
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects:
+        - _id: VIDJ2ihhtkoqLlX9
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+            activity: []
+            item: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      enchant:
+        identifier: artificer
+      restrictions:
+        type: equipment
+        allowMagical: false
+        categories: []
+        properties: []
+      sort: 0
+  enchant:
+    max: ''
+    period: ''
+  identifier: fortify-defense
+  prerequisites:
+    level: null
+  properties: []
 effects:
   - origin: Item.c3ZN8i0tu8A8gaW3
     duration:
@@ -101,14 +131,14 @@ effects:
       dnd5e: {}
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.327'
-      systemId: null
-      systemVersion: null
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
     img: icons/magic/symbols/rune-sigil-rough-white-teal.webp
     type: base
     system: {}
@@ -117,7 +147,6 @@ effects:
   - name: Fortify Defense
     flags:
       dnd5e:
-        type: enchantment
         enchantment:
           level:
             min: null
@@ -173,16 +202,16 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.327'
-      systemId: null
-      systemVersion: null
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
     img: icons/magic/symbols/rune-sigil-rough-white-teal.webp
-    type: base
+    type: enchantment
     system: {}
     sort: 0
     _key: '!items.effects!A102vybgFsG7K6YP.VIDJ2ihhtkoqLlX9'
@@ -191,15 +220,20 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 4
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.2.0
-  coreVersion: '12.327'
-  createdTime: 1687054583454
-  modifiedTime: 1716395792692
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384641708
+  modifiedTime: 1726384641708
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: A102vybgFsG7K6YP
 sort: 200000
 _key: '!items!A102vybgFsG7K6YP'

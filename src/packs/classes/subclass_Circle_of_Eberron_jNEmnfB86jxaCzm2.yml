@@ -20,18 +20,20 @@ system:
       seek deep connections to the earth might follow this circle, including the
       warforged Followers of the Broken Path and the Landforged Walkers. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: circle-of-eberron
   classIdentifier: druid
   advancement:
     - _id: TAl0VkmBCHItVwRa
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.9t9O6HoD69RFvRIH
+          - uuid: Compendium.eberron-5e.classes.Item.9t9O6HoD69RFvRIH
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -41,8 +43,10 @@ system:
     - _id: XzEMWUsXD4RnapcZ
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.yUz75sh7fXxRZ7pg
-          - Compendium.eberron-5e.classes.Item.VDrvu1nVePiXyLwm
+          - uuid: Compendium.eberron-5e.classes.Item.yUz75sh7fXxRZ7pg
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.VDrvu1nVePiXyLwm
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,7 +56,8 @@ system:
     - _id: f27GNPRqAgsuozAp
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.NzlHyeaBgREK98XF
+          - uuid: Compendium.eberron-5e.classes.Item.NzlHyeaBgREK98XF
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -62,7 +67,8 @@ system:
     - _id: HnDcFkqMhhkvQu9y
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.d3MlXaRAgVg12OGi
+          - uuid: Compendium.eberron-5e.classes.Item.d3MlXaRAgVg12OGi
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -72,6 +78,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -79,13 +86,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686245876052
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384657220
+  modifiedTime: 1726384657220
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!jNEmnfB86jxaCzm2'
 

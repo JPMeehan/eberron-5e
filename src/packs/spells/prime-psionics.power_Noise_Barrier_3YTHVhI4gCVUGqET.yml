@@ -30,80 +30,128 @@ system:
     book: Psion's Primer
     page: ''
     license: ''
+    revision: 1
+    rules: '2014'
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
     value: '10'
     units: minute
-  cover: null
-  crewed: false
   target:
-    value: 60
-    width: null
-    units: ft
-    type: wall
-    prompt: true
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: wall
+      size: '60'
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: flags
-    target: pp
-    amount: 7
-    scale: false
-  ability: ''
-  actionType: save
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 6d6
-        - thunder
-    versatile: ''
-  formula: ''
-  save:
-    ability: str
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   level: 4
   discipline: psk
   augmenting: energy ray
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - auditory
     - observable
-    - concentration
   preparation:
     mode: always
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: true
+        value: '10'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: wall
+          size: '60'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 6
+            denomination: 6
+            bonus: ''
+            types:
+              - thunder
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability: str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: noise-barrier
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.330'
-  createdTime: 1706750789644
-  modifiedTime: 1723671205302
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384668879
+  modifiedTime: 1726384668879
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: 3YTHVhI4gCVUGqET
 sort: 200000
 _key: '!items!3YTHVhI4gCVUGqET'

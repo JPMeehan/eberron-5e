@@ -10,67 +10,36 @@ system:
       when you reach 5th level (2d8), 11th level (3d8), and 17th level
       (4d8).</p></div>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: Exploring Eberron
     page: Ch. 1
+    revision: 1
+    rules: '2014'
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
     value: ''
     units: inst
-  cover: null
-  crewed: false
   target:
-    value: '0'
-    width: null
-    units: ''
-    type: ''
-    prompt: true
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
   range:
-    value: 180
-    long: null
+    value: '180'
     units: ft
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: rsak
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d8
-        - force
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
   level: 0
   school: evo
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
   materials:
     value: ''
     consumed: false
@@ -79,17 +48,72 @@ system:
   preparation:
     mode: always
     prepared: false
-  scaling:
-    mode: cantrip
-    formula: 1d8
-  attack:
-    bonus: ''
-    flat: false
-  enchantment: null
-  summons: null
   properties:
     - vocal
     - somatic
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - number: 1
+            denomination: 8
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      sort: 0
+  identifier: force-blast
 img: icons/magic/fire/projectile-fireball-orange-yellow.webp
 ownership:
   default: 0
@@ -101,18 +125,24 @@ flags:
     hash: force%20blast_exploringeberron
     propDroppable: spell
   core: {}
-  dnd5e: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedProperties:
+      - vocal
+      - somatic
 effects: []
 folder: 8HZDRNglvfgWO2oB
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.330'
-  createdTime: 1686367606324
-  modifiedTime: 1723671206780
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384669878
+  modifiedTime: 1726384669878
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: a2Sfwac13PcabX6R
 sort: 100000
 _key: '!items!a2Sfwac13PcabX6R'

@@ -33,11 +33,12 @@ system:
       lightning damage. Once you use this trait, you can't do so again until you
       finish a long rest</p>
     chat: ''
-    unidentified: ''
   source:
     book: Talvakri's Guide to Adar
     page: Ch. 10
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: AbilityScoreImprovement
       _id: mz2Z5E9GtIV7Muq7
@@ -45,6 +46,7 @@ system:
         points: 0
         fixed: {}
         cap: 2
+        locked: []
       value:
         type: asi
       level: 0
@@ -64,7 +66,8 @@ system:
         choices: []
       _id: 1eAVUSJQltNzcw5P
       level: 0
-      value: {}
+      value:
+        chosen: []
   movement:
     burrow: null
     climb: null
@@ -84,6 +87,7 @@ system:
     value: humanoid
     custom: ''
     subtype: Dragonborn
+  identifier: storm-guardian-dragonborn
 effects: []
 sort: 0
 ownership:
@@ -92,13 +96,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
-  createdTime: 1700627834797
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384608545
+  modifiedTime: 1726384608545
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!PCeIaWn4VaiJgdrI'
 

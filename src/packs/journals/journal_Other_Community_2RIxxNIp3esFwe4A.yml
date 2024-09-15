@@ -35,14 +35,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716433947330
-      modifiedTime: 1716433956992
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!2RIxxNIp3esFwe4A.hBAJFIaKMGUlgTW3'
   - sort: 200000
     name: Khyber, The Dragon Below
@@ -78,14 +78,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716433972898
-      modifiedTime: 1716433981286
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!2RIxxNIp3esFwe4A.RSD8sfqATDJfr1DL'
   - sort: 300000
     name: Siberys, the Dragon Above
@@ -122,14 +122,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716433996612
-      modifiedTime: 1716434008249
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!2RIxxNIp3esFwe4A.MiBSPaqYUzJ2NJs2'
 folder: K7D9TeJ6y6Z4mTe0
 sort: 125000
@@ -138,13 +138,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.2.0
-  coreVersion: '12.327'
-  createdTime: 1716433908931
-  modifiedTime: 1716434008249
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384670805
+  modifiedTime: 1726384670805
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!journal!2RIxxNIp3esFwe4A'
 

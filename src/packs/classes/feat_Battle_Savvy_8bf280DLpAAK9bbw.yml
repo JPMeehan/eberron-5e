@@ -10,65 +10,85 @@ system:
       benefit.</li><li>You gain a bonus to your initiative rolls equal to your
       Intelligence modifier.</li></ul>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: other
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: flat
+    recovery: []
+    spent: 0
   type:
     value: class
     subtype: ''
   requirements: Disruptor 3
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: battle-savvy
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 img: icons/svg/book.svg
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 effects:
   - name: Battle Savvy
     origin: Compendium.eberron-5e.classes.Item.8bf280DLpAAK9bbw
@@ -108,14 +128,14 @@ effects:
         wallsBlock: system
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.327'
-      systemId: null
-      systemVersion: null
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
     img: icons/svg/book.svg
     type: base
     system: {}
@@ -124,14 +144,14 @@ effects:
 folder: 5Oy6Dulk9VEw6pKB
 _id: 8bf280DLpAAK9bbw
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.1.0
-  coreVersion: '12.327'
-  createdTime: 1686418393411
-  modifiedTime: 1711331622538
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384641154
+  modifiedTime: 1726384641154
+  lastModifiedBy: q6n1efCGVB98drEQ
 sort: 3000
 ownership:
   default: 0

@@ -23,12 +23,13 @@ system:
       Resist the tyranny your ancestors devoted their lives to
       defeating.</p></li></ul>
     chat: ''
-    unidentified: ''
   source:
     book: Chronicles of Eberron
     page: Ch. 5
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: oath-of-veneration
   classIdentifier: paladin
   advancement:
@@ -36,9 +37,12 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.NhiCb9R3FOwBBMel
-          - Compendium.eberron-5e.classes.Item.Tt5OTkXUd6b7lSBV
-          - Compendium.eberron-5e.classes.Item.FOoISreb7UXQ63v0
+          - uuid: Compendium.eberron-5e.classes.Item.NhiCb9R3FOwBBMel
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.Tt5OTkXUd6b7lSBV
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.FOoISreb7UXQ63v0
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -49,7 +53,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.rAleFki7yjhd2KC6
+          - uuid: Compendium.eberron-5e.classes.Item.rAleFki7yjhd2KC6
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -60,7 +65,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.lbNZlf30SizDGu8x
+          - uuid: Compendium.eberron-5e.classes.Item.lbNZlf30SizDGu8x
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -71,7 +77,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Hxlm3qPYvs4NYez6
+          - uuid: Compendium.eberron-5e.classes.Item.Hxlm3qPYvs4NYez6
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -81,6 +88,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -88,13 +96,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686341486327
-  modifiedTime: 1702848841570
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384647521
+  modifiedTime: 1726384647521
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!OYu8f5qp5zUOqodB'
 

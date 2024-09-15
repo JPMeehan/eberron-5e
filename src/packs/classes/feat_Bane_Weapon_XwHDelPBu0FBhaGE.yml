@@ -15,78 +15,104 @@ system:
       inflict an additional 2d6 damage of the weapon’s type with the attack. The
       weapon regains 1d4 charges daily at dawn.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: ExE
-  activation:
-    type: special
-    cost: null
-    condition: You hit a creature of an appropriate type
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: 4
     max: '4'
-    per: charges
-    recovery: 1d4
-    prompt: false
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: ench
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 2d6
-        - ''
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery:
+      - period: lr
+        type: formula
+        formula: 1d4
+    spent: 0
   type:
     value: class
     subtype: artificerInfusion
   requirements: Artificer 6
-  recharge:
-    value: null
-    charged: false
-  enchantment:
-    items:
-      max: ''
-      period: ''
-    classIdentifier: artificer
-    restrictions:
-      type: weapon
   properties: []
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: enchant
+      activation:
+        type: special
+        value: null
+        condition: You hit a creature of an appropriate type
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects:
+        - _id: 9gAcACJ1FhFpwN0a
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+            activity: []
+            item: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      enchant:
+        identifier: artificer
+      restrictions:
+        type: weapon
+        allowMagical: false
+        categories: []
+        properties: []
+      sort: 0
+  enchant:
+    max: ''
+    period: ''
+  identifier: bane-weapon
+  prerequisites:
+    level: null
 effects:
   - name: Bane Weapon
     flags:
       dnd5e:
-        type: enchantment
         enchantment:
           level:
             min: null
@@ -148,16 +174,16 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.327'
-      systemId: null
-      systemVersion: null
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
     img: icons/magic/symbols/mask-yellow-orange.webp
-    type: base
+    type: enchantment
     system: {}
     sort: 0
     _key: '!items.effects!XwHDelPBu0FBhaGE.9gAcACJ1FhFpwN0a'
@@ -165,15 +191,20 @@ sort: 100000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 4
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.2.0
-  coreVersion: '12.327'
-  createdTime: 1687054583454
-  modifiedTime: 1716395828123
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384651326
+  modifiedTime: 1726384651326
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!XwHDelPBu0FBhaGE'
 

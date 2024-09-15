@@ -58,11 +58,12 @@ system:
       feet.</p><p><strong>Vaul (“soul”).</strong> You have advantage on all
       Charisma saving throws</p>
     chat: ''
-    unidentified: ''
   source:
     book: Talvakri's Guide to Adar
     page: Ch. 10
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: AbilityScoreImprovement
       _id: DIHegKgqukGxpBeB
@@ -70,6 +71,7 @@ system:
         points: 0
         fixed: {}
         cap: 2
+        locked: []
       value:
         type: asi
       level: 0
@@ -89,7 +91,8 @@ system:
         choices: []
       _id: UZke0BHCOwwWAjdO
       level: 0
-      value: {}
+      value:
+        chosen: []
   movement:
     burrow: null
     climb: null
@@ -107,6 +110,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: illumian
 effects: []
 sort: 0
 ownership:
@@ -115,13 +119,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
-  createdTime: 1700627987414
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384607271
+  modifiedTime: 1726384607271
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!7Wv72a4wOsVapKni'
 

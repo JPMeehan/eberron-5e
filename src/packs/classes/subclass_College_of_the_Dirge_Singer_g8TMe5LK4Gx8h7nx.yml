@@ -19,12 +19,13 @@ system:
       tradition. Did you train with a ghaal’dar mentor? Or did you find your own
       path to these techniques?</p>
     chat: ''
-    unidentified: ''
   source:
     license: DMsGuild CCA
     custom: ''
     book: Exploring Eberron
     page: Ch. 6
+    rules: '2014'
+    revision: 1
   identifier: college-of-the-dirge-singer
   classIdentifier: bard
   advancement:
@@ -32,8 +33,10 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.mT5ptFNVu9IS3Bb4
-          - Compendium.eberron-5e.classes.Item.dCGOLJbRNGX5YGzz
+          - uuid: Compendium.eberron-5e.classes.Item.mT5ptFNVu9IS3Bb4
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.dCGOLJbRNGX5YGzz
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +47,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.En0JYeTAJv2omkBE
+          - uuid: Compendium.eberron-5e.classes.Item.En0JYeTAJv2omkBE
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -55,7 +59,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.3M1s4p1ZkFzg4xlK
+          - uuid: Compendium.eberron-5e.classes.Item.3M1s4p1ZkFzg4xlK
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -65,6 +70,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -72,13 +78,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686341327776
-  modifiedTime: 1704062145862
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384655633
+  modifiedTime: 1726384655633
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!g8TMe5LK4Gx8h7nx'
 

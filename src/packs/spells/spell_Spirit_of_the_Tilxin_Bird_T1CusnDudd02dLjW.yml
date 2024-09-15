@@ -19,65 +19,37 @@ system:
       spellcasting ability modifier (minimum of twice), and disappears after
       doing so.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Giant Guide to Xen'drik
     page: ''
     custom: ''
     license: DMsGuild CCA
+    revision: 1
+    rules: '2014'
   activation:
     type: bonus
-    cost: null
     condition: ''
+    value: null
   duration:
     value: '1'
     units: minute
-  cover: null
-  crewed: false
   target:
-    value: '5'
-    width: null
-    units: ft
-    type: cube
-    prompt: true
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: cube
+      size: '5'
+      contiguous: false
   range:
-    value: 80
-    long: null
+    value: '80'
     units: ft
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   level: 1
   school: con
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: true
   materials:
     value: ''
     consumed: false
@@ -86,33 +58,75 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  scaling:
-    mode: none
-    formula: ''
-  attack:
-    bonus: ''
-    flat: false
-  enchantment: null
-  summons: null
   properties:
     - vocal
     - somatic
     - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: spirit-of-the-tilxin-bird
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags:
-  dnd5e: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedProperties:
+      - vocal
+      - somatic
+      - concentration
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.330'
-  createdTime: 1704148645113
-  modifiedTime: 1723671206713
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384669689
+  modifiedTime: 1726384669689
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!T1CusnDudd02dLjW'
 

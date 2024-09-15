@@ -25,20 +25,24 @@ system:
       on them unwittingly with the help of a Keeper of Secrets such as Sul
       Khatesh. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: college-of-revelation
   classIdentifier: bard
   advancement:
     - _id: JvgJub6UhpsgGjBo
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.EunnfLiApT6xmo1y
-          - Compendium.eberron-5e.classes.Item.HwpdOdHLHs15Cbiq
-          - Compendium.eberron-5e.classes.Item.rUHExYL6dEMBA1h3
+          - uuid: Compendium.eberron-5e.classes.Item.EunnfLiApT6xmo1y
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.HwpdOdHLHs15Cbiq
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.rUHExYL6dEMBA1h3
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -48,7 +52,8 @@ system:
     - _id: WlNvhUmHx7yBqU99
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.E4miqSzpeIsQQ7pA
+          - uuid: Compendium.eberron-5e.classes.Item.E4miqSzpeIsQQ7pA
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -58,7 +63,8 @@ system:
     - _id: fPnTsfgWz0UblbVI
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.OuVIH7CfuxCPyBZi
+          - uuid: Compendium.eberron-5e.classes.Item.OuVIH7CfuxCPyBZi
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -68,6 +74,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -75,13 +82,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686201734033
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384660754
+  modifiedTime: 1726384660754
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!q49MrTFdMFKRCTzs'
 

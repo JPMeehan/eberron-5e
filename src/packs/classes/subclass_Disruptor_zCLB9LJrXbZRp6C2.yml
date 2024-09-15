@@ -19,11 +19,12 @@ system:
       of arcane explosives. Explorers to the Tashana Tundra of Sarlona bear
       tales of dwarves there with similarly advanced explosive techniques.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: disruptor
   classIdentifier: artificer
   advancement:
@@ -31,6 +32,7 @@ system:
       configuration:
         items:
           - uuid: Compendium.eberron-5e.classes.Item.h3T9LFGgSEbU845Q
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -41,8 +43,11 @@ system:
       configuration:
         items:
           - uuid: Compendium.eberron-5e.classes.Item.8bf280DLpAAK9bbw
+            optional: false
           - uuid: Compendium.eberron-5e.classes.Item.cA5RyYjnybTlG9Bn
+            optional: false
           - uuid: Compendium.eberron-5e.classes.Item.q9rEJmPBT5kQdlX4
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -53,6 +58,7 @@ system:
       configuration:
         items:
           - uuid: Compendium.eberron-5e.classes.Item.oCbQyPYZiMKwOzin
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -63,6 +69,7 @@ system:
       configuration:
         items:
           - uuid: Compendium.eberron-5e.classes.Item.VitSFn6wBvpkaXx9
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -77,28 +84,32 @@ system:
         grants:
           - tool:art:mason
         choices: []
-        hint: >-
-          When you adopt this specialization at 3rd level, you gain proficiency
-          with mason's tools. If you already have this proficiency, you gain
-          proficiency with one other type of artisan's tools of your choice.
       value:
         chosen: []
       level: 3
       title: Tool Proficiency
       icon: null
+      hint: >-
+        When you adopt this specialization at 3rd level, you gain proficiency
+        with mason's tools. If you already have this proficiency, you gain
+        proficiency with one other type of artisan's tools of your choice.
     - _id: QorL5O9ILnUVZ7f4
       type: ItemGrant
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe
+            optional: false
           - uuid: Compendium.dnd5e.spells.Item.IBJmWjzbQGu7M4UX
+            optional: false
         optional: false
         spell:
-          ability: ''
+          ability:
+            - ''
           preparation: always
           uses:
             max: ''
             per: ''
+            requireSlot: false
       value: {}
       level: 3
       title: Artificer Specialist Feature
@@ -107,13 +118,16 @@ system:
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.9gYGkrL6qFTsE6fw
+            optional: false
         optional: false
         spell:
-          ability: ''
+          ability:
+            - ''
           preparation: always
           uses:
             max: ''
             per: ''
+            requireSlot: false
       value: {}
       level: 5
       title: Artificer Specialist Feature
@@ -124,13 +138,16 @@ system:
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j
+            optional: false
         optional: false
         spell:
-          ability: ''
+          ability:
+            - ''
           preparation: always
           uses:
             max: ''
             per: ''
+            requireSlot: false
       value: {}
       level: 9
       title: Artificer Specialist Feature
@@ -140,13 +157,16 @@ system:
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.DGONTFbk5eORs5qv
+            optional: false
         optional: false
         spell:
-          ability: ''
+          ability:
+            - ''
           preparation: always
           uses:
             max: ''
             per: ''
+            requireSlot: false
       value: {}
       level: 13
       title: Artificer Specialist Feature
@@ -156,13 +176,16 @@ system:
       configuration:
         items:
           - uuid: Compendium.dnd5e.spells.Item.o9ZCvuD2B1OTcubb
+            optional: false
         optional: false
         spell:
-          ability: ''
+          ability:
+            - ''
           preparation: ''
           uses:
             max: ''
             per: ''
+            requireSlot: false
       value: {}
       level: 17
       title: Artificer Specialist Feature
@@ -170,6 +193,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -177,13 +201,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.1.0
-  coreVersion: '12.327'
-  createdTime: 1686201649785
-  modifiedTime: 1711332425526
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384665494
+  modifiedTime: 1726384665494
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!zCLB9LJrXbZRp6C2'
 

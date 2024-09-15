@@ -26,78 +26,127 @@ system:
     book: Psion's Primer
     page: ''
     license: ''
+    revision: 1
+    rules: '2014'
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
     value: ''
     units: inst
-  cover: null
-  crewed: false
   target:
-    value: 20
-    width: null
-    units: ft
-    type: cube
-    prompt: true
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: cube
+      size: '20'
+      contiguous: false
   range:
-    value: 120
-    long: null
+    value: '120'
     units: ft
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: flags
-    target: pp
-    amount: 9
-    scale: false
-  ability: ''
-  actionType: save
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 7d8
-        - psychic
-    versatile: ''
-  formula: ''
-  save:
-    ability: cha
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   level: 5
   discipline: tlp
   augmenting: mind thrust
-  scaling:
-    mode: intensify
-    formula: 1d8
   properties:
     - auditory
   preparation:
     mode: always
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '120'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: cube
+          size: '20'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 7
+            denomination: 8
+            bonus: ''
+            types:
+              - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability: cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: telepathic-weight
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.330'
-  createdTime: 1706750789644
-  modifiedTime: 1723671205350
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384669930
+  modifiedTime: 1726384669930
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: bfmr3S5AsubtQf9m
 sort: 0
 _key: '!items!bfmr3S5AsubtQf9m'

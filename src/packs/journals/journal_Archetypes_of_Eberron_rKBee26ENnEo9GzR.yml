@@ -36,14 +36,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.mEEXRla1lGAedWTm'
   - name: The Elemental
     type: subclass
@@ -86,14 +86,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.HP7TfBvI7mdipgCK'
   - name: Circle of Storms
     type: subclass
@@ -134,14 +134,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.Rl0NAeCfdzX1kgPA'
   - name: The Hidden One
     type: subclass
@@ -178,14 +178,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.ogE63qf0gM2vhFPC'
   - name: Path of the Feral Heart
     type: subclass
@@ -222,14 +222,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.tIv1JR0j3jteudhE'
   - name: Cataclysm Mage
     type: subclass
@@ -263,14 +263,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.34oCbFpZ9Ub8wGLN'
   - name: Change Domain
     type: subclass
@@ -303,14 +303,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.1YlazC4ec3FUWXq8'
   - name: The Soulborn
     type: subclass
@@ -345,14 +345,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.p2Doadr8pcUj5SPF'
   - name: Way of the Tashalatora
     type: subclass
@@ -391,14 +391,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.2VavwxabbACGgVIY'
   - name: Divine Sniper
     type: subclass
@@ -436,14 +436,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.gvzJTuXGydEphkhJ'
   - name: Oath of the Bone Knight
     type: subclass
@@ -499,14 +499,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.tOxR9z5uNstAWuxc'
   - name: Path of the Rage Mage
     type: subclass
@@ -542,14 +542,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.EMayfb9cWx5zP51n'
   - name: Guerilla
     type: subclass
@@ -586,14 +586,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.OAbM6P2PSgl4C03P'
   - name: Combat Medic
     type: subclass
@@ -632,14 +632,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.ztG7MYCZZwUg61eF'
   - name: Extreme Explorer
     type: subclass
@@ -673,14 +673,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.1CUU9qBf8EjLCVdV'
   - name: Circle of Civilization
     type: subclass
@@ -719,14 +719,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.Mwmiyr8wg8bzgE0Y'
   - name: Exorcism Domain
     type: subclass
@@ -762,14 +762,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.nvwS0wJyxnoCWWWB'
   - name: Oath of the Kell Knight
     type: subclass
@@ -820,14 +820,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.WqJBYaIS6eKyc20F'
   - name: Crystal Shaper
     type: subclass
@@ -870,14 +870,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.CNQsBM2qmUzinxLK'
   - name: Marshal
     type: subclass
@@ -912,14 +912,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.KkWZRXZKdGjVmmVu'
   - name: School of Living Spells
     type: subclass
@@ -959,14 +959,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.Be15LlUgOg2ypawt'
   - name: Circle of Eberron
     type: subclass
@@ -1006,14 +1006,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.8JiNhZ8cTqGgTG3g'
   - name: Blood Magus
     type: subclass
@@ -1054,14 +1054,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.Ef3tl4whwdJeLrPy'
   - name: Cult of the Alienist
     type: subclass
@@ -1104,14 +1104,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.kHmk9kRekNCcHcRe'
   - name: War Weaver
     type: subclass
@@ -1152,14 +1152,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.tycL54gN4UTnb9XK'
   - name: Wilder
     type: subclass
@@ -1199,14 +1199,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.Uftv9Y7MEKewJtxc'
   - name: College of Revelation
     type: subclass
@@ -1250,14 +1250,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.bCbURCrBmTOqkTG3'
   - name: College of Spies
     type: subclass
@@ -1299,14 +1299,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.ZCZr26WezXydbOC2'
   - name: Souknife
     type: subclass
@@ -1345,14 +1345,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.RpaTPVaB7KDVKOPw'
   - name: Disruptor
     type: subclass
@@ -1390,14 +1390,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.V0z1fbFEgaCmiaPE'
   - name: Way of the Conduit
     type: subclass
@@ -1435,14 +1435,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716418937905
-      modifiedTime: 1716433719605
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!rKBee26ENnEo9GzR.4uyDDESOGpwGVFor'
 folder: K7D9TeJ6y6Z4mTe0
 sort: 100000
@@ -1451,13 +1451,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.2.0
-  coreVersion: '12.327'
-  createdTime: 1716418927236
-  modifiedTime: 1716433923308
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384670891
+  modifiedTime: 1726384670891
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!journal!rKBee26ENnEo9GzR'
 

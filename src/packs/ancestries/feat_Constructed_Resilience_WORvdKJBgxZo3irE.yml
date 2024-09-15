@@ -25,59 +25,22 @@ system:
     page: '36'
     license: ''
     custom: ''
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: race
     subtype: ''
   properties: []
   requirements: ''
-  recharge:
-    value: null
-    charged: false
+  identifier: constructed-resilience
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
 flags:
   ddbimporter:
     type: race
@@ -100,14 +63,14 @@ img: icons/environment/creatures/golem-stone-purple.webp
 folder: qddxzSmkORQFwAEK
 effects: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.331'
-  createdTime: 1707350473710
-  modifiedTime: 1725754777753
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384609237
+  modifiedTime: 1726384609237
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: WORvdKJBgxZo3irE
 sort: 0
 ownership:

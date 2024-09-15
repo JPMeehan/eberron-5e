@@ -10,75 +10,104 @@ system:
       to negate all of that creature’s damage resistances until the end of the
       wielder’s next turn. The weapon regains 1d4+1 charges daily at dawn</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: ExE
-  activation:
-    type: special
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: 5
     max: '5'
-    per: charges
-    recovery: 1d4+1
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: ench
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery:
+      - period: lr
+        type: formula
+        formula: 1d4+1
+    spent: 0
   type:
     value: class
     subtype: artificerInfusion
   requirements: ''
-  recharge:
-    value: null
-    charged: false
-  enchantment:
-    items:
-      max: ''
-      period: ''
-    classIdentifier: artificer
-    restrictions:
-      type: weapon
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: enchant
+      activation:
+        type: special
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects:
+        - _id: XA41qgpXYHs3GuuP
+          level:
+            min: null
+            max: null
+          riders:
+            effect: []
+            activity: []
+            item: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      enchant:
+        identifier: artificer
+      restrictions:
+        type: weapon
+        allowMagical: false
+        categories: []
+        properties: []
+      sort: 0
+  enchant:
+    max: ''
+    period: ''
+  identifier: resistance-breaker
+  prerequisites:
+    level: null
+  properties: []
 effects:
   - name: Resistance Breaker
     flags:
       dnd5e:
-        type: enchantment
         enchantment:
           level:
             min: null
@@ -126,16 +155,16 @@ effects:
     statuses: []
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.327'
-      systemId: null
-      systemVersion: null
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
     img: icons/magic/symbols/rune-sigil-hook-white-red.webp
-    type: base
+    type: enchantment
     system: {}
     sort: 0
     _key: '!items.effects!Eua045sS7DQwdJnV.XA41qgpXYHs3GuuP'
@@ -144,15 +173,20 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 5
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.2.0
-  coreVersion: '12.327'
-  createdTime: 1687054583454
-  modifiedTime: 1716395886358
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384643927
+  modifiedTime: 1726384643927
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: Eua045sS7DQwdJnV
 sort: 600000
 _key: '!items!Eua045sS7DQwdJnV'

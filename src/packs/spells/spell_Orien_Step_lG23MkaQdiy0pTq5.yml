@@ -15,55 +15,27 @@ system:
     page: ''
     custom: ''
     license: ''
+    rules: '2014'
+    revision: 1
   activation:
     type: ''
-    cost: null
     condition: ''
+    value: null
   duration:
     value: ''
     units: ''
-  cover: null
-  crewed: false
   target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
   range:
-    value: null
-    long: null
     units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+    spent: 0
+    recovery: []
   level: 0
   school: trs
   properties:
@@ -76,23 +48,23 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  scaling:
-    mode: none
-    formula: ''
+  identifier: orien-step
+  activities: {}
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  createdTime: 1725339762505
-  modifiedTime: 1725339807945
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  systemVersion: 4.0.0
+  createdTime: 1726384670271
+  modifiedTime: 1726384670271
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!lG23MkaQdiy0pTq5'
 

@@ -36,62 +36,56 @@ system:
     book: Chronicles of Eberron
     page: ''
     license: DMsGuild CCA
+    revision: 1
+    rules: '2014'
   quantity: 1
-  weight: 3
+  weight:
+    value: 3
+    units: lb
   price:
     value: 150
     denomination: gp
-  attunement: 0
+  attunement: ''
   equipped: false
   rarity: ''
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: ''
-    units: ''
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
   range:
     value: 30
     long: 120
     units: ft
+    reach: null
   uses:
-    value: null
     max: 2 * @prof
-    per: charges
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: int
-  actionType: rwak
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    recovery: []
+    spent: 0
   damage:
-    parts:
-      - - 1d4 + @mod
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 4
+      bonus: ''
+      types:
         - psychic
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   armor:
     value: null
   hp:
@@ -109,6 +103,80 @@ system:
   unidentified:
     description: ''
   container: null
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '30'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: int
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      sort: 0
+  identifier: sentira-lens-hand
+  attuned: false
+  ammunition: {}
+  magicalBonus: null
 effects: []
 ownership:
   default: 0
@@ -117,15 +185,20 @@ flags:
   core: {}
   chaosos-5e-content:
     weaponMastered: false
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: null
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
-  createdTime: 1686376733715
-  modifiedTime: 1707003540074
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384671994
+  modifiedTime: 1726384671994
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: IaBIyzprECOO69cR
 sort: 400000
 _key: '!items!IaBIyzprECOO69cR'

@@ -13,11 +13,12 @@ system:
       evil. The path of the Silver Pyromancer is one that requires great faith
       and mental aptitude. </p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: Sarhain's Guide to the Silver Flame
+    rules: '2014'
+    revision: 1
   identifier: silver-pyromancer
   classIdentifier: wizard
   advancement:
@@ -30,20 +31,24 @@ system:
           - weapon:mar
           - armor:lgt
         choices: []
-        hint: |-
-          You gain proficiency with light armor, and martial
-          weapons
       level: 2
       title: Templar Training
       icon: null
-      value: {}
+      value:
+        chosen: []
+      hint: |-
+        You gain proficiency with light armor, and martial
+        weapons
     - _id: XpB14bE65oYmZQLx
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.uxi9q1PQ4nmUlHip
-          - Compendium.eberron-5e.classes.Item.PiMGiZegO2GVtYmm
-          - Compendium.eberron-5e.classes.Item.h5mmJHjRjZWAS20u
+          - uuid: Compendium.eberron-5e.classes.Item.uxi9q1PQ4nmUlHip
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.PiMGiZegO2GVtYmm
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.h5mmJHjRjZWAS20u
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -54,7 +59,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Km93IkVwqTNkcI0Q
+          - uuid: Compendium.eberron-5e.classes.Item.Km93IkVwqTNkcI0Q
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -65,7 +71,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.aNsa78ZbwHxrMHmD
+          - uuid: Compendium.eberron-5e.classes.Item.aNsa78ZbwHxrMHmD
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -76,7 +83,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.EEo3bi6z6dtc06Ts
+          - uuid: Compendium.eberron-5e.classes.Item.EEo3bi6z6dtc06Ts
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -86,6 +94,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -93,13 +102,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686185344350
-  modifiedTime: 1704055415815
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384642972
+  modifiedTime: 1726384642972
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!D15lPZDWlBxa1aYH'
 

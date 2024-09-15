@@ -16,18 +16,20 @@ system:
       Cataclysm Mage can spring from anywhere, a sign of the Prophecy unfolding.
       </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: cataclysm-mage
   classIdentifier: sorcerer
   advancement:
     - _id: lfbFVco0j7Tj5qes
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.NUXnFTJyZRhBlhxV
+          - uuid: Compendium.eberron-5e.classes.Item.NUXnFTJyZRhBlhxV
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -37,7 +39,8 @@ system:
     - _id: K3ED2Pax0G4wVdKp
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.tZP6Mbv3UM9bucRW
+          - uuid: Compendium.eberron-5e.classes.Item.tZP6Mbv3UM9bucRW
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -47,8 +50,10 @@ system:
     - _id: uHzYQw8vFCf9rPIJ
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.rA59ne6HtDRcUlfU
-          - Compendium.eberron-5e.classes.Item.rWBPsifB62ME5nh3
+          - uuid: Compendium.eberron-5e.classes.Item.rA59ne6HtDRcUlfU
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.rWBPsifB62ME5nh3
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -58,7 +63,8 @@ system:
     - _id: 4Vc1bP4lxPTAV6Km
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.gxjABDnZGTmxkk7q
+          - uuid: Compendium.eberron-5e.classes.Item.gxjABDnZGTmxkk7q
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -68,6 +74,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -75,13 +82,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686246097749
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384643328
+  modifiedTime: 1726384643328
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!DTjidtJtsQGgYLy9'
 

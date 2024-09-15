@@ -25,12 +25,13 @@ system:
       and planar flora - the cultists of the daelkyr Avassh, and the bizarre
       gardeners of the Grim Lord Varonaen on the umbral island of Farlnen</p>
     chat: ''
-    unidentified: ''
   source:
     book: Giant Guide to Xen'drik
     page: ''
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: circle-of-the-verdant
   classIdentifier: druid
   advancement:
@@ -42,11 +43,11 @@ system:
         grants:
           - skills:nat
         choices: []
-        hint: ''
       level: 2
       title: Bonus Proficiencies
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: l9YXn41QKYpGDzc4
       type: Trait
       configuration:
@@ -55,17 +56,19 @@ system:
         grants:
           - tool:herb
         choices: []
-        hint: ''
       level: 2
       title: Bonus Proficiencies
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: t1EQ7xYmyGMTsoAD
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.ccDGBElqUHf54uNi
-          - Compendium.eberron-5e.classes.Item.2b5e3axOBSAousfU
+          - uuid: Compendium.eberron-5e.classes.Item.ccDGBElqUHf54uNi
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.2b5e3axOBSAousfU
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -76,7 +79,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.0JezkWGiMDH1u985
+          - uuid: Compendium.eberron-5e.classes.Item.0JezkWGiMDH1u985
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -87,7 +91,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.jLNMhihZQPhFRtS5
+          - uuid: Compendium.eberron-5e.classes.Item.jLNMhihZQPhFRtS5
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -98,7 +103,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.ykQ3YqLWwiOnZ5Fb
+          - uuid: Compendium.eberron-5e.classes.Item.ykQ3YqLWwiOnZ5Fb
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -108,6 +114,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -115,13 +122,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1702705863606
-  modifiedTime: 1704136388490
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384659224
+  modifiedTime: 1726384659224
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!mxyJahc7kL4neCW6'
 

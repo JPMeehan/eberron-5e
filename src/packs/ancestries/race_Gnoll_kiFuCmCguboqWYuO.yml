@@ -45,12 +45,13 @@ system:
       attack.</p><p><em><strong>Languages.</strong></em> You can speak, read,
       and write Gnoll, and your choice of either Common or Goblin.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Exploring Eberron
     page: Ch. 6
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: Size
       _id: ULcdxPVstWWYUxaw
@@ -105,7 +106,7 @@ system:
     special: ''
   type:
     value: humanoid
-  identifier: ''
+  identifier: gnoll
 effects: []
 ownership:
   default: 0
@@ -114,14 +115,14 @@ ownership:
 flags:
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.331'
-  createdTime: 1700378683464
-  modifiedTime: 1725688265836
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384609920
+  modifiedTime: 1726384609920
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: kiFuCmCguboqWYuO
 sort: 400000
 _key: '!items!kiFuCmCguboqWYuO'

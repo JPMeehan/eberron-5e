@@ -20,19 +20,22 @@ system:
       dolgaunt that's willing to take on a non-aberrant student, let alone to
       allow them survive the encounter. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: way-of-the-tashalatora
   classIdentifier: monk
   advancement:
     - _id: k36jNSDHtLSorTtF
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.ujbTsP8PkDVQyeSO
-          - Compendium.eberron-5e.classes.Item.fhWppwSvebK8MznY
+          - uuid: Compendium.eberron-5e.classes.Item.ujbTsP8PkDVQyeSO
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.fhWppwSvebK8MznY
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -42,7 +45,8 @@ system:
     - _id: 9wQF6WbRzyYO32w0
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.iLIxNRCIwyAAqBm4
+          - uuid: Compendium.eberron-5e.classes.Item.iLIxNRCIwyAAqBm4
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,7 +56,8 @@ system:
     - _id: MqLxCTMGlKSLEToq
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.vTqNn0dqBUwgo5QM
+          - uuid: Compendium.eberron-5e.classes.Item.vTqNn0dqBUwgo5QM
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -62,7 +67,8 @@ system:
     - _id: IUnwLXZ62Sr0tD9t
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.G6cXPY95p3jWF9kg
+          - uuid: Compendium.eberron-5e.classes.Item.G6cXPY95p3jWF9kg
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -72,6 +78,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -79,13 +86,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686245947064
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384648966
+  modifiedTime: 1726384648966
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!TFJoFXsZsOZrA8Nc'
 

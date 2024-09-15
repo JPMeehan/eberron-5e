@@ -31,14 +31,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716431972589
-      modifiedTime: 1716433807060
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.TvYX6WbgFt1xmuu6'
   - name: Quori Mindhunter
     type: subclass
@@ -72,14 +72,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716431972589
-      modifiedTime: 1716433807060
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.PiHtv0vdDkbPVEc2'
   - name: Way of the Summit Sentinel
     type: subclass
@@ -110,14 +110,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716431972589
-      modifiedTime: 1716433807060
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.Sqs15AXbuwuIoUIY'
   - name: The Visage
     type: subclass
@@ -151,14 +151,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716431972589
-      modifiedTime: 1716433807060
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.6yU06XIl8G3iCeEV'
   - name: Manifest Power
     type: subclass
@@ -190,14 +190,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716431972589
-      modifiedTime: 1716433807060
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.cxLOk7gqga9BB4Bf'
   - name: Way of the Elemental Master
     type: subclass
@@ -228,14 +228,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716431972589
-      modifiedTime: 1716433807060
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.kppyokMUt3ZLnpzx'
   - name: Psion
     type: subclass
@@ -267,14 +267,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716431972589
-      modifiedTime: 1716433807060
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.Adfw4GeSPuH8AHdM'
 folder: K7D9TeJ6y6Z4mTe0
 sort: 106250
@@ -283,13 +283,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.2.0
-  coreVersion: '12.327'
-  createdTime: 1716431961944
-  modifiedTime: 1716433931079
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384670914
+  modifiedTime: 1726384670914
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!journal!sCNtrTmPjnHHuiKE'
 

@@ -15,12 +15,13 @@ system:
       clash with their more lawful allies.</p><p> On other settings, gods such
       as Trithereon and Aerdrie Faenya offer it</p>
     chat: ''
-    unidentified: ''
   source:
     book: Linvakri's Guide to Syrkarn
     page: ''
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: liberation-domain
   classIdentifier: ''
   advancement:
@@ -28,7 +29,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.MT3QTmMJJ8vhVMpr
+          - uuid: Compendium.eberron-5e.classes.Item.MT3QTmMJJ8vhVMpr
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -37,7 +39,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.5mzWLvoU8APzLoP7
+          - uuid: Compendium.eberron-5e.classes.Item.5mzWLvoU8APzLoP7
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -48,7 +51,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.9Dukq7ywjoraNSvO
+          - uuid: Compendium.eberron-5e.classes.Item.9Dukq7ywjoraNSvO
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -59,7 +63,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.lZVGI4J2Kx4k6SN1
+          - uuid: Compendium.eberron-5e.classes.Item.lZVGI4J2Kx4k6SN1
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -70,7 +75,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.InpWB5TcT5MM033Q
+          - uuid: Compendium.eberron-5e.classes.Item.InpWB5TcT5MM033Q
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -86,31 +92,34 @@ system:
           - skills:acr
           - weapon:mar
         choices: []
-        hint: |-
-          When you choose this domain at 1st level, you gain
-          proficiency with martial weapons. You also gain
-          proficiency in the Acrobatics skill.
       level: 1
       title: Bonus Proficiencies
       icon: null
-      value: {}
+      value:
+        chosen: []
+      hint: |-
+        When you choose this domain at 1st level, you gain
+        proficiency with martial weapons. You also gain
+        proficiency in the Acrobatics skill.
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1704059419389
-  modifiedTime: 1704060172176
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384651460
+  modifiedTime: 1726384651460
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!YLwZiuycqUPZSKQU'
 

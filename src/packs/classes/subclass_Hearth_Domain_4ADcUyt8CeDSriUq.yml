@@ -18,18 +18,20 @@ system:
       themselves to furthering their community, drawing on the mark's powers of
       hearth and home. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: hearth-domain
   classIdentifier: cleric
   advancement:
     - _id: F2sw6OS12yB7dAsV
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.46jjfuvHbWA4FzRN
+          - uuid: Compendium.eberron-5e.classes.Item.46jjfuvHbWA4FzRN
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -39,8 +41,10 @@ system:
     - _id: 11VAQSjLUaeTxtpW
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.QeLhh1eBmE07R0wM
-          - Compendium.eberron-5e.classes.Item.bMyPCLJ7YuW8nh6f
+          - uuid: Compendium.eberron-5e.classes.Item.QeLhh1eBmE07R0wM
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.bMyPCLJ7YuW8nh6f
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -50,7 +54,8 @@ system:
     - _id: 0sm1gi4DLIBf2yfn
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.4vGoUIVtwVRNuQso
+          - uuid: Compendium.eberron-5e.classes.Item.4vGoUIVtwVRNuQso
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -60,7 +65,8 @@ system:
     - _id: y8oYvb8E4t03JhO5
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.ph7BCTylsOnPlOSX
+          - uuid: Compendium.eberron-5e.classes.Item.ph7BCTylsOnPlOSX
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -70,7 +76,8 @@ system:
     - _id: jSV3huYKT27LRIfp
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.ljNri4Z4rBh37fk3
+          - uuid: Compendium.eberron-5e.classes.Item.ljNri4Z4rBh37fk3
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -80,6 +87,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -87,13 +95,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686202207741
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384639330
+  modifiedTime: 1726384639330
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!4ADcUyt8CeDSriUq'
 

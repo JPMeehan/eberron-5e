@@ -60,6 +60,10 @@ system:
     init:
       ability: ''
       bonus: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     movement:
       burrow: null
       climb: null
@@ -78,6 +82,26 @@ system:
       units: null
       special: ''
     spellcasting: int
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    hd:
+      spent: 0
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
   details:
     biography:
       value: >-
@@ -98,7 +122,9 @@ system:
     environment: ''
     cr: 5
     spellLevel: 0
-    source: {}
+    ideal: ''
+    bond: ''
+    flaw: ''
   traits:
     size: med
     di:
@@ -119,6 +145,9 @@ system:
     languages:
       value: []
       custom: Any two languages
+    dm:
+      amount: {}
+      bypasses: []
   currency:
     pp: 0
     gp: 0
@@ -132,108 +161,180 @@ system:
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ani:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     arc:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ath:
       value: 1
       ability: str
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     dec:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     his:
       value: 2
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ins:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     itm:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     inv:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     med:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     nat:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prc:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prf:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     per:
       value: 2
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     rel:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     slt:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ste:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     sur:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
   tools: {}
   spells:
     spell1:
@@ -295,6 +396,9 @@ system:
     lair:
       value: false
       initiative: null
+  source:
+    revision: 1
+    rules: '2024'
 prototypeToken:
   name: Rekkenmark Elite
   displayName: 0
@@ -379,60 +483,76 @@ items:
       description:
         value: The elite makes three melee attacks.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ''
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: multiattack
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: wADfNcspsqPf0ySK
     effects: []
     folder: null
@@ -440,16 +560,17 @@ items:
     ownership:
       default: 0
       MVioF9x1qI1WYGx1: 3
-    flags: {}
+    flags:
+      dnd5e: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065664572
-      modifiedTime: 1701065664572
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!LC7Qoe9UkoLmpvaH.wADfNcspsqPf0ySK'
   - name: Greatsword
     type: weapon
@@ -461,66 +582,50 @@ items:
           + 4) slashing damage, plus 7 (2d6) slashing damage if the elite does
           not have all of its hit points.
         chat: ''
-        unidentified: ''
-      source: {}
+      source:
+        rules: '2014'
+        revision: 1
       quantity: 1
-      weight: 0
+      weight:
+        value: 0
+        units: lb
       price:
         value: 0
         denomination: gp
-      attunement: 2
+      attunement: '2'
       equipped: true
       rarity: ''
       identified: true
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
       cover: null
       crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
       range:
-        value: 5
+        value: null
         long: null
         units: ft
+        reach: null
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: str
-      actionType: mwak
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
+        recovery:
+          - period: lr
+            type: recoverAll
+        spent: 0
       damage:
-        parts:
-          - - 2d6 + @mod
-            - slashing
-          - - 2d6
-            - slashing
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        base:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
       armor:
         value: null
       hp:
@@ -528,27 +633,19 @@ items:
         max: null
         dt: null
         conditions: ''
-      weaponType: natural
-      baseItem: ''
-      properties:
-        ada: false
-        amm: false
-        fin: false
-        fir: false
-        foc: false
-        hvy: false
-        lgt: false
-        lod: false
-        mgc: false
-        rch: false
-        rel: false
-        ret: false
-        sil: false
-        spc: false
-        thr: false
-        two: false
-        ver: false
+      properties: []
       proficient: 1
+      identifier: greatsword
+      activities: {}
+      unidentified:
+        description: ''
+      container: null
+      attuned: false
+      type:
+        value: simpleM
+        baseItem: ''
+      ammunition: {}
+      magicalBonus: null
     _id: jP8lDd2z0Ra4YeDv
     effects: []
     folder: null
@@ -558,14 +655,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065664644
-      modifiedTime: 1701065664644
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!LC7Qoe9UkoLmpvaH.jP8lDd2z0Ra4YeDv'
   - name: Rekkenmark Officer (Recharges After A Short Or Long Rest)
     type: feat
@@ -574,6 +671,7 @@ items:
       adnd5e:
         itemInfo:
           type: bonus
+      dnd5e: {}
     system:
       description:
         value: >-
@@ -585,60 +683,76 @@ items:
           Leadership die at a time. This effect ends if the elite is
           incapacitated.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: bonus
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: bonus
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ''
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: rekkenmark-officer-recharges-after-a-short-or-long-rest
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: NyiBGCI7bn5tcHrP
     effects: []
     folder: null
@@ -647,14 +761,14 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065664745
-      modifiedTime: 1701065664745
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!LC7Qoe9UkoLmpvaH.NyiBGCI7bn5tcHrP'
   - name: Parry
     type: feat
@@ -663,6 +777,7 @@ items:
       adnd5e:
         itemInfo:
           type: reaction
+      dnd5e: {}
     system:
       description:
         value: >-
@@ -670,60 +785,76 @@ items:
           To do so, the elite must see the attacker and be wielding a melee
           weapon.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: reaction
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: reaction
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ''
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: parry
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: gRUtZc5ECI113qy0
     effects: []
     folder: null
@@ -732,14 +863,14 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065664933
-      modifiedTime: 1701065664933
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!LC7Qoe9UkoLmpvaH.gRUtZc5ECI113qy0'
   - name: Stoic
     type: feat
@@ -748,60 +879,23 @@ items:
       description:
         value: The elite has advantage on saving throws against being stunned.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: stoic
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: ZRdZi1izO2ufPvDO
     effects: []
     folder: null
@@ -811,14 +905,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065665324
-      modifiedTime: 1701065665324
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!LC7Qoe9UkoLmpvaH.ZRdZi1izO2ufPvDO'
   - name: Steadfast
     type: feat
@@ -829,60 +923,23 @@ items:
           The elite can't be frightened while it can see an allied creature
           within 30 feet of it.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: steadfast
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: CscMd4Pt2JbEuyyL
     effects: []
     folder: null
@@ -892,14 +949,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065665668
-      modifiedTime: 1701065665668
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!LC7Qoe9UkoLmpvaH.CscMd4Pt2JbEuyyL'
 effects: []
 ownership:
@@ -909,14 +966,14 @@ ownership:
 flags:
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1701065664353
-  modifiedTime: 1702848184332
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384677260
+  modifiedTime: 1726384677260
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: LC7Qoe9UkoLmpvaH
 sort: 100000
 _key: '!actors!LC7Qoe9UkoLmpvaH'

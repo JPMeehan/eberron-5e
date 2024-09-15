@@ -23,62 +23,56 @@ system:
     book: Chronicles of Eberron
     page: ''
     license: DMsGuild CCA
+    revision: 1
+    rules: '2014'
   quantity: 1
-  weight: 1
+  weight:
+    value: 1
+    units: lb
   price:
     value: 2
     denomination: gp
-  attunement: 0
+  attunement: ''
   equipped: false
   rarity: ''
   identified: true
-  activation:
-    type: action
-    cost: 1
-    condition: ''
-  duration:
-    value: ''
-    units: ''
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
   range:
     value: null
     long: null
     units: ''
+    reach: null
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: mwak
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    recovery: []
+    spent: 0
   damage:
-    parts:
-      - - 1d6 + @mod
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 6
+      bonus: ''
+      types:
         - piercing
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   armor:
     value: null
   hp:
@@ -96,6 +90,73 @@ system:
   unidentified:
     description: ''
   container: null
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: attack
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      attack:
+        ability: ''
+        bonus: ''
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: melee
+          classification: weapon
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      sort: 0
+  identifier: bayonet-light
+  attuned: false
+  ammunition: {}
+  magicalBonus: null
 effects: []
 ownership:
   default: 0
@@ -104,15 +165,19 @@ flags:
   core: {}
   chaosos-5e-content:
     weaponMastered: false
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
-  createdTime: 1686376009793
-  modifiedTime: 1707003540120
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384672049
+  modifiedTime: 1726384672049
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: Y9KNEEWMWf6WdlvP
 sort: 300000
 _key: '!items!Y9KNEEWMWf6WdlvP'

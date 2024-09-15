@@ -106,16 +106,17 @@ sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  createdTime: 1725752918505
-  modifiedTime: 1725752977648
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  systemVersion: 4.0.0
+  createdTime: 1726384671283
+  modifiedTime: 1726384671283
+  lastModifiedBy: q6n1efCGVB98drEQ
 formula: 1d8
 _key: '!tables!o5of924Aj0U5kPJf'
 

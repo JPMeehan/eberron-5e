@@ -22,83 +22,130 @@ system:
       points to manifest this augment, the damage increases by 1d6 for each
       additional psi point spent beyond the minimum cost. </p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
+    revision: 1
+    rules: '2014'
+    book: Psion's Primer
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
     value: ''
     units: foc
-  cover: null
-  crewed: false
   target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
-    prompt: true
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: flags
-    target: pp
-    amount: 1
-    scale: false
-  ability: ''
-  actionType: save
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 1d6
-        - psychic
-    versatile: ''
-  formula: ''
-  save:
-    ability: cha
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   level: 1
   discipline: tlp
   augmenting: Mind Thrust
-  components:
-    auditory: false
-    observable: true
-    concentration: false
-    ritual: false
-  scaling:
-    mode: intensify
-    formula: 1d6
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: foc
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: '1'
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability: cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: disconcerting-lash
+  properties: []
+  preparation:
+    mode: always
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.330'
-  createdTime: 1685938806751
-  modifiedTime: 1723671205322
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384669422
+  modifiedTime: 1726384669422
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: JaFyoXwANf736BQy
 sort: 500000
 _key: '!items!JaFyoXwANf736BQy'

@@ -23,76 +23,108 @@ system:
     book: Psion's Primer
     page: ''
     license: ''
+    revision: 1
+    rules: '2014'
   activation:
     type: bonus
-    cost: 1
     condition: ''
+    value: 1
   duration:
     value: ''
     units: foc
-  cover: null
-  crewed: false
   target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
   range:
-    value: null
-    long: null
     units: self
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   level: 0
   discipline: pst
   augmenting: ''
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - observable
   preparation:
     mode: always
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: foc
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: speed-of-thought
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.330'
-  createdTime: 1706750789644
-  modifiedTime: 1723671205388
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384670180
+  modifiedTime: 1726384670180
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: fEykoPdMhyl1FHi7
 sort: 0
 _key: '!items!fEykoPdMhyl1FHi7'

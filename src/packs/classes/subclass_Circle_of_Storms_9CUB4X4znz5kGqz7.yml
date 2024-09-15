@@ -22,19 +22,22 @@ system:
       familiarity with the sea, their unique relationship with planar powers
       means that druids of the Storm are not unknown there. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: circle-of-storms
   classIdentifier: druid
   advancement:
     - _id: lZbWvkXJ9Jt3zrlc
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.OOZzuudiAHZkP5n5
-          - Compendium.eberron-5e.classes.Item.XdY8vFLAvV0rrII3
+          - uuid: Compendium.eberron-5e.classes.Item.OOZzuudiAHZkP5n5
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.XdY8vFLAvV0rrII3
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +47,8 @@ system:
     - _id: D3wTwM2HVW1fJznj
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.ecQgJHmTLCuEtqkc
+          - uuid: Compendium.eberron-5e.classes.Item.ecQgJHmTLCuEtqkc
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -54,7 +58,8 @@ system:
     - _id: Q33fUJHkXeVBnvxj
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.qvW64A9VCBeNfs6J
+          - uuid: Compendium.eberron-5e.classes.Item.qvW64A9VCBeNfs6J
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -64,7 +69,8 @@ system:
     - _id: eLDPiOey6tZc57HE
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.iWvBQzYHLlRHTiEq
+          - uuid: Compendium.eberron-5e.classes.Item.iWvBQzYHLlRHTiEq
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -74,6 +80,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -81,13 +88,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686245884176
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384641304
+  modifiedTime: 1726384641304
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!9CUB4X4znz5kGqz7'
 

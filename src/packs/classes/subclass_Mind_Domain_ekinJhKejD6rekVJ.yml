@@ -17,12 +17,13 @@ system:
       priest into madness, they might also reveal deeper secrets and mental
       powers.</p>
     chat: ''
-    unidentified: ''
   source:
     license: DMsGuild CCA
     custom: ''
     book: Exploring Eberron
     page: Ch. 6
+    rules: '2014'
+    revision: 1
   identifier: mind-domain
   classIdentifier: cleric
   advancement:
@@ -30,9 +31,12 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.sDSAeBOTc2bqgyhp
-          - Compendium.eberron-5e.classes.Item.RPV9KgBakokDcGFk
-          - Compendium.eberron-5e.classes.Item.wlJcwJleQviDxjqL
+          - uuid: Compendium.eberron-5e.classes.Item.sDSAeBOTc2bqgyhp
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.RPV9KgBakokDcGFk
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.wlJcwJleQviDxjqL
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -43,7 +47,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.gt3sZZmvuKhkhwCM
+          - uuid: Compendium.eberron-5e.classes.Item.gt3sZZmvuKhkhwCM
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -54,7 +59,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.1jv5jMwgBEd7snUJ
+          - uuid: Compendium.eberron-5e.classes.Item.1jv5jMwgBEd7snUJ
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -65,7 +71,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.9ll1b3DAx9hxQ9LD
+          - uuid: Compendium.eberron-5e.classes.Item.9ll1b3DAx9hxQ9LD
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -76,7 +83,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.rM8BWoMP034ckJQA
+          - uuid: Compendium.eberron-5e.classes.Item.rM8BWoMP034ckJQA
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -86,6 +94,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -93,13 +102,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686341399686
-  modifiedTime: 1704061611110
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384655017
+  modifiedTime: 1726384655017
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!ekinJhKejD6rekVJ'
 

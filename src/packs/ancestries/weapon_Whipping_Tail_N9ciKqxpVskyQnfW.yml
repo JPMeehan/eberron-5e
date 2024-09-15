@@ -12,68 +12,61 @@ system:
       strike. When you take the Disengage action, you can make an attack with
       your tail as a bonus action</p>
     chat: ''
-    unidentified: ''
   source:
     book: Scales of Q'barra
     page: Appendix
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
+  weight:
+    value: 0
+    units: lb
   price:
     value: 0
     denomination: gp
-  attunement: 0
+  attunement: ''
   equipped: false
   rarity: ''
   identified: true
-  activation:
-    type: action
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
   cover: null
   crewed: false
-  target:
-    value: 1
-    width: null
-    units: ''
-    type: creature
-    prompt: true
   range:
     value: 5
     long: null
     units: ft
+    reach: null
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: mwak
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts:
-      - - 1d6 + @mod
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: 1
+      denomination: 6
+      bonus: ''
+      types:
         - bludgeoning
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   armor:
     value: null
   hp:
@@ -81,27 +74,60 @@ system:
     max: null
     dt: null
     conditions: ''
-  weaponType: natural
-  baseItem: ''
-  properties:
-    ada: false
-    amm: false
-    fin: false
-    fir: false
-    foc: false
-    hvy: false
-    lgt: false
-    lod: false
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: false
-    thr: false
-    two: false
-    ver: false
+  properties: []
   proficient: null
+  identifier: whipping-tail
+  unidentified:
+    description: ''
+  type:
+    value: natural
+    baseItem: ''
+  activities:
+    voRWjSzxSbajxRSP:
+      _id: voRWjSzxSbajxRSP
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  container: null
+  attuned: false
+  ammunition: {}
+  magicalBonus: null
 effects: []
 sort: 0
 ownership:
@@ -112,13 +138,13 @@ flags:
   chaosos-5e-content:
     weaponMastered: false
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
-  createdTime: 1700454665986
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384608494
+  modifiedTime: 1726384608494
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!N9ciKqxpVskyQnfW'
 

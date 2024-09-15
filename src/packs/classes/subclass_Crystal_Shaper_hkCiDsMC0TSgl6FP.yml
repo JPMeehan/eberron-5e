@@ -24,18 +24,20 @@ system:
       though it remains little more than an academic curiosity outside kalashtar
       communities such as Overlook in Sharn.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: crystal-shaper
   classIdentifier: artificer
   advancement:
     - _id: IyH3lSrb7zD4J7Nh
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.6Av56IuhlTyAtR16
+          - uuid: Compendium.eberron-5e.classes.Item.6Av56IuhlTyAtR16
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -45,9 +47,12 @@ system:
     - _id: 912GDCbiHsBFTOta
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.g59ex0tFshRj5VyC
-          - Compendium.eberron-5e.classes.Item.GaeP6NkDtwC1ESrn
-          - Compendium.eberron-5e.classes.Item.leRe59zKqHAiptb9
+          - uuid: Compendium.eberron-5e.classes.Item.g59ex0tFshRj5VyC
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.GaeP6NkDtwC1ESrn
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.leRe59zKqHAiptb9
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -57,7 +62,8 @@ system:
     - _id: mWkj0U0MECtgkxko
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.zs2dPIptOgE1pz0c
+          - uuid: Compendium.eberron-5e.classes.Item.zs2dPIptOgE1pz0c
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -67,7 +73,8 @@ system:
     - _id: Q5G9Nlxx8vAwKlL2
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.fD0sL2c4z0nHHih4
+          - uuid: Compendium.eberron-5e.classes.Item.fD0sL2c4z0nHHih4
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -77,6 +84,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -84,13 +92,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686201634105
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384656234
+  modifiedTime: 1726384656234
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!hkCiDsMC0TSgl6FP'
 

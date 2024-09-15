@@ -20,18 +20,20 @@ system:
       Path of Light refer to Divine Snipers as Soulbows, according them great
       respect. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: divine-sniper
   classIdentifier: rogue
   advancement:
     - _id: c0zzeeUrj5wbBzD5
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.5wveAVR4C5KDmCpf
+          - uuid: Compendium.eberron-5e.classes.Item.5wveAVR4C5KDmCpf
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -41,8 +43,10 @@ system:
     - _id: RVkaHUWCJYGCHsEJ
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.jgclgAMg0TXujJXg
-          - Compendium.eberron-5e.classes.Item.z3ioDlGiODJAjoJS
+          - uuid: Compendium.eberron-5e.classes.Item.jgclgAMg0TXujJXg
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.z3ioDlGiODJAjoJS
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,8 +56,10 @@ system:
     - _id: M7UtsnhtpYDV64BO
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.1wgwgWIDyFzGqVTW
-          - Compendium.eberron-5e.classes.Item.ZnO4Nvzie5BnA3z3
+          - uuid: Compendium.eberron-5e.classes.Item.1wgwgWIDyFzGqVTW
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.ZnO4Nvzie5BnA3z3
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -63,7 +69,8 @@ system:
     - _id: LwqLonBRUHhPDzds
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.8PIUIR3NsoWvnJ7X
+          - uuid: Compendium.eberron-5e.classes.Item.8PIUIR3NsoWvnJ7X
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -73,6 +80,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -80,13 +88,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686246011861
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384650076
+  modifiedTime: 1726384650076
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!VOVlZjQ0flWumI31'
 

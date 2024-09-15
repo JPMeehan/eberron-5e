@@ -27,11 +27,12 @@ system:
       (Perception) checks that rely on sight when you, the target of your
       attack, or whatever you are trying to perceive is in direct sunlight</p>
     chat: ''
-    unidentified: ''
   source:
     book: Psion's Primer
     page: Ch. 2
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: AbilityScoreImprovement
       _id: LBUwneXXAqj4B8Y9
@@ -39,6 +40,7 @@ system:
         points: 0
         fixed: {}
         cap: 2
+        locked: []
       value:
         type: asi
       level: 0
@@ -58,7 +60,8 @@ system:
         choices: []
       _id: uOV5X4d0uzBIwUDe
       level: 0
-      value: {}
+      value:
+        chosen: []
   movement:
     burrow: null
     climb: null
@@ -76,6 +79,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: duergar
 effects: []
 sort: 0
 ownership:
@@ -84,13 +88,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
-  createdTime: 1700628663319
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384609332
+  modifiedTime: 1726384609332
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!XiKt1ZDmmylTt3Zr'
 

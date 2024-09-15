@@ -77,120 +77,200 @@ system:
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ani:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     arc:
       value: 1
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ath:
       value: 0
       ability: str
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     cul:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     dec:
       value: 1
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     eng:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     his:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ins:
       value: 1
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     itm:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     inv:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     med:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     nat:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prc:
       value: 1
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prf:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     per:
       value: 1
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     rel:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     slt:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ste:
       value: 1
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     sur:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
   tools: {}
   spells:
     spell1:
@@ -224,7 +304,13 @@ system:
       value: 0
       override: null
   attributes:
-    init: {}
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
     movement:
       burrow: null
       climb: null
@@ -254,6 +340,25 @@ system:
       temp: 0
       tempmax: 0
       formula: 13d8 + 13
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    hd:
+      spent: 0
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
   details:
     biography:
       value: >-
@@ -289,11 +394,9 @@ system:
     environment: Underdark
     cr: 8
     spellLevel: 0
-    source:
-      book: Psion's Primer
-      page: ''
-      custom: ''
-      license: ''
+    ideal: ''
+    bond: ''
+    flaw: ''
   resources:
     legact:
       value: 0
@@ -333,6 +436,13 @@ system:
         - daelkyr
         - gith
       custom: Telepathy 120 ft.
+  source:
+    book: Psion's Primer
+    page: ''
+    custom: ''
+    license: ''
+    revision: 1
+    rules: '2024'
 prototypeToken:
   name: Mind Flayer
   displayName: 0
@@ -432,65 +542,59 @@ items:
         page: '222'
         custom: ''
         license: ''
+        revision: 1
+        rules: '2024'
       identified: true
       unidentified:
         description: ''
       container: null
       quantity: 1
-      weight: 0
+      weight:
+        value: 0
+        units: lb
       price:
         value: 0
         denomination: gp
       rarity: ''
-      attunement: 0
+      attunement: ''
       equipped: true
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: inst
       cover: null
       crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
       range:
         value: 5
         long: null
         units: ft
+        reach: null
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: int
-      actionType: mwak
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
+        recovery: []
+        spent: 0
       damage:
-        parts:
-          - - 2d10[psychic] + @mod
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: null
+          denomination: null
+          bonus: ''
+          types:
             - psychic
-        versatile: ''
-      formula: ''
-      save:
-        dc: 15
-        ability: int
-        scaling: flat
+          custom:
+            enabled: true
+            formula: 2d10[psychic] + @mod
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
       armor:
         value: null
       hp:
@@ -503,6 +607,143 @@ items:
         baseItem: ''
       properties: []
       proficient: 1
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '5'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: int
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          sort: 0
+        dnd5eactivity100:
+          _id: dnd5eactivity100
+          type: save
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '5'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts:
+              - number: null
+                denomination: null
+                bonus: ''
+                types:
+                  - psychic
+                custom:
+                  enabled: true
+                  formula: 2d10[psychic] + @mod
+                scaling:
+                  mode: whole
+                  number: null
+                  formula: ''
+          save:
+            ability: int
+            dc:
+              calculation: ''
+              formula: '15'
+          sort: 0
+      identifier: ''
+      attuned: false
+      ammunition: {}
+      magicalBonus: null
     effects: []
     flags:
       ddbimporter:
@@ -512,6 +753,7 @@ items:
         fullName: Tentacles.
         actionCopy: false
         type: action
+      dnd5e: {}
     img: icons/commodities/biological/tentacle-purple-white.webp
     _id: LXgbAsxMdc9KuhZY
     folder: null
@@ -519,14 +761,14 @@ items:
     ownership:
       default: 0
     _stats:
-      systemId: null
-      systemVersion: null
-      coreVersion: '12.327'
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.LXgbAsxMdc9KuhZY'
   - name: Extract Brain
     type: weapon
@@ -544,65 +786,59 @@ items:
         page: '222'
         custom: ''
         license: ''
+        revision: 1
+        rules: '2024'
       identified: true
       unidentified:
         description: ''
       container: null
       quantity: 1
-      weight: 0
+      weight:
+        value: 0
+        units: lb
       price:
         value: 0
         denomination: gp
       rarity: ''
-      attunement: 0
+      attunement: ''
       equipped: true
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: inst
       cover: null
       crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
       range:
-        value: 5
+        value: null
         long: null
         units: ft
+        reach: null
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: int
-      actionType: mwak
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
+        recovery: []
+        spent: 0
       damage:
-        parts:
-          - - 10d10[piercing]
+        versatile:
+          number: null
+          denomination: null
+          bonus: ''
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: null
+          denomination: null
+          bonus: ''
+          types:
             - piercing
-        versatile: ''
-      formula: ''
-      save:
-        dc: null
-        ability: ''
-        scaling: flat
+          custom:
+            enabled: true
+            formula: 10d10[piercing]
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
       armor:
         value: null
       hp:
@@ -615,6 +851,74 @@ items:
         baseItem: ''
       properties: []
       proficient: 1
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '5'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: int
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          sort: 0
+      identifier: ''
+      attuned: false
+      ammunition: {}
+      magicalBonus: null
     effects: []
     flags:
       ddbimporter:
@@ -624,6 +928,7 @@ items:
         fullName: Extract Brain.
         actionCopy: false
         type: action
+      dnd5e: {}
     img: icons/commodities/biological/organ-brain-pink-purple.webp
     _id: C4tTWP6vhBqF30lT
     folder: null
@@ -631,14 +936,14 @@ items:
     ownership:
       default: 0
     _stats:
-      systemId: null
-      systemVersion: null
-      coreVersion: '12.327'
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.C4tTWP6vhBqF30lT'
   - name: Mind Blast
     type: feat
@@ -656,61 +961,105 @@ items:
         page: '222'
         custom: ''
         license: ''
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: inst
-      cover: null
-      crewed: false
-      target:
-        value: 60
-        width: null
-        units: ft
-        type: cone
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
-        max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: charges
-        target: V5WRhdT83mOZkwLv
-        amount: null
-        scale: false
-      ability: ''
-      actionType: save
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts:
-          - - 4d8[psychic] + 4
-            - psychic
-        versatile: ''
-      formula: ''
-      save:
-        dc: 15
-        ability: int
-        scaling: flat
+        max: '1'
+        recovery:
+          - period: recharge
+            formula: '5'
+            type: recoverAll
+        spent: 0
       type:
         value: ''
         subtype: ''
       properties: []
       requirements: ''
-      recharge:
-        value: 5
-        charged: true
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                target: V5WRhdT83mOZkwLv
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+              - type: itemUses
+                target: ''
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: inst
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ''
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: cone
+              size: '60'
+              width: ''
+              height: ''
+              units: ft
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts:
+              - number: null
+                denomination: null
+                bonus: ''
+                types:
+                  - psychic
+                custom:
+                  enabled: true
+                  formula: 4d8[psychic] + 4
+                scaling:
+                  mode: whole
+                  number: null
+                  formula: ''
+          save:
+            ability: int
+            dc:
+              calculation: ''
+              formula: '15'
+          sort: 0
+      identifier: mind-blast
+      enchant: {}
+      prerequisites:
+        level: null
     effects: []
     flags:
       ddbimporter:
@@ -720,6 +1069,8 @@ items:
         fullName: Mind Blast (Recharge 5–6).
         actionCopy: false
         type: action
+      dnd5e:
+        migratedUses: null
     _id: V5WRhdT83mOZkwLv
     img: icons/magic/control/energy-stream-link-large-teal.webp
     folder: null
@@ -727,14 +1078,14 @@ items:
     ownership:
       default: 0
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.0.3
-      coreVersion: '12.327'
-      createdTime: null
-      modifiedTime: 1709137821493
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.V5WRhdT83mOZkwLv'
   - name: Psionic Resistance
     type: feat
@@ -749,59 +1100,22 @@ items:
         page: ''
         custom: ''
         license: ''
-      activation:
-        cost: null
-        type: ''
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: ''
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        dc: null
-        ability: ''
-        scaling: flat
+        spent: 0
+        recovery: []
       type:
         value: ''
         subtype: ''
       properties: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: psionic-resistance
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
     effects: []
     flags:
       ddbimporter:
@@ -818,14 +1132,14 @@ items:
     ownership:
       default: 0
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.0.3
-      coreVersion: '12.327'
-      createdTime: null
-      modifiedTime: 1709085076612
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.ng3eDgKW8Nae3UyB'
   - name: Innate Spellcasting (Psionics)
     type: feat
@@ -843,59 +1157,22 @@ items:
         page: ''
         custom: ''
         license: ''
-      activation:
-        cost: null
-        type: ''
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: ''
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        dc: null
-        ability: ''
-        scaling: flat
+        spent: 0
+        recovery: []
       type:
         value: ''
         subtype: ''
       properties: []
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: innate-spellcasting-psionics
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
     effects: []
     flags:
       ddbimporter:
@@ -912,14 +1189,14 @@ items:
     ownership:
       default: 0
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.0.3
-      coreVersion: '12.327'
-      createdTime: null
-      modifiedTime: 1709085137911
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.35BieXTVvkts0GJ0'
   - folder: ND8imwT4ZNwNEWzm
     name: Mystic Traveler
@@ -957,60 +1234,90 @@ items:
         page: ''
         custom: ''
         license: ''
+        revision: 1
+        rules: '2014'
       activation:
         type: action
-        cost: 1
         condition: ''
+        value: 1
       duration:
         value: ''
         units: disp
-      cover: null
-      crewed: false
       target:
-        value: 1
-        width: null
-        units: ''
-        type: willing
-        prompt: true
+        affects:
+          type: willing
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
       range:
-        value: null
-        long: null
         units: touch
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: pp
-        amount: 1
-        scale: false
-      ability: null
-      actionType: ''
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       level: 1
       discipline: pst
       augmenting: mystic displacement
       properties: []
-      scaling:
-        mode: none
-        formula: ''
       preparation:
         mode: innate
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: disp
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: touch
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: '1'
+              type: willing
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: mystic-traveler
     effects: []
     ownership:
       default: 0
@@ -1018,15 +1325,16 @@ items:
     flags:
       core:
         sourceId: Compendium.eberron-5e.spells.Item.Gkt1NW0CDxiZqEvT
+      dnd5e: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.0.3
-      coreVersion: '12.327'
-      createdTime: 1706766922765
-      modifiedTime: 1709160695161
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: Compendium.eberron-5e.spells.Item.Gkt1NW0CDxiZqEvT
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _id: fhQdn5xz9Uw1uwyh
     sort: 100000
     _key: '!actors.items!kFJZmsOnqW8mPZMY.fhQdn5xz9Uw1uwyh'
@@ -1064,61 +1372,93 @@ items:
         page: ''
         custom: ''
         license: ''
+        revision: 1
+        rules: '2014'
       activation:
         type: action
-        cost: 1
         condition: ''
+        value: 1
       duration:
         value: '1'
         units: minute
-      cover: null
-      crewed: false
       target:
-        value: 1
-        width: null
-        units: ''
-        type: creature
-        prompt: true
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
       range:
-        value: null
-        long: null
         units: self
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: pp
-        amount: 3
-        scale: false
-      ability: ''
-      actionType: save
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: wis
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       level: 2
       discipline: tlp
       augmenting: mindlink
-      properties:
-        - concentration
-      scaling:
-        mode: none
-        formula: ''
+      properties: []
       preparation:
         mode: innate
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: true
+            value: '1'
+            units: minute
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: '1'
+              type: creature
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability: wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          sort: 0
+      identifier: read-thoughts
     effects: []
     ownership:
       default: 0
@@ -1126,15 +1466,16 @@ items:
     flags:
       core:
         sourceId: Compendium.eberron-5e.spells.Item.9KMC1vrdMCIwlnBz
+      dnd5e: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.0.3
-      coreVersion: '12.327'
-      createdTime: 1706766922765
-      modifiedTime: 1709160685171
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: Compendium.eberron-5e.spells.Item.9KMC1vrdMCIwlnBz
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _id: 2nAShlWqhTBOgJ6U
     sort: 0
     _key: '!actors.items!kFJZmsOnqW8mPZMY.2nAShlWqhTBOgJ6U'
@@ -1165,62 +1506,90 @@ items:
         page: ''
         custom: ''
         license: ''
+        revision: 1
+        rules: '2014'
       activation:
         type: action
-        cost: 1
         condition: ''
+        value: 1
       duration:
         value: '10'
         units: minute
-      cover: null
-      crewed: false
       target:
-        value: null
-        width: null
-        units: ''
-        type: creature
-        prompt: true
+        affects:
+          type: creature
+          choice: false
+        template:
+          units: ''
+          contiguous: false
       range:
-        value: null
-        long: null
         units: self
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: pp
-        amount: 6
-        scale: false
-      ability: null
-      actionType: ''
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       level: 3
       discipline: pst
       augmenting: inertial transference
       properties:
         - observable
-        - concentration
-      scaling:
-        mode: intensify2
-        formula: ''
       preparation:
         mode: innate
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: true
+            value: '10'
+            units: minute
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: self
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: creature
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: gravitic-field
     effects: []
     ownership:
       default: 0
@@ -1228,15 +1597,16 @@ items:
     flags:
       core:
         sourceId: Compendium.eberron-5e.spells.Item.xU538OkJcqCnZf6F
+      dnd5e: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.0.3
-      coreVersion: '12.327'
-      createdTime: 1706766922765
-      modifiedTime: 1709160690133
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: Compendium.eberron-5e.spells.Item.xU538OkJcqCnZf6F
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _id: r5Os0HoxQ0oCXvm4
     sort: 0
     _key: '!actors.items!kFJZmsOnqW8mPZMY.r5Os0HoxQ0oCXvm4'
@@ -1269,62 +1639,104 @@ items:
         page: ''
         custom: ''
         license: ''
+        revision: 1
+        rules: '2014'
       activation:
         type: action
-        cost: 1
         condition: ''
+        value: 1
       duration:
         value: '1'
         units: minute
-      cover: null
-      crewed: false
       target:
-        value: 1
-        width: null
-        units: ''
-        type: creature
-        prompt: true
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
       range:
-        value: 30
-        long: null
+        value: '30'
         units: ft
       uses:
-        value: 1
         max: '1'
-        per: lr
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: pp
-        amount: 9
-        scale: false
-      ability: ''
-      actionType: save
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: cha
-        dc: null
-        scaling: spell
+        recovery:
+          - period: lr
+            type: recoverAll
+        spent: 0
       level: 5
       discipline: tlp
       augmenting: mindlink
       properties:
         - auditory
-        - concentration
-      scaling:
-        mode: none
-        formula: ''
       preparation:
         mode: innate
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                target: ''
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: true
+            value: '1'
+            units: minute
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '30'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: '1'
+              type: creature
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability: cha
+            dc:
+              calculation: spellcasting
+              formula: ''
+          sort: 0
+      identifier: assume-control
     effects: []
     ownership:
       default: 0
@@ -1332,15 +1744,17 @@ items:
     flags:
       core:
         sourceId: Compendium.eberron-5e.spells.Item.bSpi5PEqAFnzyuPb
+      dnd5e:
+        migratedUses: 1
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.0.3
-      coreVersion: '12.327'
-      createdTime: 1706766922765
-      modifiedTime: 1709160704849
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: Compendium.eberron-5e.spells.Item.bSpi5PEqAFnzyuPb
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _id: jqYG1oUt7Fna5TMx
     sort: 300000
     _key: '!actors.items!kFJZmsOnqW8mPZMY.jqYG1oUt7Fna5TMx'
@@ -1406,61 +1820,97 @@ items:
         page: ''
         custom: ''
         license: ''
+        revision: 1
+        rules: '2014'
       activation:
         type: action
-        cost: 1
         condition: ''
+        value: 1
       duration:
         value: '5'
         units: day
-      cover: null
-      crewed: false
       target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
+        affects:
+          choice: false
+        template:
+          units: ''
+          contiguous: false
       range:
-        value: null
-        long: null
         units: touch
       uses:
-        value: 1
         max: '1'
-        per: lr
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: pp
-        amount: 9
-        scale: false
-      ability: int
-      actionType: ''
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: 1d20 + @mod + @skills.arc.bonuses.check
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery:
+          - period: lr
+            type: recoverAll
+        spent: 0
       level: 5
       discipline: pst
       augmenting: mystic displacement
       properties:
         - observable
-      scaling:
-        mode: none
-        formula: ''
       preparation:
         mode: innate
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets:
+              - type: itemUses
+                target: ''
+                value: '1'
+                scaling:
+                  mode: ''
+                  formula: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: '5'
+            units: day
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: touch
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: 1d20 + @mod + @skills.arc.bonuses.check
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: mystic-caravan
     effects: []
     ownership:
       default: 0
@@ -1468,15 +1918,17 @@ items:
     flags:
       core:
         sourceId: Compendium.eberron-5e.spells.Item.kP7HCc2ClFR8CtJ4
+      dnd5e:
+        migratedUses: 1
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.0.3
-      coreVersion: '12.327'
-      createdTime: 1706766922765
-      modifiedTime: 1709160700533
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: Compendium.eberron-5e.spells.Item.kP7HCc2ClFR8CtJ4
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _id: QzjsO9Qw5WdxbXAH
     sort: 100000
     _key: '!actors.items!kFJZmsOnqW8mPZMY.QzjsO9Qw5WdxbXAH'
@@ -1497,62 +1949,28 @@ items:
         book: SRD 5.1
         page: ''
         license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
       quantity: 1
-      weight: 20
+      weight:
+        value: 20
+        units: lb
       price:
         value: 400
         denomination: gp
-      attunement: 0
+      attunement: ''
       rarity: ''
       identified: true
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
       cover: null
       crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: ''
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       armor:
         value: 14
         dex: 2
+        magicalBonus: null
       hp:
         value: 0
         max: 0
@@ -1571,6 +1989,9 @@ items:
       properties: []
       equipped: true
       proficient: null
+      identifier: breastplate
+      activities: {}
+      attuned: false
     effects: []
     folder: JqTP017wj3uxDJ8g
     sort: 0
@@ -1581,20 +2002,21 @@ items:
       core:
         sourceId: Compendium.dnd5e.items.Item.SK2HATQ4abKUlV8i
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.0.3
-      coreVersion: '12.327'
-      createdTime: 1661787233661
-      modifiedTime: 1709137749829
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: Compendium.dnd5e.items.Item.SK2HATQ4abKUlV8i
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.IKwVCSKnF8rdAKgW'
 effects: []
 folder: xXqW5zZE9axoFXIR
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags:
   dnd5e: {}
   monsterMunch:
@@ -1639,14 +2061,14 @@ flags:
     flatAC: false
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.3
-  coreVersion: '12.327'
-  createdTime: 1708886046964
-  modifiedTime: 1709160704849
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384678114
+  modifiedTime: 1726384678114
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: kFJZmsOnqW8mPZMY
 sort: 0
 _key: '!actors!kFJZmsOnqW8mPZMY'

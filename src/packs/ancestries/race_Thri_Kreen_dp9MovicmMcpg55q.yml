@@ -52,12 +52,13 @@ system:
       mouthparts.</p><p><strong>Names</strong>: Tak’ikt, Ik-chal, Nakt, Kultil,
       Than-ik’ti, Chathak, Ptikal, Chachat’ka, Drulnat</p>
     chat: ''
-    unidentified: ''
   source:
     book: Giant Guide to Xen'drik
     page: Ch. 7
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: AbilityScoreImprovement
       _id: 8OsD7OWskXq1pNRt
@@ -65,6 +66,7 @@ system:
         points: 0
         fixed: {}
         cap: 2
+        locked: []
       value:
         type: asi
       level: 0
@@ -84,7 +86,8 @@ system:
         choices: []
       _id: gbBI8Jx30iwAw7wP
       level: 0
-      value: {}
+      value:
+        chosen: []
   movement:
     burrow: null
     climb: null
@@ -102,20 +105,22 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: thri-kreen
 effects: []
 sort: 900000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
-  createdTime: 1703830097654
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384609516
+  modifiedTime: 1726384609516
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!dp9MovicmMcpg55q'
 

@@ -28,79 +28,126 @@ system:
     book: Psion's Primer
     page: ''
     license: ''
+    revision: 1
+    rules: '2014'
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
     value: '1'
     units: minute
-  cover: null
-  crewed: false
   target:
-    value: null
-    width: null
-    units: ''
-    type: creature
-    prompt: true
+    affects:
+      type: creature
+      choice: false
+    template:
+      units: ''
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: flags
-    target: pp
-    amount: 5
-    scale: false
-  ability: ''
-  actionType: save
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 3d8
-        - psychic
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   level: 3
   discipline: tlp
   augmenting: mind thrust
-  scaling:
-    mode: none
-    formula: ''
   properties:
     - observable
-    - concentration
   preparation:
     mode: always
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: 1
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: true
+        value: '1'
+        units: minute
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '60'
+        units: ft
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: creature
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 8
+            bonus: ''
+            types:
+              - psychic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: ''
+              number: null
+              formula: ''
+      save:
+        ability: ''
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: id-insinuation
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.330'
-  createdTime: 1706750789644
-  modifiedTime: 1723671205385
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384670019
+  modifiedTime: 1726384670019
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: dg0xQO8xro4i1x3n
 sort: 100000
 _key: '!items!dg0xQO8xro4i1x3n'

@@ -14,65 +14,38 @@ system:
       the end of each of its turns, ending the effect on a success. The <em>calm
       emotions</em> spell suppresses the effects of this spell.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: Chronicles of Eberron
     page: Ch. 8
+    revision: 1
+    rules: '2014'
   activation:
     type: action
-    cost: null
     condition: ''
+    value: null
   duration:
     value: '1'
     units: minute
-  cover: null
-  crewed: false
   target:
-    value: '20'
-    width: null
-    units: ft
-    type: radius
-    prompt: true
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: radius
+      size: '20'
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: save
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: cha
-    dc: null
-    scaling: spell
   level: 1
   school: enc
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: true
   materials:
     value: ''
     consumed: false
@@ -81,34 +54,78 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  scaling:
-    mode: none
-    formula: ''
-  attack:
-    bonus: ''
-    flat: false
-  enchantment: null
-  summons: null
   properties:
     - vocal
     - somatic
     - concentration
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts: []
+      save:
+        ability: cha
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: furys-chorus
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
-  dnd5e: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedProperties:
+      - vocal
+      - somatic
+      - concentration
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.330'
-  createdTime: 1686367819914
-  modifiedTime: 1723671206746
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384669750
+  modifiedTime: 1726384669750
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: TcQtfgfVAsl9ykZs
 sort: 0
 _key: '!items!TcQtfgfVAsl9ykZs'

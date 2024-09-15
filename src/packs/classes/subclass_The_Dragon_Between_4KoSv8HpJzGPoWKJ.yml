@@ -13,12 +13,13 @@ system:
       the conflicts of the other progenitors and their spawn, and to spread life
       in all its wondrous variation.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Imogen Gingell
     page: Warlocks of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: eberron
   classIdentifier: warlock
   advancement:
@@ -26,7 +27,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.aFTLAr21caWdrdGC
+          - uuid: Compendium.eberron-5e.classes.Item.aFTLAr21caWdrdGC
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -36,7 +38,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.lnWmtX8uUQYNFNwG
+          - uuid: Compendium.eberron-5e.classes.Item.lnWmtX8uUQYNFNwG
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -47,7 +50,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.2BDPwMlB04rELApw
+          - uuid: Compendium.eberron-5e.classes.Item.2BDPwMlB04rELApw
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -58,7 +62,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.4jx9iHLZwIERYVsI
+          - uuid: Compendium.eberron-5e.classes.Item.4jx9iHLZwIERYVsI
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -68,6 +73,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -75,13 +81,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686377859705
-  modifiedTime: 1704135394286
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384639483
+  modifiedTime: 1726384639483
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!4KoSv8HpJzGPoWKJ'
 

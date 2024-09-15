@@ -60,6 +60,10 @@ system:
     init:
       ability: ''
       bonus: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     movement:
       burrow: null
       climb: null
@@ -78,6 +82,26 @@ system:
       units: null
       special: Passive Perception 15
     spellcasting: int
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    hd:
+      spent: 0
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
   details:
     biography:
       value: >-
@@ -102,7 +126,9 @@ system:
     environment: ''
     cr: 5
     spellLevel: 0
-    source: {}
+    ideal: ''
+    bond: ''
+    flaw: ''
   traits:
     size: med
     di:
@@ -133,6 +159,9 @@ system:
       value:
         - common
       custom: ''
+    dm:
+      amount: {}
+      bypasses: []
   currency:
     pp: 0
     gp: 0
@@ -146,108 +175,180 @@ system:
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ani:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     arc:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ath:
       value: 1
       ability: str
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     dec:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     his:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ins:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     itm:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     inv:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     med:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     nat:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prc:
       value: 1
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prf:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     per:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     rel:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     slt:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ste:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     sur:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
   tools: {}
   spells:
     spell1:
@@ -309,6 +410,9 @@ system:
     lair:
       value: false
       initiative: null
+  source:
+    revision: 1
+    rules: '2024'
 prototypeToken:
   name: Karrnathi Dread Marshal
   displayName: 0
@@ -395,64 +499,50 @@ items:
           Melee Weapon Attack: +6 to hit, reach 5 ft. , one target. Hit: 10 (2d6
           + 3) slashing damage.
         chat: ''
-        unidentified: ''
-      source: {}
+      source:
+        rules: '2014'
+        revision: 1
       quantity: 1
-      weight: 0
+      weight:
+        value: 0
+        units: lb
       price:
         value: 0
         denomination: gp
-      attunement: 2
+      attunement: '2'
       equipped: true
       rarity: ''
       identified: true
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
       cover: null
       crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
       range:
-        value: 5
+        value: null
         long: null
         units: ft
+        reach: null
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: str
-      actionType: mwak
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
+        recovery:
+          - period: lr
+            type: recoverAll
+        spent: 0
       damage:
-        parts:
-          - - 2d6 + @mod
-            - slashing
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        base:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
       armor:
         value: null
       hp:
@@ -460,27 +550,19 @@ items:
         max: null
         dt: null
         conditions: ''
-      weaponType: natural
-      baseItem: ''
-      properties:
-        ada: false
-        amm: false
-        fin: false
-        fir: false
-        foc: false
-        hvy: false
-        lgt: false
-        lod: false
-        mgc: false
-        rch: false
-        rel: false
-        ret: false
-        sil: false
-        spc: false
-        thr: false
-        two: false
-        ver: false
+      properties: []
       proficient: 1
+      identifier: greatsword
+      activities: {}
+      unidentified:
+        description: ''
+      container: null
+      attuned: false
+      type:
+        value: simpleM
+        baseItem: ''
+      ammunition: {}
+      magicalBonus: null
     _id: c46mMrxzghN4u6gu
     effects: []
     folder: null
@@ -490,14 +572,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065477174
-      modifiedTime: 1701065477174
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!c07o5rTJgyVNfyzk.c46mMrxzghN4u6gu'
   - name: Vampiric Siphon
     type: weapon
@@ -509,64 +591,50 @@ items:
           target. Hit: 13 (3d6 + 3) necrotic damage and the dread marshal
           regains an amount of hit points equal to half the damage dealt.
         chat: ''
-        unidentified: ''
-      source: {}
+      source:
+        rules: '2014'
+        revision: 1
       quantity: 1
-      weight: 0
+      weight:
+        value: 0
+        units: lb
       price:
         value: 0
         denomination: gp
-      attunement: 2
+      attunement: '2'
       equipped: true
       rarity: ''
       identified: true
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
       cover: null
       crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
       range:
-        value: 5
+        value: null
         long: null
         units: ft
+        reach: null
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: str
-      actionType: msak
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
+        recovery:
+          - period: lr
+            type: recoverAll
+        spent: 0
       damage:
-        parts:
-          - - 3d6 + @mod
-            - necrotic
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        base:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
       armor:
         value: null
       hp:
@@ -574,27 +642,19 @@ items:
         max: null
         dt: null
         conditions: ''
-      weaponType: natural
-      baseItem: ''
-      properties:
-        ada: false
-        amm: false
-        fin: false
-        fir: false
-        foc: false
-        hvy: false
-        lgt: false
-        lod: false
-        mgc: false
-        rch: false
-        rel: false
-        ret: false
-        sil: false
-        spc: false
-        thr: false
-        two: false
-        ver: false
+      properties: []
       proficient: 1
+      identifier: vampiric-siphon
+      activities: {}
+      unidentified:
+        description: ''
+      container: null
+      attuned: false
+      type:
+        value: simpleM
+        baseItem: ''
+      ammunition: {}
+      magicalBonus: null
     _id: SHzvTIqKev8IVRP9
     effects: []
     folder: null
@@ -604,14 +664,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065477316
-      modifiedTime: 1701065477316
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!c07o5rTJgyVNfyzk.SHzvTIqKev8IVRP9'
   - name: Aura Of Night
     type: feat
@@ -620,6 +680,7 @@ items:
       adnd5e:
         itemInfo:
           type: bonus
+      dnd5e: {}
     system:
       description:
         value: >-
@@ -638,60 +699,76 @@ items:
           undead gain advantage on saving throws against any effect that turns
           undead.</p>
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: bonus
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: bonus
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ''
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: aura-of-night
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: GVP1N2WjHmlVZkjW
     effects: []
     folder: null
@@ -700,14 +777,14 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065477475
-      modifiedTime: 1701065477475
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!c07o5rTJgyVNfyzk.GVP1N2WjHmlVZkjW'
   - name: Undead Fortitude
     type: feat
@@ -720,60 +797,23 @@ items:
           the damage is radiant or from a critical hit. On a success, the dread
           marshal drops to 1 hit point instead.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: undead-fortitude
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: Iwd8TyJiqL5e142j
     effects: []
     folder: null
@@ -783,14 +823,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065478047
-      modifiedTime: 1701065478047
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!c07o5rTJgyVNfyzk.Iwd8TyJiqL5e142j'
 effects: []
 ownership:
@@ -800,14 +840,14 @@ ownership:
 flags:
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1701065476968
-  modifiedTime: 1702848184332
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384677909
+  modifiedTime: 1726384677909
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: c07o5rTJgyVNfyzk
 sort: 200000
 _key: '!actors!c07o5rTJgyVNfyzk'

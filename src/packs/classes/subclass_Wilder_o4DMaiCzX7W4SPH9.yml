@@ -21,19 +21,22 @@ system:
       Shadow Marches or near old Dhakaani sites. They might also be found
       anywhere in the wilds of the world. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: wilder
   classIdentifier: sorcerer
   advancement:
     - _id: 0o0f2oo7BcQQoCfm
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.C0f0mRjXKwcE1sd8
-          - Compendium.eberron-5e.classes.Item.AZJmtP9LALsRH0MN
+          - uuid: Compendium.eberron-5e.classes.Item.C0f0mRjXKwcE1sd8
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.AZJmtP9LALsRH0MN
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -43,7 +46,8 @@ system:
     - _id: 4y2ZURxTwDa5RknG
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.OlkhnL3VegZcSsVt
+          - uuid: Compendium.eberron-5e.classes.Item.OlkhnL3VegZcSsVt
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -53,8 +57,10 @@ system:
     - _id: A9Z33cVu0rGNVguP
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.mboWmw5z1tzSSo5E
-          - Compendium.eberron-5e.classes.Item.wYhaljLOFlTwCppV
+          - uuid: Compendium.eberron-5e.classes.Item.mboWmw5z1tzSSo5E
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.wYhaljLOFlTwCppV
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -64,7 +70,8 @@ system:
     - _id: cHAjSXWw2IcRQj3z
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.aS8GcnWMesAyone9
+          - uuid: Compendium.eberron-5e.classes.Item.aS8GcnWMesAyone9
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -74,6 +81,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -81,13 +89,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686246105566
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384659847
+  modifiedTime: 1726384659847
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!o4DMaiCzX7W4SPH9'
 

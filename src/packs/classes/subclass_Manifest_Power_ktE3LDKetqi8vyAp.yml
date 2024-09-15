@@ -14,11 +14,12 @@ system:
       planes, granting you the power to reach across the barriers that separate
       them.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: Talvakri's Guide to Adar
+    rules: '2014'
+    revision: 1
   identifier: manifest-power
   classIdentifier: sorcerer
   advancement:
@@ -26,8 +27,10 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.22D7cGi5bOlo83Ad
-          - Compendium.eberron-5e.classes.Item.8elpGf5i6Jsi7YRc
+          - uuid: Compendium.eberron-5e.classes.Item.22D7cGi5bOlo83Ad
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.8elpGf5i6Jsi7YRc
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -37,7 +40,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.OC3w9i1CmbghFg0u
+          - uuid: Compendium.eberron-5e.classes.Item.OC3w9i1CmbghFg0u
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -48,7 +52,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.3hzK5ISGbqqrwJ5f
+          - uuid: Compendium.eberron-5e.classes.Item.3hzK5ISGbqqrwJ5f
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -59,7 +64,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Rjlpypj6huc9Hwpp
+          - uuid: Compendium.eberron-5e.classes.Item.Rjlpypj6huc9Hwpp
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -69,6 +75,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -76,13 +83,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686185020497
-  modifiedTime: 1704067178972
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384658210
+  modifiedTime: 1726384658210
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!ktE3LDKetqi8vyAp'
 

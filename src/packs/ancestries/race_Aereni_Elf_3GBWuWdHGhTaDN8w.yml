@@ -50,12 +50,13 @@ system:
       spellcasting ability depends on the class you chose: Wisdom for cleric or
       Intelligence for wizard.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Exploring Eberron
     page: Ch. 6
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: Size
       _id: ULcdxPVstWWYUxaw
@@ -67,7 +68,6 @@ system:
     - _id: eAv9eLr0ackU7WO2
       type: Trait
       configuration:
-        hint: ''
         mode: default
         allowReplacements: false
         grants:
@@ -75,11 +75,11 @@ system:
         choices: []
       level: 0
       title: Keen Senses
-      value: {}
+      value:
+        chosen: []
     - _id: vNyszlmxQeXRjYIH
       type: Trait
       configuration:
-        hint: ''
         mode: default
         allowReplacements: false
         grants:
@@ -88,19 +88,24 @@ system:
         choices: []
       level: 0
       title: ''
-      value: {}
+      value:
+        chosen: []
     - type: ItemGrant
       configuration:
         items:
-          - Compendium.dnd5e.races.cnTbpPPeGW7vGjOV
-          - Compendium.dnd5e.races.4v2PiBrAbqDizdSJ
+          - uuid: Compendium.dnd5e.races.cnTbpPPeGW7vGjOV
+            optional: false
+          - uuid: Compendium.dnd5e.races.4v2PiBrAbqDizdSJ
+            optional: false
         optional: false
         spell:
-          ability: ''
+          ability:
+            - ''
           preparation: ''
           uses:
             max: ''
             per: ''
+            requireSlot: false
       value: {}
       level: 0
       title: Grant Items
@@ -117,36 +122,42 @@ system:
             pool:
               - skills:*
               - tool:*
-        hint: ''
       level: 0
-      value: {}
+      value:
+        chosen: []
       title: Aereni Expertise
       icon: null
     - _id: l1Pw82BvhrSkYiyF
       type: ItemChoice
       configuration:
-        hint: >-
-          You know one cantrip of your choice from the cleric or wizard spell
-          list. Your spellcasting ability depends on the class you chose: Wisdom
-          for cleric or Intelligence for wizard.
         choices:
-          '0': 1
+          '0':
+            count: 1
+            replacement: false
         allowDrops: true
         type: spell
         pool: []
         spell:
-          ability: ''
+          ability:
+            - ''
           preparation: innate
           uses:
             max: ''
             per: ''
+            requireSlot: false
         restriction:
           type: ''
           subtype: ''
           level: '0'
-      value: {}
+      value:
+        added: {}
+        replaced: {}
       title: Cantrip
       icon: null
+      hint: >-
+        You know one cantrip of your choice from the cleric or wizard spell
+        list. Your spellcasting ability depends on the class you chose: Wisdom
+        for cleric or Intelligence for wizard.
   movement:
     burrow: null
     climb: null
@@ -166,7 +177,7 @@ system:
     value: humanoid
     custom: ''
     subtype: elf
-  identifier: ''
+  identifier: aereni-elf
 effects: []
 ownership:
   default: 0
@@ -175,14 +186,14 @@ ownership:
 flags:
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.331'
-  createdTime: 1700378683464
-  modifiedTime: 1725337788672
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384607097
+  modifiedTime: 1726384607097
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: 3GBWuWdHGhTaDN8w
 sort: 100000
 _key: '!items!3GBWuWdHGhTaDN8w'

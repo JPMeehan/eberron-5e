@@ -16,18 +16,20 @@ system:
       Stormreachers and explorers from the fringes of society most commonly
       choose this daring path. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: extreme-explorer
   classIdentifier: ranger
   advancement:
     - _id: X9agCK5sCniL7rPe
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.xttVmmAaWzm17In9
+          - uuid: Compendium.eberron-5e.classes.Item.xttVmmAaWzm17In9
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -37,9 +39,12 @@ system:
     - _id: 1cRSk2xuyNG4RBV5
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.WIHi3ruhuQ7ggfQh
-          - Compendium.eberron-5e.classes.Item.eO5yAhOZvEs3hdcl
-          - Compendium.eberron-5e.classes.Item.OX0nx4Gs1M0AtuAK
+          - uuid: Compendium.eberron-5e.classes.Item.WIHi3ruhuQ7ggfQh
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.eO5yAhOZvEs3hdcl
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.OX0nx4Gs1M0AtuAK
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -49,7 +54,8 @@ system:
     - _id: rWgLusfPw2edEqIa
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.v8pf3P8AE1sGnpz4
+          - uuid: Compendium.eberron-5e.classes.Item.v8pf3P8AE1sGnpz4
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -59,7 +65,8 @@ system:
     - _id: 2FFw26vx7mGyNKRd
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.lhNu02Fz0kAppxOs
+          - uuid: Compendium.eberron-5e.classes.Item.lhNu02Fz0kAppxOs
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -69,6 +76,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -76,13 +84,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686245987996
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384654605
+  modifiedTime: 1726384654605
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!eGA03diwEYpLozMh'
 

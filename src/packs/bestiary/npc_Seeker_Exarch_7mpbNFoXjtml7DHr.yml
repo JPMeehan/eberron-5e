@@ -60,6 +60,10 @@ system:
     init:
       ability: ''
       bonus: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     movement:
       burrow: null
       climb: null
@@ -78,6 +82,26 @@ system:
       units: null
       special: ''
     spellcasting: int
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    hd:
+      spent: 0
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
   details:
     biography:
       value: >-
@@ -96,7 +120,9 @@ system:
     environment: ''
     cr: 8
     spellLevel: 0
-    source: {}
+    ideal: ''
+    bond: ''
+    flaw: ''
   traits:
     size: med
     di:
@@ -121,6 +147,9 @@ system:
     languages:
       value: []
       custom: Any one language (usually common)
+    dm:
+      amount: {}
+      bypasses: []
   currency:
     pp: 0
     gp: 0
@@ -134,108 +163,180 @@ system:
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ani:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     arc:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ath:
       value: 0
       ability: str
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     dec:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     his:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ins:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     itm:
       value: 1
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     inv:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     med:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     nat:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prc:
       value: 1
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prf:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     per:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     rel:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     slt:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ste:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     sur:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
   tools: {}
   spells:
     spell1:
@@ -297,6 +398,9 @@ system:
     lair:
       value: false
       initiative: null
+  source:
+    revision: 1
+    rules: '2024'
 prototypeToken:
   name: Seeker Exarch
   displayName: 0
@@ -381,60 +485,76 @@ items:
       description:
         value: The exarch makes two melee weapon attacks.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ''
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: multiattack
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: bMdKc2pCPjZeWBOT
     effects: []
     folder: null
@@ -442,16 +562,17 @@ items:
     ownership:
       default: 0
       MVioF9x1qI1WYGx1: 3
-    flags: {}
+    flags:
+      dnd5e: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065747659
-      modifiedTime: 1701065747659
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.bMdKc2pCPjZeWBOT'
   - name: Greataxe
     type: weapon
@@ -462,64 +583,50 @@ items:
           Melee Weapon Attack: +7 to hit, reach 5 ft. , one target. Hit: 10
           (1d12 + 4) slashing damage.
         chat: ''
-        unidentified: ''
-      source: {}
+      source:
+        rules: '2014'
+        revision: 1
       quantity: 1
-      weight: 0
+      weight:
+        value: 0
+        units: lb
       price:
         value: 0
         denomination: gp
-      attunement: 2
+      attunement: '2'
       equipped: true
       rarity: ''
       identified: true
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
       cover: null
       crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
       range:
-        value: 5
+        value: null
         long: null
         units: ft
+        reach: null
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: str
-      actionType: mwak
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
+        recovery:
+          - period: lr
+            type: recoverAll
+        spent: 0
       damage:
-        parts:
-          - - 1d12 + @mod
-            - slashing
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        base:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
       armor:
         value: null
       hp:
@@ -527,27 +634,19 @@ items:
         max: null
         dt: null
         conditions: ''
-      weaponType: natural
-      baseItem: ''
-      properties:
-        ada: false
-        amm: false
-        fin: false
-        fir: false
-        foc: false
-        hvy: false
-        lgt: false
-        lod: false
-        mgc: false
-        rch: false
-        rel: false
-        ret: false
-        sil: false
-        spc: false
-        thr: false
-        two: false
-        ver: false
+      properties: []
       proficient: 1
+      identifier: greataxe
+      activities: {}
+      unidentified:
+        description: ''
+      container: null
+      attuned: false
+      type:
+        value: simpleM
+        baseItem: ''
+      ammunition: {}
+      magicalBonus: null
     _id: PpdjcC4ir4gGLMfr
     effects: []
     folder: null
@@ -557,14 +656,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065747778
-      modifiedTime: 1701065747778
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.PpdjcC4ir4gGLMfr'
   - name: Crusader Stances
     type: feat
@@ -573,6 +672,7 @@ items:
       adnd5e:
         itemInfo:
           type: bonus
+      dnd5e: {}
     system:
       description:
         value: >-
@@ -586,60 +686,76 @@ items:
           the Mountain. The exarch gains resistance to bludgeoning, piercing,
           and slashing damage from nonmagical attacks.</p>
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: bonus
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: bonus
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ''
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: crusader-stances
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: TINd4DZeNt5ms66b
     effects: []
     folder: null
@@ -648,14 +764,14 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065747875
-      modifiedTime: 1701065747875
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.TINd4DZeNt5ms66b'
   - name: Furious Retaliation
     type: feat
@@ -664,6 +780,7 @@ items:
       adnd5e:
         itemInfo:
           type: reaction
+      dnd5e: {}
     system:
       description:
         value: >-
@@ -671,60 +788,76 @@ items:
           weapon attack it makes before the end of its next turn, and deals an
           additional 6 (1d12) damage with the attack if it hits.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: reaction
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: reaction
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ''
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: furious-retaliation
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: eIF94K9UnDz1DRVD
     effects: []
     folder: null
@@ -733,14 +866,14 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065747942
-      modifiedTime: 1701065747942
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.eIF94K9UnDz1DRVD'
   - name: Crusader Maneuvers (1/turn)
     type: feat
@@ -753,60 +886,23 @@ items:
           which. The exarch must roll before it is determined whether the attack
           hits or misses, and the attack only gains the effects if it hits. 1–2.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: crusader-maneuvers-1-turn
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: FToQfyJ9qWm3Gu84
     effects: []
     folder: null
@@ -816,14 +912,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065748184
-      modifiedTime: 1701065748184
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.FToQfyJ9qWm3Gu84'
   - name: Distracting Strike
     type: feat
@@ -834,60 +930,23 @@ items:
           The target cannot take reactions until the start of the exarch’s next
           turn. 3–4.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: distracting-strike
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: QXhew0GrAafogrvK
     effects: []
     folder: null
@@ -897,14 +956,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065748256
-      modifiedTime: 1701065748256
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.QXhew0GrAafogrvK'
   - name: Revitalizing Strike
     type: feat
@@ -913,60 +972,23 @@ items:
       description:
         value: The exarch regains 18 (3d6 + 8) hit points. 5–6.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: revitalizing-strike
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: t1QntRiRbmFTjHPd
     effects: []
     folder: null
@@ -976,14 +998,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065748342
-      modifiedTime: 1701065748342
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.t1QntRiRbmFTjHPd'
   - name: Stone Vise
     type: feat
@@ -994,60 +1016,23 @@ items:
           The attack deals an extra 11 (1d6 + 8) damage and the target is
           immobilized until the end of the exarch’s next turn. 7–8.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: stone-vise
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: 0BLxUb2cgFjQsTzw
     effects: []
     folder: null
@@ -1057,14 +1042,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065748422
-      modifiedTime: 1701065748422
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.0BLxUb2cgFjQsTzw'
   - name: Foehammer
     type: feat
@@ -1075,60 +1060,23 @@ items:
           The attack deals an extra 15 (2d6 + 8) damage and the attack ignores
           the target’s damage resistances or immunities. 9–10.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: foehammer
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: Cn1SDu4kVLCVOVCw
     effects: []
     folder: null
@@ -1138,14 +1086,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065748502
-      modifiedTime: 1701065748502
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.Cn1SDu4kVLCVOVCw'
   - name: Guiding Smite
     type: feat
@@ -1157,60 +1105,23 @@ items:
           the next attack against the target before the end of the exarch’s next
           turn is made with advantage.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: guiding-smite
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: FVFX2MSk7q8U56cA
     effects: []
     folder: null
@@ -1220,14 +1131,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.0
-      coreVersion: '12.327'
-      createdTime: 1701065748571
-      modifiedTime: 1701065748571
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!7mpbNFoXjtml7DHr.FVFX2MSk7q8U56cA'
 effects: []
 ownership:
@@ -1237,14 +1148,14 @@ ownership:
 flags:
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1701065747481
-  modifiedTime: 1702848184332
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384676754
+  modifiedTime: 1726384676754
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: 7mpbNFoXjtml7DHr
 sort: 0
 _key: '!actors!7mpbNFoXjtml7DHr'

@@ -13,11 +13,12 @@ system:
       force, channeled through you to be shaped by arcane gestures or words.
       Your magic is your will itself, manifesting upon reality.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: Talvakri's Guide to Adar
+    rules: '2014'
+    revision: 1
   identifier: psion
   classIdentifier: sorcerer
   advancement:
@@ -25,9 +26,12 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.reo4bZNKSuPbzZRK
-          - Compendium.eberron-5e.classes.Item.vA53nFpp1Cx1cJR6
-          - Compendium.eberron-5e.classes.Item.OX0udgwvz6vBoBlx
+          - uuid: Compendium.eberron-5e.classes.Item.reo4bZNKSuPbzZRK
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.vA53nFpp1Cx1cJR6
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.OX0udgwvz6vBoBlx
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -41,17 +45,19 @@ system:
         grants:
           - skills:arc
         choices: []
-        hint: ''
       level: 1
       title: ''
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: 59QgrHHOZg4dkPvf
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.R7xxwieKRgEEHOGb
-          - Compendium.eberron-5e.classes.Item.0Z47XHOjY2eOCsfy
+          - uuid: Compendium.eberron-5e.classes.Item.R7xxwieKRgEEHOGb
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.0Z47XHOjY2eOCsfy
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -62,7 +68,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.VNvQBvnn1r8yKzGp
+          - uuid: Compendium.eberron-5e.classes.Item.VNvQBvnn1r8yKzGp
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -73,7 +80,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.bsQaKaBNPGelxCYK
+          - uuid: Compendium.eberron-5e.classes.Item.bsQaKaBNPGelxCYK
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -87,11 +95,11 @@ system:
         allowReplacements: false
         grants: []
         choices: []
-        hint: ''
       level: 14
       title: Psionic Augmentation
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: 88sM6fy6qMK5GZRe
       type: Trait
       configuration:
@@ -99,13 +107,15 @@ system:
         allowReplacements: false
         grants: []
         choices: []
-        hint: ''
       level: 18
       title: Psychic Transcendence
       icon: null
+      value:
+        chosen: []
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -113,13 +123,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686184973210
-  modifiedTime: 1704068076788
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384659588
+  modifiedTime: 1726384659588
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!nooxfcG6aig1I8WE'
 

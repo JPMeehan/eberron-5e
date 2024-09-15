@@ -34,12 +34,13 @@ system:
       or lift.</p><p><strong>Unbound</strong>. You have advantage on saving
       throws made to avoid or end the paralyzed condition on yourself.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Talvakri's Guide to Adar
     page: Ch. 10
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: AbilityScoreImprovement
       _id: s4utQKI4tku0Aruc
@@ -47,6 +48,7 @@ system:
         points: 0
         fixed: {}
         cap: 2
+        locked: []
       value:
         type: asi
       level: 0
@@ -66,7 +68,8 @@ system:
         choices: []
       _id: X42firoWXylvuiaX
       level: 0
-      value: {}
+      value:
+        chosen: []
   movement:
     burrow: null
     climb: null
@@ -84,20 +87,22 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: oni-clan-morlu
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
-  createdTime: 1703884742030
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384608194
+  modifiedTime: 1726384608194
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!JlijTZJG5RNgxyPi'
 

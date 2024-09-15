@@ -15,11 +15,12 @@ system:
       tempt you? Or is the visage your own, a glimpse into your future, one
       where you wield the power of dreams?</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: Talvakri's Guide to Adar
+    rules: '2014'
+    revision: 1
   identifier: the-visage
   classIdentifier: warlock
   advancement:
@@ -27,7 +28,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.vXOGIsJsHtbIzoDO
+          - uuid: Compendium.eberron-5e.classes.Item.vXOGIsJsHtbIzoDO
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -37,7 +39,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.BjuZGiYAhHj8tNKQ
+          - uuid: Compendium.eberron-5e.classes.Item.BjuZGiYAhHj8tNKQ
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -48,7 +51,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.OV2G8dupHicD3QDr
+          - uuid: Compendium.eberron-5e.classes.Item.OV2G8dupHicD3QDr
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -59,7 +63,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.bwtngsuKcBD2uqEj
+          - uuid: Compendium.eberron-5e.classes.Item.bwtngsuKcBD2uqEj
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -69,6 +74,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -76,13 +82,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686185075411
-  modifiedTime: 1704070259678
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384653823
+  modifiedTime: 1726384653823
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!caSbUHSDDOi4d2n9'
 

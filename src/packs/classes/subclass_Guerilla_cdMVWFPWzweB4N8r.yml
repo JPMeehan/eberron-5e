@@ -19,18 +19,20 @@ system:
       just as effective on the city streets as beneath the cover of greenery.
       </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: guerilla
   classIdentifier: ranger
   advancement:
     - _id: uGSJnUh6yOXXi4Um
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.n23HUcOvPx4nRE0R
+          - uuid: Compendium.eberron-5e.classes.Item.n23HUcOvPx4nRE0R
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -40,9 +42,12 @@ system:
     - _id: 6LqiUCvdw2CQjtpq
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.A4bv2nyjX6kWgVtr
-          - Compendium.eberron-5e.classes.Item.oeFYXlUAre0f1EXk
-          - Compendium.eberron-5e.classes.Item.t55kGt9RXL4cdj8C
+          - uuid: Compendium.eberron-5e.classes.Item.A4bv2nyjX6kWgVtr
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.oeFYXlUAre0f1EXk
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.t55kGt9RXL4cdj8C
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,7 +57,8 @@ system:
     - _id: uUaz4xEhIdcdMaqZ
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.skA7aRn3UD5YF3Wf
+          - uuid: Compendium.eberron-5e.classes.Item.skA7aRn3UD5YF3Wf
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -62,7 +68,8 @@ system:
     - _id: flD96E3KsdH6I2QX
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Run6WwBXKNZGHZ56
+          - uuid: Compendium.eberron-5e.classes.Item.Run6WwBXKNZGHZ56
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -72,6 +79,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -79,13 +87,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686245995693
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384653940
+  modifiedTime: 1726384653940
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!cdMVWFPWzweB4N8r'
 

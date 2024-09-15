@@ -21,19 +21,22 @@ system:
       well-financed by Prince Oargev, who holds out hope that her work can lead
       to something that would explain the Mourning. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: school-of-living-spells
   classIdentifier: wizard
   advancement:
     - _id: qYWcs1HU6VLSmXBM
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.sbLZqjmfayuWNcTC
-          - Compendium.eberron-5e.classes.Item.SQiw1WJNpXhh65dn
+          - uuid: Compendium.eberron-5e.classes.Item.sbLZqjmfayuWNcTC
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.SQiw1WJNpXhh65dn
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -43,8 +46,10 @@ system:
     - _id: 1b1kRO7cSue3BDyp
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.QSOD1KmtNxCmHSfJ
-          - Compendium.eberron-5e.classes.Item.vI3zEtOUl3SHKR1a
+          - uuid: Compendium.eberron-5e.classes.Item.QSOD1KmtNxCmHSfJ
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.vI3zEtOUl3SHKR1a
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -54,7 +59,8 @@ system:
     - _id: arawV5u5CeQDXCKk
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.W4szdRyByQPWdf1D
+          - uuid: Compendium.eberron-5e.classes.Item.W4szdRyByQPWdf1D
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -64,7 +70,8 @@ system:
     - _id: 2dnN77TqcT46mTCQ
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.jvr52SfAnunlfeDx
+          - uuid: Compendium.eberron-5e.classes.Item.jvr52SfAnunlfeDx
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -74,6 +81,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -81,13 +89,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686246179518
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384656481
+  modifiedTime: 1726384656481
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!iLZwiDpMny3XVin7'
 

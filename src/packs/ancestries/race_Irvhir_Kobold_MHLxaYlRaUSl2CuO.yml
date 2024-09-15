@@ -37,12 +37,13 @@ system:
       with this trait and regain the ability to do so when you finish a long
       rest. Charisma is your spellcasting ability for these spells.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Scales of Q'barra
     page: Appendix
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: AbilityScoreImprovement
       _id: zXONCSiMTRTwLzYn
@@ -50,6 +51,7 @@ system:
         points: 0
         fixed: {}
         cap: 2
+        locked: []
       value:
         type: asi
       level: 0
@@ -58,7 +60,6 @@ system:
       configuration:
         sizes:
           - sm
-        hint: ''
       level: 0
       title: ''
       icon: null
@@ -72,17 +73,18 @@ system:
         mode: default
         allowReplacements: false
         choices: []
-        hint: ''
       _id: 1cGw2kll4lLxtRSt
       level: 0
       title: ''
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: L9YIzud4KzhpltTR
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.ancestries.Item.25znKmRKy4euaICL
+          - uuid: Compendium.eberron-5e.ancestries.Item.25znKmRKy4euaICL
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -136,6 +138,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: irvhir-kobold
 effects: []
 ownership:
   default: 0
@@ -144,14 +147,14 @@ ownership:
 flags:
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1700446215397
-  modifiedTime: 1703881301722
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384608411
+  modifiedTime: 1726384608411
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: MHLxaYlRaUSl2CuO
 sort: 300000
 _key: '!items!MHLxaYlRaUSl2CuO'

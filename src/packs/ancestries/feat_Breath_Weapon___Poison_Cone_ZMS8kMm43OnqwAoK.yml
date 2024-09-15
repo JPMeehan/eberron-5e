@@ -13,66 +13,103 @@ system:
       13th level, and 6d6 at 17th level.</p><p>After you use your breath weapon,
       you can’t use it again until you complete a short or long rest.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Scales of Q'barra
     page: Appendix
     custom: ''
     license: DMsGuild CCA
-  activation:
-    type: bonus
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: 15
-    width: null
-    units: ft
-    type: cone
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: self
+    revision: 1
+    rules: '2014'
   uses:
-    value: 1
     max: '1'
-    per: sr
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: save
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - '@scale.dragonborn.breath-weapon'
-        - poison
-    versatile: ''
-  formula: ''
-  save:
-    ability: dex
-    dc: null
-    scaling: con
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
   type:
     value: race
     subtype: ''
   requirements: ''
-  recharge:
-    value: null
-    charged: false
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets:
+          - type: itemUses
+            target: ''
+            value: '1'
+            scaling:
+              mode: ''
+              formula: ''
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: self
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: cone
+          size: '15'
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: null
+            denomination: null
+            bonus: ''
+            types:
+              - poison
+            custom:
+              enabled: true
+              formula: '@scale.dragonborn.breath-weapon'
+            scaling:
+              mode: whole
+              number: null
+              formula: ''
+      save:
+        ability: dex
+        dc:
+          calculation: con
+          formula: ''
+      sort: 0
+  identifier: breath-weapon-poison-cone
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 folder: qqBsVbPzJB7g2xcB
 ownership:
@@ -81,15 +118,20 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
-  createdTime: 1700459794180
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384609374
+  modifiedTime: 1726384609374
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: ZMS8kMm43OnqwAoK
 sort: 100000
 _key: '!items!ZMS8kMm43OnqwAoK'

@@ -13,67 +13,38 @@ system:
       level or higher, the damage increases by 2d4 for each slot level above
       1st.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     book: Exploring Eberron
     page: Ch. 1
     license: DMsGuild CCA
+    revision: 1
+    rules: '2014'
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
     value: '1'
     units: round
-  cover: null
-  crewed: false
   target:
-    value: '20'
-    width: null
-    units: ft
-    type: sphere
-    prompt: true
+    affects:
+      choice: false
+    template:
+      units: ft
+      type: sphere
+      size: '20'
+      contiguous: false
   range:
-    value: 60
-    long: null
+    value: '60'
     units: ft
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: save
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 2d4
-        - force
-    versatile: ''
-  formula: ''
-  save:
-    ability: con
-    dc: null
-    scaling: spell
   level: 1
   school: evo
-  components:
-    vocal: true
-    somatic: true
-    material: false
-    ritual: false
-    concentration: false
   materials:
     value: ''
     consumed: false
@@ -82,17 +53,66 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  scaling:
-    mode: level
-    formula: 2d4
-  attack:
-    bonus: ''
-    flat: false
-  enchantment: null
-  summons: null
   properties:
     - vocal
     - somatic
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 2
+            denomination: 4
+            bonus: ''
+            types:
+              - force
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 2
+              formula: ''
+      save:
+        ability: con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: concussive-burst
 img: icons/magic/sonic/explosion-shock-wave-teal.webp
 ownership:
   default: 0
@@ -104,18 +124,24 @@ flags:
     hash: concussive%20burst_exploringeberron
     propDroppable: spell
   core: {}
-  dnd5e: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedProperties:
+      - vocal
+      - somatic
 effects: []
 folder: F1gsAFdTkSB3M1RM
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.330'
-  createdTime: 1686367606343
-  modifiedTime: 1723671206629
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384669460
+  modifiedTime: 1726384669460
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: KVeYk7JghBwRwNoR
 sort: 0
 _key: '!items!KVeYk7JghBwRwNoR'

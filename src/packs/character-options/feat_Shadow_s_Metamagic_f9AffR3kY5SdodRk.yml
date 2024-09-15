@@ -17,61 +17,24 @@ system:
       Metamagic). You regain all spent sorcery points when you finish a long
       rest.</p></li></ul>
     chat: ''
-    unidentified: ''
   source:
     custom: CoE
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: feat
     subtype: ''
   requirements: Spellcasting or Pact Magic
-  recharge:
-    value: null
-    charged: false
+  identifier: shadows-metamagic
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 ownership:
   default: 0
@@ -79,14 +42,14 @@ ownership:
 flags:
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686369149015
-  modifiedTime: 1702848530186
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384680497
+  modifiedTime: 1726384680497
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: f9AffR3kY5SdodRk
 sort: 0
 _key: '!items!f9AffR3kY5SdodRk'

@@ -19,65 +19,35 @@ system:
       created.</p><p> The new manifest zone has one planar trait of your choice
       from the plane to which it is tied.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Talvakri's Guide to Adar
     page: ''
     custom: ''
     license: DMsGuild CCA
+    revision: 1
+    rules: '2014'
   activation:
     type: hour
-    cost: 8
     condition: ''
+    value: 8
   duration:
     value: ''
     units: inst
-  cover: null
-  crewed: false
   target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
   range:
-    value: 30
-    long: null
+    value: '30'
     units: ft
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   level: 8
   school: con
-  components:
-    vocal: false
-    somatic: true
-    material: true
-    ritual: false
-    concentration: false
   materials:
     value: >-
       a Siberys dragonshard or essence from the plane to be anchored worth at
@@ -88,32 +58,72 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  scaling:
-    mode: none
-    formula: ''
-  attack:
-    bonus: ''
-    flat: false
-  enchantment: null
-  summons: null
   properties:
     - somatic
     - material
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: anchor-plane
 effects: []
 sort: 0
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
 flags:
-  dnd5e: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedProperties:
+      - somatic
+      - material
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.330'
-  createdTime: 1702707640212
-  modifiedTime: 1723671206610
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384669441
+  modifiedTime: 1726384669441
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!K0G9uOGb4lTKTZju'
 

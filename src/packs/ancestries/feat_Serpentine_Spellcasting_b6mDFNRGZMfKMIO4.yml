@@ -22,59 +22,22 @@ system:
     page: ''
     license: ''
     custom: ''
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: race
     subtype: ''
   properties: []
   requirements: ''
-  recharge:
-    value: null
-    charged: false
+  identifier: serpentine-spellcasting
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
 flags:
   ddbimporter:
     type: race
@@ -98,14 +61,14 @@ img: systems/dnd5e/icons/svg/items/feature.svg
 folder: VlgGbhI9MSq4wb0j
 effects: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.3
-  coreVersion: '12.327'
-  createdTime: 1707350474607
-  modifiedTime: 1708883188737
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384609395
+  modifiedTime: 1726384609395
+  lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3

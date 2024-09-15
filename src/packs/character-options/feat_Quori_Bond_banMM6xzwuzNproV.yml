@@ -25,61 +25,26 @@ system:
       spike</td></tr><tr><td>Tsucora</td><td>Intimidation</td><td>wrathful
       smite</td></tr></tbody></table>
     chat: ''
-    unidentified: ''
   source:
     custom: ExE
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: 1
     max: '1'
-    per: lr
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: flat
+    recovery:
+      - period: lr
+        type: recoverAll
+    spent: 0
   type:
     value: feat
     subtype: ''
   requirements: Kalashtar
-  recharge:
-    value: null
-    charged: false
+  activities: {}
+  identifier: quori-bond
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -91,17 +56,22 @@ flags:
     hash: quori%20bond_exploringeberron
     propDroppable: feat
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 effects: []
 folder: pbprG9EdLDYnwbV6
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686370356726
-  modifiedTime: 1702848543356
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384680426
+  modifiedTime: 1726384680426
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: banMM6xzwuzNproV
 sort: 0
 _key: '!items!banMM6xzwuzNproV'

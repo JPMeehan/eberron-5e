@@ -33,14 +33,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716431943583
-      modifiedTime: 1716433768515
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!ovNyPliIjgd7wPUA.BA60bL5U3vOagKqJ'
   - name: Summit Road
     type: subclass
@@ -72,14 +72,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716431943583
-      modifiedTime: 1716433768515
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!ovNyPliIjgd7wPUA.XdhRzu2EAOtr60hz'
   - name: Liberation Domain
     type: subclass
@@ -113,14 +113,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716431943583
-      modifiedTime: 1716433768515
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!ovNyPliIjgd7wPUA.VEjY3dHvqn7IMAed'
   - name: Serpentblood
     type: subclass
@@ -152,14 +152,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716431943583
-      modifiedTime: 1716433768515
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!ovNyPliIjgd7wPUA.EuZpHMZWKTEMlhAX'
 folder: K7D9TeJ6y6Z4mTe0
 sort: 150000
@@ -168,13 +168,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.2.0
-  coreVersion: '12.327'
-  createdTime: 1716431932780
-  modifiedTime: 1716433926815
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384670840
+  modifiedTime: 1726384670840
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!journal!ovNyPliIjgd7wPUA'
 

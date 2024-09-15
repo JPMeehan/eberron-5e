@@ -14,26 +14,91 @@ system:
       rarity. In addition, you can add this bonus to any ability check you make
       using this tool.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: ExE
+    revision: 1
+    rules: '2014'
   quantity: 1
-  weight: 0
+  weight:
+    value: 0
+    units: lb
   price:
     value: 0
     denomination: gp
-  attunement: 1
+  attunement: required
   equipped: false
   rarity: uncommon
   identified: true
-  toolType: ''
-  baseItem: ''
   ability: ''
   chatFlavor: ''
   proficient: 0
   bonus: '+1'
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: check
+      activation:
+        type: ''
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ft
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      check:
+        ability: ''
+        associated: []
+        dc: {}
+      sort: 0
+  unidentified:
+    description: ''
+  type:
+    value: ''
+    baseItem: ''
+  uses:
+    spent: 0
+    recovery: []
+  identifier: tools-of-the-master
+  container: null
+  attuned: false
+  properties: []
 effects:
   - origin: Compendium.eberron-5e.classes.Item.UlJI9lq1MPYfK7p6
     duration:
@@ -66,14 +131,14 @@ effects:
     flags: {}
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.327'
-      systemId: null
-      systemVersion: null
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
     img: icons/tools/hand/hammer-and-nail.webp
     type: base
     system: {}
@@ -110,14 +175,14 @@ effects:
     flags: {}
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.327'
-      systemId: null
-      systemVersion: null
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
     img: icons/tools/hand/hammer-and-nail.webp
     type: base
     system: {}
@@ -127,15 +192,19 @@ sort: 400000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1687066268181
-  modifiedTime: 1702886723204
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384649822
+  modifiedTime: 1726384649822
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!UlJI9lq1MPYfK7p6'
 

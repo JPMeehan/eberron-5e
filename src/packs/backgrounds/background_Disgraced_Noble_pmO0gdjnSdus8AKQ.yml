@@ -9,12 +9,13 @@ system:
       shared between all members of your house, or a particular family member
       might’ve been accused or convicted of heinous crimes.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Chronicles of Eberron
     page: Ch. 3
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - _id: V4u0vimIQ0aCLqhN
       type: ItemGrant
@@ -26,6 +27,8 @@ system:
         spell: null
       value: {}
       level: 0
+  identifier: disgraced-noble
+  startingEquipment: []
 effects: []
 folder: fFy7PSufSbQwKWxJ
 ownership:
@@ -35,14 +38,14 @@ ownership:
 flags:
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.331'
-  createdTime: 1700463433143
-  modifiedTime: 1725754040046
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384611637
+  modifiedTime: 1726384611637
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: pmO0gdjnSdus8AKQ
 sort: 200000
 _key: '!items!pmO0gdjnSdus8AKQ'

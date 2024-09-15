@@ -20,81 +20,111 @@ system:
       to manifest this augment, the bonus to AC increases by 1 for each
       additional psi point spent beyond the minimum cost. </p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
+    revision: 1
+    rules: '2014'
+    book: Psion's Primer
   activation:
     type: reaction
-    cost: null
     condition: You are hit by an attack
+    value: null
   duration:
     value: ''
     units: inst
-  cover: null
-  crewed: false
   target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
   range:
-    value: null
-    long: null
     units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: flags
-    target: pp
-    amount: 1
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   level: 1
   discipline: psm
   augmenting: Verve
-  components:
-    auditory: false
-    observable: true
-    concentration: false
-    ritual: false
-  scaling:
-    mode: none
-    formula: ''
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: reaction
+        value: null
+        condition: You are hit by an attack
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: inst
+        special: ''
+        override: false
+      effects: []
+      range:
+        units: ''
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: ablative-hide
+  properties: []
+  preparation:
+    mode: always
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.330'
-  createdTime: 1685921255391
-  modifiedTime: 1723671205384
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384669982
+  modifiedTime: 1726384669982
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: d8p4j1MtyJmIBpO0
 sort: 600000
 _key: '!items!d8p4j1MtyJmIBpO0'

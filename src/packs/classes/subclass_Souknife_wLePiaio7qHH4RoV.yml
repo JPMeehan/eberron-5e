@@ -20,17 +20,19 @@ system:
       Xen'drik have discovered how to manifest blades of pure darkness through
       the pact of their people with the Umbra. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: souknife-aoe
   classIdentifier: rogue
   advancement: []
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -38,13 +40,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686246023588
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384664210
+  modifiedTime: 1726384664210
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!wLePiaio7qHH4RoV'
 

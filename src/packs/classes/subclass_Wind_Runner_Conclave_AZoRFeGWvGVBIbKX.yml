@@ -22,12 +22,13 @@ system:
       Sarlona, Wind Runners can be found in the high mountains of Adar, and
       often form bonds with the nation’s flying asperi steeds.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Giant Guide to Xen'drik
     page: ''
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: wind-runner-conclave
   classIdentifier: ranger
   advancement:
@@ -39,21 +40,25 @@ system:
         grants:
           - skills:acr
         choices: []
-        hint: >-
-          You gain proficiency in the Acrobatics skill. If you are already
-          proficient in Acrobatics, you can add twice your proficiency bonus to
-          ability checks you make with it.
       level: 3
       title: Sky Dancer
       icon: null
-      value: {}
+      value:
+        chosen: []
+      hint: >-
+        You gain proficiency in the Acrobatics skill. If you are already
+        proficient in Acrobatics, you can add twice your proficiency bonus to
+        ability checks you make with it.
     - _id: GR29qFhHspXdwRwf
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Way1kxcTXgkmlBD0
-          - Compendium.eberron-5e.classes.Item.0wx1YjXd0acZTM2W
-          - Compendium.eberron-5e.classes.Item.NKvokz7F5LMY1sMY
+          - uuid: Compendium.eberron-5e.classes.Item.Way1kxcTXgkmlBD0
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.0wx1YjXd0acZTM2W
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.NKvokz7F5LMY1sMY
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -64,7 +69,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.uCAMVyVTBpxa6SkB
+          - uuid: Compendium.eberron-5e.classes.Item.uCAMVyVTBpxa6SkB
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -75,7 +81,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.LME7xve3vhE36HTu
+          - uuid: Compendium.eberron-5e.classes.Item.LME7xve3vhE36HTu
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -86,7 +93,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.UF7USlRgLf2snsze
+          - uuid: Compendium.eberron-5e.classes.Item.UF7USlRgLf2snsze
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -96,6 +104,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -103,13 +112,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1702706490717
-  modifiedTime: 1704139869175
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384641921
+  modifiedTime: 1726384641921
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!AZoRFeGWvGVBIbKX'
 

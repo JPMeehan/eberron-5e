@@ -9,63 +9,26 @@ system:
       <p>You add your Wisdom modifier to the damage you deal with any cleric
       cantrip.</p>
     chat: ''
-    unidentified: ''
   source:
     license: DMsGuild CCA
     book: Chronicles of Eberron
     custom: ''
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Aspiration Domain 8
-  recharge:
-    value: null
-    charged: false
+  identifier: potent-spellcasting
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 sort: 8000
 ownership:
@@ -74,13 +37,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1700547439914
-  modifiedTime: 1704060172176
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384660601
+  modifiedTime: 1726384660601
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!pkauqd8nU6u0W02x'
 

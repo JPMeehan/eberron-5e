@@ -18,67 +18,37 @@ system:
       of 3rd level or higher, the damage increases by 1d8 for each slot level
       above 2nd.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: Chronicles of Eberron
     page: Ch. 8
+    revision: 1
+    rules: '2014'
   activation:
     type: bonus
-    cost: null
     condition: The next time the imbued creature is hit with an attack
+    value: null
   duration:
     value: '1'
     units: minute
-  cover: null
-  crewed: false
   target:
-    value: '1'
-    width: null
-    units: ''
-    type: creature
-    prompt: true
+    affects:
+      type: creature
+      count: '1'
+      choice: false
+    template:
+      units: ''
+      contiguous: false
   range:
-    value: null
-    long: null
     units: touch
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
+    recovery: []
+    spent: 0
   ability: ''
-  actionType: save
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts:
-      - - 3d8
-        - necrotic
-    versatile: ''
-  formula: ''
-  save:
-    ability: wis
-    dc: null
-    scaling: spell
   level: 2
   school: abj
-  components:
-    vocal: false
-    somatic: true
-    material: true
-    ritual: false
-    concentration: false
   materials:
     value: a piano wire
     consumed: false
@@ -87,33 +57,88 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  scaling:
-    mode: level
-    formula: 1d8
-  attack:
-    bonus: ''
-    flat: false
-  enchantment: null
-  summons: null
   properties:
     - somatic
     - material
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: save
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      damage:
+        onSave: half
+        parts:
+          - number: 3
+            denomination: 8
+            bonus: ''
+            types:
+              - necrotic
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability: wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      sort: 0
+  identifier: mockerys-snare
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
-  dnd5e: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedProperties:
+      - somatic
+      - material
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.330'
-  createdTime: 1686367867221
-  modifiedTime: 1723671206765
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384669806
+  modifiedTime: 1726384669806
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: Xixg7CTCDeBTLKy4
 sort: 0
 _key: '!items!Xixg7CTCDeBTLKy4'

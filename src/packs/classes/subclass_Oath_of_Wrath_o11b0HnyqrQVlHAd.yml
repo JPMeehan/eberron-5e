@@ -26,11 +26,12 @@ system:
       by the heavens. Do not fear your passing, nor the coming night - for there
       is naught but beauty in the embers of the dying light</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: Ghaash'kala - Paladins of the Wastes
+    rules: '2014'
+    revision: 1
   identifier: oath-of-wrath
   classIdentifier: paladin
   advancement:
@@ -38,8 +39,10 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.WFFIbUPXXOT23nbg
-          - Compendium.eberron-5e.classes.Item.3wlz4kosVEwI1SJf
+          - uuid: Compendium.eberron-5e.classes.Item.WFFIbUPXXOT23nbg
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.3wlz4kosVEwI1SJf
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -50,7 +53,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.mc9P72a0ekDjU1dn
+          - uuid: Compendium.eberron-5e.classes.Item.mc9P72a0ekDjU1dn
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -61,7 +65,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.0178VoOX0E4V0Zuq
+          - uuid: Compendium.eberron-5e.classes.Item.0178VoOX0E4V0Zuq
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -72,7 +77,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.tRLEw9qy6FfcICfy
+          - uuid: Compendium.eberron-5e.classes.Item.tRLEw9qy6FfcICfy
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -82,6 +88,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -89,13 +96,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686185690091
-  modifiedTime: 1704076912183
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384659797
+  modifiedTime: 1726384659797
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!o11b0HnyqrQVlHAd'
 

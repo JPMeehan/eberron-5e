@@ -17,61 +17,24 @@ system:
       attacking a creature, even if you are more than 5 feet away from
       them.</li></ul>
     chat: ''
-    unidentified: ''
   source:
     custom: ExE
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: flat
+    spent: 0
+    recovery: []
   type:
     value: feat
     subtype: ''
   requirements: Kalashtar
-  recharge:
-    value: null
-    charged: false
+  identifier: thoughtsinger
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -86,14 +49,14 @@ flags:
 effects: []
 folder: pbprG9EdLDYnwbV6
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686370356776
-  modifiedTime: 1702848543356
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384680082
+  modifiedTime: 1726384680082
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: EGfLN6v5JtlyUWe9
 sort: 0
 _key: '!items!EGfLN6v5JtlyUWe9'

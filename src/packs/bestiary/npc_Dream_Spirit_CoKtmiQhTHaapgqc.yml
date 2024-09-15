@@ -60,6 +60,10 @@ system:
     init:
       ability: ''
       bonus: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     movement:
       burrow: 0
       climb: 40
@@ -78,6 +82,26 @@ system:
       units: null
       special: Passive Perception 13
     spellcasting: int
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    hd:
+      spent: 0
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
   details:
     biography:
       value: ''
@@ -92,7 +116,9 @@ system:
     environment: ''
     cr: 1
     spellLevel: 0
-    source: {}
+    ideal: ''
+    bond: ''
+    flaw: ''
   traits:
     size: med
     di:
@@ -118,6 +144,9 @@ system:
       value:
         - quori
       custom: understands the languages you speak;telepathy 60 ft.
+    dm:
+      amount: {}
+      bypasses: []
   currency:
     pp: 0
     gp: 0
@@ -131,108 +160,180 @@ system:
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ani:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     arc:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ath:
       value: 0
       ability: str
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     dec:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     his:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ins:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     itm:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     inv:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     med:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     nat:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prc:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     prf:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     per:
       value: 0
       ability: cha
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     rel:
       value: 0
       ability: int
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     slt:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     ste:
       value: 0
       ability: dex
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
     sur:
       value: 0
       ability: wis
       bonuses:
         check: ''
         passive: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
   tools: {}
   spells:
     spell1:
@@ -294,6 +395,9 @@ system:
     lair:
       value: false
       initiative: null
+  source:
+    revision: 1
+    rules: '2024'
 prototypeToken:
   name: Dream Spirit
   displayName: 0
@@ -380,60 +484,76 @@ items:
           The spirit makes two attacks. If the spirit is a Despair spirit, it
           makes a third attack.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ''
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: multiattack
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: Rrxsl6UeYefvQAsf
     effects: []
     folder: null
@@ -441,16 +561,17 @@ items:
     ownership:
       default: 0
       MVioF9x1qI1WYGx1: 3
-    flags: {}
+    flags:
+      dnd5e: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.1
-      coreVersion: '12.327'
-      createdTime: 1704070285265
-      modifiedTime: 1704070285265
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.Rrxsl6UeYefvQAsf'
   - name: Rend
     type: feat
@@ -461,60 +582,86 @@ items:
           Melee Weapon Attack: your spell attack modifier to hit, reach 5 ft. ,
           one target. Hit: 1d6 + 8 slashing damage.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: 5
-        long: null
-        units: ft
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: msak
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '5'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: spell
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          sort: 0
+      identifier: rend
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: BFFRgDjoZRrAWAhR
     effects: []
     folder: null
@@ -522,16 +669,17 @@ items:
     ownership:
       default: 0
       MVioF9x1qI1WYGx1: 3
-    flags: {}
+    flags:
+      dnd5e: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.1
-      coreVersion: '12.327'
-      createdTime: 1704070285360
-      modifiedTime: 1704070285360
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.BFFRgDjoZRrAWAhR'
   - name: Mind Strike
     type: feat
@@ -542,60 +690,76 @@ items:
           Ranged Spell Attack: your spell attack modifier to hit, range 90 ft. ,
           one creature. Hit: 2d10 psychic damage.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ''
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: mind-strike
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: dRNgvS8CZDi11pKS
     effects: []
     folder: null
@@ -603,16 +767,17 @@ items:
     ownership:
       default: 0
       MVioF9x1qI1WYGx1: 3
-    flags: {}
+    flags:
+      dnd5e: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.1
-      coreVersion: '12.327'
-      createdTime: 1704070285504
-      modifiedTime: 1704070285504
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.dRNgvS8CZDi11pKS'
   - name: Burning Rage (Fury Only)
     type: feat
@@ -624,60 +789,86 @@ items:
           one target. Hit: 1d10 + 8 fire damage, and the spirit gains 1d10
           temporary hit points.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: action
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: 10
-        long: null
-        units: ft
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: msak
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: attack
+          activation:
+            type: action
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            value: '10'
+            units: ft
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          attack:
+            ability: ''
+            bonus: ''
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: spell
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          sort: 0
+      identifier: burning-rage-fury-only
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: H27dO76jZQOZxTT7
     effects: []
     folder: null
@@ -685,16 +876,17 @@ items:
     ownership:
       default: 0
       MVioF9x1qI1WYGx1: 3
-    flags: {}
+    flags:
+      dnd5e: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.1
-      coreVersion: '12.327'
-      createdTime: 1704070285694
-      modifiedTime: 1704070285694
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.H27dO76jZQOZxTT7'
   - name: Jump Scare (Fear Only)
     type: feat
@@ -703,6 +895,7 @@ items:
       adnd5e:
         itemInfo:
           type: bonus
+      dnd5e: {}
     system:
       description:
         value: >-
@@ -711,60 +904,76 @@ items:
           must succeed on a Wisdom saving throw against your spell save DC or be
           frightened of the spirit until the end of the target’s next turn.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: bonus
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: bonus
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ''
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: jump-scare-fear-only
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: nuMVdc7FgNpltCMS
     effects: []
     folder: null
@@ -773,14 +982,14 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.1
-      coreVersion: '12.327'
-      createdTime: 1704070285785
-      modifiedTime: 1704070285785
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.nuMVdc7FgNpltCMS'
   - name: Blissful Touch (Joy Only)
     type: feat
@@ -789,66 +998,83 @@ items:
       adnd5e:
         itemInfo:
           type: bonus
+      dnd5e: {}
     system:
       description:
         value: >-
           The spirit touches one other creature within its reach. The target
           gains 5 temporary hit points.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: bonus
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: bonus
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ''
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: blissful-touch-joy-only
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: LmDGNnUxYd91BqZg
     effects: []
     folder: null
@@ -857,14 +1083,14 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.1
-      coreVersion: '12.327'
-      createdTime: 1704070285897
-      modifiedTime: 1704070285897
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.LmDGNnUxYd91BqZg'
   - name: Empathic Feedback (Joy Only)
     type: feat
@@ -873,6 +1099,7 @@ items:
       adnd5e:
         itemInfo:
           type: reaction
+      dnd5e: {}
     system:
       description:
         value: >-
@@ -881,60 +1108,76 @@ items:
           save DC, taking 2d10 psychic damage on a failed saving throw, or half
           as much damage on a successful one.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: reaction
-        cost: 1
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        revision: 1
+        rules: '2014'
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        recovery: []
+        spent: 0
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: reaction
+            value: 1
+            condition: ''
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            concentration: false
+            value: ''
+            units: ''
+            special: ''
+            override: false
+          effects: []
+          range:
+            units: ''
+            special: ''
+            override: false
+          target:
+            template:
+              count: ''
+              contiguous: false
+              type: ''
+              size: ''
+              width: ''
+              height: ''
+              units: ''
+            affects:
+              count: ''
+              type: ''
+              choice: false
+              special: ''
+            prompt: true
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: empathic-feedback-joy-only
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: SlPsaVtgMMcdPab1
     effects: []
     folder: null
@@ -943,14 +1186,14 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.1
-      coreVersion: '12.327'
-      createdTime: 1704070285991
-      modifiedTime: 1704070285991
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.SlPsaVtgMMcdPab1'
   - name: Aura Of Apathy (Despair Only)
     type: feat
@@ -963,60 +1206,23 @@ items:
           against your spell save DC. On a failed save, the target can't use
           reactions and its speed is halved until the start of its next turn.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: aura-of-apathy-despair-only
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: G8qgEp4ZqDeG1Pxc
     effects: []
     folder: null
@@ -1026,14 +1232,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.1
-      coreVersion: '12.327'
-      createdTime: 1704070286457
-      modifiedTime: 1704070286457
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.G8qgEp4ZqDeG1Pxc'
   - name: Spider Climb (Fear Only)
     type: feat
@@ -1044,60 +1250,23 @@ items:
           The spirit can climb difficult surfaces, including upside down on
           ceilings, without needing to make an ability check.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: spider-climb-fear-only
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: a574O1VXKObP9tNR
     effects: []
     folder: null
@@ -1107,14 +1276,14 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.1
-      coreVersion: '12.327'
-      createdTime: 1704070286483
-      modifiedTime: 1704070286483
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.a574O1VXKObP9tNR'
   - name: Unassailable Presence (Pride Only)
     type: feat
@@ -1125,60 +1294,23 @@ items:
           A creature that touches the spirit or hits it with an attack while
           within 15 feet of it takes 1d10 psychic damage.
         chat: ''
-        unidentified: ''
-      source: {}
-      activation:
-        type: ''
-        cost: null
-        condition: ''
-      duration:
-        value: ''
-        units: ''
-      cover: null
-      crewed: false
-      target:
-        value: null
-        width: null
-        units: ''
-        type: ''
-        prompt: true
-      range:
-        value: null
-        long: null
-        units: ''
+      source:
+        rules: '2014'
+        revision: 1
       uses:
-        value: null
         max: ''
-        per: null
-        recovery: ''
-        prompt: true
-      consume:
-        type: ''
-        target: null
-        amount: null
-        scale: false
-      ability: null
-      actionType: null
-      attackBonus: ''
-      chatFlavor: ''
-      critical:
-        threshold: null
-        damage: ''
-      damage:
-        parts: []
-        versatile: ''
-      formula: ''
-      save:
-        ability: ''
-        dc: null
-        scaling: spell
+        spent: 0
+        recovery: []
       type:
         value: monster
         subtype: ''
       requirements: ''
-      recharge:
-        value: null
-        charged: false
+      identifier: unassailable-presence-pride-only
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
     _id: tISNB6dzIjH8oFPW
     effects: []
     folder: null
@@ -1188,30 +1320,31 @@ items:
       MVioF9x1qI1WYGx1: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 2.4.1
-      coreVersion: '12.327'
-      createdTime: 1704070286556
-      modifiedTime: 1704070286556
-      lastModifiedBy: MVioF9x1qI1WYGx1
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!actors.items!CoKtmiQhTHaapgqc.tISNB6dzIjH8oFPW'
 effects: []
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags:
   core: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1704070285040
-  modifiedTime: 1704070378255
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384676870
+  modifiedTime: 1726384676870
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: CoKtmiQhTHaapgqc
 sort: 0
 _key: '!actors!CoKtmiQhTHaapgqc'

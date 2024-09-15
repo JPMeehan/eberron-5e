@@ -39,10 +39,10 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 3.3.1
-      createdTime: 1725689732745
-      modifiedTime: 1725689753377
-      lastModifiedBy: MVioF9x1qI1WYGx1
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!IrsXwcta6Ws3reCs.c4FqCax8LdPSDv3O'
   - sort: 200000
     name: College of Wands
@@ -77,10 +77,10 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 3.3.1
-      createdTime: 1725689774618
-      modifiedTime: 1725689789329
-      lastModifiedBy: MVioF9x1qI1WYGx1
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!IrsXwcta6Ws3reCs.gnCL6zceB6qn5DIT'
   - sort: 300000
     name: Commerce Domain
@@ -117,10 +117,10 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 3.3.1
-      createdTime: 1725689807494
-      modifiedTime: 1725689822753
-      lastModifiedBy: MVioF9x1qI1WYGx1
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!IrsXwcta6Ws3reCs.0R02oNealCpa5106'
   - sort: 400000
     name: Bloodhound
@@ -157,10 +157,10 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 3.3.1
-      createdTime: 1725689884577
-      modifiedTime: 1725689896589
-      lastModifiedBy: MVioF9x1qI1WYGx1
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!IrsXwcta6Ws3reCs.3WimmyezRQny1Z7I'
   - sort: 500000
     name: Nemesis Sorcery
@@ -198,10 +198,10 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 3.3.1
-      createdTime: 1725689960185
-      modifiedTime: 1725689977103
-      lastModifiedBy: MVioF9x1qI1WYGx1
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!IrsXwcta6Ws3reCs.A6CPI8NqFUAIE700'
   - sort: 600000
     name: Stone Sovereign
@@ -238,24 +238,25 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 3.3.1
-      createdTime: 1725690012326
-      modifiedTime: 1725690040962
-      lastModifiedBy: MVioF9x1qI1WYGx1
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!IrsXwcta6Ws3reCs.WiNpgVU0Us0rBqL4'
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  createdTime: 1725689710096
-  modifiedTime: 1725689828325
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  systemVersion: 4.0.0
+  createdTime: 1726384670818
+  modifiedTime: 1726384670818
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!journal!IrsXwcta6Ws3reCs'
 

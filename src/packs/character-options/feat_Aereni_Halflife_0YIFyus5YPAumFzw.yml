@@ -12,61 +12,24 @@ system:
       saving throws.</li><li>If you cast a spell that deals necrotic damage, you
       can choose to have it inflict radiant damage instead.</li></ul>
     chat: ''
-    unidentified: ''
   source:
     custom: ExE
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: flat
+    spent: 0
+    recovery: []
   type:
     value: feat
     subtype: ''
   requirements: Elf (Aereni)
-  recharge:
-    value: null
-    charged: false
+  identifier: aereni-halflife
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -108,14 +71,14 @@ effects:
     flags: {}
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.327'
-      systemId: null
-      systemVersion: null
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
     img: icons/magic/holy/yin-yang-balance-symbol.webp
     type: base
     system: {}
@@ -123,14 +86,14 @@ effects:
     _key: '!items.effects!0YIFyus5YPAumFzw.Xa2Xp8VKS7xztXfx'
 folder: lPDAwbpFhVl0UkYJ
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686370356496
-  modifiedTime: 1702848532735
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384679887
+  modifiedTime: 1726384679887
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: 0YIFyus5YPAumFzw
 sort: 0
 _key: '!items!0YIFyus5YPAumFzw'

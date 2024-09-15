@@ -16,19 +16,22 @@ system:
       Dhakaani dar have also been known to practice this form of binding, though
       reports are scattered and sometimes unreliable. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: the-soulborn
   classIdentifier: warlock
   advancement:
     - _id: 6q84UMPuxCUiWgHd
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.bX2qWUCT2WUylhBL
-          - Compendium.eberron-5e.classes.Item.YGCFjXXTIpFTVqXl
+          - uuid: Compendium.eberron-5e.classes.Item.bX2qWUCT2WUylhBL
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.YGCFjXXTIpFTVqXl
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -38,7 +41,8 @@ system:
     - _id: t6WOKAWf2xoJlkDZ
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.NhLkFWvevHcWEgsM
+          - uuid: Compendium.eberron-5e.classes.Item.NhLkFWvevHcWEgsM
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -48,7 +52,8 @@ system:
     - _id: uTJuupVYBmTJTsQo
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.inujy1D77yv2zr7w
+          - uuid: Compendium.eberron-5e.classes.Item.inujy1D77yv2zr7w
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -58,7 +63,8 @@ system:
     - _id: 5MvjLZUQjxSZqgKm
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.dlMJXyWaqmyBG5jc
+          - uuid: Compendium.eberron-5e.classes.Item.dlMJXyWaqmyBG5jc
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -68,6 +74,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -75,13 +82,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686246143071
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384646722
+  modifiedTime: 1726384646722
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!NPFubwsyiZXJqshJ'
 

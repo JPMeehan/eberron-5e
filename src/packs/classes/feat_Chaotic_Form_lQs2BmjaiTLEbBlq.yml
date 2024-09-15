@@ -13,77 +13,41 @@ system:
       feature a number of times equal to your Wisdom modifier per long
       rest.</p><table><thead><tr><th>D4</th><th>Element</th><th>Damage</th></tr></thead><tbody><tr><td>1</td><td>Earth</td><td>Thunder</td></tr><tr><td>2</td><td>Fire</td><td>Fire</td></tr><tr><td>3</td><td>Water</td><td>Cold</td></tr><tr><td>4</td><td>Air</td><td>Lightning</td></tr></tbody></table>
     chat: ''
-    unidentified: ''
   source:
     license: DMsGuild CCA
     custom: ''
     book: Linvakri's Guide to Syrkarn
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Circle of Chaos 2
-  recharge:
-    value: null
-    charged: false
+  identifier: chaotic-form
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects: []
 sort: 2000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1704057802569
-  modifiedTime: 1704061286118
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384658364
+  modifiedTime: 1726384658364
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!lQs2BmjaiTLEbBlq'
 

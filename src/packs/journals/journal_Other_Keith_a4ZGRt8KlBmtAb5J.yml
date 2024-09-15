@@ -32,14 +32,14 @@ pages:
       q6n1efCGVB98drEQ: 3
     flags: {}
     _stats:
-      systemId: dnd5e
-      systemVersion: 3.2.0
-      coreVersion: '12.327'
-      createdTime: 1716434103858
-      modifiedTime: 1716434119938
-      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!journal.pages!a4ZGRt8KlBmtAb5J.uko60hVO8KEdVvpf'
 sort: 0
 ownership:
@@ -47,13 +47,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.2.0
-  coreVersion: '12.327'
-  createdTime: 1716434096002
-  modifiedTime: 1716434119938
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384670831
+  modifiedTime: 1726384670831
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!journal!a4ZGRt8KlBmtAb5J'
 

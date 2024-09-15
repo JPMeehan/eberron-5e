@@ -7,12 +7,13 @@ system:
   description:
     value: ''
     chat: ''
-    unidentified: ''
   source:
     book: 'Korranberg Chronicle: Psion''s Primer'
     page: Ch. 1
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: psion
   levels: 1
   hitDice: d6
@@ -31,7 +32,6 @@ system:
         mode: default
         allowReplacements: false
         choices: []
-        hint: ''
       value:
         chosen:
           - saves:dex
@@ -52,15 +52,20 @@ system:
           - weapon:sim:spear
           - weapon:sim:sling
         choices: []
-        hint: ''
       level: 1
       title: ''
       icon: null
       classRestriction: primary
-      value: {}
+      value:
+        chosen: []
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
+  startingEquipment: []
+  primaryAbility:
+    value: []
+    all: true
 effects: []
 sort: 16510
 ownership:
@@ -68,13 +73,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686185763380
-  modifiedTime: 1702848613637
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384659895
+  modifiedTime: 1726384659895
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!o8gBj9zGXnHmoIhX'
 

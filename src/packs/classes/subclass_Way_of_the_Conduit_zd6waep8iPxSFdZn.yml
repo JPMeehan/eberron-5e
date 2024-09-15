@@ -19,18 +19,20 @@ system:
       and bargain with them for aid. Certain halfling adepts of the Talenta
       Plains also communicate with nature spirits as well. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: way-of-the-conduit
   classIdentifier: monk
   advancement:
     - _id: 8uaYIkNELa7W2WEL
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.NVDX6xw2gqclsNgz
+          - uuid: Compendium.eberron-5e.classes.Item.NVDX6xw2gqclsNgz
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -40,8 +42,10 @@ system:
     - _id: VTYpZVPYTFUUMo4K
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.dMasqBQAbtG1hEqN
-          - Compendium.eberron-5e.classes.Item.dKtdzJB4BXfajlne
+          - uuid: Compendium.eberron-5e.classes.Item.dMasqBQAbtG1hEqN
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.dKtdzJB4BXfajlne
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -51,7 +55,8 @@ system:
     - _id: Djw471i0cjpPcv99
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.epQizBpuWryP5LUh
+          - uuid: Compendium.eberron-5e.classes.Item.epQizBpuWryP5LUh
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -61,8 +66,10 @@ system:
     - _id: 4VIMkScZhLOAXAeI
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.sdv5ZXmH2ogJQ6b1
-          - Compendium.eberron-5e.classes.Item.MQyl4y2O1Brj27gz
+          - uuid: Compendium.eberron-5e.classes.Item.sdv5ZXmH2ogJQ6b1
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.MQyl4y2O1Brj27gz
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -72,6 +79,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -79,13 +87,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686245930373
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384665543
+  modifiedTime: 1726384665543
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!zd6waep8iPxSFdZn'
 

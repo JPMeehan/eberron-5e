@@ -18,12 +18,13 @@ system:
       blessing on a poisoned blade? Or do you only hope that your offerings to
       the Mockery will cause your opponent to stumble first?</p>
     chat: ''
-    unidentified: ''
   source:
     book: Chronicles of Eberron
     page: Ch. 8
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: dark-petitioner
   classIdentifier: rogue
   advancement:
@@ -31,8 +32,10 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.xuIriF6VOZ2ic9eG
-          - Compendium.eberron-5e.classes.Item.FlLVlLyvrtgONSZR
+          - uuid: Compendium.eberron-5e.classes.Item.xuIriF6VOZ2ic9eG
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.FlLVlLyvrtgONSZR
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -43,7 +46,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Iug7eCiVPalkvmRO
+          - uuid: Compendium.eberron-5e.classes.Item.Iug7eCiVPalkvmRO
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -54,7 +58,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.lD2iSfDiumMl9WjP
+          - uuid: Compendium.eberron-5e.classes.Item.lD2iSfDiumMl9WjP
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -65,7 +70,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.xkRZUr3qMLDRbTHy
+          - uuid: Compendium.eberron-5e.classes.Item.xkRZUr3qMLDRbTHy
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -75,6 +81,7 @@ system:
   spellcasting:
     progression: third
     ability: wis
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -82,13 +89,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686341509927
-  modifiedTime: 1702848856003
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384650659
+  modifiedTime: 1726384650659
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!Wjjq7CqMj38mTqmz'
 

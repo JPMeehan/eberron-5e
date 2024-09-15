@@ -22,18 +22,20 @@ system:
       this art. Rumors also tell of Blood Magi hiding deep in the Shadow Marches
       and the Demon Wastes. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: blood-magus
   classIdentifier: sorcerer
   advancement:
     - _id: s736Q2Oc70IGiWt2
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.BPiSwzJNawbWX4l8
+          - uuid: Compendium.eberron-5e.classes.Item.BPiSwzJNawbWX4l8
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -43,8 +45,10 @@ system:
     - _id: kclLDNdAGNNvOaMu
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.PrCSGddi3D3DLJr0
-          - Compendium.eberron-5e.classes.Item.87WRIBe4EWq5nLJD
+          - uuid: Compendium.eberron-5e.classes.Item.PrCSGddi3D3DLJr0
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.87WRIBe4EWq5nLJD
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -54,7 +58,8 @@ system:
     - _id: sStRG93XYnG8IBlC
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.ui0p4JarqNibNPEo
+          - uuid: Compendium.eberron-5e.classes.Item.ui0p4JarqNibNPEo
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -64,8 +69,10 @@ system:
     - _id: RepT59iX5cLqtOkS
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.wnz319DivLnf8181
-          - Compendium.eberron-5e.classes.Item.ib3HjpnGlb8D04e6
+          - uuid: Compendium.eberron-5e.classes.Item.wnz319DivLnf8181
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.ib3HjpnGlb8D04e6
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -75,6 +82,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -82,13 +90,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686246086164
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384657354
+  modifiedTime: 1726384657354
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!jiPopWSkidf1ZQKF'
 

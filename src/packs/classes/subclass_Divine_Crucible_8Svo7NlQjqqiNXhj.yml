@@ -22,12 +22,13 @@ system:
       relics of the Sovereigns - though the Shattering has scattered their works
       to the ashes of time</p>
     chat: ''
-    unidentified: ''
   source:
     book: Giant Guide to Xen'drik
     page: ''
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: divine-crucible
   classIdentifier: artificer
   advancement:
@@ -39,20 +40,22 @@ system:
         grants:
           - tool:art:smith
         choices: []
-        hint: |-
-          When you adopt this specialization at 3rd level, you gain
-          proficiency with smith’s tools. If you already have this
-          proficiency, you gain proficiency with one other type of
-          artisan's tools of your choice.
       level: 3
       title: Tool Proficiency
       icon: null
-      value: {}
+      value:
+        chosen: []
+      hint: |-
+        When you adopt this specialization at 3rd level, you gain
+        proficiency with smith’s tools. If you already have this
+        proficiency, you gain proficiency with one other type of
+        artisan's tools of your choice.
     - _id: cyCqIm3qGMB056KS
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.LFfTE2Y0XVBT8Up2
+          - uuid: Compendium.eberron-5e.classes.Item.LFfTE2Y0XVBT8Up2
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -63,7 +66,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.03HVryWJcPnwVcvT
+          - uuid: Compendium.eberron-5e.classes.Item.03HVryWJcPnwVcvT
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -74,7 +78,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.edTxY4HC1CRA6QlJ
+          - uuid: Compendium.eberron-5e.classes.Item.edTxY4HC1CRA6QlJ
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -85,7 +90,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.5bnu6yeqBodKzGw6
+          - uuid: Compendium.eberron-5e.classes.Item.5bnu6yeqBodKzGw6
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -95,6 +101,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -102,13 +109,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1702705605709
-  modifiedTime: 1703910434127
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384641102
+  modifiedTime: 1726384641102
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!8Svo7NlQjqqiNXhj'
 

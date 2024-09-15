@@ -22,12 +22,13 @@ system:
       aspect of Vulkoor known as the Hunter, while goliaths descended from the
       Esht Primacy often venerate Banor the Bloody Spear.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Giant Guide to Xen'drik
     page: ''
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: hunt-domain
   classIdentifier: cleric
   advancement:
@@ -35,7 +36,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.OdJy4SZ8AnX5ApPh
+          - uuid: Compendium.eberron-5e.classes.Item.OdJy4SZ8AnX5ApPh
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -50,18 +52,20 @@ system:
           - weapon:mar:longbow
           - tool:art:leatherworker
         choices: []
-        hint: |-
-          When you choose this domain, you gain proficiency with
-          longbows and leatherworker’s tools.
       level: 1
       title: Bonus Proficiencies
       icon: null
-      value: {}
+      value:
+        chosen: []
+      hint: |-
+        When you choose this domain, you gain proficiency with
+        longbows and leatherworker’s tools.
     - _id: DI5PHEThrqa6bqtp
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Wm8nX30TVCBpXnBl
+          - uuid: Compendium.eberron-5e.classes.Item.Wm8nX30TVCBpXnBl
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -72,7 +76,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.BBbHjkWy6rN1za07
+          - uuid: Compendium.eberron-5e.classes.Item.BBbHjkWy6rN1za07
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -83,7 +88,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.VKnbTMtnrrDtG6Jj
+          - uuid: Compendium.eberron-5e.classes.Item.VKnbTMtnrrDtG6Jj
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -94,7 +100,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.kUgeMlnweoB6CaAE
+          - uuid: Compendium.eberron-5e.classes.Item.kUgeMlnweoB6CaAE
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -104,6 +111,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -111,13 +119,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1702705776068
-  modifiedTime: 1704059410319
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384663932
+  modifiedTime: 1726384663932
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!vXLYKmM78gjhyPhY'
 

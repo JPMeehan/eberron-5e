@@ -7,12 +7,13 @@ system:
   description:
     value: ''
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     book: 'Korranberg Chronicle: Psion''s Primer'
     page: Ch. 1
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: empath
   levels: 1
   hitDice: d8
@@ -35,12 +36,12 @@ system:
               - skills:prc
               - skills:per
               - skills:rel
-        hint: ''
       level: 1
       title: ''
       icon: null
       classRestriction: primary
-      value: {}
+      value:
+        chosen: []
     - _id: ebfNW9SekYEJmazV
       type: Trait
       configuration:
@@ -49,11 +50,11 @@ system:
         grants:
           - armor:shl
         choices: []
-        hint: ''
       level: 1
       title: ''
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: ZzlTsfOdtNdeJiyG
       type: Trait
       configuration:
@@ -62,11 +63,11 @@ system:
         grants:
           - weapon:sim
         choices: []
-        hint: ''
       level: 1
       title: ''
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: BlpmSbKjSn0eJK8Y
       type: Trait
       configuration:
@@ -76,12 +77,12 @@ system:
           - saves:wis
           - saves:cha
         choices: []
-        hint: ''
       level: 1
       title: ''
       icon: null
       classRestriction: primary
-      value: {}
+      value:
+        chosen: []
     - _id: 7X9H1LRkO6FXooHr
       type: HitPoints
       configuration: {}
@@ -89,6 +90,11 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
+  startingEquipment: []
+  primaryAbility:
+    value: []
+    all: true
 effects: []
 sort: 5450
 ownership:
@@ -96,13 +102,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686185987573
-  modifiedTime: 1702848609325
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384664487
+  modifiedTime: 1726384664487
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!wwicwAaBPFeM7x50'
 

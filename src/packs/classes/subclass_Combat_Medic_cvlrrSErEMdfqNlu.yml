@@ -20,18 +20,20 @@ system:
       ranks. House Jorasco has also trained a small number of these martial
       healers for the most dangerous of tasks. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: combat-medic
   classIdentifier: fighter
   advancement:
     - _id: 9i7ix9w5HlNGKgVj
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.3bDrH1P5X9W9fRh2
+          - uuid: Compendium.eberron-5e.classes.Item.3bDrH1P5X9W9fRh2
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -41,9 +43,12 @@ system:
     - _id: N0SuY4XI6DHQSh1v
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.6fHHdzXWfQvss3rm
-          - Compendium.eberron-5e.classes.Item.O2jWu0SeqsNNM8Nl
-          - Compendium.eberron-5e.classes.Item.3Lhh03hS2tks7u8Y
+          - uuid: Compendium.eberron-5e.classes.Item.6fHHdzXWfQvss3rm
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.O2jWu0SeqsNNM8Nl
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.3Lhh03hS2tks7u8Y
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -53,7 +58,8 @@ system:
     - _id: yRtttimpOaeaPaYT
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.qka24RTIGbGztNAa
+          - uuid: Compendium.eberron-5e.classes.Item.qka24RTIGbGztNAa
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -63,7 +69,8 @@ system:
     - _id: xAth17M3ymMavhk3
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.z013FqxWs1ZwUalL
+          - uuid: Compendium.eberron-5e.classes.Item.z013FqxWs1ZwUalL
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -73,7 +80,8 @@ system:
     - _id: nhvTfmdF8rhwjlb9
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.TebEvGbXFw1ymxzx
+          - uuid: Compendium.eberron-5e.classes.Item.TebEvGbXFw1ymxzx
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -83,6 +91,7 @@ system:
   spellcasting:
     progression: third
     ability: wis
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -90,13 +99,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686245902669
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384654018
+  modifiedTime: 1726384654018
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!cvlrrSErEMdfqNlu'
 

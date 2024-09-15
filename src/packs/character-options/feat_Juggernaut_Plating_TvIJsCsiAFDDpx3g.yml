@@ -15,61 +15,24 @@ system:
       targeted by any effect (such as heat metal or the antennae of a rust
       monster) against your will</li></ul>
     chat: ''
-    unidentified: ''
   source:
     custom: ExE
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: flat
+    spent: 0
+    recovery: []
   type:
     value: feat
     subtype: ''
   requirements: Warforged
-  recharge:
-    value: null
-    charged: false
+  identifier: juggernaut-plating
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -84,14 +47,14 @@ flags:
 effects: []
 folder: qQfshd6Ve28n209Q
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686370356697
-  modifiedTime: 1702848545890
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384680297
+  modifiedTime: 1726384680297
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: TvIJsCsiAFDDpx3g
 sort: 0
 _key: '!items!TvIJsCsiAFDDpx3g'

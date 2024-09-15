@@ -38,11 +38,12 @@ system:
       sleep.</p><p><strong>Languages</strong>. You can speak, read, and write
       Common, Quori, and one other language of your choice.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Psion's Primer
     page: Ch. 2
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: AbilityScoreImprovement
       _id: xu1smBPZhZaM5j5T
@@ -50,6 +51,7 @@ system:
         points: 0
         fixed: {}
         cap: 2
+        locked: []
       value:
         type: asi
       level: 0
@@ -69,7 +71,8 @@ system:
         choices: []
       _id: bnWBuq8cgTkWArkS
       level: 0
-      value: {}
+      value:
+        chosen: []
   movement:
     burrow: null
     climb: null
@@ -87,6 +90,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: kalashtar
 effects: []
 sort: 0
 ownership:
@@ -95,13 +99,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.0
-  coreVersion: '12.327'
-  createdTime: 1700628622264
-  modifiedTime: 1707007768482
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384607815
+  modifiedTime: 1726384607815
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!HoVXxv6kSPnEuDsC'
 

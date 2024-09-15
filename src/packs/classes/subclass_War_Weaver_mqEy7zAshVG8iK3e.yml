@@ -22,11 +22,12 @@ system:
       far stronger. And earlier still, tens of thousands of years ago, elven War
       Weavers perfected the art during their exodus from Xen'drik.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: war-weaver
   classIdentifier: artificer
   advancement:
@@ -34,6 +35,7 @@ system:
       configuration:
         items:
           - uuid: Compendium.eberron-5e.classes.Item.Es2cKXOeeu7Hgb3T
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,6 +46,7 @@ system:
       configuration:
         items:
           - uuid: Compendium.eberron-5e.classes.Item.z29qUOtND3qeuRlx
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -54,7 +57,9 @@ system:
       configuration:
         items:
           - uuid: Compendium.eberron-5e.classes.Item.CJwFrPhJi3JSSJmZ
+            optional: false
           - uuid: Compendium.eberron-5e.classes.Item.Rg30B5JFW0iPndSK
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -65,6 +70,7 @@ system:
       configuration:
         items:
           - uuid: Compendium.eberron-5e.classes.Item.rBxsR40SGneo6JQG
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -79,18 +85,19 @@ system:
         grants:
           - tool:art:weaver
         choices: []
-        hint: >-
-          When you adopt this specialization at 3rd level, you gain proficiency
-          with weaver's tools. If you already have this proficiency, you gain
-          proficiency with one other type of artisan's tools of your choice.
       value:
         chosen: []
       level: 3
       title: Tool Proficiency
       icon: null
+      hint: >-
+        When you adopt this specialization at 3rd level, you gain proficiency
+        with weaver's tools. If you already have this proficiency, you gain
+        proficiency with one other type of artisan's tools of your choice.
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -98,13 +105,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.1.0
-  coreVersion: '12.327'
-  createdTime: 1686201664489
-  modifiedTime: 1711331727320
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384659157
+  modifiedTime: 1726384659157
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!mqEy7zAshVG8iK3e'
 

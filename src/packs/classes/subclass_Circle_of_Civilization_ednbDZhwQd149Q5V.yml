@@ -20,18 +20,20 @@ system:
       native of that continent has ever been recorded as hearing this calling.
       </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: circle-of-civilization
   classIdentifier: druid
   advancement:
     - _id: Z4tk3SJ4z5LDf6M6
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.JgnOYNjwH5aQpPGD
+          - uuid: Compendium.eberron-5e.classes.Item.JgnOYNjwH5aQpPGD
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -41,8 +43,10 @@ system:
     - _id: GCUv4jCRAiVD580M
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.COFHidEuzYn9YksE
-          - Compendium.eberron-5e.classes.Item.oyyZ6krJbXxsBACu
+          - uuid: Compendium.eberron-5e.classes.Item.COFHidEuzYn9YksE
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.oyyZ6krJbXxsBACu
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -52,7 +56,8 @@ system:
     - _id: a8uKYWlQ7qrWXNN7
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.LApyXfodHnes3HJK
+          - uuid: Compendium.eberron-5e.classes.Item.LApyXfodHnes3HJK
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -62,7 +67,8 @@ system:
     - _id: a5CcdvCkLp4fBINK
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Ac4o4Be7K7mDgr3B
+          - uuid: Compendium.eberron-5e.classes.Item.Ac4o4Be7K7mDgr3B
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -72,6 +78,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -79,13 +86,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686245862719
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384654971
+  modifiedTime: 1726384654971
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!ednbDZhwQd149Q5V'
 

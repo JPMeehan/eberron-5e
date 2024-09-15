@@ -44,95 +44,125 @@ system:
       must complete a short or long rest attached to a warforged, after which it
       regains its energy, as well as regaining all lost hit points.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: ExE
+    revision: 1
+    rules: '2014'
   quantity: 1
-  weight: 0
+  weight:
+    value: 0
+    units: lb
   price:
     value: 0
     denomination: gp
-  attunement: 1
+  attunement: required
   equipped: false
   rarity: uncommon
   identified: true
-  activation:
-    type: bonus
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: 55
-    long: null
-    units: mi
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   armor:
     value: null
-    type: trinket
     dex: null
+    magicalBonus: null
   hp:
     value: null
     max: null
     dt: null
     conditions: ''
-  baseItem: ''
   speed:
     value: null
     conditions: ''
   strength: null
-  stealth: false
   proficient: 1
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: bonus
+        value: null
+        condition: ''
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        concentration: false
+        value: ''
+        units: ''
+        special: ''
+        override: false
+      effects: []
+      range:
+        value: '55'
+        units: mi
+        special: ''
+        override: false
+      target:
+        template:
+          count: ''
+          contiguous: false
+          type: ''
+          size: ''
+          width: ''
+          height: ''
+          units: ''
+        affects:
+          count: ''
+          type: ''
+          choice: false
+          special: ''
+        prompt: true
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  unidentified:
+    description: ''
+  type:
+    value: trinket
+    baseItem: ''
+  identifier: final-messenger
+  container: null
+  attuned: false
+  properties: []
 effects: []
 sort: 0
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1687067286651
-  modifiedTime: 1702886723204
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384659647
+  modifiedTime: 1726384659647
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!nuZhjofc9c7I38jr'
 

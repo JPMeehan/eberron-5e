@@ -14,11 +14,12 @@ system:
       shulassakar ancestry, regardless of their mechanical race, is capable of
       learning it.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: Linvakri's Guide to Syrkarn
+    rules: '2014'
+    revision: 1
   identifier: serpentblood
   classIdentifier: sorcerer
   advancement:
@@ -26,8 +27,10 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.LYWOOrj0ZWyTbn5s
-          - Compendium.eberron-5e.classes.Item.huNGrdrSp9LooL0c
+          - uuid: Compendium.eberron-5e.classes.Item.LYWOOrj0ZWyTbn5s
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.huNGrdrSp9LooL0c
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -37,7 +40,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Khe5UCQKVEs37VG8
+          - uuid: Compendium.eberron-5e.classes.Item.Khe5UCQKVEs37VG8
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -48,7 +52,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.60xz70rEaDQwVyU0
+          - uuid: Compendium.eberron-5e.classes.Item.60xz70rEaDQwVyU0
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -59,7 +64,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.GbMHlSDwkJKKhZc8
+          - uuid: Compendium.eberron-5e.classes.Item.GbMHlSDwkJKKhZc8
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -69,6 +75,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -76,13 +83,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686184883598
-  modifiedTime: 1704056226315
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384661089
+  modifiedTime: 1726384661089
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!r0bOdHKG8ScGZbSU'
 

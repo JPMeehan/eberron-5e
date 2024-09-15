@@ -7,12 +7,13 @@ system:
   description:
     value: ''
     chat: ''
-    unidentified: ''
   source:
     book: 'Korranberg Chronicle: Psion''s Primer'
     page: Ch. 1
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: icon
   levels: 1
   hitDice: d10
@@ -27,7 +28,6 @@ system:
         mode: default
         allowReplacements: false
         choices: []
-        hint: ''
       value:
         chosen:
           - saves:dex
@@ -46,12 +46,12 @@ system:
           - count: 2
             pool:
               - skills:*
-        hint: ''
       level: 1
       title: ''
       icon: null
       classRestriction: primary
-      value: {}
+      value:
+        chosen: []
     - _id: ebfNW9SekYEJmazV
       type: Trait
       configuration:
@@ -61,11 +61,11 @@ system:
           - armor:lgt
           - armor:shl
         choices: []
-        hint: ''
       level: 1
       title: ''
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: ZzlTsfOdtNdeJiyG
       type: Trait
       configuration:
@@ -75,11 +75,11 @@ system:
           - weapon:sim
           - weapon:mar
         choices: []
-        hint: ''
       level: 1
       title: ''
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: 7X9H1LRkO6FXooHr
       type: HitPoints
       configuration: {}
@@ -87,6 +87,11 @@ system:
   spellcasting:
     progression: none
     ability: cha
+    preparation: {}
+  startingEquipment: []
+  primaryAbility:
+    value: []
+    all: true
 effects: []
 sort: 9350
 ownership:
@@ -94,13 +99,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686185975772
-  modifiedTime: 1702848610809
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384646494
+  modifiedTime: 1726384646494
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!MsiBPk2Mj0atngAa'
 

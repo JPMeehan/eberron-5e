@@ -18,20 +18,24 @@ system:
       figure of a servant or simple guard is easily ignored, and their ranks
       might include a warlock of the Hidden One, with eyes ever-open. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: the-hidden-one
   classIdentifier: warlock
   advancement:
     - _id: c3ssazjZi8Z7GKno
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Wtg0AqYC3HsHTBrD
-          - Compendium.eberron-5e.classes.Item.n1zfrxdc8QunelDs
-          - Compendium.eberron-5e.classes.Item.VeI49LCFzi2qJaDe
+          - uuid: Compendium.eberron-5e.classes.Item.Wtg0AqYC3HsHTBrD
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.n1zfrxdc8QunelDs
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.VeI49LCFzi2qJaDe
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -41,7 +45,8 @@ system:
     - _id: DylkeVZFufUQEAmo
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.jFMeYKwQ9l7lSUyp
+          - uuid: Compendium.eberron-5e.classes.Item.jFMeYKwQ9l7lSUyp
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -51,7 +56,8 @@ system:
     - _id: 56FYx64430n7MRnC
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.hTwcLGNm6or7oqvG
+          - uuid: Compendium.eberron-5e.classes.Item.hTwcLGNm6or7oqvG
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -61,7 +67,8 @@ system:
     - _id: SK3c3rSRgHtTJFe2
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.rStRCMOKe6XkNcRg
+          - uuid: Compendium.eberron-5e.classes.Item.rStRCMOKe6XkNcRg
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -71,6 +78,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -78,13 +86,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686246133908
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384641445
+  modifiedTime: 1726384641445
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!9Q7a6nUlhvRCGW0N'
 

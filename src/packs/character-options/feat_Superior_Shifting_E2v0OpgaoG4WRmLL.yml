@@ -12,61 +12,26 @@ system:
       action.</li><li>You can use your Shifting trait one additional time. You
       regain all uses when you complete a short or long rest.</li></ul>
     chat: ''
-    unidentified: ''
   source:
     custom: ExE
-  activation:
-    type: ''
-    cost: 1
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    revision: 1
+    rules: '2014'
   uses:
-    value: 1
     max: '1'
-    per: sr
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: ''
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: flat
+    recovery:
+      - period: sr
+        type: recoverAll
+    spent: 0
   type:
     value: feat
     subtype: ''
   requirements: Shifter
-  recharge:
-    value: null
-    charged: false
+  activities: {}
+  identifier: superior-shifting
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -78,17 +43,22 @@ flags:
     hash: superior%20shifting_exploringeberron
     propDroppable: feat
   core: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedUses: 1
 effects: []
 folder: IfIm9e79p4i21CHS
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686370356754
-  modifiedTime: 1702848544647
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384680052
+  modifiedTime: 1726384680052
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: E2v0OpgaoG4WRmLL
 sort: 0
 _key: '!items!E2v0OpgaoG4WRmLL'

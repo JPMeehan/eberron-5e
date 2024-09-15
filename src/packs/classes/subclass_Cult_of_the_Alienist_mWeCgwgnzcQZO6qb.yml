@@ -23,18 +23,20 @@ system:
       might be any scholar that delved too far into the secrets of Xoriat or had
       a chance encounter with the fleshwarping daelkyr. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: cult-of-the-alienist
   classIdentifier: wizard
   advancement:
     - _id: WsXzw6zE7KNkxqz7
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.ZhxHMdyb1MP1VZue
+          - uuid: Compendium.eberron-5e.classes.Item.ZhxHMdyb1MP1VZue
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +46,8 @@ system:
     - _id: RflmOQkbYUUfovOR
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.c3keHBF1a43ZgDUr
+          - uuid: Compendium.eberron-5e.classes.Item.c3keHBF1a43ZgDUr
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -54,7 +57,8 @@ system:
     - _id: BfD892rDerKWodIk
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.vzmvwtMuRCxf3c4W
+          - uuid: Compendium.eberron-5e.classes.Item.vzmvwtMuRCxf3c4W
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -64,7 +68,8 @@ system:
     - _id: C6JhxzOUjc0mDBfn
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.sAfP8Ses8bcYuw55
+          - uuid: Compendium.eberron-5e.classes.Item.sAfP8Ses8bcYuw55
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -74,6 +79,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -81,13 +87,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686246155903
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384658924
+  modifiedTime: 1726384658924
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!mWeCgwgnzcQZO6qb'
 

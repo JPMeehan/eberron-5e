@@ -11,65 +11,34 @@ system:
       if they die, time spent under this spell's effect does not count towards
       the time limit for resurrection spells like revivify or raise dea</p>
     chat: ''
-    unidentified: ''
   source:
     book: Linvakri's Guide to Syrkarn
     page: ''
     custom: ''
     license: DMsGuild CCA
+    revision: 1
+    rules: '2014'
   activation:
     type: action
-    cost: 1
     condition: ''
+    value: 1
   duration:
     value: '24'
     units: hour
-  cover: null
-  crewed: false
   target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
+    affects:
+      choice: false
+    template:
+      units: ''
+      contiguous: false
   range:
-    value: null
-    long: null
     units: touch
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    recovery: []
+    spent: 0
   level: 2
   school: nec
-  components:
-    vocal: true
-    somatic: true
-    material: true
-    ritual: false
-    concentration: false
   materials:
     value: a block of ice
     consumed: false
@@ -78,33 +47,74 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  scaling:
-    mode: none
-    formula: ''
-  attack:
-    bonus: ''
-    flat: false
-  enchantment: null
-  summons: null
   properties:
     - vocal
     - somatic
     - material
+  activities:
+    dnd5eactivity000:
+      _id: dnd5eactivity000
+      type: utility
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        targets: []
+        scaling:
+          allowed: false
+          max: ''
+        spellSlot: true
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        prompt: true
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+      uses:
+        spent: 0
+        max: ''
+        recovery: []
+      roll:
+        formula: ''
+        name: ''
+        prompt: false
+        visible: false
+      sort: 0
+  identifier: temporal-freeze
 effects: []
 sort: 0
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
 flags:
-  dnd5e: {}
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+    migratedProperties:
+      - vocal
+      - somatic
+      - material
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.3.1
-  coreVersion: '12.330'
-  createdTime: 1702707280209
-  modifiedTime: 1723671206646
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384669480
+  modifiedTime: 1726384669480
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!Kq28WGsv1attlsUT'
 

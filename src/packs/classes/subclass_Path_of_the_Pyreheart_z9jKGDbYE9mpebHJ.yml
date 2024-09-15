@@ -20,12 +20,13 @@ system:
       their birthright. A Pyreheart is often physically marked by their inner
       flame, which you can determine by rolling on the table below:</p>
     chat: ''
-    unidentified: ''
   source:
     book: Giant Guide to Xen'drik
     page: ''
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: path-of-the-pyreheart
   classIdentifier: barbarian
   advancement:
@@ -33,7 +34,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Im4UTeb68CoOFlYv
+          - uuid: Compendium.eberron-5e.classes.Item.Im4UTeb68CoOFlYv
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -44,7 +46,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.H74un4xD55FmW5Mu
+          - uuid: Compendium.eberron-5e.classes.Item.H74un4xD55FmW5Mu
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -55,7 +58,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.GSAFbJZ27jI8xlgm
+          - uuid: Compendium.eberron-5e.classes.Item.GSAFbJZ27jI8xlgm
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -66,7 +70,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.fNAlMO8A9rbJIZns
+          - uuid: Compendium.eberron-5e.classes.Item.fNAlMO8A9rbJIZns
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -76,6 +81,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -83,13 +89,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1702705701311
-  modifiedTime: 1703912747024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384665447
+  modifiedTime: 1726384665447
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!z9jKGDbYE9mpebHJ'
 

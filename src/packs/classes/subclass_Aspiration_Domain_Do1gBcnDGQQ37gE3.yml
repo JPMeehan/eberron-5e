@@ -13,12 +13,13 @@ system:
       safe. The most common clerics to earn these gifts of the faith are
       followers of the Shadow under the Cazhaak Creed.</p>
     chat: ''
-    unidentified: ''
   source:
     license: DMsGuild CCA
     book: Chronicles of Eberron
     page: ''
     custom: ''
+    rules: '2014'
+    revision: 1
   identifier: aspiration-domain
   classIdentifier: cleric
   advancement:
@@ -26,9 +27,12 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.M34KNRXhgITiAgNQ
-          - Compendium.eberron-5e.classes.Item.j9jaybkgHXOfYvwQ
-          - Compendium.eberron-5e.classes.Item.WrY1JdK6MpkprH5H
+          - uuid: Compendium.eberron-5e.classes.Item.M34KNRXhgITiAgNQ
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.j9jaybkgHXOfYvwQ
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.WrY1JdK6MpkprH5H
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -39,7 +43,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.cTEbc1H7ML4J0UWX
+          - uuid: Compendium.eberron-5e.classes.Item.cTEbc1H7ML4J0UWX
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -50,7 +55,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.BMU6kcHH0IASyGd0
+          - uuid: Compendium.eberron-5e.classes.Item.BMU6kcHH0IASyGd0
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -61,7 +67,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.pkauqd8nU6u0W02x
+          - uuid: Compendium.eberron-5e.classes.Item.pkauqd8nU6u0W02x
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -72,7 +79,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.IzL3Al8lY7wcRJ9z
+          - uuid: Compendium.eberron-5e.classes.Item.IzL3Al8lY7wcRJ9z
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -82,6 +90,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -89,13 +98,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686341379214
-  modifiedTime: 1702886605800
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384643427
+  modifiedTime: 1726384643427
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!Do1gBcnDGQQ37gE3'
 

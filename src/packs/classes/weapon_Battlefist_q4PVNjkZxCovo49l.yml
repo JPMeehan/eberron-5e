@@ -20,66 +20,59 @@ system:
       long rest, you can replace this property with a different weapon property
       from the list.</p>
     chat: ''
-    unidentified: ''
   source:
     license: DMsGuild CCA
     custom: ''
+    rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
+  weight:
+    value: 0
+    units: lb
   price:
     value: 0
     denomination: gp
-  attunement: 0
+  attunement: ''
   equipped: false
   rarity: ''
   identified: true
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
   range:
     value: null
     long: null
     units: ''
+    reach: null
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: int
-  actionType: mwak
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
+    spent: 0
+    recovery: []
   damage:
-    parts:
-      - - '@scale.mastermaker.battlefist-damage + @mod'
+    versatile:
+      number: null
+      denomination: null
+      bonus: ''
+      types: []
+      custom:
+        enabled: false
+        formula: ''
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
+    base:
+      number: null
+      denomination: null
+      bonus: ''
+      types:
         - bludgeoning
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+      custom:
+        enabled: true
+        formula: '@scale.mastermaker.battlefist-damage + @mod'
+      scaling:
+        mode: ''
+        number: null
+        formula: ''
   armor:
     value: null
   hp:
@@ -87,27 +80,60 @@ system:
     max: null
     dt: null
     conditions: ''
-  weaponType: simpleM
-  baseItem: ''
-  properties:
-    ada: false
-    amm: false
-    fin: false
-    fir: false
-    foc: false
-    hvy: false
-    lgt: false
-    lod: false
-    mgc: false
-    rch: false
-    rel: false
-    ret: false
-    sil: false
-    spc: false
-    thr: false
-    two: false
-    ver: false
+  properties: []
   proficient: null
+  identifier: battlefist
+  unidentified:
+    description: ''
+  type:
+    value: simpleM
+    baseItem: ''
+  activities:
+    wxgIldh4nI7K8Qng:
+      _id: wxgIldh4nI7K8Qng
+      type: attack
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type: {}
+      damage:
+        critical: {}
+        includeBase: true
+        parts: []
+  container: null
+  attuned: false
+  ammunition: {}
+  magicalBonus: null
 effects: []
 sort: 600000
 ownership:
@@ -118,13 +144,13 @@ flags:
   chaosos-5e-content:
     weaponMastered: false
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1700538640026
-  modifiedTime: 1704060172176
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384660834
+  modifiedTime: 1726384660834
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!q4PVNjkZxCovo49l'
 

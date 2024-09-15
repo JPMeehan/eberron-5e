@@ -38,19 +38,19 @@ system:
       the armor you wear would leave you with a lower AC. A shield’s benefits
       apply as normal while you use your natural armor. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Scales of Q'barra
     page: Appendix
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: Size
       _id: 2WKWRLBtqvlLY8Aq
       configuration:
         sizes:
           - med
-        hint: ''
       level: 0
       title: ''
       icon: null
@@ -63,12 +63,12 @@ system:
         mode: default
         allowReplacements: false
         choices: []
-        hint: ''
       _id: Ht9PXGZOXGMjY2sG
       level: 0
       title: ''
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: 95FoPeDwLcOFB7wN
       type: Trait
       configuration:
@@ -79,11 +79,11 @@ system:
           - count: 1
             pool:
               - tool:art:*
-        hint: ''
       level: 0
       title: Ancient Artisan
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: xkwOnl4ixJpdorgy
       type: Trait
       configuration:
@@ -104,18 +104,21 @@ system:
           - count: 1
             pool:
               - tool:art:*
-        hint: ''
       level: 0
       title: Dream Lore
       icon: null
-      value: {}
+      value:
+        chosen: []
     - _id: bG28RivKcYSi5Umf
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.ancestries.Item.LtM4NlGNqS5T2Vug
-          - Compendium.eberron-5e.ancestries.Item.9cYW9I7a7VrBdmbw
-          - Compendium.eberron-5e.ancestries.Item.N9ciKqxpVskyQnfW
+          - uuid: Compendium.eberron-5e.ancestries.Item.LtM4NlGNqS5T2Vug
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.9cYW9I7a7VrBdmbw
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.N9ciKqxpVskyQnfW
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -139,6 +142,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: cold-sun-lizardfolk
 effects: []
 sort: 500000
 ownership:
@@ -147,13 +151,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1700444592531
-  modifiedTime: 1702848010327
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384610370
+  modifiedTime: 1726384610370
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!t9lTgy10s9NXlIZS'
 

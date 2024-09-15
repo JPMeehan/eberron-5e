@@ -31,55 +31,12 @@ system:
     page: ''
     custom: ''
     license: ''
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: ''
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attack:
-    bonus: ''
-    flat: false
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  enchantment: null
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
-  summons: null
+    spent: 0
+    recovery: []
   type:
     value: feat
     subtype: ''
@@ -88,9 +45,9 @@ system:
   properties:
     - mgc
   requirements: Khoravar (Half-Elf)
-  recharge:
-    value: null
-    charged: false
+  identifier: mark-of-storm
+  activities: {}
+  enchant: {}
 effects:
   - name: Guidance of the Mark
     origin: Compendium.eberron-5e.character-options.Item.8NfF0QIDWQGUV9sD
@@ -131,25 +88,26 @@ effects:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 3.3.1
+      systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: 1725516867230
-      lastModifiedBy: MVioF9x1qI1WYGx1
+      modifiedTime: null
+      lastModifiedBy: null
     _key: '!items.effects!8NfF0QIDWQGUV9sD.Oeype3mdWGF8KH7V'
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  createdTime: 1725513293139
-  modifiedTime: 1725517027143
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  systemVersion: 4.0.0
+  createdTime: 1726384679968
+  modifiedTime: 1726384679968
+  lastModifiedBy: q6n1efCGVB98drEQ
 _id: 8NfF0QIDWQGUV9sD
 _key: '!items!8NfF0QIDWQGUV9sD'
 

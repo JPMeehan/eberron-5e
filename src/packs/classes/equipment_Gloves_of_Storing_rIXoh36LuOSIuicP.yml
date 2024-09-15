@@ -25,81 +25,53 @@ system:
       the Astral Plane. The gate then closes. The gate is one-way only and can’t
       be reopened.</p>
     chat: ''
-    unidentified: ''
   source:
     custom: ''
     license: DMsGuild CCA
     book: ExE
+    rules: '2014'
+    revision: 1
   quantity: 1
-  weight: 0
+  weight:
+    value: 0
+    units: lb
   price:
     value: 0
     denomination: gp
-  attunement: 0
+  attunement: ''
   equipped: false
   rarity: uncommon
   identified: true
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
   cover: null
   crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   armor:
     value: null
-    type: clothing
     dex: null
+    magicalBonus: null
   hp:
     value: null
     max: null
     dt: null
     conditions: ''
-  baseItem: ''
   speed:
     value: null
     conditions: ''
   strength: null
-  stealth: false
   proficient: 1
+  identifier: gloves-of-storing
+  unidentified:
+    description: ''
+  type:
+    value: clothing
+    baseItem: ''
+  activities: {}
+  container: null
+  attuned: false
+  properties: []
 effects: []
 sort: 0
 ownership:
@@ -107,13 +79,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1687068923351
-  modifiedTime: 1702886723204
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384661378
+  modifiedTime: 1726384661378
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!rIXoh36LuOSIuicP'
 

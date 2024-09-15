@@ -26,12 +26,13 @@ system:
       Weretouched techniques were developed by shifter champions of Olarune,
       honing the natural weapons and strengths of the shifter</p></li></ul>
     chat: ''
-    unidentified: ''
   source:
     license: DMsGuild CCA
     custom: ''
     book: Exploring Eberron
     page: Ch. 6
+    rules: '2014'
+    revision: 1
   identifier: way-of-the-living-weapon
   classIdentifier: monk
   advancement:
@@ -39,8 +40,10 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.bQaN4juCNDrc695y
-          - Compendium.eberron-5e.classes.Item.bWbP1SKqYnwDeOXz
+          - uuid: Compendium.eberron-5e.classes.Item.bQaN4juCNDrc695y
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.bWbP1SKqYnwDeOXz
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -51,29 +54,34 @@ system:
       type: ItemChoice
       configuration:
         choices:
-          '3': 1
+          '3':
+            count: 1
+            replacement: false
         allowDrops: false
         type: feat
         pool:
-          - Compendium.eberron-5e.classes.Item.W0y47LzW0CN0vuA3
-          - Compendium.eberron-5e.classes.Item.SvFQd5ULepC0QtbB
-          - Compendium.eberron-5e.classes.Item.acXbYjUAp6zJOc3S
-          - Compendium.eberron-5e.classes.Item.0LODAU04lwD9vpLk
+          - uuid: Compendium.eberron-5e.classes.Item.W0y47LzW0CN0vuA3
+          - uuid: Compendium.eberron-5e.classes.Item.SvFQd5ULepC0QtbB
+          - uuid: Compendium.eberron-5e.classes.Item.acXbYjUAp6zJOc3S
+          - uuid: Compendium.eberron-5e.classes.Item.0LODAU04lwD9vpLk
         spell: null
-        hint: >-
-          Starting at 3rd level, when you adopt this tradition, choose a
-          discipline and gain its feature.
         restriction:
           type: ''
           subtype: ''
-      value: {}
+      value:
+        added: {}
+        replaced: {}
       title: Martial Discipline
       icon: null
+      hint: >-
+        Starting at 3rd level, when you adopt this tradition, choose a
+        discipline and gain its feature.
     - _id: iZRUzFzhjOKz6YSO
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.nBH53N5SyaGNCL4h
+          - uuid: Compendium.eberron-5e.classes.Item.nBH53N5SyaGNCL4h
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -84,7 +92,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.sLrgQccehFTgctI9
+          - uuid: Compendium.eberron-5e.classes.Item.sLrgQccehFTgctI9
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -102,9 +111,11 @@ system:
           '6':
             number: 1
             faces: 6
+            modifiers: []
           '11':
             number: 2
             faces: 6
+            modifiers: []
       value: {}
       title: Manifest Blow Damage
       icon: null
@@ -112,28 +123,33 @@ system:
       type: ItemChoice
       configuration:
         choices:
-          '17': 1
+          '17':
+            count: 1
+            replacement: false
         allowDrops: false
         type: feat
         pool:
-          - Compendium.eberron-5e.classes.Item.saLWtrLlf6lGGOS3
-          - Compendium.eberron-5e.classes.Item.giG49nJ6Yjzm8Vqb
-          - Compendium.eberron-5e.classes.Item.JZMBNn1GxtxBiEKz
-          - Compendium.eberron-5e.classes.Item.DMQnQvVYy2lWyksc
+          - uuid: Compendium.eberron-5e.classes.Item.saLWtrLlf6lGGOS3
+          - uuid: Compendium.eberron-5e.classes.Item.giG49nJ6Yjzm8Vqb
+          - uuid: Compendium.eberron-5e.classes.Item.JZMBNn1GxtxBiEKz
+          - uuid: Compendium.eberron-5e.classes.Item.DMQnQvVYy2lWyksc
         spell: null
-        hint: |-
-          At 17th level, you transform your body to become a weapon of
-          war. You gain a feature based on a discipline of your choice. You
-          can choose the same discipline you selected at 3rd level or a
-          different one.
         restriction:
           type: ''
-      value: {}
+      value:
+        added: {}
+        replaced: {}
       title: Perfect Form
       icon: null
+      hint: |-
+        At 17th level, you transform your body to become a weapon of
+        war. You gain a feature based on a discipline of your choice. You
+        can choose the same discipline you selected at 3rd level or a
+        different one.
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -141,13 +157,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686341458536
-  modifiedTime: 1704062202732
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384657427
+  modifiedTime: 1726384657427
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!jlqbDpjzjAgdXqKh'
 

@@ -10,63 +10,26 @@ system:
       can’t be charmed, frightened, paralyzed, petrified, or poisoned, and you
       are immune to poison damage.</p>
     chat: ''
-    unidentified: ''
   source:
     license: DMsGuild CCA
     custom: ''
     book: Exploring Eberron
-  activation:
-    type: ''
-    cost: null
-    condition: ''
-  duration:
-    value: ''
-    units: ''
-  cover: null
-  crewed: false
-  target:
-    value: null
-    width: null
-    units: ''
-    type: ''
-    prompt: true
-  range:
-    value: null
-    long: null
-    units: ''
+    rules: '2014'
+    revision: 1
   uses:
-    value: null
     max: ''
-    per: null
-    recovery: ''
-    prompt: true
-  consume:
-    type: ''
-    target: null
-    amount: null
-    scale: false
-  ability: null
-  actionType: ''
-  attackBonus: ''
-  chatFlavor: ''
-  critical:
-    threshold: null
-    damage: ''
-  damage:
-    parts: []
-    versatile: ''
-  formula: ''
-  save:
-    ability: ''
-    dc: null
-    scaling: spell
+    spent: 0
+    recovery: []
   type:
     value: class
     subtype: ''
   requirements: Circle of the Forged 14
-  recharge:
-    value: null
-    charged: false
+  identifier: constructed-perfection
+  activities: {}
+  enchant: {}
+  prerequisites:
+    level: null
+  properties: []
 effects:
   - name: Constructed Perfection
     origin: Compendium.eberron-5e.classes.Item.XhtpSGq0yv3iBZW6
@@ -126,14 +89,14 @@ effects:
         wallsBlock: system
     tint: '#ffffff'
     _stats:
-      coreVersion: '12.327'
-      systemId: null
-      systemVersion: null
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-      compendiumSource: null
-      duplicateSource: null
     img: icons/svg/book.svg
     type: base
     system: {}
@@ -146,13 +109,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.1.0
-  coreVersion: '12.327'
-  createdTime: 1700548464551
-  modifiedTime: 1711331127346
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384651279
+  modifiedTime: 1726384651279
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!XhtpSGq0yv3iBZW6'
 

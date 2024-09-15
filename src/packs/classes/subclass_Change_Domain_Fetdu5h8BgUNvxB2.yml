@@ -15,18 +15,20 @@ system:
       pursuing magical innovation or a skilled con artist with utter confidence
       in their skills. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: change-domain
   classIdentifier: cleric
   advancement:
     - _id: PYBu6eHzEKQL0lUi
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.vElrrNbfCVGaQ7jr
+          - uuid: Compendium.eberron-5e.classes.Item.vElrrNbfCVGaQ7jr
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -36,7 +38,8 @@ system:
     - _id: HGfI1oLlvXYGWhKN
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.FnDSfwtiaIAkYfZW
+          - uuid: Compendium.eberron-5e.classes.Item.FnDSfwtiaIAkYfZW
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -46,7 +49,8 @@ system:
     - _id: INCpgzMPlzh0Id95
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.tjeTKpQV5Js05lz4
+          - uuid: Compendium.eberron-5e.classes.Item.tjeTKpQV5Js05lz4
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -56,7 +60,8 @@ system:
     - _id: vpZoys69fMMVWDa3
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.pfeqFLymAfUfZLPF
+          - uuid: Compendium.eberron-5e.classes.Item.pfeqFLymAfUfZLPF
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -66,6 +71,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -73,13 +79,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686202163697
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384644210
+  modifiedTime: 1726384644210
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!Fetdu5h8BgUNvxB2'
 

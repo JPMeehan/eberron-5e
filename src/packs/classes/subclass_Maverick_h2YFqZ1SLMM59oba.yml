@@ -14,12 +14,13 @@ system:
       remarkable breakthroughs—though their idiosyncratic techniques can rarely
       be replicated by others.</p>
     chat: ''
-    unidentified: ''
   source:
     license: DMsGuild CCA
     custom: ''
     book: Exploring Eberron
     page: Ch. 6
+    rules: '2014'
+    revision: 1
   identifier: maverick
   classIdentifier: artificer
   advancement:
@@ -27,8 +28,10 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.soQg8FXcQ5GJ9ztv
-          - Compendium.eberron-5e.classes.Item.ybjehjajOQhWyXOc
+          - uuid: Compendium.eberron-5e.classes.Item.soQg8FXcQ5GJ9ztv
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.ybjehjajOQhWyXOc
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -39,7 +42,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.9VI2jdQP7WStQdnf
+          - uuid: Compendium.eberron-5e.classes.Item.9VI2jdQP7WStQdnf
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -50,8 +54,10 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.mdhiaEZYohQ2y3QY
-          - Compendium.eberron-5e.classes.Item.t4zxXD8vXhLRKVLs
+          - uuid: Compendium.eberron-5e.classes.Item.mdhiaEZYohQ2y3QY
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.t4zxXD8vXhLRKVLs
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -62,7 +68,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.WNDbIKjQoBkyORMA
+          - uuid: Compendium.eberron-5e.classes.Item.WNDbIKjQoBkyORMA
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -72,6 +79,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -79,13 +87,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686341209815
-  modifiedTime: 1704061634247
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384655927
+  modifiedTime: 1726384655927
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!h2YFqZ1SLMM59oba'
 

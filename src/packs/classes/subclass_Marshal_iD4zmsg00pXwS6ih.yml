@@ -17,18 +17,20 @@ system:
       remain standing and commanding their allies in face of overwhelming odds.
       </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: marshal
   classIdentifier: fighter
   advancement:
     - _id: NwrFm7ahu36z1MF5
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.YMtN2mZnSKwP18sy
+          - uuid: Compendium.eberron-5e.classes.Item.YMtN2mZnSKwP18sy
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -38,7 +40,8 @@ system:
     - _id: tq2PO2SOW3Nr4aSH
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.WueQCfqpx74joIyh
+          - uuid: Compendium.eberron-5e.classes.Item.WueQCfqpx74joIyh
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -48,8 +51,10 @@ system:
     - _id: wtbRQr4kzvR5u1tr
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.aFUMDkAPuy45p19H
-          - Compendium.eberron-5e.classes.Item.y1xKNamCM3ToBp4D
+          - uuid: Compendium.eberron-5e.classes.Item.aFUMDkAPuy45p19H
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.y1xKNamCM3ToBp4D
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -59,7 +64,8 @@ system:
     - _id: mBbBbrc6xwQV8sLv
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.UA9TwXrKsFwMYzCB
+          - uuid: Compendium.eberron-5e.classes.Item.UA9TwXrKsFwMYzCB
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -69,7 +75,8 @@ system:
     - _id: 2QhsTiAEW8pFVzNR
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.CgBXREhd9ogreBIT
+          - uuid: Compendium.eberron-5e.classes.Item.CgBXREhd9ogreBIT
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -79,6 +86,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -86,13 +94,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686245911866
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384656338
+  modifiedTime: 1726384656338
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!iD4zmsg00pXwS6ih'
 

@@ -16,12 +16,13 @@ system:
       bonds, but the powers it can bring against the Inspired are
       devastating.</p>
     chat: ''
-    unidentified: ''
   source:
     book: Talvakri's Guide to Adar
     page: ''
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: quori-mindhunter
   classIdentifier: ranger
   advancement:
@@ -29,9 +30,12 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.UTMJQ5P4qHGQUP06
-          - Compendium.eberron-5e.classes.Item.oGMcRKgtYm408e4e
-          - Compendium.eberron-5e.classes.Item.s7C6cZnLkhOg6Ukz
+          - uuid: Compendium.eberron-5e.classes.Item.UTMJQ5P4qHGQUP06
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.oGMcRKgtYm408e4e
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.s7C6cZnLkhOg6Ukz
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -42,7 +46,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.jygTpBuTAEZKuaix
+          - uuid: Compendium.eberron-5e.classes.Item.jygTpBuTAEZKuaix
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -53,7 +58,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.AuVTz41n2NUwE4Mw
+          - uuid: Compendium.eberron-5e.classes.Item.AuVTz41n2NUwE4Mw
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -64,7 +70,8 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.vaO2FxSTZZMpAzmm
+          - uuid: Compendium.eberron-5e.classes.Item.vaO2FxSTZZMpAzmm
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -74,20 +81,22 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1704065461043
-  modifiedTime: 1704070539813
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384641399
+  modifiedTime: 1726384641399
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!9HvDRYXzIGyD1qLL'
 

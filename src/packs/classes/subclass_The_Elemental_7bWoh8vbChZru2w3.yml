@@ -24,18 +24,20 @@ system:
       elements that's deeper even than the Sulatar, and their bond can reach
       depths that the drow of Xen'drik can only dream of. </p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: the-elemental
   classIdentifier: warlock
   advancement:
     - _id: KHCFzCRyMI8yFOKP
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Ybf1OIxRb01s1K5b
+          - uuid: Compendium.eberron-5e.classes.Item.Ybf1OIxRb01s1K5b
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -45,8 +47,10 @@ system:
     - _id: uuT20sPqKLjH3mUC
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.pK4T7w7LNkUQVWOD
-          - Compendium.eberron-5e.classes.Item.QYMmmREFBqnaJ0an
+          - uuid: Compendium.eberron-5e.classes.Item.pK4T7w7LNkUQVWOD
+            optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.QYMmmREFBqnaJ0an
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -56,7 +60,8 @@ system:
     - _id: h2qt4XebEzmFTiQl
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.EN4MdItVhWK6GIUk
+          - uuid: Compendium.eberron-5e.classes.Item.EN4MdItVhWK6GIUk
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -66,7 +71,8 @@ system:
     - _id: huowlT6S452s3JiG
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.Ar2P9gAaD5ruYWLX
+          - uuid: Compendium.eberron-5e.classes.Item.Ar2P9gAaD5ruYWLX
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -76,6 +82,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -83,13 +90,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686246120614
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384640639
+  modifiedTime: 1726384640639
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!7bWoh8vbChZru2w3'
 

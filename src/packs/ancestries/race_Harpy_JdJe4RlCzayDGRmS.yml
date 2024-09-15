@@ -25,6 +25,8 @@ system:
     page: ''
     custom: ''
     license: ''
+    rules: '2014'
+    revision: 1
   advancement:
     - type: Size
       _id: v9GiNz9u8D6yL5bO
@@ -75,21 +77,22 @@ system:
     special: ''
   type:
     value: humanoid
-  identifier: ''
+  identifier: harpy
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
+  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 3.3.1
-  createdTime: 1725338401832
-  modifiedTime: 1725687047912
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  systemVersion: 4.0.0
+  createdTime: 1726384608166
+  modifiedTime: 1726384608166
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!JdJe4RlCzayDGRmS'
 

@@ -36,18 +36,20 @@ system:
       of your service, dispense the necessary judgment and find another who is
       worthy. <br /></p>
     chat: ''
-    unidentified: ''
   source:
     book: Archetypes of Eberron
     custom: ''
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   identifier: oath-of-the-bone-knight
   classIdentifier: paladin
   advancement:
     - _id: aNhEeltNgjJikbez
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.xZdO1uGs6vnAZz4j
+          - uuid: Compendium.eberron-5e.classes.Item.xZdO1uGs6vnAZz4j
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -57,7 +59,8 @@ system:
     - _id: MWtcuVx7uZEWUatr
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.zsFgccTIP2uaAvtw
+          - uuid: Compendium.eberron-5e.classes.Item.zsFgccTIP2uaAvtw
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -67,7 +70,8 @@ system:
     - _id: 3RkTIziJDm5ObKLZ
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.VwYe1IMi0r4LwzHe
+          - uuid: Compendium.eberron-5e.classes.Item.VwYe1IMi0r4LwzHe
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -77,7 +81,8 @@ system:
     - _id: WnfE0J6NMRlaW3j3
       configuration:
         items:
-          - Compendium.eberron-5e.classes.Item.06xb6bqfojtRwiCz
+          - uuid: Compendium.eberron-5e.classes.Item.06xb6bqfojtRwiCz
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -87,6 +92,7 @@ system:
   spellcasting:
     progression: none
     ability: ''
+    preparation: {}
 effects: []
 sort: 500
 ownership:
@@ -94,13 +100,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 2.4.1
-  coreVersion: '12.327'
-  createdTime: 1686245964621
-  modifiedTime: 1702886575024
-  lastModifiedBy: MVioF9x1qI1WYGx1
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384650984
+  modifiedTime: 1726384650984
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!X3tnbXZyl1J0wg1S'
 

@@ -28,11 +28,12 @@ system:
       Charisma is your spellcasting ability for these spells when you cast them
       with this trait (choose when you select this race)</p>
     chat: ''
-    unidentified: ''
   source:
     book: Talvakri's Guide to Adar
     page: Ch. 10
     license: DMsGuild CCA
+    rules: '2014'
+    revision: 1
   advancement:
     - type: AbilityScoreImprovement
       _id: 6Q53j9RxqLygrTww
@@ -40,6 +41,7 @@ system:
         points: 0
         fixed: {}
         cap: 2
+        locked: []
       value:
         type: asi
       level: 0
@@ -59,14 +61,18 @@ system:
         choices: []
       _id: p2ieX5QpaQZD2CvU
       level: 0
-      value: {}
+      value:
+        chosen: []
     - _id: zi03hGiLUDKzuIfD
       type: ItemGrant
       configuration:
         items:
-          - Compendium.eberron-5e.ancestries.Item.UvsZMjtsRXZ6PjZc
-          - Compendium.eberron-5e.ancestries.Item.z1UzQBTYAQ6Gq8nA
-          - Compendium.eberron-5e.ancestries.Item.b6mDFNRGZMfKMIO4
+          - uuid: Compendium.eberron-5e.ancestries.Item.UvsZMjtsRXZ6PjZc
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.z1UzQBTYAQ6Gq8nA
+            optional: false
+          - uuid: Compendium.eberron-5e.ancestries.Item.b6mDFNRGZMfKMIO4
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -75,15 +81,19 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.dnd5e.spells.Item.g2u9PYfqWQAyg9OI
-          - Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B
+          - uuid: Compendium.dnd5e.spells.Item.g2u9PYfqWQAyg9OI
+            optional: false
+          - uuid: Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B
+            optional: false
         optional: false
         spell:
-          ability: ''
+          ability:
+            - ''
           preparation: atwill
           uses:
             max: ''
             per: ''
+            requireSlot: false
       value: {}
       level: 1
       title: Serpentine Spellcasting
@@ -92,14 +102,17 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4
+          - uuid: Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4
+            optional: false
         optional: false
         spell:
-          ability: ''
+          ability:
+            - ''
           preparation: innate
           uses:
             max: '1'
             per: lr
+            requireSlot: false
       value: {}
       level: 3
       title: Serpentine Spellcasting
@@ -121,6 +134,7 @@ system:
     special: ''
   type:
     value: humanoid
+  identifier: yuan-ti
 effects: []
 sort: 0
 ownership:
@@ -129,13 +143,13 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
-  systemId: dnd5e
-  systemVersion: 3.0.3
-  coreVersion: '12.327'
-  createdTime: 1700628092653
-  modifiedTime: 1708883334384
-  lastModifiedBy: q6n1efCGVB98drEQ
   compendiumSource: null
   duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.0
+  createdTime: 1726384608568
+  modifiedTime: 1726384608568
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!PEbd0gliTs3axaDZ'
 
