@@ -2,7 +2,7 @@ folder: lDMG6f6gTK8V0OFD
 name: Worg
 type: race
 _id: Arir0CLf9rsN46ir
-img: systems/dnd5e/icons/svg/items/race.svg
+img: icons/creatures/mammals/wolf-shadow-black.webp
 system:
   description:
     value: >-
@@ -54,6 +54,19 @@ system:
         spell: null
       value: {}
       level: 0
+    - _id: l8YbyNNtVa3EXOcW
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:prc
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: Keen Senses
+      hint: ''
   movement:
     burrow: null
     climb: null
@@ -86,9 +99,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.1
   createdTime: 1726384607384
-  modifiedTime: 1726384607384
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1726554095422
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!Arir0CLf9rsN46ir'
 

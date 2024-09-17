@@ -2,7 +2,7 @@ folder: lDMG6f6gTK8V0OFD
 name: Gargoyle
 type: race
 _id: rFxdTLIxbkvfgu22
-img: systems/dnd5e/icons/svg/items/race.svg
+img: icons/magic/earth/strike-fist-stone-gray.webp
 system:
   description:
     value: >-
@@ -51,8 +51,11 @@ system:
         allowReplacements: false
         grants:
           - dr:poison
+          - ci:dehydration
           - ci:diseased
+          - ci:malnutrition
           - ci:petrified
+          - ci:suffocation
         choices: []
       value:
         chosen: []
@@ -107,9 +110,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.1
   createdTime: 1726384610262
-  modifiedTime: 1726384610262
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1726554048400
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!rFxdTLIxbkvfgu22'
 

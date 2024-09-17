@@ -114,6 +114,24 @@ system:
       value:
         chosen: []
       hint: You gain one skill proficiency and one tool proficiency of your choice.
+    - _id: 7yMetoxNv4XtXpIl
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - ci:dehydration
+          - ci:diseased
+          - ci:malnutrition
+          - ci:petrified
+          - ci:suffocation
+          - dr:poison
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: Constructed Resilience
+      hint: ''
   movement:
     burrow: null
     climb: null
@@ -146,10 +164,10 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.1
   createdTime: 1726384610433
-  modifiedTime: 1726384610433
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1726553087013
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _id: vfacs1ErNwf3s9LQ
 sort: 100000
 _key: '!items!vfacs1ErNwf3s9LQ'

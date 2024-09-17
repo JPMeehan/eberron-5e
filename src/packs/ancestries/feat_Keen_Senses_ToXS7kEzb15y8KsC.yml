@@ -5,7 +5,9 @@ _id: ToXS7kEzb15y8KsC
 img: icons/magic/perception/eye-ringed-glow-angry-small-teal.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You have proficiency in the Perception skill, and you have Advantage on
+      Wisdom (Perception) checks that rely on hearing or smell.</p>
     chat: ''
   source:
     book: FoEQ
@@ -19,7 +21,7 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
+    value: race
     subtype: ''
   prerequisites:
     level: null
@@ -40,9 +42,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.1
   createdTime: 1726384609019
-  modifiedTime: 1726384609019
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1726553473311
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!ToXS7kEzb15y8KsC'
 

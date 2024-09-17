@@ -2,7 +2,7 @@ folder: lDMG6f6gTK8V0OFD
 name: Harpy
 type: race
 _id: JdJe4RlCzayDGRmS
-img: systems/dnd5e/icons/svg/items/race.svg
+img: icons/creatures/birds/corvid-flying-wings-purple.webp
 system:
   description:
     value: >-
@@ -13,7 +13,7 @@ system:
       hardened of hearts. While there are always exceptions, most harpies are
       passionate and energetic; the power of their song reflects their own
       surging emotions. Most enjoy the freedom of flight, expressing themselves
-      through sound and motion. </p><p>The passionate nature of the harpy is
+      through sound and motion.</p><p>The passionate nature of the harpy is
       reflected in their devotion to family, friends, and causes. Some of the
       harpy flights of Droaam are the most loyal allies of the Daughters of Sora
       Kell, while others stubbornly oppose their plans for Droaam. When creating
@@ -90,9 +90,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.1
   createdTime: 1726384608166
-  modifiedTime: 1726384608166
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1726554115066
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!JdJe4RlCzayDGRmS'
 

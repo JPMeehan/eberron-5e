@@ -21,20 +21,26 @@ system:
     rules: '2014'
     revision: 1
   activation:
-    type: ''
+    type: bonus
     condition: ''
     value: null
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: inst
   target:
     affects:
       choice: false
+      count: '1'
+      type: creature
+      special: ''
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
-    units: ''
+    units: ft
+    special: ''
+    value: '20'
   uses:
     max: ''
     spent: 0
@@ -54,22 +60,82 @@ system:
     mode: prepared
     prepared: false
   identifier: gray-gaze
-  activities: {}
+  activities:
+    WanIIVNcnRiWBdoe:
+      type: save
+      _id: WanIIVNcnRiWBdoe
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: true
+              formula: '@prof'
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - necrotic
+            scaling:
+              mode: ''
+              number: 1
+        onSave: none
+      save:
+        ability: con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.1
   createdTime: 1726384669085
-  modifiedTime: 1726384669085
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1726553881232
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!D1aZUwl7JVcW4mh3'
 

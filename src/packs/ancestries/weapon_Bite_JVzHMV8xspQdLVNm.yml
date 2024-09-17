@@ -38,7 +38,7 @@ system:
   range:
     value: null
     long: null
-    units: ''
+    units: ft
     reach: null
   uses:
     max: ''
@@ -58,13 +58,15 @@ system:
         number: null
         formula: ''
     base:
-      number: null
-      denomination: null
-      types: []
+      number: 1
+      denomination: 8
+      types:
+        - piercing
       custom:
         enabled: false
       scaling:
         number: 1
+      bonus: ''
   armor:
     value: null
   hp:
@@ -88,12 +90,14 @@ system:
         type: action
         value: null
         override: false
+        condition: ''
       consumption:
         scaling:
           allowed: false
         spellSlot: true
         targets: []
-      description: {}
+      description:
+        chatFlavor: ''
       duration:
         units: inst
         concentration: false
@@ -101,27 +105,42 @@ system:
       effects: []
       range:
         override: false
+        units: self
+        special: ''
       target:
         template:
           contiguous: false
           units: ft
+          type: ''
         affects:
           choice: false
+          count: ''
+          type: ''
         override: false
         prompt: true
       uses:
         spent: 0
         recovery: []
+        max: ''
       attack:
         critical:
           threshold: null
         flat: false
-        type: {}
+        type:
+          value: melee
+          classification: ''
+        ability: ''
+        bonus: ''
       damage:
-        critical: {}
+        critical:
+          bonus: ''
         includeBase: true
         parts: []
+      name: ''
+      img: ''
+      appliedEffects: []
   ammunition: {}
+  mastery: ''
 effects: []
 sort: 0
 ownership:
@@ -131,14 +150,18 @@ ownership:
 flags:
   chaosos-5e-content:
     weaponMastered: false
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.1
   createdTime: 1726384608133
-  modifiedTime: 1726384608133
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1726553357753
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!JVzHMV8xspQdLVNm'
 

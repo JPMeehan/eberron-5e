@@ -24,7 +24,7 @@ system:
     spent: 0
     recovery: []
   type:
-    value: ''
+    value: race
     subtype: ''
   prerequisites:
     level: null
@@ -45,9 +45,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.1
   createdTime: 1726384608436
-  modifiedTime: 1726384608436
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1726552023517
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!MNNxGZn5rl9xq5oi'
 

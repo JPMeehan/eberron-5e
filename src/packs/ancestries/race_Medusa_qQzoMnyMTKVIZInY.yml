@@ -2,7 +2,7 @@ folder: lDMG6f6gTK8V0OFD
 name: Medusa
 type: race
 _id: qQzoMnyMTKVIZInY
-img: systems/dnd5e/icons/svg/items/race.svg
+img: icons/magic/perception/eye-slit-orange.webp
 system:
   description:
     value: >-
@@ -11,15 +11,15 @@ system:
       forces within Droaam, renowned both for their remarkable stonework and
       their deep devotion to the Dark Six; the Cazhaak Creed has become the most
       widespread religion in Droaam. Medusas tend to be calm and calculating,
-      useful traits when a single glance can have devastating consequences.
-      </p><p>Medusa appearance varies by bloodline; some have scaled skin while
-      at a glance others appear to be carved from stone. All medusas have a mane
-      of writhing serpents, and they can use this mane to observe their
-      surroundings even when they are blindfolded or have their main eyes
-      closed. The petrifying gaze that medusa are famous for is something that
-      develops over time. Young medusas have a weaker form known as the Gray
-      Gaze, which eventually evolves into the Shadowswift Gaze that can petrify
-      creatures in an instant.</p>
+      useful traits when a single glance can have devastating
+      consequences.</p><p>Medusa appearance varies by bloodline; some have
+      scaled skin while at a glance others appear to be carved from stone. All
+      medusas have a mane of writhing serpents, and they can use this mane to
+      observe their surroundings even when they are blindfolded or have their
+      main eyes closed. The petrifying gaze that medusa are famous for is
+      something that develops over time. Young medusas have a weaker form known
+      as the Gray Gaze, which eventually evolves into the Shadowswift Gaze that
+      can petrify creatures in an instant.</p>
     chat: ''
   source:
     book: FoEQ
@@ -107,9 +107,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.1
   createdTime: 1726384610202
-  modifiedTime: 1726384610202
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1726554067739
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!qQzoMnyMTKVIZInY'
 
