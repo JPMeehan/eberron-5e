@@ -43,9 +43,6 @@ for (const file of itemFiles) {
         case 'icon':
           a.title = 'Iconic Archetype Feature';
           break;
-        case 'illrigger':
-          a.title = 'Diabolic Contract Feature';
-          break;
         case 'invoker':
           a.title = 'Pact Feature';
           break;
@@ -54,9 +51,6 @@ for (const file of itemFiles) {
           break;
         case 'paladin':
           a.title = 'Sacred Oath Feature';
-          break;
-        case 'prism':
-          a.title = 'Facet Feature';
           break;
         case 'psion':
           a.title = 'Psionic Discipline Feature';
@@ -69,9 +63,6 @@ for (const file of itemFiles) {
           break;
         case 'sorcerer':
           a.title = 'Sorcerous Origin Feature';
-          break;
-        case 'talent':
-          a.title = 'Psionic Specialization Feature';
           break;
         case 'warlock':
           a.title = 'Otherworldly Patron Feature';
