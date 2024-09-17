@@ -55,19 +55,18 @@ Hooks.once('init', () => {
     scope: 'world',
     config: true,
     requiresReload: true,
-    type: String,
-    choices: {
-      default: 'Default',
-      eberron: 'Eberron',
-    },
-    default: 'eberron',
+    type: new foundry.data.fields.StringField({
+      blank: false,
+      initial: 'eberron',
+      choices: {
+        eberron: 'Eberron',
+      }
+    }),
   });
   switch (game.settings.get(MODULE_ID, 'language')) {
     case 'eberron':
       applyEberronLanguages();
       break;
-    default:
-      CONFIG.DND5E.languages.standard.children.csl = 'DND5E.LanguagesCSL';
   }
 });
 
@@ -82,7 +81,6 @@ function applyEberronLanguages() {
   foundry.utils.mergeObject(CONFIG.DND5E.languages, {
     'standard.children': {
       riedran: 'Eberron.Languages.Riedran',
-      gasl: 'Eberron.Languages.GaSL',
       gosl: 'Eberron.Languages.GoSL',
     },
     'exotic.children': {
