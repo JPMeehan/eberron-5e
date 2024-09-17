@@ -1,0 +1,49 @@
+folder: M4J7Hgsjxx3uGSmE
+name: Beast
+type: feat
+_id: 4LWTxMXrXeWz4Lqg
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>While this mutagen is active, you have advantage on Wisdom (Perception)
+      and (Survival) checks, and gain a climbing speed equal to your walking
+      speed. </p><p>When you move up to 20 feet in a straight line towards a
+      creature, then hit it with a melee attack, you can force it to succeed on
+      a Strength saving throw or be knocked prone.</p>
+    chat: ''
+  identifier: beast
+  source:
+    revision: 1
+    rules: '2024'
+    book: GGtX
+  enchant: {}
+  type:
+    value: class
+    subtype: mutagen
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  MVioF9x1qI1WYGx1: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.1
+  createdTime: 1726554880822
+  modifiedTime: 1726555836437
+  lastModifiedBy: MVioF9x1qI1WYGx1
+_key: '!items!4LWTxMXrXeWz4Lqg'
+

@@ -90,11 +90,13 @@ system:
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
   startingEquipment: []
   primaryAbility:
     value: []
     all: true
+  wealth: ''
 effects: []
 sort: 5450
 ownership:
@@ -106,9 +108,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.1
   createdTime: 1726384664487
-  modifiedTime: 1726384664487
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1726554481923
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!wwicwAaBPFeM7x50'
 

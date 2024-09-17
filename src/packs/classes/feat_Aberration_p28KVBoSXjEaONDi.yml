@@ -2,7 +2,7 @@ folder: M4J7Hgsjxx3uGSmE
 name: Aberration
 type: feat
 _id: p28KVBoSXjEaONDi
-img: icons/svg/item-bag.svg
+img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
     value: >-
@@ -18,6 +18,7 @@ system:
     custom: ''
     rules: '2014'
     revision: 1
+    book: GGtX
   uses:
     max: ''
     spent: 0
@@ -44,9 +45,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.1
   createdTime: 1726384660232
-  modifiedTime: 1726384660232
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: 1726555836437
+  lastModifiedBy: MVioF9x1qI1WYGx1
 _key: '!items!p28KVBoSXjEaONDi'
 
