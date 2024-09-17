@@ -28,7 +28,7 @@ system:
     chat: ''
   source:
     custom: ''
-    book: 'Frontiers of Eberron: Quickstone'
+    book: FoEQ
     rules: '2014'
     revision: 1
   uses:

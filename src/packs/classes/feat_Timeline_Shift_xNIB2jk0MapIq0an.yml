@@ -13,7 +13,7 @@ system:
       rest counts as a failure regardless of the result.</p>
     chat: ''
   source:
-    book: Giant Guide to Xen'drik
+    book: GGtX
     license: DMsGuild CCA
     custom: ''
     rules: '2014'

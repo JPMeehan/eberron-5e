@@ -8,7 +8,7 @@ system:
     value: <p>You can hold your breath for up to 15 minutes at a time.</p>
     chat: ''
   source:
-    book: Scales of Q'barra
+    book: SoQ
     page: Appendix
     custom: ''
     license: DMsGuild CCA

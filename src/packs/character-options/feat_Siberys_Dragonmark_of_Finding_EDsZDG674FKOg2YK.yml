@@ -12,7 +12,7 @@ system:
       is your spellcasting ability for this spell.</p>
     chat: ''
   source:
-    book: Exploring Eberron
+    book: ExE
     page: ''
     custom: ''
     license: DMsGuild CCA

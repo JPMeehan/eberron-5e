@@ -27,7 +27,7 @@ system:
   source:
     license: DMsGuild CCA
     custom: ''
-    book: Sarhain's Guide to the Silver Flame
+    book: SGttSF
     rules: '2014'
     revision: 1
   uses:

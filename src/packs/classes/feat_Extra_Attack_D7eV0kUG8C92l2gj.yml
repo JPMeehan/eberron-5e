@@ -9,7 +9,7 @@ system:
   source:
     custom: ''
     license: DMsGuild CCA
-    book: Exploring Eberron
+    book: ExE
     revision: 1
     rules: '2014'
   uses:

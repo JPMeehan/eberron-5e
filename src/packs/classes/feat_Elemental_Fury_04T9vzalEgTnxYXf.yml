@@ -44,7 +44,7 @@ system:
   source:
     license: DMsGuild CCA
     custom: ''
-    book: Exploring Eberron
+    book: ExE
     revision: 1
     rules: '2014'
   uses:

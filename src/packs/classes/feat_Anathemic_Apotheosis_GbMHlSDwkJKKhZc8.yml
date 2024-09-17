@@ -20,7 +20,7 @@ system:
   source:
     license: DMsGuild CCA
     custom: ''
-    book: Linvakri's Guide to Syrkarn
+    book: LGtS
     rules: '2014'
     revision: 1
   uses:

@@ -19,7 +19,7 @@ system:
       Spells table are added to the spell list of your spellcasting class.</p>
     chat: ''
   source:
-    book: 'Frontiers of Eberron: Quickstone'
+    book: FoEQ
     page: ''
     custom: ''
     license: ''

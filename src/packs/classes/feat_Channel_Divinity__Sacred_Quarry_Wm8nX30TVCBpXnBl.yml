@@ -20,7 +20,7 @@ system:
   source:
     license: DMsGuild CCA
     custom: ''
-    book: Giant Guide to Xen'drik
+    book: GGtX
     rules: '2014'
     revision: 1
   uses:

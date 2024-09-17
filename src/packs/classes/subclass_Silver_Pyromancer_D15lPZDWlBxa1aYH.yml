@@ -16,7 +16,7 @@ system:
   source:
     custom: ''
     license: DMsGuild CCA
-    book: Sarhain's Guide to the Silver Flame
+    book: SGttSF
     rules: '2014'
     revision: 1
   identifier: silver-pyromancer

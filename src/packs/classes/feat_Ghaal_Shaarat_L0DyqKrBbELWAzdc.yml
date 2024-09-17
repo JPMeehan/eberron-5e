@@ -26,7 +26,7 @@ system:
   source:
     custom: ''
     license: DMsGuild CCA
-    book: Exploring Eberron
+    book: ExE
     rules: '2014'
     revision: 1
   uses:

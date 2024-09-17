@@ -17,7 +17,7 @@ system:
       down), and regain all expended uses upon completing a long rest</p>
     chat: ''
   source:
-    book: Giant Guide to Xen'drik
+    book: GGtX
     license: DMsGuild CCA
     custom: ''
     rules: '2014'
