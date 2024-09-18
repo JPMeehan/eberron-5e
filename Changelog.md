@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1
+
+- Added spell lists for Medusa and Harpy, and empty ones for the classes
+- Implemented Stone Sovereign Spells
+
 ## 1.0.0
 
 - Updated minimum compatibility to v12 & D&D 4.0

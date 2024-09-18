@@ -5,7 +5,23 @@ _id: TI0EDvY6CcDmyNQw
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>The magic of your patron ensures you always have certain spells ready;
+      when you reach a Warlock level specified in the Stone Sovereign Spells
+      table, you thereafter always have the listed spells
+      prepared.</p><p></p><table><thead><tr><th><p>Warlock
+      Level</p></th><th><p>Prepared
+      Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p>Absorb Elements,
+      Earthbind, Earth Tremor,
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpikeGrowt]{Spike
+      Growth}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicCircl]{Magic
+      Circle},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]{Slow}</p></td></tr><tr><td><p>7</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneShape]{Stone
+      Shape},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0]{Stoneskin}</p></td></tr><tr><td><p>9</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBigbysHand]{Bigby's
+      Hand},
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWallofSton]{Wall
+      of Stone}</p></td></tr></tbody></table>
     chat: ''
   source:
     custom: ''
@@ -38,9 +54,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.1
   createdTime: 1726384649018
-  modifiedTime: 1726384649018
+  modifiedTime: 1726684116619
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!TI0EDvY6CcDmyNQw'
 

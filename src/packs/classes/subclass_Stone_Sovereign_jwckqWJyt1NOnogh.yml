@@ -2,7 +2,7 @@ folder: xDGJUgpISOArMeXK
 name: Stone Sovereign
 type: subclass
 _id: jwckqWJyt1NOnogh
-img: systems/dnd5e/icons/svg/items/subclass.svg
+img: icons/magic/earth/projectile-moonrock-asteroid.webp
 system:
   description:
     value: >-
@@ -77,10 +77,93 @@ system:
       level: 14
       title: Otherworldly Patron Feature
       hint: ''
+    - _id: XLvCy1wN71ClDvwl
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSpikeGrowt
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Stone Sovereign Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMagicCircl
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 5
+      title: Stone Sovereign Spells
+      hint: ''
+      _id: dPZPY4ZU2w3eMbMz
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplStoneShape
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 7
+      title: Stone Sovereign Spells
+      hint: ''
+      _id: 0JV0qieIjJsvtref
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBigbysHand
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplWallofSton
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Stone Sovereign Spells
+      hint: ''
+      _id: xUyNWXw3NtK3FQlo
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 effects: []
 sort: 500
 ownership:
@@ -93,9 +176,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.1
   createdTime: 1726384657537
-  modifiedTime: 1726384657537
+  modifiedTime: 1726684188229
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!jwckqWJyt1NOnogh'
 
