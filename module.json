@@ -181,6 +181,23 @@
       "flags": {}
     }
   ],
+  "flags": {
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.ubnOvx4hXrj3EnGd", 
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.fwc2pLRvRAlIatkB", 
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.ulv8D7SuI68zSFpo", 
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.5c6g8zCJMVLoUOvW", 
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.KlJm9T1LIpgVm5Yr", 
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.Ti2Dyqhah35jE33c", 
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.njBFwZiBfL7jPh71", 
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.HixDqUdtLtZGydlC", 
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.xNQ74oWdHe3A2XbW", 
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.HK1fgrBCPWF1Txa7", 
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.AxXgKIsEnNwKKwXk"
+      ]
+    }
+  },
   "packFolders": [
     {
       "name": "Eberron Community Content",

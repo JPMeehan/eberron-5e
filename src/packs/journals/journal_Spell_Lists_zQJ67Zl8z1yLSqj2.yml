@@ -1,0 +1,506 @@
+name: Spell Lists
+_id: zQJ67Zl8z1yLSqj2
+pages:
+  - sort: 100000
+    name: Ancestries
+    type: text
+    _id: nuifX4x0MBN77m24
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>The following ancestries have unique spell
+        lists</p><p>@UUID[Compendium.eberron-5e.ancestries.Item.JdJe4RlCzayDGRmS]{Harpy}</p><p>@UUID[Compendium.eberron-5e.ancestries.Item.qQzoMnyMTKVIZInY]{Medusa}</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.1
+      createdTime: 1726682526605
+      modifiedTime: 1726683115339
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!zQJ67Zl8z1yLSqj2.nuifX4x0MBN77m24'
+  - sort: 200000
+    name: Harpy
+    type: spells
+    _id: ubnOvx4hXrj3EnGd
+    system:
+      type: race
+      grouping: level
+      description:
+        value: >-
+          <p>If you have the Spellcasting or the Pact Magic class feature, the
+          spells on the Harpy Spells table are added to the spell list of your
+          spellcasting class. You can cast these spells using only Verbal
+          components in place of their usual components.</p>
+      spells:
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso
+        - Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion
+        - Compendium.dnd-players-handbook.spells.Item.phbsplCharmMonst
+        - Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe
+      unlinkedSpells:
+        - _id: 2oXqEeDd2o6NxvjF
+          name: Enemies Abound
+          system:
+            level: 3
+            school: enc
+          source:
+            book: XGtE
+            page: ''
+            custom: ''
+            uuid: ''
+      identifier: harpy
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.1
+      createdTime: 1726682548335
+      modifiedTime: 1726682764172
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!zQJ67Zl8z1yLSqj2.ubnOvx4hXrj3EnGd'
+  - sort: 200000
+    name: Medusa
+    type: spells
+    system:
+      type: race
+      grouping: level
+      description:
+        value: >-
+          <p>If you have the Spellcasting or the Pact Magic class feature, the
+          spells on the Medusa Spells table are added to the spell list of your
+          spellcasting class. You can cast these spells without Material
+          components.</p>
+      spells:
+        - Compendium.dnd-players-handbook.spells.Item.phbsplEnsnaringS
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHypnoticPa
+        - Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste
+        - Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0
+      unlinkedSpells: []
+      identifier: medusa
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: >-
+        Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.ubnOvx4hXrj3EnGd
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.1
+      createdTime: 1726682580485
+      modifiedTime: 1726682656786
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: fwc2pLRvRAlIatkB
+    _key: '!journal.pages!zQJ67Zl8z1yLSqj2.fwc2pLRvRAlIatkB'
+  - sort: 300000
+    name: Classes
+    type: text
+    _id: bZAwRG0tfHdkvB7b
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: <p>Spell lists for the core classes</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.1
+      createdTime: 1726682817743
+      modifiedTime: 1726683142770
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!zQJ67Zl8z1yLSqj2.bZAwRG0tfHdkvB7b'
+  - sort: 400000
+    name: Artificer
+    type: spells
+    _id: ulv8D7SuI68zSFpo
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells: []
+      unlinkedSpells: []
+      identifier: artificer
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.1
+      createdTime: 1726682826231
+      modifiedTime: 1726682836060
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!zQJ67Zl8z1yLSqj2.ulv8D7SuI68zSFpo'
+  - sort: 500000
+    name: Bard
+    type: spells
+    _id: 5c6g8zCJMVLoUOvW
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells: []
+      unlinkedSpells: []
+      identifier: bard
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.1
+      createdTime: 1726682951327
+      modifiedTime: 1726682958550
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!zQJ67Zl8z1yLSqj2.5c6g8zCJMVLoUOvW'
+  - sort: 600000
+    name: Cleric
+    type: spells
+    _id: KlJm9T1LIpgVm5Yr
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells: []
+      unlinkedSpells: []
+      identifier: cleric
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.1
+      createdTime: 1726682964983
+      modifiedTime: 1726682975917
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!zQJ67Zl8z1yLSqj2.KlJm9T1LIpgVm5Yr'
+  - sort: 700000
+    name: Druid
+    type: spells
+    _id: Ti2Dyqhah35jE33c
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells: []
+      unlinkedSpells: []
+      identifier: druid
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.1
+      createdTime: 1726682984511
+      modifiedTime: 1726682989431
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!zQJ67Zl8z1yLSqj2.Ti2Dyqhah35jE33c'
+  - sort: 800000
+    name: Paladin
+    type: spells
+    _id: njBFwZiBfL7jPh71
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells: []
+      unlinkedSpells: []
+      identifier: paladin
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.1
+      createdTime: 1726682999935
+      modifiedTime: 1726683007396
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!zQJ67Zl8z1yLSqj2.njBFwZiBfL7jPh71'
+  - sort: 900000
+    name: Ranger
+    type: spells
+    _id: HixDqUdtLtZGydlC
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells: []
+      unlinkedSpells: []
+      identifier: ranger
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.1
+      createdTime: 1726683015611
+      modifiedTime: 1726683026957
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!zQJ67Zl8z1yLSqj2.HixDqUdtLtZGydlC'
+  - sort: 1000000
+    name: Sorcerer
+    type: spells
+    _id: xNQ74oWdHe3A2XbW
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells: []
+      unlinkedSpells: []
+      identifier: sorcerer
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.1
+      createdTime: 1726683032946
+      modifiedTime: 1726683039183
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!zQJ67Zl8z1yLSqj2.xNQ74oWdHe3A2XbW'
+  - sort: 1100000
+    name: Warlock
+    type: spells
+    _id: HK1fgrBCPWF1Txa7
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells: []
+      unlinkedSpells: []
+      identifier: warlock
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.1
+      createdTime: 1726683046980
+      modifiedTime: 1726683059293
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!zQJ67Zl8z1yLSqj2.HK1fgrBCPWF1Txa7'
+  - sort: 1200000
+    name: Wizard
+    type: spells
+    _id: AxXgKIsEnNwKKwXk
+    system:
+      type: class
+      grouping: level
+      description:
+        value: ''
+      spells: []
+      unlinkedSpells: []
+      identifier: wizard
+    title:
+      show: true
+      level: 2
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.1
+      createdTime: 1726683063889
+      modifiedTime: 1726683097132
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!zQJ67Zl8z1yLSqj2.AxXgKIsEnNwKKwXk'
+folder: null
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.1
+  createdTime: 1726682520109
+  modifiedTime: 1726682520109
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!journal!zQJ67Zl8z1yLSqj2'
+

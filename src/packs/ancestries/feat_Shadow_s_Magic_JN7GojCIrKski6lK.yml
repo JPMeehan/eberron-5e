@@ -11,11 +11,11 @@ system:
       spellcasting class. You can cast these spells using only Verbal components
       in place of their usual components.</p><h5>Harpy
       Spells</h5><table><thead><tr><th>Spell
-      Level</th><th>Spell</th></tr></thead><tbody><tr><td><p>1</p></td><td><p>Charm
-      Person</p></td></tr><tr><td><p>2</p></td><td><p>Suggestion</p></td></tr><tr><td><p>3</p></td><td><p>Enemies
-      Abound</p></td></tr><tr><td><p>4</p></td><td><p>Charm
-      Monster</p></td></tr><tr><td><p>5</p></td><td><p>Dominate
-      Person</p></td></tr></tbody></table>
+      Level</th><th>Spell</th></tr></thead><tbody><tr><td><p>1</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm
+      Person}</p></td></tr><tr><td><p>2</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion}</p></td></tr><tr><td><p>3</p></td><td><p>Enemies
+      Abound</p></td></tr><tr><td><p>4</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmMonst]{Charm
+      Monster}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe]{Dominate
+      Person}</p></td></tr></tbody></table>
     chat: ''
   source:
     custom: ''
@@ -52,7 +52,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.1
   createdTime: 1726384608094
-  modifiedTime: 1726552002809
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: 1726682698259
+  lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!JN7GojCIrKski6lK'
 
