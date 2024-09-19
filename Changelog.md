@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- Implemented Frontiers of Eberron: Quickstone Tieflings
+
 ## 1.0.1
 
 - Added spell lists for Medusa and Harpy, and empty ones for the classes
