@@ -1,7 +1,7 @@
 folder: lDMG6f6gTK8V0OFD
 name: Sakah Tiefling
 type: race
-img: systems/dnd5e/icons/svg/items/race.svg
+img: icons/skills/melee/blade-tip-acid-poison-green.webp
 system:
   description:
     value: >-
@@ -65,32 +65,92 @@ system:
     - _id: yY0nK85AnUouwr3f
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00
         optional: false
-        spell: null
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
       value: {}
       level: 1
       title: Fiendish Legacy
-      hint: ''
+      hint: >-
+        Intelligence, Wisdom, or Charisma is your spellcasting ability for the
+        spells you cast with this trait.
     - _id: WUw7XpjgvOqDedlw
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe
         optional: false
-        spell: null
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          preparation: always
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
       value: {}
       level: 3
       title: Fiendish Legacy
-      hint: ''
+      hint: >-
+        Intelligence, Wisdom, or Charisma is your spellcasting ability for the
+        spells you cast with this trait.
     - _id: 6XBLvXoRiNBaLcSA
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou
         optional: false
-        spell: null
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          preparation: always
+          uses:
+            max: '1'
+            per: lr
+            requireSlot: false
       value: {}
       level: 5
       title: Fiendish Legacy
+      hint: >-
+        Intelligence, Wisdom, or Charisma is your spellcasting ability for the
+        spells you cast with this trait.
+    - _id: YENpPevreTnGrRVK
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg
+        optional: false
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 0
+      title: Otherworldly Presence
       hint: ''
   movement:
     burrow: null
@@ -122,9 +182,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384610180
-  modifiedTime: 1726384610180
+  modifiedTime: 1726717526610
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: q1qQpFAoPmCV2i1J
 _key: '!items!q1qQpFAoPmCV2i1J'

@@ -22,11 +22,20 @@
         "id": "prime-psionics",
         "type": "module",
         "compatibility": {}
+      },
+      {
+        "id": "dnd-players-handbook",
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },
-  "esmodules": ["eberron-5e.mjs"],
-  "styles": ["eberron-5e.css"],
+  "esmodules": [
+    "eberron-5e.mjs"
+  ],
+  "styles": [
+    "eberron-5e.css"
+  ],
   "languages": [
     {
       "lang": "en",
@@ -54,108 +63,99 @@
       "label": "Ancestries",
       "path": "packs/ancestries",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
       "name": "backgrounds",
       "label": "Backgrounds",
       "path": "packs/backgrounds",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
       "name": "classes",
       "label": "Classes",
       "path": "packs/classes",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
       "name": "spells",
       "label": "Spells",
       "path": "packs/spells",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
       "name": "journals",
       "label": "Journals",
       "path": "packs/journals",
       "type": "JournalEntry",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
       "name": "macros",
       "label": "Macros",
       "path": "packs/macros",
       "type": "Macro",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
       "name": "tables",
       "label": "Tables",
       "path": "packs/tables",
       "type": "RollTable",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
       "name": "equipment",
       "label": "Equipment",
       "path": "packs/equipment",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
       "name": "bestiary",
       "label": "Bestiary",
       "path": "packs/bestiary",
       "type": "Actor",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
       "name": "monster-features",
@@ -173,27 +173,26 @@
       "label": "Character Options",
       "path": "packs/character-options",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     }
   ],
   "flags": {
     "dnd5e": {
       "spellLists": [
-        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.ubnOvx4hXrj3EnGd", 
-        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.fwc2pLRvRAlIatkB", 
-        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.ulv8D7SuI68zSFpo", 
-        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.5c6g8zCJMVLoUOvW", 
-        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.KlJm9T1LIpgVm5Yr", 
-        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.Ti2Dyqhah35jE33c", 
-        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.njBFwZiBfL7jPh71", 
-        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.HixDqUdtLtZGydlC", 
-        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.xNQ74oWdHe3A2XbW", 
-        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.HK1fgrBCPWF1Txa7", 
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.ubnOvx4hXrj3EnGd",
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.fwc2pLRvRAlIatkB",
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.ulv8D7SuI68zSFpo",
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.5c6g8zCJMVLoUOvW",
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.KlJm9T1LIpgVm5Yr",
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.Ti2Dyqhah35jE33c",
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.njBFwZiBfL7jPh71",
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.HixDqUdtLtZGydlC",
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.xNQ74oWdHe3A2XbW",
+        "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.HK1fgrBCPWF1Txa7",
         "Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.AxXgKIsEnNwKKwXk"
       ]
     }
@@ -202,7 +201,7 @@
     {
       "name": "Eberron Community Content",
       "sorting": "m",
-      "color": "#A52A2A",
+      "color": "#a52a2a",
       "packs": [
         "ancestries",
         "backgrounds",
@@ -215,7 +214,8 @@
         "tables",
         "macros",
         "journals"
-      ]
+      ],
+      "folders": []
     }
   ],
   "download": "#{DOWNLOAD}#",

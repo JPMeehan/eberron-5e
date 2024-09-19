@@ -11,8 +11,8 @@ system:
       table, you thereafter always have the listed spells
       prepared.</p><p></p><table><thead><tr><th><p>Warlock
       Level</p></th><th><p>Prepared
-      Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p>Absorb Elements,
-      Earthbind, Earth Tremor,
+      Spells</p></th></tr></thead><tbody><tr><td><p>3</p></td><td><p>Absorb
+      Elements, Earthbind, Earth Tremor,
       @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpikeGrowt]{Spike
       Growth}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicCircl]{Magic
       Circle},

@@ -1,0 +1,67 @@
+name: Fiendish Legacy, Shavaran
+type: feat
+img: icons/magic/symbols/mask-yellow-orange.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You are the recipient of a legacy that grants you supernatural
+      abilities.</p><p>When you reach character levels 3 and 5, you learn a
+      higher-level spell, as shown on the table. You always have that spell
+      prepared. You can cast it once without a spell slot, and you regain the
+      ability to cast it in that way when you finish a Long Rest. You can also
+      cast the spell using any spell slots you have of the appropriate level.
+      Intelligence, Wisdom, or Charisma is your spellcasting ability for the
+      spells you cast with this trait (choose the ability when you select the
+      legacy).</p><table><caption>Dolurrhi Legacy
+      Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
+      5</td></tr></thead><tbody><tr><td>You have training with Light and Medium
+      armor and with Shields. You also know the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBladeWard0]{Blade
+      Ward}
+      cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeroism000]{Heroism}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW]{Spiritual
+      Weapon}</td></tr></tbody></table><section class="secret"
+      id="secret-AZFLMUN7pgAxMG7Q"><p><strong>Foundry Note</strong></p><p>The
+      Resistance and spells are granted to you automatically and you will be
+      prompted to choose the spellcasting ability during
+      advancement.</p></section>
+    chat: ''
+  source:
+    revision: 1
+    rules: '2024'
+    book: FoEQ
+    page: ''
+    custom: ''
+    license: ''
+  enchant: {}
+  type:
+    value: race
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Tiefling
+  identifier: fiendish-legacy-abyssal
+effects: []
+folder: DR737zqI1niJArQF
+flags: {}
+_stats:
+  compendiumSource: Compendium.eberron-5e.ancestries.Item.1TXCaHdYR1MbOs2N
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.2
+  createdTime: 1726715481790
+  modifiedTime: 1726717729905
+  lastModifiedBy: q6n1efCGVB98drEQ
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+sort: 0
+_id: tqjaecQ9CMQzjaeH
+_key: '!items!tqjaecQ9CMQzjaeH'
+
