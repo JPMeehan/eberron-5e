@@ -20,7 +20,9 @@ system:
       legacy).</p><table><caption>Fernian Legacy
       Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
       5</td></tr></thead><tbody><tr><td>You have Resistance to
-      &amp;Reference[Fire] damage. You also know the <em>Control Flames</em>
+      &amp;Reference[Fire] damage. You also know the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplProduceFla]{Produce
+      Flame}
       cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBurningHan]{Burning
       Hands}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeatMetal0]{Heat
       Metal}</td></tr></tbody></table><section class="secret"
@@ -55,7 +57,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726715467990
-  modifiedTime: 1726717699199
+  modifiedTime: 1726812274176
   lastModifiedBy: q6n1efCGVB98drEQ
 ownership:
   default: 0

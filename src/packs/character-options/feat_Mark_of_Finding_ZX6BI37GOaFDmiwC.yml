@@ -38,7 +38,7 @@ system:
     recovery: []
   type:
     value: feat
-    subtype: ''
+    subtype: origin
   prerequisites:
     level: null
   properties:
@@ -103,9 +103,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384680398
-  modifiedTime: 1726384680398
+  modifiedTime: 1726813580481
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: ZX6BI37GOaFDmiwC
 _key: '!items!ZX6BI37GOaFDmiwC'

@@ -78,13 +78,26 @@ system:
     - _id: yY0nK85AnUouwr3f
       type: ItemGrant
       configuration:
-        items: []
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplProduceFla
         optional: false
-        spell: null
+        spell:
+          ability:
+            - int
+            - wis
+            - cha
+          preparation: ''
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
       value: {}
       level: 1
       title: Fiendish Legacy
-      hint: ''
+      hint: >-
+        Intelligence, Wisdom, or Charisma is your spellcasting ability for the
+        spells you cast with this trait.
     - _id: WUw7XpjgvOqDedlw
       type: ItemGrant
       configuration:
@@ -105,7 +118,9 @@ system:
       value: {}
       level: 3
       title: Fiendish Legacy
-      hint: ''
+      hint: >-
+        Intelligence, Wisdom, or Charisma is your spellcasting ability for the
+        spells you cast with this trait.
     - _id: 6XBLvXoRiNBaLcSA
       type: ItemGrant
       configuration:
@@ -182,7 +197,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384606882
-  modifiedTime: 1726717062718
+  modifiedTime: 1726812228991
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: 1HWLDFwvfr6l57Km
 _key: '!items!1HWLDFwvfr6l57Km'

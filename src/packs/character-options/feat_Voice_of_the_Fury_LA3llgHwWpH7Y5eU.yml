@@ -16,7 +16,12 @@ system:
       can cast them in this way again. You can also cast these spells using any
       spell slots you have of the appropriate level.</p><p>Your spellcasting
       ability for these spells is the same as the spellcasting ability you chose
-      for your Harpy’s Charms trait.</p>
+      for your Harpy’s Charms trait.</p><table><thead><tr><th><p>Character
+      Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>4</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm
+      Person}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion}</p></td></tr><tr><td><p>9</p></td><td><p><em>Enemies
+      Abound</em></p></td></tr><tr><td><p>13</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmMonst]{Charm
+      Monster}</p></td></tr><tr><td><p>17</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe]{Dominate
+      Person}</p></td></tr></tbody></table>
     chat: ''
   source:
     custom: ''
@@ -31,29 +36,133 @@ system:
     recovery: []
   type:
     value: feat
-    subtype: ''
+    subtype: general
   prerequisites:
     level: 4
   properties: []
   requirements: Harpy
   identifier: voice-of-the-fury
-  activities: {}
+  activities:
+    boAYxtz1UleGiGrd:
+      type: save
+      name: Charm Person
+      _id: boAYxtz1UleGiGrd
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: hour
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: JG82zjzHFQqoVsa6
+          onSave: false
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability: wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects:
+        - JG82zjzHFQqoVsa6
   enchant: {}
-effects: []
+effects:
+  - name: Charm Person
+    origin: Compendium.eberron-5e.character-options.Item.LA3llgHwWpH7Y5eU
+    duration:
+      rounds: 1
+      startTime: null
+      seconds: 3600
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: false
+    flags:
+      dnd5e: {}
+    img: systems/dnd5e/icons/svg/statuses/charmed.svg
+    _id: JG82zjzHFQqoVsa6
+    type: base
+    system: {}
+    changes: []
+    description: >-
+      <p>the target has the &amp;Reference[charmed apply=false] condition until
+      the spell ends or until you or your allies damage it. The Charmed creature
+      is Friendly to you. When the spell ends, the target knows it was Charmed
+      by you.</p>
+    tint: '#ffffff'
+    transfer: false
+    statuses:
+      - charmed
+    sort: 0
+    _stats:
+      compendiumSource: >-
+        Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso.ActiveEffect.78JcD7wFiSCOfmns
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.2
+      createdTime: 1726812857369
+      modifiedTime: 1726812913098
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!LA3llgHwWpH7Y5eU.JG82zjzHFQqoVsa6'
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384680167
-  modifiedTime: 1726384680167
+  modifiedTime: 1726813680529
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!LA3llgHwWpH7Y5eU'
 

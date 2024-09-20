@@ -3,6 +3,7 @@
 ## 1.0.2
 
 - Implemented Frontiers of Eberron: Quickstone Tieflings
+- Improved details on Frontiers of Eberron feats, such as adding the spell lists for the Druid feats
 
 ## 1.0.1
 

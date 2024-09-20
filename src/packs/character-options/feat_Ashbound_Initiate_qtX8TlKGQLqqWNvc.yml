@@ -9,14 +9,21 @@ system:
       <p>You have learned a certain number of the secrets and techniques of the
       Ashbound druidic order. You gain the following
       benefits.</p><p><em><strong>Ability Score Increase.</strong></em> Increase
-      your Wisdom or Charisma score by 1, to a maximum of 20.
-      </p><p><strong>Ashbound Proficiency.</strong> You gain proficiency in the
-      Intimidation skill.</p><p><em><strong>Arcane Enmity.</strong></em> When a
-      creature you can see casts a spell, you have Advantage on attack rolls
-      against that creature until the end of your next
+      your Wisdom or Charisma score by 1, to a maximum of
+      20.</p><p><strong>Ashbound Proficiency.</strong> You gain proficiency in
+      the Intimidation skill.</p><p><em><strong>Arcane Enmity.</strong></em>
+      When a creature you can see casts a spell, you have Advantage on attack
+      rolls against that creature until the end of your next
       turn.</p><p><em><strong>Ashbound Spells.</strong></em> If you have the
       Spellcasting or the Pact Magic class feature, the spells on the Ashbound
-      Spells table are added to the spell list of your spellcasting class.</p>
+      Spells table are added to the spell list of your spellcasting
+      class.</p><table><thead><tr><th><p>Spell
+      Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Guiding
+      Bolt}</p></td></tr><tr><td><p>2nd</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShiningSmi]{Shining
+      Smite}</p></td></tr><tr><td><p>3rd</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti]{Nondetection}</p></td></tr><tr><td><p>4th</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAuraofPuri]{Aura
+      of
+      Purity}</p></td></tr><tr><td><p>5th</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCircleofPo]{Circle
+      of Power}</p></td></tr></tbody></table>
     chat: ''
   source:
     custom: ''
@@ -31,7 +38,7 @@ system:
     recovery: []
   type:
     value: feat
-    subtype: ''
+    subtype: general
   prerequisites:
     level: 4
   properties: []
@@ -51,9 +58,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384680700
-  modifiedTime: 1726384680700
+  modifiedTime: 1726813567980
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!qtX8TlKGQLqqWNvc'
 

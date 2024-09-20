@@ -19,7 +19,11 @@ system:
       also affect Fey.</p><p><strong>Greensinger Spells.</strong> If you have
       the Spellcasting or the Pact Magic class feature, the spells on the
       Greensinger Spells table are added to the spell list of your spellcasting
-      class</p>
+      class</p><table><thead><tr><th><p>Spell
+      Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTashasHide]{Tasha's
+      Hideous
+      Laughter}</p></td></tr><tr><td><p>2nd</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnthrall00]{Enthrall}</p></td></tr><tr><td><p>3rd</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMajorImage]{Major
+      Image}</p></td></tr><tr><td><p>4th</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCompulsion]{Compulsion}</p></td></tr><tr><td><p>5th</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMislead000]{Mislead}</p></td></tr></tbody></table>
     chat: ''
   source:
     custom: ''
@@ -34,7 +38,7 @@ system:
     recovery: []
   type:
     value: feat
-    subtype: ''
+    subtype: general
   prerequisites:
     level: 4
   properties: []
@@ -54,9 +58,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384680017
-  modifiedTime: 1726384680017
+  modifiedTime: 1726813644402
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!COOBEFPbKw5DycHF'
 

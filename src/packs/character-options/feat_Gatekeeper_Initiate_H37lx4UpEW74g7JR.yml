@@ -16,7 +16,14 @@ system:
       or a spell cast by an Aberration, you can roll 1d4 and add it to your
       saving throw.</p><p><strong>Gatekeeper Spells.</strong> If you have the
       Spellcasting or the Pact Magic class feature, the spells on the Gatekeeper
-      Spells table are added to the spell list of your spellcasting class.</p>
+      Spells table are added to the spell list of your spellcasting
+      class.</p><table><thead><tr><th><p>Spell
+      Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil]{Detect
+      Evil and
+      Good}</p></td></tr><tr><td><p>2nd</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWardingBon]{Warding
+      Bond}</p></td></tr><tr><td><p>3rd</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicCircl]{Magic
+      Circle}</p></td></tr><tr><td><p>4th</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBanishment]{Banishment}</p></td></tr><tr><td><p>5th</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelEvil]{Dispel
+      Evil and Good}</p></td></tr></tbody></table>
     chat: ''
   source:
     book: FoEQ
@@ -31,7 +38,7 @@ system:
     recovery: []
   type:
     value: feat
-    subtype: ''
+    subtype: general
   prerequisites:
     level: 4
   properties: []
@@ -51,9 +58,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384680128
-  modifiedTime: 1726384680128
+  modifiedTime: 1726813640139
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!H37lx4UpEW74g7JR'
 

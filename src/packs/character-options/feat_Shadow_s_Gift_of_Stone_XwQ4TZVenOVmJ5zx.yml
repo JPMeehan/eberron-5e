@@ -16,7 +16,13 @@ system:
       before you can cast them in this way again. You can also cast these spells
       using any spell slots you have of the appropriate level.</p><p>Your
       spellcasting ability for these spells is the same as the spellcasting
-      ability you chose for your Petrifying Gaze trait.</p>
+      ability you chose for your Petrifying Gaze
+      trait.</p><table><thead><tr><th><p>Spell
+      Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>4</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnsnaringS]{Ensnaring
+      Strike}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold
+      Person}</p></td></tr><tr><td><p>9</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHypnoticPa]{Hypnotic
+      Pattern}</p></td></tr><tr><td><p>13</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0]{Stoneskin}</p></td></tr><tr><td><p>17</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Hold
+      Monster}</p></td></tr></tbody></table>
     chat: ''
   source:
     book: FoEQ
@@ -31,29 +37,146 @@ system:
     recovery: []
   type:
     value: feat
-    subtype: ''
+    subtype: general
   prerequisites:
     level: 4
   properties: []
   requirements: Medusa
   identifier: shadows-gift-of-stone
-  activities: {}
+  activities:
+    Je8Eo6xlsRb0QrrS:
+      type: save
+      name: Ensnaring Strike
+      _id: Je8Eo6xlsRb0QrrS
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: Immediately after hitting a creature with a weapon
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: true
+        override: false
+        value: '1'
+      effects:
+        - _id: 3Gr2061aNvVb3QnG
+          onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '1'
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 6
+            bonus: ''
+            types:
+              - piercing
+            scaling:
+              number: 1
+        onSave: half
+      save:
+        ability: str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects:
+        - 3Gr2061aNvVb3QnG
   enchant: {}
-effects: []
+effects:
+  - name: Ensnared
+    origin: Compendium.eberron-5e.character-options.Item.XwQ4TZVenOVmJ5zx
+    duration:
+      rounds: null
+      startTime: null
+      seconds: 60
+      combat: null
+      turns: null
+      startRound: null
+      startTurn: null
+    disabled: false
+    flags:
+      dnd5e: {}
+    img: icons/magic/nature/root-vine-entangled-hand.webp
+    _id: 3Gr2061aNvVb3QnG
+    type: base
+    system: {}
+    changes: []
+    description: >-
+      <p><span style="font-family:Signika, sans-serif">The target has the
+      &amp;Reference[restrained apply=false] condition until the spell
+      ends.</span></p><p><span style="font-family:Signika, sans-serif">While
+      Restrained, the target takes [[/damage 1d6 type=piercing]] (plus 1d6 per
+      spell slot level above 1) damage at the start of each of its turns. The
+      target or a creature within reach of it can take an action to make a
+      [[/check ability=str skill=ath]] check against your spell save DC. On a
+      success, the spell ends.</span></p>
+    tint: '#ffffff'
+    transfer: false
+    statuses:
+      - restrained
+    sort: 0
+    _stats:
+      compendiumSource: >-
+        Compendium.dnd-players-handbook.spells.Item.phbsplEnsnaringS.ActiveEffect.tFGMG3cjQTEeAhv2
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.2
+      createdTime: 1726813052706
+      modifiedTime: 1726813052706
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!XwQ4TZVenOVmJ5zx.3Gr2061aNvVb3QnG'
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384680383
-  modifiedTime: 1726384680383
+  modifiedTime: 1726813127680
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!XwQ4TZVenOVmJ5zx'
 
