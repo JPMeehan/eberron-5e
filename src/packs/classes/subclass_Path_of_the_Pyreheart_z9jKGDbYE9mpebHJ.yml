@@ -2,14 +2,14 @@ folder: a637tbYcpKtbT65D
 name: Path of the Pyreheart
 type: subclass
 _id: z9jKGDbYE9mpebHJ
-img: icons/svg/item-bag.svg
+img: icons/magic/fire/dagger-rune-enchant-flame-strong-red.webp
 system:
   description:
     value: >-
       <p>Whether through the ancestry of an efreet, a deal with a demon, or an
       elemental influence, those on the Path of the Pyreheart draw from a very
       real inner fire. These barbarians summon flames that sear their enemies
-      and smolder within superheated veins.</p><p> Pyrehearts can draw from a
+      and smolder within superheated veins.</p><p>Pyrehearts can draw from a
       number of different sources ranging from the demonic to the artificial. A
       Warforged might possess an inner furnace or be imbued with a bound
       elemental, casting forth flames like the famous Lord of Blades. The
@@ -81,7 +81,8 @@ system:
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 effects: []
 sort: 500
 ownership:
@@ -93,9 +94,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384665447
-  modifiedTime: 1726384665447
+  modifiedTime: 1726949596242
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!z9jKGDbYE9mpebHJ'
 

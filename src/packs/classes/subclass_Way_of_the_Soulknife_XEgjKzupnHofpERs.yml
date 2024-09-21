@@ -2,10 +2,16 @@ folder: ZD1x1MWliERGcLD7
 name: Way of the Soulknife
 type: subclass
 _id: XEgjKzupnHofpERs
-img: icons/svg/item-bag.svg
+img: icons/magic/fire/dagger-rune-enchant-flame-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Monks who adhere to the Way of the Soulknife meditate on the nature of
+      the self and reality, and learn to cut through all perceived barriers,
+      both within themselves and between others.</p><p>By recognizing these
+      barriers within themselves, these “soulknives” can remove the borders
+      between mind, soul, and body, allowing them to use their ki power to
+      physically manifest blades of pure psionic energy from their fists.</p>
     chat: ''
   source:
     custom: ''
@@ -19,7 +25,8 @@ system:
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 effects: []
 sort: 500
 ownership:
@@ -31,9 +38,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384651078
-  modifiedTime: 1726384651078
+  modifiedTime: 1726949672579
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!XEgjKzupnHofpERs'
 

@@ -2,7 +2,7 @@ folder: kUvBIUwfNYm7gPEU
 name: Circle of the Behemoth
 type: subclass
 _id: nJEHKHM0LrZj6siq
-img: icons/svg/item-bag.svg
+img: icons/creatures/abilities/paw-print-tan.webp
 system:
   description:
     value: >-
@@ -12,14 +12,14 @@ system:
       be of the power of nature? Many find purpose in living alongside whales,
       dinosaurs, and other immense beasts, protecting them from harmful poaching
       and unnatural threats. In doing so, they gain insights into their roles in
-      nature - and learn to take on their forms to terrifying effect.</p><p>
-      Behemoth druids can be found wherever such creatures congregate, from the
-      mountain aeries of giant eagles, to the vast plains on which sauropods
-      roam. Some are more than happy to welcome visitors, as long as they agree
-      not to disturb the titans before them. Others are brutal and wild,
-      tracking prey alongside powerful dinosaurs and predatory beasts. Perhaps
-      the strangest are those who live in the Astral Plane, and ride beneath the
-      stars with celestial kindori whales.</p>
+      nature - and learn to take on their forms to terrifying
+      effect.</p><p>Behemoth druids can be found wherever such creatures
+      congregate, from the mountain aeries of giant eagles, to the vast plains
+      on which sauropods roam. Some are more than happy to welcome visitors, as
+      long as they agree not to disturb the titans before them. Others are
+      brutal and wild, tracking prey alongside powerful dinosaurs and predatory
+      beasts. Perhaps the strangest are those who live in the Astral Plane, and
+      ride beneath the stars with celestial kindori whales.</p>
     chat: ''
   source:
     book: GGtX
@@ -97,7 +97,8 @@ system:
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 effects: []
 sort: 500
 ownership:
@@ -109,9 +110,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384659465
-  modifiedTime: 1726384659465
+  modifiedTime: 1726949299633
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!nJEHKHM0LrZj6siq'
 

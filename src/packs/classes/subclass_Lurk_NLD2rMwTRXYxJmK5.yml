@@ -2,10 +2,28 @@ folder: bq4voQA2XLNFSddj
 name: Lurk
 type: subclass
 _id: NLD2rMwTRXYxJmK5
-img: icons/svg/item-bag.svg
+img: icons/magic/control/fear-fright-shadow-monster-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Lurks are silent killers that have harnessed the cold logic of their
+      inner id to hone their deadly skills. The id, the urge for survival, to
+      rationalize away all obstacles to your continued existence, is a primal
+      aspect of the psyche buried under moral and ethical layers of the ego and
+      superego.</p><p>Not all lurks are amoral, instead some merely use the
+      ruthless rationality that lies within everyone. Heroic lurks use this cold
+      logic in the pursuit of altruistic goals, and still others practice a
+      philosophy of “enlightened self-interest,” recognizing cooperation is more
+      likely to result in success than pure sociopathy. But all lurks tap into
+      this dark well of their mind to manifest their powers.</p><p>The Dreaming
+      Dark employs lurks as merciless scalpels, to execute the plans of their
+      quori masters. The Kalashtar shadow watchers, ever fighting their secret
+      war against the Dreaming Dark, likewise employ the talents unique to the
+      lurk to help their people survive the world of darkness, guiding them
+      toward the Great Light ahead. However, the most prevalent lurks in
+      Khorvaire are changeling agents of the Cabinet of Faces, tapping into the
+      psionic potential hidden in their race to sneak into places unseen and
+      pull the strings of history from the shadows.</p>
     chat: ''
   source:
     custom: ''
@@ -17,9 +35,10 @@ system:
   classIdentifier: rogue
   advancement: []
   spellcasting:
-    progression: none
+    progression: thirdp
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 effects: []
 sort: 500
 ownership:
@@ -31,9 +50,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384646629
-  modifiedTime: 1726384646629
+  modifiedTime: 1726949539457
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!NLD2rMwTRXYxJmK5'
 

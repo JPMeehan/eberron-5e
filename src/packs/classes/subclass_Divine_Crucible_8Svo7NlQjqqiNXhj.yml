@@ -2,7 +2,7 @@ folder: JwDbpGniHs8ne6JR
 name: Divine Crucible
 type: subclass
 _id: 8Svo7NlQjqqiNXhj
-img: icons/svg/item-bag.svg
+img: icons/magic/holy/barrier-shield-winged-blue.webp
 system:
   description:
     value: >-
@@ -11,16 +11,16 @@ system:
       their craft. When heroes seek out blessed weapons to smite evil, it’s
       Crucibles who provide. It is said that each one places a divine spark in
       their masterpieces; in battle, they can ignite these sparks, causing the
-      relics to flare with holy fire, and bolster their wielders.</p><p>
-      Crucibles can be found across Eberron, serving the Silver Flame, or gods
-      of the forge such as Onatar. The Ghaash’kala and Shulassakar both rely on
-      skilled Crucibles to forge and shape songsilver - the unbreakable essence
-      of the couatl. In Xen’drik, the fire giants of the Torch of Progress see
-      the silver flame as a force for peace and enlightenment, and create items
-      to support the people. Their kin within the hidden city of Daomon once
-      powered their forges with the Fernian fires of Onatar, creating sacred
-      relics of the Sovereigns - though the Shattering has scattered their works
-      to the ashes of time</p>
+      relics to flare with holy fire, and bolster their
+      wielders.</p><p>Crucibles can be found across Eberron, serving the Silver
+      Flame, or gods of the forge such as Onatar. The Ghaash’kala and
+      Shulassakar both rely on skilled Crucibles to forge and shape songsilver -
+      the unbreakable essence of the couatl. In Xen’drik, the fire giants of the
+      Torch of Progress see the silver flame as a force for peace and
+      enlightenment, and create items to support the people. Their kin within
+      the hidden city of Daomon once powered their forges with the Fernian fires
+      of Onatar, creating sacred relics of the Sovereigns - though the
+      Shattering has scattered their works to the ashes of time</p>
     chat: ''
   source:
     book: GGtX
@@ -101,7 +101,8 @@ system:
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 effects: []
 sort: 500
 ownership:
@@ -113,9 +114,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384641102
-  modifiedTime: 1726384641102
+  modifiedTime: 1726949422602
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!8Svo7NlQjqqiNXhj'
 
