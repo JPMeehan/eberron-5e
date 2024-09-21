@@ -29,7 +29,69 @@ system:
   properties: []
   requirements: College of Wands 3
   identifier: at-your-fingertips
-  activities: {}
+  activities:
+    WKi7MXMHFQEvHxyn:
+      type: damage
+      _id: WKi7MXMHFQEvHxyn
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: >-
+          You hit a creature with a Bard cantrip or a creature fails a saving
+          throw against one of your Bard cantrips
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbbrdBardicInsp
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.college-of-wands.finger'
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
 effects: []
 sort: 3000
@@ -37,15 +99,19 @@ ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384648718
-  modifiedTime: 1726384648718
+  modifiedTime: 1726896494682
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!SMJXpt9gRC2sf2LZ'
 

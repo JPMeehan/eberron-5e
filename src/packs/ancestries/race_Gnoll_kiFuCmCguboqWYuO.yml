@@ -1,7 +1,7 @@
 folder: vMN3YDIaP3zxQ9kp
 name: Gnoll
 type: race
-img: systems/dnd5e/icons/svg/items/race.svg
+img: icons/magic/symbols/mask-metal-silver-white.webp
 system:
   description:
     value: >-
@@ -119,9 +119,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384609920
-  modifiedTime: 1726384609920
+  modifiedTime: 1726896021269
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: kiFuCmCguboqWYuO
 sort: 400000

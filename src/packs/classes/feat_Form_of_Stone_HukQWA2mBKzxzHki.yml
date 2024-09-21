@@ -24,9 +24,11 @@ system:
     rules: '2014'
     revision: 1
   uses:
-    max: ''
+    max: '1'
     spent: 0
-    recovery: []
+    recovery:
+      - period: sr
+        type: recoverAll
   type:
     value: class
     subtype: ''
@@ -35,23 +37,132 @@ system:
   properties: []
   requirements: Stone Sovereign 6
   identifier: form-of-stone
-  activities: {}
+  activities:
+    7S3b1o7Cs0vuKBel:
+      type: utility
+      _id: 7S3b1o7Cs0vuKBel
+      sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: You take damage
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: round
+        concentration: false
+        override: false
+        value: '1'
+      effects:
+        - _id: crPIWWKBMD0QuaUP
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects:
+        - crPIWWKBMD0QuaUP
   enchant: {}
-effects: []
+effects:
+  - name: Form of Stone
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    origin: Compendium.eberron-5e.classes.Item.HukQWA2mBKzxzHki
+    transfer: false
+    _id: crPIWWKBMD0QuaUP
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.di.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.di.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.di.value
+        mode: 2
+        value: slashing
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>As a Reaction when you take damage, you can give yourself the Petrified
+      condition until the start of your next turn. The Petrified condition
+      applies before you take the triggering damage, possibly granting
+      Resistance or Immunity to that damage. When the Petrified condition ends,
+      you can choose to emerge from a stone surface into an unoccupied space you
+      can see within 30 feet of yourself.</p>
+    tint: '#ffffff'
+    statuses:
+      - petrified
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.2
+      createdTime: 1726900000278
+      modifiedTime: 1726900174053
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!HukQWA2mBKzxzHki.crPIWWKBMD0QuaUP'
 sort: 6000
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384644749
-  modifiedTime: 1726384644749
+  modifiedTime: 1726900048572
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!HukQWA2mBKzxzHki'
 

@@ -2,7 +2,7 @@ folder: VJiwhUHPrOwO8EXM
 name: Bite
 type: weapon
 _id: jHIeIMwoneNBu0M9
-img: systems/dnd5e/icons/svg/items/weapon.svg
+img: icons/creatures/abilities/fangs-teeth-bite.webp
 system:
   description:
     value: >-
@@ -38,7 +38,7 @@ system:
   range:
     value: null
     long: null
-    units: ''
+    units: ft
     reach: null
   uses:
     max: ''
@@ -58,13 +58,15 @@ system:
         number: null
         formula: ''
     base:
-      number: null
-      denomination: null
-      types: []
+      number: 1
+      denomination: 4
+      types:
+        - piercing
       custom:
         enabled: false
       scaling:
         number: 1
+      bonus: ''
   armor:
     value: null
   hp:
@@ -73,7 +75,7 @@ system:
     dt: null
     conditions: ''
   type:
-    value: simpleM
+    value: natural
     baseItem: ''
   magicalBonus: null
   properties: []
@@ -122,6 +124,7 @@ system:
         includeBase: true
         parts: []
   ammunition: {}
+  mastery: ''
 effects: []
 sort: 0
 ownership:
@@ -136,9 +139,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384609771
-  modifiedTime: 1726384609771
+  modifiedTime: 1726895908202
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!jHIeIMwoneNBu0M9'
 

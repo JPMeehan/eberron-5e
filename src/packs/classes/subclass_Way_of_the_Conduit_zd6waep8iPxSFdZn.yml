@@ -76,10 +76,76 @@ system:
       level: 3
       title: Monastic Tradition Feature
       type: ItemGrant
+    - _id: 4BmJBvJim3BY2j6j
+      type: ScaleValue
+      configuration:
+        identifier: conflict
+        type: number
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 1
+          '5':
+            value: 2
+          '11':
+            value: 3
+          '17':
+            value: 4
+      value: {}
+      title: Conflict Damage
+      hint: ''
+    - _id: iFdZLyYK1DjdOoC4
+      type: ScaleValue
+      configuration:
+        identifier: subtlety
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '3':
+            number: 1
+            faces: 4
+            modifiers: []
+          '5':
+            number: 2
+            faces: 4
+            modifiers: []
+          '11':
+            number: 3
+            faces: 4
+            modifiers: []
+          '17':
+            number: 4
+            faces: 4
+            modifiers: []
+      value: {}
+      title: Subtlety Damage
+      hint: ''
+    - type: ScaleValue
+      configuration:
+        identifier: stalwart
+        type: number
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 1
+          '5':
+            value: 2
+          '11':
+            value: 3
+          '17':
+            value: 4
+      value: {}
+      title: Stalwart AC
+      hint: ''
+      _id: cbGWYWofv8LD82yi
   spellcasting:
     progression: none
-    ability: ''
-    preparation: {}
+    ability: wis
+    preparation:
+      formula: ''
 effects: []
 sort: 500
 ownership:
@@ -91,9 +157,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384665543
-  modifiedTime: 1726384665543
+  modifiedTime: 1726898371407
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!zd6waep8iPxSFdZn'
 

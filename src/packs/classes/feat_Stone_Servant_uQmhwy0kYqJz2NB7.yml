@@ -9,11 +9,13 @@ system:
       <p>You gain the ability to control the actions of Petrified creatures,
       while bestowing upon them the power of your patron. One creature with the
       Petrified condition that you touch becomes an Earth Elemental Spirit under
-      your control as if you had cast the Summon Elemental spell at 6th-level.
-      The creature's size does not change and you do not need to maintain
-      Concentration. The transformation lasts until a Greater Restoration spell
-      is cast on the creature, until the Elemental Spirit is reduced to 0 Hit
-      Points, or until you use this feature again.</p>
+      your control as if you had cast the
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSummonElem]{Summon
+      Elemental} spell at 6th-level. The creature's size does not change and you
+      do not need to maintain Concentration. The transformation lasts until a
+      Greater Restoration spell is cast on the creature, until the Elemental
+      Spirit is reduced to 0 Hit Points, or until you use this feature
+      again.</p>
     chat: ''
   source:
     custom: ''
@@ -32,7 +34,80 @@ system:
   properties: []
   requirements: Stone Sovereign 14
   identifier: stone-servant
-  activities: {}
+  activities:
+    f5mXzhotSrczo4in:
+      type: summon
+      _id: f5mXzhotSrczo4in
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: spec
+        concentration: true
+        override: false
+        special: >-
+          A Greater Restoration spell is cast on the creature, the Elemental
+          Spirit is reduced to 0 Hit Points, or you use this feature again
+      effects: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: One creature with the Petrified condition
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      bonuses:
+        ac: '6'
+        hd: ''
+        hp: '20'
+        attackDamage: '6'
+        saveDamage: ''
+        healing: ''
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: false
+        proficiency: false
+        saves: false
+      profiles:
+        - count: ''
+          name: ''
+          _id: 58iPFUhlMyu0182H
+          uuid: Compendium.dnd-players-handbook.actors.Actor.phbelsEarthEleme
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
+        mode: ''
+        identifier: ''
+      name: Summon Elemental
+      img: ''
+      appliedEffects: []
   enchant: {}
 effects: []
 sort: 14000
@@ -40,15 +115,19 @@ ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384663196
-  modifiedTime: 1726384663196
+  modifiedTime: 1726900550675
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!uQmhwy0kYqJz2NB7'
 

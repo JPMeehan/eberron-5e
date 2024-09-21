@@ -16,7 +16,7 @@ system:
     revision: 1
     rules: '2014'
   uses:
-    max: '1'
+    max: ''
     recovery:
       - period: sr
         type: recoverAll
@@ -30,18 +30,15 @@ system:
       _id: dnd5eactivity000
       type: utility
       activation:
-        type: special
+        type: action
         value: null
         condition: ''
         override: false
       consumption:
         targets:
-          - type: itemUses
-            target: ''
+          - type: activityUses
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -50,15 +47,16 @@ system:
         chatFlavor: ''
       duration:
         concentration: false
-        value: ''
-        units: ''
+        value: '10'
+        units: minute
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: ft
         special: ''
         override: false
+        value: '10'
       target:
         template:
           count: ''
@@ -69,22 +67,27 @@ system:
           height: ''
           units: ''
         affects:
-          count: ''
-          type: ''
+          count: '1'
+          type: object
           choice: false
           special: ''
         prompt: true
         override: false
       uses:
         spent: 0
-        max: ''
-        recovery: []
+        max: '1'
+        recovery:
+          - period: sr
+            type: recoverAll
       roll:
         formula: ''
         name: ''
         prompt: false
         visible: false
       sort: 0
+      name: Speak with Dead
+      img: ''
+      appliedEffects: []
   identifier: equivalent-exchange
   enchant: {}
   prerequisites:
@@ -105,9 +108,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384655112
-  modifiedTime: 1726384655112
+  modifiedTime: 1726898813241
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 6000
 ownership:

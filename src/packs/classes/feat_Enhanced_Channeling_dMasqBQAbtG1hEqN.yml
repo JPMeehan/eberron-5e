@@ -46,59 +46,178 @@ system:
     subtype: ''
   requirements: Way of the Conduit 11
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    FoiSi6zfXlIAJipj:
+      type: damage
+      name: Eldritch Spirit
+      _id: FoiSi6zfXlIAJipj
+      sort: 0
       activation:
-        type: reaction
-        value: 1
-        condition: When you use
+        type: special
+        value: null
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
-          allowed: false
+          allowed: true
           max: ''
         spellSlot: true
+        targets: []
       description:
         chatFlavor: ''
       duration:
+        units: inst
         concentration: false
-        value: ''
-        units: ''
-        special: ''
         override: false
       effects: []
       range:
-        units: ''
-        special: ''
         override: false
+        units: self
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
+          choice: false
           count: ''
           type: ''
-          choice: false
-          special: ''
-        prompt: true
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
+        max: ''
+      damage:
+        critical:
+          allow: false
+          bonus: ''
+        parts:
+          - custom:
+              enabled: true
+              formula: 2 * @scaling
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - force
+            scaling:
+              mode: ''
+              number: 1
+      img: ''
+      appliedEffects: []
+    NhG1Mp7LxzLR9Gd8:
+      type: save
+      name: Spirit of Conflict
+      _id: NhG1Mp7LxzLR9Gd8
       sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: You hit a creature with a melee attack
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: K0I3U4brUxyeUco7
+          onSave: false
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability: cha
+        dc:
+          calculation: wis
+          formula: ''
+      img: ''
+      appliedEffects:
+        - K0I3U4brUxyeUco7
+    dN6qUgdmzorgpUkR:
+      type: heal
+      name: Stalwart Spirit
+      _id: dN6qUgdmzorgpUkR
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: You use your reaction to reduce damage using Deflect Attack
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '3'
+            target: Compendium.dnd-players-handbook.classes.Item.phbmnkMonksFocus
+            scaling: {}
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: true
+          formula: '@abilities.wis.mod + @details.monk.levels'
+        scaling:
+          number: 1
+        bonus: ''
+      img: ''
+      appliedEffects: []
   identifier: enhanced-channeling
   enchant: {}
   prerequisites:
@@ -110,7 +229,75 @@ flags:
     riders:
       activity: []
       effect: []
-effects: []
+effects:
+  - name: Spirit of Conflict (Self)
+    img: icons/svg/aura.svg
+    _id: QmAFuHyh17PHP64d
+    type: base
+    system: {}
+    changes: []
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You get a bonus 1d4 to attack rolls, damage rolls, and saving
+      throws.</p>
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.2
+      createdTime: 1726899120291
+      modifiedTime: 1726899165175
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!dMasqBQAbtG1hEqN.QmAFuHyh17PHP64d'
+  - name: Spirit of Conflict (Foe)
+    img: icons/svg/aura.svg
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>Your opponent must succeed on a Charisma save or take a 1d4 penalty to
+      attack rolls and saving throws.</p>
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.2
+      createdTime: 1726899145843
+      modifiedTime: 1726899180547
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: K0I3U4brUxyeUco7
+    _key: '!items.effects!dMasqBQAbtG1hEqN.K0I3U4brUxyeUco7'
 folder: AxCOxJAGG16MkcKu
 _id: dMasqBQAbtG1hEqN
 _stats:
@@ -118,9 +305,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384654382
-  modifiedTime: 1726384654382
+  modifiedTime: 1726899530769
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 11000
 ownership:

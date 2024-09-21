@@ -52,7 +52,14 @@ system:
       equal to +1 until the end of your next turn. This bonus increases when you
       reach certain levels in this class, increasing to +2 at 5th level, +3 at
       11th level, and +4 at 17th level.</p>
-    chat: ''
+    chat: >-
+      <p><span style="font-family:'Roboto Condensed', sans-serif">After you
+      finish a long rest during which you spent at least 30 minutes meditating,
+      you can call one of the following spirit types to inhabit you, gaining its
+      benefits until you next use this feature to call a different spirit. You
+      can only have one spirit inhabiting you at a time; if you call another
+      spirit to inhabit you, you lose the benefits of the spirit that previously
+      inhabited you.</span></p>
   source:
     book: Archetypes of Eberron
     custom: ''
@@ -76,18 +83,14 @@ system:
       activation:
         type: action
         value: 1
-        condition: >-
-          when you see a hostile creature within 15 feet of you reduced to 0 hit
-          points, you can use
+        condition: ''
         override: false
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -100,9 +103,11 @@ system:
         units: turn
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: b5yuDQdW74MQOhxf
+          onSave: false
       range:
-        units: ''
+        units: touch
         special: ''
         override: false
       target:
@@ -115,8 +120,8 @@ system:
           height: ''
           units: ''
         affects:
-          count: ''
-          type: ''
+          count: '1'
+          type: creature
           choice: false
           special: ''
         prompt: true
@@ -133,7 +138,186 @@ system:
         dc:
           calculation: spellcasting
           formula: ''
+      sort: 200000
+      name: Spirit of Eloquence
+      img: ''
+      appliedEffects:
+        - b5yuDQdW74MQOhxf
+    XRhraG4yRFNTNWfL:
+      type: attack
+      name: Eldritch Spirit
+      _id: XRhraG4yRFNTNWfL
+      sort: 100000
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: enemy
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: spell
+        ability: wis
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.monk.die + @mod'
+            number: null
+            denomination: 0
+            bonus: ''
+            types:
+              - force
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
+    OcwSErZh7s4O3Aeh:
+      type: utility
+      name: Spirit of Conflict
+      _id: OcwSErZh7s4O3Aeh
       sort: 0
+      activation:
+        type: reaction
+        value: null
+        override: false
+        condition: a hostile creature within 15 feet of you is reduced to 0 hit points
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+    Q7MzNBZ5b9e9yKdA:
+      type: damage
+      name: Spirit of Subtlety
+      _id: Q7MzNBZ5b9e9yKdA
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: >-
+          You hit with an unarmed attack or monk weapon and you did not suffer
+          disadvantage on the attack roll
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: '@scale.way-of-the-conduit.subtlety'
+            number: null
+            denomination: 4
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      img: ''
+      appliedEffects: []
   identifier: spiritual-channel
   enchant: {}
   prerequisites:
@@ -146,7 +330,214 @@ flags:
       activity: []
       effect: []
     migratedUses: 1
-effects: []
+effects:
+  - name: Spirit of Eloquence
+    img: systems/dnd5e/icons/svg/statuses/charmed.svg
+    _id: b5yuDQdW74MQOhxf
+    type: base
+    system: {}
+    changes: []
+    disabled: true
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>It is charmed by you for one hour or until you or your companions do
+      anything harmful to it. The charmed creature regards you as a friendly
+      acquaintance. When the effect ends, the creature knows it was charmed by
+      you. If the creature succeeds on its saving throw, it is immune to being
+      charmed by this feature for 24 hours.</p>
+    origin: null
+    tint: '#ffffff'
+    transfer: false
+    statuses:
+      - charmed
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.2
+      createdTime: 1726896747274
+      modifiedTime: 1726897958337
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!sdv5ZXmH2ogJQ6b1.b5yuDQdW74MQOhxf'
+  - name: Spirit of Conflict
+    img: icons/svg/aura.svg
+    _id: KOPa3W2PcY9aPuij
+    type: base
+    system: {}
+    changes:
+      - key: system.bonuses.mwak.damage
+        mode: 2
+        value: '@scale.way-of-the-conduit.conflict'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>When you call this spirit, you gain a +1 bonus to all melee damage
+      rolls made with a monk weapon or unarmed strike. This bonus increases when
+      you reach certain levels in this class, increasing to +2 at 5th level, +3
+      at 11th level, and +4 at 17th level. Additionally, when you see a hostile
+      creature within 15 feet of you reduced to 0 hit points, you can use your
+      reaction to move up to half your speed without provoking opportunity
+      attacks and make one melee attack.</p>
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.2
+      createdTime: 1726897534071
+      modifiedTime: 1726897646483
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!sdv5ZXmH2ogJQ6b1.KOPa3W2PcY9aPuij'
+  - name: Spirit of Eloquence
+    img: icons/svg/aura.svg
+    _id: ldrdMauh8Wh3F4y6
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.ins.value
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.skills.per.value
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span style="font-family:'Roboto Condensed', sans-serif">When you call
+      this spirit, you gain proficiency with Insight and Persuasion; if you
+      already have proficiency in one or both of these skills, your proficiency
+      bonus is doubled for that skill.</span></p>
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.2
+      createdTime: 1726897863105
+      modifiedTime: 1726897919663
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!sdv5ZXmH2ogJQ6b1.ldrdMauh8Wh3F4y6'
+  - name: Spirit of Subtlety
+    img: icons/svg/aura.svg
+    type: base
+    system: {}
+    changes:
+      - key: system.skills.dec.value
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.skills.ste.value
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span style="font-family:'Roboto Condensed', sans-serif">When you call
+      this spirit, you gain proficiency with Deception and Stealth; if you
+      already have proficiency in one or both of these skills, your proficiency
+      bonus is doubled for that skill.</span></p>
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.2
+      createdTime: 1726897969218
+      modifiedTime: 1726897999021
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _id: eLwTUnF2cp4MWnBK
+    _key: '!items.effects!sdv5ZXmH2ogJQ6b1.eLwTUnF2cp4MWnBK'
+  - name: Stalwart Spirit
+    img: icons/svg/aura.svg
+    _id: wjSVQ1q8cr9exTGH
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: '@scale.way-of-the-conduit.stalwart'
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p><span style="font-family:'Roboto Condensed', sans-serif">You gain a
+      bonus to your AC until the end of your next turn.</span></p>
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.2
+      createdTime: 1726898293136
+      modifiedTime: 1726898388864
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!sdv5ZXmH2ogJQ6b1.wjSVQ1q8cr9exTGH'
 folder: AxCOxJAGG16MkcKu
 _id: sdv5ZXmH2ogJQ6b1
 _stats:
@@ -154,9 +545,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384662461
-  modifiedTime: 1726384662461
+  modifiedTime: 1726898424921
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 3000
 ownership:

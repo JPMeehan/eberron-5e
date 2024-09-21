@@ -30,7 +30,60 @@ system:
   properties: []
   requirements: College of Wands 6
   identifier: got-your-back
-  activities: {}
+  activities:
+    Kr1ULmocp8GW4NsJ:
+      type: utility
+      _id: Kr1ULmocp8GW4NsJ
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: >-
+          You expend a use of Bardic Inspiration to improve the damage of a
+          cantrip with your At Your Fingertips feature
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: minute
+        concentration: false
+        override: false
+        value: '1'
+      effects: []
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '60'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
 effects: []
 sort: 6000
@@ -38,15 +91,19 @@ ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384663470
-  modifiedTime: 1726384663470
+  modifiedTime: 1726896564540
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!v5nZuhd6poJg0EMt'
 

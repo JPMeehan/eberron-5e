@@ -62,10 +62,68 @@ system:
       level: 14
       title: Bard College Feature
       hint: ''
+    - _id: fwQtZNax9b69rPdm
+      type: ItemChoice
+      configuration:
+        choices:
+          '3':
+            count: 1
+            replacement: false
+        allowDrops: true
+        type: spell
+        pool: []
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+        restriction:
+          level: '0'
+      value:
+        added: {}
+        replaced: {}
+      title: Bonus Cantrip
+      hint: >-
+        You know one cantrip of your choice from the Sorcerer spell list (see
+        the Sorcerer class’s section of the Player’s Handbook for a list of
+        Sorcerer spells). Fire Bolt is recommended. The cantrip counts as a Bard
+        cantrip for you, but it doesn’t count against the number of Bard
+        cantrips you know.
+    - _id: GqihMvyRnFnKkAKj
+      type: ScaleValue
+      configuration:
+        identifier: finger
+        type: dice
+        distance:
+          units: ''
+        scale:
+          '3':
+            number: 2
+            faces: 6
+            modifiers: []
+          '5':
+            number: 3
+            faces: 6
+            modifiers: []
+          '10':
+            number: 5
+            faces: 6
+            modifiers: []
+          '15':
+            number: 8
+            faces: 6
+            modifiers: []
+      value: {}
+      title: At Your Fingertips Damage
+      hint: ''
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 effects: []
 sort: 500
 ownership:
@@ -78,9 +136,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384663782
-  modifiedTime: 1726384663782
+  modifiedTime: 1726896626374
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!vN0Qh4Gn41xAKVXH'
 

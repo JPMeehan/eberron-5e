@@ -31,7 +31,58 @@ system:
   properties: []
   requirements: College of Wands 3
   identifier: wandslingers-presence
-  activities: {}
+  activities:
+    FANXdc7q9SUpSsmG:
+      type: save
+      _id: FANXdc7q9SUpSsmG
+      sort: 0
+      activation:
+        type: minute
+        value: 1
+        override: false
+        condition: Speak to a creature before combat
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability: wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   enchant: {}
 effects: []
 sort: 3000
@@ -39,15 +90,19 @@ ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384661798
-  modifiedTime: 1726384661798
+  modifiedTime: 1726896276718
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!rfCwfpAtdWm7cArG'
 

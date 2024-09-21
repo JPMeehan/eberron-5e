@@ -57,10 +57,19 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.eberron-5e.classes.Item.uuMGSrSaRkJrhKM4
-            optional: false
+          - optional: false
+            uuid: Compendium.eberron-5e.classes.Item.uuMGSrSaRkJrhKM4
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMeldintoSt
         optional: false
-        spell: null
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
       value: {}
       level: 10
       title: Otherworldly Patron Feature
@@ -176,9 +185,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.1
+  systemVersion: 4.0.2
   createdTime: 1726384657537
-  modifiedTime: 1726684188229
+  modifiedTime: 1726900221022
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!jwckqWJyt1NOnogh'
 
