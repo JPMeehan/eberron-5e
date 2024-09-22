@@ -5,7 +5,65 @@ _id: MsiBPk2Mj0atngAa
 img: icons/magic/control/silhouette-hold-change-blue.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Icons are champions of their own true inner selves, called the “ego.”
+      They channel the collective unconscious, a psychic network that
+      fundamentally links all sentient minds below the level of conscious
+      thought, and draw from it metaphorical masks of disposition and attitude,
+      called “personas.” To be an icon means adapting your ego to handle
+      whatever comes your way by donning these personas and imbuing them with
+      psionic power.</p><h3>Awakening of the Self</h3><p>All icons go through an
+      awakening in which they open their mind and soul to the collective
+      unconscious. Through this connection, you become able to consciously draw
+      on the personas most people adopt subconsciously, and infuse them with
+      psionic potential to manifest magical effects.</p><p>Additionally, with
+      further understanding of your own psyche and its place in the collective
+      unconscious, you may become able to identify and empower the iconic
+      archetype that lies at the center of your ego.</p><h3>Face Any
+      Challenge</h3><p>Icons use the versatility and adaptability of their
+      personas to fit themselves into whatever role they or their allies might
+      need. Is the party delving into a dark, ancient jungle? Then adopting The
+      Chariot persona to project yourself as a fearless explorer would provide
+      you the skills you need to survive. The silver tongue granted by your
+      persona of Fortitude, however, might serve you better in negotiations with
+      your party’s patron. The strength of an icon is in the repertoire of
+      personas they have to draw on.</p><h3>Icons in Eberron</h3><p>The
+      potential to access the collective unconscious is latent in all sentient
+      minds, and it seemingly arises more naturally in Khorvaire than it does in
+      Sarlona, most notably in the western frontiers of the Shadow Marches,
+      Eldeen Reaches, and the Demon Wastes. Icons who spontaneously awaken tend
+      toward independence, though a few Cults of the Dragon Below boast these
+      powerful psionic individuals among their members. Of the rare few icons in
+      Khorvaire that deliberately awaken through discipline and meditation,
+      changelings are the most common, accessing their race’s latent psionic
+      potential to allow themselves to adapt their personalities as well as they
+      adapt their bodies.</p><p>While spontaneous awakenings are rarer in
+      Sarlona, that continent sports a much higher overall number of icons, as
+      training and techniques for facilitating awakening are known among the
+      Inspired and other psionic communities. These icons are most often agents
+      of the Thousand Eyes, Riedra’s intelligence agency, though many icons are
+      cultivated in the monasteries of Adar, and lend their versatile aid in the
+      fight to protect the mountainous refuge from the Inspired.</p><p>Among the
+      kalashtar, icons are seen as a potential liability. Opening oneself to the
+      collective unconscious, they fear, may draw attention from dark forces
+      that also draw power or knowledge from the collective minds of mortals,
+      such as the demonic Overlords of the first age or the Dreaming Dark. They
+      encourage those with the natural talent for psionics towards the paths of
+      the Soulknife or Adamant instead. However, kalashtar dissatisfied with the
+      guidance of their elders may awaken themselves as icons in order to follow
+      their own path, opposing the Dreaming Dark and other forces of darkness in
+      their own way, with all of their considerable talents.</p><h3>Creating an
+      Icon</h3><p>When creating an icon, consider what it was that triggered
+      your awakening. Was it a concerted effort of strict discipline and
+      rigorous meditation, or a sudden epiphany that bestowed awareness of the
+      collective unconscious unto you? When you parted the mists of your mind to
+      reveal the true nature of your ego, were you able to accept what you saw?
+      Do you adopt personas to accentuate your ego, or to hide it? Though you
+      retain your sense of identity, the outward expression of your ego that you
+      present to the world changes from situation to situation. Are these
+      changes subtle and nearly indistinguishable from the mundane moods and
+      attitudes others might find themselves adopting, or are they noticeable
+      and disconcerting to those who witness the shift?</p>
     chat: ''
   source:
     book: 'Korranberg Chronicle: Psion''s Primer'
@@ -87,11 +145,13 @@ system:
   spellcasting:
     progression: none
     ability: cha
-    preparation: {}
+    preparation:
+      formula: ''
   startingEquipment: []
   primaryAbility:
     value: []
     all: true
+  wealth: ''
 effects: []
 sort: 9350
 ownership:
@@ -103,9 +163,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384646494
-  modifiedTime: 1726384646494
+  modifiedTime: 1727046053224
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!MsiBPk2Mj0atngAa'
 

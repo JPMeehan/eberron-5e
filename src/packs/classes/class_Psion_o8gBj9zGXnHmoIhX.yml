@@ -5,7 +5,37 @@ _id: o8gBj9zGXnHmoIhX
 img: icons/magic/perception/third-eye-blue-red.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Psions are erudite sages that master their psionic potential through
+      study. Knowledge is power to a psion, in the most literal sense possible.
+      One’s thoughts and will can bend reality if one knows the correct way to
+      think. Thus, psions expand their psionic power to control the world around
+      them.</p><h3>Eclectic Knowledge</h3><p>Psions often consider themselves to
+      be the ultimate psychics, capable of unlocking almost all forms of psionic
+      ability. They can use these powers to communicate wordlessly across vast
+      distances, manifest their thoughts into reality, control the energy and
+      matter around them, or travel the planes. This focus on the mind often
+      precludes them from paying attention to their bodies, typically leaving
+      them less able to endure physical stresses. Thus, psions typically choose
+      to travel with more rugged, stalwart allies, so that the weak, material
+      vessel of their supreme mind is sufficiently defended.</p><h3>Student of
+      the Mind</h3><p>A psion is a scholar at heart and shares much in common
+      with wizards. However, where wizards study external forces, psions look
+      inward and seek to solve the puzzle that is the sentient mind and the
+      pathways to power within it. With knowledge of the right techniques and
+      practices, the mind is the most potent weapon in the multiverse, according
+      to the psion.</p><h3>Creating a Psion</h3><p>When you create a psion,
+      consider how you came to learn of psionic abilities. In the world of
+      Eberron, psionic ability typically stems from Xoriat and Dal Quor, two
+      planes of existence comprised of the essence of thoughts. Dal Quor is the
+      Region of Dreams, where all mortal minds travel when they sleep. Xoriat is
+      often known as the Realm of Madness, but some esoteric texts refer to it
+      as the Realm of Revelations. In other settings, psionic power is common to
+      creatures of the Astral Plane or the Far Realm. When you studied your mind
+      and its connection to these planes, which door did you open? Were you
+      taught how to realize your psychic potential by a mentor? Or did you
+      unlock the secrets of your mind through strict discipline, intense
+      self-reflection, and personal study?</p>
     chat: ''
   source:
     book: 'Korranberg Chronicle: Psion''s Primer'
@@ -61,11 +91,13 @@ system:
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
   startingEquipment: []
   primaryAbility:
     value: []
     all: true
+  wealth: ''
 effects: []
 sort: 16510
 ownership:
@@ -77,9 +109,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384659895
-  modifiedTime: 1726384659895
+  modifiedTime: 1727045928508
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!o8gBj9zGXnHmoIhX'
 

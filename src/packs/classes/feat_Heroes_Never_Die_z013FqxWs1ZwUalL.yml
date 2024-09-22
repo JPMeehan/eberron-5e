@@ -17,7 +17,7 @@ system:
     revision: 1
     rules: '2014'
   uses:
-    max: '1'
+    max: '@actor.abilities.wis.mod'
     recovery:
       - period: lr
         type: recoverAll
@@ -27,65 +27,63 @@ system:
     subtype: ''
   requirements: Combat Medic 18
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    FXlCKlnXLCm0tFUk:
+      type: heal
+      _id: FXlCKlnXLCm0tFUk
+      sort: 0
       activation:
         type: reaction
-        value: 1
-        condition: ''
+        value: null
         override: false
+        condition: >-
+          Another creature within 60 feet of you can see would drop to 0 hit
+          points as a result of taking damage
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets: []
       description:
         chatFlavor: ''
       duration:
+        units: inst
         concentration: false
-        value: ''
-        units: ''
-        special: ''
         override: false
       effects: []
       range:
-        units: ''
-        special: ''
         override: false
+        units: ft
+        special: ''
+        value: '60'
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: ''
-          type: ''
           choice: false
+          count: '1'
+          type: creature
           special: ''
-        prompt: true
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types: []
+        custom:
+          enabled: true
+          formula: '1'
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: heroes-never-die
   enchant: {}
   prerequisites:
@@ -106,9 +104,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384665311
-  modifiedTime: 1726384665311
+  modifiedTime: 1727045815035
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 18000
 ownership:

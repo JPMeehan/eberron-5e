@@ -88,7 +88,43 @@ flags:
     riders:
       activity: []
       effect: []
-effects: []
+effects:
+  - name: First Aid
+    img: icons/svg/aura.svg
+    _id: 60bbA9RX1CNxry0X
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.movement.walk
+        mode: 2
+        value: '5'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.2
+      createdTime: 1727045597967
+      modifiedTime: 1727045626864
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!6fHHdzXWfQvss3rm.60bbA9RX1CNxry0X'
 folder: kJccBcDLdUGddNLa
 _id: 6fHHdzXWfQvss3rm
 _stats:

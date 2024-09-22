@@ -33,16 +33,14 @@ system:
       activation:
         type: special
         value: null
-        condition: ''
+        condition: You cast a spell that restores hit points to another creature
         override: false
       consumption:
         targets:
           - type: itemUses
-            target: ''
             value: '1'
-            scaling:
-              mode: ''
-              formula: ''
+            target: ''
+            scaling: {}
         scaling:
           allowed: false
           max: ''
@@ -52,12 +50,12 @@ system:
       duration:
         concentration: false
         value: ''
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -86,6 +84,9 @@ system:
         prompt: false
         visible: false
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: medical-evacuation
   enchant: {}
   prerequisites:
@@ -106,9 +107,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384649213
-  modifiedTime: 1726384649213
+  modifiedTime: 1727045689085
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 15000
 ownership:

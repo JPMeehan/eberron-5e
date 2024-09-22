@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.4
+
+- Added description to PsiPri classes
+- Updated Combat Medic
+
 ## 1.0.3
 
 - Added remaining Background descriptions

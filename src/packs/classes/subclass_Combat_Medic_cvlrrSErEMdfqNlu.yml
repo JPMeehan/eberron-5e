@@ -88,10 +88,57 @@ system:
       level: 15
       title: Martial Archetype Feature
       type: ItemGrant
+    - _id: uQe7kDGWRKfqcq0g
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: false
+        grants:
+          - skills:med
+        choices: []
+      value:
+        chosen: []
+      level: 3
+      title: First Aid
+      hint: ''
+    - _id: D75DXboECsu8d68W
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: number
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 3
+          '4':
+            value: 4
+          '7':
+            value: 5
+          '8':
+            value: 6
+          '10':
+            value: 7
+          '11':
+            value: 8
+          '13':
+            value: 9
+          '14':
+            value: 10
+          '16':
+            value: 11
+          '19':
+            value: 12
+          '20':
+            value: 13
+      value: {}
+      title: Spells Known
+      hint: ''
   spellcasting:
     progression: third
     ability: wis
-    preparation: {}
+    preparation:
+      formula: ''
 effects: []
 sort: 500
 ownership:
@@ -103,9 +150,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384654018
-  modifiedTime: 1726384654018
+  modifiedTime: 1727045822889
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!cvlrrSErEMdfqNlu'
 

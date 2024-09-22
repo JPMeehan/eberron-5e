@@ -24,59 +24,63 @@ system:
     subtype: ''
   requirements: Combat Medic 3
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    sn0bQLqX7jfuLrfE:
+      type: damage
+      _id: sn0bQLqX7jfuLrfE
+      sort: 0
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: ''
       consumption:
-        targets: []
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets: []
       description:
         chatFlavor: ''
       duration:
+        units: minute
         concentration: false
-        value: ''
-        units: ''
-        special: ''
         override: false
+        value: '1'
       effects: []
       range:
-        units: ''
-        special: ''
         override: false
+        units: self
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
+          choice: false
           count: ''
           type: ''
-          choice: false
-          special: ''
-        prompt: true
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: true
+              formula: floor(@classes.fighter.levels / 2)
+            number: null
+            denomination: 0
+            bonus: ''
+            types: []
+            scaling:
+              number: 1
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: healing-high
   enchant: {}
   prerequisites:
@@ -96,9 +100,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384647119
-  modifiedTime: 1726384647119
+  modifiedTime: 1727045343604
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 3000
 ownership:
