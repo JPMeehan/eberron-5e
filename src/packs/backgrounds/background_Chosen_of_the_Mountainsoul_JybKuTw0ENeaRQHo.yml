@@ -5,7 +5,22 @@ _id: JybKuTw0ENeaRQHo
 img: systems/dnd5e/icons/svg/items/background.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>At some point in your life, you chose to walk through Ahdryatmin, the
+      great Lamannian wild zone at Adar’s heart. Whether a trip made out of
+      necessity or religious devotion, you did not come out the same. The
+      ancient spirit within the wild zone blessed you, and with it, charged you
+      with grand purpose. Your patron is enigmatic, certainly, but with their
+      blessing comes wisdom — and perhaps other benefits as well.</p><h3>All
+      Walks of Life</h3><p>Ahydratmin is a truly ancient being, one that has
+      imparted knowledge of the ages to humanoids, dragons, and immortals alike.
+      There is no rhyme nor reason as to who is given an audience with them. Who
+      were you before? Are you still that person now? Have you abandoned your
+      life for a new purpose, or do you try and balance that with the duties of
+      your patron? You can select a Previous Occupation below or roll randomly,
+      then add details to determine just the type of person Ahdryatmin chose to
+      bless.</p><p>@Embed[Compendium.eberron-5e.tables.RollTable.Tue5zK07nP7aPlv2
+      rollable]</p>
     chat: ''
   source:
     book: TGtA
@@ -16,6 +31,7 @@ system:
   advancement: []
   identifier: chosen-of-the-mountainsoul
   startingEquipment: []
+  wealth: ''
 effects: []
 sort: 0
 ownership:
@@ -28,9 +44,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384611472
-  modifiedTime: 1726384611472
+  modifiedTime: 1726978483293
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!JybKuTw0ENeaRQHo'
 

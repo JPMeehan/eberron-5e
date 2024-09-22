@@ -103,6 +103,7 @@ system:
       level: 0
   identifier: changeling-traveler
   startingEquipment: []
+  wealth: ''
 effects: []
 ownership:
   default: 0
@@ -115,9 +116,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384611605
-  modifiedTime: 1726384611605
+  modifiedTime: 1726978634954
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: jK4Nx0Mvh6Y042kM
 sort: 0

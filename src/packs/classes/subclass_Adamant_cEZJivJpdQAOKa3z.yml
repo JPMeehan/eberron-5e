@@ -2,10 +2,20 @@ folder: ueSKKHLvDA1m3eM7
 name: Adamant
 type: subclass
 _id: cEZJivJpdQAOKa3z
-img: icons/svg/item-bag.svg
+img: icons/magic/defensive/shield-barrier-flaming-diamond-magenta.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>Adamants are warriors who have honed their sense of self into a
+      palpable force, fortifying their physical bodies with their diamond will.
+      They refine themselves to be faster, stronger, better; realizing their
+      potential through psionically mastered ego.</p><p>The monks of Adar first
+      developed the martial and mental traditions necessary to become an adamant
+      centuries before the arrival of the Kalashtar. Today, the ideal of the
+      adamant self has spread across Sarlona, both within the Unity of Riedra
+      and to those who oppose it. The Kalashtar and other Adaran immigrants have
+      also brought the techniques used to become an adamant with them to
+      Khorvaire.</p>
     chat: ''
   source:
     custom: ''
@@ -19,7 +29,8 @@ system:
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 effects: []
 sort: 500
 ownership:
@@ -31,9 +42,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384653462
-  modifiedTime: 1726384653462
+  modifiedTime: 1726979231078
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!cEZJivJpdQAOKa3z'
 

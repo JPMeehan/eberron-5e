@@ -5,7 +5,17 @@ _id: GjS9jFFfP9hm4PxL
 img: systems/dnd5e/icons/svg/items/background.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Running into Khyber is madness. Regularly running through Khyber is
+      your specialty. The dromite city states have long trained runners to go
+      through Khyber, delivering messages and packages over long distances. Long
+      ago, this was one of many mail-carrying services that Sarlona had access
+      to; these days, it is the only way to deliver something from Tashana to
+      Adar in a day.</p><p>Your route might not have many destinations; in fact,
+      it’s probably safest that you only know of a few routes. Even so, if
+      someone needs to get from one end of Sarlona to the other in a day, you
+      just might know the way— so long as they don’t mind running very, very
+      fast.</p>
     chat: ''
   source:
     book: TGtA
@@ -16,6 +26,7 @@ system:
   advancement: []
   identifier: khyber-courier
   startingEquipment: []
+  wealth: ''
 effects: []
 sort: 0
 ownership:
@@ -28,9 +39,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384611454
-  modifiedTime: 1726384611454
+  modifiedTime: 1726978600632
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!GjS9jFFfP9hm4PxL'
 

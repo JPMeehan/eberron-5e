@@ -5,7 +5,22 @@ _id: hkuTyfxMRwuEJ2vK
 img: systems/dnd5e/icons/svg/items/background.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>The brass greatwyrm Qataakhast is widely thought to be nothing more
+      than a local legend, thanks to the tireless efforts of his overly
+      possessive apprentice. However, you know more than most people how real
+      the myths are: either you were raised by the dragon, or you spent long
+      enough in his lair that he considers you a member of the family he wishes
+      he had. Unfortunately, all good things must come to an end, and you
+      eventually grew up to realize you couldn’t spend the rest of your life
+      holed up in his cave — no matter how comfortable you may be, and how much
+      he may enjoy the company.</p><p>Despite being away, you still carry a
+      piece of your old guardian’s legacy with you. Many of Qataakhast’s wards
+      inherit some of his draconic magic, and some even grow brass scales or
+      display an affinity for fire magic thanks to his influence. No matter how
+      far you wander, you know you’ll always be welcomed back home: though the
+      dragon has taken in countless humanoids over the centuries, he remembers
+      each one by name, and loves them all like the children he never had.</p>
     chat: ''
   source:
     book: LGtS
@@ -16,6 +31,7 @@ system:
   advancement: []
   identifier: brighteyes-ward
   startingEquipment: []
+  wealth: ''
 effects: []
 sort: 0
 ownership:
@@ -28,9 +44,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384611586
-  modifiedTime: 1726384611586
+  modifiedTime: 1726977935316
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!hkuTyfxMRwuEJ2vK'
 

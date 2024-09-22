@@ -1,0 +1,97 @@
+folder: OGcontv2ASp6qnf0
+name: Previous Occupation
+_id: Tue5zK07nP7aPlv2
+img: icons/svg/d20-grey.svg
+description: ''
+results:
+  - type: text
+    weight: 1
+    range:
+      - 1
+      - 1
+    drawn: false
+    _id: hPd4rhMdaCkOwUI6
+    text: Summit Road guide
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!Tue5zK07nP7aPlv2.hPd4rhMdaCkOwUI6'
+  - type: text
+    weight: 1
+    range:
+      - 2
+      - 2
+    drawn: false
+    _id: 8J398oEWU7471y3P
+    text: Monastic scholar
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!Tue5zK07nP7aPlv2.8J398oEWU7471y3P'
+  - type: text
+    weight: 1
+    range:
+      - 3
+      - 3
+    drawn: false
+    _id: MOPT2iSqdXWlzouB
+    text: Village artisan
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!Tue5zK07nP7aPlv2.MOPT2iSqdXWlzouB'
+  - type: text
+    weight: 1
+    range:
+      - 4
+      - 4
+    drawn: false
+    _id: NwIyx7QiuXXO2uNq
+    text: Lightbringer
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!Tue5zK07nP7aPlv2.NwIyx7QiuXXO2uNq'
+  - type: text
+    weight: 1
+    range:
+      - 5
+      - 5
+    drawn: false
+    _id: tbXbUqG6r041pTx7
+    text: Riedran refugee
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!Tue5zK07nP7aPlv2.tbXbUqG6r041pTx7'
+  - type: text
+    weight: 1
+    range:
+      - 6
+      - 6
+    drawn: false
+    _id: 4P2Mg999VMxQaunF
+    text: A wandering criminal
+    img: icons/svg/d20-black.svg
+    documentId: null
+    flags: {}
+    _key: '!tables.results!Tue5zK07nP7aPlv2.4P2Mg999VMxQaunF'
+replacement: true
+displayRoll: true
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.2
+  createdTime: 1726978429159
+  modifiedTime: 1726978465428
+  lastModifiedBy: q6n1efCGVB98drEQ
+formula: ''
+_key: '!tables!Tue5zK07nP7aPlv2'
+

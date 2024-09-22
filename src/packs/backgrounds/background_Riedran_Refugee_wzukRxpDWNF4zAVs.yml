@@ -5,7 +5,15 @@ _id: wzukRxpDWNF4zAVs
 img: systems/dnd5e/icons/svg/items/background.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You ran away. By some combination of miracle and desperation, you made
+      it out of Riedra and into Adar. Your life has not been easy, and in fact
+      has gotten harder in many ways. You barely know how to read and write. The
+      concept of calendars and days of the week is still foreign. You dream your
+      own dreams, and you have to navigate a world where you finally have to
+      make your own choices. But for you, this still beats living under Riedra’s
+      thumb, because anything would be better than living in the shadow of the
+      Unity.</p>
     chat: ''
   source:
     book: TGtA
@@ -16,6 +24,7 @@ system:
   advancement: []
   identifier: riedran-refugee
   startingEquipment: []
+  wealth: ''
 effects: []
 sort: 0
 ownership:
@@ -28,9 +37,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384611667
-  modifiedTime: 1726384611667
+  modifiedTime: 1726978611333
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!wzukRxpDWNF4zAVs'
 

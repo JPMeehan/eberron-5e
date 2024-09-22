@@ -5,7 +5,13 @@ _id: 1MIug2Ml72jj5lUJ
 img: systems/dnd5e/icons/svg/items/background.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You belong to the Keepers of the Word, an order of arcanists
+      established by exiles from around Sarlona. Your order is dedicated to
+      uncovering arcane secrets, and you have vowed to ensure nothing is lost
+      again, even if that knowledge is dangerous in the wrong hands. You are a
+      researcher, a historian, and a bit nosy; expect other Adarans to consider
+      you all three.</p>
     chat: ''
   source:
     book: TGtA
@@ -16,6 +22,7 @@ system:
   advancement: []
   identifier: keeper-of-the-word
   startingEquipment: []
+  wealth: ''
 effects: []
 sort: 0
 ownership:
@@ -28,9 +35,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384611402
-  modifiedTime: 1726384611402
+  modifiedTime: 1726978401779
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!1MIug2Ml72jj5lUJ'
 

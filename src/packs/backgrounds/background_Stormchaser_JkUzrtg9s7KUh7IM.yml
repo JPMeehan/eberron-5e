@@ -5,7 +5,23 @@ _id: JkUzrtg9s7KUh7IM
 img: systems/dnd5e/icons/svg/items/background.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Ever since you were young, you’ve been fascinated by the more...
+      dangerous aspects of nature. You’ve had a knack for getting yourself into
+      — and out of — trouble faster than most people can blink, and where others
+      see a threat to their lives or a terror to be feared, you see your next
+      big rush of adrenaline. Perhaps you are planetouched in some way, gifted
+      with innate magical talents that keep you safe even in the wildest of wild
+      zones, or perhaps you simply enjoy the risk.</p><p>To absolutely nobody’s
+      surprise, you signed on with your local branch of the Stormchasers’ Guild,
+      a group of adventuring daredevils dedicated to navigating and running
+      errands through Syrkarn’s many wild zones. Your partnership with the
+      guild, as in most cases, is fairly loose — they will support you in your
+      own endeavors, as long as you complete the occasional errand or mission
+      for them every so often. While others may look down on you or scorn your
+      perceived lack of self-preservation, you realize that someone has to
+      undertake these dangerous jobs — and besides, you’ve survived this long,
+      haven’t you?</p>
     chat: ''
   source:
     book: LGtS
@@ -16,6 +32,7 @@ system:
   advancement: []
   identifier: stormchaser
   startingEquipment: []
+  wealth: ''
 effects: []
 sort: 0
 ownership:
@@ -28,9 +45,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384611464
-  modifiedTime: 1726384611464
+  modifiedTime: 1726977994748
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!JkUzrtg9s7KUh7IM'
 

@@ -23,14 +23,110 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.eberron-5e.backgrounds.Item.v6IEpLLezt0alaFH
-            optional: false
+          - optional: false
+            uuid: Compendium.eberron-5e.backgrounds.Item.v6IEpLLezt0alaFH
         optional: false
         spell: null
       value: {}
       level: 0
+      title: Background Feature
+      hint: ''
+    - _id: dDN9riz0oic0lmUE
+      type: AbilityScoreImprovement
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+          - con
+          - wis
+        points: 3
+      value:
+        type: asi
+      level: 0
+      title: Background Ability Score Improvement
+      hint: >-
+        Your background allows you to increase your Strength, Intelligence, and
+        Charisma scores; increase one of them by 2 and a different one by 1, or
+        increase all three by 1. None of these increases can raise a score above
+        20.
+    - _id: CXbbKtPLueZdycXQ
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:his
+          - skills:per
+        choices:
+          - count: 1
+            pool:
+              - tool:game:*
+      value:
+        chosen: []
+      level: 0
+      title: Background Proficiencies
+      hint: >-
+        Your background grants you proficiency in History and Persuasion. It
+        also grants you proficiency with one kind of Gaming Set.
+    - _id: TC1cwUuU4vSoHX8j
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 3
+            pool:
+              - skills:*
+              - tool:*
+      value:
+        chosen: []
+      level: 0
+      title: Skilled Proficiencies
+      hint: >-
+        Granted by Origin Feat: Skilled. You gain proficiency in any combination
+        of three skills or tools of your choice.
+      icon: icons/commodities/treasure/medal-ribbon-blue.webp
+    - _id: pLGiyOjTP7nwuwTl
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - languages:standard:common
+        choices:
+          - count: 2
+            pool:
+              - languages:standard:*
+      value:
+        chosen: []
+      level: 0
+      title: Choose Languages
+      hint: >-
+        Your character knows at least three languages: Common plus two languages
+        you roll or choose from the Standard Languages table.
+    - _id: vCe6YNpwh45sK0wR
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+      title: Background Feat
+      hint: Your background grants you the Skilled feat.
   identifier: newly-risen-noble
   startingEquipment: []
+  wealth: ''
 effects: []
 folder: fFy7PSufSbQwKWxJ
 ownership:
@@ -44,9 +140,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384611648
-  modifiedTime: 1726384611648
+  modifiedTime: 1726978785601
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: qz8FO7sSlh0Bts9V
 sort: 100000

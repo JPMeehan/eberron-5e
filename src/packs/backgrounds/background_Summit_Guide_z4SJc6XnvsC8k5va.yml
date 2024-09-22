@@ -5,7 +5,13 @@ _id: z4SJc6XnvsC8k5va
 img: systems/dnd5e/icons/svg/items/background.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>You are one of Adar’s finest, a guide who has been trusted to brave the
+      paths in and out of the Land of Refuge. It’s a dangerous life at best, and
+      you have risked life and limb time and time again to bring refugees to
+      safety. Your mind is hardened, and you know there are worse things than
+      death if you are caught. But for every danger the Summit Road brings, it
+      is worth it to see another Riedran find a way to freedom.</p>
     chat: ''
   source:
     book: TGtA
@@ -16,6 +22,7 @@ system:
   advancement: []
   identifier: summit-guide
   startingEquipment: []
+  wealth: ''
 effects: []
 sort: 0
 ownership:
@@ -28,9 +35,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384611677
-  modifiedTime: 1726384611677
+  modifiedTime: 1726978626883
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!z4SJc6XnvsC8k5va'
 

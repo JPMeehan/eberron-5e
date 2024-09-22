@@ -5,7 +5,23 @@ _id: SzxTuY5us10v1vDp
 img: systems/dnd5e/icons/svg/items/background.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Most foreigners see Riedra as a paradise where no one knows fear or
+      hunger or suffering. Not you, however. You know exactly what kind of
+      darkness lurks behind the Unity’s veneer of perfection and peace, because
+      you’ve experienced more than your fair share of abuse and indoctrination
+      at the hands of the Dreaming Dark. Whether you grew disillusioned due to
+      your low caste on the Path of Inspiration, defied the orders of the
+      Inspired, or simply broke down and decided you couldn’t live this way
+      anymore, you chose to attempt the unthinkable: escaping from Riedra’s
+      clutches.</p><p>Somehow — whether with the assistance of the Summit Road
+      or one of the other dissident factions, your own skill, or just sheer luck
+      — you actually managed to pull it off. Syrkarn is your new home now, and
+      the dizzying freedom is a far cry from the sheltered way of life you’ve
+      always known. Still, though the threat of the Thousand Eyes’ gaze
+      continues to linger in the back of your mind, your thoughts are truly your
+      own for the first time ever — giving you a privilege you never could have
+      dreamed of: the chance to choose your own path in life.</p>
     chat: ''
   source:
     book: LGtS
@@ -16,6 +32,7 @@ system:
   advancement: []
   identifier: riedran-exile
   startingEquipment: []
+  wealth: ''
 effects: []
 sort: 0
 ownership:
@@ -28,9 +45,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384611513
-  modifiedTime: 1726384611513
+  modifiedTime: 1726977969962
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!SzxTuY5us10v1vDp'
 

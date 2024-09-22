@@ -5,7 +5,16 @@ _id: 8jYuHpnO59vpjdBY
 img: systems/dnd5e/icons/svg/items/background.svg
 system:
   description:
-    value: ''
+    value: >-
+      <p>Whether you were indoctrinated into it, or joined later in life in a
+      moment of desperation, you were once a member of one of the many Sundered
+      Heart cults scattered across Syrkarn. However, you eventually saw through
+      the cult’s lies, and chose instead to strike out on your own as an
+      adventurer. Thanks to your time on the inside, you’re more adept than the
+      average person at picking up on the common patterns that unite Syrkarn’s
+      disjointed worshippers — and though thinking back on those memories haunts
+      you, perhaps you hold the common thread that could unravel the Sundered
+      Heart’s entire dominion.</p>
     chat: ''
   source:
     book: LGtS
@@ -16,6 +25,7 @@ system:
   advancement: []
   identifier: former-cultist
   startingEquipment: []
+  wealth: ''
 effects: []
 sort: 0
 ownership:
@@ -28,9 +38,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384611441
-  modifiedTime: 1726384611441
+  modifiedTime: 1726977947167
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!8jYuHpnO59vpjdBY'
 

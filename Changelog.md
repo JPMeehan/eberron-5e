@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.3
+
+- Added remaining Background descriptions
+- Added 2024 PHB Noble features to the CoE Noble backgrounds
+- Fleshed out the College of Wands, Way of Conduit, Stone Sovereign subclasses
+- Fully implemented the Gnoll ancestry
+
 ## 1.0.2
 
 - Implemented Frontiers of Eberron: Quickstone Tieflings
