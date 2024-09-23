@@ -172,7 +172,19 @@ pages:
       grouping: level
       description:
         value: ''
-      spells: []
+      spells:
+        - Compendium.eberron-5e.spells.Item.5d2tXKgABoXE4KJ2
+        - Compendium.eberron-5e.spells.Item.J62d2u2yP36Al4Xr
+        - Compendium.eberron-5e.spells.Item.a2Sfwac13PcabX6R
+        - Compendium.eberron-5e.spells.Item.w3qS0APt8dbLK1eG
+        - Compendium.eberron-5e.spells.Item.Xixg7CTCDeBTLKy4
+        - Compendium.eberron-5e.spells.Item.uSfOYe6wJWAOpJGo
+        - Compendium.eberron-5e.spells.Item.HdD4Azzo5Qqnu5ot
+        - Compendium.eberron-5e.spells.Item.V9ravOD53EXaTOmD
+        - Compendium.eberron-5e.spells.Item.GiP5XdPWekzIePal
+        - Compendium.eberron-5e.spells.Item.luUIhLmtcs5NKCg4
+        - Compendium.eberron-5e.spells.Item.ETvVSxRn5WViBMSy
+        - Compendium.eberron-5e.spells.Item.lM91pAni5YCLWzQJ
       unlinkedSpells: []
       identifier: artificer
     title:
@@ -194,9 +206,9 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.1
+      systemVersion: 4.0.2
       createdTime: 1726682826231
-      modifiedTime: 1726682836060
+      modifiedTime: 1727054931200
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.ulv8D7SuI68zSFpo'
   - sort: 500000
@@ -208,7 +220,24 @@ pages:
       grouping: level
       description:
         value: ''
-      spells: []
+      spells:
+        - Compendium.eberron-5e.spells.Item.5d2tXKgABoXE4KJ2
+        - Compendium.eberron-5e.spells.Item.J62d2u2yP36Al4Xr
+        - Compendium.eberron-5e.spells.Item.TcQtfgfVAsl9ykZs
+        - Compendium.eberron-5e.spells.Item.w3qS0APt8dbLK1eG
+        - Compendium.eberron-5e.spells.Item.nanEjeb4JgYxoHRo
+        - Compendium.eberron-5e.spells.Item.uSfOYe6wJWAOpJGo
+        - Compendium.eberron-5e.spells.Item.o7GqPxObyAlufkFe
+        - Compendium.eberron-5e.spells.Item.B9kS2jcir6xklhcc
+        - Compendium.eberron-5e.spells.Item.2TmmOqCohNZ0M2sI
+        - Compendium.eberron-5e.spells.Item.o5DEDeRlUYJ4jlW7
+        - Compendium.eberron-5e.spells.Item.thvQmV7shWxvnMrJ
+        - Compendium.eberron-5e.spells.Item.TUmwbRIj4sGOeMa9
+        - Compendium.eberron-5e.spells.Item.pmXrT63k7F5NJNDo
+        - Compendium.eberron-5e.spells.Item.j33Qm7JNClOUHqzg
+        - Compendium.eberron-5e.spells.Item.dzGUU445UPMt0wXt
+        - Compendium.eberron-5e.spells.Item.ScJBvYI94Teodyi3
+        - Compendium.eberron-5e.spells.Item.TIi7XvRQkhszUZox
       unlinkedSpells: []
       identifier: bard
     title:
@@ -230,9 +259,9 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.1
+      systemVersion: 4.0.2
       createdTime: 1726682951327
-      modifiedTime: 1726682958550
+      modifiedTime: 1727054824701
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.5c6g8zCJMVLoUOvW'
   - sort: 600000
@@ -244,7 +273,28 @@ pages:
       grouping: level
       description:
         value: ''
-      spells: []
+      spells:
+        - Compendium.eberron-5e.spells.Item.P7UN1rtQgxotfpJF
+        - Compendium.eberron-5e.spells.Item.TcQtfgfVAsl9ykZs
+        - Compendium.eberron-5e.spells.Item.w3qS0APt8dbLK1eG
+        - Compendium.eberron-5e.spells.Item.Xixg7CTCDeBTLKy4
+        - Compendium.eberron-5e.spells.Item.nanEjeb4JgYxoHRo
+        - Compendium.eberron-5e.spells.Item.uSfOYe6wJWAOpJGo
+        - Compendium.eberron-5e.spells.Item.SdIEGERwsgwSEumo
+        - Compendium.eberron-5e.spells.Item.Kq28WGsv1attlsUT
+        - Compendium.eberron-5e.spells.Item.lLfI7O5wj4x2BYvz
+        - Compendium.eberron-5e.spells.Item.4QOyklURrsEZOBFu
+        - Compendium.eberron-5e.spells.Item.26xIUJucuY0pqZvs
+        - Compendium.eberron-5e.spells.Item.bPlHMNClB7FDSJWt
+        - Compendium.eberron-5e.spells.Item.Fd9sZNAzawW55NEu
+        - Compendium.eberron-5e.spells.Item.pmXrT63k7F5NJNDo
+        - Compendium.eberron-5e.spells.Item.uf4j66TOEjd5VWxG
+        - Compendium.eberron-5e.spells.Item.GiP5XdPWekzIePal
+        - Compendium.eberron-5e.spells.Item.luUIhLmtcs5NKCg4
+        - Compendium.eberron-5e.spells.Item.ywM56L8zvlxq83L0
+        - Compendium.eberron-5e.spells.Item.OyhIGMqCpUD8foYu
+        - Compendium.eberron-5e.spells.Item.T1CusnDudd02dLjW
+        - Compendium.eberron-5e.spells.Item.ddPRakcxLU3WUJbL
       unlinkedSpells: []
       identifier: cleric
     title:
@@ -266,9 +316,9 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.1
+      systemVersion: 4.0.2
       createdTime: 1726682964983
-      modifiedTime: 1726682975917
+      modifiedTime: 1727054946548
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.KlJm9T1LIpgVm5Yr'
   - sort: 700000
@@ -280,7 +330,21 @@ pages:
       grouping: level
       description:
         value: ''
-      spells: []
+      spells:
+        - Compendium.eberron-5e.spells.Item.P7UN1rtQgxotfpJF
+        - Compendium.eberron-5e.spells.Item.D1aZUwl7JVcW4mh3
+        - Compendium.eberron-5e.spells.Item.2TmmOqCohNZ0M2sI
+        - Compendium.eberron-5e.spells.Item.ShlEkf5hD2SxHS4S
+        - Compendium.eberron-5e.spells.Item.Kq28WGsv1attlsUT
+        - Compendium.eberron-5e.spells.Item.lLfI7O5wj4x2BYvz
+        - Compendium.eberron-5e.spells.Item.HdD4Azzo5Qqnu5ot
+        - Compendium.eberron-5e.spells.Item.V9ravOD53EXaTOmD
+        - Compendium.eberron-5e.spells.Item.GiP5XdPWekzIePal
+        - Compendium.eberron-5e.spells.Item.j33Qm7JNClOUHqzg
+        - Compendium.eberron-5e.spells.Item.u2fcYWwgGeJfic7x
+        - Compendium.eberron-5e.spells.Item.ywM56L8zvlxq83L0
+        - Compendium.eberron-5e.spells.Item.OyhIGMqCpUD8foYu
+        - Compendium.eberron-5e.spells.Item.T1CusnDudd02dLjW
       unlinkedSpells: []
       identifier: druid
     title:
@@ -302,9 +366,9 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.1
+      systemVersion: 4.0.2
       createdTime: 1726682984511
-      modifiedTime: 1726682989431
+      modifiedTime: 1727054885227
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.Ti2Dyqhah35jE33c'
   - sort: 800000
@@ -316,7 +380,14 @@ pages:
       grouping: level
       description:
         value: ''
-      spells: []
+      spells:
+        - Compendium.eberron-5e.spells.Item.Kq28WGsv1attlsUT
+        - Compendium.eberron-5e.spells.Item.GiP5XdPWekzIePal
+        - Compendium.eberron-5e.spells.Item.luUIhLmtcs5NKCg4
+        - Compendium.eberron-5e.spells.Item.TIi7XvRQkhszUZox
+        - Compendium.eberron-5e.spells.Item.ywM56L8zvlxq83L0
+        - Compendium.eberron-5e.spells.Item.OyhIGMqCpUD8foYu
+        - Compendium.eberron-5e.spells.Item.T1CusnDudd02dLjW
       unlinkedSpells: []
       identifier: paladin
     title:
@@ -338,9 +409,9 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.1
+      systemVersion: 4.0.2
       createdTime: 1726682999935
-      modifiedTime: 1726683007396
+      modifiedTime: 1727054908513
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.njBFwZiBfL7jPh71'
   - sort: 900000
@@ -352,7 +423,15 @@ pages:
       grouping: level
       description:
         value: ''
-      spells: []
+      spells:
+        - Compendium.eberron-5e.spells.Item.Xixg7CTCDeBTLKy4
+        - Compendium.eberron-5e.spells.Item.ShlEkf5hD2SxHS4S
+        - Compendium.eberron-5e.spells.Item.lLfI7O5wj4x2BYvz
+        - Compendium.eberron-5e.spells.Item.u2fcYWwgGeJfic7x
+        - Compendium.eberron-5e.spells.Item.TIi7XvRQkhszUZox
+        - Compendium.eberron-5e.spells.Item.ywM56L8zvlxq83L0
+        - Compendium.eberron-5e.spells.Item.OyhIGMqCpUD8foYu
+        - Compendium.eberron-5e.spells.Item.T1CusnDudd02dLjW
       unlinkedSpells: []
       identifier: ranger
     title:
@@ -374,9 +453,9 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.1
+      systemVersion: 4.0.2
       createdTime: 1726683015611
-      modifiedTime: 1726683026957
+      modifiedTime: 1727054899738
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.HixDqUdtLtZGydlC'
   - sort: 1000000
@@ -388,7 +467,42 @@ pages:
       grouping: level
       description:
         value: ''
-      spells: []
+      spells:
+        - Compendium.eberron-5e.spells.Item.5d2tXKgABoXE4KJ2
+        - Compendium.eberron-5e.spells.Item.KVeYk7JghBwRwNoR
+        - Compendium.eberron-5e.spells.Item.a2Sfwac13PcabX6R
+        - Compendium.eberron-5e.spells.Item.P7UN1rtQgxotfpJF
+        - Compendium.eberron-5e.spells.Item.D1aZUwl7JVcW4mh3
+        - Compendium.eberron-5e.spells.Item.o7GqPxObyAlufkFe
+        - Compendium.eberron-5e.spells.Item.B9kS2jcir6xklhcc
+        - Compendium.eberron-5e.spells.Item.ebUxTUuCAIT6ARFY
+        - Compendium.eberron-5e.spells.Item.GT4v2UFqPWIPnMwF
+        - Compendium.eberron-5e.spells.Item.2TmmOqCohNZ0M2sI
+        - Compendium.eberron-5e.spells.Item.SdIEGERwsgwSEumo
+        - Compendium.eberron-5e.spells.Item.K0G9uOGb4lTKTZju
+        - Compendium.eberron-5e.spells.Item.4QOyklURrsEZOBFu
+        - Compendium.eberron-5e.spells.Item.o5DEDeRlUYJ4jlW7
+        - Compendium.eberron-5e.spells.Item.GW2GwmNO8kWDLU6s
+        - Compendium.eberron-5e.spells.Item.4oGzWdFR7QfMES4X
+        - Compendium.eberron-5e.spells.Item.thvQmV7shWxvnMrJ
+        - Compendium.eberron-5e.spells.Item.ILkx9bHgiIp2B9kC
+        - Compendium.eberron-5e.spells.Item.1OB2FWcIIQaFcTNK
+        - Compendium.eberron-5e.spells.Item.HdD4Azzo5Qqnu5ot
+        - Compendium.eberron-5e.spells.Item.bPlHMNClB7FDSJWt
+        - Compendium.eberron-5e.spells.Item.jqQ1p2mtxDOnXXzA
+        - Compendium.eberron-5e.spells.Item.TUmwbRIj4sGOeMa9
+        - Compendium.eberron-5e.spells.Item.VNh940SA6PMZiOhq
+        - Compendium.eberron-5e.spells.Item.Fd9sZNAzawW55NEu
+        - Compendium.eberron-5e.spells.Item.pmXrT63k7F5NJNDo
+        - Compendium.eberron-5e.spells.Item.uf4j66TOEjd5VWxG
+        - Compendium.eberron-5e.spells.Item.V9ravOD53EXaTOmD
+        - Compendium.eberron-5e.spells.Item.GiP5XdPWekzIePal
+        - Compendium.eberron-5e.spells.Item.luUIhLmtcs5NKCg4
+        - Compendium.eberron-5e.spells.Item.u2fcYWwgGeJfic7x
+        - Compendium.eberron-5e.spells.Item.TIi7XvRQkhszUZox
+        - Compendium.eberron-5e.spells.Item.ecKgq9L3L2veeQYR
+        - Compendium.eberron-5e.spells.Item.ETvVSxRn5WViBMSy
+        - Compendium.eberron-5e.spells.Item.lM91pAni5YCLWzQJ
       unlinkedSpells: []
       identifier: sorcerer
     title:
@@ -410,9 +524,9 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.1
+      systemVersion: 4.0.2
       createdTime: 1726683032946
-      modifiedTime: 1726683039183
+      modifiedTime: 1727054935360
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.xNQ74oWdHe3A2XbW'
   - sort: 1100000
@@ -424,7 +538,34 @@ pages:
       grouping: level
       description:
         value: ''
-      spells: []
+      spells:
+        - Compendium.eberron-5e.spells.Item.TcQtfgfVAsl9ykZs
+        - Compendium.eberron-5e.spells.Item.w3qS0APt8dbLK1eG
+        - Compendium.eberron-5e.spells.Item.Xixg7CTCDeBTLKy4
+        - Compendium.eberron-5e.spells.Item.nanEjeb4JgYxoHRo
+        - Compendium.eberron-5e.spells.Item.D1aZUwl7JVcW4mh3
+        - Compendium.eberron-5e.spells.Item.B9kS2jcir6xklhcc
+        - Compendium.eberron-5e.spells.Item.GT4v2UFqPWIPnMwF
+        - Compendium.eberron-5e.spells.Item.2TmmOqCohNZ0M2sI
+        - Compendium.eberron-5e.spells.Item.SdIEGERwsgwSEumo
+        - Compendium.eberron-5e.spells.Item.4QOyklURrsEZOBFu
+        - Compendium.eberron-5e.spells.Item.26xIUJucuY0pqZvs
+        - Compendium.eberron-5e.spells.Item.ILkx9bHgiIp2B9kC
+        - Compendium.eberron-5e.spells.Item.HdD4Azzo5Qqnu5ot
+        - Compendium.eberron-5e.spells.Item.bPlHMNClB7FDSJWt
+        - Compendium.eberron-5e.spells.Item.jqQ1p2mtxDOnXXzA
+        - Compendium.eberron-5e.spells.Item.TUmwbRIj4sGOeMa9
+        - Compendium.eberron-5e.spells.Item.VNh940SA6PMZiOhq
+        - Compendium.eberron-5e.spells.Item.Fd9sZNAzawW55NEu
+        - Compendium.eberron-5e.spells.Item.pmXrT63k7F5NJNDo
+        - Compendium.eberron-5e.spells.Item.uf4j66TOEjd5VWxG
+        - Compendium.eberron-5e.spells.Item.V9ravOD53EXaTOmD
+        - Compendium.eberron-5e.spells.Item.luUIhLmtcs5NKCg4
+        - Compendium.eberron-5e.spells.Item.j33Qm7JNClOUHqzg
+        - Compendium.eberron-5e.spells.Item.dzGUU445UPMt0wXt
+        - Compendium.eberron-5e.spells.Item.TIi7XvRQkhszUZox
+        - Compendium.eberron-5e.spells.Item.ecKgq9L3L2veeQYR
+        - Compendium.eberron-5e.spells.Item.ddPRakcxLU3WUJbL
       unlinkedSpells: []
       identifier: warlock
     title:
@@ -446,9 +587,9 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.1
+      systemVersion: 4.0.2
       createdTime: 1726683046980
-      modifiedTime: 1726683059293
+      modifiedTime: 1727054948823
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.HK1fgrBCPWF1Txa7'
   - sort: 1200000
@@ -460,7 +601,41 @@ pages:
       grouping: level
       description:
         value: ''
-      spells: []
+      spells:
+        - Compendium.eberron-5e.spells.Item.5d2tXKgABoXE4KJ2
+        - Compendium.eberron-5e.spells.Item.J62d2u2yP36Al4Xr
+        - Compendium.eberron-5e.spells.Item.KVeYk7JghBwRwNoR
+        - Compendium.eberron-5e.spells.Item.a2Sfwac13PcabX6R
+        - Compendium.eberron-5e.spells.Item.o7GqPxObyAlufkFe
+        - Compendium.eberron-5e.spells.Item.B9kS2jcir6xklhcc
+        - Compendium.eberron-5e.spells.Item.GT4v2UFqPWIPnMwF
+        - Compendium.eberron-5e.spells.Item.2TmmOqCohNZ0M2sI
+        - Compendium.eberron-5e.spells.Item.SdIEGERwsgwSEumo
+        - Compendium.eberron-5e.spells.Item.Kq28WGsv1attlsUT
+        - Compendium.eberron-5e.spells.Item.lLfI7O5wj4x2BYvz
+        - Compendium.eberron-5e.spells.Item.K0G9uOGb4lTKTZju
+        - Compendium.eberron-5e.spells.Item.4QOyklURrsEZOBFu
+        - Compendium.eberron-5e.spells.Item.o5DEDeRlUYJ4jlW7
+        - Compendium.eberron-5e.spells.Item.GW2GwmNO8kWDLU6s
+        - Compendium.eberron-5e.spells.Item.4oGzWdFR7QfMES4X
+        - Compendium.eberron-5e.spells.Item.thvQmV7shWxvnMrJ
+        - Compendium.eberron-5e.spells.Item.26xIUJucuY0pqZvs
+        - Compendium.eberron-5e.spells.Item.ILkx9bHgiIp2B9kC
+        - Compendium.eberron-5e.spells.Item.eS6XA9ntLKqcQjfo
+        - Compendium.eberron-5e.spells.Item.1OB2FWcIIQaFcTNK
+        - Compendium.eberron-5e.spells.Item.HdD4Azzo5Qqnu5ot
+        - Compendium.eberron-5e.spells.Item.bPlHMNClB7FDSJWt
+        - Compendium.eberron-5e.spells.Item.jqQ1p2mtxDOnXXzA
+        - Compendium.eberron-5e.spells.Item.TUmwbRIj4sGOeMa9
+        - Compendium.eberron-5e.spells.Item.VNh940SA6PMZiOhq
+        - Compendium.eberron-5e.spells.Item.Fd9sZNAzawW55NEu
+        - Compendium.eberron-5e.spells.Item.uf4j66TOEjd5VWxG
+        - Compendium.eberron-5e.spells.Item.V9ravOD53EXaTOmD
+        - Compendium.eberron-5e.spells.Item.u2fcYWwgGeJfic7x
+        - Compendium.eberron-5e.spells.Item.ecKgq9L3L2veeQYR
+        - Compendium.eberron-5e.spells.Item.ETvVSxRn5WViBMSy
+        - Compendium.eberron-5e.spells.Item.lM91pAni5YCLWzQJ
+        - Compendium.eberron-5e.spells.Item.ddPRakcxLU3WUJbL
       unlinkedSpells: []
       identifier: wizard
     title:
@@ -482,9 +657,9 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.1
+      systemVersion: 4.0.2
       createdTime: 1726683063889
-      modifiedTime: 1726683097132
+      modifiedTime: 1727054941917
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.AxXgKIsEnNwKKwXk'
 folder: null

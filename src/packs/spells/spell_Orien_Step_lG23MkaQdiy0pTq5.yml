@@ -2,7 +2,7 @@ folder: 8HZDRNglvfgWO2oB
 name: Orien Step
 type: spell
 _id: lG23MkaQdiy0pTq5
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/movement/trail-streak-zigzag-teal.webp
 system:
   description:
     value: >-
@@ -23,15 +23,19 @@ system:
     value: null
   duration:
     value: ''
-    units: ''
+    units: inst
   target:
     affects:
       choice: false
+      count: ''
+      type: ''
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
-    units: ''
+    units: self
+    special: ''
   uses:
     max: ''
     spent: 0
@@ -62,9 +66,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384670271
-  modifiedTime: 1726384670271
+  modifiedTime: 1727053143454
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!lG23MkaQdiy0pTq5'
 

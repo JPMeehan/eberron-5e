@@ -12,21 +12,27 @@ system:
     custom: ''
     rules: '2014'
     revision: 1
+    book: GGtX
+    page: ''
   activation:
     type: ''
     condition: ''
     value: null
   duration:
     value: ''
-    units: ''
+    units: inst
   target:
     affects:
       choice: false
+      count: ''
+      type: ''
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
-    units: ''
+    units: self
+    special: ''
   uses:
     max: ''
     spent: 0
@@ -56,9 +62,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.2
   createdTime: 1726384669159
-  modifiedTime: 1726384669159
+  modifiedTime: 1727054423940
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!Fd9sZNAzawW55NEu'
 

@@ -4,6 +4,7 @@
 
 - Added description to PsiPri classes
 - Updated Combat Medic
+- Filled in some spell lists
 
 ## 1.0.3
 
