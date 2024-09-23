@@ -144,7 +144,13 @@ pages:
     image: {}
     text:
       format: 1
-      content: <p>Spell lists for the core classes</p>
+      content: >-
+        <p>Spell lists for the core classes drawn from <em>Exploring
+        Eberron</em>, <em>Chronicles of Eberron</em>, <em>Frontiers of Eberron:
+        Quickstone</em>, <em>The Giant Guide to Xen'drik</em>, <em>Linvakri's
+        Guide to Syrkarn</em>, and <em>Talvakri's Guide to Adar</em>. The
+        fiendish spells in <em>Korranberg Chronicle: Map Perilous</em> are
+        available in the module but are not in any class's spell list.</p>
     video:
       controls: true
       volume: 0.5
@@ -160,7 +166,7 @@ pages:
       systemId: dnd5e
       systemVersion: 4.0.1
       createdTime: 1726682817743
-      modifiedTime: 1726683142770
+      modifiedTime: 1727124403665
       lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.bZAwRG0tfHdkvB7b'
   - sort: 400000

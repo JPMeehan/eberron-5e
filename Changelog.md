@@ -4,7 +4,8 @@
 
 - Added description to PsiPri classes
 - Updated Combat Medic
-- Filled in some spell lists
+- Filled in spell lists
+- Added Spells of the Mark links to the Dragonmark feats
 
 ## 1.0.3
 

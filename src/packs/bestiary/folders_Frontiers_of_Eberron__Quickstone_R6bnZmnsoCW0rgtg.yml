@@ -1,0 +1,20 @@
+name: 'Frontiers of Eberron: Quickstone'
+sorting: a
+folder: null
+type: Actor
+_id: R6bnZmnsoCW0rgtg
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.2
+  createdTime: 1727125221317
+  modifiedTime: 1727125221317
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!folders!R6bnZmnsoCW0rgtg'
+

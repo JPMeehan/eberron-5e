@@ -9,11 +9,12 @@ const EBERRONCONFIG = {
       },
     },
     weaponIds: {
-      lightbayonet: 'eberron-5e.equipment.Y9KNEEWMWf6WdlvP',
-      heavybayonet: 'eberron-5e.equipment.LJQEDIxFIN2eeOWV',
-      handsentiralens: 'eberron-5e.equipment.IaBIyzprECOO69cR',
-      lightsentiralens: 'eberron-5e.equipment.bB8AjYgH1NVWIKjl',
-      heavysentiralens: 'eberron-5e.equipment.23TyYaYlvyrbOiEy',
+      lightbayonet: 'Compendium.eberron-5e.equipment.Item.Y9KNEEWMWf6WdlvP',
+      heavybayonet: 'Compendium.eberron-5e.equipment.Item.LJQEDIxFIN2eeOWV',
+      handsentiralens: 'Compendium.eberron-5e.equipment.Item.IaBIyzprECOO69cR',
+      lightsentiralens: 'Compendium.eberron-5e.equipment.Item.bB8AjYgH1NVWIKjl',
+      heavysentiralens: 'Compendium.eberron-5e.equipment.Item.23TyYaYlvyrbOiEy',
+      steeljaws: 'Compendium.eberron-5e.equipment.Item.WPLvzEifYL8ILWuh'
     },
     featureTypes: {
       class: {

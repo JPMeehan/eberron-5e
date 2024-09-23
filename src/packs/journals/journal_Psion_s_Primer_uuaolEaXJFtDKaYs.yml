@@ -214,6 +214,7 @@ pages:
       item: Compendium.eberron-5e.classes.Item.NLD2rMwTRXYxJmK5
       description:
         value: ''
+      style: ''
     ownership:
       default: -1
       q6n1efCGVB98drEQ: 3
@@ -223,10 +224,10 @@ pages:
       duplicateSource: null
       coreVersion: '12.331'
       systemId: dnd5e
-      systemVersion: 4.0.0
+      systemVersion: 4.0.2
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1727124290123
+      lastModifiedBy: q6n1efCGVB98drEQ
     _key: '!journal.pages!uuaolEaXJFtDKaYs.rFoAAdqwoaOe59KI'
   - sort: 600000
     name: Way of the Soulknife

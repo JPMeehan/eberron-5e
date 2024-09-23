@@ -2,7 +2,7 @@ folder: xm7kkq8tCfIvvkfX
 name: Steel Jaws
 type: weapon
 _id: WPLvzEifYL8ILWuh
-img: systems/dnd5e/icons/svg/items/weapon.svg
+img: icons/environment/traps/trap-jaw-tan.webp
 system:
   description:
     value: >-
@@ -62,7 +62,8 @@ system:
       number: 2
       denomination: 6
       bonus: ''
-      types: []
+      types:
+        - piercing
       custom:
         enabled: false
         formula: ''
@@ -79,7 +80,7 @@ system:
     conditions: ''
   type:
     value: martialM
-    baseItem: ''
+    baseItem: steeljaws
   magicalBonus: null
   properties:
     - fin
@@ -149,6 +150,7 @@ system:
       sort: 0
   identifier: steel-jaws
   ammunition: {}
+  mastery: topple
 effects: []
 sort: 0
 ownership:
@@ -167,9 +169,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726384672035
-  modifiedTime: 1726384672035
+  modifiedTime: 1727125970649
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!WPLvzEifYL8ILWuh'
 
