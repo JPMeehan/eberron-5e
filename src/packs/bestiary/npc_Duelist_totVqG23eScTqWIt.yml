@@ -1,0 +1,768 @@
+name: Duelist
+type: npc
+folder: 1PLuMFroCfBU2fnm
+img: icons/svg/mystery-man.svg
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 17
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 13
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: str
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: 13
+      calc: flat
+    hd:
+      spent: 0
+    hp:
+      value: 39
+      max: 39
+      temp: 0
+      tempmax: 0
+      formula: 6d8 + 12
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: >-
+        <p>A duelist is a deadly swordfighter, but typically one that exists
+        within higher social circles than common soldiers, mercenaries, or
+        thugs. As a legitimate sport, fencing tournaments are a popular past
+        time for nobles and dragonmarked heirs alike. Though the Code of Galifar
+        considers a non-sanctioned duel to be criminal assault with two guilty
+        parties, duels are still popular means of resolution for slights and
+        other conflicts, usually to first blood.</p>
+    alignment: Any Alignment
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: humanoid
+    environment: ''
+    cr: 3
+    spellLevel: 0
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    custom: ''
+    page: ''
+    license: ''
+  traits:
+    size: med
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: Any two languages
+prototypeToken:
+  name: Duelist
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+items:
+  - name: Multiattack
+    type: feat
+    img: icons/magic/death/skull-trio-badge-purple.webp
+    system:
+      description:
+        value: The duelist makes two attacks with its rapier.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: multiattack
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: BDacnQNt7xDUnLV6
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!totVqG23eScTqWIt.BDacnQNt7xDUnLV6'
+  - name: Rapier
+    type: weapon
+    img: modules/dnd-players-handbook/assets/icons/items/rapier.webp
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +7 to hit, reach 5 ft. , one target. Hit: 12 (2d8
+          + 3) piercing damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 2
+          denomination: 8
+          bonus: ''
+          types:
+            - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        j6cDPMDi0crWFOfl:
+          _id: j6cDPMDi0crWFOfl
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: rapier
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: MWzlA7iJ7BLK8YJh
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!totVqG23eScTqWIt.MWzlA7iJ7BLK8YJh'
+  - name: Description
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          Parry &amp; Riposte. The duelist adds 4 to its AC against one melee
+          attack that would hit it. To do so, the duelist must see the attacker
+          and be wielding a rapier. If this causes the attack to miss, the
+          duelist immediately makes a rapier attack against the creature that
+          attacked it.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: description
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: reaction
+    _id: VVlx7zO4ko8W8Ar8
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!totVqG23eScTqWIt.VVlx7zO4ko8W8Ar8'
+  - name: Skilled Fencer
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The duelist adds twice its proficiency modifier on attacks using
+          weapons with the finesse property, and such a weapon deals one extra
+          die of its damage when the duelist hits with it (included in the
+          attack).
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: skilled-fencer
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: gX2rOC5cb3qlLjMK
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!totVqG23eScTqWIt.gX2rOC5cb3qlLjMK'
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    showTokenPortrait: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727454756306
+  modifiedTime: 1727455233629
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: totVqG23eScTqWIt
+sort: 100000
+_key: '!actors!totVqG23eScTqWIt'
+

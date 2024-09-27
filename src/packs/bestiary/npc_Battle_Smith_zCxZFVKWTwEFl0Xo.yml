@@ -1,0 +1,3082 @@
+name: Battle Smith
+type: npc
+folder: 1PLuMFroCfBU2fnm
+img: icons/svg/mystery-man.svg
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 15
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 18
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 15
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: int
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: 17
+      calc: flat
+    hd:
+      spent: 0
+    hp:
+      value: 91
+      max: 91
+      temp: 0
+      tempmax: 0
+      formula: 14d8 + 28
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: >-
+        <p>A battle smith is an artificer trained to take to the field of war.
+        As they were often employed during the Last War as field medics for
+        warforged troops, battle smiths are expected to be able to defend
+        themselves. Many of them build one or more iron defenders (Rising) to
+        accompany them and aid in their duty. Due to the stigma against letting
+        warforged command themselves during the Last War, human, dwarven, and
+        gnomish battle smiths were often the natural choice to lead units
+        otherwise entirely comprised of warforged.</p>
+    alignment: Any Alignment
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: humanoid
+      subtype: Artificer
+    environment: ''
+    cr: 7
+    spellLevel: 0
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    custom: ''
+    page: ''
+    license: ''
+  traits:
+    size: med
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - common
+      custom: Any one language (usually )
+prototypeToken:
+  name: Battle Smith
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 0
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+items:
+  - name: Multiattack
+    type: feat
+    img: icons/magic/death/skull-trio-badge-purple.webp
+    system:
+      description:
+        value: The smith makes two attacks with its infused maul.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: multiattack
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: E60FzaG3I0FDg7tX
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.E60FzaG3I0FDg7tX'
+  - name: Infused Maul
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +8 to hit, reach 5 ft. , one target. Hit: 12 (2d6
+          + 5) bludgeoning damage plus 7 (2d6) force damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 2
+          denomination: 6
+          bonus: ''
+          types:
+            - bludgeoning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        AQPBIcZTQEid9k0S:
+          _id: AQPBIcZTQEid9k0S
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: infused-maul
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: koJZ4H9N4lIEri2c
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.koJZ4H9N4lIEri2c'
+  - name: Fire Bolt (Cantrip)
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      description:
+        value: >-
+          Ranged Spell Attack: +7 to hit, range 120 ft. , one target. Hit: 16
+          (3d10) fire damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 3
+          denomination: 10
+          bonus: ''
+          types:
+            - fire
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 120
+        long: null
+        units: ft
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        2t2Ai4cMVak9aoag:
+          _id: 2t2Ai4cMVak9aoag
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: fire-bolt-cantrip
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: WMBO3SUnSsztrh1c
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.WMBO3SUnSsztrh1c'
+  - name: Spellcasting
+    type: weapon
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    system:
+      description:
+        value: >-
+          The smith casts one of the following spells, using Intelligence as the
+          spellcasting ability (spell save DC 15, +7 to hit with spell attacks):
+          At will: fire bolt (11th level; see above), light, mending (as an
+          action) 3/day each: dispel magic, cure wounds (2nd level), faerie fire
+          2/day each: enlarge/reduce, heat metal, warding bond 1/day each:
+          conjure barrage (4th level), freedom of movement, haste.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        8UnBpR0POtSrIwdd:
+          _id: 8UnBpR0POtSrIwdd
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: spellcasting
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      damage:
+        base:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      magicalBonus: null
+      properties: []
+      range:
+        value: null
+        long: null
+        reach: null
+    _id: 1mECGA4Ch86ma589
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.1mECGA4Ch86ma589'
+  - name: Command Construct
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          The smith directs one willing construct or warforged of CR 6 or lower
+          that can see or hear it. The directed creature can use its reaction to
+          make one melee attack, dealing an extra 11 (2d6 + 4) force damage if
+          it hits.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: command-construct
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: bonus
+    _id: 9RpIhhhBz8mjAYbM
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.9RpIhhhBz8mjAYbM'
+  - name: Arcane Shield (1st-level Spell; 3/day)
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          When the smith is hit by an attack roll, its AC increases by 5 until
+          the start of its next turn, which can cause the triggering attack roll
+          to miss.
+        chat: ''
+      uses:
+        max: '3'
+        spent: 0
+        recovery: []
+      activities: {}
+      identifier: arcane-shield-1st-level-spell-3-day
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: reaction
+    _id: Ymmfea7YFOpdMI8c
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.Ymmfea7YFOpdMI8c'
+  - name: Arcane Veteran
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The smith has advantage on Constitution and Wisdom Infused Equipment.
+          The smith’s armor provides a higher AC than normal, and its weapon
+          attacks are magical and include bonuses to attack and damage. Infused
+          equipment becomes normal mundane equipment 4 days after the battle
+          smith’s death. saving throws. It can also use a weapon as a
+          spellcasting focus.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: arcane-veteran
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: BBXOFTQVXuueB1Sl
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.BBXOFTQVXuueB1Sl'
+  - name: Fire Bolt
+    system:
+      description:
+        value: >-
+          <p>You hurl a mote of fire at a creature or an object within range.
+          Make a ranged spell attack against the target. On a hit, the target
+          takes 1d10 Fire damage. A flammable object hit by this spell starts
+          burning if it isn’t being worn or carried.</p><p><strong>Cantrip
+          Upgrade.</strong> The damage increases by 1d10 when you reach levels 5
+          (2d10), 11 (3d10), and 17 (4d10).</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: creatureOrObject
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: ft
+        special: ''
+        value: '120'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: evo
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        23hcoYMwc0GUIB6V:
+          type: attack
+          _id: 23hcoYMwc0GUIB6V
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: ''
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 10
+                bonus: ''
+                types:
+                  - fire
+                scaling:
+                  mode: whole
+                  number: 1
+          name: ''
+          img: systems/dnd5e/icons/svg/damage/force.svg
+      identifier: fire-bolt
+    _id: UI9V1Bk6xFhGc8VA
+    type: spell
+    img: icons/magic/fire/projectile-fireball-orange-green.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 1400000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.UI9V1Bk6xFhGc8VA'
+  - name: Light
+    system:
+      description:
+        value: >-
+          <p>You touch one Large or smaller object that isn’t being worn or
+          carried by someone else. Until the spell ends, the object sheds Bright
+          Light in a 20-foot radius and Dim Light for an additional 20 feet. The
+          light can be colored as you like.</p><p>Covering the object with
+          something opaque blocks the light. The spell ends if you cast it
+          again.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: evo
+      properties:
+        - vocal
+        - material
+      materials:
+        value: a firefly or phosphorescent moss
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        EnaiVH67oUJzyHsF:
+          type: summon
+          _id: EnaiVH67oUJzyHsF
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          bonuses:
+            ac: ''
+            hd: ''
+            hp: ''
+            attackDamage: ''
+            saveDamage: ''
+            healing: ''
+          creatureSizes:
+            - sm
+            - med
+            - lg
+            - tiny
+          creatureTypes: []
+          match:
+            attacks: false
+            proficiency: false
+            saves: false
+          profiles:
+            - count: ''
+              name: ''
+              _id: QD99a4WC0JUMMDH7
+              uuid: Compendium.dnd-players-handbook.actors.Actor.phbsplLight00000
+              level:
+                min: null
+                max: null
+              types: []
+          summon:
+            prompt: false
+            mode: ''
+            identifier: ''
+          name: Cast
+          effects: []
+      identifier: light
+    _id: ufBOjoE777qHHufA
+    type: spell
+    img: icons/sundries/lights/candle-pillar-lit-yellow.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 1100000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.ufBOjoE777qHHufA'
+  - name: Mending
+    system:
+      description:
+        value: >-
+          <p>This spell repairs a single break or tear in an object you touch,
+          such as a broken chain link, two halves of a broken key, a torn cloak,
+          or a leaking wineskin. As long as the break or tear is no larger than
+          1 foot in any dimension, you mend it, leaving no trace of the former
+          damage.</p><p>This spell can physically repair a magic item, but it
+          can’t restore magic to such an object.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: minute
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: object
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: trs
+      properties:
+        - vocal
+        - somatic
+        - material
+      materials:
+        value: two lodestones
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        KWnXo7varYgjCDuk:
+          type: utility
+          _id: KWnXo7varYgjCDuk
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          name: Cast
+      identifier: mending
+    _id: 1KBMmUTUwVcjPXhA
+    type: spell
+    img: icons/commodities/metal/barstock-broken-steel.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 900000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.1KBMmUTUwVcjPXhA'
+  - name: Dispel Magic
+    system:
+      description:
+        value: "<p>Choose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level\_4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell’s level). On a successful check, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You automatically end a spell on the target if the spell’s level is equal to or less than the level of the spell slot you use.</p>"
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: any
+          count: ''
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '120'
+        units: ft
+      uses:
+        max: '3'
+        recovery: []
+        spent: 0
+      level: 3
+      school: abj
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: dispel-magic
+    _id: VwbFZarApOfbIFZ4
+    type: spell
+    img: icons/skills/melee/sword-damaged-broken-purple.webp
+    effects: []
+    folder: HCovEE4VoPGlIbKi
+    sort: 2500000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.VwbFZarApOfbIFZ4'
+  - name: Cure Wounds
+    system:
+      description:
+        value: >-
+          <p>A creature you touch regains a number of Hit Points equal to 2d8
+          plus your spellcasting ability modifier.</p><p><strong>Using a
+          Higher-Level Spell Slot.</strong> The healing increases by 2d8 for
+          each spell slot level above 1.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: '3'
+        recovery: []
+        spent: 0
+      level: 1
+      school: abj
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: heal
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          healing:
+            number: 2
+            denomination: 8
+            bonus: '@mod'
+            types:
+              - healing
+            custom:
+              enabled: false
+              formula: ''
+            scaling:
+              mode: whole
+              number: 2
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: cure-wounds
+    _id: qjMK5ihzo411FsaS
+    type: spell
+    img: icons/magic/nature/leaf-drip-light-green.webp
+    effects: []
+    folder: pBaAAtXBCq9FVEnL
+    sort: 4300000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.qjMK5ihzo411FsaS'
+  - name: Faerie Fire
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>Each object in a 20-foot cube within range is outlined in blue,
+          green, or violet light (your choice). Any creature in the area when
+          the spell is cast is also outlined in light if it fails a Dexterity
+          saving throw. For the duration, objects and affected creatures shed
+          dim light in a 10-foot radius.</p><p>Any attack roll against an
+          affected creature or object has advantage if the attacker can see it,
+          and the affected creature or object can't benefit from being
+          invisible.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Save or Suck
+        page: ''
+        license: DMsGuild CCA
+        revision: 1
+        rules: '2014'
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: cube
+          size: '20'
+          contiguous: false
+      range:
+        value: '60'
+        units: ft
+      uses:
+        max: '3'
+        recovery: []
+        spent: 0
+      ability: ''
+      level: 1
+      school: evo
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      properties:
+        - vocal
+        - concentration
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability: dex
+            dc:
+              calculation: spellcasting
+              formula: ''
+          sort: 0
+      identifier: faerie-fire
+    flags:
+      core: {}
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        migratedProperties:
+          - vocal
+          - concentration
+        migratedUses: 3
+    img: icons/magic/fire/projectile-meteor-salvo-strong-teal.webp
+    effects: []
+    folder: xIVYJl8bVPWrWfiM
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: T7cqePy0Pg2tGa5D
+    sort: 0
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.T7cqePy0Pg2tGa5D'
+  - name: Enlarge/Reduce
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You cause a creature or an object you can see within range to grow
+          larger or smaller for the Duration. Choose either a creature or an
+          object that is neither worn nor carried. If the target is unwilling,
+          it can make a Constitution saving throw. On a success, the spell has
+          no effect.</p><p>If the target is a creature, everything it is wearing
+          and carrying changes size with it. Any item dropped by an affected
+          creature returns to normal size at
+          once.</p><p><strong>Enlarge</strong>. The target's size doubles in all
+          dimensions, and its weight is multiplied by eight. This growth
+          increases its size by one category—from Medium to Large, for example.
+          If there isn't enough room for the target to double its size, the
+          creature or object attains the maximum possible size in the space
+          available. Until the spell ends, the target also has advantage on
+          Strength Checks and Strength Saving Throws. The target's Weapons also
+          grow to match its new size. While these Weapons are enlarged, the
+          target's attacks with them deal 1d4 extra
+          damage.</p><p><strong>Reduce</strong>. The target's size is halved in
+          all dimensions, and its weight is reduced to one-eighth of normal.
+          This reduction decreases its size by one category—from Medium to
+          Small, for example. Until the spell ends, the target also has
+          disadvantage on Strength Checks and Strength Saving Throws. The
+          target's Weapons also shrink to match its new size. While these
+          Weapons are reduced, the target's attacks with them deal 1d4 less
+          damage (this can't reduce the damage below 1).</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Save or Suck
+        page: ''
+        license: DMsGuild CCA
+        revision: 1
+        rules: '2014'
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '30'
+        units: ft
+      uses:
+        max: '2'
+        recovery: []
+        spent: 0
+      ability: ''
+      level: 2
+      school: trs
+      materials:
+        value: A pinch of powdered iron
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability: con
+            dc:
+              calculation: spellcasting
+              formula: ''
+          sort: 0
+      identifier: enlarge-reduce
+    flags:
+      core: {}
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        migratedProperties:
+          - vocal
+          - somatic
+          - material
+          - concentration
+        migratedUses: 2
+    img: icons/magic/control/energy-stream-link-large-blue.webp
+    effects: []
+    folder: bqqSw3gLfCK6OZNW
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: Aa6kVNzQGCaLlfim
+    sort: 300000
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.Aa6kVNzQGCaLlfim'
+  - name: Heat Metal
+    system:
+      description:
+        value: >-
+          <p>Choose a manufactured metal object, such as a metal weapon or a
+          suit of Heavy or Medium metal armor, that you can see within range.
+          You cause the object to glow red-hot. Any creature in physical contact
+          with the object takes 2d8 Fire damage when you cast the spell. Until
+          the spell ends, you can take a Bonus Action on each of your later
+          turns to deal this damage again if the object is within
+          range.</p><p>If a creature is holding or wearing the object and takes
+          the damage from it, the creature must succeed on a Constitution saving
+          throw or drop the object if it can. If it doesn’t drop the object, it
+          has Disadvantage on attack rolls and ability checks until the start of
+          your next turn.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> The damage increases by 1d8 for each spell slot level
+          above 2.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          type: object
+          count: '1'
+          choice: false
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        value: '60'
+        units: ft
+        special: ''
+      uses:
+        max: '2'
+        recovery: []
+        spent: 0
+      level: 2
+      school: trs
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: a piece of iron and a flame
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: ''
+            value: null
+            override: true
+            condition: ''
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: false
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: true
+            concentration: false
+          effects:
+            - _id: VVQbCUE5W44bF4QU
+              onSave: false
+          range:
+            override: true
+            units: any
+            special: ''
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              count: '1'
+              type: creature
+              special: ''
+            override: true
+          damage:
+            onSave: none
+            parts: []
+          save:
+            ability: con
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 100000
+          name: On Damage Save
+        2jWlvr2titPfBMEm:
+          type: damage
+          _id: 2jWlvr2titPfBMEm
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            critical:
+              allow: false
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 8
+                bonus: ''
+                types: []
+                scaling:
+                  mode: whole
+                  number: 1
+          name: Cast and Heat
+        YPEmwJHX7g68307N:
+          type: damage
+          sort: 0
+          activation:
+            type: bonus
+            value: null
+            override: true
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: false
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: true
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            critical:
+              allow: false
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 8
+                bonus: ''
+                types: []
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          name: Reheat
+          _id: YPEmwJHX7g68307N
+          img: systems/dnd5e/icons/svg/statuses/concentrating.svg
+      identifier: heat-metal
+    _id: gCYx4Qbj1vucvTyd
+    type: spell
+    img: icons/magic/fire/flame-burning-chain.webp
+    effects:
+      - name: Heated Metal
+        img: icons/magic/fire/flame-burning-chain.webp
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplHeatMetal0
+        transfer: false
+        _id: VVQbCUE5W44bF4QU
+        type: base
+        system: {}
+        changes: []
+        disabled: false
+        duration:
+          startTime: null
+          seconds: null
+          combat: null
+          rounds: 1
+          turns: null
+          startRound: null
+          startTurn: null
+        description: >-
+          <p>If a creature is holding or wearing the object and takes the damage
+          from it, The creature must succeed on a [[/save ability=con
+          format=long]] or drop the object if it can. If it doesn’t drop the
+          object, it has Disadvantage on attack rolls and ability checks until
+          the start of your next turn.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!zCxZFVKWTwEFl0Xo.gCYx4Qbj1vucvTyd.VVQbCUE5W44bF4QU
+    folder: 3SjcO2acsFnWegp4
+    sort: 2900000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        migratedUses: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.gCYx4Qbj1vucvTyd'
+  - name: Warding Bond
+    system:
+      description:
+        value: >-
+          <p>You touch another creature that is willing and create a mystic
+          connection between you and the target until the spell ends. While the
+          target is within 60 feet of you, it gains a +1 bonus to AC and saving
+          throws, and it has &amp;Reference[damageresistance]{Resistance} to all
+          damage. Also, each time it takes damage, you take the same amount of
+          damage.</p><p>The spell ends if you drop to 0 Hit Points or if you and
+          the target become separated by more than 60 feet. It also ends if the
+          spell is cast again on either of the connected creatures.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          type: willing
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        units: touch
+      uses:
+        max: '2'
+        recovery: []
+        spent: 0
+      level: 2
+      school: abj
+      properties:
+        - vocal
+        - somatic
+        - material
+      materials:
+        value: >-
+          a pair of platinum rings worth 50+ GP each, which you and the target
+          must wear for the duration
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: HRfwqQtKmhNzaGX8
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: warding-bond
+    _id: Xd0kn293GJGchvEU
+    type: spell
+    img: icons/magic/movement/abstract-ribbons-red-orange.webp
+    effects:
+      - name: Bonded
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplWardingBon
+        duration:
+          rounds: null
+          startTime: null
+          seconds: 3600
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        flags:
+          dnd5e: {}
+        img: icons/equipment/finger/ring-band-engraved-scrolls-silver.webp
+        _id: HRfwqQtKmhNzaGX8
+        type: base
+        system: {}
+        changes:
+          - key: system.traits.dr.value
+            mode: 2
+            value: acid
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: bludgeoning
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: cold
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: fire
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: force
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: lightning
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: necrotic
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: piercing
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: poison
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: psychic
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: radiant
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: slashing
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: thunder
+            priority: null
+          - key: system.attributes.ac.bonus
+            mode: 2
+            value: '1'
+            priority: null
+          - key: system.bonuses.abilities.save
+            mode: 2
+            value: '1'
+            priority: null
+        description: >-
+          <p>While the target is within 60 feet of you, it gains a +1 bonus to
+          AC and saving throws, and it has Resistance to all damage. Also, each
+          time it takes damage, you take the same amount of damage.</p><p>The
+          spell ends if you drop to 0 Hit Points or if you and the target become
+          separated by more than 60 feet. It also ends if the spell is cast
+          again on either of the connected creatures.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!zCxZFVKWTwEFl0Xo.Xd0kn293GJGchvEU.HRfwqQtKmhNzaGX8
+    folder: 3SjcO2acsFnWegp4
+    sort: 112500
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.Xd0kn293GJGchvEU'
+  - name: Conjure Barrage
+    system:
+      description:
+        value: "<p>You brandish the weapon used to cast the spell and conjure similar spectral weapons (or ammunition appropriate to the weapon) that launch forward and then disappear. Each creature of your choice that you can see in a 60-foot Cone makes a Dexterity saving throw, taking 5d8 Force damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong>\_The damage increases by 1d8 for each spell slot level above 3.</p>"
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: cone
+          size: '60'
+          contiguous: false
+      range:
+        units: self
+      uses:
+        max: '1'
+        recovery: []
+        spent: 0
+      level: 3
+      school: con
+      properties:
+        - vocal
+        - somatic
+        - material
+      materials:
+        value: a Melee or Ranged weapon worth at least 1 CP
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts:
+              - number: 5
+                denomination: 8
+                bonus: ''
+                types:
+                  - force
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          save:
+            ability: dex
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: conjure-barrage
+    _id: zSIfOVYLCpupUHtv
+    type: spell
+    img: icons/skills/ranged/daggers-thrown-salvo-teal.webp
+    effects: []
+    folder: HCovEE4VoPGlIbKi
+    sort: 3000000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 1
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.zSIfOVYLCpupUHtv'
+  - name: Freedom of Movement
+    system:
+      description:
+        value: >-
+          <p>You touch a willing creature. For the duration, the target’s
+          movement is unaffected by &amp;Reference[DifficultTerrain], and spells
+          and other magical effects can neither reduce the target’s Speed nor
+          cause the target to have the &amp;Reference[Paralyzed apply=false] or
+          &amp;Reference[Restrained apply=false] conditions. The target also has
+          a Swim Speed equal to its Speed.</p><p>In addition, the target can
+          spend 5 feet of movement to automatically escape from nonmagical
+          restraints, such as manacles or a creature imposing the
+          &amp;Reference[Grappled apply=false] condition on
+          it.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
+          target one additional creature for each spell slot level above
+          4.</p><section class="secret"
+          id="secret-uwteEBj1fBNIf7KZ"><p><strong>Foundry
+          Note</strong></p><p>The Active Effect provided by the
+          <strong>Cast</strong> activity upgrades the character's Swim Speed to
+          a value of "1" to indicate equivalence to (walk) Speed, in addition to
+          the condition immunities.</p></section>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          type: willing
+          count: '@item.level - 3'
+          choice: false
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: '1'
+        recovery: []
+        spent: 0
+      level: 4
+      school: abj
+      properties:
+        - vocal
+        - somatic
+        - material
+      materials:
+        value: a leather strap
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: bcTPZ6dJ4kHwaBRD
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Cast
+      identifier: freedom-of-movement
+    _id: iesE9KEaZ0hDhkqZ
+    type: spell
+    img: icons/magic/water/elemental-water.webp
+    effects:
+      - name: Unrestricted Movement
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM
+        duration:
+          rounds: null
+          startTime: null
+          seconds: 3600
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        flags:
+          dnd5e: {}
+        img: icons/skills/movement/feet-bladed-boots-fire.webp
+        _id: bcTPZ6dJ4kHwaBRD
+        type: base
+        system: {}
+        changes:
+          - key: system.traits.ci.value
+            mode: 2
+            value: paralyzed
+            priority: null
+          - key: system.traits.ci.value
+            mode: 2
+            value: restrained
+            priority: null
+          - key: system.attributes.movement.swim
+            mode: 4
+            value: '1'
+            priority: null
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!zCxZFVKWTwEFl0Xo.iesE9KEaZ0hDhkqZ.bcTPZ6dJ4kHwaBRD
+    folder: qi3IbnEwap7mRw4b
+    sort: 2000000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        migratedUses: 1
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.iesE9KEaZ0hDhkqZ'
+  - name: Haste
+    system:
+      description:
+        value: >-
+          <p>Choose a willing creature that you can see within range. Until the
+          spell ends, the target’s Speed is doubled, it gains a +2 bonus to
+          Armor Class, it has Advantage on Dexterity saving throws, and it gains
+          an additional action on each of its turns. That action can be used to
+          take only the Attack (one attack only), Dash, Disengage, Hide, or
+          Utilize action.</p><p>When the spell ends, the target is
+          &amp;Reference[Incapacitated apply=false] and has a Speed of 0 until
+          the end of its next turn, as a wave of lethargy washes over it.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          type: willing
+          count: '1'
+          choice: false
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        value: '30'
+        units: ft
+        special: ''
+      uses:
+        max: '1'
+        recovery: []
+        spent: 0
+      level: 3
+      school: trs
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: a shaving of licorice root
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: NEFWcyysYgsE6de3
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Cast
+        rBQrZnq7cHkSUAK9:
+          type: utility
+          name: Apply Lethargy
+          _id: rBQrZnq7cHkSUAK9
+          sort: 0
+          activation:
+            type: ''
+            value: null
+            override: true
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: false
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: round
+            concentration: false
+            override: true
+            value: '1'
+          effects:
+            - _id: S5XcFawnnNHO8bUr
+          range:
+            override: true
+            units: any
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+      identifier: haste
+    _id: kegFw2HAXjbwm7si
+    type: spell
+    img: icons/magic/time/clock-spinning-gold-pink.webp
+    effects:
+      - name: Hasted
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000
+        duration:
+          rounds: null
+          startTime: null
+          seconds: 60
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        flags:
+          dnd5e: {}
+        img: icons/magic/time/clock-spinning-gold-pink.webp
+        _id: NEFWcyysYgsE6de3
+        type: base
+        system: {}
+        changes:
+          - key: system.attributes.movement.walk
+            mode: 1
+            value: '2'
+            priority: null
+          - key: system.attributes.movement.burrow
+            mode: 1
+            value: '2'
+            priority: null
+          - key: system.attributes.movement.climb
+            mode: 1
+            value: '2'
+            priority: null
+          - key: system.attributes.movement.fly
+            mode: 1
+            value: '2'
+            priority: null
+          - key: system.attributes.movement.swim
+            mode: 1
+            value: '2'
+            priority: null
+          - key: system.attributes.ac.bonus
+            mode: 2
+            value: '2'
+            priority: null
+        description: >-
+          <p>Until the spell ends, the target’s Speed is doubled, it gains a +2
+          bonus to Armor Class, it has Advantage on Dexterity saving throws, and
+          it gains an additional action on each of its turns. That action can be
+          used to take only the Attack (one attack only), Dash, Disengage, Hide,
+          or Utilize action.</p><p>When the spell ends, the target is
+          Incapacitated and has a Speed of 0 until the end of its next turn, as
+          a
+          @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000.ActiveEffect.S5XcFawnnNHO8bUr]{wave
+          of lethargy} washes over it.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!zCxZFVKWTwEFl0Xo.kegFw2HAXjbwm7si.NEFWcyysYgsE6de3
+      - name: Lethargy
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000
+        duration:
+          rounds: 1
+          startTime: null
+          seconds: null
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        flags:
+          dnd5e: {}
+        img: icons/tools/nautical/anchor-blue.webp
+        _id: S5XcFawnnNHO8bUr
+        type: base
+        system: {}
+        changes:
+          - key: system.attributes.movement.walk
+            mode: 3
+            value: '0'
+            priority: null
+          - key: system.attributes.movement.burrow
+            mode: 3
+            value: '0'
+            priority: null
+          - key: system.attributes.movement.climb
+            mode: 3
+            value: '0'
+            priority: null
+          - key: system.attributes.movement.fly
+            mode: 3
+            value: '0'
+            priority: null
+          - key: system.attributes.movement.swim
+            mode: 3
+            value: '0'
+            priority: null
+        description: >-
+          <p>When the spell ends, the target is &amp;Reference[incapacitated
+          apply=false] and has a Speed of 0 until the end of its next turn, as a
+          wave of lethargy washes over it.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses:
+          - incapacitated
+        sort: 0
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!zCxZFVKWTwEFl0Xo.kegFw2HAXjbwm7si.S5XcFawnnNHO8bUr
+    folder: HCovEE4VoPGlIbKi
+    sort: 1700000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        migratedUses: 1
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zCxZFVKWTwEFl0Xo.kegFw2HAXjbwm7si'
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    showTokenPortrait: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727454754346
+  modifiedTime: 1727455141437
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: zCxZFVKWTwEFl0Xo
+sort: 600000
+_key: '!actors!zCxZFVKWTwEFl0Xo'
+

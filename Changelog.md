@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.5
+
+- More Map Perilous content
+  - Added general Five Nations stat blocks fro
+  - Added Dragonmarked "races" for NPCs
+  - Added King's Citadel stat blocks
+
 ## 1.0.4
 
 - Added description to PsiPri classes

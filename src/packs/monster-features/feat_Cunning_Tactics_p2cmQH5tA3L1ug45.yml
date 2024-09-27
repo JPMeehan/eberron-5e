@@ -1,0 +1,51 @@
+folder: Y8HqKnjdPOt5k29C
+name: Cunning Tactics
+type: feat
+_id: p2cmQH5tA3L1ug45
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>he NPC has a keen eye for seizing a tactical advantage. Immediately
+      after rolling initiative, it can choose itself and up to three allies it
+      can see if it isn't incapacitated. It can swap the initiative results of
+      the chosen creatures among them.</p>
+    chat: ''
+  identifier: cunning-tactics
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: ''
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: Brelish Military Training
+effects: []
+sort: 100000
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727414487157
+  modifiedTime: 1727455274069
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!p2cmQH5tA3L1ug45'
+

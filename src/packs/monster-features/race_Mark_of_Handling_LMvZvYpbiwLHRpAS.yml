@@ -1,0 +1,99 @@
+folder: nWKhJcgriDR4Be5M
+name: Mark of Handling
+type: race
+img: systems/dnd5e/icons/svg/items/race.svg
+system:
+  description:
+    value: >-
+      <p>When the [[lookup @name]] casts <em>animal friendship</em> or <em>speak
+      with animals</em> it may target a &amp;Reference[monstrosity]{monstrosity}
+      with an Intelligence score of 3 or lower.</p>
+    chat: ''
+  identifier: mark-of-handling
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: ''
+  advancement:
+    - type: Size
+      _id: nkSQb8dAzBhntdEQ
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - _id: c58qfVQG0VbqZ5Pl
+      type: Trait
+      configuration:
+        mode: forcedExpertise
+        allowReplacements: false
+        grants:
+          - skills:ani
+          - skills:nat
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
+    - _id: g7ThbIJ2IAI8qYO5
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: ''
+          uses:
+            max: '3'
+            per: day
+            requireSlot: false
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: 30
+    units: null
+    hover: false
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: humanoid
+    custom: ''
+    subtype: human
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727455432771
+  modifiedTime: 1727457110306
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: LMvZvYpbiwLHRpAS
+_key: '!items!LMvZvYpbiwLHRpAS'
+

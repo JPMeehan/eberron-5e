@@ -1,0 +1,104 @@
+folder: nWKhJcgriDR4Be5M
+name: Mark of Healing
+type: race
+img: systems/dnd5e/icons/svg/items/race.svg
+system:
+  description:
+    value: ''
+    chat: ''
+  identifier: mark-of-detection
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: ''
+  advancement:
+    - type: Size
+      _id: nkSQb8dAzBhntdEQ
+      configuration:
+        sizes:
+          - sm
+      level: 0
+      title: ''
+      hint: ''
+      value: {}
+    - _id: kR0smanTGh72NHS1
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.races.Item.7Yoo9hG0hfPSmBoC
+          - optional: false
+            uuid: Compendium.dnd5e.races.Item.PqxZgcJzp1VVgP8t
+          - optional: false
+            uuid: Compendium.dnd5e.races.Item.LOMdcNAGWh5xpfm4
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: ''
+          uses:
+            max: '1'
+            per: day
+            requireSlot: false
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+    - _id: VKeZHP1sXHm4OdTb
+      type: Trait
+      configuration:
+        mode: forcedExpertise
+        allowReplacements: false
+        grants:
+          - skills:med
+          - tool:herb
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: 25
+    units: null
+    hover: false
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: humanoid
+    custom: ''
+    subtype: halfling
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727455436988
+  modifiedTime: 1727456479917
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: enatq0dv4E7EVoeh
+_key: '!items!enatq0dv4E7EVoeh'
+

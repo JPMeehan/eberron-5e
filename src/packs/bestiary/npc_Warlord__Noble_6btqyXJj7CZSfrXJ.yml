@@ -403,7 +403,11 @@ system:
       initiative: null
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: ''
 prototypeToken:
   name: Warlord, Noble
   displayName: 0
@@ -1017,14 +1021,16 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
+  dnd5e:
+    showTokenPortrait: false
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726384676397
-  modifiedTime: 1726384676397
+  modifiedTime: 1727454744631
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: 6btqyXJj7CZSfrXJ
 sort: 0

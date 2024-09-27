@@ -1,0 +1,96 @@
+folder: nWKhJcgriDR4Be5M
+name: Mark of Sentinel
+type: race
+img: systems/dnd5e/icons/svg/items/race.svg
+system:
+  description:
+    value: ''
+    chat: ''
+  identifier: mark-of-sentinel
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: ''
+  advancement:
+    - type: Size
+      _id: nkSQb8dAzBhntdEQ
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - _id: EvnjjwSvpwuMpcXc
+      type: Trait
+      configuration:
+        mode: forcedExpertise
+        allowReplacements: false
+        grants:
+          - skills:ins
+          - skills:inv
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
+    - _id: KusSjYAS2tlNX9SX
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplWardingBon
+            optional: false
+          - uuid: Compendium.eberron-5e.monster-features.Item.E8TUJLu5ANqt1efm
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - wis
+          preparation: ''
+          uses:
+            max: '2'
+            per: day
+            requireSlot: false
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: 30
+    units: null
+    hover: false
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: humanoid
+    subtype: human
+    custom: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727457455983
+  modifiedTime: 1727458168566
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: sPidnLC2fZq60OXD
+_key: '!items!sPidnLC2fZq60OXD'
+

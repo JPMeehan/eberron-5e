@@ -1,0 +1,119 @@
+folder: nWKhJcgriDR4Be5M
+name: Mark of Scribing
+type: race
+img: systems/dnd5e/icons/svg/items/race.svg
+system:
+  description:
+    value: >-
+      <p>The [[lookup @name]] can cast <em>illusory script</em> as an
+      action.</p>
+    chat: ''
+  identifier: mark-of-scribing
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: ''
+  advancement:
+    - type: Size
+      _id: nkSQb8dAzBhntdEQ
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - _id: dhIT1BPvydhAzGPo
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd5e.races.Item.EHhr9umJ5kxJFCQH
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplComprehend
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplIllusorySc
+        optional: false
+        spell:
+          ability:
+            - int
+          preparation: ''
+          uses:
+            max: '1'
+            per: day
+            requireSlot: false
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+    - _id: NmyKmCIUkBxk9evT
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMessage000
+        optional: false
+        spell:
+          ability:
+            - int
+          preparation: atwill
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+    - _id: KirET50NZ3x8AXgs
+      type: Trait
+      configuration:
+        mode: forcedExpertise
+        allowReplacements: false
+        grants:
+          - skills:his
+          - tool:art:calligrapher
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: 25
+    units: null
+    hover: false
+  senses:
+    darkvision: 60
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: humanoid
+    custom: ''
+    subtype: gnome
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727455475939
+  modifiedTime: 1727457418362
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: Jup7hqAFQJtCfj3S
+_key: '!items!Jup7hqAFQJtCfj3S'
+

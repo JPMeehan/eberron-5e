@@ -93,6 +93,7 @@ system:
   uses:
     spent: 0
     recovery: []
+    max: ''
   identifier: tools-of-the-master
   attuned: false
 effects:
@@ -244,9 +245,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726384672076
-  modifiedTime: 1726384672076
+  modifiedTime: 1727150096761
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: mvIUADKnAC4bZTja
 sort: 0

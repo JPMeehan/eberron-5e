@@ -1,0 +1,1069 @@
+name: King's Shields
+type: npc
+folder: hu7gAx39NEhF8UyF
+img: icons/svg/mystery-man.svg
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 16
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 13
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 16
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: str
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: null
+      calc: default
+    hd:
+      spent: 0
+    hp:
+      value: 97
+      max: 97
+      temp: 0
+      tempmax: 0
+      formula: 13d8 + 39
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: >-
+        <p>Members of the King’s Shields dedicate their lives to protecting
+        their assigned wards. The most elite of Shields are commanded to protect
+        the King of Breland himself, but others serve as bodyguards for
+        strategically or politically important dignitaries all across
+        Breland—such as Cathan ir’Demell, the Lord Mayor of Sharn, or Haydith
+        ir’Wynarn, King Kaius III’s young sister currently living in Wroat as
+        part of a royal scion exchange program with Karrnath.</p>
+    alignment: Typically Lawful Neutral
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: humanoid
+    environment: ''
+    cr: 5
+    spellLevel: 0
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: ''
+  traits:
+    size: med
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - common
+      custom: Any one language (usually )
+prototypeToken:
+  name: King's Shields
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+items:
+  - name: Multiattack
+    type: feat
+    img: icons/magic/death/skull-trio-badge-purple.webp
+    system:
+      description:
+        value: The King’s Shield makes two longsword attacks.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: multiattack
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: q39DyTHAIZrroQvN
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!GMFJ5iMqJ1knRBsk.q39DyTHAIZrroQvN'
+  - name: Longsword
+    type: weapon
+    img: modules/dnd-players-handbook/assets/icons/items/longsword.webp
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +6 to hit, reach 5 ft. , one target. Hit: 7 (1d8
+          + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two
+          hands.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        versatile:
+          number: 1
+          denomination: 10
+          bonus: '3'
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 1
+          denomination: 8
+          bonus: ''
+          types:
+            - slashing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        i8YwoeotxfkfIvFP:
+          _id: i8YwoeotxfkfIvFP
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: longsword
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: KHL8SPLax2qiTJwe
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!GMFJ5iMqJ1knRBsk.KHL8SPLax2qiTJwe'
+  - name: Second Wind (Recharges After A Short Or Long Rest)
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: The King’s Shield regains 20 hit points.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: second-wind-recharges-after-a-short-or-long-rest
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: bonus
+    _id: CU4WE5XuWDy56Sky
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!GMFJ5iMqJ1knRBsk.CU4WE5XuWDy56Sky'
+  - name: Protector
+    type: feat
+    img: modules/dnd-tashas-cauldron/assets/portraits/eldritch-cannon.webp
+    system:
+      description:
+        value: >-
+          When a creature within 5 feet of the King’s Shield that it can see is
+          attacked, the King’s Shield can impose disadvantage on that attack
+          roll.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: protector
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: reaction
+    _id: byZy1C1Sq12zb6uX
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!GMFJ5iMqJ1knRBsk.byZy1C1Sq12zb6uX'
+  - name: Plate
+    type: equipment
+    system:
+      description:
+        value: >-
+          <p>Plate consists of shaped, interlocking metal plates to cover the
+          entire body. A suit of plate includes gauntlets, heavy leather boots,
+          a visored helmet, and thick layers of padding underneath the armor.
+          Buckles and straps distribute the weight over the body.</p>
+        chat: ''
+      source:
+        book: PHB
+        page: ''
+        license: ''
+        custom: ''
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 65
+        units: lb
+      price:
+        value: 1500
+        denomination: gp
+      rarity: ''
+      attunement: required
+      equipped: true
+      cover: null
+      crewed: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 18
+        dex: 0
+        magicalBonus: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: heavy
+        baseItem: plate
+      properties:
+        - stealthDisadvantage
+      speed:
+        value: null
+        conditions: ''
+      strength: 15
+      proficient: 1
+      identifier: plate
+      activities: {}
+      attuned: true
+    flags:
+      ddbimporter:
+        dndbeyond:
+          type: Heavy Armor
+          alternativeNames:
+            - Plate Armor
+          filterType: Armor
+          isConsumable: false
+          isContainer: false
+          isCustomItem: false
+          isHomebrew: false
+          isMonkWeapon: false
+          isPack: false
+          levelInfusionGranted: null
+          tags:
+            - Warding
+          sources:
+            - sourceId: 1
+              pageNumber: null
+              sourceType: 2
+            - sourceId: 2
+              pageNumber: null
+              sourceType: 1
+        id: 0
+        entityTypeId: 0
+        definitionEntityTypeId: 701257905
+        definitionId: 18
+        originalName: Plate
+        version: 4.0.11
+    effects: []
+    img: icons/equipment/chest/breastplate-collared-steel.webp
+    folder: cxWGXYtTGy98Ngek
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: Kgc3aCsIk9OSt5NT
+    sort: 0
+    _key: '!actors.items!GMFJ5iMqJ1knRBsk.Kgc3aCsIk9OSt5NT'
+  - name: Shield
+    type: equipment
+    system:
+      description:
+        value: >-
+          <p>A shield is made from wood or metal and is carried in one hand.
+          Wielding a shield increases your Armor Class by 2. You can benefit
+          from only one shield at a time.</p>
+        chat: ''
+      source:
+        book: PHB
+        page: ''
+        license: ''
+        custom: ''
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 6
+        units: lb
+      price:
+        value: 10
+        denomination: gp
+      rarity: ''
+      attunement: required
+      equipped: true
+      cover: null
+      crewed: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 2
+        dex: null
+        magicalBonus: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: shield
+        baseItem: shield
+      properties: []
+      speed:
+        value: null
+        conditions: ''
+      strength: 0
+      proficient: 1
+      identifier: shield
+      activities: {}
+      attuned: true
+    flags:
+      ddbimporter:
+        dndbeyond:
+          type: ''
+          alternativeNames:
+            - Shield Armor
+          filterType: Armor
+          isConsumable: false
+          isContainer: false
+          isCustomItem: false
+          isHomebrew: false
+          isMonkWeapon: false
+          isPack: false
+          levelInfusionGranted: null
+          tags:
+            - Warding
+          sources:
+            - sourceId: 1
+              pageNumber: null
+              sourceType: 2
+            - sourceId: 2
+              pageNumber: null
+              sourceType: 1
+        id: 0
+        entityTypeId: 0
+        definitionEntityTypeId: 701257905
+        definitionId: 8
+        originalName: Shield
+        version: 4.0.11
+    effects: []
+    img: icons/equipment/shield/round-wooden-boss-steel-brown.webp
+    folder: 9CdiFpLzUCQzOaXG
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: nCsxaDrUZI0mLV8F
+    sort: 0
+    _key: '!actors.items!GMFJ5iMqJ1knRBsk.nCsxaDrUZI0mLV8F'
+  - name: Vigilance
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The King’s Shield and one ally that can hear the King’s Shield when
+          Initiative is rolled cannot be surprised.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: vigilance
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: k0sM2Af1UcDb2tih
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!GMFJ5iMqJ1knRBsk.k0sM2Af1UcDb2tih'
+  - name: Mettle
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          If the King’s Shield is subjected to an effect that allows it to make
+          a Strength, Constitution, or Wisdom saving throw to take only half
+          damage, it instead takes no damage if it succeeds on the saving throw,
+          and only half damage if it fails.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: mettle
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: 2bGJhoskfjfTtDP9
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!GMFJ5iMqJ1knRBsk.2bGJhoskfjfTtDP9'
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    showTokenPortrait: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727459564833
+  modifiedTime: 1727459565925
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: GMFJ5iMqJ1knRBsk
+sort: 300000
+_key: '!actors!GMFJ5iMqJ1knRBsk'
+

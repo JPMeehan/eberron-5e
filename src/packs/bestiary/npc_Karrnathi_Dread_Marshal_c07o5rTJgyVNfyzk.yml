@@ -412,7 +412,11 @@ system:
       initiative: null
   source:
     revision: 1
-    rules: '2024'
+    rules: '2014'
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: ''
 prototypeToken:
   name: Karrnathi Dread Marshal
   displayName: 0
@@ -839,14 +843,16 @@ ownership:
   q6n1efCGVB98drEQ: 3
 flags:
   core: {}
+  dnd5e:
+    showTokenPortrait: false
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.0.3
   createdTime: 1726384677909
-  modifiedTime: 1726384677909
+  modifiedTime: 1727454746744
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: c07o5rTJgyVNfyzk
 sort: 200000

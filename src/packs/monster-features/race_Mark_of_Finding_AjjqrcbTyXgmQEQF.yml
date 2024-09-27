@@ -1,0 +1,96 @@
+folder: nWKhJcgriDR4Be5M
+name: Mark of Finding
+type: race
+img: systems/dnd5e/icons/svg/items/race.svg
+system:
+  description:
+    value: ''
+    chat: ''
+  identifier: mark-of-finding
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: ''
+  advancement:
+    - type: Size
+      _id: nkSQb8dAzBhntdEQ
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - _id: FedeT9UIYn29mfwS
+      type: Trait
+      configuration:
+        mode: forcedExpertise
+        allowReplacements: false
+        grants:
+          - skills:prc
+          - skills:sur
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
+    - _id: m60u25DJoLI2IsbV
+      type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLocateAnim
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLocateObje
+        optional: false
+        spell:
+          ability:
+            - int
+          preparation: ''
+          uses:
+            max: '1'
+            per: day
+            requireSlot: false
+      value: {}
+      level: 0
+      title: ''
+      hint: ''
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: 30
+    units: null
+    hover: false
+  senses:
+    darkvision: 60
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: humanoid
+    custom: ''
+    subtype: half-orc
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727455427508
+  modifiedTime: 1727456211721
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: AjjqrcbTyXgmQEQF
+_key: '!items!AjjqrcbTyXgmQEQF'
+

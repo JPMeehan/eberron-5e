@@ -1,0 +1,1599 @@
+name: Wandslinger
+type: npc
+folder: 1PLuMFroCfBU2fnm
+img: icons/svg/mystery-man.svg
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 13
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: int
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: null
+      calc: default
+    hd:
+      spent: 0
+    hp:
+      value: 52
+      max: 52
+      temp: 0
+      tempmax: 0
+      formula: 8d8 + 16
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: >-
+        <p>A wandslinger is a sort of specialized, combat-trained magewright.
+        Magic was a valuable asset during the Last War, but the armies of the
+        Five Nations did not often have time to wait for fully-trained mages to
+        enlist. Soldiers that showed even a minor magical talent received enough
+        training to be able to cast one or two cantrips—typically combat
+        oriented wizard or sorcerer cantrips—and one 1st-level spell. Unlike
+        fully trained wizards or gifted sorcerers, a wandslinger can only
+        fulfill the somatic components of spells by using an arcane focus,
+        typically a wand or rod. Within the military, these limited spellcasters
+        are known as “arcaneers” or “artillerists”, but to common folk, they are
+        known by the more evocative moniker of “wandslinger”.</p>
+    alignment: Any Alignment
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: humanoid
+    environment: ''
+    cr: 3
+    spellLevel: 0
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    custom: ''
+    page: ''
+    license: ''
+  traits:
+    size: med
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - common
+      custom: Any one language (usually )
+prototypeToken:
+  name: Wandslinger
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+items:
+  - name: Wands Akimbo
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          The wandslinger draws up to two wands (if it does not already have two
+          drawn) and casts either two different cantrips or one cantrip twice.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: wands-akimbo
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: vHRblPH5S69aPDeN
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zJmWbGIepZ1PQLcO.vHRblPH5S69aPDeN'
+  - name: Longcast
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          If the wandslinger has a rod drawn and holds it in two hands, it casts
+          one cantrip and doubles the range of the spell.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: longcast
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: S56oJeNiAa1hxe2N
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zJmWbGIepZ1PQLcO.S56oJeNiAa1hxe2N'
+  - name: Fire Bolt (Cantrip)
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      description:
+        value: >-
+          Ranged Spell Attack: +5 to hit, range 120 ft. , one target. Hit: 14
+          (2d10 + 3) fire damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 2
+          denomination: 10
+          bonus: ''
+          types:
+            - fire
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 120
+        long: null
+        units: ft
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        skXqFnXvTDTJCzWz:
+          _id: skXqFnXvTDTJCzWz
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: fire-bolt-cantrip
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: FyLnAB74T7rIMGW9
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zJmWbGIepZ1PQLcO.FyLnAB74T7rIMGW9'
+  - name: Shocking Grasp (Cantrip)
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      description:
+        value: >-
+          Melee Spell Attack: +5 to hit (the attack roll is made with advantage
+          if the target is wearing armor made of metal), reach 5 ft. , one
+          creature. Hit: 12 (2d8 + 3) lightning damage and the target can’t take
+          reactions until the start of its next turn.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 2
+          denomination: 8
+          bonus: ''
+          types:
+            - lightning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        aX44i40oOfIThH72:
+          _id: aX44i40oOfIThH72
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: shocking-grasp-cantrip
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: HeEQQhiAoFNuuKxi
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zJmWbGIepZ1PQLcO.HeEQQhiAoFNuuKxi'
+  - name: Shortsword
+    type: weapon
+    img: modules/dnd-players-handbook/assets/icons/items/shortsword.webp
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +4 to hit, reach 5 ft. , one target. Hit: 5 (1d6
+          + 2) piercing damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 1
+          denomination: 6
+          bonus: ''
+          types:
+            - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        YxRhmrGWnVK0Y6Hq:
+          _id: YxRhmrGWnVK0Y6Hq
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: shortsword
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: 1ko0eYpNxPmfV3At
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zJmWbGIepZ1PQLcO.1ko0eYpNxPmfV3At'
+  - name: Spellcasting
+    type: weapon
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    system:
+      description:
+        value: >-
+          The wandslinger casts one of the following spells, requiring a wand or
+          rod as an arcane focus and using Intelligence as the spellcasting
+          ability (spell save DC 13, +5 to hit with spell attacks): At will:
+          fire bolt (see above), shocking grasp (see above).
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        lsmKNTqOpAK2vW5k:
+          _id: lsmKNTqOpAK2vW5k
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: spellcasting
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      damage:
+        base:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      magicalBonus: null
+      properties: []
+      range:
+        value: null
+        long: null
+        reach: null
+    _id: c2avLHWaCajv1plm
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zJmWbGIepZ1PQLcO.c2avLHWaCajv1plm'
+  - name: Arcane Shield (1st-level Spell; 3/day)
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          When the wandslinger is hit by an attack roll, its AC increases by 5
+          until the start of its next turn, which can cause the triggering
+          attack roll to miss.
+        chat: ''
+      uses:
+        max: '3'
+        spent: 0
+        recovery: []
+      activities: {}
+      identifier: arcane-shield-1st-level-spell-3-day
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: reaction
+    _id: 5QUd25o8NU1j34D9
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zJmWbGIepZ1PQLcO.5QUd25o8NU1j34D9'
+  - name: Leather Armor
+    system:
+      description:
+        value: ''
+        chat: ''
+      price:
+        value: 10
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 10
+        units: lb
+      rarity: ''
+      attunement: required
+      attuned: true
+      equipped: true
+      cover: null
+      crewed: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 11
+        magicalBonus: null
+        dex: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: light
+        baseItem: leather
+      properties: []
+      speed:
+        value: null
+        conditions: ''
+      strength: null
+      proficient: 1
+      activities: {}
+      identifier: leather-armor
+    _id: Na145JTryUQ4XtTK
+    type: equipment
+    folder: G3X11BbtmEqLmEnK
+    img: modules/dnd-players-handbook/assets/icons/armor/leather-armor.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zJmWbGIepZ1PQLcO.Na145JTryUQ4XtTK'
+  - name: High Caliber Cantrips
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The wandslinger adds its Intelligence modifier to the damage of any
+          cantrip it casts and casts them as a 5th-level spellcaster (already
+          included).
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: high-caliber-cantrips
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: zra0oXGhAMibR3Bv
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zJmWbGIepZ1PQLcO.zra0oXGhAMibR3Bv'
+  - name: Fire Bolt
+    system:
+      description:
+        value: >-
+          <p>You hurl a mote of fire at a creature or an object within range.
+          Make a ranged spell attack against the target. On a hit, the target
+          takes 1d10 Fire damage. A flammable object hit by this spell starts
+          burning if it isn’t being worn or carried.</p><p><strong>Cantrip
+          Upgrade.</strong> The damage increases by 1d10 when you reach levels 5
+          (2d10), 11 (3d10), and 17 (4d10).</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: creatureOrObject
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: ft
+        special: ''
+        value: '120'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: evo
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        23hcoYMwc0GUIB6V:
+          type: attack
+          _id: 23hcoYMwc0GUIB6V
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: ''
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 10
+                bonus: ''
+                types:
+                  - fire
+                scaling:
+                  mode: whole
+                  number: 1
+          name: ''
+          img: systems/dnd5e/icons/svg/damage/force.svg
+      identifier: fire-bolt
+    _id: 1qLqt0eZraoUNEMT
+    type: spell
+    img: icons/magic/fire/projectile-fireball-orange-green.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 1400000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zJmWbGIepZ1PQLcO.1qLqt0eZraoUNEMT'
+  - name: Shocking Grasp
+    system:
+      description:
+        value: >-
+          <p>Lightning springs from you to a creature that you try to touch.
+          Make a melee spell attack against the target. On a hit, the target
+          takes 1d8 Lightning damage, and it can’t make Opportunity Attacks
+          until the start of its next turn.</p><p><strong>Cantrip
+          Upgrade.</strong> The damage increases by 1d8 when you reach levels 5
+          (2d8), 11 (3d8), and 17 (4d8).</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: evo
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        x1A2tC9t6R5uxBG0:
+          type: attack
+          _id: x1A2tC9t6R5uxBG0
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: DQCAm67ck1GEKHtE
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: ''
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 8
+                bonus: ''
+                types:
+                  - lightning
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          name: ''
+      identifier: shocking-grasp
+    _id: wBoGDI1yeNkchF6a
+    type: spell
+    img: icons/magic/lightning/claws-unarmed-strike-teal.webp
+    effects:
+      - name: Shocked
+        img: icons/magic/lightning/bolt-strike-wide-white.webp
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplShockingGr
+        transfer: false
+        _id: DQCAm67ck1GEKHtE
+        type: base
+        system: {}
+        changes: []
+        disabled: false
+        duration:
+          startTime: null
+          seconds: null
+          combat: null
+          rounds: null
+          turns: 1
+          startRound: null
+          startTurn: null
+        description: >-
+          <p>The target can’t make Opportunity Attacks until the start of its
+          next turn.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!zJmWbGIepZ1PQLcO.wBoGDI1yeNkchF6a.DQCAm67ck1GEKHtE
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 106250
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!zJmWbGIepZ1PQLcO.wBoGDI1yeNkchF6a'
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    showTokenPortrait: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727455066056
+  modifiedTime: 1727455233654
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: zJmWbGIepZ1PQLcO
+sort: 0
+_key: '!actors!zJmWbGIepZ1PQLcO'
+

@@ -1,0 +1,20 @@
+name: Map Perilous
+sorting: a
+folder: null
+type: Item
+_id: rUgDoq1bNNXjxE1k
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727414377909
+  modifiedTime: 1727414377909
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!folders!rUgDoq1bNNXjxE1k'
+

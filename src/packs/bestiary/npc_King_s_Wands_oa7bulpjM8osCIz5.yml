@@ -1,0 +1,2562 @@
+name: King's Wands
+type: npc
+folder: hu7gAx39NEhF8UyF
+img: icons/svg/mystery-man.svg
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 9
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 18
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 12
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: int
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: 12
+      calc: flat
+    hd:
+      spent: 0
+    hp:
+      value: 49
+      max: 49
+      temp: 0
+      tempmax: 0
+      formula: 9d8 + 9
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: >-
+        <p>The King’s Wands are elite mages of the King’s Citadel. They spend
+        most of their time researching new methods of training to resist magic
+        that are then disseminated to the other divisions of the Citadel. When
+        assigned to the field, a Wand is usually accompanied by agents of at
+        least two other Citadel divisions, and only on missions that require
+        their arcane expertise to complete.</p>
+    alignment: Any Alignment
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: humanoid
+      subtype: Wizard
+    environment: ''
+    cr: 5
+    spellLevel: 0
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: ''
+  traits:
+    size: med
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: Any two languages
+prototypeToken:
+  name: King's Wands
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+items:
+  - name: Arcane Burst
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      description:
+        value: >-
+          Melee or Ranged Spell Attack: +7 to hit, reach 5 ft. or range 120 ft.
+          , one target. Hit: 10 (1d12 + 4) fire damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 1
+          denomination: 12
+          bonus: ''
+          types:
+            - fire
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 120
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        HOZVGPOPk8HztICm:
+          _id: HOZVGPOPk8HztICm
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: arcane-burst
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: 50S3bQEkL3wwkz1t
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.50S3bQEkL3wwkz1t'
+  - name: Lightning Bolt (3rd-level Spell)
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          A stroke of lightning forming a line 100 feet long and 5 feet wide
+          blasts out from the King’s Wand in a direction it chooses. Each
+          creature in the line must make a DC 15 Dexterity saving throw. A
+          creature takes 28 (8d6) lightning damage on a failed save, or half as
+          much damage on a successful one. The lightning ignites flammable
+          objects in the area that aren’t being worn or carried.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: lightning-bolt-3rd-level-spell
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: F1nn0PElbhdmew64
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.F1nn0PElbhdmew64'
+  - name: Spellcasting
+    type: feat
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    system:
+      description:
+        value: >-
+          The King’s Wand casts one of the following spells, using Intelligence
+          as the spellcasting ability (spell save DC 15): At will: detect magic,
+          light, mage hand, magic missile, prestidigitation 3/day each:
+          invisibility, lightning bolt (see above), mage armor 2/day each:
+          dimension door, fly, locate object, suggestion.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: spellcasting
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: gCZRkACiKNOH1GbY
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.gCZRkACiKNOH1GbY'
+  - name: Arcane Shield (1st-level Spell; 3/day)
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          When the King’s Wand is hit by an attack roll, its AC increases by 5
+          until the start of its next turn, which can cause the triggering
+          attack roll to miss.
+        chat: ''
+      uses:
+        max: '3'
+        spent: 0
+        recovery: []
+      activities: {}
+      identifier: arcane-shield-1st-level-spell-3-day
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: reaction
+    _id: 6VIXOOeYLT7Us9Ud
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.6VIXOOeYLT7Us9Ud'
+  - name: Countermagic (4th-level Spell; 2/day)
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          The King’s Wand targets one creature it can see within 120 feet of it
+          that is casting a spell. The King’s Wand makes an Intelligence check
+          with advantage against a DC equal to 10 + the spell’s level. On a
+          success, the target’s spell fails and has no effect.
+        chat: ''
+      uses:
+        max: '2'
+        spent: 0
+        recovery: []
+      activities: {}
+      identifier: countermagic-4th-level-spell-2-day
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: reaction
+    _id: KlYpDLgaRYkvUDBb
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.KlYpDLgaRYkvUDBb'
+  - name: Arcane Avoidance
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The King’s Wand can’t be targeted by any divination magic or perceived
+          through magical scrying sensors. Additionally, if the King’s Wand is
+          subjected to a magical effect that allows it to make a saving throw to
+          take only half damage, it instead takes no damage if it succeeds on
+          the saving throw, and only half damage if it fails.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: arcane-avoidance
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: AXdEpXv6JoWkZMTm
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.AXdEpXv6JoWkZMTm'
+  - name: Detect Magic
+    system:
+      description:
+        value: >-
+          <p>For the duration, you sense the presence of magical effects within
+          30 feet of yourself. If you sense such effects, you can take the Magic
+          action to see a faint aura around any visible creature or object in
+          the area that bears the magic, and if an effect was created by a
+          spell, you learn the spell’s school of magic.</p><p>The spell is
+          blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin
+          sheet of lead.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '10'
+        units: minute
+      target:
+        affects:
+          type: self
+          count: ''
+          choice: false
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        value: '30'
+        units: ft
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: div
+      properties:
+        - vocal
+        - somatic
+        - concentration
+        - ritual
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: BHw91lQmVgdx39WZ
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Cast
+      identifier: detect-magic
+    _id: vm6Estxd3ikyoUbQ
+    type: spell
+    img: icons/magic/symbols/runes-carved-stone-green.webp
+    effects:
+      - name: Detection
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi
+        duration:
+          rounds: null
+          startTime: null
+          seconds: 600
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        flags:
+          dnd5e: {}
+        img: icons/magic/perception/third-eye-blue-red.webp
+        _id: BHw91lQmVgdx39WZ
+        type: base
+        system: {}
+        changes: []
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!oa7bulpjM8osCIz5.vm6Estxd3ikyoUbQ.BHw91lQmVgdx39WZ
+    folder: pBaAAtXBCq9FVEnL
+    sort: 4100000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.vm6Estxd3ikyoUbQ'
+  - name: Light
+    system:
+      description:
+        value: >-
+          <p>You touch one Large or smaller object that isn’t being worn or
+          carried by someone else. Until the spell ends, the object sheds Bright
+          Light in a 20-foot radius and Dim Light for an additional 20 feet. The
+          light can be colored as you like.</p><p>Covering the object with
+          something opaque blocks the light. The spell ends if you cast it
+          again.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: evo
+      properties:
+        - vocal
+        - material
+      materials:
+        value: a firefly or phosphorescent moss
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        EnaiVH67oUJzyHsF:
+          type: summon
+          _id: EnaiVH67oUJzyHsF
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          bonuses:
+            ac: ''
+            hd: ''
+            hp: ''
+            attackDamage: ''
+            saveDamage: ''
+            healing: ''
+          creatureSizes:
+            - sm
+            - med
+            - lg
+            - tiny
+          creatureTypes: []
+          match:
+            attacks: false
+            proficiency: false
+            saves: false
+          profiles:
+            - count: ''
+              name: ''
+              _id: QD99a4WC0JUMMDH7
+              uuid: Compendium.dnd-players-handbook.actors.Actor.phbsplLight00000
+              level:
+                min: null
+                max: null
+              types: []
+          summon:
+            prompt: false
+            mode: ''
+            identifier: ''
+          name: Cast
+          effects: []
+      identifier: light
+    _id: J3a1fHqm0XyDGBky
+    type: spell
+    img: icons/sundries/lights/candle-pillar-lit-yellow.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 1100000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.J3a1fHqm0XyDGBky'
+  - name: Mage Hand
+    system:
+      description:
+        value: >-
+          <p>A spectral, floating hand appears at a point you choose within
+          range. The hand lasts for the duration. The hand vanishes if it is
+          ever more than 30 feet away from you or if you cast this spell
+          again.</p><p>When you cast the spell, you can use the hand to
+          manipulate an object, open an unlocked door or container, stow or
+          retrieve an item from an open container, or pour the contents out of a
+          vial.</p><p>As a Magic action on your later turns, you can control the
+          hand thus again. As part of that action, you can move the hand up to
+          30 feet.</p><p>The hand can’t attack, activate magic items, or carry
+          more than 10 pounds.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: space
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: ft
+        special: ''
+        value: '30'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: con
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        QdMC2s97UJKjUBoD:
+          type: summon
+          _id: QdMC2s97UJKjUBoD
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          bonuses:
+            ac: ''
+            hd: ''
+            hp: ''
+            attackDamage: '0'
+            saveDamage: '0'
+            healing: '0'
+          creatureSizes: []
+          creatureTypes: []
+          match:
+            attacks: false
+            proficiency: false
+            saves: false
+          profiles:
+            - count: ''
+              name: ''
+              _id: yXLZxwYBIj9AR2iQ
+              uuid: Compendium.dnd-players-handbook.actors.Actor.phbsplMageHand00
+              level:
+                min: null
+                max: null
+              types: []
+          summon:
+            prompt: true
+            mode: ''
+          name: ''
+          effects: []
+      identifier: mage-hand
+    _id: ZUkLHEQQlW9KS4Ek
+    type: spell
+    img: icons/magic/light/hand-sparks-smoke-teal.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 1000000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.ZUkLHEQQlW9KS4Ek'
+  - name: Magic Missile
+    system:
+      description:
+        value: >-
+          <p>You create three glowing darts of magical force. Each dart strikes
+          a creature of your choice that you can see within range. A dart deals
+          1d4 + 1 Force damage to its target. The darts all strike
+          simultaneously, and you can direct them to hit one creature or
+          several.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
+          spell creates one more dart for each spell slot level above
+          1.</p><p>[[2 + @item.level]]{Level [[lookup @item.level]] darts}</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: creature
+          count: 2 + @item.level
+          choice: false
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        value: '120'
+        units: ft
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 1
+      school: evo
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: damage
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            critical:
+              allow: false
+              bonus: ''
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 4
+                bonus: '1'
+                types:
+                  - force
+                scaling:
+                  mode: ''
+                  number: 1
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Cast
+      identifier: magic-missile
+    _id: JVTXPWknOpktV5FW
+    type: spell
+    img: icons/magic/light/projectiles-pink-purple.webp
+    effects: []
+    folder: pBaAAtXBCq9FVEnL
+    sort: 1100000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.JVTXPWknOpktV5FW'
+  - name: Prestidigitation
+    system:
+      description:
+        value: >-
+          <p>You create a magical effect within range. Choose the effect from
+          the options below. If you cast this spell multiple times, you can have
+          up to three of its non-instantaneous effects active at a
+          time.</p><p><strong>Sensory Effect.</strong> You create an
+          instantaneous, harmless sensory effect, such as a shower of sparks, a
+          puff of wind, faint musical notes, or an odd odor.</p><p><strong>Fire
+          Play.</strong> You instantaneously light or snuff out a candle, a
+          torch, or a small campfire.</p><p><strong>Clean or Soil.</strong> You
+          instantaneously clean or soil an object no larger than 1 cubic
+          foot.</p><p><strong>Minor Sensation.</strong> You chill, warm, or
+          flavor up to 1 cubic foot of nonliving material for 1
+          hour.</p><p><strong>Magic Mark.</strong> You make a color, a small
+          mark, or a symbol appear on an object or a surface for 1
+          hour.</p><p><strong>Minor Creation.</strong> You create a nonmagical
+          trinket or an illusory image that can fit in your hand. It lasts until
+          the end of your next turn. A trinket can deal no damage and has no
+          monetary worth.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: ft
+        special: ''
+        value: '10'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: trs
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        gbdxQQmWwEAL1zpH:
+          type: utility
+          name: Cast
+          _id: gbdxQQmWwEAL1zpH
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      identifier: prestidigitation
+    _id: yDRWTNWGm46rmltL
+    type: spell
+    img: icons/weapons/wands/wand-star-white.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 400000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.yDRWTNWGm46rmltL'
+  - name: Invisibility
+    system:
+      description:
+        value: >-
+          <p>A creature you touch has the &amp;Reference[invisible apply=false]
+          condition until the spell ends. The spell ends early immediately after
+          the target makes an attack roll, deals damage, or casts a
+          spell.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
+          target one additional creature for each spell slot level above 2.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          type: creature
+          count: '@item.level - 1'
+          choice: false
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: '3'
+        recovery: []
+        spent: 0
+      level: 2
+      school: ill
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: an eyelash in gum arabic
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: 9svfDetqjhsFP3ey
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: invisibility
+    _id: w87HL4Tod0Y1Evuo
+    type: spell
+    img: icons/creatures/magical/spirit-undead-ghost-purple.webp
+    effects:
+      - name: Invisible
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili
+        duration:
+          rounds: null
+          startTime: null
+          seconds: 3600
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        flags:
+          dnd5e: {}
+        img: systems/dnd5e/icons/svg/statuses/invisible.svg
+        _id: 9svfDetqjhsFP3ey
+        type: base
+        system: {}
+        changes: []
+        description: >-
+          <p>The spell ends early immediately after the target makes an attack
+          roll, deals damage, or casts a spell.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses:
+          - invisible
+        sort: 0
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!oa7bulpjM8osCIz5.w87HL4Tod0Y1Evuo.9svfDetqjhsFP3ey
+    folder: 3SjcO2acsFnWegp4
+    sort: 2700000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.w87HL4Tod0Y1Evuo'
+  - name: Lightning Bolt
+    system:
+      description:
+        value: >-
+          <p>A stroke of lightning forming a 100-foot-long, 5-foot-wide Line
+          blasts out from you in a direction you choose. Each creature in the
+          Line makes a Dexterity saving throw, taking 8d6 Lightning damage on a
+          failed save or half as much damage on a successful
+          one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The
+          damage increases by 1d6 for each spell slot level above 3.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          width: '5'
+          type: line
+          size: '100'
+          contiguous: false
+      range:
+        units: self
+      uses:
+        max: '3'
+        recovery: []
+        spent: 0
+      level: 3
+      school: evo
+      properties:
+        - vocal
+        - somatic
+        - material
+      materials:
+        value: a bit of fur and a crystal rod
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts:
+              - number: 8
+                denomination: 6
+                bonus: ''
+                types:
+                  - lightning
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          save:
+            ability: dex
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: lightning-bolt
+    _id: lBoZvWYJgrbT0XLa
+    type: spell
+    img: icons/magic/lightning/bolt-strike-blue.webp
+    effects: []
+    folder: HCovEE4VoPGlIbKi
+    sort: 1200000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.lBoZvWYJgrbT0XLa'
+  - name: Mage Armor
+    system:
+      description:
+        value: >-
+          <p>You touch a willing creature who isn’t wearing armor. Until the
+          spell ends, the target’s base AC becomes 13 plus its Dexterity
+          modifier. The spell ends early if the target dons armor.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '8'
+        units: hour
+      target:
+        affects:
+          type: willing
+          count: '1'
+          choice: false
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: '3'
+        recovery: []
+        spent: 0
+      level: 1
+      school: abj
+      properties:
+        - vocal
+        - somatic
+        - material
+      materials:
+        value: a piece of cured leather
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: I59O22yjAwzqZOhN
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Cast
+      identifier: mage-armor
+    _id: 6ZDat7SIYDFf6mIn
+    type: spell
+    img: icons/equipment/head/hat-pointed-buckle-leather-purple.webp
+    effects:
+      - _id: I59O22yjAwzqZOhN
+        changes:
+          - key: system.attributes.ac.calc
+            mode: 5
+            value: mage
+            priority: null
+        disabled: false
+        duration:
+          startTime: null
+          seconds: 28800
+          combat: null
+          rounds: null
+          turns: null
+          startRound: null
+          startTurn: null
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0
+        transfer: false
+        flags: {}
+        tint: '#ffffff'
+        name: Mage Armor
+        description: <p>The target's base AC becomes 13 + its Dexterity modifier.</p>
+        statuses: []
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        img: icons/equipment/chest/breastplate-helmet-metal.webp
+        type: base
+        system: {}
+        sort: 0
+        _key: >-
+          !actors.items.effects!oa7bulpjM8osCIz5.6ZDat7SIYDFf6mIn.I59O22yjAwzqZOhN
+    folder: pBaAAtXBCq9FVEnL
+    sort: 1200000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        migratedUses: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.6ZDat7SIYDFf6mIn'
+  - name: Dimension Door
+    system:
+      description:
+        value: >-
+          <p>You teleport to a location within range. You arrive at exactly the
+          spot desired. It can be a place you can see, one you can visualize, or
+          one you can describe by stating distance and direction, such as “200
+          feet straight downward” or “300 feet upward to the northwest at a
+          45-degree angle.”</p><p>You can also teleport one willing creature.
+          The creature must be within 5 feet of you when you teleport, and it
+          teleports to a space within 5 feet of your destination space.</p><p>If
+          you, the other creature, or both would arrive in a space occupied by a
+          creature or completely filled by one or more objects, you and any
+          creature traveling with you each take 4d6 Force damage, and the
+          teleportation fails.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: willing
+          count: '2'
+          choice: false
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        value: '500'
+        units: ft
+        special: ''
+      uses:
+        max: '2'
+        recovery: []
+        spent: 0
+      level: 4
+      school: con
+      properties:
+        - vocal
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: damage
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            critical:
+              allow: false
+              bonus: ''
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 4
+                denomination: 6
+                bonus: ''
+                types:
+                  - force
+                scaling:
+                  mode: ''
+                  number: 1
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Cast
+          img: systems/dnd5e/icons/svg/trait-saves.svg
+      identifier: dimension-door
+    _id: l9AlQ4JCV270jKzC
+    type: spell
+    img: icons/environment/wilderness/portal.webp
+    effects: []
+    folder: qi3IbnEwap7mRw4b
+    sort: 2700000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        migratedUses: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.l9AlQ4JCV270jKzC'
+  - name: Fly
+    system:
+      description:
+        value: >-
+          <p>You touch a willing creature. For the duration, the target gains a
+          Fly Speed of 60 feet and can hover. When the spell ends, the target
+          falls if it is still aloft unless it can stop the
+          fall.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You can
+          target one additional creature for each spell slot level above 3.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '10'
+        units: minute
+      target:
+        affects:
+          type: willing
+          count: '@item.level - 2'
+          choice: false
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: '2'
+        recovery: []
+        spent: 0
+      level: 3
+      school: trs
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: a feather
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: EHFLuTHqI6cXn1zb
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: fly
+    _id: iBuLJLeaeEICX3Co
+    type: spell
+    img: icons/creatures/birds/songbird-yellow-flying.webp
+    effects:
+      - name: Flight
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000
+        duration:
+          rounds: null
+          startTime: null
+          seconds: 600
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        flags:
+          dnd5e: {}
+        img: icons/creatures/abilities/wings-birdlike-blue.webp
+        _id: EHFLuTHqI6cXn1zb
+        type: base
+        system: {}
+        changes:
+          - key: system.attributes.movement.fly
+            mode: 4
+            value: '60'
+            priority: null
+          - key: system.attributes.movement.hover
+            mode: 5
+            value: 'true'
+            priority: null
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!oa7bulpjM8osCIz5.iBuLJLeaeEICX3Co.EHFLuTHqI6cXn1zb
+    folder: HCovEE4VoPGlIbKi
+    sort: 2000000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.iBuLJLeaeEICX3Co'
+  - name: Locate Object
+    system:
+      description:
+        value: >-
+          <p>Describe or name an object that is familiar to you. You sense the
+          direction to the object’s location if that object is within 1,000 feet
+          of you. If the object is in motion, you know the direction of its
+          movement.</p><p>The spell can locate a specific object known to you if
+          you have seen it up close—within 30 feet—at least once. Alternatively,
+          the spell can locate the nearest object of a particular kind, such as
+          a certain kind of apparel, jewelry, furniture, tool, or
+          weapon.</p><p>This spell can’t locate an object if any thickness of
+          lead blocks a direct path between you and the object.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '10'
+        units: minute
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: self
+        special: ''
+      uses:
+        max: '2'
+        recovery: []
+        spent: 0
+      level: 2
+      school: div
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: a forked twig
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Cast
+      identifier: locate-object
+    _id: o7oqR8aFZ5fmxxdE
+    type: spell
+    img: icons/tools/navigation/map-marked-gold.webp
+    effects: []
+    folder: 3SjcO2acsFnWegp4
+    sort: 2200000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        migratedUses: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!oa7bulpjM8osCIz5.o7oqR8aFZ5fmxxdE'
+  - name: Suggestion
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You suggest a course of activity (limited to a sentence or two) and
+          magically influence a creature you can see within range that can hear
+          and understand you. Creatures that can't be charmed are immune to this
+          effect. The suggestion must be worded in such a manner as to make the
+          course of action sound reasonable. Asking the creature to stab itself,
+          throw itself onto a spear, immolate itself, or do some other obviously
+          harmful act ends the spell.</p><p>The target must make a Wisdom saving
+          throw. On a failed save, it pursues the course of action you described
+          to the best of its ability. The suggested course of action can
+          continue for the entire duration. If the suggested activity can be
+          completed in a shorter time, the spell ends when the subject finishes
+          what it was asked to do.</p><p>You can also specify conditions that
+          will trigger a special activity during the duration. For example, you
+          might suggest that a knight give her warhorse to the first beggar she
+          meets. If the condition isn't met before the spell expires, the
+          activity isn't performed.</p><p>If you or any of your companions
+          damage the target, the spell ends.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: Save or Suck
+        page: ''
+        license: DMsGuild CCA
+        revision: 1
+        rules: '2014'
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: '8'
+        units: hour
+      target:
+        affects:
+          type: creature
+          count: '1'
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '30'
+        units: ft
+      uses:
+        max: '2'
+        recovery: []
+        spent: 0
+      ability: ''
+      level: 2
+      school: enc
+      materials:
+        value: A snake's tongue and either a bit of honeycomb or a drop of sweet oil
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      properties:
+        - vocal
+        - material
+        - concentration
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability: wis
+            dc:
+              calculation: spellcasting
+              formula: ''
+          sort: 0
+      identifier: suggestion
+    flags:
+      core: {}
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        migratedProperties:
+          - vocal
+          - material
+          - concentration
+        migratedUses: 2
+    img: icons/magic/air/air-burst-spiral-pink.webp
+    effects: []
+    folder: bqqSw3gLfCK6OZNW
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: KJe9PNAKImvXl1pc
+    sort: 0
+    _key: '!actors.items!oa7bulpjM8osCIz5.KJe9PNAKImvXl1pc'
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    showTokenPortrait: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727459567036
+  modifiedTime: 1727459567036
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: oa7bulpjM8osCIz5
+sort: 0
+_key: '!actors!oa7bulpjM8osCIz5'
+
