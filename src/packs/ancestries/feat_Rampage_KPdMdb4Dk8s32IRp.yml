@@ -75,7 +75,7 @@ system:
         visible: false
         name: ''
         formula: ''
-      name: ''
+      name: Trigger
       img: ''
       appliedEffects: []
   enchant: {}
@@ -95,9 +95,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.2
+  systemVersion: 4.0.3
   createdTime: 1726384608299
-  modifiedTime: 1726895988175
+  modifiedTime: 1727502836791
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!KPdMdb4Dk8s32IRp'
 
