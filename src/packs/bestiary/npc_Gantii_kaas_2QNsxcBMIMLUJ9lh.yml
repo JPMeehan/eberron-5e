@@ -1,0 +1,1739 @@
+name: Gantii'kaas
+type: npc
+folder: R6bnZmnsoCW0rgtg
+img: icons/svg/mystery-man.svg
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 13
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1.5
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: cha
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: 16
+      calc: natural
+    hd:
+      spent: 0
+    hp:
+      value: 82
+      max: 82
+      temp: 0
+      tempmax: 0
+      formula: 11d8 + 33
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: >-
+        <p>Mining in the Graywall Mountains is a dangerous occupation. Accounts
+        from ancient Dhakaan warn of the gantii’kaas, the “hungry hands” of the
+        mountains. On the surface, these tales can be taken as a warning to use
+        care, so as to not trigger an avalanche or collapse a tunnel. But the
+        truth is there beneath the words; there are spirits in the stone,
+        guardians who can grant good fortune to a miner or spell their doom.
+        Anyone venturing into the depths of the earth would be wise to watch out
+        for the gantii’kaas.</p><p><strong>Spirits of Gold and Stone.</strong>
+        The gantii’kaas are reclusive fey, serving the same role in the earth
+        that dryads play in the woods. Rather than being bound to purely natural
+        environments, the gantii’kaas are drawn to mines and to other
+        subterranean stonework. The typical gantii’kaas is arrogant, vain, and
+        proud—quick to anger, but also highly susceptible to flattery. If a
+        gantii’kaas is pleased with the mortals that work in its domain, it
+        might seed the stone with ore or gems. But should it feel unappreciated,
+        or that the mortal miners are too greedy, a gantii’kaas can strip the
+        bounty from the soil, trigger a collapse, or
+        worse...</p><p><strong>Subjects of the King.</strong> The gantii’kaas of
+        the Graywall Mountains are subjects of the archfey known as King
+        Greyfinger. Each watches over their stretch of stone on behalf of their
+        monarch, and they expect tribute from those who work in the depths. If a
+        miner takes something from the earth, they should leave a gift for the
+        gantii’kaas and their king. Such a tribute can be simple—a single coin,
+        a fresh-baked pie. The gesture matters more than the monetary value of
+        the offering; it’s about showing gratitude for what’s taken from the
+        stone.</p><p><strong>Voices in the Stone.</strong> A gantii’kaas can
+        shape stone and meld into it. These fey can also speak to stones,
+        imbuing them with a temporary, rudimentary (some might say sedimentary)
+        sentience. This gift also allows a gantii’kaas to remain aware of its
+        surroundings even while melded with stone; the earth whispers to it,
+        telling it everything that is happening in the vicinity.</p>
+    alignment: Neutral Evil
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: fey
+    environment: ''
+    cr: 5
+    spellLevel: 0
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2024'
+    book: FoEQ
+    page: ''
+    custom: ''
+    license: ''
+  traits:
+    size: med
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value:
+        - poison
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value:
+        - petrified
+        - poisoned
+      custom: ''
+    languages:
+      value:
+        - common
+        - sylvan
+      custom: ''
+prototypeToken:
+  name: Gantii'kaas
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+items:
+  - name: Multiattack
+    type: feat
+    img: icons/magic/death/skull-trio-badge-purple.webp
+    system:
+      description:
+        value: The gantii’kaas makes two Blinding Claw attacks and one Rock attack.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: multiattack
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: MCmVzhuO0eyc05gh
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!2QNsxcBMIMLUJ9lh.MCmVzhuO0eyc05gh'
+  - name: Blinding Claw
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          <p>Melee Attack Roll: +5 , reach 10 ft. Hit: 6 (1d8 + 2) Slashing
+          damage, and the target has the &amp;Reference[blinded]{Blinded}
+          condition until the end of its next turn.</p>
+        chat: ''
+      activities:
+        PpW1Dle5s6lig5zX:
+          type: attack
+          _id: PpW1Dle5s6lig5zX
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 8
+                bonus: '@mod'
+                types: []
+                scaling:
+                  number: 1
+          name: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      identifier: blinding-claw
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: YVyyTgdiKj0gHGuh
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!2QNsxcBMIMLUJ9lh.YVyyTgdiKj0gHGuh'
+  - name: Rock
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          Ranged Attack Roll: +5, range 30/60 ft. Hit: 7 (1d10 + 2) Bludgeoning
+          damage.
+        chat: ''
+      activities:
+        IsyLnZEnV9DmcXFn:
+          type: attack
+          _id: IsyLnZEnV9DmcXFn
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            value: '30'
+            units: ft
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 10
+                bonus: '@mod'
+                types: []
+                scaling:
+                  number: 1
+          name: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      identifier: rock
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: fq5KhTFPTfW8vzRx
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!2QNsxcBMIMLUJ9lh.fq5KhTFPTfW8vzRx'
+  - name: Eruption Of Stone
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          Dexterity Saving Throw: DC 13, each creature in a 20-foot Cube
+          centered on a point the gantii’kaas can see on the ground within 120
+          feet. Failure: 19 (3d12) Bludgeoning damage on a failed save, and the
+          ground in the target area becomes Difficult Terrain until cleared.
+          Each 5-foot-square portion of the area requires at least 1 minute to
+          clear by hand. Success: Half damage.
+        chat: ''
+      uses:
+        spent: 0
+        max: '1'
+        recovery:
+          - period: recharge
+            formula: '6'
+            type: recoverAll
+      activities:
+        toEcsy3qYSlIDgXt:
+          type: save
+          _id: toEcsy3qYSlIDgXt
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            value: '120'
+            units: ft
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              count: ''
+              type: cube
+              size: '20'
+            affects:
+              choice: false
+              count: ''
+              type: creature
+              special: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 3
+                denomination: 12
+                bonus: ''
+                types:
+                  - bludgeoning
+                scaling:
+                  number: 1
+            onSave: half
+          save:
+            ability: dex
+            dc:
+              calculation: str
+              formula: ''
+          name: ''
+      identifier: eruption-of-stone-recharge-6
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: wVlGd1USovUGYAp1
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!2QNsxcBMIMLUJ9lh.wVlGd1USovUGYAp1'
+  - name: Spellcasting
+    type: feat
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    system:
+      description:
+        value: >-
+          <p>The gantii’kaas casts one of the following spells, requiring no
+          material components, using Charisma as the spellcasting ability (spell
+          save DC 13): </p><p>At Will: @UUID[.8sBB3vs9Yjv6AbBA]{Druidcraft},
+          @UUID[.tjvrpjly8T5lqx90]{Meld Into Stone},
+          @UUID[.nH2BU7UFPCRIyPhE]{Mold Earth}</p><p>3/Day Each:
+          @UUID[.MZsksiqYl8qFpYed]{Stoneskin}.</p>
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      identifier: spellcasting
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: t4vUARSWfhbZMfvw
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!2QNsxcBMIMLUJ9lh.t4vUARSWfhbZMfvw'
+  - name: Hungry Hands
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          Trigger: When the gantii'kaas takes damage from a melee attack with a
+          weapon that isn’t natural or attached. The gantii'kaas must have a
+          free hand. Response: The gantii’kaas makes a Dexterity (Sleight of
+          Hand) check against the attacker’s Passive Perception. Success: The
+          gantii'kaas steals the weapon it was attacked with.
+        chat: ''
+      activities:
+        ZXeOtx5rNUpI4nWL:
+          type: check
+          _id: ZXeOtx5rNUpI4nWL
+          sort: 0
+          activation:
+            type: reaction
+            value: null
+            override: false
+            condition: >-
+              When the gantii'kaas takes damage from a melee attack with a
+              weapon that isn’t natural or attached. The gantii'kaas must have a
+              free hand.
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+            units: self
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          check:
+            associated:
+              - slt
+            dc:
+              calculation: ''
+              formula: '15'
+            ability: ''
+          name: ''
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      identifier: hungry-hands
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: reaction
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _id: NlMu81cPXxuS4GuL
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!2QNsxcBMIMLUJ9lh.NlMu81cPXxuS4GuL'
+  - name: Druidcraft
+    system:
+      description:
+        value: >-
+          <p>Whispering to the spirits of nature, you create one of the
+          following effects within range.</p><p><strong>Weather Sensor.</strong>
+          You create a Tiny, harmless sensory effect that predicts what the
+          weather will be at your location for the next 24 hours. The effect
+          might manifest as a golden orb for clear skies, a cloud for rain,
+          falling snowflakes for snow, and so on. This effect persists for 1
+          round.</p><p><strong>Bloom.</strong> You instantly make a flower
+          blossom, a seed pod open, or a leaf bud bloom.</p><p><strong>Sensory
+          Effect.</strong> You create a harmless sensory effect, such as falling
+          leaves, spectral dancing fairies, a gentle breeze, the sound of an
+          animal, or the faint odor of skunk. The effect must fit in a 5-foot
+          Cube.</p><p><strong>Fire Play.</strong> You light or snuff out a
+          candle, a torch, or a campfire.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: ft
+        special: ''
+        value: '30'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: trs
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        q44z5qbBWBc0qUdc:
+          type: utility
+          name: Cast
+          _id: q44z5qbBWBc0qUdc
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: cube
+              size: '5'
+              count: ''
+            affects:
+              choice: false
+              count: '1'
+              type: space
+              special: ''
+            override: true
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+      identifier: druidcraft
+      ability: ''
+      sourceClass: ''
+    _id: 8sBB3vs9Yjv6AbBA
+    type: spell
+    img: icons/magic/nature/plant-seed-hands-glow-yellow.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 1700000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: Actor.JnZEeoQlRqRvIdvG.Item.8sBB3vs9Yjv6AbBA
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!2QNsxcBMIMLUJ9lh.8sBB3vs9Yjv6AbBA'
+  - name: Meld into Stone
+    system:
+      description:
+        value: >-
+          <p>You step into a stone object or surface large enough to fully
+          contain your body, merging yourself and your equipment with the stone
+          for the duration. You must touch the stone to do so. Nothing of your
+          presence remains visible or otherwise detectable by nonmagical
+          senses.</p><p>While merged with the stone, you can’t see what occurs
+          outside it, and any [[/check ability=wis skill=prc]] checks you make
+          to hear sounds outside it are made with Disadvantage. You remain aware
+          of the passage of time and can cast spells on yourself while merged in
+          the stone. You can use 5 feet of movement to leave the stone where you
+          entered it, which ends the spell. You otherwise can’t
+          move.</p><p>Minor physical damage to the stone doesn’t harm you, but
+          its partial destruction or a change in its shape (to the extent that
+          you no longer fit within it) expels you and deals [[/damage 6d6
+          type=force]] damage to you. The stone’s complete destruction (or
+          transmutation into a different substance) expels you and deals
+          [[/damage 50 type=force]] damage to you. If expelled, you move into an
+          unoccupied space closest to where you first entered and have the
+          &amp;Reference[prone] condition.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '8'
+        units: hour
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 3
+      school: trs
+      properties:
+        - vocal
+        - somatic
+        - ritual
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: damage
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            critical:
+              allow: false
+              bonus: ''
+            parts:
+              - number: 6
+                denomination: 6
+                bonus: ''
+                types:
+                  - force
+                custom:
+                  enabled: false
+                  formula: ''
+                scaling:
+                  mode: ''
+                  number: null
+                  formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+        dnd5eactivity200:
+          _id: dnd5eactivity200
+          type: damage
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            critical:
+              allow: false
+              bonus: ''
+            parts:
+              - number: null
+                denomination: null
+                bonus: ''
+                types: []
+                custom:
+                  enabled: true
+                  formula: '50'
+                scaling:
+                  mode: ''
+                  number: null
+                  formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: meld-into-stone
+      ability: ''
+      sourceClass: ''
+    _id: tjvrpjly8T5lqx90
+    type: spell
+    img: icons/magic/earth/barrier-stone-pillar-purple.webp
+    effects: []
+    folder: HCovEE4VoPGlIbKi
+    sort: 800000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: Actor.JnZEeoQlRqRvIdvG.Item.tjvrpjly8T5lqx90
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!2QNsxcBMIMLUJ9lh.tjvrpjly8T5lqx90'
+  - name: Stoneskin
+    system:
+      description:
+        value: >-
+          <p>Until the spell ends, one willing creature you touch has
+          &amp;Reference[damageresistance]{Resistance} to Bludgeoning, Piercing,
+          and Slashing damage.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          type: willing
+          count: '1'
+          choice: false
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 4
+      school: trs
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: diamond dust worth 100+ GP, which the spell consumes
+        consumed: true
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets:
+              - type: activityUses
+                value: '1'
+                scaling:
+                  mode: ''
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: false
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: DbTCk1h0u86Etlpr
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: '3'
+          sort: 0
+          name: Cast
+      identifier: stoneskin
+      ability: ''
+      sourceClass: ''
+    _id: MZsksiqYl8qFpYed
+    type: spell
+    img: icons/magic/defensive/armor-stone-skin.webp
+    effects:
+      - name: Stoneskin
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0
+        duration:
+          rounds: null
+          startTime: null
+          seconds: 3600
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        flags:
+          dnd5e: {}
+        img: icons/magic/defensive/armor-stone-skin.webp
+        _id: DbTCk1h0u86Etlpr
+        type: base
+        system: {}
+        changes:
+          - key: system.traits.dr.value
+            mode: 2
+            value: bludgeoning
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: piercing
+            priority: null
+          - key: system.traits.dr.value
+            mode: 2
+            value: slashing
+            priority: null
+        description: ''
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!2QNsxcBMIMLUJ9lh.MZsksiqYl8qFpYed.DbTCk1h0u86Etlpr
+    folder: qi3IbnEwap7mRw4b
+    sort: 700000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 3
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: Actor.JnZEeoQlRqRvIdvG.Item.MZsksiqYl8qFpYed
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!2QNsxcBMIMLUJ9lh.MZsksiqYl8qFpYed'
+  - _id: DJLavg1ePq7aaqDF
+    name: Magic Resistance
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>the [[lookup @name lowercase]] has<strong> advantage </strong>on
+          saving throws against spells and other magical effects.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      type:
+        value: monster
+        subtype: ''
+      requirements: ''
+      activities: {}
+      enchant: {}
+      prerequisites:
+        level: null
+      properties: []
+      identifier: magic-resistance
+    flags: {}
+    img: icons/magic/defensive/shield-barrier-glowing-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    _stats:
+      duplicateSource: null
+      compendiumSource: Compendium.dnd5e.monsterfeatures.Item.Hc6MqLQhPTI1KOvm
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!2QNsxcBMIMLUJ9lh.DJLavg1ePq7aaqDF'
+  - name: Mold Earth
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>You choose a portion of dirt or stone that you can see within range
+          and that fits within a 5-foot cube. You manipulate it in one of the
+          following ways:</p><ul class="rd__list"><li class="rd__li ">If you
+          target an area of loose earth, you can instantaneously excavate it,
+          move it along the ground, and deposit it up to 5 feet away. This
+          movement doesn't involve enough force to cause damage.</li><li
+          class="rd__li ">You cause shapes, colors, or both to appear on the
+          dirt or stone, spelling out words, creating images, or shaping
+          patterns. The changes last for 1 hour.</li><li class="rd__li ">If the
+          dirt or stone you target is on the ground, you cause it to become
+          difficult terrain. Alternatively, you can cause the ground to become
+          normal terrain if it is already difficult terrain. This change lasts
+          for 1 hour.</li></ul><p>If you cast this spell multiple times, you can
+          have no more than two of its non-instantaneous effects active at a
+          time, and you can dismiss such an effect as an action.</p>
+        chat: ''
+      source:
+        book: Xanathar's Guide to Everything
+        license: First Party Product
+        custom: ''
+        revision: 1
+        rules: '2014'
+      activation:
+        type: action
+        condition: ''
+        value: 1
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: cube
+          size: '5'
+          contiguous: false
+      range:
+        value: '30'
+        units: ft
+      uses:
+        max: ''
+        recovery: []
+        spent: 0
+      level: 0
+      school: trs
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      properties:
+        - somatic
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+      identifier: mold-earth
+    img: icons/magic/earth/barrier-stone-brown-green.webp
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      plutonium:
+        page: spells.html
+        source: XGE
+        hash: mold%20earth_xge
+        propDroppable: spell
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        migratedProperties:
+          - somatic
+    effects: []
+    folder: DW1t4vwdcIc2CRzn
+    _id: nH2BU7UFPCRIyPhE
+    sort: 0
+    _stats:
+      compendiumSource: Compendium.chaosos-5e-content.non-srd-spells.Item.yZbnNiyFgp48mTWh
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!2QNsxcBMIMLUJ9lh.nH2BU7UFPCRIyPhE'
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    showTokenPortrait: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727538875296
+  modifiedTime: 1727543549874
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: 2QNsxcBMIMLUJ9lh
+sort: 300000
+_key: '!actors!2QNsxcBMIMLUJ9lh'
+

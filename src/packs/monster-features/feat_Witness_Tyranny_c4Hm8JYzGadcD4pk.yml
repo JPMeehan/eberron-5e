@@ -1,0 +1,103 @@
+folder: LnlMEA6kPpR42cU2
+name: Witness Tyranny
+type: feat
+_id: c4Hm8JYzGadcD4pk
+img: icons/magic/control/fear-fright-shadow-monster-green.webp
+system:
+  activities:
+    f7XGcFBXxsnddVYZ:
+      type: heal
+      _id: f7XGcFBXxsnddVYZ
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: false
+        condition: A creature within 5 feet is reduced to 0 Hit Points
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - temphp
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+        bonus: '@prof'
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>The demonglass warrior gains Temporary Hit Points equal to its
+      Proficiency Bonus when a creature within 5 feet of it is reduced to 0 Hit
+      Points.</p>
+    chat: ''
+  identifier: witness-tyranny
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727545538704
+  modifiedTime: 1727545580582
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!c4Hm8JYzGadcD4pk'
+

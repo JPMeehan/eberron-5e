@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.6
+
+- Low CR Quickstone stat blocks and templates
+- Even more Map Perilous
+  - Remaining Brelish Military
+  - Lhazaar
+  - Droaam Residents
+
 ## 1.0.5
 
 - More Map Perilous content

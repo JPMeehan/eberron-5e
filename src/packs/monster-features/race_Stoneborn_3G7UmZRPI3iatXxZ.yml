@@ -1,0 +1,93 @@
+folder: LnlMEA6kPpR42cU2
+name: Stoneborn
+type: race
+_id: 3G7UmZRPI3iatXxZ
+img: icons/magic/earth/construct-stone-long-arms.webp
+system:
+  description:
+    value: >-
+      <p>A stoneborn creature is a creation of the daelkyr Orlassk. The most
+      common stoneborn creatures are pre-existing statues that are animated by
+      the power of the Still Lord; any mundane statue could potentially become a
+      stoneborn. However, stoneborn creatures can also emerge spontaneously,
+      forming from mud or clay. The level of precision varies based on the
+      source of the statue; it could be a perfect duplicate of a creature carved
+      from stone, or lumpy and flawed</p>
+    chat: ''
+  identifier: stoneborn
+  source:
+    revision: 1
+    rules: '2024'
+  startingEquipment: []
+  advancement:
+    - _id: iP6sc3I271Tuk8qm
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - dr:bludgeoning
+          - dr:piercing
+          - dr:slashing
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: |-
+        The stoneborn resists Bludgeoning,
+        Piercing, and Slashing from nonmagical attacks that
+        aren't adamantine.
+    - _id: Gg4CasNfhAg6Em0b
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - di:poison
+          - ci:exhaustion
+          - ci:paralyzed
+          - ci:petrified
+          - ci:poisoned
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: Immunities
+      hint: ''
+    - _id: dzEs43xd2Y34HoKp
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.monster-features.Item.q5jH1BwLfynhXKtg
+            optional: false
+          - uuid: Compendium.eberron-5e.monster-features.Item.qlMbGTbbZgaBAg9q
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  wealth: ''
+  type:
+    value: elemental
+    custom: ''
+    subtype: ''
+  senses:
+    darkvision: 60
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727544470492
+  modifiedTime: 1727545191002
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!3G7UmZRPI3iatXxZ'
+

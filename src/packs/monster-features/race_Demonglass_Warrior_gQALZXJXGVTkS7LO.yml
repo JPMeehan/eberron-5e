@@ -1,0 +1,77 @@
+folder: LnlMEA6kPpR42cU2
+name: Demonglass Warrior
+type: race
+_id: gQALZXJXGVTkS7LO
+img: icons/magic/unholy/silhouette-evil-horned-giant.webp
+system:
+  description:
+    value: >-
+      <p>The demonglass found on the Western Frontier is the solidified essence
+      of the overlord Tol Kharash and his lesser fiends. Cults of the Horned
+      King—notably, the denizens of Turakbar’s Fist—often embed small shards of
+      demonglass within the cult's warriors. This serves as a minor form of
+      possession, compelling the warriors to serve the Horned King while
+      simultaneously weakening their ability to resist his fiendish minions. The
+      basic abilities granted by embedded demonglass are presented in the
+      Demonglass Warrior template, while other potential powers are described in
+      the Demonglass Champion sidebar. Removing an embedded demonglass shard
+      from a creature is a risky proposition, typically killing the
+      host.</p><p>Removing a shard safely requires the host to either be a
+      willing participant, Restrained, or Unconscious. A Remove Curse or Greater
+      Restoration spell cast on the host breaks the possession and allows the
+      shard to be removed. The actual physical removal requires a sharp tool and
+      a [[/check wis med 15]] check; if the check fails, the shard is still
+      removed, but the host suffers 15 points of Piercing damage</p>
+    chat: ''
+  identifier: demonglass-warrior
+  source:
+    revision: 1
+    rules: '2024'
+  startingEquipment: []
+  advancement:
+    - _id: 667VBu7JB8lojRag
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:itm
+          - languages:exotic:infernal
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
+    - _id: yFBPfYp1HNnD7q4U
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.monster-features.Item.Ce5wv43aCyyNL0Ic
+            optional: false
+          - uuid: Compendium.eberron-5e.monster-features.Item.c4Hm8JYzGadcD4pk
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  wealth: ''
+  senses:
+    darkvision: 60
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727545374326
+  modifiedTime: 1727546068540
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!gQALZXJXGVTkS7LO'
+
