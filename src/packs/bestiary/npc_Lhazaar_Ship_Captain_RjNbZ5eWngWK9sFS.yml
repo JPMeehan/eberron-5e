@@ -1,6 +1,6 @@
-name: King's Dark Lantern
+name: Lhazaar Ship Captain
 type: npc
-folder: hu7gAx39NEhF8UyF
+folder: tmTgkQ1WJRSVMXix
 img: icons/svg/mystery-man.svg
 system:
   currency:
@@ -11,43 +11,43 @@ system:
     cp: 0
   abilities:
     str:
-      value: 13
-      proficient: 0
+      value: 14
+      proficient: 1
       max: null
       bonuses:
         check: ''
         save: ''
     dex:
-      value: 16
+      value: 18
       proficient: 1
       max: null
       bonuses:
         check: ''
         save: ''
     con:
-      value: 12
+      value: 15
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     int:
-      value: 14
-      proficient: 1
+      value: 13
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     wis:
-      value: 14
-      proficient: 0
+      value: 13
+      proficient: 1
       max: null
       bonuses:
         check: ''
         save: ''
     cha:
-      value: 16
-      proficient: 0
+      value: 17
+      proficient: 1
       max: null
       bonuses:
         check: ''
@@ -108,7 +108,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 0
+      value: 1
       bonuses:
         check: ''
         passive: ''
@@ -118,7 +118,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -138,7 +138,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 1
       bonuses:
         check: ''
         passive: ''
@@ -158,7 +158,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -188,7 +188,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -228,7 +228,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -238,7 +238,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -293,10 +293,10 @@ system:
         mode: 0
       bonus: ''
     movement:
-      burrow: null
-      climb: null
-      fly: null
-      swim: null
+      burrow: 0
+      climb: 25
+      fly: 0
+      swim: 60
       walk: 30
       units: null
       hover: false
@@ -309,7 +309,7 @@ system:
       truesight: null
       units: null
       special: ''
-    spellcasting: str
+    spellcasting: ''
     exhaustion: 0
     concentration:
       ability: ''
@@ -321,16 +321,16 @@ system:
         save: ''
       limit: 1
     ac:
-      flat: 13
-      calc: flat
+      flat: null
+      calc: default
     hd:
       spent: 0
     hp:
-      value: 55
-      max: 55
+      value: 78
+      max: 78
       temp: 0
       tempmax: 0
-      formula: 10d8 + 10
+      formula: 12d8 + 14
     death:
       ability: ''
       roll:
@@ -341,13 +341,19 @@ system:
       failure: 0
   details:
     biography:
-      value: ''
+      value: >-
+        <p><strong>The Captain’s Share.</strong> The DM can customize a
+        captain’s magical loot by selecting magic items from the following list
+        (though doing so might require the DM to recalculate the captain’s
+        challenge rating, using the guidelines in the Dungeon Master’s Guide):
+        </p><ul><li><p>One rare, uncommon, or common magic weapon
+        </p></li><li><p>One uncommon or common wondrous item or magic
+        ring</p></li></ul>
       public: >-
-        <p>The Dark Lanterns are the intelligence arm of the King’s Citadel, and
-        its agents are the most likely to be sent on missions abroad, spying on
-        and assassinating targets to ensure Breland’s safety. They are among the
-        most well-trained espionage agents on the continent, able to evade even
-        magical counter-intelligence measures.</p>
+        <p>Entrusted with one the vessels in a prince’s fleet, every captain
+        from the Lhazaar Principalities is an impressively capable individual.
+        Proving themselves time and again, they lead their crews on voyages and
+        raids, keeping some of the choicest spoils for themselves.</p>
     alignment: Any Alignment
     ideal: ''
     bond: ''
@@ -356,7 +362,7 @@ system:
     type:
       value: humanoid
     environment: ''
-    cr: 2
+    cr: 5
     spellLevel: 0
   resources:
     legact:
@@ -372,9 +378,7 @@ system:
     revision: 1
     rules: '2014'
     book: Map Perilous
-    page: ''
     custom: ''
-    license: ''
   traits:
     size: med
     di:
@@ -399,7 +403,7 @@ system:
       value: []
       custom: Any three languages
 prototypeToken:
-  name: King's Dark Lantern
+  name: Lhazaar Ship Captain
   displayName: 0
   actorLink: false
   appendNumber: false
@@ -480,7 +484,7 @@ items:
     img: icons/magic/death/skull-trio-badge-purple.webp
     system:
       description:
-        value: The Dark Lantern makes two rapier attacks.
+        value: The captain makes two weapon attacks.
         chat: ''
       activities: {}
       uses:
@@ -498,7 +502,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: Z1rSVEwH6ZT5Hook
+    _id: fKjUEN6CxscQMBB0
     effects: []
     folder: null
     sort: 0
@@ -515,15 +519,15 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.Z1rSVEwH6ZT5Hook'
-  - name: Rapier
+    _key: '!actors.items!RjNbZ5eWngWK9sFS.fKjUEN6CxscQMBB0'
+  - name: Flame Tongue Rapier
     type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/rapier.webp
+    img: icons/magic/fire/projectile-bolt-zigzag-orange.webp
     system:
       description:
         value: >-
-          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 7 (1d8
-          + 3) piercing damage.
+          Melee Weapon Attack: +10 to hit, reach 5 ft. , one target. Hit: 13
+          (2d8 + 4) piercing damage plus 7 (2d6) fire damage.
         chat: ''
       identified: true
       equipped: true
@@ -532,7 +536,7 @@ items:
       quantity: 1
       damage:
         base:
-          number: 1
+          number: 2
           denomination: 8
           bonus: ''
           types:
@@ -562,20 +566,22 @@ items:
         baseItem: ''
       attuned: true
       activities:
-        WHqk11EFHUIpFb4s:
-          _id: WHqk11EFHUIpFb4s
+        w0gg4klcZvMKNiLd:
+          _id: w0gg4klcZvMKNiLd
           type: attack
           sort: 0
           activation:
             type: action
             value: null
             override: false
+            condition: ''
           consumption:
             scaling:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -587,26 +593,39 @@ items:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
+            max: ''
           attack:
             critical:
               threshold: null
             flat: false
-            type: {}
+            type:
+              value: melee
+              classification: ''
+            ability: ''
+            bonus: '@prof'
           damage:
-            critical: {}
+            critical:
+              bonus: ''
             includeBase: true
             parts: []
+          name: ''
+          img: ''
+          appliedEffects: []
       uses:
         spent: 0
         recovery: []
-      identifier: rapier
+        max: ''
+      identifier: flame-tongue-rapier
       source:
         revision: 1
         rules: '2024'
@@ -632,14 +651,19 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
-    _id: 5oCymEZ1QXyfvKMB
+      mastery: ''
+    _id: Sr1cUd2pNEAbpRic
     effects: []
     folder: null
     sort: 0
     ownership:
       default: 0
       q6n1efCGVB98drEQ: 3
-    flags: {}
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -647,17 +671,17 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.5oCymEZ1QXyfvKMB'
-  - name: Hand Crossbow
+      modifiedTime: 1727554993452
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!actors.items!RjNbZ5eWngWK9sFS.Sr1cUd2pNEAbpRic'
+  - name: Dagger
     type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp
+    img: modules/dnd-players-handbook/assets/icons/items/dagger.webp
     system:
       description:
         value: >-
-          Ranged Weapon Attack: +5 to hit, range 30/120 ft. , one target. Hit: 6
-          (1d6 + 3) piercing damage.
+          Melee or Ranged Weapon Attack: +10 to hit, reach 5 ft. or range 20/60
+          ft. , one target. Hit: 9 (2d4 + 4) piercing damage.
         chat: ''
       identified: true
       equipped: true
@@ -666,8 +690,8 @@ items:
       quantity: 1
       damage:
         base:
-          number: 1
-          denomination: 6
+          number: 2
+          denomination: 4
           bonus: ''
           types:
             - piercing
@@ -687,29 +711,31 @@ items:
           scaling:
             number: 1
       range:
-        value: 30
-        long: 120
+        value: 20
         units: ft
+        long: 60
         reach: null
       type:
         value: natural
         baseItem: ''
       attuned: true
       activities:
-        NAfIcyhhh83tWvt4:
-          _id: NAfIcyhhh83tWvt4
+        9SkLHyDsPt2Sr5ky:
+          _id: 9SkLHyDsPt2Sr5ky
           type: attack
           sort: 0
           activation:
             type: action
             value: null
             override: false
+            condition: ''
           consumption:
             scaling:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            chatFlavor: ''
           duration:
             units: inst
             concentration: false
@@ -721,26 +747,39 @@ items:
             template:
               contiguous: false
               units: ft
+              type: ''
             affects:
               choice: false
+              count: ''
+              type: ''
             override: false
             prompt: true
           uses:
             spent: 0
             recovery: []
+            max: ''
           attack:
             critical:
               threshold: null
             flat: false
-            type: {}
+            type:
+              value: melee
+              classification: ''
+            ability: ''
+            bonus: '@prof'
           damage:
-            critical: {}
+            critical:
+              bonus: ''
             includeBase: true
             parts: []
+          name: ''
+          img: ''
+          appliedEffects: []
       uses:
         spent: 0
         recovery: []
-      identifier: hand-crossbow
+        max: ''
+      identifier: dagger
       source:
         revision: 1
         rules: '2024'
@@ -766,58 +805,19 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
-    _id: XRM5GoqscZ3omGy8
+      mastery: ''
+    _id: TdmZFfg7sWkZyoui
     effects: []
     folder: null
     sort: 0
     ownership:
       default: 0
       q6n1efCGVB98drEQ: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.XRM5GoqscZ3omGy8'
-  - name: Cunning Action
-    type: feat
-    img: icons/skills/movement/figure-running-gray.webp
-    system:
-      description:
-        value: The Dark Lantern takes the Dash, Disengage, or Hide action.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: cunning-action
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
     flags:
-      adnd5e:
-        itemInfo:
-          type: bonus
-    _id: aKBdCeBkW51XdI1g
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -825,23 +825,24 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.aKBdCeBkW51XdI1g'
-  - name: Uncanny Dodge
+      modifiedTime: 1727555006743
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!actors.items!RjNbZ5eWngWK9sFS.TdmZFfg7sWkZyoui'
+  - name: Description
     type: feat
-    img: icons/skills/movement/feet-winged-sandals-tan.webp
+    img: icons/svg/combat.svg
     system:
       description:
         value: >-
-          The Dark Lantern halves the damage that it takes from an attack that
-          hits it. The Dark Lantern must be able to see the attacker.
+          Put Yer Back In It, Me Hearties (4/day). Whenever an ally within 30
+          feet of the captain that can hear it makes an attack roll, ability
+          check, or saving throw, the captain can grant the ally advantage.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: uncanny-dodge
+      identifier: description
       source:
         revision: 1
         rules: '2024'
@@ -857,7 +858,7 @@ items:
       adnd5e:
         itemInfo:
           type: reaction
-    _id: tinO9Nv42KV0KyeV
+    _id: BnsG4ok5HtpWGg3N
     effects: []
     folder: null
     sort: 0
@@ -873,43 +874,98 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.tinO9Nv42KV0KyeV'
-  - name: Slippery Mind
-    type: feat
-    img: icons/magic/perception/third-eye-blue-red.webp
+    _key: '!actors.items!RjNbZ5eWngWK9sFS.BnsG4ok5HtpWGg3N'
+  - name: Studded Leather
+    type: equipment
     system:
       description:
         value: >-
-          The Dark Lantern can’t be targeted by any divination magic or
-          perceived through magical scrying sensors. Additionally, if it fails
-          an Intelligence, Wisdom, or Charisma saving throw against an effect
-          that allows one or more subsequent saving throws to end the effect,
-          the Dark Lantern automatically succeeds on those subsequent saves.
+          <p>Made from tough but flexible leather, studded leather is reinforced
+          with close-set rivets or spikes.</p>
         chat: ''
-      activities: {}
+      source:
+        book: PHB
+        page: ''
+        license: ''
+        custom: ''
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 13
+        units: lb
+      price:
+        value: 45
+        denomination: gp
+      rarity: ''
+      attunement: required
+      equipped: true
+      cover: null
+      crewed: false
       uses:
+        max: ''
         spent: 0
         recovery: []
-      identifier: slippery-mind
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
+      armor:
+        value: 12
+        dex: null
+        magicalBonus: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
       type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
+        value: light
+        baseItem: studdedleather
       properties: []
-      requirements: ''
-    _id: ZhVPEJr3DgnzDHaI
+      speed:
+        value: null
+        conditions: ''
+      strength: 0
+      proficient: 1
+      identifier: studded-leather
+      activities: {}
+      attuned: true
+    flags:
+      ddbimporter:
+        dndbeyond:
+          type: Light Armor
+          alternativeNames:
+            - Studded Leather Armor
+          filterType: Armor
+          isConsumable: false
+          isContainer: false
+          isCustomItem: false
+          isHomebrew: false
+          isMonkWeapon: false
+          isPack: false
+          levelInfusionGranted: null
+          tags:
+            - Warding
+          sources:
+            - sourceId: 1
+              pageNumber: null
+              sourceType: 2
+            - sourceId: 2
+              pageNumber: null
+              sourceType: 1
+        id: 0
+        entityTypeId: 0
+        definitionEntityTypeId: 701257905
+        definitionId: 3
+        originalName: Studded Leather
+        version: 4.0.11
     effects: []
-    folder: null
-    sort: 0
+    img: icons/equipment/chest/breastplate-rivited-red.webp
+    folder: eNY55cTybKJk29Fq
     ownership:
       default: 0
       q6n1efCGVB98drEQ: 3
-    flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -919,24 +975,23 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.ZhVPEJr3DgnzDHaI'
-  - name: Sneak Attack (1/turn)
+    _id: ytit5Dbqv8Cz80Sl
+    sort: 0
+    _key: '!actors.items!RjNbZ5eWngWK9sFS.ytit5Dbqv8Cz80Sl'
+  - name: Sea Legs
     type: feat
     img: icons/svg/book.svg
     system:
       description:
         value: >-
-          The Dark Lantern deals an extra 10 (3d6) damage when it hits a target
-          with a weapon attack and has advantage on the attack roll, or when the
-          target is within 5 feet of one of the Dark Lantern’s allies that isn't
-          incapacitated and the Dark Lantern doesn't have disadvantage on the
-          attack roll.
+          The captain has advantage on ability checks and saving throws to
+          resist being knocked prone.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: sneak-attack-1-turn
+      identifier: sea-legs
       source:
         revision: 1
         rules: '2024'
@@ -948,7 +1003,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: lXct5nBpqUw4ba14
+    _id: vwEZk9jknxAoC7nV
     effects: []
     folder: null
     sort: 0
@@ -965,24 +1020,110 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.lXct5nBpqUw4ba14'
+    _key: '!actors.items!RjNbZ5eWngWK9sFS.vwEZk9jknxAoC7nV'
+  - name: Skilled Fencer
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The captain adds twice its proficiency modifier on attacks using
+          weapons with the finesse property, and such a weapon deals one extra
+          die of its damage when the captain hits with it (included in the
+          attack).
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: skilled-fencer
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: b4YFTksLNOOtghd2
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!RjNbZ5eWngWK9sFS.b4YFTksLNOOtghd2'
+  - name: Special Equipment
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The captain wears a black captain’s coat and tricone which functions
+          like a cloak of the manta ray. It also wields a flame tongue rapier.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: special-equipment
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: o8WlrHfbAMEoxey4
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!RjNbZ5eWngWK9sFS.o8WlrHfbAMEoxey4'
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
-flags:
-  dnd5e:
-    showTokenPortrait: false
+flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.0.3
-  createdTime: 1727459563725
-  modifiedTime: 1727549887547
+  createdTime: 1727550807585
+  modifiedTime: 1727550807585
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: WMRxNxl6F4FyWfBS
-sort: 500000
-_key: '!actors!WMRxNxl6F4FyWfBS'
+_id: RjNbZ5eWngWK9sFS
+sort: 0
+_key: '!actors!RjNbZ5eWngWK9sFS'
 

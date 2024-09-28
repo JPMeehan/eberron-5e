@@ -1,0 +1,104 @@
+folder: 7m1JMgKw7uieL3hC
+name: Direshark Crew
+type: race
+_id: Xd4z8sX4NGYn08fA
+img: systems/dnd5e/icons/svg/items/race.svg
+system:
+  description:
+    value: ''
+    chat: ''
+  identifier: direshark-crew
+  source:
+    revision: 1
+    rules: '2024'
+  advancement:
+    - type: Size
+      _id: dOtpaZHOSSRmQFGH
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: Trait
+      configuration:
+        grants:
+          - languages:standard:common
+        mode: default
+        allowReplacements: false
+        choices: []
+      _id: z1rNt5POtABnLXL2
+      value:
+        chosen: []
+      level: 0
+    - _id: lOuO3tLPRM1ZEp2y
+      type: Trait
+      configuration:
+        mode: default
+        allowReplacements: false
+        grants:
+          - skills:dec
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
+    - _id: 0lkusaVGMaCddRvO
+      type: Trait
+      configuration:
+        mode: upgrade
+        allowReplacements: false
+        grants:
+          - skills:ins
+        choices: []
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: ''
+    - _id: T9kqW5Bp836mH6yV
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.monster-features.Item.RtpLZtwpZ8M8iJeK
+            optional: false
+          - uuid: Compendium.eberron-5e.monster-features.Item.tDXr0BxZaD2IV5Lt
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: null
+    units: null
+    hover: false
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727556715515
+  modifiedTime: 1727556812382
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!Xd4z8sX4NGYn08fA'
+

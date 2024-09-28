@@ -1,7 +1,7 @@
-folder: rUgDoq1bNNXjxE1k
-name: Opportunist
+folder: YtbiMV9LYVMIoD1Y
+name: Devil's Sight
 type: feat
-_id: tDXr0BxZaD2IV5Lt
+_id: z6g1kbWmP8GNydFi
 img: systems/dnd5e/icons/svg/items/feature.svg
 system:
   activities: {}
@@ -11,27 +11,23 @@ system:
     max: ''
   description:
     value: >-
-      <p>The [[lookup @name]] can take a second reaction every round, but can
-      only use it to make an opportunity attack.</p>
+      <p>The [[lookup @name]] can see normally in darkness, both magical and
+      nonmagical, to a distance of 120 feet.</p>
     chat: ''
-  identifier: opportunist
+  identifier: devils-sight
   source:
     revision: 1
-    rules: '2014'
-    book: Map Perilous
-    page: ''
-    custom: ''
-    license: ''
+    rules: '2024'
   enchant: {}
   type:
-    value: ''
+    value: monster
     subtype: ''
   prerequisites:
     level: null
   properties: []
   requirements: ''
 effects: []
-sort: 200000
+sort: 100000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -42,8 +38,8 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.0.3
-  createdTime: 1727414509555
-  modifiedTime: 1727556509638
+  createdTime: 1727547093143
+  modifiedTime: 1727547253449
   lastModifiedBy: q6n1efCGVB98drEQ
-_key: '!items!tDXr0BxZaD2IV5Lt'
+_key: '!items!z6g1kbWmP8GNydFi'
 

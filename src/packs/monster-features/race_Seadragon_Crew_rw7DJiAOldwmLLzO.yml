@@ -1,0 +1,97 @@
+folder: 7m1JMgKw7uieL3hC
+name: Seadragon Crew
+type: race
+_id: rw7DJiAOldwmLLzO
+img: systems/dnd5e/icons/svg/items/race.svg
+system:
+  description:
+    value: >-
+      <p>Sailors of the Seadragon Principality are represented by the Lhazaar
+      crew statistics. Apply the follow adjustments to the Lhazaar deckhand, old
+      salt, first mate, deck mage, and captain stat blocks:</p>
+    chat: ''
+  identifier: seadragon-crew
+  source:
+    revision: 1
+    rules: '2024'
+  advancement:
+    - type: Size
+      _id: Wj0lWkq3lbWp2pw1
+      configuration:
+        sizes:
+          - med
+      level: 0
+      value: {}
+    - type: Trait
+      configuration:
+        grants:
+          - languages:standard:common
+        mode: default
+        allowReplacements: false
+        choices: []
+      _id: feuAjM5nPMjJ8dzn
+      value:
+        chosen: []
+      level: 0
+    - _id: IwMMG0Uc5VfJ8jMW
+      type: Trait
+      configuration:
+        mode: expertise
+        allowReplacements: false
+        grants: []
+        choices:
+          - count: 4
+            pool:
+              - tool:*
+              - skills:*
+      value:
+        chosen: []
+      level: 0
+      title: ''
+      hint: |-
+        Double the proficiency bonus for all of the NPC’s skill and tool
+        proficiencies if they are not already doubled.
+    - _id: 3Rh56jyoOBolRRzz
+      type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.eberron-5e.monster-features.Item.p2cmQH5tA3L1ug45
+            optional: false
+        optional: false
+        spell: null
+      value: {}
+      level: 0
+  movement:
+    burrow: null
+    climb: null
+    fly: null
+    swim: null
+    walk: null
+    units: null
+    hover: false
+  senses:
+    darkvision: null
+    blindsight: null
+    tremorsense: null
+    truesight: null
+    units: null
+    special: ''
+  type:
+    value: humanoid
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727556475838
+  modifiedTime: 1727556601081
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!rw7DJiAOldwmLLzO'
+

@@ -1,6 +1,6 @@
-name: King's Dark Lantern
+name: Forest Troll
 type: npc
-folder: hu7gAx39NEhF8UyF
+folder: SiMzJl6AAy4UlXeL
 img: icons/svg/mystery-man.svg
 system:
   currency:
@@ -11,7 +11,7 @@ system:
     cp: 0
   abilities:
     str:
-      value: 13
+      value: 17
       proficient: 0
       max: null
       bonuses:
@@ -19,34 +19,34 @@ system:
         save: ''
     dex:
       value: 16
-      proficient: 1
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     con:
-      value: 12
+      value: 21
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     int:
-      value: 14
-      proficient: 1
+      value: 11
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     wis:
-      value: 14
+      value: 13
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     cha:
-      value: 16
+      value: 9
       proficient: 0
       max: null
       bonuses:
@@ -118,7 +118,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -138,7 +138,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -158,7 +158,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -208,7 +208,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -228,7 +228,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -293,17 +293,17 @@ system:
         mode: 0
       bonus: ''
     movement:
-      burrow: null
-      climb: null
-      fly: null
-      swim: null
+      burrow: 0
+      climb: 20
+      fly: 0
+      swim: 0
       walk: 30
       units: null
       hover: false
     attunement:
       max: 3
     senses:
-      darkvision: null
+      darkvision: 90
       blindsight: null
       tremorsense: null
       truesight: null
@@ -321,16 +321,16 @@ system:
         save: ''
       limit: 1
     ac:
-      flat: 13
-      calc: flat
+      flat: 14
+      calc: natural
     hd:
       spent: 0
     hp:
-      value: 55
-      max: 55
+      value: 47
+      max: 47
       temp: 0
       tempmax: 0
-      formula: 10d8 + 10
+      formula: 5d8 + 25
     death:
       ability: ''
       roll:
@@ -343,20 +343,27 @@ system:
     biography:
       value: ''
       public: >-
-        <p>The Dark Lanterns are the intelligence arm of the King’s Citadel, and
-        its agents are the most likely to be sent on missions abroad, spying on
-        and assassinating targets to ensure Breland’s safety. They are among the
-        most well-trained espionage agents on the continent, able to evade even
-        magical counter-intelligence measures.</p>
+        <p>The forest trolls of the Watching Wood are less durable and smaller
+        than others trolls—standing only six to six-and-a-half feet tall—but are
+        overall more cunning and intelligent. They are expert herbalists, able
+        to use the typically keen senses possessed by trolls to find the herbs
+        they need for their concoctions—including a poison made from their own
+        saliva mixed with forest herbs. </p><p>Forest trolls can control the
+        coloration of their skin in a limited fashion, aiding them in hiding
+        from those that might seek them out—usually those looking to press-gang
+        them into “grist duty” just as larger and “more suggestive” trollkin
+        often are. Occasionally forest trolls can be found serving the warlord
+        Tzaryan Rrac, but for the most part they seclude themselves in the dark
+        depths of the Watching Wood.</p>
     alignment: Any Alignment
     ideal: ''
     bond: ''
     flaw: ''
     race: null
     type:
-      value: humanoid
+      value: giant
     environment: ''
-    cr: 2
+    cr: 3
     spellLevel: 0
   resources:
     legact:
@@ -396,10 +403,11 @@ system:
       value: []
       custom: ''
     languages:
-      value: []
-      custom: Any three languages
+      value:
+        - giant
+      custom: ''
 prototypeToken:
-  name: King's Dark Lantern
+  name: Forest Troll
   displayName: 0
   actorLink: false
   appendNumber: false
@@ -480,7 +488,10 @@ items:
     img: icons/magic/death/skull-trio-badge-purple.webp
     system:
       description:
-        value: The Dark Lantern makes two rapier attacks.
+        value: >-
+          The troll makes two attacks: one with its bite and one with its claws.
+          If the troll is wielding a javelin, it may make a melee attack with it
+          in place of an attack with its claws.
         chat: ''
       activities: {}
       uses:
@@ -498,7 +509,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: Z1rSVEwH6ZT5Hook
+    _id: zgPFgGqBMa2IB5GM
     effects: []
     folder: null
     sort: 0
@@ -515,15 +526,15 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.Z1rSVEwH6ZT5Hook'
-  - name: Rapier
+    _key: '!actors.items!69YHDYMrKfV3THEk.zgPFgGqBMa2IB5GM'
+  - name: Bite
     type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/rapier.webp
+    img: icons/creatures/abilities/mouth-teeth-long-red.webp
     system:
       description:
         value: >-
-          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 7 (1d8
-          + 3) piercing damage.
+          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 5 (1d4
+          + 3) piercing damage plus 3 (1d6) poison damage.
         chat: ''
       identified: true
       equipped: true
@@ -533,7 +544,7 @@ items:
       damage:
         base:
           number: 1
-          denomination: 8
+          denomination: 4
           bonus: ''
           types:
             - piercing
@@ -562,8 +573,8 @@ items:
         baseItem: ''
       attuned: true
       activities:
-        WHqk11EFHUIpFb4s:
-          _id: WHqk11EFHUIpFb4s
+        lyBSzQCnm2zilG0I:
+          _id: lyBSzQCnm2zilG0I
           type: attack
           sort: 0
           activation:
@@ -606,7 +617,7 @@ items:
       uses:
         spent: 0
         recovery: []
-      identifier: rapier
+      identifier: bite
       source:
         revision: 1
         rules: '2024'
@@ -632,7 +643,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
-    _id: 5oCymEZ1QXyfvKMB
+    _id: RNm3rtE5rN7A5sbs
     effects: []
     folder: null
     sort: 0
@@ -649,15 +660,152 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.5oCymEZ1QXyfvKMB'
-  - name: Hand Crossbow
+    _key: '!actors.items!69YHDYMrKfV3THEk.RNm3rtE5rN7A5sbs'
+  - name: Claws
     type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp
+    img: icons/commodities/claws/claws-white.webp
     system:
       description:
         value: >-
-          Ranged Weapon Attack: +5 to hit, range 30/120 ft. , one target. Hit: 6
-          (1d6 + 3) piercing damage.
+          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 10 (2d6
+          + 3) slashing damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 2
+          denomination: 6
+          bonus: ''
+          types:
+            - slashing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        vDxnMJ27ItHtG9dZ:
+          _id: vDxnMJ27ItHtG9dZ
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: claws
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: lrTNhfFxrBJ85d8R
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!69YHDYMrKfV3THEk.lrTNhfFxrBJ85d8R'
+  - name: Javelin
+    type: weapon
+    img: modules/dnd-players-handbook/assets/icons/items/javelin.webp
+    system:
+      description:
+        value: >-
+          Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. , or range
+          30/120 ft. , one target. Hit: 7 (1d6 + 4) piercing damage plus 7 (2d6)
+          poison damage. If the target is a creature, it must make a DC 15
+          Constitution saving throw or be poisoned until the start of the
+          troll’s next turn.
         chat: ''
       identified: true
       equipped: true
@@ -688,16 +836,16 @@ items:
             number: 1
       range:
         value: 30
-        long: 120
         units: ft
+        long: 120
         reach: null
       type:
         value: natural
         baseItem: ''
       attuned: true
       activities:
-        NAfIcyhhh83tWvt4:
-          _id: NAfIcyhhh83tWvt4
+        M0PnEaI54dIL0zOq:
+          _id: M0PnEaI54dIL0zOq
           type: attack
           sort: 0
           activation:
@@ -740,7 +888,7 @@ items:
       uses:
         spent: 0
         recovery: []
-      identifier: hand-crossbow
+      identifier: javelin
       source:
         revision: 1
         rules: '2024'
@@ -766,7 +914,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
-    _id: XRM5GoqscZ3omGy8
+    _id: Ko0v0aEh8ETtCQyF
     effects: []
     folder: null
     sort: 0
@@ -783,160 +931,21 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.XRM5GoqscZ3omGy8'
-  - name: Cunning Action
-    type: feat
-    img: icons/skills/movement/figure-running-gray.webp
-    system:
-      description:
-        value: The Dark Lantern takes the Dash, Disengage, or Hide action.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: cunning-action
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    flags:
-      adnd5e:
-        itemInfo:
-          type: bonus
-    _id: aKBdCeBkW51XdI1g
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.aKBdCeBkW51XdI1g'
-  - name: Uncanny Dodge
-    type: feat
-    img: icons/skills/movement/feet-winged-sandals-tan.webp
-    system:
-      description:
-        value: >-
-          The Dark Lantern halves the damage that it takes from an attack that
-          hits it. The Dark Lantern must be able to see the attacker.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: uncanny-dodge
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    flags:
-      adnd5e:
-        itemInfo:
-          type: reaction
-    _id: tinO9Nv42KV0KyeV
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.tinO9Nv42KV0KyeV'
-  - name: Slippery Mind
-    type: feat
-    img: icons/magic/perception/third-eye-blue-red.webp
-    system:
-      description:
-        value: >-
-          The Dark Lantern can’t be targeted by any divination magic or
-          perceived through magical scrying sensors. Additionally, if it fails
-          an Intelligence, Wisdom, or Charisma saving throw against an effect
-          that allows one or more subsequent saving throws to end the effect,
-          the Dark Lantern automatically succeeds on those subsequent saves.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: slippery-mind
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    _id: ZhVPEJr3DgnzDHaI
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.ZhVPEJr3DgnzDHaI'
-  - name: Sneak Attack (1/turn)
+    _key: '!actors.items!69YHDYMrKfV3THEk.Ko0v0aEh8ETtCQyF'
+  - name: Forest Camouflage
     type: feat
     img: icons/svg/book.svg
     system:
       description:
         value: >-
-          The Dark Lantern deals an extra 10 (3d6) damage when it hits a target
-          with a weapon attack and has advantage on the attack roll, or when the
-          target is within 5 feet of one of the Dark Lantern’s allies that isn't
-          incapacitated and the Dark Lantern doesn't have disadvantage on the
-          attack roll.
+          The troll has advantage on Dexterity (Stealth) checks made to hide in
+          forest terrain.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: sneak-attack-1-turn
+      identifier: forest-camouflage
       source:
         revision: 1
         rules: '2024'
@@ -948,7 +957,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: lXct5nBpqUw4ba14
+    _id: RuaOA0O2a9Mduq91
     effects: []
     folder: null
     sort: 0
@@ -965,7 +974,93 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.lXct5nBpqUw4ba14'
+    _key: '!actors.items!69YHDYMrKfV3THEk.RuaOA0O2a9Mduq91'
+  - name: Keen Smell
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The troll has advantage on Wisdom (Perception) checks that rely on
+          smell.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: keen-smell
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: vNMfWE91fsonkfGA
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!69YHDYMrKfV3THEk.vNMfWE91fsonkfGA'
+  - name: Regeneration
+    type: feat
+    img: icons/skills/wounds/anatomy-organ-heart-red.webp
+    system:
+      description:
+        value: >-
+          The troll regains 10 hit points at the start of its turn if it has at
+          least 1 hit point.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: regeneration
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: jCLhj7J2Opw8rp4s
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!69YHDYMrKfV3THEk.jCLhj7J2Opw8rp4s'
 effects: []
 ownership:
   default: 0
@@ -979,10 +1074,10 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.0.3
-  createdTime: 1727459563725
-  modifiedTime: 1727549887547
+  createdTime: 1727547802750
+  modifiedTime: 1727547806673
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: WMRxNxl6F4FyWfBS
-sort: 500000
-_key: '!actors!WMRxNxl6F4FyWfBS'
+_id: 69YHDYMrKfV3THEk
+sort: 100000
+_key: '!actors!69YHDYMrKfV3THEk'
 

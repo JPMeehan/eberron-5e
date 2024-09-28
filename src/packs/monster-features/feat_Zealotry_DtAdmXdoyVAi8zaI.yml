@@ -1,0 +1,102 @@
+folder: rUgDoq1bNNXjxE1k
+name: Zealotry
+type: feat
+_id: DtAdmXdoyVAi8zaI
+img: systems/dnd5e/icons/svg/items/feature.svg
+system:
+  activities:
+    aKTamRkAUa9PL6t5:
+      type: save
+      _id: aKTamRkAUa9PL6t5
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability: wis
+        dc:
+          calculation: ''
+          formula: '10'
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>If damage reduces the [[lookup @name]] to 0 hit points, it must make a
+      Wisdom saving throw with a DC of 10 + the damage taken, unless the damage
+      is magical or from a critical hit. On a success, the NPC drops to 1 hit
+      point instead.</p>
+    chat: ''
+  identifier: zealotry
+  source:
+    revision: 1
+    rules: '2024'
+  enchant: {}
+  type:
+    value: ''
+    subtype: ''
+  prerequisites:
+    level: null
+  properties: []
+  requirements: ''
+effects: []
+sort: 150000
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727550177526
+  modifiedTime: 1727556511040
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!DtAdmXdoyVAi8zaI'
+

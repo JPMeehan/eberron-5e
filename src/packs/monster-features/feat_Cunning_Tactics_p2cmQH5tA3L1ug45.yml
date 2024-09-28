@@ -1,4 +1,4 @@
-folder: Y8HqKnjdPOt5k29C
+folder: rUgDoq1bNNXjxE1k
 name: Cunning Tactics
 type: feat
 _id: p2cmQH5tA3L1ug45
@@ -11,10 +11,10 @@ system:
     max: ''
   description:
     value: >-
-      <p>he NPC has a keen eye for seizing a tactical advantage. Immediately
-      after rolling initiative, it can choose itself and up to three allies it
-      can see if it isn't incapacitated. It can swap the initiative results of
-      the chosen creatures among them.</p>
+      <p>The [[lookup @name]] has a keen eye for seizing a tactical advantage.
+      Immediately after rolling initiative, it can choose itself and up to three
+      allies it can see if it isn't incapacitated. It can swap the initiative
+      results of the chosen creatures among them.</p>
     chat: ''
   identifier: cunning-tactics
   source:
@@ -31,7 +31,7 @@ system:
   prerequisites:
     level: null
   properties: []
-  requirements: Brelish Military Training
+  requirements: ''
 effects: []
 sort: 100000
 ownership:
@@ -45,7 +45,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727414487157
-  modifiedTime: 1727455274069
+  modifiedTime: 1727556508499
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!p2cmQH5tA3L1ug45'
 

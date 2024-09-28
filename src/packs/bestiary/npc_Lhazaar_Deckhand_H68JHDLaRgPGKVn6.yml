@@ -1,6 +1,6 @@
-name: King's Dark Lantern
+name: Lhazaar Deckhand
 type: npc
-folder: hu7gAx39NEhF8UyF
+folder: tmTgkQ1WJRSVMXix
 img: icons/svg/mystery-man.svg
 system:
   currency:
@@ -18,35 +18,35 @@ system:
         check: ''
         save: ''
     dex:
-      value: 16
-      proficient: 1
+      value: 15
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     con:
-      value: 12
+      value: 13
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     int:
-      value: 14
-      proficient: 1
+      value: 10
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     wis:
-      value: 14
+      value: 12
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     cha:
-      value: 16
+      value: 10
       proficient: 0
       max: null
       bonuses:
@@ -108,7 +108,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 0
+      value: 1
       bonuses:
         check: ''
         passive: ''
@@ -118,7 +118,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -138,7 +138,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -158,7 +158,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -188,7 +188,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -208,7 +208,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -228,7 +228,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -238,7 +238,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -309,7 +309,7 @@ system:
       truesight: null
       units: null
       special: ''
-    spellcasting: str
+    spellcasting: ''
     exhaustion: 0
     concentration:
       ability: ''
@@ -321,16 +321,16 @@ system:
         save: ''
       limit: 1
     ac:
-      flat: 13
-      calc: flat
+      flat: null
+      calc: default
     hd:
       spent: 0
     hp:
-      value: 55
-      max: 55
+      value: 16
+      max: 16
       temp: 0
       tempmax: 0
-      formula: 10d8 + 10
+      formula: 3d8 + 3
     death:
       ability: ''
       roll:
@@ -343,11 +343,11 @@ system:
     biography:
       value: ''
       public: >-
-        <p>The Dark Lanterns are the intelligence arm of the King’s Citadel, and
-        its agents are the most likely to be sent on missions abroad, spying on
-        and assassinating targets to ensure Breland’s safety. They are among the
-        most well-trained espionage agents on the continent, able to evade even
-        magical counter-intelligence measures.</p>
+        <p>A typical sailing vessel’s crew is 30 souls strong, and most of them
+        are deckhands. Typical deckhands are little more than commoners with
+        training in how to operate a sea vessel, but Lhazaar deckhands learn
+        fast that every member of the crew needs to be ready and able to defend
+        their vessel… or board another.</p>
     alignment: Any Alignment
     ideal: ''
     bond: ''
@@ -356,7 +356,7 @@ system:
     type:
       value: humanoid
     environment: ''
-    cr: 2
+    cr: 0.25
     spellLevel: 0
   resources:
     legact:
@@ -372,9 +372,7 @@ system:
     revision: 1
     rules: '2014'
     book: Map Perilous
-    page: ''
     custom: ''
-    license: ''
   traits:
     size: med
     di:
@@ -396,10 +394,11 @@ system:
       value: []
       custom: ''
     languages:
-      value: []
-      custom: Any three languages
+      value:
+        - common
+      custom: Any one language (usually )
 prototypeToken:
-  name: King's Dark Lantern
+  name: Lhazaar Deckhand
   displayName: 0
   actorLink: false
   appendNumber: false
@@ -475,55 +474,14 @@ prototypeToken:
   flags: {}
   randomImg: false
 items:
-  - name: Multiattack
-    type: feat
-    img: icons/magic/death/skull-trio-badge-purple.webp
-    system:
-      description:
-        value: The Dark Lantern makes two rapier attacks.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: multiattack
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    _id: Z1rSVEwH6ZT5Hook
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.Z1rSVEwH6ZT5Hook'
-  - name: Rapier
+  - name: Scimitar
     type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/rapier.webp
+    img: modules/dnd-players-handbook/assets/icons/items/scimitar.webp
     system:
       description:
         value: >-
-          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 7 (1d8
-          + 3) piercing damage.
+          Melee Weapon Attack: +4 to hit, reach 5 ft. , one target. Hit: 5 (1d6
+          + 2) slashing damage.
         chat: ''
       identified: true
       equipped: true
@@ -533,10 +491,10 @@ items:
       damage:
         base:
           number: 1
-          denomination: 8
+          denomination: 6
           bonus: ''
           types:
-            - piercing
+            - slashing
           custom:
             enabled: false
             formula: ''
@@ -562,8 +520,8 @@ items:
         baseItem: ''
       attuned: true
       activities:
-        WHqk11EFHUIpFb4s:
-          _id: WHqk11EFHUIpFb4s
+        O2GZwpxippNE80dx:
+          _id: O2GZwpxippNE80dx
           type: attack
           sort: 0
           activation:
@@ -606,7 +564,7 @@ items:
       uses:
         spent: 0
         recovery: []
-      identifier: rapier
+      identifier: scimitar
       source:
         revision: 1
         rules: '2024'
@@ -632,7 +590,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
-    _id: 5oCymEZ1QXyfvKMB
+    _id: DcIquXaCNl65FCMO
     effects: []
     folder: null
     sort: 0
@@ -649,124 +607,105 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.5oCymEZ1QXyfvKMB'
-  - name: Hand Crossbow
-    type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp
+    _key: '!actors.items!H68JHDLaRgPGKVn6.DcIquXaCNl65FCMO'
+  - name: Leather Armor
     system:
       description:
-        value: >-
-          Ranged Weapon Attack: +5 to hit, range 30/120 ft. , one target. Hit: 6
-          (1d6 + 3) piercing damage.
+        value: ''
         chat: ''
+      price:
+        value: 10
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
       identified: true
-      equipped: true
-      attunement: required
-      proficient: 1
-      quantity: 1
-      damage:
-        base:
-          number: 1
-          denomination: 6
-          bonus: ''
-          types:
-            - piercing
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
-        versatile:
-          number: null
-          denomination: null
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-      range:
-        value: 30
-        long: 120
-        units: ft
-        reach: null
-      type:
-        value: natural
-        baseItem: ''
-      attuned: true
-      activities:
-        NAfIcyhhh83tWvt4:
-          _id: NAfIcyhhh83tWvt4
-          type: attack
-          sort: 0
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description: {}
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          range:
-            override: false
-          target:
-            template:
-              contiguous: false
-              units: ft
-            affects:
-              choice: false
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-          attack:
-            critical:
-              threshold: null
-            flat: false
-            type: {}
-          damage:
-            critical: {}
-            includeBase: true
-            parts: []
-      uses:
-        spent: 0
-        recovery: []
-      identifier: hand-crossbow
-      source:
-        revision: 1
-        rules: '2024'
       unidentified:
         description: ''
       container: null
+      quantity: 1
       weight:
-        value: 0
+        value: 10
         units: lb
-      price:
-        value: 0
-        denomination: gp
       rarity: ''
-      armor:
-        value: null
+      attunement: required
+      attuned: true
+      equipped: true
       cover: null
       crewed: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 11
+        magicalBonus: null
+        dex: null
       hp:
         value: null
         max: null
         dt: null
         conditions: ''
-      ammunition: {}
-      magicalBonus: null
+      type:
+        value: light
+        baseItem: leather
       properties: []
-    _id: XRM5GoqscZ3omGy8
+      speed:
+        value: null
+        conditions: ''
+      strength: null
+      proficient: 1
+      activities: {}
+      identifier: leather-armor
+    _id: 41riHA2QLTxpsl5n
+    type: equipment
+    folder: G3X11BbtmEqLmEnK
+    img: modules/dnd-players-handbook/assets/icons/armor/leather-armor.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!H68JHDLaRgPGKVn6.41riHA2QLTxpsl5n'
+  - name: Pack Tactics
+    type: feat
+    img: icons/creatures/abilities/paw-print-orange.webp
+    system:
+      description:
+        value: >-
+          The deckhand has advantage on an attack roll against a creature if at
+          least one of the deckhand’s allies is within 5 feet of the creature
+          and the ally isn’t incapacitated.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: pack-tactics
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: p4bxxkETMal5md1b
     effects: []
     folder: null
     sort: 0
@@ -783,160 +722,21 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.XRM5GoqscZ3omGy8'
-  - name: Cunning Action
-    type: feat
-    img: icons/skills/movement/figure-running-gray.webp
-    system:
-      description:
-        value: The Dark Lantern takes the Dash, Disengage, or Hide action.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: cunning-action
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    flags:
-      adnd5e:
-        itemInfo:
-          type: bonus
-    _id: aKBdCeBkW51XdI1g
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.aKBdCeBkW51XdI1g'
-  - name: Uncanny Dodge
-    type: feat
-    img: icons/skills/movement/feet-winged-sandals-tan.webp
-    system:
-      description:
-        value: >-
-          The Dark Lantern halves the damage that it takes from an attack that
-          hits it. The Dark Lantern must be able to see the attacker.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: uncanny-dodge
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    flags:
-      adnd5e:
-        itemInfo:
-          type: reaction
-    _id: tinO9Nv42KV0KyeV
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.tinO9Nv42KV0KyeV'
-  - name: Slippery Mind
-    type: feat
-    img: icons/magic/perception/third-eye-blue-red.webp
-    system:
-      description:
-        value: >-
-          The Dark Lantern can’t be targeted by any divination magic or
-          perceived through magical scrying sensors. Additionally, if it fails
-          an Intelligence, Wisdom, or Charisma saving throw against an effect
-          that allows one or more subsequent saving throws to end the effect,
-          the Dark Lantern automatically succeeds on those subsequent saves.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: slippery-mind
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    _id: ZhVPEJr3DgnzDHaI
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.ZhVPEJr3DgnzDHaI'
-  - name: Sneak Attack (1/turn)
+    _key: '!actors.items!H68JHDLaRgPGKVn6.p4bxxkETMal5md1b'
+  - name: Sea Legs
     type: feat
     img: icons/svg/book.svg
     system:
       description:
         value: >-
-          The Dark Lantern deals an extra 10 (3d6) damage when it hits a target
-          with a weapon attack and has advantage on the attack roll, or when the
-          target is within 5 feet of one of the Dark Lantern’s allies that isn't
-          incapacitated and the Dark Lantern doesn't have disadvantage on the
-          attack roll.
+          The deckhand has advantage on ability checks and saving throws to
+          resist being knocked prone.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: sneak-attack-1-turn
+      identifier: sea-legs
       source:
         revision: 1
         rules: '2024'
@@ -948,7 +748,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: lXct5nBpqUw4ba14
+    _id: Uj09WuriyvoWHY6h
     effects: []
     folder: null
     sort: 0
@@ -965,24 +765,22 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.lXct5nBpqUw4ba14'
+    _key: '!actors.items!H68JHDLaRgPGKVn6.Uj09WuriyvoWHY6h'
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
-flags:
-  dnd5e:
-    showTokenPortrait: false
+flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.0.3
-  createdTime: 1727459563725
-  modifiedTime: 1727549887547
+  createdTime: 1727550804197
+  modifiedTime: 1727550805350
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: WMRxNxl6F4FyWfBS
-sort: 500000
-_key: '!actors!WMRxNxl6F4FyWfBS'
+_id: H68JHDLaRgPGKVn6
+sort: 300000
+_key: '!actors!H68JHDLaRgPGKVn6'
 

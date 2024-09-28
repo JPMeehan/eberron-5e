@@ -1,4 +1,4 @@
-name: King's Dark Lantern
+name: Ninth Brigade Rider
 type: npc
 folder: hu7gAx39NEhF8UyF
 img: icons/svg/mystery-man.svg
@@ -11,42 +11,42 @@ system:
     cp: 0
   abilities:
     str:
-      value: 13
+      value: 16
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     dex:
-      value: 16
-      proficient: 1
+      value: 15
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     con:
-      value: 12
+      value: 16
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     int:
-      value: 14
-      proficient: 1
+      value: 10
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     wis:
-      value: 14
+      value: 15
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     cha:
-      value: 16
+      value: 12
       proficient: 0
       max: null
       bonuses:
@@ -88,7 +88,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 0
+      value: 1
       bonuses:
         check: ''
         passive: ''
@@ -108,7 +108,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 0
+      value: 1
       bonuses:
         check: ''
         passive: ''
@@ -118,7 +118,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -138,7 +138,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -158,7 +158,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -188,7 +188,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -208,7 +208,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -228,7 +228,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -238,7 +238,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -321,16 +321,16 @@ system:
         save: ''
       limit: 1
     ac:
-      flat: 13
-      calc: flat
+      flat: null
+      calc: default
     hd:
       spent: 0
     hp:
-      value: 55
-      max: 55
+      value: 60
+      max: 60
       temp: 0
       tempmax: 0
-      formula: 10d8 + 10
+      formula: 8d8 + 24
     death:
       ability: ''
       roll:
@@ -343,11 +343,10 @@ system:
     biography:
       value: ''
       public: >-
-        <p>The Dark Lanterns are the intelligence arm of the King’s Citadel, and
-        its agents are the most likely to be sent on missions abroad, spying on
-        and assassinating targets to ensure Breland’s safety. They are among the
-        most well-trained espionage agents on the continent, able to evade even
-        magical counter-intelligence measures.</p>
+        <p>The cavalry of the Brelish 9th Brigade are famed soldiers who ride
+        into battle on the backs of magebred bears. They have trained
+        extensively to use the powerful muscle mass of their mounts to add power
+        to their strikes.</p>
     alignment: Any Alignment
     ideal: ''
     bond: ''
@@ -356,7 +355,7 @@ system:
     type:
       value: humanoid
     environment: ''
-    cr: 2
+    cr: 3
     spellLevel: 0
   resources:
     legact:
@@ -372,9 +371,7 @@ system:
     revision: 1
     rules: '2014'
     book: Map Perilous
-    page: ''
     custom: ''
-    license: ''
   traits:
     size: med
     di:
@@ -396,10 +393,11 @@ system:
       value: []
       custom: ''
     languages:
-      value: []
-      custom: Any three languages
+      value:
+        - common
+      custom: Any one language (usually )
 prototypeToken:
-  name: King's Dark Lantern
+  name: Ninth Brigade Rider
   displayName: 0
   actorLink: false
   appendNumber: false
@@ -480,7 +478,7 @@ items:
     img: icons/magic/death/skull-trio-badge-purple.webp
     system:
       description:
-        value: The Dark Lantern makes two rapier attacks.
+        value: The rider makes three melee attacks.
         chat: ''
       activities: {}
       uses:
@@ -498,7 +496,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: Z1rSVEwH6ZT5Hook
+    _id: 2lktkGCKy2I4y8S1
     effects: []
     folder: null
     sort: 0
@@ -515,15 +513,159 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.Z1rSVEwH6ZT5Hook'
-  - name: Rapier
+    _key: '!actors.items!gmnLzwyEbjliSV3M.2lktkGCKy2I4y8S1'
+  - name: Longsword
     type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/rapier.webp
+    img: modules/dnd-players-handbook/assets/icons/items/longsword.webp
     system:
       description:
         value: >-
           Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 7 (1d8
-          + 3) piercing damage.
+          + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two
+          hands. The attack deals an extra 4 (1d8) slashing damage, or 5 (1d10)
+          slashing damage if used with two hands, if it is made while the rider
+          is mounted.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        versatile:
+          number: 1
+          denomination: 10
+          bonus: '3'
+          types: []
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        base:
+          number: 1
+          denomination: 8
+          bonus: ''
+          types:
+            - slashing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        7ujVDsVpwgyQfnxI:
+          _id: 7ujVDsVpwgyQfnxI
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: longsword
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: 4jiWIKBayyK5Vjdo
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!gmnLzwyEbjliSV3M.4jiWIKBayyK5Vjdo'
+  - name: Shield Bash
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 5 (1d4
+          + 3) bludgeoning damage, plus an extra 2 (1d4) bludgeoning damage if
+          the attack is made while the rider is mounted. If the target is a
+          Medium or smaller creature, it must succeed on a DC 13 Strength saving
+          throw or be knocked prone.
         chat: ''
       identified: true
       equipped: true
@@ -533,10 +675,10 @@ items:
       damage:
         base:
           number: 1
-          denomination: 8
+          denomination: 4
           bonus: ''
           types:
-            - piercing
+            - bludgeoning
           custom:
             enabled: false
             formula: ''
@@ -562,8 +704,8 @@ items:
         baseItem: ''
       attuned: true
       activities:
-        WHqk11EFHUIpFb4s:
-          _id: WHqk11EFHUIpFb4s
+        AsqipSo9z2IA6H37:
+          _id: AsqipSo9z2IA6H37
           type: attack
           sort: 0
           activation:
@@ -606,7 +748,7 @@ items:
       uses:
         spent: 0
         recovery: []
-      identifier: rapier
+      identifier: shield-bash
       source:
         revision: 1
         rules: '2024'
@@ -632,7 +774,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
-    _id: 5oCymEZ1QXyfvKMB
+    _id: y8ZQ6mGGvjwaaguQ
     effects: []
     folder: null
     sort: 0
@@ -649,172 +791,95 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.5oCymEZ1QXyfvKMB'
-  - name: Hand Crossbow
-    type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp
+    _key: '!actors.items!gmnLzwyEbjliSV3M.y8ZQ6mGGvjwaaguQ'
+  - name: Studded Leather
+    type: equipment
     system:
       description:
         value: >-
-          Ranged Weapon Attack: +5 to hit, range 30/120 ft. , one target. Hit: 6
-          (1d6 + 3) piercing damage.
+          <p>Made from tough but flexible leather, studded leather is reinforced
+          with close-set rivets or spikes.</p>
         chat: ''
+      source:
+        book: PHB
+        page: ''
+        license: ''
+        custom: ''
+        rules: '2014'
+        revision: 1
       identified: true
-      equipped: true
-      attunement: required
-      proficient: 1
-      quantity: 1
-      damage:
-        base:
-          number: 1
-          denomination: 6
-          bonus: ''
-          types:
-            - piercing
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
-        versatile:
-          number: null
-          denomination: null
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-      range:
-        value: 30
-        long: 120
-        units: ft
-        reach: null
-      type:
-        value: natural
-        baseItem: ''
-      attuned: true
-      activities:
-        NAfIcyhhh83tWvt4:
-          _id: NAfIcyhhh83tWvt4
-          type: attack
-          sort: 0
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description: {}
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          range:
-            override: false
-          target:
-            template:
-              contiguous: false
-              units: ft
-            affects:
-              choice: false
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-          attack:
-            critical:
-              threshold: null
-            flat: false
-            type: {}
-          damage:
-            critical: {}
-            includeBase: true
-            parts: []
-      uses:
-        spent: 0
-        recovery: []
-      identifier: hand-crossbow
-      source:
-        revision: 1
-        rules: '2024'
       unidentified:
         description: ''
       container: null
+      quantity: 1
       weight:
-        value: 0
+        value: 13
         units: lb
       price:
-        value: 0
+        value: 45
         denomination: gp
       rarity: ''
-      armor:
-        value: null
+      attunement: required
+      equipped: true
       cover: null
       crewed: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 12
+        dex: null
+        magicalBonus: null
       hp:
         value: null
         max: null
         dt: null
         conditions: ''
-      ammunition: {}
-      magicalBonus: null
-      properties: []
-    _id: XRM5GoqscZ3omGy8
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.XRM5GoqscZ3omGy8'
-  - name: Cunning Action
-    type: feat
-    img: icons/skills/movement/figure-running-gray.webp
-    system:
-      description:
-        value: The Dark Lantern takes the Dash, Disengage, or Hide action.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: cunning-action
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
       type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
+        value: light
+        baseItem: studdedleather
       properties: []
-      requirements: ''
+      speed:
+        value: null
+        conditions: ''
+      strength: 0
+      proficient: 1
+      identifier: studded-leather
+      activities: {}
+      attuned: true
     flags:
-      adnd5e:
-        itemInfo:
-          type: bonus
-    _id: aKBdCeBkW51XdI1g
+      ddbimporter:
+        dndbeyond:
+          type: Light Armor
+          alternativeNames:
+            - Studded Leather Armor
+          filterType: Armor
+          isConsumable: false
+          isContainer: false
+          isCustomItem: false
+          isHomebrew: false
+          isMonkWeapon: false
+          isPack: false
+          levelInfusionGranted: null
+          tags:
+            - Warding
+          sources:
+            - sourceId: 1
+              pageNumber: null
+              sourceType: 2
+            - sourceId: 2
+              pageNumber: null
+              sourceType: 1
+        id: 0
+        entityTypeId: 0
+        definitionEntityTypeId: 701257905
+        definitionId: 3
+        originalName: Studded Leather
+        version: 4.0.11
     effects: []
-    folder: null
-    sort: 0
+    img: icons/equipment/chest/breastplate-rivited-red.webp
+    folder: eNY55cTybKJk29Fq
     ownership:
       default: 0
       q6n1efCGVB98drEQ: 3
@@ -827,40 +892,98 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.aKBdCeBkW51XdI1g'
-  - name: Uncanny Dodge
-    type: feat
-    img: icons/skills/movement/feet-winged-sandals-tan.webp
+    _id: y0aovg3ykcq6Qplt
+    sort: 0
+    _key: '!actors.items!gmnLzwyEbjliSV3M.y0aovg3ykcq6Qplt'
+  - name: Shield
+    type: equipment
     system:
       description:
         value: >-
-          The Dark Lantern halves the damage that it takes from an attack that
-          hits it. The Dark Lantern must be able to see the attacker.
+          <p>A shield is made from wood or metal and is carried in one hand.
+          Wielding a shield increases your Armor Class by 2. You can benefit
+          from only one shield at a time.</p>
         chat: ''
-      activities: {}
+      source:
+        book: PHB
+        page: ''
+        license: ''
+        custom: ''
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 6
+        units: lb
+      price:
+        value: 10
+        denomination: gp
+      rarity: ''
+      attunement: required
+      equipped: true
+      cover: null
+      crewed: false
       uses:
+        max: ''
         spent: 0
         recovery: []
-      identifier: uncanny-dodge
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
+      armor:
+        value: 2
+        dex: null
+        magicalBonus: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
       type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
+        value: shield
+        baseItem: shield
       properties: []
-      requirements: ''
+      speed:
+        value: null
+        conditions: ''
+      strength: 0
+      proficient: 1
+      identifier: shield
+      activities: {}
+      attuned: true
     flags:
-      adnd5e:
-        itemInfo:
-          type: reaction
-    _id: tinO9Nv42KV0KyeV
+      ddbimporter:
+        dndbeyond:
+          type: ''
+          alternativeNames:
+            - Shield Armor
+          filterType: Armor
+          isConsumable: false
+          isContainer: false
+          isCustomItem: false
+          isHomebrew: false
+          isMonkWeapon: false
+          isPack: false
+          levelInfusionGranted: null
+          tags:
+            - Warding
+          sources:
+            - sourceId: 1
+              pageNumber: null
+              sourceType: 2
+            - sourceId: 2
+              pageNumber: null
+              sourceType: 1
+        id: 0
+        entityTypeId: 0
+        definitionEntityTypeId: 701257905
+        definitionId: 8
+        originalName: Shield
+        version: 4.0.11
     effects: []
-    folder: null
-    sort: 0
+    img: icons/equipment/shield/round-wooden-boss-steel-brown.webp
+    folder: 9CdiFpLzUCQzOaXG
     ownership:
       default: 0
       q6n1efCGVB98drEQ: 3
@@ -873,70 +996,23 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.tinO9Nv42KV0KyeV'
-  - name: Slippery Mind
-    type: feat
-    img: icons/magic/perception/third-eye-blue-red.webp
-    system:
-      description:
-        value: >-
-          The Dark Lantern can’t be targeted by any divination magic or
-          perceived through magical scrying sensors. Additionally, if it fails
-          an Intelligence, Wisdom, or Charisma saving throw against an effect
-          that allows one or more subsequent saving throws to end the effect,
-          the Dark Lantern automatically succeeds on those subsequent saves.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: slippery-mind
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    _id: ZhVPEJr3DgnzDHaI
-    effects: []
-    folder: null
+    _id: IEqgrSqdOpu8SyKl
     sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.ZhVPEJr3DgnzDHaI'
-  - name: Sneak Attack (1/turn)
+    _key: '!actors.items!gmnLzwyEbjliSV3M.IEqgrSqdOpu8SyKl'
+  - name: Combat Rider
     type: feat
     img: icons/svg/book.svg
     system:
       description:
         value: >-
-          The Dark Lantern deals an extra 10 (3d6) damage when it hits a target
-          with a weapon attack and has advantage on the attack roll, or when the
-          target is within 5 feet of one of the Dark Lantern’s allies that isn't
-          incapacitated and the Dark Lantern doesn't have disadvantage on the
-          attack roll.
+          When the rider directly controls a mount, its mount may take an action
+          and bonus action at the end of the rider’s turn.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: sneak-attack-1-turn
+      identifier: combat-rider
       source:
         revision: 1
         rules: '2024'
@@ -948,7 +1024,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: lXct5nBpqUw4ba14
+    _id: LQJynqGfYpo5WcNR
     effects: []
     folder: null
     sort: 0
@@ -965,7 +1041,7 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.lXct5nBpqUw4ba14'
+    _key: '!actors.items!gmnLzwyEbjliSV3M.LQJynqGfYpo5WcNR'
 effects: []
 ownership:
   default: 0
@@ -979,10 +1055,10 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.0.3
-  createdTime: 1727459563725
+  createdTime: 1727549887355
   modifiedTime: 1727549887547
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: WMRxNxl6F4FyWfBS
-sort: 500000
-_key: '!actors!WMRxNxl6F4FyWfBS'
+_id: gmnLzwyEbjliSV3M
+sort: 200000
+_key: '!actors!gmnLzwyEbjliSV3M'
 

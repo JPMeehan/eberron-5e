@@ -1,4 +1,4 @@
-name: King's Dark Lantern
+name: Umbral Spy
 type: npc
 folder: hu7gAx39NEhF8UyF
 img: icons/svg/mystery-man.svg
@@ -11,15 +11,15 @@ system:
     cp: 0
   abilities:
     str:
-      value: 13
+      value: 7
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     dex:
-      value: 16
-      proficient: 1
+      value: 20
+      proficient: 0
       max: null
       bonuses:
         check: ''
@@ -32,21 +32,21 @@ system:
         check: ''
         save: ''
     int:
-      value: 14
-      proficient: 1
+      value: 5
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     wis:
-      value: 14
+      value: 13
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     cha:
-      value: 16
+      value: 12
       proficient: 0
       max: null
       bonuses:
@@ -118,7 +118,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -138,7 +138,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -158,7 +158,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -208,7 +208,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -228,7 +228,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -238,7 +238,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 2
       bonuses:
         check: ''
         passive: ''
@@ -293,23 +293,23 @@ system:
         mode: 0
       bonus: ''
     movement:
-      burrow: null
-      climb: null
-      fly: null
-      swim: null
-      walk: 30
+      burrow: 0
+      climb: 0
+      fly: 50
+      swim: 0
+      walk: 0
       units: null
-      hover: false
+      hover: true
     attunement:
       max: 3
     senses:
-      darkvision: null
+      darkvision: 60
       blindsight: null
       tremorsense: null
       truesight: null
       units: null
       special: ''
-    spellcasting: str
+    spellcasting: ''
     exhaustion: 0
     concentration:
       ability: ''
@@ -321,16 +321,16 @@ system:
         save: ''
       limit: 1
     ac:
-      flat: 13
+      flat: 15
       calc: flat
     hd:
       spent: 0
     hp:
-      value: 55
-      max: 55
+      value: 27
+      max: 27
       temp: 0
       tempmax: 0
-      formula: 10d8 + 10
+      formula: 6d6 + 6
     death:
       ability: ''
       roll:
@@ -343,20 +343,24 @@ system:
     biography:
       value: ''
       public: >-
-        <p>The Dark Lanterns are the intelligence arm of the King’s Citadel, and
-        its agents are the most likely to be sent on missions abroad, spying on
-        and assassinating targets to ensure Breland’s safety. They are among the
-        most well-trained espionage agents on the continent, able to evade even
-        magical counter-intelligence measures.</p>
-    alignment: Any Alignment
+        <p>The product of necromantic experiments performed by the King’s Wands,
+        umbral spies are constructs created from the lingering animus of a dead
+        changeling or shapeshifter—the same spirit that the speak with dead
+        spell interacts with. The umbral spy is not truly undead, but rather a
+        magical construct with no physical form, appearing as a small wisp of
+        shadow with a vaguely humanoid outline. It obeys the commands of its
+        creator, and is usually sent on intelligence gathering missions, which
+        it completes by employing its unique ability to merge with the shadow of
+        its target.</p>
+    alignment: Typically Neutral
     ideal: ''
     bond: ''
     flaw: ''
     race: null
     type:
-      value: humanoid
+      value: construct
     environment: ''
-    cr: 2
+    cr: 0.5
     spellLevel: 0
   resources:
     legact:
@@ -372,18 +376,28 @@ system:
     revision: 1
     rules: '2014'
     book: Map Perilous
-    page: ''
     custom: ''
-    license: ''
   traits:
-    size: med
+    size: sm
     di:
       bypasses: []
-      value: []
+      value:
+        - necrotic
+        - poison
       custom: ''
     dr:
-      bypasses: []
-      value: []
+      bypasses:
+        - sil
+        - mgc
+      value:
+        - acid
+        - cold
+        - fire
+        - lightning
+        - thunder
+        - bludgeoning
+        - piercing
+        - slashing
       custom: ''
     dv:
       bypasses: []
@@ -393,13 +407,22 @@ system:
       amount: {}
       bypasses: []
     ci:
-      value: []
+      value:
+        - charmed
+        - exhaustion
+        - grappled
+        - paralyzed
+        - petrified
+        - poisoned
+        - prone
+        - restrained
       custom: ''
     languages:
-      value: []
-      custom: Any three languages
+      value:
+        - common
+      custom: Understands any one language (usually ) but can’t speak;telepathy 10 ft.
 prototypeToken:
-  name: King's Dark Lantern
+  name: Umbral Spy
   displayName: 0
   actorLink: false
   appendNumber: false
@@ -475,55 +498,14 @@ prototypeToken:
   flags: {}
   randomImg: false
 items:
-  - name: Multiattack
-    type: feat
-    img: icons/magic/death/skull-trio-badge-purple.webp
-    system:
-      description:
-        value: The Dark Lantern makes two rapier attacks.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: multiattack
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    _id: Z1rSVEwH6ZT5Hook
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.Z1rSVEwH6ZT5Hook'
-  - name: Rapier
+  - name: Withering Touch
     type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/rapier.webp
+    img: icons/svg/sword.svg
     system:
       description:
         value: >-
-          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 7 (1d8
-          + 3) piercing damage.
+          Melee Weapon Attack: +3 to hit, reach 5 ft. , one target. Hit: 3 (1d4
+          + 1) necrotic damage.
         chat: ''
       identified: true
       equipped: true
@@ -533,10 +515,10 @@ items:
       damage:
         base:
           number: 1
-          denomination: 8
+          denomination: 4
           bonus: ''
           types:
-            - piercing
+            - necrotic
           custom:
             enabled: false
             formula: ''
@@ -562,8 +544,8 @@ items:
         baseItem: ''
       attuned: true
       activities:
-        WHqk11EFHUIpFb4s:
-          _id: WHqk11EFHUIpFb4s
+        N1GwjYvihfDGBen8:
+          _id: N1GwjYvihfDGBen8
           type: attack
           sort: 0
           activation:
@@ -606,7 +588,7 @@ items:
       uses:
         spent: 0
         recovery: []
-      identifier: rapier
+      identifier: withering-touch
       source:
         revision: 1
         rules: '2024'
@@ -632,7 +614,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
-    _id: 5oCymEZ1QXyfvKMB
+    _id: jbsvZI5j60lCVbq6
     effects: []
     folder: null
     sort: 0
@@ -649,124 +631,45 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.5oCymEZ1QXyfvKMB'
-  - name: Hand Crossbow
-    type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp
+    _key: '!actors.items!uqwinQMcEF7L6wjx.jbsvZI5j60lCVbq6'
+  - name: Shadow Bond
+    type: feat
+    img: icons/svg/combat.svg
     system:
       description:
         value: >-
-          Ranged Weapon Attack: +5 to hit, range 30/120 ft. , one target. Hit: 6
-          (1d6 + 3) piercing damage.
+          The umbral spy can attempt to merge with the shadow of one humanoid,
+          giant, or monstrosity that the umbral spy is hidden from. The target
+          creature must succeed on a DC 11 Charisma saving throw or the umbral
+          spy disappears and bonds with the target, perceiving the world through
+          its senses. The target can repeat this saving throw at the end of each
+          of its long rests. On a success, the umbral spy detaches from the
+          target’s shadow. Regardless of the result of any saving throw made
+          against this ability, the target is unaware of making its save, and
+          the umbral spy does not reveal itself from hiding. While bonded to a
+          target, the umbral spy is undetectable by all means short of
+          truesight, which reveals it hunched in the target’s shadow. The umbral
+          spy can willingly detach itself from a target as a bonus action. When
+          communicating telepathically, the umbral spy can relate everything it
+          perceived while bonded to a target exactly as it was experienced.
         chat: ''
-      identified: true
-      equipped: true
-      attunement: required
-      proficient: 1
-      quantity: 1
-      damage:
-        base:
-          number: 1
-          denomination: 6
-          bonus: ''
-          types:
-            - piercing
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
-        versatile:
-          number: null
-          denomination: null
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-      range:
-        value: 30
-        long: 120
-        units: ft
-        reach: null
-      type:
-        value: natural
-        baseItem: ''
-      attuned: true
-      activities:
-        NAfIcyhhh83tWvt4:
-          _id: NAfIcyhhh83tWvt4
-          type: attack
-          sort: 0
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description: {}
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          range:
-            override: false
-          target:
-            template:
-              contiguous: false
-              units: ft
-            affects:
-              choice: false
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-          attack:
-            critical:
-              threshold: null
-            flat: false
-            type: {}
-          damage:
-            critical: {}
-            includeBase: true
-            parts: []
+      activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: hand-crossbow
+      identifier: shadow-bond
       source:
         revision: 1
         rules: '2024'
-      unidentified:
-        description: ''
-      container: null
-      weight:
-        value: 0
-        units: lb
-      price:
-        value: 0
-        denomination: gp
-      rarity: ''
-      armor:
-        value: null
-      cover: null
-      crewed: false
-      hp:
-        value: null
-        max: null
-        dt: null
-        conditions: ''
-      ammunition: {}
-      magicalBonus: null
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
       properties: []
-    _id: XRM5GoqscZ3omGy8
+      requirements: ''
+    _id: Zqbr11DaXaX9kOXr
     effects: []
     folder: null
     sort: 0
@@ -783,65 +686,22 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.XRM5GoqscZ3omGy8'
-  - name: Cunning Action
+    _key: '!actors.items!uqwinQMcEF7L6wjx.Zqbr11DaXaX9kOXr'
+  - name: Incorporeal Movement
     type: feat
-    img: icons/skills/movement/figure-running-gray.webp
-    system:
-      description:
-        value: The Dark Lantern takes the Dash, Disengage, or Hide action.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: cunning-action
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    flags:
-      adnd5e:
-        itemInfo:
-          type: bonus
-    _id: aKBdCeBkW51XdI1g
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.aKBdCeBkW51XdI1g'
-  - name: Uncanny Dodge
-    type: feat
-    img: icons/skills/movement/feet-winged-sandals-tan.webp
+    img: icons/magic/air/air-wave-gust-blue.webp
     system:
       description:
         value: >-
-          The Dark Lantern halves the damage that it takes from an attack that
-          hits it. The Dark Lantern must be able to see the attacker.
+          The umbral spy can move through other creatures and objects as if they
+          were difficult terrain. It takes 5 (1d10) force damage if it ends its
+          turn inside an object.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: uncanny-dodge
+      identifier: incorporeal-movement
       source:
         revision: 1
         rules: '2024'
@@ -853,56 +713,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    flags:
-      adnd5e:
-        itemInfo:
-          type: reaction
-    _id: tinO9Nv42KV0KyeV
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.tinO9Nv42KV0KyeV'
-  - name: Slippery Mind
-    type: feat
-    img: icons/magic/perception/third-eye-blue-red.webp
-    system:
-      description:
-        value: >-
-          The Dark Lantern can’t be targeted by any divination magic or
-          perceived through magical scrying sensors. Additionally, if it fails
-          an Intelligence, Wisdom, or Charisma saving throw against an effect
-          that allows one or more subsequent saving throws to end the effect,
-          the Dark Lantern automatically succeeds on those subsequent saves.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: slippery-mind
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    _id: ZhVPEJr3DgnzDHaI
+    _id: 2ctYOZAXPBUNNkHN
     effects: []
     folder: null
     sort: 0
@@ -919,24 +730,21 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.ZhVPEJr3DgnzDHaI'
-  - name: Sneak Attack (1/turn)
+    _key: '!actors.items!uqwinQMcEF7L6wjx.2ctYOZAXPBUNNkHN'
+  - name: Mask Of Shadow
     type: feat
     img: icons/svg/book.svg
     system:
       description:
         value: >-
-          The Dark Lantern deals an extra 10 (3d6) damage when it hits a target
-          with a weapon attack and has advantage on the attack roll, or when the
-          target is within 5 feet of one of the Dark Lantern’s allies that isn't
-          incapacitated and the Dark Lantern doesn't have disadvantage on the
-          attack roll.
+          The umbral spy can attempt to hide even when not obscured, so long as
+          it is not in direct sunlight.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: sneak-attack-1-turn
+      identifier: mask-of-shadow
       source:
         revision: 1
         rules: '2024'
@@ -948,7 +756,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: lXct5nBpqUw4ba14
+    _id: eqTtWdlTVdFZfHrW
     effects: []
     folder: null
     sort: 0
@@ -965,24 +773,22 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.lXct5nBpqUw4ba14'
+    _key: '!actors.items!uqwinQMcEF7L6wjx.eqTtWdlTVdFZfHrW'
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
-flags:
-  dnd5e:
-    showTokenPortrait: false
+flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.0.3
-  createdTime: 1727459563725
-  modifiedTime: 1727549887547
+  createdTime: 1727549967739
+  modifiedTime: 1727549967739
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: WMRxNxl6F4FyWfBS
-sort: 500000
-_key: '!actors!WMRxNxl6F4FyWfBS'
+_id: uqwinQMcEF7L6wjx
+sort: 0
+_key: '!actors!uqwinQMcEF7L6wjx'
 

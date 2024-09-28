@@ -1,6 +1,6 @@
-name: King's Dark Lantern
+name: Ruin Elemental
 type: npc
-folder: hu7gAx39NEhF8UyF
+folder: SiMzJl6AAy4UlXeL
 img: icons/svg/mystery-man.svg
 system:
   currency:
@@ -11,42 +11,42 @@ system:
     cp: 0
   abilities:
     str:
-      value: 13
+      value: 28
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     dex:
-      value: 16
-      proficient: 1
+      value: 14
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     con:
-      value: 12
+      value: 22
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     int:
-      value: 14
-      proficient: 1
+      value: 2
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     wis:
-      value: 14
+      value: 15
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     cha:
-      value: 16
+      value: 3
       proficient: 0
       max: null
       bonuses:
@@ -118,7 +118,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -138,7 +138,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -158,7 +158,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -188,7 +188,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -208,7 +208,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -228,7 +228,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -238,7 +238,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -297,15 +297,15 @@ system:
       climb: null
       fly: null
       swim: null
-      walk: 30
+      walk: 40
       units: null
       hover: false
     attunement:
       max: 3
     senses:
-      darkvision: null
+      darkvision: 60
       blindsight: null
-      tremorsense: null
+      tremorsense: 60
       truesight: null
       units: null
       special: ''
@@ -321,16 +321,16 @@ system:
         save: ''
       limit: 1
     ac:
-      flat: 13
-      calc: flat
+      flat: 19
+      calc: natural
     hd:
       spent: 0
     hp:
-      value: 55
-      max: 55
+      value: 138
+      max: 138
       temp: 0
       tempmax: 0
-      formula: 10d8 + 10
+      formula: 12d10 + 72
     death:
       ability: ''
       roll:
@@ -343,20 +343,39 @@ system:
     biography:
       value: ''
       public: >-
-        <p>The Dark Lanterns are the intelligence arm of the King’s Citadel, and
-        its agents are the most likely to be sent on missions abroad, spying on
-        and assassinating targets to ensure Breland’s safety. They are among the
-        most well-trained espionage agents on the continent, able to evade even
-        magical counter-intelligence measures.</p>
-    alignment: Any Alignment
+        <p>The territory of Droaam’s medusas is often called the Stonelands, and
+        for good reason. Even before the medusas emerged from the depths of
+        Khyber to occupy the City of Stone, Cazhaak Draal had long been shunned
+        by settlers and monsters alike. Evidence of some ancient catastrophe can
+        be found in and surrounding Cazhaak Draal, in which goblinoids, animals,
+        and plants were petrified instantly and en mass. Rumors persist that the
+        Stonelands are cursed and haunted by the spirits of these petrified
+        victims.</p><p>Whatever the truth of the matter, what is fact is that
+        the stones of Cazhaak Draal are not as restless as they might appear at
+        first glance. Occasionally, the fallen masonry and cracked flagstones of
+        the city pull themselves into a hulking elemental form, akin to an earth
+        elemental made entirely from the debris of broken architecture instead
+        of loose earth and rock. The medusas of Cazhaak Draal try to give these
+        creatures a wide berth, for if left undisturbed they usually settle back
+        down after a brief period of activity. If they come within sight of a
+        non-petrified creature, however, ruin elementals typically attack as if
+        enraged.</p><p>Although the ruin elementals of Cazhaak Draal are the
+        best documented examples of the creatures, it is likely that other
+        ancient ruins of Eberron might support one or more of them as well. At
+        least one ruin elemental of massive size is known to have emerged from
+        the underground complexes beneath Stormreach, some eighty years ago. It
+        caused widespread havoc as it rampaged through the city before the
+        dwarven Storm Lord Yorrik Amantau managed to fell it with his trusty
+        adamantine waraxe.</p>
+    alignment: Unaligned
     ideal: ''
     bond: ''
     flaw: ''
     race: null
     type:
-      value: humanoid
+      value: elemental
     environment: ''
-    cr: 2
+    cr: 10
     spellLevel: 0
   resources:
     legact:
@@ -376,14 +395,20 @@ system:
     custom: ''
     license: ''
   traits:
-    size: med
+    size: lg
     di:
       bypasses: []
-      value: []
+      value:
+        - poison
       custom: ''
     dr:
-      bypasses: []
-      value: []
+      bypasses:
+        - ada
+        - mgc
+      value:
+        - bludgeoning
+        - piercing
+        - slashing
       custom: ''
     dv:
       bypasses: []
@@ -393,19 +418,25 @@ system:
       amount: {}
       bypasses: []
     ci:
-      value: []
+      value:
+        - exhaustion
+        - paralyzed
+        - petrified
+        - poisoned
+        - unconscious
       custom: ''
     languages:
-      value: []
-      custom: Any three languages
+      value:
+        - terran
+      custom: ''
 prototypeToken:
-  name: King's Dark Lantern
+  name: Ruin Elemental
   displayName: 0
   actorLink: false
   appendNumber: false
   prependAdjective: false
-  width: 1
-  height: 1
+  width: 2
+  height: 2
   texture:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
@@ -480,7 +511,9 @@ items:
     img: icons/magic/death/skull-trio-badge-purple.webp
     system:
       description:
-        value: The Dark Lantern makes two rapier attacks.
+        value: >-
+          The elemental makes two slam attacks and uses Shockwave if it is
+          available.
         chat: ''
       activities: {}
       uses:
@@ -498,7 +531,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: Z1rSVEwH6ZT5Hook
+    _id: 2LCPsFXVXcULi8bh
     effects: []
     folder: null
     sort: 0
@@ -515,15 +548,17 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.Z1rSVEwH6ZT5Hook'
-  - name: Rapier
+    _key: '!actors.items!PTlp7jug0IsHGHQ0.2LCPsFXVXcULi8bh'
+  - name: Slam
     type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/rapier.webp
+    img: icons/svg/sword.svg
     system:
       description:
         value: >-
-          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 7 (1d8
-          + 3) piercing damage.
+          Melee Weapon Attack: +13 to hit, reach 10 ft. , one target. Hit: 18
+          (2d8 + 9) bludgeoning damage. If the target is a creature, it must
+          succeed on a DC 16 Strength saving throw or be pushed 10 feet directly
+          away from the elemental.
         chat: ''
       identified: true
       equipped: true
@@ -532,11 +567,11 @@ items:
       quantity: 1
       damage:
         base:
-          number: 1
+          number: 2
           denomination: 8
           bonus: ''
           types:
-            - piercing
+            - bludgeoning
           custom:
             enabled: false
             formula: ''
@@ -553,7 +588,7 @@ items:
           scaling:
             number: 1
       range:
-        value: 5
+        value: 10
         units: ft
         long: null
         reach: null
@@ -562,8 +597,8 @@ items:
         baseItem: ''
       attuned: true
       activities:
-        WHqk11EFHUIpFb4s:
-          _id: WHqk11EFHUIpFb4s
+        7m28yygZbzwyXNyY:
+          _id: 7m28yygZbzwyXNyY
           type: attack
           sort: 0
           activation:
@@ -606,7 +641,7 @@ items:
       uses:
         spent: 0
         recovery: []
-      identifier: rapier
+      identifier: slam
       source:
         revision: 1
         rules: '2024'
@@ -632,7 +667,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
-    _id: 5oCymEZ1QXyfvKMB
+    _id: wnRq5jaCv9ioeZ3M
     effects: []
     folder: null
     sort: 0
@@ -649,15 +684,16 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.5oCymEZ1QXyfvKMB'
-  - name: Hand Crossbow
+    _key: '!actors.items!PTlp7jug0IsHGHQ0.wnRq5jaCv9ioeZ3M'
+  - name: Cinderblock
     type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp
+    img: icons/svg/sword.svg
     system:
       description:
         value: >-
-          Ranged Weapon Attack: +5 to hit, range 30/120 ft. , one target. Hit: 6
-          (1d6 + 3) piercing damage.
+          Ranged Weapon Attack: +13 to hit, range 60/240 ft. , one target. Hit:
+          20 (2d10 + 9) bludgeoning damage. If the target is a creature, it must
+          succeed on a DC 16 Strength saving throw or be knocked prone.
         chat: ''
       identified: true
       equipped: true
@@ -666,11 +702,11 @@ items:
       quantity: 1
       damage:
         base:
-          number: 1
-          denomination: 6
+          number: 2
+          denomination: 10
           bonus: ''
           types:
-            - piercing
+            - bludgeoning
           custom:
             enabled: false
             formula: ''
@@ -687,8 +723,8 @@ items:
           scaling:
             number: 1
       range:
-        value: 30
-        long: 120
+        value: 60
+        long: 240
         units: ft
         reach: null
       type:
@@ -696,8 +732,8 @@ items:
         baseItem: ''
       attuned: true
       activities:
-        NAfIcyhhh83tWvt4:
-          _id: NAfIcyhhh83tWvt4
+        ZzIEvIsufta11dtv:
+          _id: ZzIEvIsufta11dtv
           type: attack
           sort: 0
           activation:
@@ -740,7 +776,7 @@ items:
       uses:
         spent: 0
         recovery: []
-      identifier: hand-crossbow
+      identifier: cinderblock
       source:
         revision: 1
         rules: '2024'
@@ -766,7 +802,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
-    _id: XRM5GoqscZ3omGy8
+    _id: Nd2QYR7uXkbtTQlZ
     effects: []
     folder: null
     sort: 0
@@ -783,65 +819,26 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.XRM5GoqscZ3omGy8'
-  - name: Cunning Action
+    _key: '!actors.items!PTlp7jug0IsHGHQ0.Nd2QYR7uXkbtTQlZ'
+  - name: Shockwave (5–6)
     type: feat
-    img: icons/skills/movement/figure-running-gray.webp
-    system:
-      description:
-        value: The Dark Lantern takes the Dash, Disengage, or Hide action.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: cunning-action
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    flags:
-      adnd5e:
-        itemInfo:
-          type: bonus
-    _id: aKBdCeBkW51XdI1g
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.aKBdCeBkW51XdI1g'
-  - name: Uncanny Dodge
-    type: feat
-    img: icons/skills/movement/feet-winged-sandals-tan.webp
+    img: icons/svg/combat.svg
     system:
       description:
         value: >-
-          The Dark Lantern halves the damage that it takes from an attack that
-          hits it. The Dark Lantern must be able to see the attacker.
+          The elemental stomps down on the ground hard, creating a shockwave
+          that extends out from its space to a radius of 20 feet. Each other
+          creature in the radius must succeed on a DC 21 Strength saving throw
+          or be knocked prone and pushed 20 feet directly away from the
+          elemental. If a creature collides with a solid surface before being
+          pushed the entire distance, it takes 5 (1d10) bludgeoning damage for
+          every full 5 feet it was not able to be pushed.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: uncanny-dodge
+      identifier: shockwave-56
       source:
         revision: 1
         rules: '2024'
@@ -853,56 +850,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    flags:
-      adnd5e:
-        itemInfo:
-          type: reaction
-    _id: tinO9Nv42KV0KyeV
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.tinO9Nv42KV0KyeV'
-  - name: Slippery Mind
-    type: feat
-    img: icons/magic/perception/third-eye-blue-red.webp
-    system:
-      description:
-        value: >-
-          The Dark Lantern can’t be targeted by any divination magic or
-          perceived through magical scrying sensors. Additionally, if it fails
-          an Intelligence, Wisdom, or Charisma saving throw against an effect
-          that allows one or more subsequent saving throws to end the effect,
-          the Dark Lantern automatically succeeds on those subsequent saves.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: slippery-mind
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    _id: ZhVPEJr3DgnzDHaI
+    _id: ytPfz4Ce9vjY3zXy
     effects: []
     folder: null
     sort: 0
@@ -919,24 +867,22 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.ZhVPEJr3DgnzDHaI'
-  - name: Sneak Attack (1/turn)
+    _key: '!actors.items!PTlp7jug0IsHGHQ0.ytPfz4Ce9vjY3zXy'
+  - name: Implacable
     type: feat
     img: icons/svg/book.svg
     system:
       description:
         value: >-
-          The Dark Lantern deals an extra 10 (3d6) damage when it hits a target
-          with a weapon attack and has advantage on the attack roll, or when the
-          target is within 5 feet of one of the Dark Lantern’s allies that isn't
-          incapacitated and the Dark Lantern doesn't have disadvantage on the
-          attack roll.
+          Natural and magical environments do not slow the elemental’s movement.
+          Additionally, the elemental is immune to caltrops and the spike growth
+          spell.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: sneak-attack-1-turn
+      identifier: implacable
       source:
         revision: 1
         rules: '2024'
@@ -948,7 +894,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: lXct5nBpqUw4ba14
+    _id: DM3ki2GkbDT2f0hz
     effects: []
     folder: null
     sort: 0
@@ -965,7 +911,48 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.lXct5nBpqUw4ba14'
+    _key: '!actors.items!PTlp7jug0IsHGHQ0.DM3ki2GkbDT2f0hz'
+  - name: Siege Monster
+    type: feat
+    img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+    system:
+      description:
+        value: The elemental deals double damage to objects and structures.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: siege-monster
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: IcGZbXbeJunFTOZM
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!PTlp7jug0IsHGHQ0.IcGZbXbeJunFTOZM'
 effects: []
 ownership:
   default: 0
@@ -979,10 +966,10 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.0.3
-  createdTime: 1727459563725
-  modifiedTime: 1727549887547
+  createdTime: 1727548014964
+  modifiedTime: 1727548014964
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: WMRxNxl6F4FyWfBS
-sort: 500000
-_key: '!actors!WMRxNxl6F4FyWfBS'
+_id: PTlp7jug0IsHGHQ0
+sort: 0
+_key: '!actors!PTlp7jug0IsHGHQ0'
 

@@ -1,4 +1,4 @@
-name: King's Dark Lantern
+name: Magebred Bear
 type: npc
 folder: hu7gAx39NEhF8UyF
 img: icons/svg/mystery-man.svg
@@ -11,42 +11,42 @@ system:
     cp: 0
   abilities:
     str:
-      value: 13
+      value: 19
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     dex:
-      value: 16
-      proficient: 1
+      value: 10
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     con:
-      value: 12
+      value: 16
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     int:
-      value: 14
-      proficient: 1
+      value: 6
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     wis:
-      value: 14
+      value: 13
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     cha:
-      value: 16
+      value: 7
       proficient: 0
       max: null
       bonuses:
@@ -118,7 +118,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -138,7 +138,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -158,7 +158,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -208,7 +208,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -228,7 +228,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -238,7 +238,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -293,11 +293,11 @@ system:
         mode: 0
       bonus: ''
     movement:
-      burrow: null
-      climb: null
-      fly: null
-      swim: null
-      walk: 30
+      burrow: 0
+      climb: 30
+      fly: 0
+      swim: 0
+      walk: 40
       units: null
       hover: false
     attunement:
@@ -309,7 +309,7 @@ system:
       truesight: null
       units: null
       special: ''
-    spellcasting: str
+    spellcasting: ''
     exhaustion: 0
     concentration:
       ability: ''
@@ -321,16 +321,16 @@ system:
         save: ''
       limit: 1
     ac:
-      flat: 13
-      calc: flat
+      flat: 11
+      calc: natural
     hd:
       spent: 0
     hp:
-      value: 55
-      max: 55
+      value: 34
+      max: 34
       temp: 0
       tempmax: 0
-      formula: 10d8 + 10
+      formula: 4d10 + 12
     death:
       ability: ''
       roll:
@@ -343,20 +343,21 @@ system:
     biography:
       value: ''
       public: >-
-        <p>The Dark Lanterns are the intelligence arm of the King’s Citadel, and
-        its agents are the most likely to be sent on missions abroad, spying on
-        and assassinating targets to ensure Breland’s safety. They are among the
-        most well-trained espionage agents on the continent, able to evade even
-        magical counter-intelligence measures.</p>
-    alignment: Any Alignment
+        <p>The 9th Brigade are the most famed bear cavalry riders in Breland’s
+        armed forces, and the crown has purchased many bears from House
+        Vadalis—magebred for intelligence and ferocity—to fight alongside
+        them.</p><p> The below stat block is based on the brown bear statistics
+        from the Monster Manual, with added traits selected from the magebred
+        animal section of Korranberg Chronicle: Threat Dispatch.</p>
+    alignment: Unaligned
     ideal: ''
     bond: ''
     flaw: ''
     race: null
     type:
-      value: humanoid
+      value: beast
     environment: ''
-    cr: 2
+    cr: 1
     spellLevel: 0
   resources:
     legact:
@@ -372,11 +373,9 @@ system:
     revision: 1
     rules: '2014'
     book: Map Perilous
-    page: ''
     custom: ''
-    license: ''
   traits:
-    size: med
+    size: lg
     di:
       bypasses: []
       value: []
@@ -396,16 +395,17 @@ system:
       value: []
       custom: ''
     languages:
-      value: []
-      custom: Any three languages
+      value:
+        - common
+      custom: Understands any one language (usually ) but can’t speak
 prototypeToken:
-  name: King's Dark Lantern
+  name: Magebred Bear
   displayName: 0
   actorLink: false
   appendNumber: false
   prependAdjective: false
-  width: 1
-  height: 1
+  width: 2
+  height: 2
   texture:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
@@ -480,7 +480,7 @@ items:
     img: icons/magic/death/skull-trio-badge-purple.webp
     system:
       description:
-        value: The Dark Lantern makes two rapier attacks.
+        value: 'The bear makes two attacks: one with its bite and one with its claws.'
         chat: ''
       activities: {}
       uses:
@@ -498,7 +498,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: Z1rSVEwH6ZT5Hook
+    _id: g5MZFf3lcLuxrUpK
     effects: []
     folder: null
     sort: 0
@@ -515,15 +515,15 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.Z1rSVEwH6ZT5Hook'
-  - name: Rapier
+    _key: '!actors.items!Y1F88bUDZFogCYkW.g5MZFf3lcLuxrUpK'
+  - name: Bite
     type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/rapier.webp
+    img: icons/creatures/abilities/mouth-teeth-long-red.webp
     system:
       description:
         value: >-
-          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 7 (1d8
-          + 3) piercing damage.
+          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 8 (1d8
+          + 4) piercing damage.
         chat: ''
       identified: true
       equipped: true
@@ -562,8 +562,8 @@ items:
         baseItem: ''
       attuned: true
       activities:
-        WHqk11EFHUIpFb4s:
-          _id: WHqk11EFHUIpFb4s
+        F0xdA1zWBVKZdvpH:
+          _id: F0xdA1zWBVKZdvpH
           type: attack
           sort: 0
           activation:
@@ -606,7 +606,7 @@ items:
       uses:
         spent: 0
         recovery: []
-      identifier: rapier
+      identifier: bite
       source:
         revision: 1
         rules: '2024'
@@ -632,7 +632,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
-    _id: 5oCymEZ1QXyfvKMB
+    _id: 0iIqDTj7zcnrHbU5
     effects: []
     folder: null
     sort: 0
@@ -649,15 +649,15 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.5oCymEZ1QXyfvKMB'
-  - name: Hand Crossbow
+    _key: '!actors.items!Y1F88bUDZFogCYkW.0iIqDTj7zcnrHbU5'
+  - name: Claws
     type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp
+    img: icons/commodities/claws/claws-white.webp
     system:
       description:
         value: >-
-          Ranged Weapon Attack: +5 to hit, range 30/120 ft. , one target. Hit: 6
-          (1d6 + 3) piercing damage.
+          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 11 (2d6
+          + 4) slashing damage.
         chat: ''
       identified: true
       equipped: true
@@ -666,11 +666,11 @@ items:
       quantity: 1
       damage:
         base:
-          number: 1
+          number: 2
           denomination: 6
           bonus: ''
           types:
-            - piercing
+            - slashing
           custom:
             enabled: false
             formula: ''
@@ -687,17 +687,17 @@ items:
           scaling:
             number: 1
       range:
-        value: 30
-        long: 120
+        value: 5
         units: ft
+        long: null
         reach: null
       type:
         value: natural
         baseItem: ''
       attuned: true
       activities:
-        NAfIcyhhh83tWvt4:
-          _id: NAfIcyhhh83tWvt4
+        Off3w7UwhKU87iZu:
+          _id: Off3w7UwhKU87iZu
           type: attack
           sort: 0
           activation:
@@ -740,7 +740,7 @@ items:
       uses:
         spent: 0
         recovery: []
-      identifier: hand-crossbow
+      identifier: claws
       source:
         revision: 1
         rules: '2024'
@@ -766,7 +766,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
-    _id: XRM5GoqscZ3omGy8
+    _id: 5rDkQMtkd7DeRFVJ
     effects: []
     folder: null
     sort: 0
@@ -783,160 +783,21 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.XRM5GoqscZ3omGy8'
-  - name: Cunning Action
-    type: feat
-    img: icons/skills/movement/figure-running-gray.webp
-    system:
-      description:
-        value: The Dark Lantern takes the Dash, Disengage, or Hide action.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: cunning-action
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    flags:
-      adnd5e:
-        itemInfo:
-          type: bonus
-    _id: aKBdCeBkW51XdI1g
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.aKBdCeBkW51XdI1g'
-  - name: Uncanny Dodge
-    type: feat
-    img: icons/skills/movement/feet-winged-sandals-tan.webp
-    system:
-      description:
-        value: >-
-          The Dark Lantern halves the damage that it takes from an attack that
-          hits it. The Dark Lantern must be able to see the attacker.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: uncanny-dodge
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    flags:
-      adnd5e:
-        itemInfo:
-          type: reaction
-    _id: tinO9Nv42KV0KyeV
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.tinO9Nv42KV0KyeV'
-  - name: Slippery Mind
-    type: feat
-    img: icons/magic/perception/third-eye-blue-red.webp
-    system:
-      description:
-        value: >-
-          The Dark Lantern can’t be targeted by any divination magic or
-          perceived through magical scrying sensors. Additionally, if it fails
-          an Intelligence, Wisdom, or Charisma saving throw against an effect
-          that allows one or more subsequent saving throws to end the effect,
-          the Dark Lantern automatically succeeds on those subsequent saves.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: slippery-mind
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    _id: ZhVPEJr3DgnzDHaI
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.ZhVPEJr3DgnzDHaI'
-  - name: Sneak Attack (1/turn)
+    _key: '!actors.items!Y1F88bUDZFogCYkW.5rDkQMtkd7DeRFVJ'
+  - name: Keen Smell
     type: feat
     img: icons/svg/book.svg
     system:
       description:
         value: >-
-          The Dark Lantern deals an extra 10 (3d6) damage when it hits a target
-          with a weapon attack and has advantage on the attack roll, or when the
-          target is within 5 feet of one of the Dark Lantern’s allies that isn't
-          incapacitated and the Dark Lantern doesn't have disadvantage on the
-          attack roll.
+          The bear has advantage on Wisdom (Perception) checks that rely on
+          smell.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: sneak-attack-1-turn
+      identifier: keen-smell
       source:
         revision: 1
         rules: '2024'
@@ -948,7 +809,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: lXct5nBpqUw4ba14
+    _id: Igut220ZJt47FnIk
     effects: []
     folder: null
     sort: 0
@@ -965,24 +826,65 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.lXct5nBpqUw4ba14'
+    _key: '!actors.items!Y1F88bUDZFogCYkW.Igut220ZJt47FnIk'
+  - name: Fierce (Recharge After A Short Or Long Rest)
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          When the bear hits with an attack, the attack deals an extra 4 (1d8)
+          damage.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: fierce-recharge-after-a-short-or-long-rest
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: HR9ov1HyILToGQL4
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!Y1F88bUDZFogCYkW.HR9ov1HyILToGQL4'
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
-flags:
-  dnd5e:
-    showTokenPortrait: false
+flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.0.3
-  createdTime: 1727459563725
+  createdTime: 1727549886085
   modifiedTime: 1727549887547
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: WMRxNxl6F4FyWfBS
-sort: 500000
-_key: '!actors!WMRxNxl6F4FyWfBS'
+_id: Y1F88bUDZFogCYkW
+sort: 400000
+_key: '!actors!Y1F88bUDZFogCYkW'
 

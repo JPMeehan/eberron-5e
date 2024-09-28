@@ -1,6 +1,6 @@
-name: King's Dark Lantern
+name: Bloodsail Poltergeist Swarm
 type: npc
-folder: hu7gAx39NEhF8UyF
+folder: tmTgkQ1WJRSVMXix
 img: icons/svg/mystery-man.svg
 system:
   currency:
@@ -11,42 +11,42 @@ system:
     cp: 0
   abilities:
     str:
-      value: 13
+      value: 7
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     dex:
-      value: 16
-      proficient: 1
+      value: 18
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     con:
-      value: 12
+      value: 10
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     int:
-      value: 14
-      proficient: 1
+      value: 10
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     wis:
-      value: 14
+      value: 12
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     cha:
-      value: 16
+      value: 20
       proficient: 0
       max: null
       bonuses:
@@ -118,7 +118,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -138,7 +138,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -158,7 +158,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -188,7 +188,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -208,7 +208,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -228,7 +228,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -238,7 +238,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -297,19 +297,19 @@ system:
       climb: null
       fly: null
       swim: null
-      walk: 30
+      walk: 0
       units: null
       hover: false
     attunement:
       max: 3
     senses:
-      darkvision: null
+      darkvision: 60
       blindsight: null
       tremorsense: null
       truesight: null
       units: null
       special: ''
-    spellcasting: str
+    spellcasting: ''
     exhaustion: 0
     concentration:
       ability: ''
@@ -321,16 +321,16 @@ system:
         save: ''
       limit: 1
     ac:
-      flat: 13
+      flat: 14
       calc: flat
     hd:
       spent: 0
     hp:
-      value: 55
-      max: 55
+      value: 90
+      max: 90
       temp: 0
       tempmax: 0
-      formula: 10d8 + 10
+      formula: 20d8
     death:
       ability: ''
       roll:
@@ -343,20 +343,22 @@ system:
     biography:
       value: ''
       public: >-
-        <p>The Dark Lanterns are the intelligence arm of the King’s Citadel, and
-        its agents are the most likely to be sent on missions abroad, spying on
-        and assassinating targets to ensure Breland’s safety. They are among the
-        most well-trained espionage agents on the continent, able to evade even
-        magical counter-intelligence measures.</p>
-    alignment: Any Alignment
+        <p>Most Bloodsail sailors will never make enough to earn transformation
+        into a corporeal undead, resulting in most being bound as ghosts to the
+        black sails of their own vessels. This means that in addition to the
+        crew, any one attacking a Bloodsails vessel must deal with a cloud of
+        poltergeists—the swarming ghosts of generations of sailors who have
+        served on that ship and still obey its current captain.</p>
+    alignment: Neutral Evil
     ideal: ''
     bond: ''
     flaw: ''
     race: null
     type:
-      value: humanoid
+      value: undead
+      swarm: med
     environment: ''
-    cr: 2
+    cr: 8
     spellLevel: 0
   resources:
     legact:
@@ -372,40 +374,55 @@ system:
     revision: 1
     rules: '2014'
     book: Map Perilous
-    page: ''
     custom: ''
-    license: ''
   traits:
-    size: med
+    size: grg
     di:
       bypasses: []
-      value: []
+      value:
+        - cold
+        - necrotic
+        - poison
       custom: ''
     dr:
       bypasses: []
-      value: []
+      value:
+        - bludgeoning
+        - piercing
+        - slashing
       custom: ''
     dv:
       bypasses: []
-      value: []
+      value:
+        - radiant
       custom: ''
     dm:
       amount: {}
       bypasses: []
     ci:
-      value: []
+      value:
+        - charmed
+        - exhaustion
+        - frightened
+        - grappled
+        - paralyzed
+        - petrified
+        - poisoned
+        - prone
+        - restrained
+        - stunned
       custom: ''
     languages:
       value: []
-      custom: Any three languages
+      custom: Any languages they knew in life
 prototypeToken:
-  name: King's Dark Lantern
+  name: Bloodsail Poltergeist Swarm
   displayName: 0
   actorLink: false
   appendNumber: false
   prependAdjective: false
-  width: 1
-  height: 1
+  width: 4
+  height: 4
   texture:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
@@ -475,55 +492,17 @@ prototypeToken:
   flags: {}
   randomImg: false
 items:
-  - name: Multiattack
-    type: feat
-    img: icons/magic/death/skull-trio-badge-purple.webp
-    system:
-      description:
-        value: The Dark Lantern makes two rapier attacks.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: multiattack
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    _id: Z1rSVEwH6ZT5Hook
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.Z1rSVEwH6ZT5Hook'
-  - name: Rapier
+  - name: Crashing Wave Of Ghosts
     type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/rapier.webp
+    img: icons/svg/sword.svg
     system:
       description:
         value: >-
-          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 7 (1d8
-          + 3) piercing damage.
+          Melee Weapon Attack: +8 to hit, reach 0 ft. , up to three targets
+          currently in the swarm’s space. Hit: 17 (5d4 + 5) necrotic damage and
+          pushes the target 10 feet in any direction, or if the swarm has less
+          than half its hit points, the target takes only 12 (3d4 + 5) necrotic
+          damage and is pushed only 5 feet.
         chat: ''
       identified: true
       equipped: true
@@ -532,11 +511,11 @@ items:
       quantity: 1
       damage:
         base:
-          number: 1
-          denomination: 8
+          number: 5
+          denomination: 4
           bonus: ''
           types:
-            - piercing
+            - necrotic
           custom:
             enabled: false
             formula: ''
@@ -553,7 +532,7 @@ items:
           scaling:
             number: 1
       range:
-        value: 5
+        value: 0
         units: ft
         long: null
         reach: null
@@ -562,8 +541,8 @@ items:
         baseItem: ''
       attuned: true
       activities:
-        WHqk11EFHUIpFb4s:
-          _id: WHqk11EFHUIpFb4s
+        XDs8lSOTIO0LOw9S:
+          _id: XDs8lSOTIO0LOw9S
           type: attack
           sort: 0
           activation:
@@ -606,7 +585,7 @@ items:
       uses:
         spent: 0
         recovery: []
-      identifier: rapier
+      identifier: crashing-wave-of-ghosts
       source:
         revision: 1
         rules: '2024'
@@ -632,7 +611,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
-    _id: 5oCymEZ1QXyfvKMB
+    _id: HuXJiHl6G558NrHh
     effects: []
     folder: null
     sort: 0
@@ -649,199 +628,23 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.5oCymEZ1QXyfvKMB'
-  - name: Hand Crossbow
-    type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp
+    _key: '!actors.items!rio8MjlUpvUxk1xX.HuXJiHl6G558NrHh'
+  - name: Captain’s Call
+    type: feat
+    img: icons/svg/combat.svg
     system:
       description:
         value: >-
-          Ranged Weapon Attack: +5 to hit, range 30/120 ft. , one target. Hit: 6
-          (1d6 + 3) piercing damage.
-        chat: ''
-      identified: true
-      equipped: true
-      attunement: required
-      proficient: 1
-      quantity: 1
-      damage:
-        base:
-          number: 1
-          denomination: 6
-          bonus: ''
-          types:
-            - piercing
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
-        versatile:
-          number: null
-          denomination: null
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-      range:
-        value: 30
-        long: 120
-        units: ft
-        reach: null
-      type:
-        value: natural
-        baseItem: ''
-      attuned: true
-      activities:
-        NAfIcyhhh83tWvt4:
-          _id: NAfIcyhhh83tWvt4
-          type: attack
-          sort: 0
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description: {}
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          range:
-            override: false
-          target:
-            template:
-              contiguous: false
-              units: ft
-            affects:
-              choice: false
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-          attack:
-            critical:
-              threshold: null
-            flat: false
-            type: {}
-          damage:
-            critical: {}
-            includeBase: true
-            parts: []
-      uses:
-        spent: 0
-        recovery: []
-      identifier: hand-crossbow
-      source:
-        revision: 1
-        rules: '2024'
-      unidentified:
-        description: ''
-      container: null
-      weight:
-        value: 0
-        units: lb
-      price:
-        value: 0
-        denomination: gp
-      rarity: ''
-      armor:
-        value: null
-      cover: null
-      crewed: false
-      hp:
-        value: null
-        max: null
-        dt: null
-        conditions: ''
-      ammunition: {}
-      magicalBonus: null
-      properties: []
-    _id: XRM5GoqscZ3omGy8
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.XRM5GoqscZ3omGy8'
-  - name: Cunning Action
-    type: feat
-    img: icons/skills/movement/figure-running-gray.webp
-    system:
-      description:
-        value: The Dark Lantern takes the Dash, Disengage, or Hide action.
+          When a Bloodsail vessel’s captain commands, the swarm can take a
+          reaction to magically shift from the Ethereal Plane to the Material
+          Plane, or vice versa. The swarm can hear the captain’s command even if
+          it is on a different plane.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: cunning-action
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    flags:
-      adnd5e:
-        itemInfo:
-          type: bonus
-    _id: aKBdCeBkW51XdI1g
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.aKBdCeBkW51XdI1g'
-  - name: Uncanny Dodge
-    type: feat
-    img: icons/skills/movement/feet-winged-sandals-tan.webp
-    system:
-      description:
-        value: >-
-          The Dark Lantern halves the damage that it takes from an attack that
-          hits it. The Dark Lantern must be able to see the attacker.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: uncanny-dodge
+      identifier: captains-call
       source:
         revision: 1
         rules: '2024'
@@ -857,7 +660,7 @@ items:
       adnd5e:
         itemInfo:
           type: reaction
-    _id: tinO9Nv42KV0KyeV
+    _id: 0Rusw9gyFAsqQEE7
     effects: []
     folder: null
     sort: 0
@@ -873,70 +676,27 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.tinO9Nv42KV0KyeV'
-  - name: Slippery Mind
-    type: feat
-    img: icons/magic/perception/third-eye-blue-red.webp
-    system:
-      description:
-        value: >-
-          The Dark Lantern can’t be targeted by any divination magic or
-          perceived through magical scrying sensors. Additionally, if it fails
-          an Intelligence, Wisdom, or Charisma saving throw against an effect
-          that allows one or more subsequent saving throws to end the effect,
-          the Dark Lantern automatically succeeds on those subsequent saves.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: slippery-mind
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    _id: ZhVPEJr3DgnzDHaI
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.ZhVPEJr3DgnzDHaI'
-  - name: Sneak Attack (1/turn)
+    _key: '!actors.items!rio8MjlUpvUxk1xX.0Rusw9gyFAsqQEE7'
+  - name: Shipbound
     type: feat
     img: icons/svg/book.svg
     system:
       description:
         value: >-
-          The Dark Lantern deals an extra 10 (3d6) damage when it hits a target
-          with a weapon attack and has advantage on the attack roll, or when the
-          target is within 5 feet of one of the Dark Lantern’s allies that isn't
-          incapacitated and the Dark Lantern doesn't have disadvantage on the
-          attack roll.
+          The swarm is bound to the black sails of a Bloodsail vessel. It cannot
+          move on its own, instead moving automatically with the ship whether
+          the swarm is on the Material Plane or the Ethereal Plane. The swarm’s
+          space is 15 feet greater in all dimensions than the ship it is bound
+          to. While the swarm has at least 1 hit point, the vessel’s sails are
+          immune to all damage, and the vessel moves in any direction the
+          captain wishes, regardless of the wind, at speeds equal to that of an
+          elemental wind galleon.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: sneak-attack-1-turn
+      identifier: shipbound
       source:
         revision: 1
         rules: '2024'
@@ -948,7 +708,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: lXct5nBpqUw4ba14
+    _id: FaVRA0cQANChLsGb
     effects: []
     folder: null
     sort: 0
@@ -965,24 +725,154 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.lXct5nBpqUw4ba14'
+    _key: '!actors.items!rio8MjlUpvUxk1xX.FaVRA0cQANChLsGb'
+  - name: Ethereal Regeneration
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          While the swarm is on the Ethereal Plane, it regains 1 hit point for
+          every minute that passes.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ethereal-regeneration
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: Tp2mZh257zTFw0Lw
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!rio8MjlUpvUxk1xX.Tp2mZh257zTFw0Lw'
+  - name: Incorporeal Movement
+    type: feat
+    img: icons/magic/air/air-wave-gust-blue.webp
+    system:
+      description:
+        value: >-
+          The swarm can move through other creatures and objects as if they were
+          difficult terrain. It takes 5 (1d10) force damage if it ends its turn
+          inside an object that is not part of the vessel it is bound to.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: incorporeal-movement
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: IWUSvsSLvAYU3ogZ
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!rio8MjlUpvUxk1xX.IWUSvsSLvAYU3ogZ'
+  - name: Swarm
+    type: feat
+    img: icons/creatures/mammals/bats-movement-flying-purple.webp
+    system:
+      description:
+        value: >-
+          The swarm can occupy another creature’s space and vice versa, and the
+          swarm can move through any opening large enough for a Medium ghost.
+          The swarm can’t regain hit points or gain temporary hit points (except
+          through Ethereal Regeneration).
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: swarm
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: cdsRfp7gWmRJbSXC
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!rio8MjlUpvUxk1xX.cdsRfp7gWmRJbSXC'
 effects: []
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
-flags:
-  dnd5e:
-    showTokenPortrait: false
+flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.0.3
-  createdTime: 1727459563725
-  modifiedTime: 1727549887547
+  createdTime: 1727556409519
+  modifiedTime: 1727556422382
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: WMRxNxl6F4FyWfBS
-sort: 500000
-_key: '!actors!WMRxNxl6F4FyWfBS'
+_id: rio8MjlUpvUxk1xX
+sort: 0
+_key: '!actors!rio8MjlUpvUxk1xX'
 

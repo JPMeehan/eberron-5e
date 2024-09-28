@@ -1,6 +1,6 @@
-name: King's Dark Lantern
+name: Guulvorg
 type: npc
-folder: hu7gAx39NEhF8UyF
+folder: SiMzJl6AAy4UlXeL
 img: icons/svg/mystery-man.svg
 system:
   currency:
@@ -11,42 +11,42 @@ system:
     cp: 0
   abilities:
     str:
-      value: 13
+      value: 28
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     dex:
-      value: 16
-      proficient: 1
+      value: 18
+      proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     con:
-      value: 12
+      value: 20
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
     int:
-      value: 14
-      proficient: 1
-      max: null
-      bonuses:
-        check: ''
-        save: ''
-    wis:
-      value: 14
+      value: 6
       proficient: 0
       max: null
       bonuses:
         check: ''
         save: ''
-    cha:
+    wis:
       value: 16
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 12
       proficient: 0
       max: null
       bonuses:
@@ -108,7 +108,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 0
+      value: 2
       bonuses:
         check: ''
         passive: ''
@@ -118,7 +118,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -138,7 +138,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -158,7 +158,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -188,7 +188,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 2
       bonuses:
         check: ''
         passive: ''
@@ -208,7 +208,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 2
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -228,7 +228,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -238,7 +238,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 1
+      value: 0
       bonuses:
         check: ''
         passive: ''
@@ -248,7 +248,7 @@ system:
         min: null
         max: null
         mode: 0
-      value: 0
+      value: 1
       bonuses:
         check: ''
         passive: ''
@@ -297,7 +297,7 @@ system:
       climb: null
       fly: null
       swim: null
-      walk: 30
+      walk: 60
       units: null
       hover: false
     attunement:
@@ -321,16 +321,16 @@ system:
         save: ''
       limit: 1
     ac:
-      flat: 13
-      calc: flat
+      flat: 19
+      calc: natural
     hd:
       spent: 0
     hp:
-      value: 55
-      max: 55
+      value: 147
+      max: 147
       temp: 0
       tempmax: 0
-      formula: 10d8 + 10
+      formula: 14d10 + 70
     death:
       ability: ''
       roll:
@@ -343,20 +343,31 @@ system:
     biography:
       value: ''
       public: >-
-        <p>The Dark Lanterns are the intelligence arm of the King’s Citadel, and
-        its agents are the most likely to be sent on missions abroad, spying on
-        and assassinating targets to ensure Breland’s safety. They are among the
-        most well-trained espionage agents on the continent, able to evade even
-        magical counter-intelligence measures.</p>
-    alignment: Any Alignment
+        <p>Guulvorgs are to worgs as worgs are to normal wolves. These sentient
+        black canines are the size of elephants and are possessed of a ravenous
+        metabolism. Born starving and cursed with an insatiable hunger for the
+        remainder of their lives, guulvorgs are clearly not natural creatures
+        and are driven to hunt and devour as much as they can. The metabolism of
+        a guulvorg runs so hot, in fact, that its blood is steaming and scalding
+        hot if spilled.</p><p>The first sighting of a guulvorg was a scant few
+        years ago, where it was spotted in the Watching Wood. Thankfully the
+        monstrous beast have not spread much further.</p><p>Many theorize that
+        guulvorgs are a new crossbreed of worg and werewolf, one specifically
+        bred by Zaeurl of the Dark Pack to be living siege engines for Droaam.
+        Others whisper that Mordain the Fleshweaver must be behind them, as the
+        guulvorg’s insane hunger couldn’t sustain a population of the creatures
+        for long— suggesting that fleshcraft is being used to keep their numbers
+        up.</p><p>Whatever the case, these terrifying embodiments of hunger are
+        a thankfully rare sight… for now.</p>
+    alignment: Typically Neutral Evil
     ideal: ''
     bond: ''
     flaw: ''
     race: null
     type:
-      value: humanoid
+      value: monstrosity
     environment: ''
-    cr: 2
+    cr: 12
     spellLevel: 0
   resources:
     legact:
@@ -376,7 +387,7 @@ system:
     custom: ''
     license: ''
   traits:
-    size: med
+    size: huge
     di:
       bypasses: []
       value: []
@@ -396,16 +407,17 @@ system:
       value: []
       custom: ''
     languages:
-      value: []
-      custom: Any three languages
+      value:
+        - goblin
+      custom: Worg
 prototypeToken:
-  name: King's Dark Lantern
+  name: Guulvorg
   displayName: 0
   actorLink: false
   appendNumber: false
   prependAdjective: false
-  width: 1
-  height: 1
+  width: 3
+  height: 3
   texture:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
@@ -480,7 +492,9 @@ items:
     img: icons/magic/death/skull-trio-badge-purple.webp
     system:
       description:
-        value: The Dark Lantern makes two rapier attacks.
+        value: >-
+          The guulvorg makes two attacks: one with its bite and one with its
+          tail club.
         chat: ''
       activities: {}
       uses:
@@ -498,7 +512,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: Z1rSVEwH6ZT5Hook
+    _id: W6YPQDa0ekheiVeP
     effects: []
     folder: null
     sort: 0
@@ -515,15 +529,16 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.Z1rSVEwH6ZT5Hook'
-  - name: Rapier
+    _key: '!actors.items!dqG7wUcQp9WMgpLw.W6YPQDa0ekheiVeP'
+  - name: Bite
     type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/rapier.webp
+    img: icons/creatures/abilities/mouth-teeth-long-red.webp
     system:
       description:
         value: >-
-          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 7 (1d8
-          + 3) piercing damage.
+          Melee Weapon Attack: +13 to hit, reach 10 ft. , one target. Hit: 19
+          (3d6 + 9) piercing damage. If the target is a creature, it must
+          succeed on a DC 21 Strength saving throw or be knocked prone.
         chat: ''
       identified: true
       equipped: true
@@ -532,141 +547,7 @@ items:
       quantity: 1
       damage:
         base:
-          number: 1
-          denomination: 8
-          bonus: ''
-          types:
-            - piercing
-          custom:
-            enabled: false
-            formula: ''
-          scaling:
-            mode: ''
-            number: null
-            formula: ''
-        versatile:
-          number: null
-          denomination: null
-          types: []
-          custom:
-            enabled: false
-          scaling:
-            number: 1
-      range:
-        value: 5
-        units: ft
-        long: null
-        reach: null
-      type:
-        value: natural
-        baseItem: ''
-      attuned: true
-      activities:
-        WHqk11EFHUIpFb4s:
-          _id: WHqk11EFHUIpFb4s
-          type: attack
-          sort: 0
-          activation:
-            type: action
-            value: null
-            override: false
-          consumption:
-            scaling:
-              allowed: false
-            spellSlot: true
-            targets: []
-          description: {}
-          duration:
-            units: inst
-            concentration: false
-            override: false
-          effects: []
-          range:
-            override: false
-          target:
-            template:
-              contiguous: false
-              units: ft
-            affects:
-              choice: false
-            override: false
-            prompt: true
-          uses:
-            spent: 0
-            recovery: []
-          attack:
-            critical:
-              threshold: null
-            flat: false
-            type: {}
-          damage:
-            critical: {}
-            includeBase: true
-            parts: []
-      uses:
-        spent: 0
-        recovery: []
-      identifier: rapier
-      source:
-        revision: 1
-        rules: '2024'
-      unidentified:
-        description: ''
-      container: null
-      weight:
-        value: 0
-        units: lb
-      price:
-        value: 0
-        denomination: gp
-      rarity: ''
-      armor:
-        value: null
-      cover: null
-      crewed: false
-      hp:
-        value: null
-        max: null
-        dt: null
-        conditions: ''
-      ammunition: {}
-      magicalBonus: null
-      properties: []
-    _id: 5oCymEZ1QXyfvKMB
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.5oCymEZ1QXyfvKMB'
-  - name: Hand Crossbow
-    type: weapon
-    img: modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp
-    system:
-      description:
-        value: >-
-          Ranged Weapon Attack: +5 to hit, range 30/120 ft. , one target. Hit: 6
-          (1d6 + 3) piercing damage.
-        chat: ''
-      identified: true
-      equipped: true
-      attunement: required
-      proficient: 1
-      quantity: 1
-      damage:
-        base:
-          number: 1
+          number: 3
           denomination: 6
           bonus: ''
           types:
@@ -687,17 +568,17 @@ items:
           scaling:
             number: 1
       range:
-        value: 30
-        long: 120
+        value: 10
         units: ft
+        long: null
         reach: null
       type:
         value: natural
         baseItem: ''
       attuned: true
       activities:
-        NAfIcyhhh83tWvt4:
-          _id: NAfIcyhhh83tWvt4
+        4JU6d0VZfcxmq821:
+          _id: 4JU6d0VZfcxmq821
           type: attack
           sort: 0
           activation:
@@ -740,7 +621,7 @@ items:
       uses:
         spent: 0
         recovery: []
-      identifier: hand-crossbow
+      identifier: bite
       source:
         revision: 1
         rules: '2024'
@@ -766,7 +647,7 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
-    _id: XRM5GoqscZ3omGy8
+    _id: C35fPLscnVQy5sM7
     effects: []
     folder: null
     sort: 0
@@ -783,41 +664,131 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.XRM5GoqscZ3omGy8'
-  - name: Cunning Action
-    type: feat
-    img: icons/skills/movement/figure-running-gray.webp
+    _key: '!actors.items!dqG7wUcQp9WMgpLw.C35fPLscnVQy5sM7'
+  - name: Tail Club
+    type: weapon
+    img: icons/svg/sword.svg
     system:
       description:
-        value: The Dark Lantern takes the Dash, Disengage, or Hide action.
+        value: >-
+          Melee Weapon Attack: +13 to hit, reach 15 ft. , one target. Hit: 27
+          (4d8 + 9) bludgeoning damage.
         chat: ''
-      activities: {}
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 4
+          denomination: 8
+          bonus: ''
+          types:
+            - bludgeoning
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 15
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        FuOMnFOWzc2uJMjc:
+          _id: FuOMnFOWzc2uJMjc
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
       uses:
         spent: 0
         recovery: []
-      identifier: cunning-action
+      identifier: tail-club
       source:
         revision: 1
         rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
       properties: []
-      requirements: ''
-    flags:
-      adnd5e:
-        itemInfo:
-          type: bonus
-    _id: aKBdCeBkW51XdI1g
+    _id: OI9YQM63n0a1PGzh
     effects: []
     folder: null
     sort: 0
     ownership:
       default: 0
       q6n1efCGVB98drEQ: 3
+    flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
@@ -827,21 +798,21 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.aKBdCeBkW51XdI1g'
-  - name: Uncanny Dodge
+    _key: '!actors.items!dqG7wUcQp9WMgpLw.OI9YQM63n0a1PGzh'
+  - name: Tail Whip
     type: feat
-    img: icons/skills/movement/feet-winged-sandals-tan.webp
+    img: icons/svg/combat.svg
     system:
       description:
         value: >-
-          The Dark Lantern halves the damage that it takes from an attack that
-          hits it. The Dark Lantern must be able to see the attacker.
+          When a creature enters or leaves a space within 15 feet of the
+          guulvorg, it makes one attack with its tail club against it.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: uncanny-dodge
+      identifier: tail-whip
       source:
         revision: 1
         rules: '2024'
@@ -857,7 +828,7 @@ items:
       adnd5e:
         itemInfo:
           type: reaction
-    _id: tinO9Nv42KV0KyeV
+    _id: O7XlUd0VGmLrlwrJ
     effects: []
     folder: null
     sort: 0
@@ -873,70 +844,21 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.tinO9Nv42KV0KyeV'
-  - name: Slippery Mind
-    type: feat
-    img: icons/magic/perception/third-eye-blue-red.webp
-    system:
-      description:
-        value: >-
-          The Dark Lantern can’t be targeted by any divination magic or
-          perceived through magical scrying sensors. Additionally, if it fails
-          an Intelligence, Wisdom, or Charisma saving throw against an effect
-          that allows one or more subsequent saving throws to end the effect,
-          the Dark Lantern automatically succeeds on those subsequent saves.
-        chat: ''
-      activities: {}
-      uses:
-        spent: 0
-        recovery: []
-      identifier: slippery-mind
-      source:
-        revision: 1
-        rules: '2024'
-      enchant: {}
-      type:
-        value: monster
-        subtype: ''
-      prerequisites:
-        level: null
-      properties: []
-      requirements: ''
-    _id: ZhVPEJr3DgnzDHaI
-    effects: []
-    folder: null
-    sort: 0
-    ownership:
-      default: 0
-      q6n1efCGVB98drEQ: 3
-    flags: {}
-    _stats:
-      compendiumSource: null
-      duplicateSource: null
-      coreVersion: '12.331'
-      systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.ZhVPEJr3DgnzDHaI'
-  - name: Sneak Attack (1/turn)
+    _key: '!actors.items!dqG7wUcQp9WMgpLw.O7XlUd0VGmLrlwrJ'
+  - name: Burning Blood
     type: feat
     img: icons/svg/book.svg
     system:
       description:
         value: >-
-          The Dark Lantern deals an extra 10 (3d6) damage when it hits a target
-          with a weapon attack and has advantage on the attack roll, or when the
-          target is within 5 feet of one of the Dark Lantern’s allies that isn't
-          incapacitated and the Dark Lantern doesn't have disadvantage on the
-          attack roll.
+          A creature that hits the guulvorg with a melee attack while within 5
+          feet of it takes 5 (1d10) fire damage.
         chat: ''
       activities: {}
       uses:
         spent: 0
         recovery: []
-      identifier: sneak-attack-1-turn
+      identifier: burning-blood
       source:
         revision: 1
         rules: '2024'
@@ -948,7 +870,7 @@ items:
         level: null
       properties: []
       requirements: ''
-    _id: lXct5nBpqUw4ba14
+    _id: I2o3Da58cqOdQd4u
     effects: []
     folder: null
     sort: 0
@@ -965,7 +887,135 @@ items:
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
-    _key: '!actors.items!WMRxNxl6F4FyWfBS.lXct5nBpqUw4ba14'
+    _key: '!actors.items!dqG7wUcQp9WMgpLw.I2o3Da58cqOdQd4u'
+  - name: Keen Healing And Smell
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The guulvorg has advantage on Wisdom (Perception) checks that rely on
+          hearing or smell.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: keen-healing-and-smell
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: YApqb2NPC1ZVJpR3
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!dqG7wUcQp9WMgpLw.YApqb2NPC1ZVJpR3'
+  - name: Ravenous Bite
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          When the guulvorg makes a bite attack, it scores a critical hit on a
+          roll of 19 or 20 and rolls the damage dice three times, instead of
+          twice.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ravenous-bite
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: W16wIGEcEE3RN7v4
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!dqG7wUcQp9WMgpLw.W16wIGEcEE3RN7v4'
+  - name: Siege Monster
+    type: feat
+    img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+    system:
+      description:
+        value: The guulvorg deals double damage to objects and structures.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: siege-monster
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: skTXB09YY1bx83no
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!dqG7wUcQp9WMgpLw.skTXB09YY1bx83no'
 effects: []
 ownership:
   default: 0
@@ -979,10 +1029,10 @@ _stats:
   coreVersion: '12.331'
   systemId: dnd5e
   systemVersion: 4.0.3
-  createdTime: 1727459563725
-  modifiedTime: 1727549887547
+  createdTime: 1727547952264
+  modifiedTime: 1727547952264
   lastModifiedBy: q6n1efCGVB98drEQ
-_id: WMRxNxl6F4FyWfBS
-sort: 500000
-_key: '!actors!WMRxNxl6F4FyWfBS'
+_id: dqG7wUcQp9WMgpLw
+sort: 0
+_key: '!actors!dqG7wUcQp9WMgpLw'
 

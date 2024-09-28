@@ -1,0 +1,58 @@
+folder: i83OnpPuDbbQK1vS
+name: Byeshk
+type: loot
+_id: DYfYK19eNY6uUnCa
+img: systems/dnd5e/icons/svg/items/loot.svg
+system:
+  description:
+    value: >-
+      <p>Gatekeepers originated the practice of mining byeshk ore and refining
+      it into weapons, though the lustrous purple metal is typically only used
+      for jewelry outside druidic sects. </p><p>Whenever an aberration is hit
+      with a byeshk weapon, it can’t regain hit points until the start of the
+      attacker’s next turn. Additionally, certain creatures have a distinct
+      aversion to the metal and are resistant or immune to weapons that aren't
+      byeshk. </p><p>The byeshk version of a melee weapon or ten pieces of
+      ammunition costs 200 gp more than the normal versions.</p>
+    chat: ''
+  identifier: byeshk
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: ''
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 200
+    denomination: gp
+  rarity: ''
+  properties: []
+  type:
+    value: material
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727548151038
+  modifiedTime: 1727548315941
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!DYfYK19eNY6uUnCa'
+

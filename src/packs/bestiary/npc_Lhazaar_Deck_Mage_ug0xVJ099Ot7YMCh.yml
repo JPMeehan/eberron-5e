@@ -1,0 +1,2556 @@
+name: Lhazaar Deck Mage
+type: npc
+folder: tmTgkQ1WJRSVMXix
+img: icons/svg/mystery-man.svg
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 14
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 14
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 18
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 15
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: int
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: null
+      calc: default
+    hd:
+      spent: 0
+    hp:
+      value: 52
+      max: 52
+      temp: 0
+      tempmax: 0
+      formula: 8d8 + 16
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: >-
+        <p>A deck mage (or “dekage” in common sailor parlance), is often a
+        critical part of the crew, afforded a place amongst a captain’s most
+        trusted officers. Deck mages employ their arcane talents to enhance life
+        aboard a ship in myriad ways—not least of all, serving as incredibly
+        effective artillery when enemy vessels are sighted.</p><p> In modern
+        times, most ship hulls and sails are treated with nonflammable sealants,
+        making spells that deal fire damage less devastating than one might
+        assume. Therefore, most deck mages eschew obvious pyromantic evocations
+        for other alternatives.</p>
+    alignment: Any Alignment
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: humanoid
+      subtype: Wizard
+    environment: ''
+    cr: 3
+    spellLevel: 0
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    custom: ''
+  traits:
+    size: med
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: Any two languages
+prototypeToken:
+  name: Lhazaar Deck Mage
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+items:
+  - name: Scimitar
+    type: weapon
+    img: modules/dnd-players-handbook/assets/icons/items/scimitar.webp
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +4 to hit, reach 5 ft. , one target. Hit: 5 (1d6
+          + 2) slashing damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 1
+          denomination: 6
+          bonus: ''
+          types:
+            - slashing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        lTv8TRygKj2H5wwu:
+          _id: lTv8TRygKj2H5wwu
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: scimitar
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: AZw79rVXsfLay1Eh
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.AZw79rVXsfLay1Eh'
+  - name: Ray Of Frost (Cantrip)
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      description:
+        value: >-
+          Ranged Spell Attack: +6 to hit, range 120 ft. , one creature. Hit: 9
+          (2d8) cold damage. Additionally, the target’s speed is reduced by 10
+          feet until the start of the mage’s next turn.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 2
+          denomination: 8
+          bonus: ''
+          types:
+            - cold
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 120
+        long: null
+        units: ft
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        s5gZ4ibJopXl4hDJ:
+          _id: s5gZ4ibJopXl4hDJ
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ray-of-frost-cantrip
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: PwOYA7gHK4L4h6uO
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.PwOYA7gHK4L4h6uO'
+  - name: Launch (Recharge 4–6)
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          The mage chooses one object weighing 1 to 5 pounds within 180 feet of
+          it. The object magically flies in a straight line up to 1,000 feet in
+          direction of the mage’s choice before falling, stopping early if it
+          impacts against a solid surface. If the object would strike a
+          creature, that creature must make a DC 14 Dexterity saving throw. On a
+          failed save, the object strikes the target and stops moving. When the
+          object strikes something, the object and whatever it strikes both take
+          36 (8d8) bludgeoning damage.
+        chat: ''
+      uses:
+        spent: 0
+        max: '1'
+        recovery: []
+      activities: {}
+      identifier: launch-recharge-46
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: JPCGgb9Y5d6u3IPt
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.JPCGgb9Y5d6u3IPt'
+  - name: Spellcasting
+    type: weapon
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    system:
+      description:
+        value: >-
+          The mage casts one of the following spells, using Intelligence as the
+          spellcasting ability (spell save DC 14; +6 to hit with spell attacks):
+          At will: message, prestidigitation, ray of frost (5th level, see
+          above) 2/day each: clairvoyance (as an action), dispel magic, enhance
+          ability, fog cloud, gust of wind 1/day each: control water, Evard’s
+          black tentacles.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        c2fqPNTW1L7Tnpvz:
+          _id: c2fqPNTW1L7Tnpvz
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: spellcasting
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      damage:
+        base:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      magicalBonus: null
+      properties: []
+      range:
+        value: null
+        long: null
+        reach: null
+    _id: IyGynG5pNNeUx3vP
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.IyGynG5pNNeUx3vP'
+  - name: Leather Armor
+    system:
+      description:
+        value: ''
+        chat: ''
+      price:
+        value: 10
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 10
+        units: lb
+      rarity: ''
+      attunement: required
+      attuned: true
+      equipped: true
+      cover: null
+      crewed: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 11
+        magicalBonus: null
+        dex: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: light
+        baseItem: leather
+      properties: []
+      speed:
+        value: null
+        conditions: ''
+      strength: null
+      proficient: 1
+      activities: {}
+      identifier: leather-armor
+    _id: yP83Pu06g0adwG5E
+    type: equipment
+    folder: G3X11BbtmEqLmEnK
+    img: modules/dnd-players-handbook/assets/icons/armor/leather-armor.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.yP83Pu06g0adwG5E'
+  - name: Sea Soul
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The mage has advantage on ability checks and saving throws to resist
+          being knocked prone and to maintain concentration on spells while in
+          extreme weather.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: sea-soul
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: spb5n2OudzhkUFkr
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.spb5n2OudzhkUFkr'
+  - name: Shipboard Rituals
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The mage can cast certain spells as rituals, using. Intelligence as
+          the spellcasting ability. The mage knows the following rituals:
+          Rituals: unseen servant, skywrite (XGtE), water breathing.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: shipboard-rituals
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: 2XKGBifM9XOY11sl
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.2XKGBifM9XOY11sl'
+  - name: Message
+    system:
+      description:
+        value: >-
+          <p>You point toward a creature within range and whisper a message. The
+          target (and only the target) hears the message and can reply in a
+          whisper that only you can hear.</p><p>You can cast this spell through
+          solid objects if you are familiar with the target and know it is
+          beyond the barrier. Magical silence; 1 foot of stone, metal, or wood;
+          or a thin sheet of lead blocks the spell.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: round
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: ft
+        special: ''
+        value: '120'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: trs
+      properties:
+        - somatic
+        - material
+      materials:
+        value: a copper wire
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        j0gd96TwtJYUr0EE:
+          type: utility
+          _id: j0gd96TwtJYUr0EE
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          roll:
+            prompt: false
+            visible: false
+            name: ''
+            formula: ''
+          name: Cast
+      identifier: message
+    _id: UKBXMuIyP59N4CvN
+    type: spell
+    img: icons/sundries/documents/envelope-sealed-red-brown.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 800000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.UKBXMuIyP59N4CvN'
+  - name: Prestidigitation
+    system:
+      description:
+        value: >-
+          <p>You create a magical effect within range. Choose the effect from
+          the options below. If you cast this spell multiple times, you can have
+          up to three of its non-instantaneous effects active at a
+          time.</p><p><strong>Sensory Effect.</strong> You create an
+          instantaneous, harmless sensory effect, such as a shower of sparks, a
+          puff of wind, faint musical notes, or an odd odor.</p><p><strong>Fire
+          Play.</strong> You instantaneously light or snuff out a candle, a
+          torch, or a small campfire.</p><p><strong>Clean or Soil.</strong> You
+          instantaneously clean or soil an object no larger than 1 cubic
+          foot.</p><p><strong>Minor Sensation.</strong> You chill, warm, or
+          flavor up to 1 cubic foot of nonliving material for 1
+          hour.</p><p><strong>Magic Mark.</strong> You make a color, a small
+          mark, or a symbol appear on an object or a surface for 1
+          hour.</p><p><strong>Minor Creation.</strong> You create a nonmagical
+          trinket or an illusory image that can fit in your hand. It lasts until
+          the end of your next turn. A trinket can deal no damage and has no
+          monetary worth.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: ft
+        special: ''
+        value: '10'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: trs
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        gbdxQQmWwEAL1zpH:
+          type: utility
+          name: Cast
+          _id: gbdxQQmWwEAL1zpH
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      identifier: prestidigitation
+    _id: JQKZzKhoWDrH7PNU
+    type: spell
+    img: icons/weapons/wands/wand-star-white.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 400000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.JQKZzKhoWDrH7PNU'
+  - name: Ray of Frost
+    system:
+      description:
+        value: >-
+          <p>A frigid beam of blue-white light streaks toward a creature within
+          range. Make a ranged spell attack against the target. On a hit, it
+          takes 1d8 Cold damage, and its Speed is reduced by 10 feet until the
+          start of your next turn.</p><p><strong>Cantrip Upgrade.</strong> The
+          damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and
+          17 (4d8).</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: '1'
+          type: creature
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: ft
+        special: ''
+        value: '60'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: evo
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        VQQgdw0BEVD6wapC:
+          type: attack
+          _id: VQQgdw0BEVD6wapC
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: 7dnnwBMWLykrVJub
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: ''
+            ability: ''
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 8
+                bonus: ''
+                types:
+                  - cold
+                scaling:
+                  mode: whole
+                  number: 1
+          name: ''
+      identifier: ray-of-frost
+    _id: FNlzfXuOoPIFkKBl
+    type: spell
+    img: icons/magic/water/projectile-icecicle-glowing.webp
+    effects:
+      - name: Reduced Movement
+        img: icons/magic/water/projectile-icecicle-glowing.webp
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost
+        transfer: false
+        _id: 7dnnwBMWLykrVJub
+        type: base
+        system: {}
+        changes:
+          - key: system.attributes.movement.walk
+            mode: 2
+            value: '-10'
+            priority: null
+          - key: system.attributes.movement.swim
+            mode: 2
+            value: '-10'
+            priority: null
+          - key: system.attributes.movement.climb
+            mode: 2
+            value: '-10'
+            priority: null
+          - key: system.attributes.movement.fly
+            mode: 2
+            value: '-10'
+            priority: null
+          - key: system.attributes.movement.burrow
+            mode: 2
+            value: '-10'
+            priority: null
+        disabled: false
+        duration:
+          startTime: null
+          seconds: null
+          combat: null
+          rounds: 1
+          turns: null
+          startRound: null
+          startTurn: null
+        description: >-
+          <p>The target's Speed is reduced by 10 feet until the start of your
+          next turn.</p>
+        tint: '#ffffff'
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!ug0xVJ099Ot7YMCh.FNlzfXuOoPIFkKBl.7dnnwBMWLykrVJub
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 200000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.FNlzfXuOoPIFkKBl'
+  - name: Clairvoyance
+    system:
+      description:
+        value: >-
+          <p>You create an Invisible sensor within range in a location familiar
+          to you (a place you have visited or seen before) or in an obvious
+          location that is unfamiliar to you (such as behind a door, around a
+          corner, or in a grove of trees). The intangible, invulnerable sensor
+          remains in place for the duration.</p><p>When you cast the spell,
+          choose seeing or hearing. You can use the chosen sense through the
+          sensor as if you were in its space. As a Bonus Action, you can switch
+          between seeing and hearing.</p><p>A creature that sees the sensor
+          (such as a creature benefiting from <em>See Invisibility</em> or
+          &amp;Reference[truesight]) sees a luminous orb about the size of your
+          fist.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: minute
+        condition: ''
+        value: 10
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: space
+          count: '1'
+          choice: false
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        value: '1'
+        units: mi
+        special: ''
+      uses:
+        max: '2'
+        recovery: []
+        spent: 0
+      level: 3
+      school: div
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: >-
+          a focus worth 100+ GP, either a jeweled horn for hearing or a glass
+          eye for seeing
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: summon
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          bonuses:
+            ac: ''
+            hd: ''
+            hp: ''
+            attackDamage: ''
+            saveDamage: ''
+            healing: ''
+          creatureSizes: []
+          creatureTypes: []
+          match:
+            proficiency: false
+            attacks: false
+            saves: false
+          profiles:
+            - count: ''
+              name: ''
+              _id: OMyIBH1UGRjnWzIa
+              uuid: Compendium.dnd-players-handbook.actors.Actor.phbInvisibleSens
+              level:
+                min: null
+                max: null
+              types: []
+          summon:
+            identifier: ''
+            mode: ''
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+          effects: []
+      identifier: clairvoyance
+    _id: MQcXmemK6A8cDQQt
+    type: spell
+    img: icons/magic/perception/third-eye-blue-red.webp
+    effects: []
+    folder: HCovEE4VoPGlIbKi
+    sort: 3200000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.MQcXmemK6A8cDQQt'
+  - name: Dispel Magic
+    system:
+      description:
+        value: "<p>Choose one creature, object, or magical effect within range. Any ongoing spell of level 3 or lower on the target ends. For each ongoing spell of level\_4 or higher on the target, make an ability check using your spellcasting ability (DC 10 plus that spell’s level). On a successful check, the spell ends.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You automatically end a spell on the target if the spell’s level is equal to or less than the level of the spell slot you use.</p>"
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          type: any
+          count: ''
+          choice: false
+        template:
+          units: ''
+          contiguous: false
+      range:
+        value: '120'
+        units: ft
+      uses:
+        max: '2'
+        recovery: []
+        spent: 0
+      level: 3
+      school: abj
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: dispel-magic
+    _id: 0tV4W9ot2CQU0aPh
+    type: spell
+    img: icons/skills/melee/sword-damaged-broken-purple.webp
+    effects: []
+    folder: HCovEE4VoPGlIbKi
+    sort: 2500000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.0tV4W9ot2CQU0aPh'
+  - name: Enhance Ability
+    system:
+      description:
+        value: >-
+          <p>You touch a creature and choose Strength, Dexterity, Intelligence,
+          Wisdom, or Charisma. For the duration, the target has Advantage on
+          ability checks using the chosen ability.</p><p><strong>Using a
+          Higher-Level Spell Slot.</strong> You can target one additional
+          creature for each spell slot level above 2. You can choose a different
+          ability for each target.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          type: creature
+          count: '@item.level - 1'
+          choice: false
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: touch
+        special: ''
+      uses:
+        max: '2'
+        recovery: []
+        spent: 0
+      level: 2
+      school: trs
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: fur or a feather
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: gg9dU0SnvU03C803
+            - _id: GGEj4zNginSIp6VV
+            - _id: NTaFTBr1uam93jHS
+            - _id: EGnngHgGBzTyThW6
+            - _id: e02u2XLDltCT5D5x
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Cast
+      identifier: enhance-ability
+    _id: b7MD72uu21TGzKeQ
+    type: spell
+    img: icons/skills/social/intimidation-impressing.webp
+    effects:
+      - name: Enhanced Strength
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        duration:
+          rounds: null
+          startTime: null
+          seconds: 3600
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        flags:
+          dnd5e: {}
+        img: systems/dnd5e/icons/svg/abilities/strength.svg
+        _id: gg9dU0SnvU03C803
+        type: base
+        system: {}
+        changes: []
+        description: >-
+          <p>The target has Advantage on ability checks made with the chosen
+          ability.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.ljMTBKPVmEnLPX1b
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.gg9dU0SnvU03C803
+      - name: Enhanced Dexterity
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        duration:
+          rounds: null
+          startTime: null
+          seconds: 3600
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        flags:
+          dnd5e: {}
+        img: systems/dnd5e/icons/svg/abilities/dexterity.svg
+        _id: GGEj4zNginSIp6VV
+        type: base
+        system: {}
+        changes: []
+        description: >-
+          <p>The target has Advantage on ability checks made with the chosen
+          ability.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.Mmss2SPIy7wtt2PV
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.GGEj4zNginSIp6VV
+      - name: Enhanced Intelligence
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        duration:
+          rounds: null
+          startTime: null
+          seconds: 3600
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        flags:
+          dnd5e: {}
+        img: systems/dnd5e/icons/svg/abilities/intelligence.svg
+        _id: NTaFTBr1uam93jHS
+        type: base
+        system: {}
+        changes: []
+        description: >-
+          <p>The target has Advantage on ability checks made with the chosen
+          ability.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.FfVB2Yyb7wfgpsQB
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.NTaFTBr1uam93jHS
+      - name: Enhanced Wisdom
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        duration:
+          rounds: null
+          startTime: null
+          seconds: 3600
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        flags:
+          dnd5e: {}
+        img: systems/dnd5e/icons/svg/abilities/wisdom.svg
+        _id: EGnngHgGBzTyThW6
+        type: base
+        system: {}
+        changes: []
+        description: >-
+          <p>The target has Advantage on ability checks made with the chosen
+          ability.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.k2569xtIeXKRReLU
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.EGnngHgGBzTyThW6
+      - name: Enhanced Charisma
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        duration:
+          rounds: null
+          startTime: null
+          seconds: 3600
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        disabled: false
+        flags:
+          dnd5e: {}
+        img: systems/dnd5e/icons/svg/abilities/charisma.svg
+        _id: e02u2XLDltCT5D5x
+        type: base
+        system: {}
+        changes: []
+        description: >-
+          <p>The target has Advantage on ability checks made with the chosen
+          ability.</p>
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.sC2IXWDs07oTt5JN
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.3
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.e02u2XLDltCT5D5x
+    folder: 3SjcO2acsFnWegp4
+    sort: 3800000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        migratedUses: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ'
+  - name: Fog Cloud
+    system:
+      description:
+        value: >-
+          <p>You create a 20-foot-radius Sphere of fog centered on a point
+          within range. The Sphere is &amp;Reference[heavilyobscured]. It lasts
+          for the duration or until a strong wind (such as one created by
+          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust
+          of Wind}</em>) disperses it.</p><p><strong>Using a Higher-Level Spell
+          Slot.</strong> The fog’s radius increases by 20 feet for each spell
+          slot level above 1.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          type: sphere
+          size: 20 * @item.level
+          contiguous: false
+      range:
+        value: '120'
+        units: ft
+      uses:
+        max: '2'
+        recovery: []
+        spent: 0
+      level: 1
+      school: con
+      properties:
+        - vocal
+        - somatic
+        - concentration
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: fog-cloud
+    _id: 5CPqZxwjItbFrdmG
+    type: spell
+    img: icons/magic/air/fog-gas-smoke-dense-white.webp
+    effects: []
+    folder: pBaAAtXBCq9FVEnL
+    sort: 2800000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.5CPqZxwjItbFrdmG'
+  - name: Gust of Wind
+    system:
+      description:
+        value: >-
+          <p>A Line of strong wind 60 feet long and 10 feet wide blasts from you
+          in a direction you choose for the duration. Each creature in the Line
+          must succeed on a Strength saving throw or be pushed 15 feet away from
+          you in a direction following the Line. A creature that ends its turn
+          in the Line must make the same save.</p><p>Any creature in the Line
+          must spend 2 feet of movement for every 1 foot it moves when moving
+          closer to you.</p><p>The gust disperses gas or vapor, and it
+          extinguishes candles and similar unprotected flames in the area. It
+          causes protected flames, such as those of lanterns, to dance wildly
+          and has a 50 percent chance to extinguish them.</p><p>As a Bonus
+          Action on your later turns, you can change the direction in which the
+          Line blasts from you.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: minute
+      target:
+        affects:
+          choice: false
+        template:
+          units: ft
+          width: '10'
+          type: line
+          size: '60'
+          contiguous: false
+      range:
+        units: self
+      uses:
+        max: '2'
+        recovery: []
+        spent: 0
+      level: 2
+      school: evo
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: a legume seed
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          damage:
+            onSave: half
+            parts: []
+          save:
+            ability: str
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+          sort: 0
+      identifier: gust-of-wind
+    _id: oDUIBdyufmKt59W3
+    type: spell
+    img: icons/magic/air/air-wave-gust-blue.webp
+    effects: []
+    folder: 3SjcO2acsFnWegp4
+    sort: 3000000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 2
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.oDUIBdyufmKt59W3'
+  - name: Control Water
+    system:
+      description:
+        value: >-
+          <p>Until the spell ends, you control any water inside an area you
+          choose that is a Cube up to 100 feet on a side, using one of the
+          following effects. As a Magic action on your later turns, you can
+          repeat the same effect or choose a different one.</p><p><strong>Flood.
+          </strong>You cause the water level of all standing water in the area
+          to rise by as much as 20 feet. If you choose an area in a large body
+          of water, you instead create a 20-foot tall wave that travels from one
+          side of the area to the other and then crashes. Any Huge or smaller
+          vehicles in the wave’s path are carried with it to the other side. Any
+          Huge or smaller vehicles struck by the wave have a [[/r
+          1d100cs&lt;26#Vehicle is capsized]]{25 percent} chance of
+          capsizing.</p><p>The water level remains elevated until the spell ends
+          or you choose a different effect. If this effect produced a wave, the
+          wave repeats on the start of your next turn while the flood effect
+          lasts.</p><p><strong>Part Water. </strong>You part water in the area
+          and create a trench. The trench extends across the spell’s area, and
+          the separated water forms a wall to either side. The trench remains
+          until the spell ends or you choose a different effect. The water then
+          slowly fills in the trench over the course of the next round until the
+          normal water level is restored.</p><p><strong>Redirect Flow.
+          </strong>You cause flowing water in the area to move in a direction
+          you choose, even if the water has to flow over obstacles, up walls, or
+          in other unlikely directions. The water in the area moves as you
+          direct it, but once it moves beyond the spell’s area, it resumes its
+          flow based on the terrain. The water continues to move in the
+          direction you chose until the spell ends or you choose a different
+          effect.</p><p><strong>Whirlpool. </strong>You cause a whirlpool to
+          form in the center of the area, which must be at least 50 feet square
+          and 25 feet deep. The whirlpool lasts until you choose a different
+          effect or the spell ends. The whirlpool is 5 feet wide at the base, up
+          to 50 feet wide at the top, and 25 feet tall. Any creature in the
+          water and within 25 feet of the whirlpool is pulled 10 feet toward it.
+          When a creature enters the whirlpool for the first time on a turn or
+          ends its turn there, it makes a Strength saving throw. On a failed
+          save, the creature takes 2d8 Bludgeoning damage. On a successful save,
+          the creature takes half as much damage. A creature can swim away from
+          the whirlpool only if it first takes an action to pull away and
+          succeeds on a [[/check ability=str skill=ath dc=@attributes.spelldc]]
+          check against your spell save DC.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '10'
+        units: minute
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ft
+          type: cube
+          size: '100'
+          contiguous: false
+          count: ''
+      range:
+        value: '300'
+        units: ft
+        special: ''
+      uses:
+        max: '1'
+        recovery: []
+        spent: 0
+      level: 4
+      school: trs
+      properties:
+        - vocal
+        - somatic
+        - material
+        - concentration
+      materials:
+        value: a mixture of water and dust
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: save
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+              type: cylinder
+              size: '25'
+              height: '-25'
+              count: ''
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: true
+          damage:
+            onSave: half
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 2
+                denomination: 8
+                bonus: ''
+                types:
+                  - bludgeoning
+                scaling:
+                  mode: ''
+                  number: 1
+          save:
+            ability: str
+            dc:
+              calculation: spellcasting
+              formula: ''
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Create Whirlpool
+        uvlPi5Em9KSfKICT:
+          type: utility
+          name: Flood, Part, or Redirect
+          _id: uvlPi5Em9KSfKICT
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          roll:
+            prompt: false
+            visible: false
+            name: 25% Capsize Chance
+            formula: 1d100cs<26
+      identifier: control-water
+    _id: 3doytaMpCBspAg53
+    type: spell
+    img: icons/magic/water/pseudopod-swirl-blue.webp
+    effects: []
+    folder: qi3IbnEwap7mRw4b
+    sort: 2900000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 1
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.3
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!ug0xVJ099Ot7YMCh.3doytaMpCBspAg53'
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.3
+  createdTime: 1727550800594
+  modifiedTime: 1727550805350
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: ug0xVJ099Ot7YMCh
+sort: 100000
+_key: '!actors!ug0xVJ099Ot7YMCh'
+
