@@ -1,0 +1,1000 @@
+name: Harpy Hunter
+type: npc
+folder: prOPFbUkZOFEZpsU
+img: icons/svg/mystery-man.svg
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 13
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 16
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 14
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 7
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 40
+      swim: 0
+      walk: 20
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: ''
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: null
+      calc: default
+    hd:
+      spent: 0
+    hp:
+      value: 104
+      max: 104
+      temp: 0
+      tempmax: 0
+      formula: 16d8 + 32
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: >-
+        <p>The harpy clans of the Byeshk Mountains are a raucous bunch,
+        believing themselves to be the children of the Fury. They are known to
+        be excellent archers and use their powerful voices to terrorize prey
+        with piercing shrieks of ungodly volume.</p>
+    alignment: Any Alignment
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: monstrosity
+    environment: ''
+    cr: 4
+    spellLevel: 0
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2014'
+    book: Threat Dispatch
+    custom: ''
+  traits:
+    size: med
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - common
+      custom: ''
+prototypeToken:
+  name: Harpy Hunter
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+items:
+  - name: Multiattack
+    type: feat
+    img: icons/magic/death/skull-trio-badge-purple.webp
+    system:
+      description:
+        value: >-
+          The harpy uses Terrorizing Screech then makes two melee or ranged
+          attacks.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: multiattack
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: B7Hs75CDBp4I0nB2
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!K85EzlgCdvWgfv3X.B7Hs75CDBp4I0nB2'
+  - name: Claws
+    type: weapon
+    img: icons/commodities/claws/claws-white.webp
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +5 to hit, reach 5 ft. , one target. Hit: 8 (2d4
+          + 3) slashing damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 2
+          denomination: 4
+          bonus: ''
+          types:
+            - slashing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        g0DT0oezGU2yDk8L:
+          _id: g0DT0oezGU2yDk8L
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: claws
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: GtHTRU2VFc0Pgw1c
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!K85EzlgCdvWgfv3X.GtHTRU2VFc0Pgw1c'
+  - name: Longbow
+    type: weapon
+    img: modules/dnd-players-handbook/assets/icons/items/longbow.webp
+    system:
+      description:
+        value: >-
+          Ranged Weapon Attack: +5 to hit range 150/600 ft. , one target. Hit: 7
+          (1d8 + 3) piercing damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 1
+          denomination: 8
+          bonus: ''
+          types:
+            - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 150
+        long: 600
+        units: ft
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        wQf5O1zdFgagrOTf:
+          _id: wQf5O1zdFgagrOTf
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: longbow
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: o6mcM9glcibZ9XBL
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!K85EzlgCdvWgfv3X.o6mcM9glcibZ9XBL'
+  - name: Terrorizing Screech
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          The harpy emits an ear-splitting screech in a 120-foot cone. Each
+          creature in the area must succeed on a DC 12 Constitution saving throw
+          or be frightened. A frightened creature can repeat the saving throw at
+          the end of each of its turns. If a creature fails a saving throw
+          against the harpy’s Terrorizing Screech while already frightened, it
+          becomes paralyzed as well. If a target's saving throw is successful or
+          the effect ends for it, the target is immune to the harpy’s
+          Terrorizing Screech for the next 24 hours.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: terrorizing-screech
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: Hot8DyxlAAWvcZMD
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!K85EzlgCdvWgfv3X.Hot8DyxlAAWvcZMD'
+  - name: Studded Leather
+    type: equipment
+    system:
+      description:
+        value: >-
+          <p>Made from tough but flexible leather, studded leather is reinforced
+          with close-set rivets or spikes.</p>
+        chat: ''
+      source:
+        book: PHB
+        page: ''
+        license: ''
+        custom: ''
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 13
+        units: lb
+      price:
+        value: 45
+        denomination: gp
+      rarity: ''
+      attunement: required
+      equipped: true
+      cover: null
+      crewed: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 12
+        dex: null
+        magicalBonus: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: light
+        baseItem: studdedleather
+      properties: []
+      speed:
+        value: null
+        conditions: ''
+      strength: 0
+      proficient: 1
+      identifier: studded-leather
+      activities: {}
+      attuned: true
+    flags:
+      ddbimporter:
+        dndbeyond:
+          type: Light Armor
+          alternativeNames:
+            - Studded Leather Armor
+          filterType: Armor
+          isConsumable: false
+          isContainer: false
+          isCustomItem: false
+          isHomebrew: false
+          isMonkWeapon: false
+          isPack: false
+          levelInfusionGranted: null
+          tags:
+            - Warding
+          sources:
+            - sourceId: 1
+              pageNumber: null
+              sourceType: 2
+            - sourceId: 2
+              pageNumber: null
+              sourceType: 1
+        id: 0
+        entityTypeId: 0
+        definitionEntityTypeId: 701257905
+        definitionId: 3
+        originalName: Studded Leather
+        version: 4.0.11
+    effects: []
+    img: icons/equipment/chest/breastplate-rivited-red.webp
+    folder: eNY55cTybKJk29Fq
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: 5Yyo78tEdsCmTnH9
+    sort: 0
+    _key: '!actors.items!K85EzlgCdvWgfv3X.5Yyo78tEdsCmTnH9'
+  - name: Archer's Eye (3/day)
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          As a bonus action, the harpy can add 1d10 to its next attack or damage
+          roll with a longbow or shortbow.
+        chat: ''
+      uses:
+        max: '3'
+        spent: 0
+        recovery: []
+      activities: {}
+      identifier: archers-eye-3-day
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: B9xDpKbhnovR75gz
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!K85EzlgCdvWgfv3X.B9xDpKbhnovR75gz'
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1727630888985
+  modifiedTime: 1727630891685
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: K85EzlgCdvWgfv3X
+sort: 100000
+_key: '!actors!K85EzlgCdvWgfv3X'
+

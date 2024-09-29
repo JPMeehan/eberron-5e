@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.7
+
+- Added Threat Dispatch stat blocks
+  - Droaam
+  - Order of the Emerald Claw
+
 ## 1.0.6
 
 - Low CR Quickstone stat blocks and templates

@@ -1,0 +1,1266 @@
+name: War Troll
+type: npc
+folder: prOPFbUkZOFEZpsU
+img: icons/svg/mystery-man.svg
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 22
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 14
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 20
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 9
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 7
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: 60
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: ''
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: null
+      calc: default
+    hd:
+      spent: 0
+    hp:
+      value: 168
+      max: 168
+      temp: 0
+      tempmax: 0
+      formula: 16d10 + 80
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: >-
+        <p>War trolls are another subrace of monster that exclusively serves
+        Sora Maenya in her elite guard. Where skullcrusher ogres are typically
+        fielded in disciplined shield walls, war trolls are the shock troop
+        vanguard of Maenya’s Fist. Relying on their regeneration and heavy
+        armor, these trolls wade into enemy lines in what would be a suicidal
+        charge for any other being.</p><p> Other than their training and
+        superior equipment, war trolls most notably differ from their common kin
+        in their resilience to fire. The only way to put these trolls down for
+        good is with acid.</p>
+    alignment: Any Alignment
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: giant
+    environment: ''
+    cr: 9
+    spellLevel: 0
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2014'
+    book: Threat Dispatch
+    custom: ''
+  traits:
+    size: lg
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value:
+        - goblin
+      custom: ''
+prototypeToken:
+  name: War Troll
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 2
+  height: 2
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+items:
+  - name: Multiattack
+    type: feat
+    img: icons/magic/death/skull-trio-badge-purple.webp
+    system:
+      description:
+        value: >-
+          The troll makes three attacks: one with its bite and two with its
+          claws. If the troll has its greataxe drawn, it can make an attack with
+          its greataxe in place of both of its claw attacks.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: multiattack
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: 9OkEWn502w3b5IfJ
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!NzzftP5j9r4vB87d.9OkEWn502w3b5IfJ'
+  - name: Bite
+    type: weapon
+    img: icons/creatures/abilities/mouth-teeth-long-red.webp
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +10 to hit, reach 5 ft. , one target. Hit: 10
+          (1d8 + 6) piercing damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 1
+          denomination: 8
+          bonus: ''
+          types:
+            - piercing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        AFkzATBKpqZMGsVC:
+          _id: AFkzATBKpqZMGsVC
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: bite
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: WfKn6iHYQLYxsHHR
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!NzzftP5j9r4vB87d.WfKn6iHYQLYxsHHR'
+  - name: Claw
+    type: weapon
+    img: icons/svg/sword.svg
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +10 to hit, reach 5 ft. , one target. Hit: 15
+          (2d8 + 6) slashing damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 2
+          denomination: 8
+          bonus: ''
+          types:
+            - slashing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        53xrOjGJ2NlCnP1M:
+          _id: 53xrOjGJ2NlCnP1M
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: claw
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: 8bEntPD2Z0NbCXn0
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!NzzftP5j9r4vB87d.8bEntPD2Z0NbCXn0'
+  - name: Greataxe
+    type: weapon
+    img: modules/dnd-players-handbook/assets/icons/items/greataxe.webp
+    system:
+      description:
+        value: >-
+          Melee Weapon Attack: +10 to hit, reach 5 ft. , one target. Hit: 32
+          (4d12 + 6) slashing damage.
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      damage:
+        base:
+          number: 4
+          denomination: 12
+          bonus: ''
+          types:
+            - slashing
+          custom:
+            enabled: false
+            formula: ''
+          scaling:
+            mode: ''
+            number: null
+            formula: ''
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      type:
+        value: natural
+        baseItem: ''
+      attuned: true
+      activities:
+        EYndtyDwfcB4f0jv:
+          _id: EYndtyDwfcB4f0jv
+          type: attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type: {}
+          damage:
+            critical: {}
+            includeBase: true
+            parts: []
+      uses:
+        spent: 0
+        recovery: []
+      identifier: greataxe
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      armor:
+        value: null
+      cover: null
+      crewed: false
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      ammunition: {}
+      magicalBonus: null
+      properties: []
+    _id: OOSEuXSVOSEyG801
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!NzzftP5j9r4vB87d.OOSEuXSVOSEyG801'
+  - name: Plate
+    type: equipment
+    system:
+      description:
+        value: >-
+          <p>Plate consists of shaped, interlocking metal plates to cover the
+          entire body. A suit of plate includes gauntlets, heavy leather boots,
+          a visored helmet, and thick layers of padding underneath the armor.
+          Buckles and straps distribute the weight over the body.</p>
+        chat: ''
+      source:
+        book: PHB
+        page: ''
+        license: ''
+        custom: ''
+        rules: '2014'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 65
+        units: lb
+      price:
+        value: 1500
+        denomination: gp
+      rarity: ''
+      attunement: required
+      equipped: true
+      cover: null
+      crewed: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 18
+        dex: 0
+        magicalBonus: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: heavy
+        baseItem: plate
+      properties:
+        - stealthDisadvantage
+      speed:
+        value: null
+        conditions: ''
+      strength: 15
+      proficient: 1
+      identifier: plate
+      activities: {}
+      attuned: true
+    flags:
+      ddbimporter:
+        dndbeyond:
+          type: Heavy Armor
+          alternativeNames:
+            - Plate Armor
+          filterType: Armor
+          isConsumable: false
+          isContainer: false
+          isCustomItem: false
+          isHomebrew: false
+          isMonkWeapon: false
+          isPack: false
+          levelInfusionGranted: null
+          tags:
+            - Warding
+          sources:
+            - sourceId: 1
+              pageNumber: null
+              sourceType: 2
+            - sourceId: 2
+              pageNumber: null
+              sourceType: 1
+        id: 0
+        entityTypeId: 0
+        definitionEntityTypeId: 701257905
+        definitionId: 18
+        originalName: Plate
+        version: 4.0.11
+    effects: []
+    img: icons/equipment/chest/breastplate-collared-steel.webp
+    folder: cxWGXYtTGy98Ngek
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _id: sdoP81yFT245LCis
+    sort: 0
+    _key: '!actors.items!NzzftP5j9r4vB87d.sdoP81yFT245LCis'
+  - name: Brave
+    type: feat
+    img: icons/skills/social/intimidation-impressing.webp
+    system:
+      description:
+        value: The troll has advantage on saving throws against being frightened.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: brave
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: qh8wDdaUQ8H8uxSw
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!NzzftP5j9r4vB87d.qh8wDdaUQ8H8uxSw'
+  - name: Keen Smell
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          The troll has advantage on Wisdom (Perception) checks that rely on
+          smell.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: keen-smell
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: XUzJdrs6LWke8Fua
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!NzzftP5j9r4vB87d.XUzJdrs6LWke8Fua'
+  - name: Reckless
+    type: feat
+    img: icons/skills/social/intimidation-impressing.webp
+    system:
+      description:
+        value: >-
+          At the start of its turn, the troll can gain advantage on all melee
+          weapon attack rolls during that turn, but attack rolls against it have
+          advantage until the start of its next turn.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: reckless
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: d57v9F5uimZwutiv
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!NzzftP5j9r4vB87d.d57v9F5uimZwutiv'
+  - name: Regeneration
+    type: feat
+    img: icons/skills/wounds/anatomy-organ-heart-red.webp
+    system:
+      description:
+        value: >-
+          The troll regains 10 hit points at the start of its turn. If the troll
+          takes acid damage, this trait doesn't function at the start of the
+          troll's next turn. The troll dies only if it starts its turn with 0
+          hit points and doesn't regenerate.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: regeneration
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: 087fZdlmIcEVY3fv
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!NzzftP5j9r4vB87d.087fZdlmIcEVY3fv'
+  - name: Vanguard
+    type: feat
+    img: icons/svg/book.svg
+    system:
+      description:
+        value: >-
+          A melee weapon deals two extra dice of its damage when the troll hits
+          with it (included in the attack).
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: vanguard
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: L2yMEQbU6NSl2B6x
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!NzzftP5j9r4vB87d.L2yMEQbU6NSl2B6x'
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1727630893142
+  modifiedTime: 1727630893142
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: NzzftP5j9r4vB87d
+sort: 0
+_key: '!actors!NzzftP5j9r4vB87d'
+
