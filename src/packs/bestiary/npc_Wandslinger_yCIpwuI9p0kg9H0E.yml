@@ -1,0 +1,1549 @@
+name: Wandslinger
+type: npc
+folder: R6bnZmnsoCW0rgtg
+img: icons/svg/mystery-man.svg
+system:
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  abilities:
+    str:
+      value: 8
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    dex:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    con:
+      value: 10
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    int:
+      value: 14
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    wis:
+      value: 13
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+    cha:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1.5
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1.5
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  attributes:
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    movement:
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      walk: 30
+      units: null
+      hover: false
+    attunement:
+      max: 3
+    senses:
+      darkvision: null
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+      special: ''
+    spellcasting: int
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    ac:
+      flat: null
+      calc: default
+    hd:
+      spent: 0
+    hp:
+      value: 31
+      max: 31
+      temp: 0
+      tempmax: 0
+      formula: 6d8
+    death:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+  details:
+    biography:
+      value: ''
+      public: >-
+        <p>A flamboyant duelist with a sharp tongue, this wandslinger is always
+        ready for the next challenger. They could be a wand for hire traveling
+        from town to town. They might be a colorful caravan guard, or an equally
+        colorful brigand preying on caravans.</p>
+    alignment: Any Alignment
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    type:
+      value: humanoid
+      subtype: Wizard, Any
+    environment: ''
+    cr: 2
+    spellLevel: 0
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+  source:
+    revision: 1
+    rules: '2024'
+    book: FoEQ
+    page: ''
+    custom: ''
+    license: ''
+  traits:
+    size: med
+    di:
+      bypasses: []
+      value: []
+      custom: ''
+    dr:
+      bypasses: []
+      value: []
+      custom: ''
+    dv:
+      bypasses: []
+      value: []
+      custom: ''
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    languages:
+      value: []
+      custom: Any two languages
+prototypeToken:
+  name: Wandslinger
+  displayName: 0
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  sight:
+    enabled: false
+    range: 0
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+items:
+  - name: Rapier
+    type: feat
+    img: modules/dnd-players-handbook/assets/icons/items/rapier.webp
+    system:
+      description:
+        value: 'Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 +2) Piercing damage.'
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: rapier
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: bBkNEpQUVUs6xmQB
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!yCIpwuI9p0kg9H0E.bBkNEpQUVUs6xmQB'
+  - name: Arcane Blast
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: 'Ranged Attack Roll: +4, range 120 ft. Hit: 13 (2d10 + 2) Force damage.'
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: arcane-blast
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: 8ASrC5OGEtKRmZHs
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!yCIpwuI9p0kg9H0E.8ASrC5OGEtKRmZHs'
+  - name: Spellcasting
+    type: feat
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    system:
+      description:
+        value: >-
+          The wandslinger casts one of the following spells, using Intelligence
+          as the spellcasting ability (spell save DC 12): At Will:
+          Prestidigitation,True Strike 1/Day Each: Absorb Elements, Shield.
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: spellcasting
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    _id: sUtl3lNjosRvL657
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!yCIpwuI9p0kg9H0E.sUtl3lNjosRvL657'
+  - name: Taunt (2/day)
+    type: feat
+    img: icons/svg/combat.svg
+    system:
+      description:
+        value: >-
+          Charisma Saving Throw: DC 12, one creature within 30 feet that can
+          hear the wandslinger. Failure: The target has Disadvantage on ability
+          checks, attack rolls, and saving throws until the start of the
+          wandslinger’s next turn.
+        chat: ''
+      uses:
+        max: '2'
+        spent: 0
+        recovery: []
+      activities: {}
+      identifier: taunt-2-day
+      source:
+        revision: 1
+        rules: '2024'
+      enchant: {}
+      type:
+        value: monster
+        subtype: ''
+      prerequisites:
+        level: null
+      properties: []
+      requirements: ''
+    flags:
+      adnd5e:
+        itemInfo:
+          type: bonus
+    _id: m6zkdLFKFbKVqaHz
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!yCIpwuI9p0kg9H0E.m6zkdLFKFbKVqaHz'
+  - name: Prestidigitation
+    system:
+      description:
+        value: >-
+          <p>You create a magical effect within range. Choose the effect from
+          the options below. If you cast this spell multiple times, you can have
+          up to three of its non-instantaneous effects active at a
+          time.</p><p><strong>Sensory Effect.</strong> You create an
+          instantaneous, harmless sensory effect, such as a shower of sparks, a
+          puff of wind, faint musical notes, or an odd odor.</p><p><strong>Fire
+          Play.</strong> You instantaneously light or snuff out a candle, a
+          torch, or a small campfire.</p><p><strong>Clean or Soil.</strong> You
+          instantaneously clean or soil an object no larger than 1 cubic
+          foot.</p><p><strong>Minor Sensation.</strong> You chill, warm, or
+          flavor up to 1 cubic foot of nonliving material for 1
+          hour.</p><p><strong>Magic Mark.</strong> You make a color, a small
+          mark, or a symbol appear on an object or a surface for 1
+          hour.</p><p><strong>Minor Creation.</strong> You create a nonmagical
+          trinket or an illusory image that can fit in your hand. It lasts until
+          the end of your next turn. A trinket can deal no damage and has no
+          monetary worth.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: '1'
+        units: hour
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: ft
+        special: ''
+        value: '10'
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: trs
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        gbdxQQmWwEAL1zpH:
+          type: utility
+          name: Cast
+          _id: gbdxQQmWwEAL1zpH
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      identifier: prestidigitation
+    _id: kUAscZAWXBUV3ytu
+    type: spell
+    img: icons/weapons/wands/wand-star-white.webp
+    effects: []
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 400000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!yCIpwuI9p0kg9H0E.kUAscZAWXBUV3ytu'
+  - name: True Strike
+    system:
+      description:
+        value: >-
+          <p>Guided by a flash of magical insight, you make one attack with the
+          weapon used in the spell’s casting. The attack uses your spellcasting
+          ability for the attack and damage rolls instead of using Strength or
+          Dexterity. If the attack deals damage, it can be Radiant damage or the
+          weapon’s normal damage type (your choice).</p><p><strong>Cantrip
+          Upgrade.</strong> Whether you deal Radiant damage or the weapon’s
+          normal damage type, the attack deals extra Radiant damage when you
+          reach levels 5 (1d6), 11 (2d6), and 17 (3d6).</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: action
+        condition: ''
+        value: null
+      duration:
+        value: ''
+        units: inst
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: self
+        special: ''
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      level: 0
+      school: div
+      properties:
+        - somatic
+        - material
+      materials:
+        value: a weapon with which you have proficiency and that is worth 1+ CP
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: atwill
+        prepared: false
+      activities:
+        4TlVwMTDg8tqME2z:
+          type: enchant
+          _id: 4TlVwMTDg8tqME2z
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects:
+            - _id: SouQfUgwb9LlUraq
+              level:
+                min: null
+                max: null
+              riders:
+                activity:
+                  - CiLsaHBi9F6eIXUS
+                effect: []
+                item: []
+            - _id: Zsx8UvC9DmdrA1E1
+              level:
+                min: null
+                max: null
+              riders:
+                activity:
+                  - cGNXKjpoRima6wjQ
+                effect: []
+                item: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          enchant: {}
+          restrictions:
+            allowMagical: true
+            categories: []
+            properties: []
+            type: weapon
+          name: Enchant Weapon
+        CiLsaHBi9F6eIXUS:
+          type: attack
+          name: Spellcasting Attack
+          _id: CiLsaHBi9F6eIXUS
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: melee
+              classification: weapon
+            ability: spellcasting
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          img: systems/dnd5e/icons/svg/damage/bludgeoning.svg
+        cGNXKjpoRima6wjQ:
+          type: attack
+          name: Spellcasting Attack
+          sort: 0
+          activation:
+            type: action
+            value: null
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              count: ''
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          attack:
+            critical:
+              threshold: null
+            flat: false
+            type:
+              value: ranged
+              classification: weapon
+            ability: spellcasting
+            bonus: ''
+          damage:
+            critical:
+              bonus: ''
+            includeBase: true
+            parts: []
+          _id: cGNXKjpoRima6wjQ
+          img: systems/dnd5e/icons/svg/damage/piercing.svg
+      identifier: true-strike
+    _id: jE3mnj50OUewnpxi
+    type: spell
+    img: icons/magic/unholy/hand-weapon-glow-black-green.webp
+    effects:
+      - type: enchantment
+        name: Melee Weapon
+        img: icons/skills/melee/strike-sword-slashing-red.webp
+        disabled: false
+        _id: SouQfUgwb9LlUraq
+        system: {}
+        changes:
+          - key: system.damage.base.types
+            mode: 2
+            value: radiant
+            priority: null
+          - key: name
+            mode: 5
+            value: '{} (True Strike)'
+            priority: null
+          - key: system.damage.base.bonus
+            mode: 2
+            value: (floor((@details.level + 1) / 6))d6[radiant]
+            priority: null
+        duration:
+          startTime: null
+          seconds: null
+          combat: null
+          rounds: null
+          turns: 1
+          startRound: null
+          startTurn: null
+        description: ''
+        origin: null
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!yCIpwuI9p0kg9H0E.jE3mnj50OUewnpxi.SouQfUgwb9LlUraq
+      - type: enchantment
+        name: Ranged Weapon
+        img: icons/skills/ranged/arrow-strike-glowing-teal.webp
+        disabled: false
+        system: {}
+        changes:
+          - key: system.damage.base.types
+            mode: 2
+            value: radiant
+            priority: null
+          - key: name
+            mode: 5
+            value: '{} (True Strike)'
+            priority: null
+          - key: system.damage.base.bonus
+            mode: 2
+            value: (floor((@details.level + 1) / 6))d6[radiant]
+            priority: null
+        duration:
+          startTime: null
+          seconds: null
+          combat: null
+          rounds: null
+          turns: 1
+          startRound: null
+          startTurn: null
+        description: ''
+        origin: null
+        tint: '#ffffff'
+        transfer: false
+        statuses: []
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd-players-handbook.spells.Item.phbsplTrueStrike.ActiveEffect.SouQfUgwb9LlUraq
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        _id: Zsx8UvC9DmdrA1E1
+        _key: >-
+          !actors.items.effects!yCIpwuI9p0kg9H0E.jE3mnj50OUewnpxi.Zsx8UvC9DmdrA1E1
+    folder: 4FhsY9FJQd7h7MZb
+    sort: 100025
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        riders:
+          activity:
+            - CiLsaHBi9F6eIXUS
+            - cGNXKjpoRima6wjQ
+          effect: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!yCIpwuI9p0kg9H0E.jE3mnj50OUewnpxi'
+  - name: Absorb Elements
+    type: spell
+    system:
+      description:
+        value: >-
+          <p>The spell captures some of the incoming energy, lessening its
+          effect on you and storing it for your next melee attack. You have
+          resistance to the triggering damage type until the start of your next
+          turn. Also, the first time you hit with a melee attack on your next
+          turn, the target takes an extra 1d6 damage of the triggering type, and
+          the spell ends.</p><p><strong>At Higher Levels.</strong> When you cast
+          this spell using a spell slot of 2nd level or higher, the extra damage
+          increases by 1d6 for each slot level above 1st.</p>
+        chat: ''
+      source:
+        book: Xanathar's Guide to Everything
+        license: First Party Product
+        custom: ''
+        revision: 1
+        rules: '2014'
+      activation:
+        type: reaction
+        condition: >-
+          which you take when you take acid, cold, fire, lightning, or thunder
+          damage
+        value: 1
+      duration:
+        value: '1'
+        units: round
+      target:
+        affects:
+          type: self
+          count: '0'
+          choice: false
+          special: ''
+        template:
+          units: self
+          contiguous: false
+          type: ''
+      range:
+        value: '0'
+        units: self
+        special: ''
+      uses:
+        max: '1'
+        recovery: []
+        spent: 0
+      level: 1
+      school: abj
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      properties:
+        - somatic
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          uses:
+            spent: 0
+            max: ''
+            recovery: []
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          sort: 0
+          name: Cast
+        LadcrMeFuIatloow:
+          type: damage
+          _id: LadcrMeFuIatloow
+          sort: 0
+          activation:
+            type: special
+            value: null
+            override: true
+            condition: You hit with a melee attack
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: false
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: true
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            critical:
+              allow: true
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 6
+                bonus: ''
+                types:
+                  - acid
+                  - cold
+                  - fire
+                  - lightning
+                  - thunder
+                scaling:
+                  mode: whole
+                  number: 1
+                  formula: ''
+          name: ''
+      identifier: absorb-elements
+    img: icons/magic/symbols/elements-air-earth-fire-water.webp
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      plutonium:
+        page: spells.html
+        source: XGE
+        hash: absorb%20elements_xge
+        propDroppable: spell
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+        migratedProperties:
+          - somatic
+        migratedUses: 1
+    effects: []
+    folder: Be0pVJo40TphSECq
+    _id: 09eTgS9qeLqskcFO
+    sort: 0
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!yCIpwuI9p0kg9H0E.09eTgS9qeLqskcFO'
+  - name: Shield
+    system:
+      description:
+        value: >-
+          <p>An imperceptible barrier of magical force protects you. Until the
+          start of your next turn, you have a +5 bonus to AC, including against
+          the triggering attack, and you take no damage from
+          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic
+          Missile}</em>.</p>
+        chat: ''
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      activation:
+        type: reaction
+        condition: >-
+          when you are hit by an attack roll or targeted by the Magic Missile
+          spell
+        value: null
+      duration:
+        value: '1'
+        units: round
+      target:
+        affects:
+          choice: false
+          count: ''
+          type: self
+          special: ''
+        template:
+          units: ''
+          contiguous: false
+          type: ''
+      range:
+        units: self
+        special: ''
+      uses:
+        max: '1'
+        recovery: []
+        spent: 0
+      level: 1
+      school: abj
+      properties:
+        - vocal
+        - somatic
+      materials:
+        value: ''
+        consumed: false
+        cost: 0
+        supply: 0
+      preparation:
+        mode: innate
+        prepared: false
+      activities:
+        dnd5eactivity000:
+          _id: dnd5eactivity000
+          type: utility
+          activation:
+            type: action
+            value: null
+            override: false
+          consumption:
+            targets: []
+            scaling:
+              allowed: false
+              max: ''
+            spellSlot: true
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            override: false
+            concentration: false
+          effects:
+            - _id: Bv3EoHGfYCprLdG1
+          range:
+            override: false
+          target:
+            prompt: true
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+          roll:
+            formula: ''
+            name: ''
+            prompt: false
+            visible: false
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          sort: 0
+          name: Cast
+      identifier: shield
+    _id: He9qiW2HKkyeaTCH
+    type: spell
+    img: icons/equipment/shield/heater-crystal-blue.webp
+    effects:
+      - _id: Bv3EoHGfYCprLdG1
+        flags: {}
+        changes:
+          - key: system.attributes.ac.bonus
+            mode: 2
+            value: '5'
+            priority: null
+        disabled: true
+        duration:
+          startTime: null
+          rounds: 1
+          seconds: null
+          combat: null
+          turns: null
+          startRound: null
+          startTurn: null
+        origin: Compendium.dnd-players-handbook.spells.Item.phbsplShield0000
+        tint: '#ffffff'
+        transfer: false
+        name: Imperceptible Barrier
+        description: >-
+          <p>Until the start of your next turn, you have a +5 bonus to AC,
+          including against the triggering attack, and you take no damage from
+          <em>Magic Missile</em>.</p>
+        statuses: []
+        _stats:
+          compendiumSource: >-
+            Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7.ActiveEffect.6pbotGIvqQkraPva
+          duplicateSource: null
+          coreVersion: '12.331'
+          systemId: dnd5e
+          systemVersion: 4.0.4
+          createdTime: null
+          modifiedTime: null
+          lastModifiedBy: null
+        img: icons/equipment/shield/heater-steel-crystal-red.webp
+        type: base
+        system: {}
+        sort: 0
+        _key: >-
+          !actors.items.effects!yCIpwuI9p0kg9H0E.He9qiW2HKkyeaTCH.Bv3EoHGfYCprLdG1
+    folder: pBaAAtXBCq9FVEnL
+    sort: 700000
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e:
+        migratedUses: 1
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!yCIpwuI9p0kg9H0E.He9qiW2HKkyeaTCH'
+  - name: Studded Leather Armor
+    system:
+      description:
+        value: ''
+        chat: ''
+      price:
+        value: 45
+        denomination: gp
+      source:
+        custom: ''
+        rules: '2024'
+        revision: 1
+      identified: true
+      unidentified:
+        description: ''
+      container: null
+      quantity: 1
+      weight:
+        value: 13
+        units: lb
+      rarity: ''
+      attunement: ''
+      cover: null
+      crewed: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 12
+        magicalBonus: null
+        dex: null
+      hp:
+        value: null
+        max: null
+        dt: null
+        conditions: ''
+      type:
+        value: light
+        baseItem: studded
+      properties: []
+      speed:
+        value: null
+        conditions: ''
+      strength: null
+      proficient: null
+      activities: {}
+      identifier: studded-leather-armor
+      attuned: false
+      equipped: true
+    _id: lRVE6HBtHiQl2Iu1
+    type: equipment
+    folder: G3X11BbtmEqLmEnK
+    img: modules/dnd-players-handbook/assets/icons/armor/studded-leather-armor.webp
+    effects: []
+    sort: 0
+    ownership:
+      default: 0
+      q6n1efCGVB98drEQ: 3
+    flags:
+      dnd5e: {}
+    _stats:
+      compendiumSource: Compendium.dnd-players-handbook.equipment.Item.phbarmStuddedLea
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.0.4
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!yCIpwuI9p0kg9H0E.lRVE6HBtHiQl2Iu1'
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    showTokenPortrait: false
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1727675329340
+  modifiedTime: 1727675329340
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: yCIpwuI9p0kg9H0E
+sort: 0
+_key: '!actors!yCIpwuI9p0kg9H0E'
+

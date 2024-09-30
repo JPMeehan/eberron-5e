@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.8
+
+- Frontiers of Eberron: Quickstone stat blocks
+
 ## 1.0.7
 
 - Added Threat Dispatch stat blocks
