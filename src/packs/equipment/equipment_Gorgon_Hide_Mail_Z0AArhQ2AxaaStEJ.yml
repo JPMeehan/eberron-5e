@@ -1,0 +1,73 @@
+folder: 2oDtNWw5FVw58oMU
+name: Gorgon Hide Mail
+type: equipment
+_id: Z0AArhQ2AxaaStEJ
+img: icons/equipment/chest/breastplate-metal-scaled-grey.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>This suit of Scale Mail is made from the metallic hide of a gorgon. It
+      is particularly valuable to anyone that wishes to visit Cazhaak Draal;
+      while wearing this armor, you have Advantage on saving throws against any
+      magical effect that would cause you to be Restrained or Petrified.</p>
+    chat: ''
+  identifier: gorgon-hide-mail
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: uncommon
+  attunement: required
+  attuned: false
+  equipped: false
+  armor:
+    value: 14
+    magicalBonus: null
+    dex: 2
+  cover: null
+  crewed: false
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: medium
+    baseItem: scalemail
+  properties:
+    - stealthDisadvantage
+    - mgc
+  strength: null
+  proficient: null
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1729651076111
+  modifiedTime: 1729651351818
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!Z0AArhQ2AxaaStEJ'
+

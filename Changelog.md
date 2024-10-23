@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.9
+
+- Added magic items from *Heart of Stone* to the equipment compendium
+
 ## 1.0.8
 
 - Frontiers of Eberron: Quickstone stat blocks

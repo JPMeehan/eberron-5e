@@ -1,0 +1,138 @@
+folder: 2oDtNWw5FVw58oMU
+name: Quickstone Whisperer
+type: equipment
+_id: hbwMZ2DpCEZ0CWFi
+img: icons/equipment/neck/torc-ball-captive.webp
+system:
+  activities:
+    rfVKKEy1fYpKDHo5:
+      type: utility
+      name: Transform Quickstone
+      _id: rfVKKEy1fYpKDHo5
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+        units: touch
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: cube
+          size: '5'
+          count: ''
+        affects:
+          choice: false
+          count: ''
+          type: space
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>This ancient, heavy marble torc is strangely warm to the touch. Though
+      it resembles stone jewelry, the torc is in fact a simple symbiont which
+      grants a limited form of control over earth and the ability to manipulate
+      quickstone without the usual rituals. To attune to it, you must wear it
+      around your neck for the full Attunement period, during which time it
+      coils around your throat like a snake.</p><p>While wearing the torc, you
+      can use a Magic action to transform a 5-foot cube of quickstone between
+      its soft and wet forms, or irreversibly change it into its fixed
+      form.</p><p><strong>Spells.</strong> As an Action, you can use the
+      symbiote to cast Mold Earth or Meld into Stone. Once you use the torc to
+      cast Meld into Stone, the spell can't be cast in this way until the next
+      dusk.</p><p><strong>Symbiotic Nature.</strong> The torc can't be removed
+      from you while you're attuned to it, and you can't voluntarily end your
+      Attunement to it. If you're targeted by a spell that ends a curse, your
+      Attunement to the torc ends, and it uncoils from around your neck.</p>
+    chat: ''
+  identifier: quickstone-whisperer
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: uncommon
+  attunement: required
+  attuned: false
+  equipped: false
+  armor:
+    value: null
+    magicalBonus: null
+    dex: null
+  cover: null
+  crewed: false
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: clothing
+    baseItem: ''
+  properties:
+    - mgc
+  strength: null
+  proficient: null
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1729650987726
+  modifiedTime: 1729651248325
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!hbwMZ2DpCEZ0CWFi'
+

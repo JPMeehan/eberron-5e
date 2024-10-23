@@ -1,0 +1,115 @@
+folder: 2oDtNWw5FVw58oMU
+name: Trollgut Rope
+type: equipment
+_id: 30flfea94pCceAnS
+img: icons/sundries/survival/rope-wrapped-purple.webp
+system:
+  activities:
+    2E6DGW6KEyf17Xtk:
+      type: utility
+      name: Mend Rope
+      _id: 2E6DGW6KEyf17Xtk
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>This ‘rope’ is made from treated troll entrails. Typically, it is found
+      in a 50-ft length that weighs 6 pounds and can hold up to 3,000
+      pounds.</p><p> If Trollgut Rope is cut, you can use a Magic action to
+      press two ends together, causing them to merge together into a single
+      length of rope. This only works with pieces of Trollgut Rope from the same
+      original coil. If the Trollgut Rope takes Fire or Acid damage, it no
+      longer regenerates and becomes nonmagical.</p>
+    chat: ''
+  identifier: trollgut-rope
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: common
+  attunement: ''
+  attuned: false
+  equipped: false
+  armor:
+    value: null
+    magicalBonus: null
+    dex: null
+  cover: null
+  crewed: false
+  hp:
+    value: null
+    max: null
+    dt: null
+    conditions: ''
+  type:
+    value: ''
+    baseItem: ''
+  properties:
+    - mgc
+  strength: null
+  proficient: null
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.0.4
+  createdTime: 1729650171887
+  modifiedTime: 1729650908908
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!30flfea94pCceAnS'
+
