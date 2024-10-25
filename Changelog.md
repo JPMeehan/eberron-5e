@@ -3,6 +3,7 @@
 ## 1.0.9
 
 - Added magic items from *Heart of Stone* to the equipment compendium
+- Added additional languages (Serpentine, High Kaluu, Stonegrind, Tauric, Wuura'gaa)
 
 ## 1.0.8
 

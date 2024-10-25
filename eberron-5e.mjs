@@ -87,7 +87,12 @@ function applyEberronLanguages() {
     'exotic.children': {
       daelkyr: 'Eberron.Languages.Daelkyr',
       orc: 'DND5E.LanguagesOrc',
+      serpentine: 'Eberron.Languages.Serpentine',
       quori: 'Eberron.Languages.Quori',
+      highKaluu: 'Eberron.Languages.HighKaluu',
+      stonegrind: 'Eberron.Languages.Stonegrind',
+      tauric: 'Eberron.Languages.Tauric',
+      wuuragaa: 'Eberron.Languages.Wuuragaa'
     },
   });
 }
