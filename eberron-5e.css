@@ -1,0 +1,6 @@
+.dnd5e2.damages-config.trait-selector .traits .trait-list li > i.bye::before {
+    content: "\1F991"
+}
+.dnd5e2.sheet.actor .pills-group .pill > i.bye::before {
+    content: "\1F991"
+}
