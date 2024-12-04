@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.10
+
+- Added squid icon for Byeshk
+- Added Keith Baker Patreon (KBP) as a source
+  - Added feats & item from Mark of Death bonus content
+
 ## 1.0.9
 
 - Added magic items from *Heart of Stone* to the equipment compendium
