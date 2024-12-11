@@ -2,10 +2,22 @@ folder: qw8oA9F6iQcwswuP
 name: Frozen Marionette
 type: spell
 _id: VNh940SA6PMZiOhq
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/water/ice-snowman.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You attempt to lock a creature within a tomb of ice, puppeteering it
+      against its comrades. The target must make a Strength saving throw, taking
+      5d8 cold damage and becoming &amp;Reference[restrained] on a failure. On a
+      success, the creature takes the damage but is not restrained. A restrained
+      creature can repeat the saving throw at the end of each of its turns to
+      end the effect. When a creature restrained by this spell is reduced to 0
+      hit points, you can use your reaction to puppeteer its frozen form,
+      immediately moving it up to 15 feet in a direction of your choice and
+      forcing it to make a single melee attack against a creature you can see.
+      </p><p><strong>At Higher Levels:</strong> When you cast this spell using a
+      spell slot of 4th level or higher, the damage increases by 1d8 for each
+      spell slot above 3rd.</p>
     chat: ''
   source:
     book: GGtX
@@ -15,20 +27,26 @@ system:
     rules: '2014'
     revision: 1
   activation:
-    type: ''
+    type: action
     condition: ''
     value: null
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: minute
   target:
     affects:
       choice: false
+      count: ''
+      type: creature
+      special: ''
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
-    units: ''
+    units: ft
+    special: ''
+    value: '60'
   uses:
     max: ''
     spent: 0
@@ -36,7 +54,7 @@ system:
   level: 3
   school: nec
   materials:
-    value: ''
+    value: a ball of white string
     consumed: false
     cost: 0
     supply: 0
@@ -44,23 +62,88 @@ system:
     mode: prepared
     prepared: false
   identifier: frozen-marionette
-  activities: {}
-  properties: []
+  activities:
+    KUNUOFtzVmnnVNtm:
+      type: save
+      _id: KUNUOFtzVmnnVNtm
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 5
+            denomination: 8
+            bonus: ''
+            types:
+              - cold
+            scaling:
+              mode: whole
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - str
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.1.2
   createdTime: 1726384669788
-  modifiedTime: 1726384669788
+  modifiedTime: 1733814611765
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!VNh940SA6PMZiOhq'
 

@@ -2,10 +2,26 @@ folder: qw8oA9F6iQcwswuP
 name: Fate's Threads
 type: spell
 _id: TUmwbRIj4sGOeMa9
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/creatures/invertebrates/spider-striped-web-red.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You conjure the illusion of an immense spider formed of shadow over a
+      15-foot radius area within range. Every creature of your choice within the
+      area when it appears must succeed on a Wisdom saving throw or believe
+      themselves tangled in strands of illusory webbing, becoming
+      &amp;Reference[restrained]. Creatures immune to being charmed are
+      unaffected. A creature can repeat the saving throw at the end of each of
+      its turns to end the effect, taking 1d10 piercing damage on a failure as
+      they witness the spider striking them with its claws. The effect also ends
+      if a restrained creature leaves the area of the spell.</p><p>When a
+      creature is reduced to 0 hit points while restrained in this way, you can
+      choose to sacrifice them to the Spinner of Shadows, causing their form to
+      be pulled upwards and swallowed by the illusion. If you do so, you gain
+      advantage on your next attack roll or ability check - and their body will
+      never be seen again.</p><p><strong>At Higher Levels:</strong> When you
+      cast this spell using a spell slot of 4th level or higher, the damage
+      increases by 1d10 for each spell slot above 3rd.</p>
     chat: ''
   source:
     book: GGtX
@@ -15,20 +31,28 @@ system:
     rules: '2014'
     revision: 1
   activation:
-    type: ''
+    type: action
     condition: ''
     value: null
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: minute
   target:
     affects:
       choice: false
+      count: ''
+      type: creature
+      special: ''
     template:
-      units: ''
+      units: ft
       contiguous: false
+      type: circle
+      size: '15'
+      count: ''
   range:
-    units: ''
+    units: ft
+    special: ''
+    value: '120'
   uses:
     max: ''
     spent: 0
@@ -36,7 +60,7 @@ system:
   level: 3
   school: ill
   materials:
-    value: ''
+    value: a cracked die
     consumed: false
     cost: 0
     supply: 0
@@ -44,23 +68,88 @@ system:
     mode: prepared
     prepared: false
   identifier: fates-threads
-  activities: {}
-  properties: []
+  activities:
+    9mY5KWiydudCJUvG:
+      type: save
+      _id: 9mY5KWiydudCJUvG
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: 10
+            bonus: ''
+            types:
+              - piercing
+            scaling:
+              mode: whole
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.1.2
   createdTime: 1726384669731
-  modifiedTime: 1726384669731
+  modifiedTime: 1733814517425
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!TUmwbRIj4sGOeMa9'
 

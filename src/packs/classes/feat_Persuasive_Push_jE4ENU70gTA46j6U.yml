@@ -5,11 +5,12 @@ system:
     value: >-
       <p>At 14th level, you've learned the secrets to how minds work and, more
       importantly, how to manipulate them. As an action, you can cast the
-      suggestion spell with no components other than speaking aloud the
-      suggested course of activity. When you cast the spell in this manner, it
-      does not require concentration.</p><p>You can use this feature a number of
-      times equal to your Charisma modifier (a minimum of once). You regain all
-      expended uses when you finish a long rest.</p>
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{suggestion}
+      spell with no components other than speaking aloud the suggested course of
+      activity. When you cast the spell in this manner, it does not require
+      concentration.</p><p>You can use this feature a number of times equal to
+      your Charisma modifier (a minimum of once). You regain all expended uses
+      when you finish a long rest.</p>
     chat: ''
   source:
     book: Archetypes of Eberron
@@ -28,71 +29,64 @@ system:
     subtype: ''
   requirements: College of Spies 14
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    FoO6liY11j1uEVGz:
+      type: cast
+      spell:
+        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion
+        challenge:
+          attack: null
+          save: null
+          override: false
+        level: '2'
+        properties:
+          - vocal
+          - somatic
+          - material
+        spellbook: true
+      _id: FoO6liY11j1uEVGz
+      sort: 0
       activation:
         type: action
-        value: 1
-        condition: ''
+        value: null
         override: false
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets:
+          - type: activityUses
+            value: '1'
+            scaling: {}
       description:
         chatFlavor: ''
       duration:
+        units: inst
         concentration: false
-        value: ''
-        units: ''
-        special: ''
         override: false
-      effects: []
       range:
-        units: ''
-        special: ''
         override: false
       target:
         template:
-          count: ''
           contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
+          units: ft
         affects:
-          count: ''
-          type: ''
           choice: false
-          special: ''
-        prompt: true
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
-        recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        recovery:
+          - period: lr
+            type: recoverAll
+        max: '@abilities.cha.mod'
+      name: ''
+      img: ''
   identifier: persuasive-push
   enchant: {}
   prerequisites:
     level: null
   properties: []
-img: icons/svg/book.svg
+img: icons/magic/control/mouth-smile-deception-purple.webp
 flags:
   dnd5e:
     riders:
@@ -107,9 +101,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.1.2
   createdTime: 1726384657051
-  modifiedTime: 1726384657051
+  modifiedTime: 1733809891618
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 14000
 ownership:

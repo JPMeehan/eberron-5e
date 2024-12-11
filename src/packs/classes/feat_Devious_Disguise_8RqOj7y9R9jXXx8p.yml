@@ -8,13 +8,15 @@ system:
       advantage on all ability checks made to maintain your disguise as another
       person.</li><li>You gain proficiency with a disguise kit. If you already
       have this proficiency, you gain proficiency with one tool of your
-      choice.</li><li>You add the spell disguise self to your spells known, but
-      it does not count against your normal number of bard spells known. If you
-      already know this spell, you can instead add another spell from the bard
-      spell list to your spells known, which must be of a level for which you
-      have spell slots. In addition, when you cast disguise self using a spell
-      slot of 2nd level, the duration increases to 8 hours. When you use a spell
-      slot of 3rd level or higher, the duration increases to 24 hours.</li></ul>
+      choice.</li><li>You add the spell
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{disguise
+      self} to your spells known, but it does not count against your normal
+      number of bard spells known. If you already know this spell, you can
+      instead add another spell from the bard spell list to your spells known,
+      which must be of a level for which you have spell slots. In addition, when
+      you cast disguise self using a spell slot of 2nd level, the duration
+      increases to 8 hours. When you use a spell slot of 3rd level or higher,
+      the duration increases to 24 hours.</li></ul>
     chat: ''
   source:
     book: Archetypes of Eberron
@@ -30,66 +32,13 @@ system:
     value: class
     subtype: ''
   requirements: College of Spies 3
-  activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
-      activation:
-        type: ''
-        value: null
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-      duration:
-        concentration: false
-        value: ''
-        units: ''
-        special: ''
-        override: false
-      effects: []
-      range:
-        units: ''
-        special: ''
-        override: false
-      target:
-        template:
-          count: ''
-          contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
-        affects:
-          count: ''
-          type: ''
-          choice: false
-          special: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        max: ''
-        recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+  activities: {}
   identifier: devious-disguise
   enchant: {}
   prerequisites:
     level: null
   properties: []
-img: icons/svg/book.svg
+img: icons/equipment/head/mask-carved-bird-grey-pink.webp
 flags:
   dnd5e:
     riders:
@@ -103,9 +52,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.1.2
   createdTime: 1726384641050
-  modifiedTime: 1726384641050
+  modifiedTime: 1733809975580
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 3000
 ownership:

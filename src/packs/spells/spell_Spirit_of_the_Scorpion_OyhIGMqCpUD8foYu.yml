@@ -2,10 +2,24 @@ folder: qw8oA9F6iQcwswuP
 name: Spirit of the Scorpion
 type: spell
 _id: OyhIGMqCpUD8foYu
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/creatures/invertebrates/scorpion-yellow.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You call forth a nature spirit to bestow your allies with the hunter’s
+      cunning of Vulkoor. The intangible spirit appears in a space that is a
+      10-foot cube you can see within range, appearing as a transparent giant
+      scorpion.</p><p>Until the spell ends, whenever you or a creature you can
+      see moves into the spirit’s space for the first time on a turn or starts
+      its turn there, you can cause the spirit to grant them its striking venom.
+      The next time the creature hits with a melee attack, the target must make
+      a Constitution saving throw against your spell save DC, taking 2d6 poison
+      damage and becoming &amp;Reference[poisoned] until the end of its next
+      turn on a failure. On a success, a creature takes half as much damage, and
+      is not poisoned.</p><p>As a bonus action on your turn, you can move the
+      spirit up to 30 feet to a space you can see. The spirit can grant this
+      blessing a number of times equal to 1 + your spellcasting ability modifier
+      (minimum of twice), and disappears after doing so</p>
     chat: ''
   source:
     book: GGtX
@@ -15,20 +29,28 @@ system:
     rules: '2014'
     revision: 1
   activation:
-    type: ''
+    type: bonus
     condition: ''
     value: null
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: minute
   target:
     affects:
       choice: false
+      count: ''
+      type: space
+      special: ''
     template:
-      units: ''
+      units: ft
       contiguous: false
+      type: cube
+      size: '10'
+      count: ''
   range:
-    units: ''
+    units: ft
+    special: ''
+    value: '60'
   uses:
     max: ''
     spent: 0
@@ -44,23 +66,127 @@ system:
     mode: prepared
     prepared: false
   identifier: spirit-of-the-scorpion
-  activities: {}
-  properties: []
+  activities:
+    UJASgIERAtsxzjs3:
+      type: utility
+      name: Cast
+      _id: UJASgIERAtsxzjs3
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+    KMZwMSA8jzVmNoNj:
+      type: save
+      _id: KMZwMSA8jzVmNoNj
+      sort: 0
+      activation:
+        type: special
+        value: null
+        override: true
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: true
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          count: ''
+          type: creature
+        override: true
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 2
+            denomination: 6
+            bonus: ''
+            types:
+              - poison
+            scaling:
+              mode: ''
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.1.2
   createdTime: 1726384669555
-  modifiedTime: 1726384669555
+  modifiedTime: 1733888459659
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!OyhIGMqCpUD8foYu'
 

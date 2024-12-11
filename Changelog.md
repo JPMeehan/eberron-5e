@@ -5,6 +5,8 @@
 - Added squid icon for Byeshk
 - Added Keith Baker Patreon (KBP) as a source
   - Added feats & item from Mark of Death bonus content
+- Updated College of Spies
+- Implemented most 3rd level spells
 
 ## 1.0.9
 

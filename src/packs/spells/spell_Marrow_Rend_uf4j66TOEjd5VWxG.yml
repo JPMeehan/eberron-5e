@@ -2,10 +2,20 @@ folder: qw8oA9F6iQcwswuP
 name: Marrow Rend
 type: spell
 _id: uf4j66TOEjd5VWxG
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/death/bones-crossed-gray.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You horrifically twist the anatomy of a creature you can see within 60
+      feet of you. It must succeed on a Constitution saving throw or take 4d10
+      necrotic damage and fall &amp;Reference[prone]. On subsequent turns, you
+      can use your action to deal 4d10 necrotic damage to the creature. The
+      target cannot stand up from prone while you concentrate, and can repeat
+      the saving throw at the end of each of their turns to end the spell.
+      </p><p>Creatures without bones, such as incorporeal undead or elementals,
+      are unaffected by this spell.</p><p><strong>At Higher Levels:</strong>
+      When you cast this spell using a spell slot of 4th level or higher, the
+      damage increases by 1d10 for each spell slot above 3rd.</p>
     chat: ''
   source:
     book: GGtX
@@ -15,20 +25,25 @@ system:
     rules: '2014'
     revision: 1
   activation:
-    type: ''
+    type: action
     condition: ''
     value: null
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: minute
   target:
     affects:
       choice: false
+      count: ''
+      type: ''
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
-    units: ''
+    units: ft
+    special: ''
+    value: '60'
   uses:
     max: ''
     spent: 0
@@ -36,7 +51,7 @@ system:
   level: 3
   school: nec
   materials:
-    value: ''
+    value: a small ball of white clay
     consumed: false
     cost: 0
     supply: 0
@@ -44,23 +59,87 @@ system:
     mode: prepared
     prepared: false
   identifier: marrow-rend
-  activities: {}
-  properties: []
+  activities:
+    0wJFrIw9cRHGKvVR:
+      type: save
+      _id: 0wJFrIw9cRHGKvVR
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 10
+            bonus: ''
+            types: []
+            scaling:
+              mode: whole
+              number: 1
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.1.2
   createdTime: 1726384670508
-  modifiedTime: 1726384670508
+  modifiedTime: 1733887624295
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!uf4j66TOEjd5VWxG'
 

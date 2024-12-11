@@ -2,10 +2,26 @@ folder: qw8oA9F6iQcwswuP
 name: Spirit of the Displacer Beast
 type: spell
 _id: ywM56L8zvlxq83L0
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/defensive/illusion-evasion-echo-purple.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You call forth a nature spirit to ward off attacks through illusion and
+      cunning. The intangible spirit appears in a space that is a 10-foot cube
+      you can see within range, appearing as an intangible displacer beast.
+      </p><p>Until the spell ends, whenever you or a creature you can see moves
+      into the spirit’s space for the first time on a turn or starts its turn
+      there, you can cause the spirit to grant it an illusory copy that masks
+      its movements. Whenever a creature with an illusory copy is hit by an
+      attack, the attacker must roll a d6. On a result of 4-6, the attack hits
+      the copy instead, dispelling it but leaving the true target undamaged and
+      unaffected. A creature is unaffected by this spell’s illusory duplicates
+      if it can't see, if it relies on senses other than sight, such as
+      blindsight, or if it can perceive illusions as false, as with truesight.
+      </p><p>As a bonus action on your turn, you can move the spirit up to 30
+      feet to a space you can see. The spirit can grant illusions a number of
+      times equal to 1 + your spellcasting ability modifier (minimum of twice),
+      and disappears after doing so</p>
     chat: ''
   source:
     book: GGtX
@@ -15,20 +31,28 @@ system:
     rules: '2014'
     revision: 1
   activation:
-    type: ''
+    type: bonus
     condition: ''
     value: null
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: minute
   target:
     affects:
       choice: false
+      count: ''
+      type: space
+      special: ''
     template:
-      units: ''
+      units: ft
       contiguous: false
+      type: cube
+      size: '10'
+      count: ''
   range:
-    units: ''
+    units: ft
+    special: ''
+    value: '60'
   uses:
     max: ''
     spent: 0
@@ -44,23 +68,72 @@ system:
     mode: prepared
     prepared: false
   identifier: spirit-of-the-displacer-beast
-  activities: {}
-  properties: []
+  activities:
+    HK9IMKIuAni489Fa:
+      type: utility
+      name: Cast
+      _id: HK9IMKIuAni489Fa
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: true
+        name: Displace Attack
+        formula: 1d6
+      img: ''
+      appliedEffects: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.1.2
   createdTime: 1726384670611
-  modifiedTime: 1726384670611
+  modifiedTime: 1733888358687
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!ywM56L8zvlxq83L0'
 

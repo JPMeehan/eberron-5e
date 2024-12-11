@@ -2,10 +2,29 @@ folder: qw8oA9F6iQcwswuP
 name: Dream Spirit
 type: spell
 _id: 4oGzWdFR7QfMES4X
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/control/fear-fright-monster-purple-blue.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You reach through the faded link to Dal Quor, the Region of Dreams, and
+      for the duration of this spell you pull the spirit of a predatory,
+      drifting dream creature through to your plane. The dream spirit remains on
+      your current plane for the duration of this spell or until you cast this
+      spell again and it attacks creatures you direct it to. The dream spirit
+      does not occupy a space, and is immune to all damage. </p><p>When you cast
+      the spell, make a melee spell attack against a creature within 5 feet of
+      the dream spirit. On a hit, the target takes psychic damage equal to 2d6 +
+      your spellcasting ability modifier. As a bonus action on your turn, you
+      can move the dream spirit up to 30 feet and repeat the attack against a
+      creature within 5 feet of it. </p><p>The dream spirit attacks by
+      telepathically sensing a target’s psychic link to Dal Quor and briefly
+      becoming the creature’s worst nightmare, but is only visible as such to
+      the target. Otherwise, the dream spirit is visible only as a distinct haze
+      in the air. Creatures who do not dream, such as kalashtar and most
+      constructs, are immune to the dream spirit’s attacks. </p><p><strong>At
+      Higher Levels.</strong> When you cast this spell using a spell slot of 4th
+      level or higher, the damage increases by 1d6 for every two slot levels
+      above 3rd.</p>
     chat: ''
   source:
     book: TGtA
@@ -15,20 +34,26 @@ system:
     rules: '2014'
     revision: 1
   activation:
-    type: ''
+    type: bonus
     condition: ''
     value: null
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: minute
   target:
     affects:
       choice: false
+      count: ''
+      type: space
+      special: ''
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
-    units: ''
+    units: ft
+    special: ''
+    value: '60'
   uses:
     max: ''
     spent: 0
@@ -45,7 +70,9 @@ system:
     prepared: false
   identifier: dream-spirit
   activities: {}
-  properties: []
+  properties:
+    - vocal
+    - somatic
 effects: []
 sort: 0
 ownership:
@@ -57,9 +84,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.1.2
   createdTime: 1726384668918
-  modifiedTime: 1726384668918
+  modifiedTime: 1733883621832
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!4oGzWdFR7QfMES4X'
 

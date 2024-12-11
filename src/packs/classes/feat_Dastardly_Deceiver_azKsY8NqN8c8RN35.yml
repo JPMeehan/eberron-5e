@@ -3,14 +3,16 @@ type: feat
 system:
   description:
     value: >-
-      <p>At 6th level, you add the spell alter self to your spells known, but it
-      does not count against your normal number of bard spells known. If you
-      already know this spell, you can intesad add another spell from the bard
-      spell list to your spells known, which must be of a level for which you
-      have spell slots. In addition, when you cast alter self using a spell slot
-      of 3rd level, you can maintain your concentration on the spell for up to 8
-      hours. When you use a spell slot of 4th level or higher, the spell's
-      duration becomes 24 hours and it no longer requires concentration.</p>
+      <p>At 6th level, you add the spell
+      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{alter
+      self} to your spells known, but it does not count against your normal
+      number of bard spells known. If you already know this spell, you can
+      instead add another spell from the bard spell list to your spells known,
+      which must be of a level for which you have spell slots. In addition, when
+      you cast alter self using a spell slot of 3rd level, you can maintain your
+      concentration on the spell for up to 8 hours. When you use a spell slot of
+      4th level or higher, the spell's duration becomes 24 hours and it no
+      longer requires concentration.</p>
     chat: ''
   source:
     book: Archetypes of Eberron
@@ -26,66 +28,13 @@ system:
     value: class
     subtype: ''
   requirements: College of Spies 6
-  activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
-      activation:
-        type: ''
-        value: null
-        condition: ''
-        override: false
-      consumption:
-        targets: []
-        scaling:
-          allowed: false
-          max: ''
-        spellSlot: true
-      description:
-        chatFlavor: ''
-      duration:
-        concentration: false
-        value: ''
-        units: ''
-        special: ''
-        override: false
-      effects: []
-      range:
-        units: ''
-        special: ''
-        override: false
-      target:
-        template:
-          count: ''
-          contiguous: false
-          type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
-        affects:
-          count: ''
-          type: ''
-          choice: false
-          special: ''
-        prompt: true
-        override: false
-      uses:
-        spent: 0
-        max: ''
-        recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+  activities: {}
   identifier: dastardly-deceiver
   enchant: {}
   prerequisites:
     level: null
   properties: []
-img: icons/svg/book.svg
+img: icons/magic/control/silhouette-hold-change-green.webp
 flags:
   dnd5e:
     riders:
@@ -99,9 +48,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.1.2
   createdTime: 1726384652719
-  modifiedTime: 1726384652719
+  modifiedTime: 1733809993834
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 6000
 ownership:

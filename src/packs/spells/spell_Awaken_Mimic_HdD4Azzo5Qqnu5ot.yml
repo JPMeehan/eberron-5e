@@ -2,10 +2,21 @@ folder: qw8oA9F6iQcwswuP
 name: Awaken Mimic
 type: spell
 _id: HdD4Azzo5Qqnu5ot
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/containers/boxes/crate-heavy-brown.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You manipulate the energies of Kythri to induce life within a
+      non-magical object you can see within range, turning it temporarily into a
+      mimic. The object must be Medium or smaller in size. The mimic is friendly
+      to you and your companions, and takes its turns immediately after yours in
+      the initiative order. It obeys any verbal commands you give it (no action
+      required). If you don’t issue any commands, it will continue mimicking the
+      object it once was in an effort to trap and attack food. When the spell
+      ends, the mimic returns to being an inanimate object. </p><p><strong>At
+      Higher Levels:</strong> When you cast this spell using a spell slot of 5th
+      or 6th level, the duration of the spell increases to 24 hours. When you
+      use a spell slot of 7th level or higher, the spell is permanent.</p>
     chat: ''
   source:
     book: GGtX
@@ -15,20 +26,26 @@ system:
     rules: '2014'
     revision: 1
   activation:
-    type: ''
+    type: minute
     condition: ''
-    value: null
+    value: 1
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: hour
   target:
     affects:
       choice: false
+      count: ''
+      type: object
+      special: ''
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
-    units: ''
+    units: ft
+    special: ''
+    value: '30'
   uses:
     max: ''
     spent: 0
@@ -36,31 +53,86 @@ system:
   level: 3
   school: trs
   materials:
-    value: ''
+    value: a flask of enchanted glue worth 200gp
     consumed: false
-    cost: 0
+    cost: 200
     supply: 0
   preparation:
     mode: prepared
     prepared: false
   identifier: awaken-mimic
-  activities: {}
-  properties: []
+  activities:
+    sEQRRhAU2n2wmXqT:
+      type: summon
+      _id: sEQRRhAU2n2wmXqT
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      bonuses: {}
+      creatureSizes: []
+      creatureTypes: []
+      match:
+        attacks: false
+        proficiency: false
+        saves: false
+      profiles:
+        - uuid: Compendium.dnd5e.monsters.Actor.hx240PG5r5qpRet3
+          _id: KDzwifWGmaTfC2GR
+          level:
+            min: null
+            max: null
+          types: []
+      summon:
+        prompt: true
+  properties:
+    - vocal
+    - somatic
+    - material
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.1.2
   createdTime: 1726384669306
-  modifiedTime: 1726384669306
+  modifiedTime: 1733812381032
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!HdD4Azzo5Qqnu5ot'
 
