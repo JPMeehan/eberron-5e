@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.11
+
+- Added Map Perilous stat blocks
+  - Cannith and Orien Dragonmarked House Agents
+  - Trust Agents
+  - Mournland Warforged
+- Added Threat Dispatch stat blocks
+  - Warforged
+
 ## 1.0.10
 
 - Added squid icon for Byeshk
