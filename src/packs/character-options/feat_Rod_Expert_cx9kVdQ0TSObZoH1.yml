@@ -2,7 +2,7 @@ folder: sNRszPIqI53KHkmM
 name: Rod Expert
 type: feat
 _id: cx9kVdQ0TSObZoH1
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/weapons/staves/staff-hooked-banded.webp
 system:
   description:
     value: >-
@@ -54,7 +54,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384680455
-  modifiedTime: 1726813656769
+  modifiedTime: 1738041314659
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!cx9kVdQ0TSObZoH1'
 

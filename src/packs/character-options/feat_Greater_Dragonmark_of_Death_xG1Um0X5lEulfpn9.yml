@@ -44,6 +44,28 @@ system:
     level: 4
   properties: []
   requirements: Lesser Dragonmark of Death
+  advancement:
+    - _id: tgTNCOzHgJ6sGo8o
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+          - dex
+          - con
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
 effects: []
 sort: 0
 ownership:
@@ -55,9 +77,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.2.2
   createdTime: 1733273510000
-  modifiedTime: 1733273635014
+  modifiedTime: 1738042972199
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!xG1Um0X5lEulfpn9'
 

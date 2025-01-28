@@ -2,7 +2,7 @@ folder: sNRszPIqI53KHkmM
 name: Winter Initiate
 type: feat
 _id: zEWCWbcbrNQiT0UH
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/nature/leaf-glow-teal.webp
 system:
   description:
     value: >-
@@ -49,6 +49,29 @@ system:
   identifier: winter-initiate
   activities: {}
   enchant: {}
+  advancement:
+    - _id: rAGSMByEBbTKwwJU
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+          - dex
+          - int
+          - cha
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
 effects: []
 sort: 0
 ownership:
@@ -61,9 +84,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.2
+  systemVersion: 4.2.2
   createdTime: 1726384680781
-  modifiedTime: 1726813697668
+  modifiedTime: 1738042753955
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!zEWCWbcbrNQiT0UH'
 

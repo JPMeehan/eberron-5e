@@ -8,15 +8,16 @@ system:
       your Shapechanging trait, you can choose one of the following benefits,
       which lasts until you use your Shapechanging trait again. Some of these
       benefits require specific physical features, such as gills or claws, that
-      can be seen by observers.</p><h5>Aquatic Adaptation.</h5><p>You adapt your
-      body to an aquatic environment, sprouting gills and growing webbing
-      between your fingers. You can breathe underwater and gain a swimming speed
-      equal to your walking speed.</p><h5>Darkvision.</h5><p>You adapt your eyes
-      and gain darkvision with a range of 60 feet.</p><h5>Natural
-      Weapons.</h5><p>You grow claws, fangs, spines, horns, or a different
-      natural weapon of your choice.Your unarmed strikes deal 1d6 bludgeoning,
+      can be seen by observers.</p><p><strong>Aquatic Adaptation.</strong> You
+      adapt your body to an aquatic environment, sprouting gills and growing
+      webbing between your fingers. You can breathe underwater and gain a
+      swimming speed equal to your walking
+      speed.</p><p><strong>Darkvision.</strong> You adapt your eyes and gain
+      darkvision with a range of 60 feet.</p><p><strong>Natural
+      Weapons.</strong> You grow claws, fangs, spines, horns, or a different
+      natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning,
       piercing, or slashing damage, as appropriate to the natural weapon you
-      chose, and you are proficient with your unarmed strikes.</p><p></p>
+      chose, and you are proficient with your unarmed strikes.</p>
     chat: ''
   source:
     custom: ExE
@@ -89,6 +90,25 @@ system:
   prerequisites:
     level: null
   properties: []
+  advancement:
+    - _id: KKhQhgAmbXQtBY8X
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 1
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 0
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -111,9 +131,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.2.2
   createdTime: 1726384680746
-  modifiedTime: 1726384680746
+  modifiedTime: 1738040143895
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: shSnsK46FmtI9QDk
 sort: 0

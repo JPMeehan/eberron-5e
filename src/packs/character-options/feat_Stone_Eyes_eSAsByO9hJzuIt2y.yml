@@ -2,7 +2,7 @@ folder: sNRszPIqI53KHkmM
 name: Stone Eyes
 type: feat
 _id: eSAsByO9hJzuIt2y
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/perception/eye-ringed-glow-angry-small-red.webp
 system:
   description:
     value: >-
@@ -52,7 +52,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384680470
-  modifiedTime: 1726813669766
+  modifiedTime: 1738041385767
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!eSAsByO9hJzuIt2y'
 

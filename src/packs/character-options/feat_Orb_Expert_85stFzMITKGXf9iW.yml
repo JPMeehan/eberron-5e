@@ -2,7 +2,7 @@ folder: sNRszPIqI53KHkmM
 name: Orb Expert
 type: feat
 _id: 85stFzMITKGXf9iW
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/unholy/orb-rays-blue.webp
 system:
   description:
     value: >-
@@ -56,7 +56,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384679948
-  modifiedTime: 1726813652300
+  modifiedTime: 1738041128835
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!85stFzMITKGXf9iW'
 

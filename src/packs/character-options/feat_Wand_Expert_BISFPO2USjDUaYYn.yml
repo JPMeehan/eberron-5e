@@ -2,7 +2,7 @@ folder: sNRszPIqI53KHkmM
 name: Wand Expert
 type: feat
 _id: BISFPO2USjDUaYYn
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/weapons/wands/wand-carved-fire.webp
 system:
   description:
     value: >-
@@ -52,7 +52,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384680001
-  modifiedTime: 1726813684868
+  modifiedTime: 1738041516025
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!BISFPO2USjDUaYYn'
 

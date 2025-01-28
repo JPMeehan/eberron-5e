@@ -32,6 +32,25 @@ system:
   prerequisites:
     level: null
   properties: []
+  advancement:
+    - _id: fM8yvZM4W0ORZ7Sx
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked: []
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
@@ -55,9 +74,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.2.2
   createdTime: 1726384680052
-  modifiedTime: 1726384680052
+  modifiedTime: 1738040298037
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: E2v0OpgaoG4WRmLL
 sort: 0

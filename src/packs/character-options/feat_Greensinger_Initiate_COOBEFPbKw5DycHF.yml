@@ -2,7 +2,7 @@ folder: sNRszPIqI53KHkmM
 name: Greensinger Initiate
 type: feat
 _id: COOBEFPbKw5DycHF
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/nature/leaf-glow-green.webp
 system:
   description:
     value: >-
@@ -46,6 +46,29 @@ system:
   identifier: greensinger-initiate
   activities: {}
   enchant: {}
+  advancement:
+    - _id: eT3mW1uh3kJtP99o
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+          - dex
+          - con
+          - int
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
 effects: []
 sort: 0
 ownership:
@@ -58,9 +81,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.2
+  systemVersion: 4.2.2
   createdTime: 1726384680017
-  modifiedTime: 1726813644402
+  modifiedTime: 1738041096001
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!COOBEFPbKw5DycHF'
 

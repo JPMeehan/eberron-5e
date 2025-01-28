@@ -2,6 +2,7 @@
 
 ## 1.0.11
 
+- Half Feats
 - Added Map Perilous stat blocks
   - Cannith and Orien Dragonmarked House Agents
   - Trust Agents

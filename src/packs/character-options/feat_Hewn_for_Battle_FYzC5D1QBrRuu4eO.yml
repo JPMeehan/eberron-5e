@@ -2,7 +2,7 @@ folder: sNRszPIqI53KHkmM
 name: Hewn for Battle
 type: feat
 _id: FYzC5D1QBrRuu4eO
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/defensive/armor-stone-skin.webp
 system:
   description:
     value: >-
@@ -42,6 +42,29 @@ system:
   identifier: hewn-for-battle
   activities: {}
   enchant: {}
+  advancement:
+    - _id: r0KjlzADJHg4zJZC
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - dex
+          - int
+          - wis
+          - cha
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
 effects: []
 sort: 0
 ownership:
@@ -54,9 +77,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.2
+  systemVersion: 4.2.2
   createdTime: 1726384680113
-  modifiedTime: 1726813648983
+  modifiedTime: 1738041114366
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!FYzC5D1QBrRuu4eO'
 

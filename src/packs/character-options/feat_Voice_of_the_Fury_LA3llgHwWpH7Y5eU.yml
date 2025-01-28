@@ -2,7 +2,7 @@ folder: sNRszPIqI53KHkmM
 name: Voice of the Fury
 type: feat
 _id: LA3llgHwWpH7Y5eU
-img: systems/dnd5e/icons/svg/items/feature.svg
+img: icons/magic/sonic/scream-wail-shout-teal.webp
 system:
   description:
     value: >-
@@ -105,6 +105,28 @@ system:
       appliedEffects:
         - JG82zjzHFQqoVsa6
   enchant: {}
+  advancement:
+    - _id: SdCRNQFg9gA0r5Wf
+      type: AbilityScoreImprovement
+      configuration:
+        cap: null
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+          - con
+          - int
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
 effects:
   - name: Charm Person
     origin: Compendium.eberron-5e.character-options.Item.LA3llgHwWpH7Y5eU
@@ -160,9 +182,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.2
+  systemVersion: 4.2.2
   createdTime: 1726384680167
-  modifiedTime: 1726813680529
+  modifiedTime: 1738041503182
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!LA3llgHwWpH7Y5eU'
 
