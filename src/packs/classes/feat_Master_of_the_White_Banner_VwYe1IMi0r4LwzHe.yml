@@ -5,12 +5,13 @@ system:
     value: >-
       <p>At 20th level, you can infuse yourself with the martial pride and
       necromantic might of Karrnath. As an action, you gain the following
-      benefits for 1 hour:</p><p>You have immunity to cold and necrotic damage.
-      When you take the Attack action on your turn, you and any undead creatures
-      under your control within 30 feet of you can make one additional attack as
-      part of that action. You have resistance to bludgeoning, piercing, and
-      slashing damage from nonmagical weapons.</p><p>Once you use this feature,
-      you can't use it again until you finish a long rest.</p>
+      benefits for 1 hour:</p><ul><li><p>You have immunity to cold and necrotic
+      damage. </p></li><li><p>When you take the Attack action on your turn, you
+      and any undead creatures under your control within 30 feet of you can make
+      one additional attack as part of that action. </p></li><li><p>You have
+      resistance to bludgeoning, piercing, and slashing damage from nonmagical
+      weapons.</p></li></ul><p>Once you use this feature, you can't use it again
+      until you finish a long rest.</p>
     chat: ''
   source:
     book: Archetypes of Eberron
@@ -57,7 +58,8 @@ system:
         units: ''
         special: ''
         override: false
-      effects: []
+      effects:
+        - _id: 2mT1eZCGEl2EZweB
       range:
         units: ''
         special: ''
@@ -93,14 +95,70 @@ system:
   prerequisites:
     level: null
   properties: []
-img: icons/svg/book.svg
+img: icons/magic/death/skull-flames-white-blue.webp
 flags:
   dnd5e:
     riders:
       activity: []
       effect: []
     migratedUses: 1
-effects: []
+effects:
+  - name: Master of the White Banner
+    img: icons/magic/death/skull-flames-white-blue.webp
+    origin: Compendium.eberron-5e.classes.Item.VwYe1IMi0r4LwzHe
+    transfer: true
+    _id: 2mT1eZCGEl2EZweB
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.di.value
+        mode: 2
+        value: cold
+        priority: null
+      - key: system.traits.di.value
+        mode: 2
+        value: necrotic
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: bludgeoning
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: piercing
+        priority: null
+      - key: system.traits.dr.value
+        mode: 2
+        value: slashing
+        priority: null
+      - key: system.traits.dr.bypasses
+        mode: 2
+        value: mgc
+        priority: null
+    disabled: true
+    duration:
+      startTime: null
+      seconds: 3600
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.2.2
+      createdTime: 1738999386569
+      modifiedTime: 1738999461939
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!VwYe1IMi0r4LwzHe.2mT1eZCGEl2EZweB'
 folder: pfgIPIhOb1vLietp
 _id: VwYe1IMi0r4LwzHe
 _stats:
@@ -108,9 +166,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.2.2
   createdTime: 1726384650268
-  modifiedTime: 1726384650268
+  modifiedTime: 1738999386619
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 20000
 ownership:

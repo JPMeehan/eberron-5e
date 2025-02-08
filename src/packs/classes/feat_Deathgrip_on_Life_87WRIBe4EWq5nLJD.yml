@@ -87,13 +87,49 @@ system:
   prerequisites:
     level: null
   properties: []
-img: icons/svg/book.svg
+img: icons/magic/unholy/hand-claw-glow-orange.webp
 flags:
   dnd5e:
     riders:
       activity: []
       effect: []
-effects: []
+effects:
+  - name: Deathgrip on Life
+    img: icons/magic/unholy/hand-claw-glow-orange.webp
+    origin: Compendium.eberron-5e.classes.Item.87WRIBe4EWq5nLJD
+    _id: 26QOd9UsdtimuuI7
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.hp.bonuses.level
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.2.2
+      createdTime: 1739000317532
+      modifiedTime: 1739000460928
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!87WRIBe4EWq5nLJD.26QOd9UsdtimuuI7'
 folder: XuAcllgrcLN9p5sk
 _id: 87WRIBe4EWq5nLJD
 _stats:
@@ -103,7 +139,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384640893
-  modifiedTime: 1726384640893
+  modifiedTime: 1739000305991
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 1000
 ownership:

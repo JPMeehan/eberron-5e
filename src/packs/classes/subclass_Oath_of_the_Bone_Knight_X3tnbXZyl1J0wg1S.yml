@@ -61,6 +61,8 @@ system:
         items:
           - uuid: Compendium.eberron-5e.classes.Item.zsFgccTIP2uaAvtw
             optional: false
+          - uuid: Compendium.eberron-5e.classes.Item.XyQGa6VQDrbfZP7z
+            optional: false
         optional: false
         spell: null
       value: {}
@@ -78,21 +80,152 @@ system:
       level: 20
       title: Sacred Oath Feature
       type: ItemGrant
-    - _id: WnfE0J6NMRlaW3j3
+    - _id: qygYnKymiDrSwv73
+      type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.eberron-5e.classes.Item.06xb6bqfojtRwiCz
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBane000000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 3
+      title: Oath Spells
+      hint: ''
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD
+            optional: false
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGentleRepo
             optional: false
         optional: false
-        spell: null
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
       value: {}
+      level: 5
+      title: Oath Spells
+      hint: ''
+      _id: iWCCrhYwKLi65FHf
+    - type: ItemGrant
+      configuration:
+        items:
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBane000000
+          - optional: false
+            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 9
+      title: Oath Spells
+      hint: ''
+      _id: ur5gJVtZQKY9eSOZ
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 13
+      title: Oath Spells
+      hint: ''
+      _id: rUuQ5pJ9Mj5askZU
+    - type: ItemGrant
+      configuration:
+        items:
+          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000
+            optional: false
+        optional: false
+        spell:
+          ability:
+            - cha
+          preparation: always
+          uses:
+            max: ''
+            per: ''
+            requireSlot: false
+      value: {}
+      level: 17
+      title: Oath Spells
+      hint: ''
+      _id: gHZ2bgECPFUVlES1
+    - _id: Fa8AOJxIGIDzUWuz
+      type: ScaleValue
+      configuration:
+        identifier: ''
+        type: cr
+        distance:
+          units: ''
+        scale:
+          '3':
+            value: 0.25
+          '5':
+            value: 0.5
+          '8':
+            value: 1
+          '11':
+            value: 2
+          '14':
+            value: 3
+          '17':
+            value: 4
+      value: {}
+      title: Undead Control
+      hint: ''
+    - _id: 9qpvr2jnKDUVYwkH
+      type: Trait
+      configuration:
+        allowReplacements: false
+        choices: []
+        grants:
+          - di:poison
+          - ci:poisoned
+        mode: default
+      value:
+        chosen: []
       level: 15
-      title: Sacred Oath Feature
-      type: ItemGrant
+      title: Undead Resilience
+      hint: |-
+        At 15th level, your long service with the undead has
+                    bestowed you with some of their fortitude. You become
+                    immune to poison damage and the poisoned condition.
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 effects: []
 sort: 500
 ownership:
@@ -104,9 +237,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.2.2
   createdTime: 1726384650984
-  modifiedTime: 1726384650984
+  modifiedTime: 1739000147525
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!X3tnbXZyl1J0wg1S'
 

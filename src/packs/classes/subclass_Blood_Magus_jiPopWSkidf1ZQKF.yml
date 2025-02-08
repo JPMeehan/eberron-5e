@@ -20,7 +20,7 @@ system:
       Principality in Lhazaar holds Blood Magi both living and undead; as
       vampires possess the most neceesary of components—blood—they too can learn
       this art. Rumors also tell of Blood Magi hiding deep in the Shadow Marches
-      and the Demon Wastes. </p>
+      and the Demon Wastes.</p>
     chat: ''
   source:
     book: Archetypes of Eberron
@@ -82,7 +82,8 @@ system:
   spellcasting:
     progression: none
     ability: ''
-    preparation: {}
+    preparation:
+      formula: ''
 effects: []
 sort: 500
 ownership:
@@ -94,9 +95,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.2.2
   createdTime: 1726384657354
-  modifiedTime: 1726384657354
+  modifiedTime: 1739000875907
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!jiPopWSkidf1ZQKF'
 

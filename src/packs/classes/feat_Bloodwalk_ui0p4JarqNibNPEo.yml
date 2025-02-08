@@ -93,7 +93,7 @@ system:
   prerequisites:
     level: null
   properties: []
-img: icons/svg/book.svg
+img: icons/magic/unholy/projectile-smoke-trail-pink.webp
 flags:
   dnd5e:
     riders:
@@ -109,7 +109,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384663240
-  modifiedTime: 1726384663240
+  modifiedTime: 1739000862039
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 18000
 ownership:

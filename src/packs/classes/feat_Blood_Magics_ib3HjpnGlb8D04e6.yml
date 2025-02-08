@@ -36,9 +36,14 @@ system:
         condition: ''
         override: false
       consumption:
-        targets: []
+        targets:
+          - type: itemUses
+            value: 0 - @scaling
+            target: Compendium.dnd-players-handbook.classes.Item.phbscrFontOfMagi
+            scaling:
+              mode: ''
         scaling:
-          allowed: false
+          allowed: true
           max: ''
         spellSlot: true
       description:
@@ -46,12 +51,12 @@ system:
       duration:
         concentration: false
         value: ''
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -79,24 +84,25 @@ system:
           allow: false
           bonus: ''
         parts:
-          - number: 1
-            denomination: 6
-            bonus: ''
-            types: []
-            custom:
+          - custom:
               enabled: false
               formula: ''
+            number: 1
+            denomination: '6'
+            bonus: ''
+            types: []
             scaling:
               mode: whole
-              number: null
-              formula: ''
       sort: 0
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: blood-magics
   enchant: {}
   prerequisites:
     level: null
   properties: []
-img: icons/svg/book.svg
+img: icons/magic/unholy/projectiles-blood-salvo-red.webp
 flags:
   dnd5e:
     riders:
@@ -110,9 +116,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.2.2
   createdTime: 1726384656713
-  modifiedTime: 1726384656713
+  modifiedTime: 1739000724524
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 6000
 ownership:

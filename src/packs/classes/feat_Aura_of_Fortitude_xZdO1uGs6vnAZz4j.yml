@@ -82,13 +82,49 @@ system:
   prerequisites:
     level: null
   properties: []
-img: icons/svg/book.svg
+img: icons/magic/death/skull-horned-goat-pentagram-red.webp
 flags:
   dnd5e:
     riders:
       activity: []
       effect: []
-effects: []
+effects:
+  - name: Aura of Fortitude
+    img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+    origin: Compendium.eberron-5e.classes.Item.xZdO1uGs6vnAZz4j
+    _id: kp70PpMAYpgHcsTI
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dr.value
+        mode: 2
+        value: necrotic
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.2.2
+      createdTime: 1739000111457
+      modifiedTime: 1739000126453
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!xZdO1uGs6vnAZz4j.kp70PpMAYpgHcsTI'
 folder: pfgIPIhOb1vLietp
 _id: xZdO1uGs6vnAZz4j
 _stats:
@@ -98,7 +134,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384664769
-  modifiedTime: 1726384664769
+  modifiedTime: 1738999263795
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 7000
 ownership:

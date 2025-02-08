@@ -1,0 +1,265 @@
+folder: pfgIPIhOb1vLietp
+name: Channel Divinity
+type: feat
+_id: XyQGa6VQDrbfZP7z
+img: icons/magic/death/hand-undead-skeleton-fire-pink.webp
+system:
+  activities:
+    8gI9lDOYi9f5NgBW:
+      type: enchant
+      name: Death Strike
+      _id: 8gI9lDOYi9f5NgBW
+      sort: 0
+      activation:
+        type: bonus
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbpdnChannelDiv
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: sON8cvwgTUJj2GS1
+      range:
+        override: false
+        units: self
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      enchant:
+        identifier: ''
+      restrictions:
+        allowMagical: true
+        categories: []
+        properties: []
+        type: weapon
+      img: ''
+      appliedEffects:
+        - sON8cvwgTUJj2GS1
+    auJUYesDolNjcwkT:
+      type: save
+      name: Seize Control
+      _id: auJUYesDolNjcwkT
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+        condition: ''
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: Compendium.dnd-players-handbook.classes.Item.phbpdnChannelDiv
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: crl4zqCS0qEEeupN
+      range:
+        override: false
+        units: ft
+        special: ''
+        value: '30'
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: ''
+        affects:
+          choice: false
+          type: creature
+          count: '@abilities.cha.mod'
+          special: Undead
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts: []
+        onSave: half
+      save:
+        ability:
+          - wis
+        dc:
+          calculation: spellcasting
+          formula: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>When you take this oath at 3rd level, you gain the following two
+      Channel Divinity options. See the Sacred Oath class feature for how
+      Channel Divinity works.</p><p><strong>Death Strike.</strong> You can use
+      your Channel Divinity to imbue your weapon with necromantic energy. As a
+      bonus action, select one weapon that you are holding. For 1 hour, your
+      attacks made with this weapon deal extra necrotic damage equal to your
+      Charisma modifier. If the weapon is not already magical, it becomes
+      magical for the duration.</p><p>You can end this effect on your turn as
+      part of any other action. If you are no longer holding or carrying this
+      weapon, or if you fall unconscious, this effect ends.</p><p><strong>Seize
+      Control.</strong> As an action, you can choose a number of undead
+      creatures up to your Charisma modifier (minimum of one) that you can see
+      within 30 feet. Each chosen creature must make a Wisdom saving throw
+      against your paladin spell save DC. On a failed save, a creature must obey
+      your commands for the next 24 hours, or until you use this Channel
+      Divinity option again. You can only seize control of an undead whose CR is
+      equal to or lower than the CR indicated on the Undead Control
+      table.</p><table><caption>Undead Control</caption><thead><tr><th>Paladin
+      Level</th><th>Controls Undead of CR
+      ...</th></tr></thead><tbody><tr><td>3rd</td><td>1/4 or
+      lower</td></tr><tr><td>5th</td><td>1/2 or
+      lower</td></tr><tr><td>8th</td><td>1 or
+      lower</td></tr><tr><td>11th</td><td>2 or
+      lower</td></tr><tr><td>14th</td><td>3 or
+      lower</td></tr><tr><td>17th</td><td>4 or lower</td></tr></tbody></table>
+    chat: ''
+  identifier: channel-divinity
+  source:
+    revision: 1
+    rules: '2024'
+    book: Archetypes of Eberron
+    page: ''
+    custom: ''
+    license: DMsGuild CCA
+  advancement: []
+  cover: null
+  crewed: false
+  enchant: {}
+  prerequisites:
+    level: null
+    repeatable: false
+  properties:
+    - mgc
+  requirements: ''
+  type:
+    value: class
+    subtype: channelDivinity
+effects:
+  - type: enchantment
+    name: Death Strike
+    img: icons/magic/death/hand-undead-skeleton-fire-pink.webp
+    disabled: true
+    _id: sON8cvwgTUJj2GS1
+    system: {}
+    changes:
+      - key: system.damage.parts
+        mode: 2
+        value: '[["@abilities.cha.mod", "necrotic"]]'
+        priority: null
+      - key: system.properties
+        mode: 2
+        value: mgc
+        priority: null
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    origin: null
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.2.2
+      createdTime: 1738999747095
+      modifiedTime: 1738999972908
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!XyQGa6VQDrbfZP7z.sON8cvwgTUJj2GS1'
+  - name: Seize Control
+    img: icons/magic/death/hand-undead-skeleton-fire-pink.webp
+    origin: Compendium.eberron-5e.classes.Item.XyQGa6VQDrbfZP7z
+    transfer: false
+    _id: crl4zqCS0qEEeupN
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: 86400
+      combat: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.2.2
+      createdTime: 1739000042430
+      modifiedTime: 1739000075129
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!XyQGa6VQDrbfZP7z.crl4zqCS0qEEeupN'
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.2.2
+  createdTime: 1738999028274
+  modifiedTime: 1739000042475
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!XyQGa6VQDrbfZP7z'
+

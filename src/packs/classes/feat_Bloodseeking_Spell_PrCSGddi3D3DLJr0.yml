@@ -31,65 +31,70 @@ system:
     subtype: ''
   requirements: Blood Magus 1
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    CythsrKjh4Joo77Z:
+      type: damage
+      _id: CythsrKjh4Joo77Z
+      sort: 0
       activation:
-        type: ''
+        type: special
         value: null
-        condition: ''
         override: false
+        condition: You cast a spell of 1st level or higher
       consumption:
-        targets: []
         scaling:
-          allowed: false
-          max: ''
+          allowed: true
+          max: '4'
         spellSlot: true
+        targets: []
       description:
         chatFlavor: ''
       duration:
+        units: inst
         concentration: false
-        value: ''
-        units: ''
-        special: ''
         override: false
       effects: []
       range:
-        units: ''
-        special: ''
         override: false
+        units: self
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: ''
-          type: ''
           choice: false
-          special: ''
-        prompt: true
+          type: ''
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 1
+            denomination: '6'
+            bonus: ''
+            types: []
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: bloodseeking-spell
   enchant: {}
   prerequisites:
     level: null
   properties: []
-img: icons/svg/book.svg
+img: icons/magic/unholy/strike-beam-blood-small-red-blue.webp
 flags:
   dnd5e:
     riders:
@@ -103,9 +108,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.2.2
   createdTime: 1726384647968
-  modifiedTime: 1726384647968
+  modifiedTime: 1739000598122
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 1000
 ownership:

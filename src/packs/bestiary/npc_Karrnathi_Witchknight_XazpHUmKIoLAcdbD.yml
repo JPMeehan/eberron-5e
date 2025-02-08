@@ -54,8 +54,8 @@ system:
     hp:
       value: 82
       max: 82
-      temp: 0
-      tempmax: 0
+      temp: null
+      tempmax: null
       formula: 11d8 + 33
     init:
       ability: ''
@@ -1104,9 +1104,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.2.2
   createdTime: 1726384677650
-  modifiedTime: 1727454746327
+  modifiedTime: 1739001395484
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: XazpHUmKIoLAcdbD
 sort: 300000

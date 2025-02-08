@@ -90,7 +90,7 @@ system:
   prerequisites:
     level: null
   properties: []
-img: icons/svg/book.svg
+img: icons/magic/death/bones-crossed-gray.webp
 flags:
   dnd5e:
     riders:
@@ -106,7 +106,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384665633
-  modifiedTime: 1726384665633
+  modifiedTime: 1738999248797
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 3000
 ownership:

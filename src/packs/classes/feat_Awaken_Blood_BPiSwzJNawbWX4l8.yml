@@ -103,7 +103,7 @@ system:
   prerequisites:
     level: null
   properties: []
-img: icons/svg/book.svg
+img: icons/magic/unholy/silhouette-robe-evil-glow.webp
 flags:
   dnd5e:
     riders:
@@ -120,7 +120,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384642484
-  modifiedTime: 1726384642484
+  modifiedTime: 1739000844527
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 14000
 ownership:

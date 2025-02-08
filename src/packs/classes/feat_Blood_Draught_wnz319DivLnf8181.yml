@@ -16,7 +16,7 @@ system:
     revision: 1
     rules: '2014'
   uses:
-    max: '1'
+    max: '@abilities.con.mod'
     recovery:
       - period: lr
         type: recoverAll
@@ -26,71 +26,68 @@ system:
     subtype: ''
   requirements: Blood Magus 6
   activities:
-    dnd5eactivity000:
-      _id: dnd5eactivity000
-      type: utility
+    gFKzbHLoS6CZZ5Sh:
+      type: heal
+      _id: gFKzbHLoS6CZZ5Sh
+      sort: 0
       activation:
         type: action
-        value: 1
-        condition: ''
+        value: null
         override: false
+        condition: ''
       consumption:
-        targets:
-          - type: itemUses
-            target: ''
-            value: '1'
-            scaling:
-              mode: ''
-              formula: ''
         scaling:
           allowed: false
-          max: ''
         spellSlot: true
+        targets:
+          - type: itemUses
+            value: '1'
+            target: ''
       description:
         chatFlavor: ''
       duration:
+        units: inst
         concentration: false
-        value: ''
-        units: ''
-        special: ''
         override: false
       effects: []
       range:
-        units: ''
-        special: ''
         override: false
+        units: self
+        special: ''
       target:
         template:
-          count: ''
           contiguous: false
+          units: ft
           type: ''
-          size: ''
-          width: ''
-          height: ''
-          units: ''
         affects:
-          count: ''
-          type: ''
           choice: false
-          special: ''
-        prompt: true
+          type: ''
         override: false
+        prompt: true
       uses:
         spent: 0
-        max: ''
         recovery: []
-      roll:
-        formula: ''
-        name: ''
-        prompt: false
-        visible: false
-      sort: 0
+        max: ''
+      healing:
+        number: null
+        denomination: ''
+        types:
+          - healing
+        custom:
+          enabled: true
+          formula: '@classes.sorcerer.levels'
+        scaling:
+          number: 1
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   identifier: blood-draught
   enchant: {}
   prerequisites:
     level: null
   properties: []
-img: icons/svg/book.svg
+img: icons/magic/life/heart-cross-purple-orange.webp
 flags:
   dnd5e:
     riders:
@@ -105,9 +102,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.2.2
   createdTime: 1726384664438
-  modifiedTime: 1726384664438
+  modifiedTime: 1739000806974
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 6000
 ownership:
