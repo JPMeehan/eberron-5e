@@ -2,10 +2,22 @@ folder: qgty36A5lW2ISTfx
 name: Dimensional Anchor
 type: spell
 _id: 4QOyklURrsEZOBFu
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/control/debuff-chains-ropes-net-green.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You fire a green ray from your outstretched hand toward one creature or
+      object that you can see within range. Make a ranged spell attack against
+      the target. On a hit, the target is covered with a shimmering emerald
+      field that completely blocks extradimensional travel. Forms of travel
+      barred by this spell include all teleportation effects and spells and
+      abilities that allow the target to transport to a different plane,
+      demiplane, or extradimensional space, such as <em>astral projection</em>,
+      <em>banishment</em>, <em>demiplane</em>, <em>etherealness</em>,
+      <em>gate</em>, <em>maze</em>, <em>Mordenkainen’s magnificent mansion</em>,
+      and <em>plane shift</em>. For the duration of the spell, an affected
+      target can make a Charisma saving throw at the end of each of its turns,
+      ending the spell on a success.</p>
     chat: ''
   source:
     book: TGtA
@@ -15,20 +27,26 @@ system:
     rules: '2014'
     revision: 1
   activation:
-    type: ''
+    type: action
     condition: ''
     value: null
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: minute
   target:
     affects:
       choice: false
+      type: creatureOrObject
+      count: '1'
+      special: ''
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
-    units: ''
+    units: ft
+    special: ''
+    value: '120'
   uses:
     max: ''
     spent: 0
@@ -36,7 +54,7 @@ system:
   level: 4
   school: abj
   materials:
-    value: ''
+    value: a shackle crafted from lead
     consumed: false
     cost: 0
     supply: 0
@@ -44,22 +62,117 @@ system:
     mode: prepared
     prepared: false
   identifier: dimensional-anchor
-  activities: {}
-  properties: []
-effects: []
+  activities:
+    LdsGZvMsR8OA3dIG:
+      type: attack
+      _id: LdsGZvMsR8OA3dIG
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: InzfVKXr48uIiKLC
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      attack:
+        critical:
+          threshold: null
+        flat: false
+        type:
+          value: ranged
+          classification: ''
+        ability: ''
+        bonus: ''
+      damage:
+        critical:
+          bonus: ''
+        includeBase: true
+        parts: []
+      name: ''
+      img: ''
+      appliedEffects: []
+  properties:
+    - vocal
+    - somatic
+    - material
+    - concentration
+effects:
+  - name: Dimensional Anchor
+    img: icons/magic/control/debuff-chains-ropes-net-green.webp
+    origin: Compendium.eberron-5e.spells.Item.4QOyklURrsEZOBFu
+    transfer: false
+    _id: InzfVKXr48uIiKLC
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.3
+      createdTime: 1739938349556
+      modifiedTime: 1739938356659
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!4QOyklURrsEZOBFu.InzfVKXr48uIiKLC'
 sort: 200000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.3.3
   createdTime: 1726384668899
-  modifiedTime: 1726384668899
+  modifiedTime: 1739938392700
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!4QOyklURrsEZOBFu'
 

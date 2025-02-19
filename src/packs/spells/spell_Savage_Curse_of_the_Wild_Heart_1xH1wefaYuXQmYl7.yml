@@ -1,5 +1,5 @@
 folder: uAnfcAyTUJ83gnaG
-name: Rotting Curse of Katashka
+name: Savage Curse of the Wild Heart
 type: spell
 _id: 1xH1wefaYuXQmYl7
 img: systems/dnd5e/icons/svg/items/spell.svg
@@ -20,15 +20,18 @@ system:
     value: null
   duration:
     value: ''
-    units: ''
+    units: inst
   target:
     affects:
       choice: false
+      type: ''
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
-    units: ''
+    units: self
+    special: ''
   uses:
     max: ''
     spent: 0
@@ -43,7 +46,7 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  identifier: rotting-curse-of-katashka
+  identifier: savage-curse-of-the-wild-heart
   activities: {}
   properties: []
 effects: []
@@ -58,9 +61,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.3.3
   createdTime: 1726384668763
-  modifiedTime: 1726384668763
+  modifiedTime: 1739940105620
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!1xH1wefaYuXQmYl7'
 

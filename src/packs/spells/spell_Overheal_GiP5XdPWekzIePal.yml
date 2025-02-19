@@ -2,10 +2,21 @@ folder: qgty36A5lW2ISTfx
 name: Overheal
 type: spell
 _id: GiP5XdPWekzIePal
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/life/heart-cross-strong-flame-purple-orange.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You channel vast amounts of positive energy into a creature that you
+      touch - an amount meant to heal giants, not smaller humanoids. Roll 10d10.
+      The creature regains hit points equal to that amount. If the creature is
+      healed beyond their hit point maximum, they then take radiant damage equal
+      to the excess healing. For example, a rolled result of 40 would heal a
+      creature missing 50 hit points for that amount with no side effects. A
+      creature missing 30 hit points would instead be healed to full, then take
+      10 radiant damage.</p><p>An unwilling creature can attempt a [[/save con
+      dc=@attributes.spell.dc]] saving throw to resist the effect. Creatures
+      other than Undead have advantage. On a success, they are unaffected by the
+      spell.</p>
     chat: ''
   source:
     book: GGtX
@@ -15,20 +26,23 @@ system:
     rules: '2014'
     revision: 1
   activation:
-    type: ''
+    type: action
     condition: ''
     value: null
   duration:
     value: ''
-    units: ''
+    units: inst
   target:
     affects:
       choice: false
+      type: ''
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
-    units: ''
+    units: touch
+    special: ''
   uses:
     max: ''
     spent: 0
@@ -44,23 +58,77 @@ system:
     mode: prepared
     prepared: false
   identifier: overheal
-  activities: {}
-  properties: []
+  activities:
+    WaNjh5LvktJGx5xh:
+      type: heal
+      _id: WaNjh5LvktJGx5xh
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      healing:
+        number: 10
+        denomination: '10'
+        types:
+          - healing
+        custom:
+          enabled: false
+        scaling:
+          number: 1
+          mode: ''
+        bonus: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  properties:
+    - vocal
+    - somatic
 effects: []
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.3.3
   createdTime: 1726384669268
-  modifiedTime: 1726384669268
+  modifiedTime: 1739939319877
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!GiP5XdPWekzIePal'
 

@@ -20,15 +20,18 @@ system:
     value: null
   duration:
     value: ''
-    units: ''
+    units: inst
   target:
     affects:
       choice: false
+      type: ''
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
-    units: ''
+    units: self
+    special: ''
   uses:
     max: ''
     spent: 0
@@ -58,9 +61,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.3.3
   createdTime: 1726384669249
-  modifiedTime: 1726384669249
+  modifiedTime: 1739939604251
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!GZZpsBonKxPrxwM8'
 

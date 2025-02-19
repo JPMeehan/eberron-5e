@@ -2,10 +2,23 @@ folder: qgty36A5lW2ISTfx
 name: Extemporate
 type: spell
 _id: jqQ1p2mtxDOnXXzA
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/time/hourglass-tilted-gray.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You warp reality around a creature you can see, momentarily displacing
+      it beyond the normal flow of time. The target must make a Constitution
+      saving throw. On a failure, it takes 5d10 force damage, has its speed
+      reduced by half, has disadvantage on Dexterity saving throws, and cannot
+      take reactions. Additionally, on its turn, the creature must choose
+      between taking an action or a bonus action. On a success, the creature
+      takes half the damage and has its speed halved on its next turn. </p><p>If
+      the target fails the saving throw by 5 or more, as well as the other
+      effects, it must instead choose between taking an action, a bonus action,
+      or moving on its turn, and is unable to make more than one attack per
+      turn. </p><p>A creature reduced to 0 hit points by this spell is turned to
+      dust. An affected creature can repeat the saving throw at the end of each
+      of its turns to end the effect.</p>
     chat: ''
   source:
     book: GGtX
@@ -20,15 +33,19 @@ system:
     value: null
   duration:
     value: ''
-    units: ''
+    units: inst
   target:
     affects:
       choice: false
+      type: ''
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
-    units: ''
+    units: ft
+    special: ''
+    value: '60'
   uses:
     max: ''
     spent: 0
@@ -44,23 +61,121 @@ system:
     mode: prepared
     prepared: false
   identifier: extemporate
-  activities: {}
-  properties: []
-effects: []
+  activities:
+    rtgSXHFAGJlVa759:
+      type: save
+      _id: rtgSXHFAGJlVa759
+      sort: 0
+      activation:
+        type: action
+        value: null
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: BshH3oPPH5KIkjEs
+      range:
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 5
+            denomination: '10'
+            bonus: ''
+            types:
+              - force
+            scaling:
+              mode: ''
+        onSave: half
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  properties:
+    - vocal
+    - somatic
+effects:
+  - name: Extemporate
+    img: icons/magic/time/hourglass-tilted-gray.webp
+    origin: Compendium.eberron-5e.spells.Item.jqQ1p2mtxDOnXXzA
+    transfer: false
+    _id: BshH3oPPH5KIkjEs
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      seconds: null
+      combat: null
+      rounds: 1
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.3
+      createdTime: 1739938705309
+      modifiedTime: 1739938721290
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!items.effects!jqQ1p2mtxDOnXXzA.BshH3oPPH5KIkjEs'
 sort: 0
 ownership:
   default: 0
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
-flags: {}
+flags:
+  dnd5e:
+    riders:
+      activity: []
+      effect: []
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.3.3
   createdTime: 1726384670215
-  modifiedTime: 1726384670215
+  modifiedTime: 1739938705343
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!items!jqQ1p2mtxDOnXXzA'
 

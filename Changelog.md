@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.12
+
+- Updated Blood Mage, Oath of the Bone Knight
+- Implemented most 4th Level Spells
+
 ## 1.0.11
 
 - Half Feats
