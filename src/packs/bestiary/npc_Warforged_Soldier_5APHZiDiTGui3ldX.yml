@@ -379,8 +379,8 @@ system:
   source:
     revision: 1
     rules: '2024'
-    book: Flee, Mortals!
-    custom: XP
+    book: Threat Dispatch
+    custom: ''
   traits:
     size: med
     di:
@@ -1043,9 +1043,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 4.3.5
   createdTime: 1736018529466
-  modifiedTime: 1736018529466
+  modifiedTime: 1740951594528
   lastModifiedBy: q6n1efCGVB98drEQ
 sort: 0
 ownership:

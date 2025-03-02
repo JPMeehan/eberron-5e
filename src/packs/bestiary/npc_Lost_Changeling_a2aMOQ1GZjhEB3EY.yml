@@ -374,8 +374,8 @@ system:
   source:
     revision: 1
     rules: '2024'
-    book: Flee, Mortals!
-    custom: XP
+    book: Map Perilous
+    custom: ''
   traits:
     size: med
     di:
@@ -1176,9 +1176,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.3.5
   createdTime: 1727547805484
-  modifiedTime: 1727547806673
+  modifiedTime: 1740951594528
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: a2aMOQ1GZjhEB3EY
 sort: 400000

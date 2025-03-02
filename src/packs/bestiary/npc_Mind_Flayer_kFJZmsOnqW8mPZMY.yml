@@ -437,7 +437,7 @@ system:
         - gith
       custom: Telepathy 120 ft.
   source:
-    book: Psion's Primer
+    book: PsiPri
     page: ''
     custom: ''
     license: ''
@@ -2065,9 +2065,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.3.5
   createdTime: 1726384678114
-  modifiedTime: 1726384678114
+  modifiedTime: 1740950740558
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: kFJZmsOnqW8mPZMY
 sort: 0

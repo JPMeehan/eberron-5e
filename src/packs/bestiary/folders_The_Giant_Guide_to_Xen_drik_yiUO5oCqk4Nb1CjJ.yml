@@ -1,4 +1,4 @@
-name: Giant Guide to Xen'drik
+name: The Giant Guide to Xen'drik
 sorting: a
 folder: null
 type: Actor
@@ -9,9 +9,12 @@ flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.331'
   createdTime: 1701065369582
-  modifiedTime: 1702848182455
+  modifiedTime: 1740950717400
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
+description: ''
 _key: '!folders!yiUO5oCqk4Nb1CjJ'
 

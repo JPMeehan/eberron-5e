@@ -398,6 +398,8 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: TGtA
+    custom: ''
 prototypeToken:
   name: Dream Spirit
   displayName: 0
@@ -1341,9 +1343,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.3.5
   createdTime: 1726384676870
-  modifiedTime: 1726384676870
+  modifiedTime: 1740951594528
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: CoKtmiQhTHaapgqc
 sort: 0

@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.13
+- Updated sources on NPCs to improve compendium browser display
+
 ## 1.0.12
 
 - Updated Blood Mage, Oath of the Bone Knight

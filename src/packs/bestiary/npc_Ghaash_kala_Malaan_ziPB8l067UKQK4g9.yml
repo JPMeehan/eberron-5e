@@ -392,9 +392,10 @@ system:
       value: false
       initiative: null
   source:
-    custom: Sarhain's Guide to the Silver Flame
+    custom: ''
     revision: 1
     rules: '2024'
+    book: SGttSF
 prototypeToken:
   name: Ghaash'kala Malaan
   displayName: 0
@@ -483,9 +484,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 4.3.5
   createdTime: 1726384678407
-  modifiedTime: 1726384678407
+  modifiedTime: 1740951594528
   lastModifiedBy: q6n1efCGVB98drEQ
 _key: '!actors!ziPB8l067UKQK4g9'
 

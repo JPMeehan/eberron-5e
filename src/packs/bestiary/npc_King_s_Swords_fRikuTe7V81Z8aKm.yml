@@ -376,7 +376,7 @@ system:
     rules: '2014'
     book: Map Perilous
     page: ''
-    custom: XP
+    custom: ''
     license: ''
   traits:
     size: med
@@ -1188,9 +1188,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.3.5
   createdTime: 1727459565853
-  modifiedTime: 1727549887547
+  modifiedTime: 1740951594528
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: fRikuTe7V81Z8aKm
 sort: 600000

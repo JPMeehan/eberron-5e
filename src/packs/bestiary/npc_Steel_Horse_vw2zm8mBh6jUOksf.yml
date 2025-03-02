@@ -378,6 +378,8 @@ system:
   source:
     revision: 1
     rules: '2024'
+    book: FoEQ
+    custom: ''
   traits:
     size: lg
     di:
@@ -709,9 +711,9 @@ _stats:
   duplicateSource: null
   coreVersion: '12.331'
   systemId: dnd5e
-  systemVersion: 4.0.3
+  systemVersion: 4.3.5
   createdTime: 1727543861803
-  modifiedTime: 1727543861803
+  modifiedTime: 1740951594528
   lastModifiedBy: q6n1efCGVB98drEQ
 _id: vw2zm8mBh6jUOksf
 sort: 0

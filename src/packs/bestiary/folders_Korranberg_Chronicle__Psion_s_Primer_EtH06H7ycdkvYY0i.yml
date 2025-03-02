@@ -1,4 +1,4 @@
-name: Psion's Primer
+name: 'Korranberg Chronicle: Psion''s Primer'
 sorting: a
 folder: null
 type: Actor
@@ -9,9 +9,12 @@ flags: {}
 _stats:
   systemId: dnd5e
   systemVersion: 2.4.1
-  coreVersion: '11.315'
+  coreVersion: '12.331'
   createdTime: 1694135968788
-  modifiedTime: 1702848184799
+  modifiedTime: 1740950563743
   lastModifiedBy: q6n1efCGVB98drEQ
+  compendiumSource: null
+  duplicateSource: null
+description: ''
 _key: '!folders!EtH06H7ycdkvYY0i'
 
