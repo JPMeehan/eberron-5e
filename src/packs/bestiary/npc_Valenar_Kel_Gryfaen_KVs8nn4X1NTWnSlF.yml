@@ -1,0 +1,1274 @@
+system:
+  abilities:
+    str:
+      value: 11
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 20
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 16
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 18
+      proficient: 1
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 12
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  details:
+    cr: 6
+    alignment: Any Alignment
+    type:
+      subtype: Elf
+      value: humanoid
+    biography:
+      value: ''
+      public: ''
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    habitat:
+      value: []
+      custom: ''
+    treasure:
+      value: []
+  attributes:
+    ac:
+      calc: default
+      flat: null
+    hp:
+      value: 97
+      max: 97
+      formula: 13d8 + 39
+      temp: null
+      tempmax: null
+    senses:
+      darkvision: 60
+      special: ''
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+    movement:
+      walk: 35
+      burrow: null
+      climb: null
+      fly: null
+      swim: null
+      units: null
+      hover: false
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    attunement:
+      max: 3
+    spellcasting: ''
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    loyalty:
+      value: null
+    hd:
+      spent: 0
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+  traits:
+    languages:
+      value:
+        - common
+        - elvish
+      custom: ''
+      communication:
+        telepathy:
+          value: null
+          units: ft
+    size: med
+    di:
+      value: []
+      custom: ''
+      bypasses: []
+    dr:
+      value: []
+      custom: ''
+      bypasses: []
+    dv:
+      value: []
+      custom: ''
+      bypasses: []
+    dm:
+      amount: {}
+      bypasses: []
+    ci:
+      value: []
+      custom: ''
+    important: false
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 1
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 2
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+      override: null
+    spell2:
+      value: 0
+      override: null
+    spell3:
+      value: 0
+      override: null
+    spell4:
+      value: 0
+      override: null
+    spell5:
+      value: 0
+      override: null
+    spell6:
+      value: 0
+      override: null
+    spell7:
+      value: 0
+      override: null
+    spell8:
+      value: 0
+      override: null
+    spell9:
+      value: 0
+      override: null
+    pact:
+      value: 0
+      override: null
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+      inside: false
+  source:
+    revision: 1
+    rules: '2024'
+    book: Map Perilous
+    custom: ''
+items:
+  - name: Multiattack
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>The Kel Gryfaen makes two melee attacks or three ranged weapon
+          attacks.</p>
+        chat: ''
+      activities:
+        Rm5QS1IAC1uQuf1X:
+          _id: Rm5QS1IAC1uQuf1X
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      advancement: []
+      cover: null
+      crewed: false
+      enchant: {}
+      prerequisites:
+        level: null
+        repeatable: false
+      properties: []
+      requirements: ''
+      type:
+        value: ''
+        subtype: ''
+    img: icons/magic/death/skull-trio-badge-purple.webp
+    _id: GmX3w91OVIK6aNRt
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!KVs8nn4X1NTWnSlF.GmX3w91OVIK6aNRt'
+  - name: Scimitar
+    type: weapon
+    system:
+      description:
+        value: >-
+          <p><em>Melee Weapon Attack:</em> [[/attack]] to hit, reach 5 ft., one
+          target. Hit: [[/damage average]] damage, or 12 ([[/r 2d6 + 5]])
+          slashing damage if the attack
+
+          is made while the Kel Gryfaen is mounted.</p>
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        oCbETt79q1UrxSIy:
+          _id: oCbETt79q1UrxSIy
+          type: attack
+          activation:
+            type: action
+            value: 1
+            override: false
+          attack:
+            ability: str
+            type:
+              value: melee
+            flat: true
+            bonus: '8'
+            critical:
+              threshold: null
+          damage:
+            parts: []
+            critical: {}
+            includeBase: true
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+      range:
+        value: 5
+        units: ft
+        long: null
+        reach: null
+      damage:
+        base:
+          number: 1
+          denomination: 6
+          types:
+            - slashing
+          bonus: '@mod +5'
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      attuned: true
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      cover: null
+      crewed: false
+      ammunition: {}
+      armor:
+        value: null
+      magicalBonus: null
+      properties: []
+    img: icons/weapons/swords/scimitar-worn-blue.webp
+    _id: b4oOrSp3Ai9mI6JK
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!KVs8nn4X1NTWnSlF.b4oOrSp3Ai9mI6JK'
+  - name: Longbow
+    type: weapon
+    system:
+      description:
+        value: >-
+          <p><em>Ranged Weapon Attack:</em> [[/attack]] to hit, range 150/600
+          ft., one target. Hit: [[/damage average]] damage, or 14 ([[/r 2d8 +
+          5]]) slashing
+
+          damage if the attack is made while the Kel Gryfaen is mounted.</p>
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        aIzYdNopMB5hqUCD:
+          _id: aIzYdNopMB5hqUCD
+          type: attack
+          activation:
+            type: action
+            value: 1
+            override: false
+          attack:
+            ability: dex
+            type:
+              value: ranged
+            critical:
+              threshold: null
+            flat: false
+          damage:
+            parts: []
+            critical: {}
+            includeBase: true
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+      range:
+        value: 150
+        long: 600
+        units: ft
+        reach: null
+      damage:
+        base:
+          number: 1
+          denomination: 8
+          types:
+            - piercing
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        versatile:
+          number: null
+          denomination: null
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      attuned: true
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      cover: null
+      crewed: false
+      ammunition: {}
+      armor:
+        value: null
+      magicalBonus: null
+      properties: []
+    img: icons/weapons/bows/longbow-recurve-leather-brown.webp
+    _id: 8zVf92612xEM9hae
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!KVs8nn4X1NTWnSlF.8zVf92612xEM9hae'
+  - name: Aileron Roll
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>When the Kel Gryfaen is mounted on a creature that is flying, and
+          either the Kel Gryfaen or its mount are the target of a ranged attack
+
+          roll or must make a Dexterity saving throw, the Kel Gryfaen can use
+          its
+
+          reaction to impose disadvantage on the ranged attack roll or grant
+          both
+
+          itself and its mount advantage on the Dexterity saving throw.</p>
+        chat: ''
+      activities:
+        zSKIdQFJDoeVuqv4:
+          _id: zSKIdQFJDoeVuqv4
+          type: utility
+          activation:
+            type: reaction
+            value: null
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      advancement: []
+      cover: null
+      crewed: false
+      enchant: {}
+      prerequisites:
+        level: null
+        repeatable: false
+      properties: []
+      requirements: ''
+      type:
+        value: ''
+        subtype: ''
+    _id: Rw40ds4uSRXJNnfg
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!KVs8nn4X1NTWnSlF.Rw40ds4uSRXJNnfg'
+  - _id: WwdpHLXGX5r8uZu5
+    name: Leather Armor
+    type: equipment
+    img: icons/equipment/chest/breastplate-scale-leather.webp
+    system:
+      description:
+        value: >-
+          <p>The breastplate and shoulder protectors of this armor are made of
+          leather that has been stiffened by being boiled in oil. The rest of
+          the armor is made of softer and more flexible materials.</p>
+        chat: ''
+      source:
+        custom: ''
+        book: SRD 5.1
+        page: ''
+        license: CC-BY-4.0
+        rules: '2014'
+        revision: 1
+      quantity: 1
+      weight:
+        value: 10
+        units: lb
+      price:
+        value: 10
+        denomination: gp
+      attunement: required
+      equipped: true
+      rarity: ''
+      identified: true
+      cover: null
+      crewed: false
+      uses:
+        max: ''
+        spent: 0
+        recovery: []
+      armor:
+        value: 11
+        dex: null
+        magicalBonus: null
+      hp:
+        value: 0
+        max: 0
+        dt: null
+        conditions: ''
+      speed:
+        value: null
+        conditions: ''
+      strength: null
+      proficient: 1
+      type:
+        value: light
+        baseItem: leather
+      unidentified:
+        description: ''
+      container: null
+      properties: []
+      activities: {}
+      attuned: true
+      identifier: leather-armor
+    effects: []
+    folder: JqTP017wj3uxDJ8g
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      duplicateSource: null
+      compendiumSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!KVs8nn4X1NTWnSlF.WwdpHLXGX5r8uZu5'
+  - name: Born In The Saddle
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>Mounting or dismounting a creature costs the Kel Gryfaen only 10
+          feet of movement. The Kel Gryfaen never falls off a
+
+          mount if the mount is moved against its will, and the Kel Gryfaen
+          cannot
+
+          be knocked &amp;Reference[Prone apply=false] while mounted. If the Kel
+          Gryfaen's mount is knocked
+
+          &amp;Reference[Prone apply=false], the Kel Gryfaen can dismount it and
+          land on its feet without using
+
+          its reaction.
+
+          Additionally, when an attack targets the Kel Gryfaen’s mount, the Kel
+
+          Gryfaen can force the attack to target itself instead.</p>
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      advancement: []
+      cover: null
+      crewed: false
+      enchant: {}
+      prerequisites:
+        level: null
+        repeatable: false
+      properties: []
+      requirements: ''
+      type:
+        value: ''
+        subtype: ''
+    _id: mF0B1hM2dRE6r1Cg
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!KVs8nn4X1NTWnSlF.mF0B1hM2dRE6r1Cg'
+  - name: Combat Rider
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>When the Kel Gryfaen directly controls its mount, the mount may
+          take an action and bonus action at the end of the Kel
+
+          Gryfaen’s turn.</p>
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      advancement: []
+      cover: null
+      crewed: false
+      enchant: {}
+      prerequisites:
+        level: null
+        repeatable: false
+      properties: []
+      requirements: ''
+      type:
+        value: ''
+        subtype: ''
+    _id: wsMXsel0X3NWGTpf
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!KVs8nn4X1NTWnSlF.wsMXsel0X3NWGTpf'
+  - name: Fey Ancestry
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>The Kel Gryfaen has advantage on saving throws against being
+          &amp;Reference[Charmed apply=false], and magic can't put it to
+          sleep.</p>
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      advancement: []
+      cover: null
+      crewed: false
+      enchant: {}
+      prerequisites:
+        level: null
+        repeatable: false
+      properties: []
+      requirements: ''
+      type:
+        value: ''
+        subtype: ''
+    img: icons/creatures/mammals/elk-moose-marked-green.webp
+    _id: C0nww2MJquXU8bhg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!KVs8nn4X1NTWnSlF.C0nww2MJquXU8bhg'
+  - name: Mounted Archery
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>The Kel Gryfaen has advantage on ranged weapon attack rolls until
+          the end of its turn if it is mounted and its mount moves
+
+          at least 20 feet during that turn.</p>
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      advancement: []
+      cover: null
+      crewed: false
+      enchant: {}
+      prerequisites:
+        level: null
+        repeatable: false
+      properties: []
+      requirements: ''
+      type:
+        value: ''
+        subtype: ''
+    _id: WOs3vgznskQBM3i1
+    img: systems/dnd5e/icons/svg/items/feature.svg
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: dnd5e
+      systemVersion: 4.3.6
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!actors.items!KVs8nn4X1NTWnSlF.WOs3vgznskQBM3i1'
+prototypeToken:
+  sight:
+    range: 60
+    enabled: false
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  name: Valenar Kel Gryfaen
+  displayName: 20
+  actorLink: false
+  appendNumber: false
+  prependAdjective: false
+  width: 1
+  height: 1
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  hexagonalShape: 0
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  flags: {}
+  randomImg: false
+folder: WHWWLW3kFneE1X7T
+name: Valenar Kel Gryfaen
+type: npc
+_id: KVs8nn4X1NTWnSlF
+img: icons/svg/mystery-man.svg
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: dnd5e
+  systemVersion: 4.3.6
+  createdTime: 1742598268783
+  modifiedTime: 1742598292192
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!actors!KVs8nn4X1NTWnSlF'
+
