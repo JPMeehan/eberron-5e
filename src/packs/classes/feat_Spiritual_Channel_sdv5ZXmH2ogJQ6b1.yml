@@ -362,12 +362,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726896747274
       modifiedTime: 1726897958337
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.b5yuDQdW74MQOhxf'
   - name: Spirit of Conflict
     img: icons/svg/aura.svg
@@ -405,12 +406,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726897534071
       modifiedTime: 1726897646483
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.KOPa3W2PcY9aPuij'
   - name: Spirit of Eloquence
     img: icons/svg/aura.svg
@@ -449,12 +451,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726897863105
       modifiedTime: 1726897919663
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.ldrdMauh8Wh3F4y6'
   - name: Spirit of Subtlety
     img: icons/svg/aura.svg
@@ -492,12 +495,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726897969218
       modifiedTime: 1726897999021
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _id: eLwTUnF2cp4MWnBK
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.eLwTUnF2cp4MWnBK'
   - name: Stalwart Spirit
@@ -531,24 +535,26 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726898293136
       modifiedTime: 1726898388864
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.wjSVQ1q8cr9exTGH'
 folder: AxCOxJAGG16MkcKu
 _id: sdv5ZXmH2ogJQ6b1
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384662461
   modifiedTime: 1726898424921
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 3000
 ownership:
   default: 0

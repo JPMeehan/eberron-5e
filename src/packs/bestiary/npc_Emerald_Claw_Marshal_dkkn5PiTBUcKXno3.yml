@@ -416,7 +416,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -472,6 +471,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -507,12 +512,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!dkkn5PiTBUcKXno3.KHaP273DXFtwCRqK'
   - name: Flail
     type: weapon
@@ -641,12 +647,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!dkkn5PiTBUcKXno3.7ujgLEnMuXZOs1mI'
   - name: Heavy Crossbow
     type: weapon
@@ -775,12 +782,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!dkkn5PiTBUcKXno3.Hotq1k97VcHtCovH'
   - name: Leadership (Recharges After A Short Or Long Rest)
     type: feat
@@ -822,12 +830,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!dkkn5PiTBUcKXno3.V3SygI9jNDEdbABD'
   - name: Description
     type: feat
@@ -869,12 +878,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!dkkn5PiTBUcKXno3.zymgi1BC1PxvUIAV'
   - name: Half Plate
     type: equipment
@@ -972,12 +982,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 9ztspzit0yTcY09d
     sort: 0
     _key: '!actors.items!dkkn5PiTBUcKXno3.9ztspzit0yTcY09d'
@@ -1076,12 +1087,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: FekX7OgXgFO756Rb
     sort: 0
     _key: '!actors.items!dkkn5PiTBUcKXno3.FekX7OgXgFO756Rb'
@@ -1123,12 +1135,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!dkkn5PiTBUcKXno3.mz62LPCCGMUYjNRI'
   - name: Pack Tactics
     type: feat
@@ -1167,12 +1180,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!dkkn5PiTBUcKXno3.bfeLWMOSxsJUzTM3'
   - name: Dirty Fighting (1/turn)
     type: feat
@@ -1210,12 +1224,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!dkkn5PiTBUcKXno3.3nq6D6cg4FiDzng7'
   - name: Commander
     type: feat
@@ -1255,12 +1270,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!dkkn5PiTBUcKXno3.49emnUKlEHx958UG'
 effects: []
 ownership:
@@ -1270,12 +1286,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1727630637952
   modifiedTime: 1727630639230
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: dkkn5PiTBUcKXno3
 sort: 300000
 _key: '!actors!dkkn5PiTBUcKXno3'

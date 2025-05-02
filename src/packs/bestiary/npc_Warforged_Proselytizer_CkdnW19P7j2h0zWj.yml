@@ -432,7 +432,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -488,6 +487,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -558,12 +563,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!CkdnW19P7j2h0zWj.NF0dFrfRvwDop74d'
   - name: Maul
     type: weapon
@@ -701,12 +707,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!CkdnW19P7j2h0zWj.sEZ3FKagIJexKACK'
   - name: Construct Lock
     type: feat
@@ -796,12 +803,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!CkdnW19P7j2h0zWj.VLDTBI36N9cR8rR6'
   - name: Spellcasting
     type: feat
@@ -876,12 +884,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!CkdnW19P7j2h0zWj.IirrZTeXfkG3soAc'
   - name: Construct Control
     type: feat
@@ -961,12 +970,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!CkdnW19P7j2h0zWj.OGAqoVQKPyP1xFgA'
   - name: Construct Fanatic
     type: feat
@@ -1006,12 +1016,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!CkdnW19P7j2h0zWj.jO2nQt2unv159qgV'
   - name: Warforged Resilience
     type: feat
@@ -1049,12 +1060,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!CkdnW19P7j2h0zWj.PfYjDpcSTMLaQZR9'
   - name: Command
     ownership:
@@ -1173,12 +1185,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: NCuQkf3BVWmMsK71
     sort: 700000
     _key: '!actors.items!CkdnW19P7j2h0zWj.NCuQkf3BVWmMsK71'
@@ -1299,12 +1312,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!CkdnW19P7j2h0zWj.eyNgKnS9COpgRePI'
   - name: Stoneskin
     system:
@@ -1443,12 +1457,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.1.2
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!CkdnW19P7j2h0zWj.wnKAyAtPjL3dlKMT.DbTCk1h0u86Etlpr
     folder: qi3IbnEwap7mRw4b
@@ -1462,24 +1477,26 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!CkdnW19P7j2h0zWj.wnKAyAtPjL3dlKMT'
 effects: []
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.5
   createdTime: 1736016616752
   modifiedTime: 1740951594528
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 0
 ownership:
   default: 0

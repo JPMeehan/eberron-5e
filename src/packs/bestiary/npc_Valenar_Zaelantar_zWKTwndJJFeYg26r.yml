@@ -502,12 +502,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zWKTwndJJFeYg26r.7tVitGaV0g2d7ezQ'
   - name: Scimitar
     type: weapon
@@ -630,12 +631,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zWKTwndJJFeYg26r.DVhtMGbHyhPx5tqj'
   - name: Fey Ancestry
     type: feat
@@ -677,12 +679,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zWKTwndJJFeYg26r.bb8JwtmU7A4uGNEr'
   - name: Magewright’s Rituals
     type: feat
@@ -769,12 +772,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zWKTwndJJFeYg26r.RczK0bsfu6zu0kaG'
 prototypeToken:
   sight:
@@ -806,7 +810,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -852,6 +855,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 folder: WHWWLW3kFneE1X7T
 name: Valenar Zaelantar
 type: npc
@@ -866,11 +875,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.6
   createdTime: 1742598268783
   modifiedTime: 1742598292192
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!actors!zWKTwndJJFeYg26r'
 

@@ -513,7 +513,6 @@ prototypeToken:
         - ddb-importer
         - aberration
   randomImg: false
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -525,6 +524,12 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Tentacles
     type: weapon
@@ -763,12 +768,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.LXgbAsxMdc9KuhZY'
   - name: Extract Brain
     type: weapon
@@ -938,12 +944,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.C4tTWP6vhBqF30lT'
   - name: Mind Blast
     type: feat
@@ -1080,12 +1087,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.V5WRhdT83mOZkwLv'
   - name: Psionic Resistance
     type: feat
@@ -1134,12 +1142,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.ng3eDgKW8Nae3UyB'
   - name: Innate Spellcasting (Psionics)
     type: feat
@@ -1191,12 +1200,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.35BieXTVvkts0GJ0'
   - folder: ND8imwT4ZNwNEWzm
     name: Mystic Traveler
@@ -1323,18 +1333,18 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.Gkt1NW0CDxiZqEvT
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.Gkt1NW0CDxiZqEvT
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: fhQdn5xz9Uw1uwyh
     sort: 100000
     _key: '!actors.items!kFJZmsOnqW8mPZMY.fhQdn5xz9Uw1uwyh'
@@ -1464,18 +1474,18 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.9KMC1vrdMCIwlnBz
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.9KMC1vrdMCIwlnBz
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 2nAShlWqhTBOgJ6U
     sort: 0
     _key: '!actors.items!kFJZmsOnqW8mPZMY.2nAShlWqhTBOgJ6U'
@@ -1595,18 +1605,18 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.xU538OkJcqCnZf6F
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.xU538OkJcqCnZf6F
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: r5Os0HoxQ0oCXvm4
     sort: 0
     _key: '!actors.items!kFJZmsOnqW8mPZMY.r5Os0HoxQ0oCXvm4'
@@ -1742,19 +1752,19 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.bSpi5PEqAFnzyuPb
+      core: {}
       dnd5e:
         migratedUses: 1
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.bSpi5PEqAFnzyuPb
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: jqYG1oUt7Fna5TMx
     sort: 300000
     _key: '!actors.items!kFJZmsOnqW8mPZMY.jqYG1oUt7Fna5TMx'
@@ -1916,19 +1926,19 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.kP7HCc2ClFR8CtJ4
+      core: {}
       dnd5e:
         migratedUses: 1
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.kP7HCc2ClFR8CtJ4
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: QzjsO9Qw5WdxbXAH
     sort: 100000
     _key: '!actors.items!kFJZmsOnqW8mPZMY.QzjsO9Qw5WdxbXAH'
@@ -1999,17 +2009,17 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     flags:
-      core:
-        sourceId: Compendium.dnd5e.items.Item.SK2HATQ4abKUlV8i
+      core: {}
     _stats:
       compendiumSource: Compendium.dnd5e.items.Item.SK2HATQ4abKUlV8i
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!kFJZmsOnqW8mPZMY.IKwVCSKnF8rdAKgW'
 effects: []
 folder: xXqW5zZE9axoFXIR
@@ -2063,12 +2073,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.5
   createdTime: 1726384678114
   modifiedTime: 1740950740558
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: kFJZmsOnqW8mPZMY
 sort: 0
 _key: '!actors!kFJZmsOnqW8mPZMY'

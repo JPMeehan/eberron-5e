@@ -35,12 +35,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!ovNyPliIjgd7wPUA.BA60bL5U3vOagKqJ'
   - name: Summit Road
     type: subclass
@@ -74,12 +76,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!ovNyPliIjgd7wPUA.XdhRzu2EAOtr60hz'
   - name: Liberation Domain
     type: subclass
@@ -115,12 +119,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!ovNyPliIjgd7wPUA.VEjY3dHvqn7IMAed'
   - name: Serpentblood
     type: subclass
@@ -154,12 +160,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!ovNyPliIjgd7wPUA.EuZpHMZWKTEMlhAX'
 folder: K7D9TeJ6y6Z4mTe0
 sort: 150000
@@ -170,11 +178,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384670840
   modifiedTime: 1726384670840
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
+categories: []
 _key: '!journal!ovNyPliIjgd7wPUA'
 

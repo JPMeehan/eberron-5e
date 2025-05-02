@@ -417,7 +417,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -473,6 +472,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Flail
     type: weapon
@@ -601,12 +606,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!QrnCjeFqz7JDtSPf.ZfNcPaySMfdmbCZh'
   - name: Light Crossbow
     type: weapon
@@ -743,12 +749,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!QrnCjeFqz7JDtSPf.s2hSJoOrUx0HwT4B'
   - name: Actions Flail
     type: weapon
@@ -877,12 +884,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!QrnCjeFqz7JDtSPf.fZeSLC8fqgONhGPe'
   - name: Light Crossbow
     type: weapon
@@ -1011,12 +1019,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!QrnCjeFqz7JDtSPf.1KCilOuqrxnwKCzj'
   - name: Chain Shirt
     type: equipment
@@ -1114,12 +1123,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 5POiH7TPE2UeHTQu
     sort: 0
     _key: '!actors.items!QrnCjeFqz7JDtSPf.5POiH7TPE2UeHTQu'
@@ -1218,12 +1228,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: iKYhck3qUF9RahK5
     sort: 0
     _key: '!actors.items!QrnCjeFqz7JDtSPf.iKYhck3qUF9RahK5'
@@ -1265,12 +1276,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!QrnCjeFqz7JDtSPf.EDWisopYLrA2CLeP'
   - name: Pack Tactics
     type: feat
@@ -1309,12 +1321,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!QrnCjeFqz7JDtSPf.6RkvYDPkO8nz6T1V'
   - name: Dirty Fighting (1/turn)
     type: feat
@@ -1352,12 +1365,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!QrnCjeFqz7JDtSPf.wMHUQMWq4DwSVAAz'
 effects: []
 ownership:
@@ -1367,12 +1381,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1727630642061
   modifiedTime: 1727630642061
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: QrnCjeFqz7JDtSPf
 sort: 0
 _key: '!actors!QrnCjeFqz7JDtSPf'

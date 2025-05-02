@@ -437,7 +437,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -493,6 +492,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -528,12 +533,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!aNRpcxCSmn0u1oYq.7Ohy0XVHmRuFE6Nu'
   - name: Bite
     type: feat
@@ -640,12 +646,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!aNRpcxCSmn0u1oYq.pL20zlavI1S8EGy9'
   - name: Foul Claws
     type: feat
@@ -765,12 +772,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!aNRpcxCSmn0u1oYq.qKeGk1VdcBhJAbow'
   - name: Fiendish Presence
     type: feat
@@ -920,12 +928,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!aNRpcxCSmn0u1oYq.LRgn0dvHk7YEDERl'
   - name: Devil's Sight
     type: feat
@@ -962,12 +971,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!aNRpcxCSmn0u1oYq.qiJc7IXIpq4Mq88J'
   - _id: 9P6etQYt5FY7YPrY
     name: False Appearance
@@ -1010,12 +1020,13 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: Compendium.dnd5e.monsterfeatures.Item.kyVgQNSa12loxVvr
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: 1727542873991
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!actors.items!aNRpcxCSmn0u1oYq.9P6etQYt5FY7YPrY'
 effects: []
 ownership:
@@ -1027,12 +1038,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727542831586
   modifiedTime: 1727543549874
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: aNRpcxCSmn0u1oYq
 sort: 400000
 _key: '!actors!aNRpcxCSmn0u1oYq'

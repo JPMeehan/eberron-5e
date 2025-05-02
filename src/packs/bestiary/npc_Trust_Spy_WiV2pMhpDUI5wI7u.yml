@@ -415,7 +415,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -471,6 +470,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -541,12 +546,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!WiV2pMhpDUI5wI7u.zfhSG8pSypV04CY3'
   - name: Shortsword
     type: weapon
@@ -684,12 +690,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!WiV2pMhpDUI5wI7u.thrcPGIGUlVBV7y8'
   - name: Hand Crossbow
     type: weapon
@@ -820,12 +827,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!WiV2pMhpDUI5wI7u.AsfPHpIZqbouTUmk'
   - name: Cunning Action
     type: feat
@@ -899,12 +907,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!WiV2pMhpDUI5wI7u.Wp6UjYfPaAPtAO46'
   - name: Gnome Cunning
     type: feat
@@ -942,12 +951,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!WiV2pMhpDUI5wI7u.Iu4K8ikNX4LatovP'
   - name: Spellcasting
     type: feat
@@ -988,12 +998,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!WiV2pMhpDUI5wI7u.9uM5QF6LKYkL8c35'
   - name: Minor Illusion
     system:
@@ -1148,12 +1159,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!WiV2pMhpDUI5wI7u.vWtlbdrFKj1j0yPr'
 effects: []
 flags:
@@ -1164,12 +1176,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.5
   createdTime: 1736017291485
   modifiedTime: 1740951594528
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 0
 ownership:
   default: 0

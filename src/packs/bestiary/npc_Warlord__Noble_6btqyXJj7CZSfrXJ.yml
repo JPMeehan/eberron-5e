@@ -472,7 +472,6 @@ prototypeToken:
   detectionModes: []
   flags: {}
   randomImg: false
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -484,6 +483,12 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -574,12 +579,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6btqyXJj7CZSfrXJ.R9MoL1Aga6zNgASw'
   - name: Greatsword
     type: weapon
@@ -665,12 +671,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6btqyXJj7CZSfrXJ.clxh7ZE5SwxkhhE4'
   - name: Intimidating Presence
     type: feat
@@ -767,12 +774,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6btqyXJj7CZSfrXJ.fDBF7M3gzTSahOmV'
   - name: Indignation
     type: feat
@@ -870,12 +878,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6btqyXJj7CZSfrXJ.X7uw4zTFTkkJxxVX'
   - name: Commanding General
     type: feat
@@ -918,12 +927,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6btqyXJj7CZSfrXJ.SsZjkKQDuIa2mAwb'
   - name: Indomitable (3/day)
     type: feat
@@ -962,12 +972,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6btqyXJj7CZSfrXJ.AzMOWG3ZZmOO3ltz'
   - name: Survivor
     type: feat
@@ -1007,12 +1018,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6btqyXJj7CZSfrXJ.YatolqmSZacGTaPb'
 effects: []
 ownership:
@@ -1026,12 +1038,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384676397
   modifiedTime: 1739001220521
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: 6btqyXJj7CZSfrXJ
 sort: 0
 _key: '!actors!6btqyXJj7CZSfrXJ'

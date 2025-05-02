@@ -10,12 +10,22 @@ results:
       - 1
     drawn: false
     _id: tEyY2AlFEvGRehxu
-    text: >-
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       You replaced your victim in their youth, and have a well-established
       relationship with family and friends.
-    img: icons/svg/d20-black.svg
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!jRSMqqd4YtTBW7v3.tEyY2AlFEvGRehxu'
   - type: text
     weight: 1
@@ -24,12 +34,22 @@ results:
       - 2
     drawn: false
     _id: OvgGY1XvqiZZeqr5
-    text: >-
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       You replaced your victim during the Last War, and may have fought in some
       of the battles yourself.
-    img: icons/svg/d20-black.svg
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!jRSMqqd4YtTBW7v3.OvgGY1XvqiZZeqr5'
   - type: text
     weight: 1
@@ -38,12 +58,22 @@ results:
       - 3
     drawn: false
     _id: 3fDKfzRbiAH03MsJ
-    text: >-
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       Your victim was lost at sea years ago and presumed dead; you have only
       just “miraculously” returned.
-    img: icons/svg/d20-black.svg
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!jRSMqqd4YtTBW7v3.3fDKfzRbiAH03MsJ'
   - type: text
     weight: 1
@@ -52,12 +82,22 @@ results:
       - 4
     drawn: false
     _id: E7E6anmRqGOknJsk
-    text: >-
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       Your victim’s parents or siblings have also been replaced by malenti, and
       are serving as spies in a major city.
-    img: icons/svg/d20-black.svg
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!jRSMqqd4YtTBW7v3.E7E6anmRqGOknJsk'
   - type: text
     weight: 1
@@ -66,12 +106,22 @@ results:
       - 5
     drawn: false
     _id: qkjezxbegJgvYQvg
-    text: >-
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       You replaced your victim only a month ago, as they returned from a trip to
       Stormreach.
-    img: icons/svg/d20-black.svg
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!jRSMqqd4YtTBW7v3.qkjezxbegJgvYQvg'
   - type: text
     weight: 1
@@ -80,12 +130,22 @@ results:
       - 6
     drawn: false
     _id: LvafCXrxgUZlTIKt
-    text: >-
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       You replaced your victim a year ago, but the circumstances were difficult
       and some of your old acquaintances are still suspicious.
-    img: icons/svg/d20-black.svg
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!jRSMqqd4YtTBW7v3.LvafCXrxgUZlTIKt'
 replacement: true
 displayRoll: true
@@ -99,12 +159,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384671264
   modifiedTime: 1726384671264
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 formula: 1d6
 _key: '!tables!jRSMqqd4YtTBW7v3'
 

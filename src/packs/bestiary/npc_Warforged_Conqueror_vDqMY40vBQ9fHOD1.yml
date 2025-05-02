@@ -432,7 +432,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -488,6 +487,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -558,12 +563,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vDqMY40vBQ9fHOD1.j9Kwe4JAK181AaB0'
   - name: Greatsword
     type: weapon
@@ -693,12 +699,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vDqMY40vBQ9fHOD1.N02MTY1pbWN1zPSM'
   - name: Longbow
     type: weapon
@@ -829,12 +836,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vDqMY40vBQ9fHOD1.P6QsXDJZD1htip0j'
   - name: Spellcasting
     type: feat
@@ -908,12 +916,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vDqMY40vBQ9fHOD1.7IPSu1hLmlIgN5S1'
   - name: Conquering Presence
     type: feat
@@ -996,12 +1005,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vDqMY40vBQ9fHOD1.qxa1jdIslHNzP8zc'
   - name: Aura Of Conquest
     type: feat
@@ -1039,12 +1049,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vDqMY40vBQ9fHOD1.I3UMrG48OJhNrrFk'
   - name: Scornful Rebuke
     type: feat
@@ -1082,12 +1093,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vDqMY40vBQ9fHOD1.1EyBQlNw5pwW6PVs'
   - name: Construct Resilience
     type: feat
@@ -1123,12 +1135,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vDqMY40vBQ9fHOD1.2bYI4tELO3gs4w53'
   - name: Bestow Curse
     ownership:
@@ -1284,12 +1297,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: IHFe2M2EYPyHU21O
     sort: 200000
     _key: '!actors.items!vDqMY40vBQ9fHOD1.IHFe2M2EYPyHU21O'
@@ -1410,12 +1424,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: z0UZFy6Lxf1GKeBg
     sort: 700000
     _key: '!actors.items!vDqMY40vBQ9fHOD1.z0UZFy6Lxf1GKeBg'
@@ -1602,12 +1617,13 @@ items:
           compendiumSource: >-
             Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe.ActiveEffect.Edq07kTLIVkuDjtn
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.1.2
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!vDqMY40vBQ9fHOD1.PU0YnkHF1692rMGm.f4ZSv70N8D751MVx
       - name: Close Save
@@ -1638,24 +1654,26 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.1.2
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!vDqMY40vBQ9fHOD1.PU0YnkHF1692rMGm.RDEnPfRGr6ZQfPFB
     folder: lbepdWjoi3lpPvCX
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: PU0YnkHF1692rMGm
     sort: 300000
     _key: '!actors.items!vDqMY40vBQ9fHOD1.PU0YnkHF1692rMGm'
@@ -1782,12 +1800,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: r8jFQWuONbQjkqJp
     sort: 500000
     _key: '!actors.items!vDqMY40vBQ9fHOD1.r8jFQWuONbQjkqJp'
@@ -1796,12 +1815,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.5
   createdTime: 1736016616752
   modifiedTime: 1740951594528
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 0
 ownership:
   default: 0

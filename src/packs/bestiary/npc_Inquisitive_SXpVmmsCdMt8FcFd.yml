@@ -420,7 +420,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -476,6 +475,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Dagger
     type: weapon
@@ -604,12 +609,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!SXpVmmsCdMt8FcFd.UYyCZYQUnx4AL9O1'
   - name: Rapier
     type: weapon
@@ -738,12 +744,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!SXpVmmsCdMt8FcFd.5ItjI3zCS7S9iSgd'
   - name: Unarmed Strike
     type: weapon
@@ -872,12 +879,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!SXpVmmsCdMt8FcFd.FdVXQtCrRaeFsD4i'
   - name: Studded Leather
     type: equipment
@@ -973,12 +981,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: uD6ASqp3SQ39MdRv
     sort: 0
     _key: '!actors.items!SXpVmmsCdMt8FcFd.uD6ASqp3SQ39MdRv'
@@ -1019,12 +1028,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!SXpVmmsCdMt8FcFd.qbac1nSlaL3WWXzr'
   - name: Predictive Puissance
     type: feat
@@ -1065,12 +1075,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!SXpVmmsCdMt8FcFd.yPhrktCNEJN6ybiu'
 effects: []
 ownership:
@@ -1082,12 +1093,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727454760821
   modifiedTime: 1727455233643
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: SXpVmmsCdMt8FcFd
 sort: 200000
 _key: '!actors!SXpVmmsCdMt8FcFd'

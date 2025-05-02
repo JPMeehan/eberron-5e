@@ -11,10 +11,20 @@ results:
       - 1
     drawn: false
     _id: hPd4rhMdaCkOwUI6
-    text: Summit Road guide
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Summit Road guide
+    name: ''
     _key: '!tables.results!Tue5zK07nP7aPlv2.hPd4rhMdaCkOwUI6'
   - type: text
     weight: 1
@@ -23,10 +33,20 @@ results:
       - 2
     drawn: false
     _id: 8J398oEWU7471y3P
-    text: Monastic scholar
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Monastic scholar
+    name: ''
     _key: '!tables.results!Tue5zK07nP7aPlv2.8J398oEWU7471y3P'
   - type: text
     weight: 1
@@ -35,10 +55,20 @@ results:
       - 3
     drawn: false
     _id: MOPT2iSqdXWlzouB
-    text: Village artisan
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Village artisan
+    name: ''
     _key: '!tables.results!Tue5zK07nP7aPlv2.MOPT2iSqdXWlzouB'
   - type: text
     weight: 1
@@ -47,10 +77,20 @@ results:
       - 4
     drawn: false
     _id: NwIyx7QiuXXO2uNq
-    text: Lightbringer
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Lightbringer
+    name: ''
     _key: '!tables.results!Tue5zK07nP7aPlv2.NwIyx7QiuXXO2uNq'
   - type: text
     weight: 1
@@ -59,10 +99,20 @@ results:
       - 5
     drawn: false
     _id: tbXbUqG6r041pTx7
-    text: Riedran refugee
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Riedran refugee
+    name: ''
     _key: '!tables.results!Tue5zK07nP7aPlv2.tbXbUqG6r041pTx7'
   - type: text
     weight: 1
@@ -71,10 +121,20 @@ results:
       - 6
     drawn: false
     _id: 4P2Mg999VMxQaunF
-    text: A wandering criminal
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: A wandering criminal
+    name: ''
     _key: '!tables.results!Tue5zK07nP7aPlv2.4P2Mg999VMxQaunF'
 replacement: true
 displayRoll: true
@@ -86,12 +146,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726978429159
   modifiedTime: 1726978465428
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 formula: ''
 _key: '!tables!Tue5zK07nP7aPlv2'
 

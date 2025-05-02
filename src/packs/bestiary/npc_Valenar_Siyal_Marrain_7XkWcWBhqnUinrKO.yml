@@ -1214,12 +1214,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!7XkWcWBhqnUinrKO.rg6v5jNHHQ3xkAON'
   - name: Multiattack
     type: feat
@@ -1295,12 +1296,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!7XkWcWBhqnUinrKO.fhulZ45XsBxuYApw'
   - name: Longbow
     type: weapon
@@ -1421,12 +1423,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!7XkWcWBhqnUinrKO.PFIgBwxtxlXponqZ'
   - name: Thorn Whip
     type: weapon
@@ -1559,12 +1562,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!7XkWcWBhqnUinrKO.gWTjFIrJNaf1qkql'
   - _id: WwdpHLXGX5r8uZu5
     name: Leather Armor
@@ -1634,12 +1638,13 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!7XkWcWBhqnUinrKO.WwdpHLXGX5r8uZu5'
   - name: Beast Whisperer
     type: feat
@@ -1684,12 +1689,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!7XkWcWBhqnUinrKO.Ceq5EuRZlG18gBgR'
   - name: Born In The Saddle
     type: feat
@@ -1745,12 +1751,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!7XkWcWBhqnUinrKO.GfyUYHBkFCFBTem5'
   - name: Fey Ancestry
     type: feat
@@ -1792,12 +1799,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!7XkWcWBhqnUinrKO.8hJpDK6dvHl7HONZ'
   - name: Mounted Archery
     type: feat
@@ -1840,12 +1848,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!7XkWcWBhqnUinrKO.Ty5MZimVi1uQueXI'
   - name: Druidcraft
     system:
@@ -1994,12 +2003,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.OrpWMeluPwlBmYZS.dnd5espellchange
     folder: 4FhsY9FJQd7h7MZb
@@ -2016,12 +2026,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: OrpWMeluPwlBmYZS
     _key: '!actors.items!7XkWcWBhqnUinrKO.OrpWMeluPwlBmYZS'
   - name: Guidance
@@ -2166,12 +2177,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.GezMMzvZhWXEYyGm
       - name: Animal Handling Guidance
@@ -2202,12 +2214,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: y6aODSkiubtFt6Ap
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.y6aODSkiubtFt6Ap
@@ -2239,12 +2252,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: Vlfh8IFOezrSpeBZ
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.Vlfh8IFOezrSpeBZ
@@ -2276,12 +2290,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: sPkLWVpkJ7NqDQT0
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.sPkLWVpkJ7NqDQT0
@@ -2313,12 +2328,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: Je4xWElmaiSDsOjU
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.Je4xWElmaiSDsOjU
@@ -2350,12 +2366,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: cw02ZbuiRn6GyoEv
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.cw02ZbuiRn6GyoEv
@@ -2387,12 +2404,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: VsU5vUhMioT9pCwG
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.VsU5vUhMioT9pCwG
@@ -2424,12 +2442,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: UQixxmOdHUDjVYNh
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.UQixxmOdHUDjVYNh
@@ -2461,12 +2480,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: Cpte6tynFFJbraX2
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.Cpte6tynFFJbraX2
@@ -2498,12 +2518,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: Vl1YSG1DlZvx9nSI
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.Vl1YSG1DlZvx9nSI
@@ -2535,12 +2556,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: IqxGXju1tYDWoda6
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.IqxGXju1tYDWoda6
@@ -2572,12 +2594,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: fCdLUO5DoSIT4wVK
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.fCdLUO5DoSIT4wVK
@@ -2609,12 +2632,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: qPowjrduxnzKpH8x
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.qPowjrduxnzKpH8x
@@ -2646,12 +2670,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: E4BqoCkyoKLJbGmb
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.E4BqoCkyoKLJbGmb
@@ -2683,12 +2708,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: jVKWknHHFuMwvTct
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.jVKWknHHFuMwvTct
@@ -2720,12 +2746,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: pwFahx7uqM4DOgnu
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.pwFahx7uqM4DOgnu
@@ -2757,12 +2784,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: Vb4iRJ73Nw78UUMW
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.Vb4iRJ73Nw78UUMW
@@ -2794,12 +2822,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _id: A1T0X0DUFIxx3qhE
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.A1T0X0DUFIxx3qhE
@@ -2840,12 +2869,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.dnd5espellchange
     folder: 4FhsY9FJQd7h7MZb
@@ -2862,12 +2892,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 5vsldNsvezi4jJxk
     _key: '!actors.items!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk'
   - name: Thorn Whip
@@ -3027,12 +3058,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.W5luuo9czcG6lwlC.dnd5espellchange
     folder: 4FhsY9FJQd7h7MZb
@@ -3049,12 +3081,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplThornWhip0
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: W5luuo9czcG6lwlC
     _key: '!actors.items!7XkWcWBhqnUinrKO.W5luuo9czcG6lwlC'
   - name: Animal Friendship
@@ -3192,12 +3225,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.WJNz2tnybSChDxme.55NWwccKvMKQPL4h
       - _id: dnd5espellchange
@@ -3237,12 +3271,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.WJNz2tnybSChDxme.dnd5espellchange
     folder: pBaAAtXBCq9FVEnL
@@ -3256,12 +3291,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: WJNz2tnybSChDxme
     _key: '!actors.items!7XkWcWBhqnUinrKO.WJNz2tnybSChDxme'
   - name: Animal Messenger
@@ -3392,12 +3428,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.HK6ibh82CxXCrE2j.jubviBNu11G84UZd
       - _id: dnd5espellchange
@@ -3437,12 +3474,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.HK6ibh82CxXCrE2j.dnd5espellchange
     folder: 3SjcO2acsFnWegp4
@@ -3456,12 +3494,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplAnimalMess
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: HK6ibh82CxXCrE2j
     _key: '!actors.items!7XkWcWBhqnUinrKO.HK6ibh82CxXCrE2j'
   - name: Beast Sense
@@ -3593,12 +3632,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.m868At3wZRTeVUj4.dnd5espellchange
     folder: 3SjcO2acsFnWegp4
@@ -3612,12 +3652,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplBeastSense
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: m868At3wZRTeVUj4
     _key: '!actors.items!7XkWcWBhqnUinrKO.m868At3wZRTeVUj4'
   - name: Entangle
@@ -3762,12 +3803,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.ZYspAg286QhVerpL.wn7K2m4XhXhItgPT
       - _id: dnd5espellchange
@@ -3807,12 +3849,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.ZYspAg286QhVerpL.dnd5espellchange
     folder: pBaAAtXBCq9FVEnL
@@ -3826,12 +3869,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplEntangle00
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: ZYspAg286QhVerpL
     _key: '!actors.items!7XkWcWBhqnUinrKO.ZYspAg286QhVerpL'
   - name: Speak with Animals
@@ -3961,12 +4005,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.yDBpjtpXVX9TdMlp.lHx55SIuimKR3ALR
       - _id: dnd5espellchange
@@ -4006,12 +4051,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.yDBpjtpXVX9TdMlp.dnd5espellchange
     folder: pBaAAtXBCq9FVEnL
@@ -4025,12 +4071,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: yDBpjtpXVX9TdMlp
     _key: '!actors.items!7XkWcWBhqnUinrKO.yDBpjtpXVX9TdMlp'
   - name: Spike Growth
@@ -4191,12 +4238,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.CakoyrsjS1tNgzPQ.dnd5espellchange
     folder: 3SjcO2acsFnWegp4
@@ -4213,12 +4261,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplSpikeGrowt
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: CakoyrsjS1tNgzPQ
     _key: '!actors.items!7XkWcWBhqnUinrKO.CakoyrsjS1tNgzPQ'
   - name: Conjure Animals
@@ -4440,12 +4489,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.TlnFYTHI3wveB9OO.dnd5espellchange
     folder: HCovEE4VoPGlIbKi
@@ -4459,12 +4509,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplConjureAni
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: TlnFYTHI3wveB9OO
     _key: '!actors.items!7XkWcWBhqnUinrKO.TlnFYTHI3wveB9OO'
   - name: Phantom Steed
@@ -4627,12 +4678,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.ieloKxDF21FvdBPY.dnd5espellchange
     folder: HCovEE4VoPGlIbKi
@@ -4646,12 +4698,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplPhantomSte
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: ieloKxDF21FvdBPY
     _key: '!actors.items!7XkWcWBhqnUinrKO.ieloKxDF21FvdBPY'
   - name: Plant Growth
@@ -4848,12 +4901,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.idj4r6uoZ3PsMvch.dnd5espellchange
     folder: HCovEE4VoPGlIbKi
@@ -4867,12 +4921,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowt
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: idj4r6uoZ3PsMvch
     _key: '!actors.items!7XkWcWBhqnUinrKO.idj4r6uoZ3PsMvch'
   - name: Dominate Beast
@@ -5016,12 +5071,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.7nQHB5gAJFLFfh31.PuOL8FylatY9CFzr
       - _id: dnd5espellchange
@@ -5061,12 +5117,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.7nQHB5gAJFLFfh31.dnd5espellchange
     folder: qi3IbnEwap7mRw4b
@@ -5080,12 +5137,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplDominateBe
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 7nQHB5gAJFLFfh31
     _key: '!actors.items!7XkWcWBhqnUinrKO.7nQHB5gAJFLFfh31'
   - name: Find Greater Steed
@@ -5255,12 +5313,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!7XkWcWBhqnUinrKO.1rZn9vBHH2v9VTzM.dnd5espellchange
     folder: yfVzvJG1rl734ILA
@@ -5268,12 +5327,13 @@ items:
     _stats:
       compendiumSource: Compendium.chaosos-5e-content.non-srd-spells.Item.iQfr5YPAHDFrmuSR
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 1rZn9vBHH2v9VTzM
     _key: '!actors.items!7XkWcWBhqnUinrKO.1rZn9vBHH2v9VTzM'
 prototypeToken:
@@ -5306,7 +5366,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -5352,6 +5411,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 folder: WHWWLW3kFneE1X7T
 name: Valenar Siyal Marrain
 type: npc
@@ -5366,11 +5431,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.6
   createdTime: 1742598268783
   modifiedTime: 1742598292192
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!actors!7XkWcWBhqnUinrKO'
 

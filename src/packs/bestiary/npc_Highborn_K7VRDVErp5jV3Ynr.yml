@@ -420,7 +420,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -476,6 +475,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -511,12 +516,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K7VRDVErp5jV3Ynr.hEx5tZipJHq47B8l'
   - name: Rapier
     type: weapon
@@ -645,12 +651,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K7VRDVErp5jV3Ynr.JyGrDLrtvU4rCC7C'
   - name: Nobilis Oblige
     type: feat
@@ -690,12 +697,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K7VRDVErp5jV3Ynr.Cf7dlzc2PlB3unIf'
   - name: Highborn Inspiration (1/turn)
     type: feat
@@ -734,12 +742,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K7VRDVErp5jV3Ynr.8W6DGqY4RnNc4Rbq'
 effects: []
 ownership:
@@ -751,12 +760,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727454757790
   modifiedTime: 1727455233639
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: K7VRDVErp5jV3Ynr
 sort: 300000
 _key: '!actors!K7VRDVErp5jV3Ynr'

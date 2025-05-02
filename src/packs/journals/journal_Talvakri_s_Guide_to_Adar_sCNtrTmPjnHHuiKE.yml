@@ -33,12 +33,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.TvYX6WbgFt1xmuu6'
   - name: Quori Mindhunter
     type: subclass
@@ -74,12 +76,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.PiHtv0vdDkbPVEc2'
   - name: Way of the Summit Sentinel
     type: subclass
@@ -112,12 +116,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.Sqs15AXbuwuIoUIY'
   - name: The Visage
     type: subclass
@@ -153,12 +159,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.6yU06XIl8G3iCeEV'
   - name: Manifest Power
     type: subclass
@@ -192,12 +200,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.cxLOk7gqga9BB4Bf'
   - name: Way of the Elemental Master
     type: subclass
@@ -230,12 +240,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.kppyokMUt3ZLnpzx'
   - name: Psion
     type: subclass
@@ -269,12 +281,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!sCNtrTmPjnHHuiKE.Adfw4GeSPuH8AHdM'
 folder: K7D9TeJ6y6Z4mTe0
 sort: 106250
@@ -285,11 +299,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384670914
   modifiedTime: 1726384670914
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
+categories: []
 _key: '!journal!sCNtrTmPjnHHuiKE'
 

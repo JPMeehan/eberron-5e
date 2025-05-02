@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0
+
+- Updated to v13
+
 ## 1.0.13
 - Updated sources on NPCs to improve compendium browser display
 

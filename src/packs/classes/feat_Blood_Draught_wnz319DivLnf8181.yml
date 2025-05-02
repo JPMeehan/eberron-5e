@@ -100,12 +100,13 @@ _id: wnz319DivLnf8181
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384664438
   modifiedTime: 1739000806974
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 6000
 ownership:
   default: 0

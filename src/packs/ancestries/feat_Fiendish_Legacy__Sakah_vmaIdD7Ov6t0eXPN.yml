@@ -53,12 +53,13 @@ flags: {}
 _stats:
   compendiumSource: Compendium.eberron-5e.ancestries.Item.1TXCaHdYR1MbOs2N
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726715471194
   modifiedTime: 1726717723881
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3

@@ -421,7 +421,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -477,6 +476,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Arcane Burst
     type: weapon
@@ -601,12 +606,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.CiHp7X73LQduGpti'
   - name: Fireball (3rd-level Spell; 2/day)
     type: feat
@@ -650,12 +656,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.S0Wzn5kY0WYeVo0j'
   - name: Spellcasting
     type: weapon
@@ -781,12 +788,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.qeRricgirGSjjC0r'
   - name: Dimension Step (2nd-level Spell; 3/day)
     type: feat
@@ -828,12 +836,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.EP3BUndbWdesleT9'
   - name: Deflection Shield (2nd-level Spell; 3/day)
     type: feat
@@ -877,12 +886,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.sM7dTca4M1LP5uoY'
   - name: Arcane Negation (3rd-level Spell; 3/day)
     type: feat
@@ -926,12 +936,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.1aGVjmuI1jHxJD3a'
   - name: War Magic (4/day)
     type: feat
@@ -971,12 +982,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.3LSnm92438ksZyLE'
   - name: Mage Armor
     system:
@@ -1102,12 +1114,13 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         img: icons/equipment/chest/breastplate-helmet-metal.webp
         type: base
         system: {}
@@ -1127,12 +1140,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.58vEiNtATmFLacQe'
   - name: Message
     system:
@@ -1243,12 +1257,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.3bW8lbyKgGpvhVhY'
   - name: Chaos Bolt
     type: spell
@@ -1415,12 +1430,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.mc5wJT4fyxnqm4Ib'
   - name: Fog Cloud
     system:
@@ -1530,12 +1546,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.7SfgvYm1L1G2DOmL'
   - name: Scorching Ray
     system:
@@ -1662,12 +1679,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.12XyFpg0l286FCyr'
   - name: Blur
     system:
@@ -1770,12 +1788,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.fRR0ORXC8oKwUpDE'
   - name: Confusion
     type: spell
@@ -1947,12 +1966,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: XQLCUlBpaQVTb3YM
     sort: 500000
     _key: '!actors.items!XATksUV2YzQofyhp.XQLCUlBpaQVTb3YM'
@@ -2085,12 +2105,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.Ky8xDnHZBeYNchnB'
   - name: Lightning Bolt
     system:
@@ -2214,12 +2235,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XATksUV2YzQofyhp.7wTivCPc3PeXT4ip'
 effects: []
 ownership:
@@ -2231,12 +2253,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727455103410
   modifiedTime: 1727455233665
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: XATksUV2YzQofyhp
 sort: 0
 _key: '!actors!XATksUV2YzQofyhp'

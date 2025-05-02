@@ -133,12 +133,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     img: icons/magic/symbols/rune-sigil-rough-white-teal.webp
     type: base
     system: {}
@@ -204,12 +205,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     img: icons/magic/symbols/rune-sigil-rough-white-teal.webp
     type: enchantment
     system: {}
@@ -228,12 +230,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384641708
   modifiedTime: 1726384641708
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: A102vybgFsG7K6YP
 sort: 200000
 _key: '!items!A102vybgFsG7K6YP'

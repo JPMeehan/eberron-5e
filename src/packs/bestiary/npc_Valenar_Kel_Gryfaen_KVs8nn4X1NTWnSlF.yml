@@ -539,12 +539,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KVs8nn4X1NTWnSlF.GmX3w91OVIK6aNRt'
   - name: Scimitar
     type: weapon
@@ -670,12 +671,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KVs8nn4X1NTWnSlF.b4oOrSp3Ai9mI6JK'
   - name: Longbow
     type: weapon
@@ -799,12 +801,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KVs8nn4X1NTWnSlF.8zVf92612xEM9hae'
   - name: Aileron Roll
     type: feat
@@ -888,12 +891,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KVs8nn4X1NTWnSlF.Rw40ds4uSRXJNnfg'
   - _id: WwdpHLXGX5r8uZu5
     name: Leather Armor
@@ -963,12 +967,13 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KVs8nn4X1NTWnSlF.WwdpHLXGX5r8uZu5'
   - name: Born In The Saddle
     type: feat
@@ -1024,12 +1029,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KVs8nn4X1NTWnSlF.mF0B1hM2dRE6r1Cg'
   - name: Combat Rider
     type: feat
@@ -1072,12 +1078,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KVs8nn4X1NTWnSlF.wsMXsel0X3NWGTpf'
   - name: Fey Ancestry
     type: feat
@@ -1119,12 +1126,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KVs8nn4X1NTWnSlF.C0nww2MJquXU8bhg'
   - name: Mounted Archery
     type: feat
@@ -1167,12 +1175,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KVs8nn4X1NTWnSlF.WOs3vgznskQBM3i1'
 prototypeToken:
   sight:
@@ -1204,7 +1213,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -1250,6 +1258,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 folder: WHWWLW3kFneE1X7T
 name: Valenar Kel Gryfaen
 type: npc
@@ -1264,11 +1278,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.6
   createdTime: 1742598268783
   modifiedTime: 1742598292192
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!actors!KVs8nn4X1NTWnSlF'
 

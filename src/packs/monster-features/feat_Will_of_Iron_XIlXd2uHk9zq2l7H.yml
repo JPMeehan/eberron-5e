@@ -54,12 +54,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727547415165
       modifiedTime: 1727547432297
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!items.effects!XIlXd2uHk9zq2l7H.yaEW7DQ9gRO2YKDI'
 sort: 0
 ownership:
@@ -69,11 +70,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727547191859
   modifiedTime: 1727547256531
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!items!XIlXd2uHk9zq2l7H'
 

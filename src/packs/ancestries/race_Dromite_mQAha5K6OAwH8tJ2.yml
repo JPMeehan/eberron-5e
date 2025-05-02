@@ -104,11 +104,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384610007
   modifiedTime: 1726384610007
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!items!mQAha5K6OAwH8tJ2'
 

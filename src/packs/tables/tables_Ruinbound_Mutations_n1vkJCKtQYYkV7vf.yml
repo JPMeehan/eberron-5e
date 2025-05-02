@@ -11,12 +11,22 @@ results:
       - 1
     drawn: false
     _id: qh3shZJIn3Hm96Ax
-    text: >-
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       Unnatural Hair. Is your hair an unusual color? Ectoplasmic in nature? Does
       it move of its own accord?
-    img: icons/svg/d20-black.svg
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!n1vkJCKtQYYkV7vf.qh3shZJIn3Hm96Ax'
   - type: text
     weight: 1
@@ -25,10 +35,20 @@ results:
       - 2
     drawn: false
     _id: SjUNGeMbtdJyDP20
-    text: Unusual Skin. Is your skin transparent? Slick? An unnatural color?
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Unusual Skin. Is your skin transparent? Slick? An unnatural color?
+    name: ''
     _key: '!tables.results!n1vkJCKtQYYkV7vf.SjUNGeMbtdJyDP20'
   - type: text
     weight: 1
@@ -37,12 +57,22 @@ results:
       - 3
     drawn: false
     _id: AxA8N2KAzj8sonLS
-    text: >-
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       Aberrant Eyes. Are your eyes luminous? Invisible? Do they resemble the
       eyes of an animal, or are they seemingly absent?
-    img: icons/svg/d20-black.svg
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!n1vkJCKtQYYkV7vf.AxA8N2KAzj8sonLS'
   - type: text
     weight: 1
@@ -51,12 +81,22 @@ results:
       - 4
     drawn: false
     _id: vgUuPEOUAAtgCsPO
-    text: >-
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       Strange Appetites. Do you prefer your food charred? Do you eat flowers, or
       can you only eat living things?
-    img: icons/svg/d20-black.svg
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!n1vkJCKtQYYkV7vf.vgUuPEOUAAtgCsPO'
   - type: text
     weight: 1
@@ -65,13 +105,23 @@ results:
       - 5
     drawn: false
     _id: 99MePMGOw57Y4JRX
-    text: >-
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       Living Tattoos. You appear to have exotic tattoos across your body. They
       slowly and constantly change, and you have no control over the design. Do
       they show images or words, or are they incomprehensible?
-    img: icons/svg/d20-black.svg
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!n1vkJCKtQYYkV7vf.99MePMGOw57Y4JRX'
   - type: text
     weight: 1
@@ -80,13 +130,23 @@ results:
       - 6
     drawn: false
     _id: FpzcH4zkPzj4PSTH
-    text: >-
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       Ageless. The passage of time affects your appearance differently than
       others. Do you appear old beyond your years, or look surprisingly young no
       matter your age? As you grow older, do you look younger?
-    img: icons/svg/d20-black.svg
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!n1vkJCKtQYYkV7vf.FpzcH4zkPzj4PSTH'
   - type: text
     weight: 1
@@ -95,12 +155,22 @@ results:
       - 7
     drawn: false
     _id: HG3OYK2dVU4x1EC5
-    text: >-
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       Inexplicable Hearing. You have no visible ears, yet you can hear clearly.
       Does sound feel different to you? How do you experience it?
-    img: icons/svg/d20-black.svg
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!n1vkJCKtQYYkV7vf.HG3OYK2dVU4x1EC5'
   - type: text
     weight: 1
@@ -109,12 +179,22 @@ results:
       - 8
     drawn: false
     _id: TFeJSCrNfwXkEOM0
-    text: >-
+    img: icons/svg/d20-black.svg
+    flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: >-
       Extra Joints. You have one or more extra joints. Is it just an unusual
       joint in your fingers, or can you bend your entire leg backward?
-    img: icons/svg/d20-black.svg
-    documentId: null
-    flags: {}
+    name: ''
     _key: '!tables.results!n1vkJCKtQYYkV7vf.TFeJSCrNfwXkEOM0'
 replacement: true
 displayRoll: true
@@ -127,12 +207,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384671273
   modifiedTime: 1726384671273
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 formula: 1d8
 _key: '!tables!n1vkJCKtQYYkV7vf'
 

@@ -421,7 +421,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -477,6 +476,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -514,12 +519,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!OOl6AMna1fYj0lIv.vNzgM8Edp63H1Y5v'
   - name: Longsword
     type: feat
@@ -555,12 +561,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!OOl6AMna1fYj0lIv.TUwg3dFu9FfF8qcy'
   - name: Shield Bash
     type: feat
@@ -600,12 +607,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!OOl6AMna1fYj0lIv.kKaiMyBgv5Vh0SZ7'
   - name: Heavy Crossbow
     type: feat
@@ -643,12 +651,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!OOl6AMna1fYj0lIv.GSKWWzdcL4WxUViM'
   - name: Spellcasting
     type: feat
@@ -688,12 +697,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!OOl6AMna1fYj0lIv.KlGaN7ogZQo703pr'
   - name: Vigilant Guardian (1/day)
     type: feat
@@ -736,12 +746,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!OOl6AMna1fYj0lIv.iiG0WlCmbNaBISyb'
   - name: Compelled Duel
     type: spell
@@ -869,12 +880,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 5FCV6jGlGD2bucwU
     sort: 800000
     _key: '!actors.items!OOl6AMna1fYj0lIv.5FCV6jGlGD2bucwU'
@@ -987,12 +999,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!OOl6AMna1fYj0lIv.aaJC6luWdkQGfmXR'
   - name: Shield
     system:
@@ -1124,12 +1137,13 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7.ActiveEffect.6pbotGIvqQkraPva
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.4
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         img: icons/equipment/shield/heater-steel-crystal-red.webp
         type: base
         system: {}
@@ -1147,12 +1161,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!OOl6AMna1fYj0lIv.7VXS2P0eANAo13l8'
   - name: Zone of Truth
     ownership:
@@ -1275,12 +1290,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: zLZR74x3rgxtlAOI
     sort: 0
     _key: '!actors.items!OOl6AMna1fYj0lIv.zLZR74x3rgxtlAOI'
@@ -1349,12 +1365,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.equipment.Item.phbarmSplintArmo
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: 1727675080514
       modifiedTime: 1727675080514
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!actors.items!OOl6AMna1fYj0lIv.CZEMrnPAFRMfJxgG'
   - name: Shield
     system:
@@ -1422,12 +1439,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: 1727675087447
       modifiedTime: 1727675087447
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!actors.items!OOl6AMna1fYj0lIv.Y2bjoP2LvIodnbKN'
 effects: []
 ownership:
@@ -1439,12 +1457,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1727675011490
   modifiedTime: 1727675048646
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: OOl6AMna1fYj0lIv
 sort: 0
 _key: '!actors!OOl6AMna1fYj0lIv'

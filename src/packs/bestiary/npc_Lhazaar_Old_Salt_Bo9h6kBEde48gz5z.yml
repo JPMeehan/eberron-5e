@@ -424,7 +424,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -480,6 +479,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -515,12 +520,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Bo9h6kBEde48gz5z.eMADn1oJPXgHKTjU'
   - name: Scimitar
     type: weapon
@@ -649,12 +655,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Bo9h6kBEde48gz5z.r6HoB4Q57qSkMsKO'
   - name: Dagger
     type: weapon
@@ -783,12 +790,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Bo9h6kBEde48gz5z.EDkylzM8E1ZM2mR0'
   - name: Leather Armor
     system:
@@ -854,12 +862,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Bo9h6kBEde48gz5z.puHs0ZxeUpVz9VOJ'
   - name: Grizzled
     type: feat
@@ -895,12 +904,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Bo9h6kBEde48gz5z.CiRpDw1q0NWa5OZd'
   - name: Pack Tactics
     type: feat
@@ -939,12 +949,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Bo9h6kBEde48gz5z.upqBOuVsvxPUiNAk'
   - name: Sea Legs
     type: feat
@@ -982,12 +993,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Bo9h6kBEde48gz5z.fjT0lGHI5yIQVTqf'
 effects: []
 ownership:
@@ -997,12 +1009,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727550806323
   modifiedTime: 1727550806323
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: Bo9h6kBEde48gz5z
 sort: 0
 _key: '!actors!Bo9h6kBEde48gz5z'

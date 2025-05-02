@@ -193,12 +193,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384606882
   modifiedTime: 1726812228991
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: 1HWLDFwvfr6l57Km
 _key: '!items!1HWLDFwvfr6l57Km'
 

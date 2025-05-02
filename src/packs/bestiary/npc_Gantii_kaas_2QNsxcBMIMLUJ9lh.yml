@@ -449,7 +449,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -505,6 +504,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -540,12 +545,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2QNsxcBMIMLUJ9lh.MCmVzhuO0eyc05gh'
   - name: Blinding Claw
     type: feat
@@ -653,12 +659,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2QNsxcBMIMLUJ9lh.YVyyTgdiKj0gHGuh'
   - name: Rock
     type: feat
@@ -766,12 +773,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2QNsxcBMIMLUJ9lh.fq5KhTFPTfW8vzRx'
   - name: Eruption Of Stone
     type: feat
@@ -884,12 +892,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2QNsxcBMIMLUJ9lh.wVlGd1USovUGYAp1'
   - name: Spellcasting
     type: feat
@@ -932,12 +941,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2QNsxcBMIMLUJ9lh.t4vUARSWfhbZMfvw'
   - name: Hungry Hands
     type: feat
@@ -1037,12 +1047,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2QNsxcBMIMLUJ9lh.NlMu81cPXxuS4GuL'
   - name: Druidcraft
     system:
@@ -1167,12 +1178,13 @@ items:
     _stats:
       compendiumSource: Actor.JnZEeoQlRqRvIdvG.Item.8sBB3vs9Yjv6AbBA
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2QNsxcBMIMLUJ9lh.8sBB3vs9Yjv6AbBA'
   - name: Meld into Stone
     system:
@@ -1357,12 +1369,13 @@ items:
     _stats:
       compendiumSource: Actor.JnZEeoQlRqRvIdvG.Item.tjvrpjly8T5lqx90
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2QNsxcBMIMLUJ9lh.tjvrpjly8T5lqx90'
   - name: Stoneskin
     system:
@@ -1507,12 +1520,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!2QNsxcBMIMLUJ9lh.MZsksiqYl8qFpYed.DbTCk1h0u86Etlpr
     folder: qi3IbnEwap7mRw4b
@@ -1529,12 +1543,13 @@ items:
     _stats:
       compendiumSource: Actor.JnZEeoQlRqRvIdvG.Item.MZsksiqYl8qFpYed
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2QNsxcBMIMLUJ9lh.MZsksiqYl8qFpYed'
   - _id: DJLavg1ePq7aaqDF
     name: Magic Resistance
@@ -1577,12 +1592,13 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: Compendium.dnd5e.monsterfeatures.Item.Hc6MqLQhPTI1KOvm
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2QNsxcBMIMLUJ9lh.DJLavg1ePq7aaqDF'
   - name: Mold Earth
     type: spell
@@ -1710,12 +1726,13 @@ items:
     _stats:
       compendiumSource: Compendium.chaosos-5e-content.non-srd-spells.Item.yZbnNiyFgp48mTWh
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2QNsxcBMIMLUJ9lh.nH2BU7UFPCRIyPhE'
 effects: []
 ownership:
@@ -1727,12 +1744,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727538875296
   modifiedTime: 1727543549874
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: 2QNsxcBMIMLUJ9lh
 sort: 300000
 _key: '!actors!2QNsxcBMIMLUJ9lh'

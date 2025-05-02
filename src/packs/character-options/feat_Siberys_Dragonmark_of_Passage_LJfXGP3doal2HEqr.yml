@@ -41,17 +41,17 @@ ownership:
   MVioF9x1qI1WYGx1: 3
   q6n1efCGVB98drEQ: 3
 flags:
-  core:
-    sourceId: Compendium.eberron-5e.character-options.Item.SYaGobt5lRhuAr6h
+  core: {}
 _stats:
   compendiumSource: Compendium.eberron-5e.character-options.Item.SYaGobt5lRhuAr6h
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384680180
   modifiedTime: 1726384680180
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 100000
 _id: LJfXGP3doal2HEqr
 _key: '!items!LJfXGP3doal2HEqr'

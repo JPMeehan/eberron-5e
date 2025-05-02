@@ -427,7 +427,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -483,6 +482,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -520,12 +525,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KamQ1geKf1Hl05dm.Uz9bMfKtI64S04Pc'
   - name: Unarmed Strike
     type: weapon
@@ -654,12 +660,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KamQ1geKf1Hl05dm.Mb86BK6IA6bZpXc5'
   - name: Bone Flute
     type: weapon
@@ -788,12 +795,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KamQ1geKf1Hl05dm.LCWrPXkbddpWY4EO'
   - name: Ruinous Melody
     type: feat
@@ -847,12 +855,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KamQ1geKf1Hl05dm.X5Kz59ij3us5GG2O'
   - name: Spellcasting
     type: feat
@@ -893,12 +902,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KamQ1geKf1Hl05dm.4LD6orNDhFzR30Wj'
   - name: Bone Flute
     type: feat
@@ -939,12 +949,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KamQ1geKf1Hl05dm.2nReTikHNvOrVrPh'
   - name: Stunning Strike (Recharge 5–6)
     type: feat
@@ -983,12 +994,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KamQ1geKf1Hl05dm.YmbVlSBqLnUAbBJk'
   - name: Sylvan Grace
     type: feat
@@ -1026,12 +1038,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KamQ1geKf1Hl05dm.eEcDBJLhvxSsoKqW'
   - name: Conjure Barrage
     system:
@@ -1148,12 +1161,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KamQ1geKf1Hl05dm.l7FHeBlmEpQA9ZGR'
   - name: Bestow Curse
     ownership:
@@ -1303,12 +1317,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: zKCyFqD7qmNjN8ZL
     sort: 200000
     _key: '!actors.items!KamQ1geKf1Hl05dm.zKCyFqD7qmNjN8ZL'
@@ -1440,12 +1455,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KamQ1geKf1Hl05dm.qKm8bhoGIbseVqi0'
 effects: []
 ownership:
@@ -1457,12 +1473,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727547873734
   modifiedTime: 1727547873734
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: KamQ1geKf1Hl05dm
 sort: 0
 _key: '!actors!KamQ1geKf1Hl05dm'

@@ -90,12 +90,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!items.effects!ZX6BI37GOaFDmiwC.Oeype3mdWGF8KH7V'
 sort: 0
 ownership:
@@ -106,12 +107,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384680398
   modifiedTime: 1727125405578
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: ZX6BI37GOaFDmiwC
 _key: '!items!ZX6BI37GOaFDmiwC'
 

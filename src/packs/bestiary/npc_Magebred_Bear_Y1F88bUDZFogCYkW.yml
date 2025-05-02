@@ -418,7 +418,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -474,6 +473,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -509,12 +514,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Y1F88bUDZFogCYkW.g5MZFf3lcLuxrUpK'
   - name: Bite
     type: weapon
@@ -643,12 +649,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Y1F88bUDZFogCYkW.0iIqDTj7zcnrHbU5'
   - name: Claws
     type: weapon
@@ -777,12 +784,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Y1F88bUDZFogCYkW.5rDkQMtkd7DeRFVJ'
   - name: Keen Smell
     type: feat
@@ -820,12 +828,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Y1F88bUDZFogCYkW.Igut220ZJt47FnIk'
   - name: Fierce (Recharge After A Short Or Long Rest)
     type: feat
@@ -863,12 +872,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Y1F88bUDZFogCYkW.HR9ov1HyILToGQL4'
 effects: []
 ownership:
@@ -878,12 +888,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727549886085
   modifiedTime: 1727549887547
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: Y1F88bUDZFogCYkW
 sort: 400000
 _key: '!actors!Y1F88bUDZFogCYkW'

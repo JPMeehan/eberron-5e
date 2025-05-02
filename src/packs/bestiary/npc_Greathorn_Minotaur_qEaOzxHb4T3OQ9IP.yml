@@ -439,7 +439,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -495,6 +494,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Gore
     type: weapon
@@ -625,12 +630,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!qEaOzxHb4T3OQ9IP.1yAjhquTZERuyEru'
   - name: Blood Frenzy
     type: feat
@@ -668,12 +674,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!qEaOzxHb4T3OQ9IP.JSo3aZDDHpViEgGZ'
   - name: Charge
     type: feat
@@ -714,12 +721,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!qEaOzxHb4T3OQ9IP.B3T9dx3I8tjPDpyR'
   - name: Demonic Horns
     type: feat
@@ -755,12 +763,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!qEaOzxHb4T3OQ9IP.5GQLuIRtidkkHIQ1'
   - name: Siege Monster
     type: feat
@@ -796,12 +805,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!qEaOzxHb4T3OQ9IP.YdCrv3kSX0gLRerO'
 effects: []
 ownership:
@@ -813,12 +823,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727547804519
   modifiedTime: 1727547806673
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: qEaOzxHb4T3OQ9IP
 sort: 200000
 _key: '!actors!qEaOzxHb4T3OQ9IP'

@@ -423,7 +423,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -479,6 +478,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -514,12 +519,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.E60FzaG3I0FDg7tX'
   - name: Infused Maul
     type: weapon
@@ -648,12 +654,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.koJZ4H9N4lIEri2c'
   - name: Fire Bolt (Cantrip)
     type: weapon
@@ -782,12 +789,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.WMBO3SUnSsztrh1c'
   - name: Spellcasting
     type: weapon
@@ -914,12 +922,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.1mECGA4Ch86ma589'
   - name: Command Construct
     type: feat
@@ -962,12 +971,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.9RpIhhhBz8mjAYbM'
   - name: Arcane Shield (1st-level Spell; 3/day)
     type: feat
@@ -1010,12 +1020,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.Ymmfea7YFOpdMI8c'
   - name: Arcane Veteran
     type: feat
@@ -1057,12 +1068,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.BBXOFTQVXuueB1Sl'
   - name: Fire Bolt
     system:
@@ -1194,12 +1206,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.UI9V1Bk6xFhGc8VA'
   - name: Light
     system:
@@ -1333,12 +1346,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.ufBOjoE777qHHufA'
   - name: Mending
     system:
@@ -1449,12 +1463,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.1KBMmUTUwVcjPXhA'
   - name: Dispel Magic
     system:
@@ -1556,12 +1571,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.VwbFZarApOfbIFZ4'
   - name: Cure Wounds
     system:
@@ -1677,12 +1693,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.qjMK5ihzo411FsaS'
   - name: Faerie Fire
     ownership:
@@ -1805,12 +1822,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: T7cqePy0Pg2tGa5D
     sort: 0
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.T7cqePy0Pg2tGa5D'
@@ -1955,12 +1973,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: Aa6kVNzQGCaLlfim
     sort: 300000
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.Aa6kVNzQGCaLlfim'
@@ -2216,12 +2235,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!zCxZFVKWTwEFl0Xo.gCYx4Qbj1vucvTyd.VVQbCUE5W44bF4QU
     folder: 3SjcO2acsFnWegp4
@@ -2238,12 +2258,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.gCYx4Qbj1vucvTyd'
   - name: Warding Bond
     system:
@@ -2437,12 +2458,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!zCxZFVKWTwEFl0Xo.Xd0kn293GJGchvEU.HRfwqQtKmhNzaGX8
     folder: 3SjcO2acsFnWegp4
@@ -2456,12 +2478,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.Xd0kn293GJGchvEU'
   - name: Conjure Barrage
     system:
@@ -2578,12 +2601,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.zSIfOVYLCpupUHtv'
   - name: Freedom of Movement
     system:
@@ -2735,12 +2759,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!zCxZFVKWTwEFl0Xo.iesE9KEaZ0hDhkqZ.bcTPZ6dJ4kHwaBRD
     folder: qi3IbnEwap7mRw4b
@@ -2757,12 +2782,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.iesE9KEaZ0hDhkqZ'
   - name: Haste
     system:
@@ -2973,12 +2999,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!zCxZFVKWTwEFl0Xo.kegFw2HAXjbwm7si.NEFWcyysYgsE6de3
       - name: Lethargy
@@ -3031,12 +3058,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!zCxZFVKWTwEFl0Xo.kegFw2HAXjbwm7si.S5XcFawnnNHO8bUr
     folder: HCovEE4VoPGlIbKi
@@ -3053,12 +3081,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zCxZFVKWTwEFl0Xo.kegFw2HAXjbwm7si'
 effects: []
 ownership:
@@ -3070,12 +3099,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727454754346
   modifiedTime: 1727455141437
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: zCxZFVKWTwEFl0Xo
 sort: 600000
 _key: '!actors!zCxZFVKWTwEFl0Xo'

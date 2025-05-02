@@ -44,11 +44,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384646586
   modifiedTime: 1726384646586
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!items!NKvokz7F5LMY1sMY'
 

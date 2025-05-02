@@ -420,7 +420,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -476,6 +475,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -513,12 +518,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vnhgJ5IabrMScaCE.CKodytbXyKCaUIH2'
   - name: Bite
     type: weapon
@@ -647,12 +653,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vnhgJ5IabrMScaCE.gYxZO2WqhQREnCqd'
   - name: Claw
     type: weapon
@@ -782,12 +789,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vnhgJ5IabrMScaCE.Kb3WpLydh0R6WV4h'
   - name: Ironclad
     type: feat
@@ -823,12 +831,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vnhgJ5IabrMScaCE.L7hoLktchS5eJ3CP'
   - name: Keen Smell
     type: feat
@@ -866,12 +875,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vnhgJ5IabrMScaCE.qfY58V1w1B4ac8uh'
   - name: Mauling Charge
     type: feat
@@ -912,12 +922,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vnhgJ5IabrMScaCE.uAk2IA5eNnfZWL8J'
   - name: Siege Monster
     type: feat
@@ -953,12 +964,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!vnhgJ5IabrMScaCE.mNYqbhecDSsHSzTD'
 effects: []
 ownership:
@@ -968,12 +980,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727549884959
   modifiedTime: 1727549958515
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: vnhgJ5IabrMScaCE
 sort: 300000
 _key: '!actors!vnhgJ5IabrMScaCE'

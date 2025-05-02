@@ -95,12 +95,13 @@ _id: rUHExYL6dEMBA1h3
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384661605
   modifiedTime: 1726384661605
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 3000
 ownership:
   default: 0

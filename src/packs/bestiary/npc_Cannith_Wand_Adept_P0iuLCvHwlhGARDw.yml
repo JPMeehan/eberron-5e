@@ -421,7 +421,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -477,6 +476,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Wands Akimbo
     type: feat
@@ -549,12 +554,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.J0v203OmvcpF1AY7'
   - name: Acid Splash (Cantrip)
     type: feat
@@ -642,12 +648,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.SqEW2PdjbvM71Wc4'
   - name: Fire Bolt (Cantrip)
     type: weapon
@@ -779,12 +786,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.LkrlO0kejZuGTVTO'
   - name: Shocking Grasp (Cantrip)
     type: weapon
@@ -917,12 +925,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.EPO1WQHvQdC0iIC9'
   - name: Spellcasting
     type: feat
@@ -998,12 +1007,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.U4mJZgIWnkRheNCJ'
   - name: Warding Gesture (2nd-level Spell; 3/day)
     type: feat
@@ -1083,12 +1093,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.V630Pfy35Rd69qAO'
   - name: Studded Leather Armor
     system:
@@ -1154,12 +1165,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.fcdvdqwkJfTxKiO8'
   - name: Superior Wand Efficiency
     type: feat
@@ -1199,12 +1211,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.5nkPZVPOipklPmUT'
   - name: Acid Splash
     system:
@@ -1331,12 +1344,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.AQFs2LEUZq2FsttW'
   - name: Fire Bolt
     system:
@@ -1468,12 +1482,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.YzvOpiv1OTIMleAM'
   - name: Shocking Grasp
     system:
@@ -1622,12 +1637,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.1.2
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!P0iuLCvHwlhGARDw.DHg8wCV1fHGcvcwa.DQCAm67ck1GEKHtE
     folder: 4FhsY9FJQd7h7MZb
@@ -1643,12 +1659,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.DHg8wCV1fHGcvcwa'
   - name: Faerie Fire
     ownership:
@@ -1777,12 +1794,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: LTSrisfPQyQ0k0Ad
     sort: 0
     _key: '!actors.items!P0iuLCvHwlhGARDw.LTSrisfPQyQ0k0Ad'
@@ -1903,12 +1921,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.erUPSGkqZ5ofh9SK'
   - name: Invisibility
     system:
@@ -2043,12 +2062,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.1.2
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!P0iuLCvHwlhGARDw.O9w7DkfSSdeZFU5E.9svfDetqjhsFP3ey
     folder: 3SjcO2acsFnWegp4
@@ -2062,12 +2082,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.O9w7DkfSSdeZFU5E'
   - name: Levitate
     ownership:
@@ -2206,12 +2227,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: HpJxOeBV20HjgInK
     sort: 600000
     _key: '!actors.items!P0iuLCvHwlhGARDw.HpJxOeBV20HjgInK'
@@ -2351,12 +2373,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.1.2
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!P0iuLCvHwlhGARDw.1T9b7d4Gs7Inj1VE.BRwB0T8buWhJAuDx
     folder: 3SjcO2acsFnWegp4
@@ -2370,24 +2393,26 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!P0iuLCvHwlhGARDw.1T9b7d4Gs7Inj1VE'
 effects: []
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.5
   createdTime: 1736017559046
   modifiedTime: 1740951594528
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 0
 ownership:
   default: 0

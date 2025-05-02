@@ -179,12 +179,13 @@ effects: []
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384644470
   modifiedTime: 1726384644470
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 folder: MVHoTydfDvrOUgvY
 _id: GaeP6NkDtwC1ESrn
 sort: 3000

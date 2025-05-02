@@ -162,12 +162,13 @@ _id: MQyl4y2O1Brj27gz
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384646354
   modifiedTime: 1726898534328
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 3000
 ownership:
   default: 0

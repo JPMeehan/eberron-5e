@@ -417,7 +417,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -473,6 +472,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Scimitar
     type: weapon
@@ -601,12 +606,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!H68JHDLaRgPGKVn6.DcIquXaCNl65FCMO'
   - name: Leather Armor
     system:
@@ -672,12 +678,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!H68JHDLaRgPGKVn6.41riHA2QLTxpsl5n'
   - name: Pack Tactics
     type: feat
@@ -716,12 +723,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!H68JHDLaRgPGKVn6.p4bxxkETMal5md1b'
   - name: Sea Legs
     type: feat
@@ -759,12 +767,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!H68JHDLaRgPGKVn6.Uj09WuriyvoWHY6h'
 effects: []
 ownership:
@@ -774,12 +783,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727550804197
   modifiedTime: 1727550805350
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: H68JHDLaRgPGKVn6
 sort: 300000
 _key: '!actors!H68JHDLaRgPGKVn6'

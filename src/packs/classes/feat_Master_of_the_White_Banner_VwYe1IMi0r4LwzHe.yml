@@ -152,24 +152,26 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.2.2
       createdTime: 1738999386569
       modifiedTime: 1738999461939
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!items.effects!VwYe1IMi0r4LwzHe.2mT1eZCGEl2EZweB'
 folder: pfgIPIhOb1vLietp
 _id: VwYe1IMi0r4LwzHe
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384650268
   modifiedTime: 1738999386619
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 20000
 ownership:
   default: 0

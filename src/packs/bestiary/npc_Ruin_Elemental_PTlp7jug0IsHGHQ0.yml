@@ -449,7 +449,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -505,6 +504,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -542,12 +547,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!PTlp7jug0IsHGHQ0.2LCPsFXVXcULi8bh'
   - name: Slam
     type: weapon
@@ -678,12 +684,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!PTlp7jug0IsHGHQ0.wnRq5jaCv9ioeZ3M'
   - name: Cinderblock
     type: weapon
@@ -813,12 +820,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!PTlp7jug0IsHGHQ0.Nd2QYR7uXkbtTQlZ'
   - name: Shockwave (5–6)
     type: feat
@@ -861,12 +869,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!PTlp7jug0IsHGHQ0.ytPfz4Ce9vjY3zXy'
   - name: Implacable
     type: feat
@@ -905,12 +914,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!PTlp7jug0IsHGHQ0.DM3ki2GkbDT2f0hz'
   - name: Siege Monster
     type: feat
@@ -946,12 +956,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!PTlp7jug0IsHGHQ0.IcGZbXbeJunFTOZM'
 effects: []
 ownership:
@@ -963,12 +974,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727548014964
   modifiedTime: 1727548014964
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: PTlp7jug0IsHGHQ0
 sort: 0
 _key: '!actors!PTlp7jug0IsHGHQ0'

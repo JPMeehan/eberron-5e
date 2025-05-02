@@ -418,7 +418,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -474,6 +473,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Flail
     type: weapon
@@ -602,12 +607,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!IJ4PA0bw1frwf0ZP.7HpcUIYmkkg5jqDB'
   - name: Light Crossbow
     type: weapon
@@ -736,12 +742,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!IJ4PA0bw1frwf0ZP.dNxk7xMflLCbXDps'
   - name: Chain Shirt
     type: equipment
@@ -839,12 +846,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: PoUMlwrwLkox7oWH
     sort: 0
     _key: '!actors.items!IJ4PA0bw1frwf0ZP.PoUMlwrwLkox7oWH'
@@ -943,12 +951,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: lpRElu0LItxv1dVu
     sort: 0
     _key: '!actors.items!IJ4PA0bw1frwf0ZP.lpRElu0LItxv1dVu'
@@ -990,12 +999,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!IJ4PA0bw1frwf0ZP.v0bIugV6JPMZX5yR'
 effects: []
 ownership:
@@ -1007,12 +1017,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1727630639172
   modifiedTime: 1727630639230
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: IJ4PA0bw1frwf0ZP
 sort: 200000
 _key: '!actors!IJ4PA0bw1frwf0ZP'

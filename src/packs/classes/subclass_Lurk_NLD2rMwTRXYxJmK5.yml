@@ -48,11 +48,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384646629
   modifiedTime: 1726949539457
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!items!NLD2rMwTRXYxJmK5'
 

@@ -257,12 +257,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726899120291
       modifiedTime: 1726899165175
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!items.effects!dMasqBQAbtG1hEqN.QmAFuHyh17PHP64d'
   - name: Spirit of Conflict (Foe)
     img: icons/svg/aura.svg
@@ -290,12 +291,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726899145843
       modifiedTime: 1726899180547
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _id: K0I3U4brUxyeUco7
     _key: '!items.effects!dMasqBQAbtG1hEqN.K0I3U4brUxyeUco7'
 folder: AxCOxJAGG16MkcKu
@@ -303,12 +305,13 @@ _id: dMasqBQAbtG1hEqN
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384654382
   modifiedTime: 1726899530769
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 11000
 ownership:
   default: 0

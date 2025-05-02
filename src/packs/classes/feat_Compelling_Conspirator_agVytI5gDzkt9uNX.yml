@@ -41,12 +41,13 @@ _id: agVytI5gDzkt9uNX
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1726384652569
   modifiedTime: 1733809777315
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 6000
 ownership:
   default: 0

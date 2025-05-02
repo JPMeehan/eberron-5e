@@ -433,7 +433,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -489,6 +488,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -524,12 +529,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!2jJRYPCvwdLwZTFB.rl9De34BEppEbePa'
   - name: Hook
     type: feat
@@ -641,12 +647,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: 1727537689262
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!actors.items!2jJRYPCvwdLwZTFB.RwLJHi4BVErlJ21F'
   - name: Cleaver
     type: feat
@@ -843,12 +850,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: 1727537778827
           modifiedTime: 1727537810288
           lastModifiedBy: q6n1efCGVB98drEQ
+          exportSource: null
         _key: >-
           !actors.items.effects!2jJRYPCvwdLwZTFB.zOr5L5f0RY1F4qWQ.lJpGv4vgXTc1rW5B
     folder: null
@@ -864,12 +872,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: 1727537832296
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!actors.items!2jJRYPCvwdLwZTFB.zOr5L5f0RY1F4qWQ'
   - name: Bite
     type: feat
@@ -983,12 +992,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: 1727537978412
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!actors.items!2jJRYPCvwdLwZTFB.JNAmibtLrkwBEbYl'
   - name: Into The Meat Grinder
     type: feat
@@ -1082,12 +1092,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: 1727538031132
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!actors.items!2jJRYPCvwdLwZTFB.pLIh3WZ09ZkzfiS9'
   - name: Adamant Amalgam
     type: feat
@@ -1128,12 +1139,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727537615535
       modifiedTime: 1727537628623
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!actors.items!2jJRYPCvwdLwZTFB.sSLpZgd5HCeYDzQ7'
 effects: []
 ownership:
@@ -1145,12 +1157,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727537448071
   modifiedTime: 1727543549874
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: 2jJRYPCvwdLwZTFB
 sort: 100000
 _key: '!actors!2jJRYPCvwdLwZTFB'

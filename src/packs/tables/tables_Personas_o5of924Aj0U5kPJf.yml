@@ -11,10 +11,20 @@ results:
       - 1
     drawn: false
     _id: KRVagN4eZhVKhfje
-    text: Traveling merchant
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Traveling merchant
+    name: ''
     _key: '!tables.results!o5of924Aj0U5kPJf.KRVagN4eZhVKhfje'
   - type: text
     weight: 1
@@ -23,10 +33,20 @@ results:
       - 2
     drawn: false
     _id: 1XZhh2dpWBnmlDCE
-    text: Charistmatic outlaw
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Charistmatic outlaw
+    name: ''
     _key: '!tables.results!o5of924Aj0U5kPJf.1XZhh2dpWBnmlDCE'
   - type: text
     weight: 1
@@ -35,10 +55,20 @@ results:
       - 3
     drawn: false
     _id: kz9lkfDU3h44Gvjy
-    text: Itinerant tinker
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Itinerant tinker
+    name: ''
     _key: '!tables.results!o5of924Aj0U5kPJf.kz9lkfDU3h44Gvjy'
   - type: text
     weight: 1
@@ -47,10 +77,20 @@ results:
       - 4
     drawn: false
     _id: B9cY5KPpXzqB95yr
-    text: Wandering priest
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Wandering priest
+    name: ''
     _key: '!tables.results!o5of924Aj0U5kPJf.B9cY5KPpXzqB95yr'
   - type: text
     weight: 1
@@ -59,10 +99,20 @@ results:
       - 5
     drawn: false
     _id: 8OFEqCZE33u4VQrG
-    text: Investigative reporter
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Investigative reporter
+    name: ''
     _key: '!tables.results!o5of924Aj0U5kPJf.8OFEqCZE33u4VQrG'
   - type: text
     weight: 1
@@ -71,10 +121,20 @@ results:
       - 6
     drawn: false
     _id: 3j9OkihyUUfbHozh
-    text: Bounty hunter
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Bounty hunter
+    name: ''
     _key: '!tables.results!o5of924Aj0U5kPJf.3j9OkihyUUfbHozh'
   - type: text
     weight: 1
@@ -83,10 +143,20 @@ results:
       - 7
     drawn: false
     _id: crhTdiFepBbrJSx8
-    text: Grim mercenary
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Grim mercenary
+    name: ''
     _key: '!tables.results!o5of924Aj0U5kPJf.crhTdiFepBbrJSx8'
   - type: text
     weight: 1
@@ -95,10 +165,20 @@ results:
       - 8
     drawn: false
     _id: 0wwkkFVCWOQWD9fg
-    text: Beloved storyteller
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Beloved storyteller
+    name: ''
     _key: '!tables.results!o5of924Aj0U5kPJf.0wwkkFVCWOQWD9fg'
 replacement: true
 displayRoll: true
@@ -111,12 +191,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384671283
   modifiedTime: 1726384671283
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 formula: 1d8
 _key: '!tables!o5of924Aj0U5kPJf'
 

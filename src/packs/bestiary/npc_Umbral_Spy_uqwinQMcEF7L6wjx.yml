@@ -441,7 +441,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -497,6 +496,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Withering Touch
     type: weapon
@@ -625,12 +630,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!uqwinQMcEF7L6wjx.jbsvZI5j60lCVbq6'
   - name: Shadow Bond
     type: feat
@@ -680,12 +686,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!uqwinQMcEF7L6wjx.Zqbr11DaXaX9kOXr'
   - name: Incorporeal Movement
     type: feat
@@ -724,12 +731,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!uqwinQMcEF7L6wjx.2ctYOZAXPBUNNkHN'
   - name: Mask Of Shadow
     type: feat
@@ -767,12 +775,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!uqwinQMcEF7L6wjx.eqTtWdlTVdFZfHrW'
 effects: []
 ownership:
@@ -782,12 +791,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727549967739
   modifiedTime: 1727549967739
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: uqwinQMcEF7L6wjx
 sort: 0
 _key: '!actors!uqwinQMcEF7L6wjx'

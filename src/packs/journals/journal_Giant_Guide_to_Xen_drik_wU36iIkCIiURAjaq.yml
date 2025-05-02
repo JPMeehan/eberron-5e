@@ -38,12 +38,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: GN32g3XDtqDykr0A
     _key: '!journal.pages!wU36iIkCIiURAjaq.zIFABgLCaULmRdYL'
   - name: College of Nature
     type: subclass
@@ -87,12 +89,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: RXcMw30GIHLnhaFb
     _key: '!journal.pages!wU36iIkCIiURAjaq.yZWEy2vOTjDPHrf5'
   - name: Divine Crucible
     type: subclass
@@ -116,6 +120,7 @@ pages:
           with the Fernian fires of Onatar, creating sacred relics of the
           Sovereigns - though the Shattering has scattered their works to the
           ashes of time</p>
+      style: ''
     _id: WWqdODaqedRsn9u5
     title:
       show: true
@@ -135,12 +140,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
-      systemVersion: 4.0.0
+      systemVersion: 5.0.1
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: qOvwXNyyU6siOQEI
     _key: '!journal.pages!wU36iIkCIiURAjaq.WWqdODaqedRsn9u5'
   - name: Wind Runner Conclave
     type: subclass
@@ -184,12 +191,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: Eq4ArHboiLhcpfh1
     _key: '!journal.pages!wU36iIkCIiURAjaq.KJgIpVRRL8Dj3ol8'
   - name: Fateweaver
     type: subclass
@@ -228,12 +237,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: bssBKxud0H1tRSKR
     _key: '!journal.pages!wU36iIkCIiURAjaq.uhsKfmep4AEpNYTg'
   - name: Patchwork Blade
     type: subclass
@@ -285,12 +296,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: qJX1LXF7ekDgHrao
     _key: '!journal.pages!wU36iIkCIiURAjaq.qNQRV1T6tLh8SddQ'
   - name: Revenger
     type: subclass
@@ -335,12 +348,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: nDLlwGAaVb4vZC96
     _key: '!journal.pages!wU36iIkCIiURAjaq.9ED4aCiHLJ1ufnUw'
   - name: Way of the Explorer
     type: subclass
@@ -380,12 +395,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: o3LKKSJtfV5Qr5v1
     _key: '!journal.pages!wU36iIkCIiURAjaq.G5AoXiRkWOGniNJ4'
   - name: School of Oneiromancy
     type: subclass
@@ -430,12 +447,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: Xin7boP6yiQ0NUJs
     _key: '!journal.pages!wU36iIkCIiURAjaq.87sdfZhvjYAaeRAM'
   - name: Oath of Freedom
     type: subclass
@@ -485,12 +504,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: eL5uOjzY1ozqNnOZ
     _key: '!journal.pages!wU36iIkCIiURAjaq.VWRUp5RKPA8uwLUM'
   - name: Circle of the Verdant
     type: subclass
@@ -537,12 +558,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: EvRaWY35Zx0c4YuQ
     _key: '!journal.pages!wU36iIkCIiURAjaq.6uTVVZbjENaF8pbo'
   - name: Circle of the Behemoth
     type: subclass
@@ -584,12 +607,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: EvRaWY35Zx0c4YuQ
     _key: '!journal.pages!wU36iIkCIiURAjaq.74pJWGfYYLlNux5E'
   - name: Hunt Domain
     type: subclass
@@ -632,12 +657,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: j5id6asTPU93Xb4R
     _key: '!journal.pages!wU36iIkCIiURAjaq.Gcb6APQeS04Cep7G'
   - name: Path of the Pyreheart
     type: subclass
@@ -678,12 +705,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1746222860462
+      lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: H9uExaegNSFLqQs8
     _key: '!journal.pages!wU36iIkCIiURAjaq.tbLVE7c3WTBRnI1a'
 folder: K7D9TeJ6y6Z4mTe0
 sort: 200000
@@ -694,11 +723,26 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384670938
-  modifiedTime: 1726384670938
+  modifiedTime: 1746222854712
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
+categories:
+  - qOvwXNyyU6siOQEI
+  - H9uExaegNSFLqQs8
+  - RXcMw30GIHLnhaFb
+  - j5id6asTPU93Xb4R
+  - EvRaWY35Zx0c4YuQ
+  - qJX1LXF7ekDgHrao
+  - o3LKKSJtfV5Qr5v1
+  - eL5uOjzY1ozqNnOZ
+  - Eq4ArHboiLhcpfh1
+  - nDLlwGAaVb4vZC96
+  - GN32g3XDtqDykr0A
+  - bssBKxud0H1tRSKR
+  - Xin7boP6yiQ0NUJs
 _key: '!journal!wU36iIkCIiURAjaq'
 

@@ -481,7 +481,6 @@ prototypeToken:
   detectionModes: []
   flags: {}
   randomImg: false
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -493,6 +492,12 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Greatsword
     type: weapon
@@ -578,12 +583,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!c07o5rTJgyVNfyzk.c46mMrxzghN4u6gu'
   - name: Vampiric Siphon
     type: weapon
@@ -670,12 +676,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!c07o5rTJgyVNfyzk.SHzvTIqKev8IVRP9'
   - name: Aura Of Night
     type: feat
@@ -783,12 +790,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!c07o5rTJgyVNfyzk.GVP1N2WjHmlVZkjW'
   - name: Undead Fortitude
     type: feat
@@ -829,12 +837,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!c07o5rTJgyVNfyzk.Iwd8TyJiqL5e142j'
 effects: []
 ownership:
@@ -848,12 +857,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384677909
   modifiedTime: 1739001395432
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: c07o5rTJgyVNfyzk
 sort: 200000
 _key: '!actors!c07o5rTJgyVNfyzk'

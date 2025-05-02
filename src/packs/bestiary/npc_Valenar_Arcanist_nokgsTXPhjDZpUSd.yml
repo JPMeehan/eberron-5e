@@ -1163,12 +1163,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!nokgsTXPhjDZpUSd.qVXMstr8M0o0cLAv'
   - name: Force Lance
     type: feat
@@ -1244,12 +1245,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!nokgsTXPhjDZpUSd.lKwT2QY7FaoJrT2e'
   - name: Deflection Ward
     type: feat
@@ -1330,12 +1332,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!nokgsTXPhjDZpUSd.OMBfNmj4rWjSQh2k'
   - name: Born In The Saddle
     type: feat
@@ -1390,12 +1393,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!nokgsTXPhjDZpUSd.MNELBOQORKszrCpt'
   - name: Fey Ancestry
     type: feat
@@ -1437,12 +1441,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!nokgsTXPhjDZpUSd.yUTCZfVGAS2UFrtY'
   - name: Magic Resistance
     type: feat
@@ -1483,12 +1488,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!nokgsTXPhjDZpUSd.ArQ2ngizSm4IijKo'
   - name: War Magic
     type: feat
@@ -1531,12 +1537,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!nokgsTXPhjDZpUSd.TUCX1wbDrudtG56o'
   - name: Light
     system:
@@ -1696,12 +1703,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.8eoFERxAgZJCURjc.dnd5espellchange
     folder: 4FhsY9FJQd7h7MZb
@@ -1718,12 +1726,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplLight00000
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 8eoFERxAgZJCURjc
     _key: '!actors.items!nokgsTXPhjDZpUSd.8eoFERxAgZJCURjc'
   - name: Minor Illusion
@@ -1908,12 +1917,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.XKT9TfS72e4L49gS.dnd5espellchange
     folder: 4FhsY9FJQd7h7MZb
@@ -1927,12 +1937,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: XKT9TfS72e4L49gS
     _key: '!actors.items!nokgsTXPhjDZpUSd.XKT9TfS72e4L49gS'
   - name: Prestidigitation
@@ -2076,12 +2087,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.0D9PXVVJmu2b6lHJ.dnd5espellchange
     folder: 4FhsY9FJQd7h7MZb
@@ -2098,12 +2110,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 0D9PXVVJmu2b6lHJ
     _key: '!actors.items!nokgsTXPhjDZpUSd.0D9PXVVJmu2b6lHJ'
   - name: Charm Person
@@ -2242,12 +2255,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.GDyHEBzMr43wycwX.78JcD7wFiSCOfmns
       - _id: dnd5espellchange
@@ -2287,12 +2301,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.GDyHEBzMr43wycwX.dnd5espellchange
     folder: pBaAAtXBCq9FVEnL
@@ -2306,12 +2321,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: GDyHEBzMr43wycwX
     _key: '!actors.items!nokgsTXPhjDZpUSd.GDyHEBzMr43wycwX'
   - name: Scorching Ray
@@ -2464,12 +2480,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.Va4ubrPApV0pllxo.dnd5espellchange
     folder: 3SjcO2acsFnWegp4
@@ -2483,12 +2500,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: Va4ubrPApV0pllxo
     _key: '!actors.items!nokgsTXPhjDZpUSd.Va4ubrPApV0pllxo'
   - name: See Invisibility
@@ -2621,12 +2639,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.myBGgjmJK0b8720i.BRwB0T8buWhJAuDx
       - _id: dnd5espellchange
@@ -2666,12 +2685,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.myBGgjmJK0b8720i.dnd5espellchange
     folder: 3SjcO2acsFnWegp4
@@ -2685,12 +2705,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: myBGgjmJK0b8720i
     _key: '!actors.items!nokgsTXPhjDZpUSd.myBGgjmJK0b8720i'
   - name: Dimension Door
@@ -2845,12 +2866,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.R7sLBOm11LOdSn70.dnd5espellchange
     folder: qi3IbnEwap7mRw4b
@@ -2867,12 +2889,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: R7sLBOm11LOdSn70
     _key: '!actors.items!nokgsTXPhjDZpUSd.R7sLBOm11LOdSn70'
   - name: Fireball
@@ -3030,12 +3053,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.nN5jRLB61n0b4fnb.dnd5espellchange
     folder: HCovEE4VoPGlIbKi
@@ -3049,12 +3073,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplFireball00
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: nN5jRLB61n0b4fnb
     _key: '!actors.items!nokgsTXPhjDZpUSd.nN5jRLB61n0b4fnb'
   - name: Greater Invisibility
@@ -3175,12 +3200,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.Zz7Od5ksb1p743Tq.NDpw6r63ZdEgks1a
       - _id: dnd5espellchange
@@ -3220,12 +3246,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.Zz7Od5ksb1p743Tq.dnd5espellchange
     folder: qi3IbnEwap7mRw4b
@@ -3239,12 +3266,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: Zz7Od5ksb1p743Tq
     _key: '!actors.items!nokgsTXPhjDZpUSd.Zz7Od5ksb1p743Tq'
   - name: Slow
@@ -3423,12 +3451,13 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         img: icons/magic/time/clock-stopwatch-white-blue.webp
         type: base
         system: {}
@@ -3472,12 +3501,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.Gu2UQD3VBYgnAI23.dnd5espellchange
     folder: HCovEE4VoPGlIbKi
@@ -3494,12 +3524,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: Gu2UQD3VBYgnAI23
     _key: '!actors.items!nokgsTXPhjDZpUSd.Gu2UQD3VBYgnAI23'
   - name: Chain Lightning
@@ -3656,12 +3687,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.mBKe5fJQetOvMFyl.dnd5espellchange
     folder: 8WmlLARx1Df3Ii9v
@@ -3675,12 +3707,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplChainLight
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: mBKe5fJQetOvMFyl
     _key: '!actors.items!nokgsTXPhjDZpUSd.mBKe5fJQetOvMFyl'
   - name: Cone of Cold
@@ -3830,12 +3863,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.yZVn3RuCYNwcMWao.dnd5espellchange
     folder: beZ8MTpWY2cMEUlp
@@ -3849,12 +3883,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: yZVn3RuCYNwcMWao
     _key: '!actors.items!nokgsTXPhjDZpUSd.yZVn3RuCYNwcMWao'
   - name: Globe of Invulnerability
@@ -3985,12 +4020,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.RTL2pYZATdjnABFU.dnd5espellchange
     folder: 8WmlLARx1Df3Ii9v
@@ -4007,12 +4043,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplGlobeofInv
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: RTL2pYZATdjnABFU
     _key: '!actors.items!nokgsTXPhjDZpUSd.RTL2pYZATdjnABFU'
 prototypeToken:
@@ -4045,7 +4082,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -4091,6 +4127,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 folder: WHWWLW3kFneE1X7T
 name: Valenar Arcanist
 type: npc
@@ -4107,11 +4149,12 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.6
   createdTime: 1742598268783
   modifiedTime: 1742598343246
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!actors!nokgsTXPhjDZpUSd'
 

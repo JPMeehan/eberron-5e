@@ -422,7 +422,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -478,6 +477,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -515,12 +520,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!F72shJ8kFNTcPgKQ.g0G1RLe8SFZTqhTz'
   - name: Lance
     type: weapon
@@ -653,12 +659,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!F72shJ8kFNTcPgKQ.IaIEJV9RNyFi5REE'
   - name: Longsword
     type: feat
@@ -696,12 +703,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!F72shJ8kFNTcPgKQ.txaeWrDWc2Rx7sJG'
   - name: Arcane Blast
     type: feat
@@ -737,12 +745,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!F72shJ8kFNTcPgKQ.xUMEDxEU0LiTW2sP'
   - name: Take Heart
     type: feat
@@ -784,12 +793,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!F72shJ8kFNTcPgKQ.a2NvI5MibvnCLtQa'
   - name: Chain Mail
     system:
@@ -856,12 +866,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.equipment.Item.phbarmChainMail0
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!F72shJ8kFNTcPgKQ.trblOUkzNpquBzQi'
   - name: Shield
     system:
@@ -929,12 +940,13 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!F72shJ8kFNTcPgKQ.lydufe5wmR0ZzTcB'
 effects: []
 ownership:
@@ -946,12 +958,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1727675415819
   modifiedTime: 1727675415819
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: F72shJ8kFNTcPgKQ
 sort: 0
 _key: '!actors!F72shJ8kFNTcPgKQ'

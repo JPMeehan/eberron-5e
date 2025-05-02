@@ -422,7 +422,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -478,6 +477,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -513,12 +518,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!B07kai1MYwHQKIEL.8LJ2HTGk7KjAyabu'
   - name: Greatsword
     type: weapon
@@ -647,12 +653,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!B07kai1MYwHQKIEL.5VzDnxiP2srTmJ3b'
   - name: Longbow
     type: weapon
@@ -781,12 +788,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!B07kai1MYwHQKIEL.nFDOLxtKj0938LSH'
   - name: Description
     type: feat
@@ -836,12 +844,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!B07kai1MYwHQKIEL.DMedmc8dhSK0mfG4'
   - name: Pack Tactics
     type: feat
@@ -883,12 +892,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!B07kai1MYwHQKIEL.mHNl5wtJIMyBEQWk'
   - name: Dirty Fighting (1/turn)
     type: feat
@@ -929,12 +939,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!B07kai1MYwHQKIEL.gsoKLxaqfNb46d1e'
   - name: Actions Multiattack
     type: feat
@@ -973,12 +984,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!B07kai1MYwHQKIEL.nWax80XerFfg4BQw'
   - name: Flail
     type: feat
@@ -1019,12 +1031,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!B07kai1MYwHQKIEL.5S9lLWxcXLBBVIVr'
   - name: Light Crossbow
     type: feat
@@ -1067,12 +1080,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!B07kai1MYwHQKIEL.hDpUx3yYjuDhUA64'
   - name: Plate
     type: equipment
@@ -1171,12 +1185,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: JRY6ddeE8NaWzN6t
     sort: 0
     _key: '!actors.items!B07kai1MYwHQKIEL.JRY6ddeE8NaWzN6t'
@@ -1218,12 +1233,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!B07kai1MYwHQKIEL.8Qg4yT4EknXMi6p2'
   - name: Spellcasting
     type: feat
@@ -1263,12 +1279,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!B07kai1MYwHQKIEL.VY1gejAHJ0kY5lhx'
   - name: Command
     ownership:
@@ -1380,12 +1397,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: DfFfz9BXWjaHeLPA
     sort: 700000
     _key: '!actors.items!B07kai1MYwHQKIEL.DfFfz9BXWjaHeLPA'
@@ -1514,12 +1532,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: wTIzeuRfxCCpJ9xR
     sort: 800000
     _key: '!actors.items!B07kai1MYwHQKIEL.wTIzeuRfxCCpJ9xR'
@@ -1636,12 +1655,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!B07kai1MYwHQKIEL.8xe9MlJ1BbKGRZTy'
 effects: []
 ownership:
@@ -1651,12 +1671,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1727630636490
   modifiedTime: 1727630639230
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: B07kai1MYwHQKIEL
 sort: 100000
 _key: '!actors!B07kai1MYwHQKIEL'

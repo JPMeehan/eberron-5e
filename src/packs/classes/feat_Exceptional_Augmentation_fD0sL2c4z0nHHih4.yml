@@ -105,12 +105,13 @@ effects: []
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384655265
   modifiedTime: 1726384655265
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 folder: MVHoTydfDvrOUgvY
 _id: fD0sL2c4z0nHHih4
 sort: 5000

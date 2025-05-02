@@ -137,12 +137,13 @@ folder: 8HZDRNglvfgWO2oB
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384669878
   modifiedTime: 1726384669878
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: a2Sfwac13PcabX6R
 sort: 100000
 _key: '!items!a2Sfwac13PcabX6R'

@@ -26,12 +26,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.1
       createdTime: 1726682526605
       modifiedTime: 1726683115339
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: null
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.nuifX4x0MBN77m24'
   - sort: 200000
     name: Harpy
@@ -80,12 +82,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.1
       createdTime: 1726682548335
       modifiedTime: 1726682764172
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: null
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.ubnOvx4hXrj3EnGd'
   - sort: 200000
     name: Medusa
@@ -125,13 +129,15 @@ pages:
       compendiumSource: null
       duplicateSource: >-
         Compendium.eberron-5e.journals.JournalEntry.zQJ67Zl8z1yLSqj2.JournalEntryPage.ubnOvx4hXrj3EnGd
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.1
       createdTime: 1726682580485
       modifiedTime: 1726682656786
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _id: fwc2pLRvRAlIatkB
+    category: null
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.fwc2pLRvRAlIatkB'
   - sort: 300000
     name: Classes
@@ -162,12 +168,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.1
       createdTime: 1726682817743
       modifiedTime: 1727124403665
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: null
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.bZAwRG0tfHdkvB7b'
   - sort: 400000
     name: Artificer
@@ -210,12 +218,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726682826231
       modifiedTime: 1727054931200
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: null
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.ulv8D7SuI68zSFpo'
   - sort: 500000
     name: Bard
@@ -263,12 +273,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726682951327
       modifiedTime: 1727054824701
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: null
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.5c6g8zCJMVLoUOvW'
   - sort: 600000
     name: Cleric
@@ -320,12 +332,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726682964983
       modifiedTime: 1727054946548
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: null
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.KlJm9T1LIpgVm5Yr'
   - sort: 700000
     name: Druid
@@ -370,12 +384,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726682984511
       modifiedTime: 1727054885227
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: null
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.Ti2Dyqhah35jE33c'
   - sort: 800000
     name: Paladin
@@ -413,12 +429,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726682999935
       modifiedTime: 1727054908513
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: null
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.njBFwZiBfL7jPh71'
   - sort: 900000
     name: Ranger
@@ -457,12 +475,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726683015611
       modifiedTime: 1727054899738
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: null
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.HixDqUdtLtZGydlC'
   - sort: 1000000
     name: Sorcerer
@@ -528,12 +548,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726683032946
       modifiedTime: 1727054935360
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: null
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.xNQ74oWdHe3A2XbW'
   - sort: 1100000
     name: Warlock
@@ -591,12 +613,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726683046980
       modifiedTime: 1727054948823
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: null
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.HK1fgrBCPWF1Txa7'
   - sort: 1200000
     name: Wizard
@@ -661,12 +685,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726683063889
       modifiedTime: 1727054941917
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: null
     _key: '!journal.pages!zQJ67Zl8z1yLSqj2.AxXgKIsEnNwKKwXk'
 folder: null
 sort: 0
@@ -677,11 +703,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.1
   createdTime: 1726682520109
   modifiedTime: 1726682520109
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
+categories: []
 _key: '!journal!zQJ67Zl8z1yLSqj2'
 

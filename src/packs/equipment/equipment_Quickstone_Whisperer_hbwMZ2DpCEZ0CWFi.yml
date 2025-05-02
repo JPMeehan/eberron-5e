@@ -128,11 +128,12 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1729650987726
   modifiedTime: 1729651248325
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!items!hbwMZ2DpCEZ0CWFi'
 

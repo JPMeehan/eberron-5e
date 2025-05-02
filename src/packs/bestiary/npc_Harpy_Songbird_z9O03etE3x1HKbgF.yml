@@ -416,7 +416,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -472,6 +471,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -507,12 +512,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.EPtQNXZIFwpUtmED'
   - name: Claws
     type: weapon
@@ -641,12 +647,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.RLbVkBxNhaiw1TYB'
   - name: Song Of Droaam
     type: feat
@@ -693,12 +700,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.F35AqnfGrlOfFNbk'
   - name: Luring Song
     type: feat
@@ -743,12 +751,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.ko9S6gKV7P57qfAV'
   - name: Tearful Lament
     type: feat
@@ -787,12 +796,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.dvgLrrEaRtguomXf'
   - name: Dirge Of Despair
     type: feat
@@ -833,12 +843,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.PAQ9Q0uoUBHvLeKB'
   - name: Lullaby
     type: feat
@@ -879,12 +890,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.F9a5LJEUyyxhLzpS'
   - name: Furious Chant
     type: feat
@@ -924,12 +936,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.UtC3LCcntnPwDn2q'
   - name: Joyful Aria
     type: feat
@@ -969,12 +982,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.zXZe3ahQhfpWW8eH'
   - name: Hymnal Of Hope
     type: feat
@@ -1015,12 +1029,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.T4HFaNG1UMrOwoXH'
   - name: Ode To Bravery
     type: feat
@@ -1060,12 +1075,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.oQn7QodWuocEJfTb'
   - name: Studded Leather
     type: equipment
@@ -1161,12 +1177,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 9wSdaKc61PbsrDOk
     sort: 0
     _key: '!actors.items!z9O03etE3x1HKbgF.9wSdaKc61PbsrDOk'
@@ -1210,12 +1227,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.4fLKtQY9LMuIwIXo'
   - name: Message
     system:
@@ -1326,12 +1344,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.akvCbYGrTVULxIFe'
   - name: Minor Illusion
     system:
@@ -1486,12 +1505,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.FPEXBrlcrvDuPUFK'
   - name: Comprehend Languages
     system:
@@ -1627,12 +1647,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.4
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!z9O03etE3x1HKbgF.Rr76TfLrMdyOpXs5.ANhwNb9xKRpWs4Q2
     folder: pBaAAtXBCq9FVEnL
@@ -1645,12 +1666,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.Rr76TfLrMdyOpXs5'
   - name: Dissonant Whispers
     system:
@@ -1776,12 +1798,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.xl1yciEPkXVHUjY4'
   - name: Healing Word
     system:
@@ -1893,12 +1916,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.XL7z5uhCaRzTAmZN'
   - name: Thunderwave
     system:
@@ -2026,12 +2050,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!z9O03etE3x1HKbgF.bZKApzbmWbQgXGcp'
   - name: Calm Emotions
     ownership:
@@ -2160,12 +2185,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: rB8KuFbFYk2Bo6e1
     sort: 900000
     _key: '!actors.items!z9O03etE3x1HKbgF.rB8KuFbFYk2Bo6e1'
@@ -2300,12 +2326,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: oH9O0jUCTI18g3lF
     sort: 0
     _key: '!actors.items!z9O03etE3x1HKbgF.oH9O0jUCTI18g3lF'
@@ -2317,12 +2344,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1727630890195
   modifiedTime: 1727630891685
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: z9O03etE3x1HKbgF
 sort: 300000
 _key: '!actors!z9O03etE3x1HKbgF'

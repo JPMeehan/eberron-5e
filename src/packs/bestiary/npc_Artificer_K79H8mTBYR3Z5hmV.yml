@@ -418,7 +418,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -474,6 +473,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Infused Light Hammer
     type: weapon
@@ -602,12 +607,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.eaE6QWok5vQMBM1G'
   - name: Infused Light Crossbow
     type: weapon
@@ -736,12 +742,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.Q9aldHRCDDg3LHGk'
   - name: Spell-storing Item (1/day)
     type: feat
@@ -786,12 +793,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.m7TBKosT9FaggfVB'
   - name: Spellcasting
     type: weapon
@@ -918,12 +926,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.kL6qOWZCvFIWUIF9'
   - name: Flash Of Genius (4/day)
     type: feat
@@ -966,12 +975,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.PcZVnj29A03TfAzL'
   - name: Infused Equipment
     type: feat
@@ -1011,12 +1021,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.YHCrxqn3LNaVh9lM'
   - name: Detect Magic
     system:
@@ -1149,12 +1160,13 @@ items:
           compendiumSource: >-
             Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!K79H8mTBYR3Z5hmV.JmW9yTZmaiWx3f99.BHw91lQmVgdx39WZ
     folder: pBaAAtXBCq9FVEnL
@@ -1167,12 +1179,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.JmW9yTZmaiWx3f99'
   - name: Light
     system:
@@ -1306,12 +1319,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.7s8kovSgLGF4q9VQ'
   - name: Prestidigitation
     system:
@@ -1428,12 +1442,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.u6cUL4ZPnOEj6yZA'
   - name: Thunderclap
     type: spell
@@ -1566,12 +1581,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.99QmzLJA9RVVX0Xk'
   - name: Catapult
     type: spell
@@ -1710,12 +1726,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.Zmcav3C8oXyH22Z5'
   - name: Grease
     system:
@@ -1828,12 +1845,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.lj4asn25W5fMPHFH'
   - name: Identify
     system:
@@ -1944,12 +1962,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.eLbX9KKDV8p4ZSYI'
   - name: See Invisibility
     system:
@@ -2082,12 +2101,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!K79H8mTBYR3Z5hmV.qm5rSrK3EJkpShcQ.BRwB0T8buWhJAuDx
     folder: 3SjcO2acsFnWegp4
@@ -2101,12 +2121,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.qm5rSrK3EJkpShcQ'
   - name: Heat Metal
     system:
@@ -2360,12 +2381,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!K79H8mTBYR3Z5hmV.PuY8nwGrQN36CRdV.VVQbCUE5W44bF4QU
     folder: 3SjcO2acsFnWegp4
@@ -2382,12 +2404,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.PuY8nwGrQN36CRdV'
   - name: Levitate
     ownership:
@@ -2520,12 +2543,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: BIrQT5jr9NwQp87e
     sort: 600000
     _key: '!actors.items!K79H8mTBYR3Z5hmV.BIrQT5jr9NwQp87e'
@@ -2661,12 +2685,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K79H8mTBYR3Z5hmV.5XMcWk4RDxuRmaPY'
 effects: []
 ownership:
@@ -2678,12 +2703,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727454753321
   modifiedTime: 1727455124911
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: K79H8mTBYR3Z5hmV
 sort: 400000
 _key: '!actors!K79H8mTBYR3Z5hmV'

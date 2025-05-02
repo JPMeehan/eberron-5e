@@ -421,7 +421,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -477,6 +476,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Scimitar
     type: weapon
@@ -605,12 +610,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.AZw79rVXsfLay1Eh'
   - name: Ray Of Frost (Cantrip)
     type: weapon
@@ -740,12 +746,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.PwOYA7gHK4L4h6uO'
   - name: Launch (Recharge 4–6)
     type: feat
@@ -790,12 +797,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.JPCGgb9Y5d6u3IPt'
   - name: Spellcasting
     type: weapon
@@ -922,12 +930,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.IyGynG5pNNeUx3vP'
   - name: Leather Armor
     system:
@@ -993,12 +1002,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.yP83Pu06g0adwG5E'
   - name: Sea Soul
     type: feat
@@ -1037,12 +1047,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.spb5n2OudzhkUFkr'
   - name: Shipboard Rituals
     type: feat
@@ -1081,12 +1092,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.2XKGBifM9XOY11sl'
   - name: Message
     system:
@@ -1197,12 +1209,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.UKBXMuIyP59N4CvN'
   - name: Prestidigitation
     system:
@@ -1319,12 +1332,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.JQKZzKhoWDrH7PNU'
   - name: Ray of Frost
     system:
@@ -1493,12 +1507,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.FNlzfXuOoPIFkKBl.7dnnwBMWLykrVJub
     folder: 4FhsY9FJQd7h7MZb
@@ -1511,12 +1526,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.FNlzfXuOoPIFkKBl'
   - name: Clairvoyance
     system:
@@ -1657,12 +1673,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.MQcXmemK6A8cDQQt'
   - name: Dispel Magic
     system:
@@ -1764,12 +1781,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.0tV4W9ot2CQU0aPh'
   - name: Enhance Ability
     system:
@@ -1906,12 +1924,13 @@ items:
           compendiumSource: >-
             Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.ljMTBKPVmEnLPX1b
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.gg9dU0SnvU03C803
       - name: Enhanced Dexterity
@@ -1943,12 +1962,13 @@ items:
           compendiumSource: >-
             Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.Mmss2SPIy7wtt2PV
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.GGEj4zNginSIp6VV
       - name: Enhanced Intelligence
@@ -1980,12 +2000,13 @@ items:
           compendiumSource: >-
             Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.FfVB2Yyb7wfgpsQB
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.NTaFTBr1uam93jHS
       - name: Enhanced Wisdom
@@ -2017,12 +2038,13 @@ items:
           compendiumSource: >-
             Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.k2569xtIeXKRReLU
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.EGnngHgGBzTyThW6
       - name: Enhanced Charisma
@@ -2054,12 +2076,13 @@ items:
           compendiumSource: >-
             Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.sC2IXWDs07oTt5JN
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.e02u2XLDltCT5D5x
     folder: 3SjcO2acsFnWegp4
@@ -2076,12 +2099,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ'
   - name: Fog Cloud
     system:
@@ -2191,12 +2215,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.5CPqZxwjItbFrdmG'
   - name: Gust of Wind
     system:
@@ -2315,12 +2340,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.oDUIBdyufmKt59W3'
   - name: Control Water
     system:
@@ -2529,12 +2555,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!ug0xVJ099Ot7YMCh.3doytaMpCBspAg53'
 effects: []
 ownership:
@@ -2544,12 +2571,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727550800594
   modifiedTime: 1727550805350
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: ug0xVJ099Ot7YMCh
 sort: 100000
 _key: '!actors!ug0xVJ099Ot7YMCh'

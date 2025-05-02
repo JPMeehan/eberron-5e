@@ -37,12 +37,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!2RIxxNIp3esFwe4A.hBAJFIaKMGUlgTW3'
   - sort: 200000
     name: Khyber, The Dragon Below
@@ -80,12 +82,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!2RIxxNIp3esFwe4A.RSD8sfqATDJfr1DL'
   - sort: 300000
     name: Siberys, the Dragon Above
@@ -124,12 +128,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!2RIxxNIp3esFwe4A.MiBSPaqYUzJ2NJs2'
 folder: K7D9TeJ6y6Z4mTe0
 sort: 125000
@@ -140,11 +146,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384670805
   modifiedTime: 1726384670805
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
+categories: []
 _key: '!journal!2RIxxNIp3esFwe4A'
 

@@ -108,12 +108,13 @@ _id: c9B9CNm0B1OnVRuO
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384653317
   modifiedTime: 1726384653317
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 1000
 ownership:
   default: 0

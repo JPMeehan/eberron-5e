@@ -505,12 +505,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!9f0IHUX9svWUWQvB.0j8PYDp7J5uplIpO'
   - name: Multiattack
     type: feat
@@ -587,12 +588,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!9f0IHUX9svWUWQvB.TRtKdK4bcjsyuuU9'
   - name: Scimitar
     type: weapon
@@ -715,12 +717,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!9f0IHUX9svWUWQvB.7v6swKCiAt2x5ZLI'
   - name: Shortbow
     type: weapon
@@ -841,12 +844,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!9f0IHUX9svWUWQvB.SyBRWZ7rohcHh0tH'
   - name: Mark Quarry
     type: feat
@@ -930,12 +934,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!9f0IHUX9svWUWQvB.fm5NandZGm5snQk2'
   - name: Uncanny Dodge
     type: feat
@@ -1011,12 +1016,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!9f0IHUX9svWUWQvB.EJUANIpUPiBpoC2T'
   - _id: TIV3B1vbrVHIhQAm
     name: Studded Leather Armor
@@ -1085,12 +1091,13 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!9f0IHUX9svWUWQvB.TIV3B1vbrVHIhQAm'
   - name: Born In The Saddle
     type: feat
@@ -1143,12 +1150,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!9f0IHUX9svWUWQvB.wGyvuq5Kngo3MbF6'
   - name: Fey Ancestry
     type: feat
@@ -1190,12 +1198,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!9f0IHUX9svWUWQvB.uEmPiRZLsAuzYXSH'
 prototypeToken:
   sight:
@@ -1227,7 +1236,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -1273,6 +1281,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 folder: WHWWLW3kFneE1X7T
 name: Valenar Warrior
 type: npc
@@ -1287,11 +1301,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.6
   createdTime: 1742598268783
   modifiedTime: 1742598292192
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!actors!9f0IHUX9svWUWQvB'
 

@@ -545,12 +545,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K8w2Dds5pW16zf3N.3GNgeZxX6Hts6EkB'
   - name: Double Scimitar
     type: weapon
@@ -673,12 +674,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K8w2Dds5pW16zf3N.eQtXFfTum1NySS08'
   - name: Shortbow
     type: weapon
@@ -799,12 +801,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K8w2Dds5pW16zf3N.vhvg8Vub86iSchvk'
   - name: Second Wind
     type: feat
@@ -878,12 +881,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K8w2Dds5pW16zf3N.OoxserRLLd3XPfd9'
   - name: Parry
     type: feat
@@ -962,12 +966,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K8w2Dds5pW16zf3N.cFrYRL879dhnF5rN'
   - _id: TIV3B1vbrVHIhQAm
     name: Studded Leather Armor
@@ -1036,12 +1041,13 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K8w2Dds5pW16zf3N.TIV3B1vbrVHIhQAm'
   - name: Born In The Saddle
     type: feat
@@ -1095,12 +1101,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K8w2Dds5pW16zf3N.ZOp3anljfe1qEbtM'
   - name: Fey Ancestry
     type: feat
@@ -1142,12 +1149,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K8w2Dds5pW16zf3N.AwXEgB9ICaAwiPrC'
   - name: Indomitable
     type: feat
@@ -1189,12 +1197,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K8w2Dds5pW16zf3N.qwjzEPIrUzRfmLJo'
   - name: Skirmish
     type: feat
@@ -1244,12 +1253,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!K8w2Dds5pW16zf3N.BBZUfgi7nUsgKHLV'
 prototypeToken:
   sight:
@@ -1281,7 +1291,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -1327,6 +1336,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 folder: WHWWLW3kFneE1X7T
 name: Valenar Revenant Blade
 type: npc
@@ -1341,11 +1356,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.6
   createdTime: 1742598268783
   modifiedTime: 1742598292192
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!actors!K8w2Dds5pW16zf3N'
 

@@ -31,12 +31,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!uuaolEaXJFtDKaYs.Qc7Vmga9CM3Bkti8'
   - sort: 200000
     name: Icon
@@ -69,12 +71,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!uuaolEaXJFtDKaYs.uRT2ZW7h6uq5HVEG'
   - sort: 300000
     name: Psion
@@ -107,12 +111,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!uuaolEaXJFtDKaYs.8odJ4066Ybj6ukSM'
   - sort: 0
     name: Class Overview
@@ -157,12 +163,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!uuaolEaXJFtDKaYs.gbYc4McqjWOv983u'
   - sort: 400000
     name: Adamant Fighter
@@ -189,12 +197,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!uuaolEaXJFtDKaYs.sZS79xTDL5SyUQYq'
   - sort: 500000
     name: Lurk Rogue
@@ -222,12 +232,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: null
       modifiedTime: 1727124290123
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
+    category: null
     _key: '!journal.pages!uuaolEaXJFtDKaYs.rFoAAdqwoaOe59KI'
   - sort: 600000
     name: Way of the Soulknife
@@ -254,12 +266,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!uuaolEaXJFtDKaYs.XTBCYJEb9ZG3fmZf'
 folder: K7D9TeJ6y6Z4mTe0
 ownership:
@@ -271,13 +285,15 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384670924
   modifiedTime: 1726384670924
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: uuaolEaXJFtDKaYs
 sort: 112500
+categories: []
 _key: '!journal!uuaolEaXJFtDKaYs'
 

@@ -161,11 +161,12 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384646494
   modifiedTime: 1727046053224
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!items!MsiBPk2Mj0atngAa'
 

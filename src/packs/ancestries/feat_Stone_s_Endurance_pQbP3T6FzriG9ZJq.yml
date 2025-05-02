@@ -56,12 +56,13 @@ effects: []
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384610155
   modifiedTime: 1726384610155
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: pQbP3T6FzriG9ZJq
 sort: 300000
 ownership:

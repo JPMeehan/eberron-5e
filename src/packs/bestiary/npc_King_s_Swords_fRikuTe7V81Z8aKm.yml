@@ -421,7 +421,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -477,6 +476,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -514,12 +519,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!fRikuTe7V81Z8aKm.1dc1WzeD7r6la4mN'
   - name: Longsword
     type: weapon
@@ -653,12 +659,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!fRikuTe7V81Z8aKm.CCiwdnDNUemzZLxW'
   - name: Longbow
     type: weapon
@@ -787,12 +794,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!fRikuTe7V81Z8aKm.TUwYq1FYIQnAFzYN'
   - name: Second Wind (Recharges After A Short Or Long Rest)
     type: feat
@@ -831,12 +839,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!fRikuTe7V81Z8aKm.Y0Z7YGSV1PA56UtU'
   - name: Plate
     type: equipment
@@ -935,12 +944,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: YWkkfPrZT7J5uX1W
     sort: 0
     _key: '!actors.items!fRikuTe7V81Z8aKm.YWkkfPrZT7J5uX1W'
@@ -1039,12 +1049,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: ak0WAbaZB1RTyCWC
     sort: 0
     _key: '!actors.items!fRikuTe7V81Z8aKm.ak0WAbaZB1RTyCWC'
@@ -1082,12 +1093,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!fRikuTe7V81Z8aKm.em6m8Lkf4RGzYy4L'
   - name: Indomitable (2/day)
     type: feat
@@ -1124,12 +1136,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!fRikuTe7V81Z8aKm.UI9g6aUA34B4m5IE'
   - name: Mettle
     type: feat
@@ -1169,12 +1182,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!fRikuTe7V81Z8aKm.RejmDYYmHvH8qOhO'
 effects: []
 ownership:
@@ -1186,12 +1200,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.5
   createdTime: 1727459565853
   modifiedTime: 1740951594528
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: fRikuTe7V81Z8aKm
 sort: 600000
 _key: '!actors!fRikuTe7V81Z8aKm'

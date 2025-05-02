@@ -126,19 +126,19 @@ effects:
     transfer: true
     statuses: []
     flags:
-      core:
-        sourceId: >-
-          Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6.ActiveEffect.LsK0vzhJjjNLVtl0
+      core: {}
     tint: '#ffffff'
     _stats:
-      compendiumSource: null
+      compendiumSource: >-
+        Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6.ActiveEffect.LsK0vzhJjjNLVtl0
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     img: icons/tools/hand/hammer-and-nail.webp
     type: base
     system: {}
@@ -177,12 +177,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     img: icons/tools/hand/hammer-and-nail.webp
     type: base
     system: {}
@@ -220,12 +221,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     img: icons/tools/hand/hammer-and-nail.webp
     type: base
     system: {}
@@ -243,12 +245,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1726384672076
   modifiedTime: 1727150096761
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: mvIUADKnAC4bZTja
 sort: 0
 _key: '!items!mvIUADKnAC4bZTja'

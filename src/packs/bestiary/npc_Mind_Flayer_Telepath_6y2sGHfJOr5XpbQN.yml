@@ -517,7 +517,6 @@ prototypeToken:
         - ddb-importer
         - aberration
   randomImg: false
-  hexagonalShape: 0
   occludable:
     radius: 0
   ring:
@@ -529,6 +528,12 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Tentacles
     type: weapon
@@ -767,12 +772,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.LXgbAsxMdc9KuhZY'
   - name: Extract Brain
     type: weapon
@@ -942,12 +948,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.C4tTWP6vhBqF30lT'
   - name: Mind Blast
     type: feat
@@ -1084,12 +1091,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.V5WRhdT83mOZkwLv'
   - name: Psionic Resistance
     type: feat
@@ -1138,12 +1146,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.ng3eDgKW8Nae3UyB'
   - name: Innate Spellcasting (Psionics)
     type: feat
@@ -1195,12 +1204,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.35BieXTVvkts0GJ0'
   - folder: ND8imwT4ZNwNEWzm
     name: Mystic Traveler
@@ -1327,18 +1337,18 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.Gkt1NW0CDxiZqEvT
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.Gkt1NW0CDxiZqEvT
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: fhQdn5xz9Uw1uwyh
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.fhQdn5xz9Uw1uwyh'
@@ -1468,18 +1478,18 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.9KMC1vrdMCIwlnBz
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.9KMC1vrdMCIwlnBz
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 2nAShlWqhTBOgJ6U
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.2nAShlWqhTBOgJ6U'
@@ -1599,18 +1609,18 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.xU538OkJcqCnZf6F
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.xU538OkJcqCnZf6F
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: r5Os0HoxQ0oCXvm4
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.r5Os0HoxQ0oCXvm4'
@@ -1746,19 +1756,19 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.bSpi5PEqAFnzyuPb
+      core: {}
       dnd5e:
         migratedUses: 1
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.bSpi5PEqAFnzyuPb
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: jqYG1oUt7Fna5TMx
     sort: 300000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.jqYG1oUt7Fna5TMx'
@@ -1920,19 +1930,19 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.kP7HCc2ClFR8CtJ4
+      core: {}
       dnd5e:
         migratedUses: 1
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.kP7HCc2ClFR8CtJ4
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: QzjsO9Qw5WdxbXAH
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.QzjsO9Qw5WdxbXAH'
@@ -2003,17 +2013,17 @@ items:
       default: 0
       MVioF9x1qI1WYGx1: 3
     flags:
-      core:
-        sourceId: Compendium.dnd5e.items.Item.SK2HATQ4abKUlV8i
+      core: {}
     _stats:
       compendiumSource: Compendium.dnd5e.items.Item.SK2HATQ4abKUlV8i
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.IKwVCSKnF8rdAKgW'
   - name: Psionic Powers
     type: feat
@@ -2062,12 +2072,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!6y2sGHfJOr5XpbQN.nRhkr6QAHkb10AHQ'
   - folder: w6X11D83Q38dH29u
     name: Aura Beacon
@@ -2186,18 +2197,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.EHhtrVfGUWtnJkHJ
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.EHhtrVfGUWtnJkHJ
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 2V51kuJSlfESpZ4I
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.2V51kuJSlfESpZ4I'
@@ -2320,18 +2331,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.JGJJpNaxCenTIJbs
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.JGJJpNaxCenTIJbs
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: VeHLnR3az7ifrwqz
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.VeHLnR3az7ifrwqz'
@@ -2480,18 +2491,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.GFqC4YLyuafqKzkh
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.GFqC4YLyuafqKzkh
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: yOu5YfAf2zMCKnyA
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.yOu5YfAf2zMCKnyA'
@@ -2628,18 +2639,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.BkvZsA4L7JO6V0cu
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.BkvZsA4L7JO6V0cu
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 0kjCmZGtADb72iSa
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.0kjCmZGtADb72iSa'
@@ -2767,18 +2778,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.Nsq6O1OYVxpHwN7O
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.Nsq6O1OYVxpHwN7O
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: lE4cO2h8UxIdUNyp
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.lE4cO2h8UxIdUNyp'
@@ -2894,18 +2905,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.2osZIq5SqQraPP3b
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.2osZIq5SqQraPP3b
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 0PWltJi13Ah2zTIo
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.0PWltJi13Ah2zTIo'
@@ -3023,18 +3034,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.fEykoPdMhyl1FHi7
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.fEykoPdMhyl1FHi7
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: s9FJoh0O5Ti5tuQi
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.s9FJoh0O5Ti5tuQi'
@@ -3147,18 +3158,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.3PpKrPp5d0kyd22R
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.3PpKrPp5d0kyd22R
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: QBnfDONivcnhAwlk
     sort: 300000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.QBnfDONivcnhAwlk'
@@ -3284,18 +3295,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.Hy3i86X428HSGV6Z
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.Hy3i86X428HSGV6Z
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: KWXcu0fxfETrTfHh
     sort: 200000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.KWXcu0fxfETrTfHh'
@@ -3420,18 +3431,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.eZnIxHtaYmIGPKyg
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.eZnIxHtaYmIGPKyg
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: RnDPX170GaDwnhuC
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.RnDPX170GaDwnhuC'
@@ -3555,18 +3566,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.LEU2NLVmvXXdKwIC
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.LEU2NLVmvXXdKwIC
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: ZGj6NfnWg0Q7zzU7
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.ZGj6NfnWg0Q7zzU7'
@@ -3686,18 +3697,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.pvEUEj3ZbJ1YAnM1
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.pvEUEj3ZbJ1YAnM1
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 5ci33dcWnRm9rG0H
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.5ci33dcWnRm9rG0H'
@@ -3839,18 +3850,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.c3us4EBDldTC9H6l
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.c3us4EBDldTC9H6l
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: L1QZiI0Uo6F0p9or
     sort: 300000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.L1QZiI0Uo6F0p9or'
@@ -3972,18 +3983,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.GUtIXCyS2gh16guI
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.GUtIXCyS2gh16guI
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: jdv93TBFXAvkHtQT
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.jdv93TBFXAvkHtQT'
@@ -4105,18 +4116,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.YwjCGAqsUd4g3enh
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.YwjCGAqsUd4g3enh
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: hVQ5eALj2a5psKHw
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.hVQ5eALj2a5psKHw'
@@ -4255,18 +4266,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.YGYOrBHL6f50DPyR
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.YGYOrBHL6f50DPyR
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: 5nuogmOZbHLH9OuS
     sort: 300000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.5nuogmOZbHLH9OuS'
@@ -4407,18 +4418,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.dg0xQO8xro4i1x3n
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.dg0xQO8xro4i1x3n
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: ZwfYeYqA89MNqdfi
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.ZwfYeYqA89MNqdfi'
@@ -4534,18 +4545,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.kg622WTASI3VZZDE
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.kg622WTASI3VZZDE
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: h35atjk7ERjVANy5
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.h35atjk7ERjVANy5'
@@ -4674,18 +4685,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.drhGkzpXtBQo9pIQ
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.drhGkzpXtBQo9pIQ
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: BZt2kqEtQxAKCv5r
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.BZt2kqEtQxAKCv5r'
@@ -4830,18 +4841,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.3YTHVhI4gCVUGqET
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.3YTHVhI4gCVUGqET
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: Aayr3K2sBZGHkMKn
     sort: 200000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.Aayr3K2sBZGHkMKn'
@@ -4985,18 +4996,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.djReedPCzTgHFqC7
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.djReedPCzTgHFqC7
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: V6hEy4goaRl3qapz
     sort: 300000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.V6hEy4goaRl3qapz'
@@ -5123,18 +5134,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.3PriMeAw3Ifn41HF
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.3PriMeAw3Ifn41HF
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: RqYpe3kzQJmsAXzZ
     sort: 100000
     _key: '!actors.items!6y2sGHfJOr5XpbQN.RqYpe3kzQJmsAXzZ'
@@ -5262,18 +5273,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.1FVY9FnfZbIhqMdz
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.1FVY9FnfZbIhqMdz
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: TEH6XbIipzfVT6jw
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.TEH6XbIipzfVT6jw'
@@ -5412,18 +5423,18 @@ items:
       default: 0
       q6n1efCGVB98drEQ: 3
     flags:
-      core:
-        sourceId: Compendium.eberron-5e.spells.Item.bfmr3S5AsubtQf9m
+      core: {}
       dnd5e: {}
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.bfmr3S5AsubtQf9m
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: P7cmJtToPZRkyZRV
     sort: 0
     _key: '!actors.items!6y2sGHfJOr5XpbQN.P7cmJtToPZRkyZRV'
@@ -5481,12 +5492,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.5
   createdTime: 1726384676563
   modifiedTime: 1740950740558
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: 6y2sGHfJOr5XpbQN
 sort: 0
 _key: '!actors!6y2sGHfJOr5XpbQN'

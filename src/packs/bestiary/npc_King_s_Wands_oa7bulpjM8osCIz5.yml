@@ -420,7 +420,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -476,6 +475,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Arcane Burst
     type: weapon
@@ -604,12 +609,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.50S3bQEkL3wwkz1t'
   - name: Lightning Bolt (3rd-level Spell)
     type: feat
@@ -651,12 +657,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.F1nn0PElbhdmew64'
   - name: Spellcasting
     type: feat
@@ -697,12 +704,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.gCZRkACiKNOH1GbY'
   - name: Arcane Shield (1st-level Spell; 3/day)
     type: feat
@@ -745,12 +753,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.6VIXOOeYLT7Us9Ud'
   - name: Countermagic (4th-level Spell; 2/day)
     type: feat
@@ -794,12 +803,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.KlYpDLgaRYkvUDBb'
   - name: Arcane Avoidance
     type: feat
@@ -840,12 +850,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.AXdEpXv6JoWkZMTm'
   - name: Detect Magic
     system:
@@ -978,12 +989,13 @@ items:
           compendiumSource: >-
             Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!oa7bulpjM8osCIz5.vm6Estxd3ikyoUbQ.BHw91lQmVgdx39WZ
     folder: pBaAAtXBCq9FVEnL
@@ -996,12 +1008,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.vm6Estxd3ikyoUbQ'
   - name: Light
     system:
@@ -1135,12 +1148,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.J3a1fHqm0XyDGBky'
   - name: Mage Hand
     system:
@@ -1278,12 +1292,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.ZUkLHEQQlW9KS4Ek'
   - name: Magic Missile
     system:
@@ -1410,12 +1425,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.JVTXPWknOpktV5FW'
   - name: Prestidigitation
     system:
@@ -1532,12 +1548,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.yDRWTNWGm46rmltL'
   - name: Invisibility
     system:
@@ -1667,12 +1684,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!oa7bulpjM8osCIz5.w87HL4Tod0Y1Evuo.9svfDetqjhsFP3ey
     folder: 3SjcO2acsFnWegp4
@@ -1686,12 +1704,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.w87HL4Tod0Y1Evuo'
   - name: Lightning Bolt
     system:
@@ -1815,12 +1834,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.lBoZvWYJgrbT0XLa'
   - name: Mage Armor
     system:
@@ -1946,12 +1966,13 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H.ActiveEffect.cfwMU7LuOJ619Lny
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         img: icons/equipment/chest/breastplate-helmet-metal.webp
         type: base
         system: {}
@@ -1972,12 +1993,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.6ZDat7SIYDFf6mIn'
   - name: Dimension Door
     system:
@@ -2109,12 +2131,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.l9AlQ4JCV270jKzC'
   - name: Fly
     system:
@@ -2249,12 +2272,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!oa7bulpjM8osCIz5.iBuLJLeaeEICX3Co.EHFLuTHqI6cXn1zb
     folder: HCovEE4VoPGlIbKi
@@ -2268,12 +2292,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.iBuLJLeaeEICX3Co'
   - name: Locate Object
     system:
@@ -2392,12 +2417,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!oa7bulpjM8osCIz5.o7oqR8aFZ5fmxxdE'
   - name: Suggestion
     ownership:
@@ -2531,12 +2557,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: KJe9PNAKImvXl1pc
     sort: 0
     _key: '!actors.items!oa7bulpjM8osCIz5.KJe9PNAKImvXl1pc'
@@ -2550,12 +2577,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727459567036
   modifiedTime: 1727549887547
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: oa7bulpjM8osCIz5
 sort: 100000
 _key: '!actors!oa7bulpjM8osCIz5'

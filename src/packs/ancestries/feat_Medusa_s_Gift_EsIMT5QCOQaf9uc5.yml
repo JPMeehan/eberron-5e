@@ -125,12 +125,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.1
       createdTime: 1726553696588
       modifiedTime: 1726553736223
       lastModifiedBy: MVioF9x1qI1WYGx1
+      exportSource: null
     _key: '!items.effects!EsIMT5QCOQaf9uc5.myfoC0SdFNXxNuw4'
 sort: 0
 ownership:
@@ -145,11 +146,12 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.1
   createdTime: 1726384607611
   modifiedTime: 1726553744188
   lastModifiedBy: MVioF9x1qI1WYGx1
+  exportSource: null
 _key: '!items!EsIMT5QCOQaf9uc5'
 

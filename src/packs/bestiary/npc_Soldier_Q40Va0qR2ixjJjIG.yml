@@ -423,7 +423,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -479,6 +478,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -514,12 +519,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Q40Va0qR2ixjJjIG.5bZzhPaiWdeqIXhf'
   - name: Longsword
     type: weapon
@@ -653,12 +659,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Q40Va0qR2ixjJjIG.z9LOujjMn5dEDaHa'
   - name: Heavy Crossbow
     type: weapon
@@ -787,12 +794,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Q40Va0qR2ixjJjIG.lZiWYbBR5KK0Khod'
   - name: Chain Shirt
     type: equipment
@@ -890,12 +898,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: nc8YJX29eTR6TNCV
     sort: 0
     _key: '!actors.items!Q40Va0qR2ixjJjIG.nc8YJX29eTR6TNCV'
@@ -994,12 +1003,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: j9Tyuh4rbPjuGwCS
     sort: 0
     _key: '!actors.items!Q40Va0qR2ixjJjIG.j9Tyuh4rbPjuGwCS'
@@ -1039,12 +1049,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!Q40Va0qR2ixjJjIG.JXYEbMARnD78U4zX'
 effects: []
 ownership:
@@ -1056,12 +1067,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727454941182
   modifiedTime: 1727455233649
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: Q40Va0qR2ixjJjIG
 sort: 0
 _key: '!actors!Q40Va0qR2ixjJjIG'

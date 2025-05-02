@@ -96,12 +96,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     img: icons/magic/holy/yin-yang-balance-symbol.webp
     type: base
     system: {}
@@ -111,12 +112,13 @@ folder: lPDAwbpFhVl0UkYJ
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384679887
   modifiedTime: 1738040170650
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: 0YIFyus5YPAumFzw
 sort: 0
 _key: '!items!0YIFyus5YPAumFzw'

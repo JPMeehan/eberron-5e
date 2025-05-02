@@ -422,7 +422,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -478,6 +477,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -513,12 +518,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!RjNbZ5eWngWK9sFS.fKjUEN6CxscQMBB0'
   - name: Flame Tongue Rapier
     type: weapon
@@ -667,12 +673,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: 1727554993452
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!actors.items!RjNbZ5eWngWK9sFS.Sr1cUd2pNEAbpRic'
   - name: Dagger
     type: weapon
@@ -821,12 +828,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: 1727555006743
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!actors.items!RjNbZ5eWngWK9sFS.TdmZFfg7sWkZyoui'
   - name: Description
     type: feat
@@ -868,12 +876,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!RjNbZ5eWngWK9sFS.BnsG4ok5HtpWGg3N'
   - name: Studded Leather
     type: equipment
@@ -969,12 +978,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _id: ytit5Dbqv8Cz80Sl
     sort: 0
     _key: '!actors.items!RjNbZ5eWngWK9sFS.ytit5Dbqv8Cz80Sl'
@@ -1014,12 +1024,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!RjNbZ5eWngWK9sFS.vwEZk9jknxAoC7nV'
   - name: Skilled Fencer
     type: feat
@@ -1059,12 +1070,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!RjNbZ5eWngWK9sFS.b4YFTksLNOOtghd2'
   - name: Special Equipment
     type: feat
@@ -1102,12 +1114,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!RjNbZ5eWngWK9sFS.o8WlrHfbAMEoxey4'
 effects: []
 ownership:
@@ -1117,12 +1130,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727550807585
   modifiedTime: 1727550807585
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: RjNbZ5eWngWK9sFS
 sort: 0
 _key: '!actors!RjNbZ5eWngWK9sFS'

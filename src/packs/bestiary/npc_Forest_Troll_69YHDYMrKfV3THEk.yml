@@ -426,7 +426,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -482,6 +481,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -520,12 +525,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!69YHDYMrKfV3THEk.zgPFgGqBMa2IB5GM'
   - name: Bite
     type: weapon
@@ -654,12 +660,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!69YHDYMrKfV3THEk.RNm3rtE5rN7A5sbs'
   - name: Claws
     type: weapon
@@ -788,12 +795,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!69YHDYMrKfV3THEk.lrTNhfFxrBJ85d8R'
   - name: Javelin
     type: weapon
@@ -925,12 +933,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!69YHDYMrKfV3THEk.Ko0v0aEh8ETtCQyF'
   - name: Forest Camouflage
     type: feat
@@ -968,12 +977,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!69YHDYMrKfV3THEk.RuaOA0O2a9Mduq91'
   - name: Keen Smell
     type: feat
@@ -1011,12 +1021,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!69YHDYMrKfV3THEk.vNMfWE91fsonkfGA'
   - name: Regeneration
     type: feat
@@ -1054,12 +1065,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!69YHDYMrKfV3THEk.jCLhj7J2Opw8rp4s'
 effects: []
 ownership:
@@ -1071,12 +1083,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727547802750
   modifiedTime: 1727547806673
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: 69YHDYMrKfV3THEk
 sort: 100000
 _key: '!actors!69YHDYMrKfV3THEk'

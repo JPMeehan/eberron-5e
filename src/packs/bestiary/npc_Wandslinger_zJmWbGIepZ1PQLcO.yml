@@ -425,7 +425,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -481,6 +480,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Wands Akimbo
     type: feat
@@ -518,12 +523,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zJmWbGIepZ1PQLcO.vHRblPH5S69aPDeN'
   - name: Longcast
     type: feat
@@ -561,12 +567,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zJmWbGIepZ1PQLcO.S56oJeNiAa1hxe2N'
   - name: Fire Bolt (Cantrip)
     type: weapon
@@ -695,12 +702,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zJmWbGIepZ1PQLcO.FyLnAB74T7rIMGW9'
   - name: Shocking Grasp (Cantrip)
     type: weapon
@@ -831,12 +839,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zJmWbGIepZ1PQLcO.HeEQQhiAoFNuuKxi'
   - name: Shortsword
     type: weapon
@@ -965,12 +974,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zJmWbGIepZ1PQLcO.1ko0eYpNxPmfV3At'
   - name: Spellcasting
     type: weapon
@@ -1095,12 +1105,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zJmWbGIepZ1PQLcO.c2avLHWaCajv1plm'
   - name: Arcane Shield (1st-level Spell; 3/day)
     type: feat
@@ -1143,12 +1154,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zJmWbGIepZ1PQLcO.5QUd25o8NU1j34D9'
   - name: Leather Armor
     system:
@@ -1214,12 +1226,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zJmWbGIepZ1PQLcO.Na145JTryUQ4XtTK'
   - name: High Caliber Cantrips
     type: feat
@@ -1258,12 +1271,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zJmWbGIepZ1PQLcO.zra0oXGhAMibR3Bv'
   - name: Fire Bolt
     system:
@@ -1395,12 +1409,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zJmWbGIepZ1PQLcO.1qLqt0eZraoUNEMT'
   - name: Shocking Grasp
     system:
@@ -1549,12 +1564,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!zJmWbGIepZ1PQLcO.wBoGDI1yeNkchF6a.DQCAm67ck1GEKHtE
     folder: 4FhsY9FJQd7h7MZb
@@ -1570,12 +1586,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!zJmWbGIepZ1PQLcO.wBoGDI1yeNkchF6a'
 effects: []
 ownership:
@@ -1587,12 +1604,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727455066056
   modifiedTime: 1727455233654
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: zJmWbGIepZ1PQLcO
 sort: 0
 _key: '!actors!zJmWbGIepZ1PQLcO'

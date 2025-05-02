@@ -180,12 +180,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384610180
   modifiedTime: 1726717526610
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: q1qQpFAoPmCV2i1J
 _key: '!items!q1qQpFAoPmCV2i1J'
 

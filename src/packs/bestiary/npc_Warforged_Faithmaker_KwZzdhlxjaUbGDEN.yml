@@ -427,7 +427,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -483,6 +482,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Mace
     type: weapon
@@ -620,12 +625,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KwZzdhlxjaUbGDEN.9cJcjegtfbmEavoj'
   - name: Spellcasting
     type: weapon
@@ -753,12 +759,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KwZzdhlxjaUbGDEN.d0UXPqqoxs8QoZvv'
   - name: Blessed Weapons
     type: feat
@@ -796,12 +803,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KwZzdhlxjaUbGDEN.jJ7DRtnWX2ZMWo39'
   - name: Warforged Resilience
     type: feat
@@ -839,12 +847,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KwZzdhlxjaUbGDEN.iCyNmbqInrkOywFw'
   - name: Enhance Ability
     system:
@@ -986,12 +995,13 @@ items:
           compendiumSource: >-
             Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.ljMTBKPVmEnLPX1b
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.1.2
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!KwZzdhlxjaUbGDEN.IWosGnETi3BLH30m.gg9dU0SnvU03C803
       - name: Enhanced Dexterity
@@ -1023,12 +1033,13 @@ items:
           compendiumSource: >-
             Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.Mmss2SPIy7wtt2PV
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.1.2
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!KwZzdhlxjaUbGDEN.IWosGnETi3BLH30m.GGEj4zNginSIp6VV
       - name: Enhanced Intelligence
@@ -1060,12 +1071,13 @@ items:
           compendiumSource: >-
             Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.FfVB2Yyb7wfgpsQB
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.1.2
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!KwZzdhlxjaUbGDEN.IWosGnETi3BLH30m.NTaFTBr1uam93jHS
       - name: Enhanced Wisdom
@@ -1097,12 +1109,13 @@ items:
           compendiumSource: >-
             Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.k2569xtIeXKRReLU
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.1.2
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!KwZzdhlxjaUbGDEN.IWosGnETi3BLH30m.EGnngHgGBzTyThW6
       - name: Enhanced Charisma
@@ -1134,12 +1147,13 @@ items:
           compendiumSource: >-
             Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.sC2IXWDs07oTt5JN
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.1.2
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!KwZzdhlxjaUbGDEN.IWosGnETi3BLH30m.e02u2XLDltCT5D5x
     folder: 3SjcO2acsFnWegp4
@@ -1156,12 +1170,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KwZzdhlxjaUbGDEN.IWosGnETi3BLH30m'
   - name: Fabricate
     system:
@@ -1282,12 +1297,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KwZzdhlxjaUbGDEN.jOn5p2dLdWL8PDxq'
   - name: Locate Object
     system:
@@ -1411,12 +1427,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KwZzdhlxjaUbGDEN.OJ6Tp8w3WkRZMbA8'
   - name: Heat Metal
     system:
@@ -1676,12 +1693,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.1.2
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!KwZzdhlxjaUbGDEN.QylXJRusIWfAXi6D.VVQbCUE5W44bF4QU
     folder: 3SjcO2acsFnWegp4
@@ -1698,12 +1716,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KwZzdhlxjaUbGDEN.QylXJRusIWfAXi6D'
   - name: Sending
     system:
@@ -1822,12 +1841,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KwZzdhlxjaUbGDEN.59w6hC04vKXE4bAl'
   - name: Wall of Fire
     system:
@@ -2110,12 +2130,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KwZzdhlxjaUbGDEN.hmWP5cOOkTIhJqy8'
   - name: Animate Objects
     system:
@@ -2306,12 +2327,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KwZzdhlxjaUbGDEN.6iCDp3XttNdgbZB2'
   - name: Commune
     system:
@@ -2432,12 +2454,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KwZzdhlxjaUbGDEN.ECDybPBZ9AanSKgj'
   - name: Creation
     system:
@@ -2567,24 +2590,26 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!KwZzdhlxjaUbGDEN.e9zAZSq60gYGWx57'
 effects: []
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.3.5
   createdTime: 1736016616752
   modifiedTime: 1740951594528
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 0
 ownership:
   default: 0

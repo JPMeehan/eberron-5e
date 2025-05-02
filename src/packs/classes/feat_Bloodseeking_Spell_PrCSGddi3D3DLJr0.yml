@@ -106,12 +106,13 @@ _id: PrCSGddi3D3DLJr0
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384647968
   modifiedTime: 1739000598122
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 1000
 ownership:
   default: 0

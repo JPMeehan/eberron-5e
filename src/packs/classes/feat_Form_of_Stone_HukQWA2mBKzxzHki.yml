@@ -138,12 +138,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726900000278
       modifiedTime: 1726900174053
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!items.effects!HukQWA2mBKzxzHki.crPIWWKBMD0QuaUP'
 sort: 6000
 ownership:
@@ -158,11 +159,12 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384644749
   modifiedTime: 1726900048572
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!items!HukQWA2mBKzxzHki'
 

@@ -11,10 +11,20 @@ results:
       - 1
     drawn: false
     _id: Q6VnxOMZsPABt2VH
-    text: Household Guard
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Household Guard
+    name: ''
     _key: '!tables.results!sNrNOo2r1MwsCWX5.Q6VnxOMZsPABt2VH'
   - type: text
     weight: 1
@@ -23,10 +33,20 @@ results:
       - 2
     drawn: false
     _id: 4fe1YQfAviwU9tlr
-    text: Farmer or brewer
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Farmer or brewer
+    name: ''
     _key: '!tables.results!sNrNOo2r1MwsCWX5.4fe1YQfAviwU9tlr'
   - type: text
     weight: 1
@@ -35,10 +55,20 @@ results:
       - 3
     drawn: false
     _id: Btg1Sr8SNFcumU3D
-    text: Court magewright
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Court magewright
+    name: ''
     _key: '!tables.results!sNrNOo2r1MwsCWX5.Btg1Sr8SNFcumU3D'
   - type: text
     weight: 1
@@ -47,10 +77,20 @@ results:
       - 4
     drawn: false
     _id: MRQBIBnMLOgA1Qcc
-    text: Chamberlain or treasurer
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Chamberlain or treasurer
+    name: ''
     _key: '!tables.results!sNrNOo2r1MwsCWX5.MRQBIBnMLOgA1Qcc'
   - type: text
     weight: 1
@@ -59,10 +99,20 @@ results:
       - 5
     drawn: false
     _id: 3vcfCaXeB09y0s3F
-    text: Valet or bulter
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Valet or bulter
+    name: ''
     _key: '!tables.results!sNrNOo2r1MwsCWX5.3vcfCaXeB09y0s3F'
   - type: text
     weight: 1
@@ -71,10 +121,20 @@ results:
       - 6
     drawn: false
     _id: FGXGylHvdzWxttos
-    text: Chaplain or priest
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Chaplain or priest
+    name: ''
     _key: '!tables.results!sNrNOo2r1MwsCWX5.FGXGylHvdzWxttos'
   - type: text
     weight: 1
@@ -83,10 +143,20 @@ results:
       - 7
     drawn: false
     _id: DfeTQoipQljf6170
-    text: Groom or horsemaster
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Groom or horsemaster
+    name: ''
     _key: '!tables.results!sNrNOo2r1MwsCWX5.DfeTQoipQljf6170'
   - type: text
     weight: 1
@@ -95,10 +165,20 @@ results:
       - 8
     drawn: false
     _id: IOiZy1gDzpKUI2Zg
-    text: Smith or armorer
     img: icons/svg/d20-black.svg
-    documentId: null
     flags: {}
+    _stats:
+      coreVersion: '13.341'
+      systemId: null
+      systemVersion: null
+      createdTime: null
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    description: Smith or armorer
+    name: ''
     _key: '!tables.results!sNrNOo2r1MwsCWX5.IOiZy1gDzpKUI2Zg'
 replacement: true
 displayRoll: true
@@ -111,12 +191,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384671293
   modifiedTime: 1726384671293
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 formula: 1d8
 _key: '!tables!sNrNOo2r1MwsCWX5'
 

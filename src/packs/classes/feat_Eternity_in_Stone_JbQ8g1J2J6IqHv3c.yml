@@ -101,11 +101,12 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384645542
   modifiedTime: 1726899777668
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _key: '!items!JbQ8g1J2J6IqHv3c'
 

@@ -424,7 +424,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -480,6 +479,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Dagger
     type: weapon
@@ -608,12 +613,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!696BAA9ZHDpgLIEa.D1bfTxipCE0C5LFo'
   - name: Vicious Mockery (Cantrip)
     type: feat
@@ -655,12 +661,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!696BAA9ZHDpgLIEa.nrr20NyNGcfn3XwJ'
   - name: Dissonant Whispers (4th-level Spell; 3/day)
     type: feat
@@ -706,12 +713,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!696BAA9ZHDpgLIEa.LPsymSI5LpOnHUzO'
   - name: Spellcasting
     type: feat
@@ -753,12 +761,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!696BAA9ZHDpgLIEa.AEIX3fLy3xM008fX'
   - name: Illusory Success
     type: feat
@@ -800,12 +809,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!696BAA9ZHDpgLIEa.WLrZb4iDPyI7QT18'
 effects: []
 ownership:
@@ -817,12 +827,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727454755189
   modifiedTime: 1727455154764
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: 696BAA9ZHDpgLIEa
 sort: 500000
 _key: '!actors!696BAA9ZHDpgLIEa'

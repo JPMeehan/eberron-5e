@@ -37,12 +37,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!IrsXwcta6Ws3reCs.c4FqCax8LdPSDv3O'
   - sort: 200000
     name: College of Wands
@@ -75,12 +77,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!IrsXwcta6Ws3reCs.gnCL6zceB6qn5DIT'
   - sort: 300000
     name: Commerce Domain
@@ -115,12 +119,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!IrsXwcta6Ws3reCs.0R02oNealCpa5106'
   - sort: 400000
     name: Bloodhound
@@ -155,12 +161,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!IrsXwcta6Ws3reCs.3WimmyezRQny1Z7I'
   - sort: 500000
     name: Nemesis Sorcery
@@ -196,12 +204,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!IrsXwcta6Ws3reCs.A6CPI8NqFUAIE700'
   - sort: 600000
     name: Stone Sovereign
@@ -236,12 +246,14 @@ pages:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
+    category: null
     _key: '!journal.pages!IrsXwcta6Ws3reCs.WiNpgVU0Us0rBqL4'
 sort: 0
 ownership:
@@ -252,11 +264,13 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384670818
   modifiedTime: 1726384670818
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
+categories: []
 _key: '!journal!IrsXwcta6Ws3reCs'
 

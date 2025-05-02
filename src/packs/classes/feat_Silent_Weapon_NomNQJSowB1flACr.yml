@@ -166,12 +166,13 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     img: icons/magic/symbols/arrowhead-green.webp
     type: enchantment
     system: {}
@@ -190,12 +191,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384647017
   modifiedTime: 1726384647017
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: NomNQJSowB1flACr
 sort: 700000
 _key: '!items!NomNQJSowB1flACr'

@@ -423,7 +423,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -479,6 +478,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -516,12 +521,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!lvNGtLazGSbWP7Sa.kD6PgQDeJStOluNR'
   - name: Bite
     type: weapon
@@ -650,12 +656,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!lvNGtLazGSbWP7Sa.CR66KDgVbB4AhPOj'
   - name: Silvered Myrnaxe
     type: weapon
@@ -779,12 +786,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!lvNGtLazGSbWP7Sa.dZMniaBI61lmvqUm'
   - name: Longbow
     type: weapon
@@ -914,12 +922,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!lvNGtLazGSbWP7Sa.mwT01yGMiO38xE4R'
   - name: Spellcasting
     type: feat
@@ -958,12 +967,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!lvNGtLazGSbWP7Sa.ov99f254caOk5BvR'
   - name: Healing Light (2nd-level Spell; 3/day)
     type: feat
@@ -1005,12 +1015,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!lvNGtLazGSbWP7Sa.EAXyaLR5bi8pS1uU'
   - name: Retributive Bite
     type: feat
@@ -1052,12 +1063,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!lvNGtLazGSbWP7Sa.iEobcaurSswWasYH'
   - name: Disciplined Defiance
     type: feat
@@ -1095,12 +1107,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!lvNGtLazGSbWP7Sa.LpAdeOdjgRYV8iNj'
   - name: Keen Smell
     type: feat
@@ -1138,12 +1151,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!lvNGtLazGSbWP7Sa.ZgC28oOkiN8mZq7M'
   - name: Bless
     system:
@@ -1286,12 +1300,13 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr.ActiveEffect.8rP3gwmXVTgZqYZE
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         img: icons/magic/holy/chalice-glowing-gold-water.webp
         type: base
         system: {}
@@ -1309,12 +1324,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!lvNGtLazGSbWP7Sa.rrKzlJMFhWyUrEbd'
   - name: Detect Evil and Good
     system:
@@ -1440,12 +1456,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!lvNGtLazGSbWP7Sa.DPGm5wtIHZ2MAXkD.pOgbtXbKVGdbwjjE
     folder: pBaAAtXBCq9FVEnL
@@ -1459,12 +1476,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!lvNGtLazGSbWP7Sa.DPGm5wtIHZ2MAXkD'
   - _id: ZYhCviyVizZ9yZuG
     name: Protection from Evil and Good
@@ -1599,12 +1617,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!lvNGtLazGSbWP7Sa.ZYhCviyVizZ9yZuG.0WW6DMPuabIZh1Tv
     folder: pBaAAtXBCq9FVEnL
@@ -1617,12 +1636,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     sort: 100782
     ownership:
       default: 0
@@ -1638,12 +1658,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727547806614
   modifiedTime: 1727547806673
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: lvNGtLazGSbWP7Sa
 sort: 300000
 _key: '!actors!lvNGtLazGSbWP7Sa'

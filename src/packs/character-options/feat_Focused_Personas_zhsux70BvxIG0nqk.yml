@@ -127,12 +127,13 @@ folder: 77LP2bOE5vCNpeve
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384680822
   modifiedTime: 1738040151240
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: zhsux70BvxIG0nqk
 sort: 0
 _key: '!items!zhsux70BvxIG0nqk'

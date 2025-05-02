@@ -123,24 +123,26 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.2.2
       createdTime: 1739000317532
       modifiedTime: 1739000460928
       lastModifiedBy: q6n1efCGVB98drEQ
+      exportSource: null
     _key: '!items.effects!87WRIBe4EWq5nLJD.26QOd9UsdtimuuI7'
 folder: XuAcllgrcLN9p5sk
 _id: 87WRIBe4EWq5nLJD
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384640893
   modifiedTime: 1739000305991
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 sort: 1000
 ownership:
   default: 0

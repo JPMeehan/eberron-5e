@@ -439,7 +439,6 @@ prototypeToken:
     rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
-  hexagonalShape: 0
   lockRotation: false
   rotation: 0
   alpha: 1
@@ -495,6 +494,12 @@ prototypeToken:
       texture: null
   flags: {}
   randomImg: false
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
 items:
   - name: Multiattack
     type: feat
@@ -530,12 +535,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XCKMbiroOedfQB0f.CakOR9etjZa2zF47'
   - name: Bite
     type: feat
@@ -642,12 +648,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XCKMbiroOedfQB0f.Kdyw8vWoq8iCPjHn'
   - name: Claw
     type: feat
@@ -823,12 +830,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XCKMbiroOedfQB0f.SzeWsai5xwJxDpn2'
   - name: Fluid Form
     type: feat
@@ -918,12 +926,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XCKMbiroOedfQB0f.udJU2ZHi6IAh1jzZ'
   - name: Remold
     type: feat
@@ -1022,12 +1031,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XCKMbiroOedfQB0f.58KvliltNw03CxVS'
   - name: Rapid Hardening
     type: feat
@@ -1119,12 +1129,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XCKMbiroOedfQB0f.srsTiqxNET05WkAn'
   - _id: 9vCPdfuezu1IePb7
     name: False Appearance
@@ -1167,12 +1178,13 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: Compendium.dnd5e.monsterfeatures.Item.kyVgQNSa12loxVvr
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XCKMbiroOedfQB0f.9vCPdfuezu1IePb7'
   - name: Quickstone Body
     type: feat
@@ -1248,12 +1260,13 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '12.331'
+          coreVersion: '13.341'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
+          exportSource: null
         _key: >-
           !actors.items.effects!XCKMbiroOedfQB0f.naq05KGDhmcd9QEu.Ur1qnciS4MT110wt
     folder: null
@@ -1265,12 +1278,13 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '12.331'
+      coreVersion: '13.341'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
+      exportSource: null
     _key: '!actors.items!XCKMbiroOedfQB0f.naq05KGDhmcd9QEu'
 effects: []
 ownership:
@@ -1282,12 +1296,13 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.331'
+  coreVersion: '13.341'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727543549689
   modifiedTime: 1727543655104
   lastModifiedBy: q6n1efCGVB98drEQ
+  exportSource: null
 _id: XCKMbiroOedfQB0f
 sort: 200000
 _key: '!actors!XCKMbiroOedfQB0f'
