@@ -96,7 +96,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHeroism000
+            uuid: Compendium.dnd5e.spells24.Item.phbsplHeroism000
         optional: false
         spell:
           ability:
@@ -119,7 +119,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW
+            uuid: Compendium.dnd5e.spells24.Item.phbsplSpiritualW
         optional: false
         spell:
           ability:
@@ -142,7 +142,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg
+            uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
         optional: false
         spell:
           ability:

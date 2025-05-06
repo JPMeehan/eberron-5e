@@ -963,7 +963,7 @@ items:
     img: icons/magic/symbols/runes-carved-stone-green.webp
     effects:
       - name: Detection
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi
+        origin: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
         duration:
           rounds: null
           startTime: null
@@ -987,7 +987,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+            Compendium.dnd5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.341'
           systemId: dnd5e
@@ -1656,7 +1656,7 @@ items:
     img: icons/creatures/magical/spirit-undead-ghost-purple.webp
     effects:
       - name: Invisible
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili
+        origin: Compendium.dnd5e.spells24.Item.phbsplInvisibili
         duration:
           rounds: null
           startTime: null
@@ -1955,7 +1955,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplMageArmor0
+        origin: Compendium.dnd5e.spells24.Item.phbsplMageArmor0
         transfer: false
         flags: {}
         tint: '#ffffff'
@@ -2239,7 +2239,7 @@ items:
     img: icons/creatures/birds/songbird-yellow-flying.webp
     effects:
       - name: Flight
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplFly0000000
+        origin: Compendium.dnd5e.spells24.Item.phbsplFly0000000
         duration:
           rounds: null
           startTime: null

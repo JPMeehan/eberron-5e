@@ -972,7 +972,7 @@ items:
       description:
         value: >-
           <p>The spy casts
-          @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]{minor
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]{minor
           illusion}, using Intelligence as the spellcasting ability (spell save
           DC 12).</p>
         chat: ''
@@ -1157,7 +1157,7 @@ items:
     flags:
       dnd5e: {}
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMinorIllus
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e

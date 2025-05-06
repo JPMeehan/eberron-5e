@@ -17,10 +17,10 @@ system:
       spell slots you have of the appropriate level.</p><p>Your spellcasting
       ability for these spells is the same as the spellcasting ability you chose
       for your Harpy’s Charms trait.</p><table><thead><tr><th><p>Character
-      Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>4</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm
-      Person}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion}</p></td></tr><tr><td><p>9</p></td><td><p><em>Enemies
-      Abound</em></p></td></tr><tr><td><p>13</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmMonst]{Charm
-      Monster}</p></td></tr><tr><td><p>17</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe]{Dominate
+      Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>4</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{Charm
+      Person}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Suggestion}</p></td></tr><tr><td><p>9</p></td><td><p><em>Enemies
+      Abound</em></p></td></tr><tr><td><p>13</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmMonst]{Charm
+      Monster}</p></td></tr><tr><td><p>17</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDominatePe]{Dominate
       Person}</p></td></tr></tbody></table>
     chat: ''
   source:
@@ -158,7 +158,7 @@ effects:
     sort: 0
     _stats:
       compendiumSource: >-
-        Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso.ActiveEffect.78JcD7wFiSCOfmns
+        Compendium.dnd5e.spells24.Item.phbsplCharmPerso.ActiveEffect.78JcD7wFiSCOfmns
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e

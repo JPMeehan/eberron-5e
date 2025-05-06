@@ -21,10 +21,10 @@ system:
       Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
       5</td></tr></thead><tbody><tr><td>You have Advantage on all Wisdom saving
       throws against magic. You also know the
-      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00]{Mage
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage
       Hand}
-      cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{Disguise
-      Self}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detect
+      cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDisguiseSe]{Disguise
+      Self}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detect
       Thoughts}</td></tr></tbody></table><section class="secret"
       id="secret-AZFLMUN7pgAxMG7Q"><p><strong>Foundry Note</strong></p><p>The
       Resistance and spells are granted to you automatically and you will be

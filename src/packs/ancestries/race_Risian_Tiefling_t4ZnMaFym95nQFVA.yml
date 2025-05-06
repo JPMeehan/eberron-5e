@@ -80,7 +80,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost
+            uuid: Compendium.dnd5e.spells24.Item.phbsplRayofFrost
         optional: false
         spell:
           ability:
@@ -103,7 +103,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplArmorofAga
+            uuid: Compendium.dnd5e.dnd-players-handbook.spells.phbsplArmorofAga
         optional: false
         spell:
           ability:
@@ -126,7 +126,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson
+            uuid: Compendium.dnd5e.spells24.Item.phbsplHoldPerson
         optional: false
         spell:
           ability:
@@ -149,7 +149,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg
+            uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
         optional: false
         spell:
           ability:

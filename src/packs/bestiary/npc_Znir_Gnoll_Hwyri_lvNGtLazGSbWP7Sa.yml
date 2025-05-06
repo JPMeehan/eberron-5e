@@ -1288,7 +1288,7 @@ items:
           turns: null
           startRound: null
           startTurn: null
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplBless00000
+        origin: Compendium.dnd5e.spells24.Item.phbsplBless00000
         tint: '#ffffff'
         transfer: false
         name: Blessed
@@ -1339,7 +1339,7 @@ items:
           <p>For the duration, you sense the location of any Aberration,
           Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of
           yourself. You also sense whether the
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]{Hallow}</em>
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplHallow0000]{Hallow}</em>
           spell is active there and, if so, where.</p><p>The spell is blocked by
           1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of
           lead.</p>
@@ -1431,7 +1431,7 @@ items:
     img: icons/magic/perception/eye-ringed-green.webp
     effects:
       - name: Detection
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil
+        origin: Compendium.dnd5e.spells24.Item.phbsplDetectEvil
         duration:
           rounds: null
           startTime: null
@@ -1590,7 +1590,7 @@ items:
     effects:
       - name: Protected
         img: icons/magic/holy/yin-yang-balance-symbol.webp
-        origin: Compendium.dnd-players-handbook.spells.Item.phbEvilAndGoodPr
+        origin: Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr
         transfer: false
         _id: 0WW6DMPuabIZh1Tv
         type: base

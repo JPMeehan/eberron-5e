@@ -1462,7 +1462,7 @@ items:
     effects:
       - name: Reduced Movement
         img: icons/magic/water/projectile-icecicle-glowing.webp
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplRayofFrost
+        origin: Compendium.dnd5e.spells24.Item.phbsplRayofFrost
         transfer: false
         _id: 7dnnwBMWLykrVJub
         type: base
@@ -1896,7 +1896,7 @@ items:
     img: icons/skills/social/intimidation-impressing.webp
     effects:
       - name: Enhanced Strength
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
           rounds: null
           startTime: null
@@ -1922,7 +1922,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.ljMTBKPVmEnLPX1b
+            Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.ljMTBKPVmEnLPX1b
           duplicateSource: null
           coreVersion: '13.341'
           systemId: dnd5e
@@ -1934,7 +1934,7 @@ items:
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.gg9dU0SnvU03C803
       - name: Enhanced Dexterity
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
           rounds: null
           startTime: null
@@ -1960,7 +1960,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.Mmss2SPIy7wtt2PV
+            Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.Mmss2SPIy7wtt2PV
           duplicateSource: null
           coreVersion: '13.341'
           systemId: dnd5e
@@ -1972,7 +1972,7 @@ items:
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.GGEj4zNginSIp6VV
       - name: Enhanced Intelligence
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
           rounds: null
           startTime: null
@@ -1998,7 +1998,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.FfVB2Yyb7wfgpsQB
+            Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.FfVB2Yyb7wfgpsQB
           duplicateSource: null
           coreVersion: '13.341'
           systemId: dnd5e
@@ -2010,7 +2010,7 @@ items:
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.NTaFTBr1uam93jHS
       - name: Enhanced Wisdom
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
           rounds: null
           startTime: null
@@ -2036,7 +2036,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.k2569xtIeXKRReLU
+            Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.k2569xtIeXKRReLU
           duplicateSource: null
           coreVersion: '13.341'
           systemId: dnd5e
@@ -2048,7 +2048,7 @@ items:
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.EGnngHgGBzTyThW6
       - name: Enhanced Charisma
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
           rounds: null
           startTime: null
@@ -2074,7 +2074,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.sC2IXWDs07oTt5JN
+            Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.sC2IXWDs07oTt5JN
           duplicateSource: null
           coreVersion: '13.341'
           systemId: dnd5e
@@ -2114,7 +2114,7 @@ items:
           <p>You create a 20-foot-radius Sphere of fog centered on a point
           within range. The Sphere is &amp;Reference[heavilyobscured]. It lasts
           for the duration or until a strong wind (such as one created by
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust
           of Wind}</em>) disperses it.</p><p><strong>Using a Higher-Level Spell
           Slot.</strong> The fog’s radius increases by 20 feet for each spell
           slot level above 1.</p>

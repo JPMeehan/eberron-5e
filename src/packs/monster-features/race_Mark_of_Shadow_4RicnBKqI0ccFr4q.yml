@@ -41,7 +41,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplInvisibili
+            uuid: Compendium.dnd5e.spells24.Item.phbsplInvisibili
           - optional: false
             uuid: Compendium.dnd5e.races.Item.cnTbpPPeGW7vGjOV
         optional: false
@@ -62,7 +62,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus
+            uuid: Compendium.dnd5e.spells24.Item.phbsplMinorIllus
         optional: false
         spell:
           ability:

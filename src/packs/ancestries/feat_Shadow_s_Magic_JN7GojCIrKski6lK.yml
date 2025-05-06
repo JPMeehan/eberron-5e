@@ -11,10 +11,10 @@ system:
       spellcasting class. You can cast these spells using only Verbal components
       in place of their usual components.</p><h5>Harpy
       Spells</h5><table><thead><tr><th>Spell
-      Level</th><th>Spell</th></tr></thead><tbody><tr><td><p>1</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]{Charm
-      Person}</p></td></tr><tr><td><p>2</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{Suggestion}</p></td></tr><tr><td><p>3</p></td><td><p>Enemies
-      Abound</p></td></tr><tr><td><p>4</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmMonst]{Charm
-      Monster}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe]{Dominate
+      Level</th><th>Spell</th></tr></thead><tbody><tr><td><p>1</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]{Charm
+      Person}</p></td></tr><tr><td><p>2</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{Suggestion}</p></td></tr><tr><td><p>3</p></td><td><p>Enemies
+      Abound</p></td></tr><tr><td><p>4</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmMonst]{Charm
+      Monster}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDominatePe]{Dominate
       Person}</p></td></tr></tbody></table>
     chat: ''
   source:

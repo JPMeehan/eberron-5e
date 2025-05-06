@@ -44,9 +44,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA
+            uuid: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie
+            uuid: Compendium.dnd5e.spells24.Item.phbsplAnimalFrie
         optional: false
         spell:
           ability:

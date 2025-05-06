@@ -19,10 +19,10 @@ system:
       you have the Spellcasting or the Pact Magic class feature, the spells on
       the Wardens of the Wood Spells table are added to the spell list of your
       spellcasting class.</p><table><thead><tr><th><p>Spell
-      Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbSanctuary0000]{Sanctuary}</p></td></tr><tr><td><p>2nd</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou]{Detect
-      Thoughts}</p></td></tr><tr><td><p>3rd</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlink00000]{Blink}</p></td></tr><tr><td><p>4th</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbFaithfulHound]{Mordenkainen's
+      Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbSanctuary0000]{Sanctuary}</p></td></tr><tr><td><p>2nd</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detect
+      Thoughts}</p></td></tr><tr><td><p>3rd</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplBlink00000]{Blink}</p></td></tr><tr><td><p>4th</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbFaithfulHound]{Mordenkainen's
       Faithful
-      Hound}</p></td></tr><tr><td><p>5th</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Hold
+      Hound}</p></td></tr><tr><td><p>5th</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldMonste]{Hold
       Monster}</p></td></tr></tbody></table>
     chat: ''
   source:

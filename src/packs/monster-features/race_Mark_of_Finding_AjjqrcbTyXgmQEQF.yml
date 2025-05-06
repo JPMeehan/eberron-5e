@@ -41,9 +41,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLocateAnim
+            uuid: Compendium.dnd5e.spells24.Item.phbsplLocateAnim
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLocateObje
+            uuid: Compendium.dnd5e.spells24.Item.phbsplLocateObje
         optional: false
         spell:
           ability:

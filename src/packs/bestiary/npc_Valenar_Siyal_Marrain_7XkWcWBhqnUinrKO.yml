@@ -476,7 +476,7 @@ items:
           type: cast
           name: Druidcraft
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft
+            uuid: Compendium.dnd5e.spells24.Item.phbsplDruidcraft
             level: 0
             spellbook: true
             challenge:
@@ -520,7 +520,7 @@ items:
           type: cast
           name: Guidance
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+            uuid: Compendium.dnd5e.spells24.Item.phbsplGuidance00
             level: 0
             spellbook: true
             challenge:
@@ -608,7 +608,7 @@ items:
           type: cast
           name: Animal Friendship
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie
+            uuid: Compendium.dnd5e.spells24.Item.phbsplAnimalFrie
             level: 1
             spellbook: true
             challenge:
@@ -658,7 +658,7 @@ items:
           type: cast
           name: Animal Messenger
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAnimalMess
+            uuid: Compendium.dnd5e.spells24.Item.phbsplAnimalMess
             level: 2
             spellbook: true
             challenge:
@@ -758,7 +758,7 @@ items:
           type: cast
           name: Entangle
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplEntangle00
+            uuid: Compendium.dnd5e.spells24.Item.phbsplEntangle00
             level: 1
             spellbook: true
             challenge:
@@ -808,7 +808,7 @@ items:
           type: cast
           name: Speak With Animals
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA
+            uuid: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
             level: 1
             spellbook: true
             challenge:
@@ -858,7 +858,7 @@ items:
           type: cast
           name: Spike Growth
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSpikeGrowt
+            uuid: Compendium.dnd5e.spells24.Item.phbsplSpikeGrowt
             level: 2
             spellbook: true
             challenge:
@@ -908,7 +908,7 @@ items:
           type: cast
           name: Conjure Animals
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplConjureAni
+            uuid: Compendium.dnd5e.spells24.Item.phbsplConjureAni
             level: 3
             spellbook: true
             challenge:
@@ -958,7 +958,7 @@ items:
           type: cast
           name: Phantom Steed
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPhantomSte
+            uuid: Compendium.dnd5e.spells24.Item.phbsplPhantomSte
             level: 3
             spellbook: true
             challenge:
@@ -1008,7 +1008,7 @@ items:
           type: cast
           name: Plant Growth
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowt
+            uuid: Compendium.dnd5e.spells24.Item.phbsplPlantGrowt
             level: 3
             spellbook: true
             challenge:
@@ -1058,7 +1058,7 @@ items:
           type: cast
           name: Dominate Beast
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDominateBe
+            uuid: Compendium.dnd5e.spells24.Item.phbsplDominateBe
             level: 4
             spellbook: true
             challenge:
@@ -1160,25 +1160,25 @@ items:
           attacks):</p>
 
           <p><strong>At will:</strong>
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidance00]</em>,
           <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplThornWhip0]</em></p>
 
           <p><strong>1/day each:</strong>
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAnimalMess]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAnimalFrie]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplAnimalMess]</em>,
           <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBeastSense]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEntangle00]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpikeGrowt]</em></p>
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplEntangle00]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithA]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpikeGrowt]</em></p>
 
           <p><strong>2/day each:</strong>
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConjureAni]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPhantomSte]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowt]</em></p>
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplConjureAni]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPhantomSte]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPlantGrowt]</em></p>
 
           <p><strong>1/day each:</strong>
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDominateBe]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDominateBe]</em>,
           <em>@UUID[Compendium.chaosos-5e-content.non-srd-spells.Item.iQfr5YPAHDFrmuSR]</em></p>
         chat: ''
       uses:
@@ -2024,7 +2024,7 @@ items:
           effect: []
         cachedFor: .Item.rg6v5jNHHQ3xkAON.Activity.LHFxrriwrihSXfku
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplDruidcraft
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDruidcraft
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -2150,7 +2150,7 @@ items:
     effects:
       - name: Acrobatic Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         _id: GezMMzvZhWXEYyGm
         type: base
@@ -2188,7 +2188,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.GezMMzvZhWXEYyGm
       - name: Animal Handling Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2226,7 +2226,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.y6aODSkiubtFt6Ap
       - name: Arcana Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2264,7 +2264,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.Vlfh8IFOezrSpeBZ
       - name: Athletic Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2302,7 +2302,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.sPkLWVpkJ7NqDQT0
       - name: Deception Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2340,7 +2340,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.Je4xWElmaiSDsOjU
       - name: History Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2378,7 +2378,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.cw02ZbuiRn6GyoEv
       - name: Insight Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2416,7 +2416,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.VsU5vUhMioT9pCwG
       - name: Investigation Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2454,7 +2454,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.UQixxmOdHUDjVYNh
       - name: Intimidation Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2492,7 +2492,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.Cpte6tynFFJbraX2
       - name: Medicine Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2530,7 +2530,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.Vl1YSG1DlZvx9nSI
       - name: Nature Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2568,7 +2568,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.IqxGXju1tYDWoda6
       - name: Persuasion Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2606,7 +2606,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.fCdLUO5DoSIT4wVK
       - name: Perception Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2644,7 +2644,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.qPowjrduxnzKpH8x
       - name: Performance Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2682,7 +2682,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.E4BqoCkyoKLJbGmb
       - name: Religion Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2720,7 +2720,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.jVKWknHHFuMwvTct
       - name: Sleight of Hand Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2758,7 +2758,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.pwFahx7uqM4DOgnu
       - name: Stealth Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2796,7 +2796,7 @@ items:
           !actors.items.effects!7XkWcWBhqnUinrKO.5vsldNsvezi4jJxk.Vb4iRJ73Nw78UUMW
       - name: Survival Guidance
         img: systems/dnd5e/icons/svg/activity/check.svg
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+        origin: Compendium.dnd5e.spells24.Item.phbsplGuidance00
         transfer: false
         type: base
         system: {}
@@ -2890,7 +2890,7 @@ items:
           effect: []
         cachedFor: .Item.rg6v5jNHHQ3xkAON.Activity.dh6zw9AwNtvnsivM
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplGuidance00
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplGuidance00
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -3195,7 +3195,7 @@ items:
     img: icons/creatures/abilities/paw-glowing-yellow.webp
     effects:
       - name: Charmed
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie
+        origin: Compendium.dnd5e.spells24.Item.phbsplAnimalFrie
         duration:
           rounds: 1
           startTime: null
@@ -3289,7 +3289,7 @@ items:
       dnd5e:
         cachedFor: .Item.rg6v5jNHHQ3xkAON.Activity.YXf1cQoMjJyqto3I
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplAnimalFrie
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplAnimalFrie
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -3397,7 +3397,7 @@ items:
     img: icons/creatures/mammals/rabbit-movement-glowing-green.webp
     effects:
       - name: Carrying Message
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplAnimalMess
+        origin: Compendium.dnd5e.spells24.Item.phbsplAnimalMess
         duration:
           rounds: null
           startTime: null
@@ -3492,7 +3492,7 @@ items:
       dnd5e:
         cachedFor: .Item.rg6v5jNHHQ3xkAON.Activity.vZZsB3bHS4HJgjn4
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplAnimalMess
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplAnimalMess
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -3773,7 +3773,7 @@ items:
     img: icons/magic/nature/root-vine-entangle-foot-green.webp
     effects:
       - name: Restrained
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEntangle00
+        origin: Compendium.dnd5e.spells24.Item.phbsplEntangle00
         duration:
           rounds: 1
           startTime: null
@@ -3867,7 +3867,7 @@ items:
       dnd5e:
         cachedFor: .Item.rg6v5jNHHQ3xkAON.Activity.pWpy5gxSouPmKPwp
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplEntangle00
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplEntangle00
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -3976,7 +3976,7 @@ items:
     img: icons/creatures/mammals/dog-husky-white-blue.webp
     effects:
       - name: Bestial Communication
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA
+        origin: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
         duration:
           rounds: 1
           startTime: null
@@ -4069,7 +4069,7 @@ items:
       dnd5e:
         cachedFor: .Item.rg6v5jNHHQ3xkAON.Activity.8XBek1oQIvceyIYk
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithA
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -4259,7 +4259,7 @@ items:
           effect: []
         cachedFor: .Item.rg6v5jNHHQ3xkAON.Activity.KCNh2ecZQ6Pt6KKK
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplSpikeGrowt
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSpikeGrowt
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -4507,7 +4507,7 @@ items:
       dnd5e:
         cachedFor: .Item.rg6v5jNHHQ3xkAON.Activity.gVplkl1ZYR7JNIZx
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplConjureAni
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplConjureAni
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -4696,7 +4696,7 @@ items:
       dnd5e:
         cachedFor: .Item.rg6v5jNHHQ3xkAON.Activity.1bgIMk40gPAC5fjy
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplPhantomSte
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplPhantomSte
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -4919,7 +4919,7 @@ items:
       dnd5e:
         cachedFor: .Item.rg6v5jNHHQ3xkAON.Activity.yiWrGv3V9qW6h6zq
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplPlantGrowt
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplPlantGrowt
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -5042,7 +5042,7 @@ items:
     img: icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp
     effects:
       - name: Dominated
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplDominateBe
+        origin: Compendium.dnd5e.spells24.Item.phbsplDominateBe
         duration:
           rounds: null
           startTime: null
@@ -5135,7 +5135,7 @@ items:
       dnd5e:
         cachedFor: .Item.rg6v5jNHHQ3xkAON.Activity.iZiVN1o5fdCtwmoe
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplDominateBe
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDominateBe
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e

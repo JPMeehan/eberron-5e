@@ -8,7 +8,7 @@ system:
     neXe0otONz2nvDNX:
       type: cast
       spell:
-        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGentleRepo
+        uuid: Compendium.dnd5e.spells24.Item.phbsplGentleRepo
         challenge:
           attack: null
           save: null
@@ -57,7 +57,7 @@ system:
     vPmwuN9bMDjpqqdA:
       type: cast
       spell:
-        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD
+        uuid: Compendium.dnd5e.spells24.Item.phbsplSpeakwithD
         challenge:
           attack: null
           save: null
@@ -120,9 +120,9 @@ system:
       @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTolltheDea]{toll
       the dead} cantrip</p><p>Spells of the Mark. </p><p><strong>Spells of the
       Mark.</strong> Your dragonmark grants you access to
-      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGentleRepo]{gentle
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplGentleRepo]{gentle
       repose} and
-      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpeakwithD]{speak
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithD]{speak
       with dead}. You always have these spells prepared, and can cast them once
       without expending a spell slot. When you do so, you can't cast them in
       this way again until you finish a long rest. When you cast speak with dead

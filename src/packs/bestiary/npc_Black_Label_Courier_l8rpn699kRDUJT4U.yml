@@ -1292,7 +1292,7 @@ items:
     img: icons/creatures/mammals/deer-movement-leap-green.webp
     effects:
       - name: Jump
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplJump000000
+        origin: Compendium.dnd5e.spells24.Item.phbsplJump000000
         duration:
           rounds: 1
           startTime: null
@@ -1448,7 +1448,7 @@ items:
     img: icons/creatures/mammals/humanoid-cat-skulking-teal.webp
     effects:
       - name: Concealed
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplPasswithou
+        origin: Compendium.dnd5e.spells24.Item.phbsplPasswithou
         duration:
           rounds: null
           startTime: null

@@ -476,7 +476,7 @@ items:
           type: cast
           name: Light
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLight00000
+            uuid: Compendium.dnd5e.spells24.Item.phbsplLight00000
             level: 0
             spellbook: true
             challenge:
@@ -520,7 +520,7 @@ items:
           type: cast
           name: Minor Illusion
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus
+            uuid: Compendium.dnd5e.spells24.Item.phbsplMinorIllus
             level: 0
             spellbook: true
             challenge:
@@ -564,7 +564,7 @@ items:
           type: cast
           name: Prestidigitation
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi
+            uuid: Compendium.dnd5e.spells24.Item.phbsplPrestidigi
             level: 0
             spellbook: true
             challenge:
@@ -608,7 +608,7 @@ items:
           type: cast
           name: Charm Person
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso
+            uuid: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
             level: 1
             spellbook: true
             challenge:
@@ -658,7 +658,7 @@ items:
           type: cast
           name: Scorching Ray
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR
+            uuid: Compendium.dnd5e.spells24.Item.phbsplScorchingR
             level: 2
             spellbook: true
             challenge:
@@ -708,7 +708,7 @@ items:
           type: cast
           name: See Invisibility
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib
+            uuid: Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
             level: 2
             spellbook: true
             challenge:
@@ -758,7 +758,7 @@ items:
           type: cast
           name: Dimension Door
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD
+            uuid: Compendium.dnd5e.spells24.Item.phbsplDimensionD
             level: 4
             spellbook: true
             challenge:
@@ -808,7 +808,7 @@ items:
           type: cast
           name: Fireball
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplFireball00
+            uuid: Compendium.dnd5e.spells24.Item.phbsplFireball00
             level: 3
             spellbook: true
             challenge:
@@ -858,7 +858,7 @@ items:
           type: cast
           name: Greater Invisibility
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv
+            uuid: Compendium.dnd5e.spells24.Item.phbsplGreaterInv
             level: 4
             spellbook: true
             challenge:
@@ -908,7 +908,7 @@ items:
           type: cast
           name: Slow
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000
+            uuid: Compendium.dnd5e.spells24.Item.phbsplSlow000000
             level: 3
             spellbook: true
             challenge:
@@ -958,7 +958,7 @@ items:
           type: cast
           name: Chain Lightning
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplChainLight
+            uuid: Compendium.dnd5e.spells24.Item.phbsplChainLight
             level: 6
             spellbook: true
             challenge:
@@ -1008,7 +1008,7 @@ items:
           type: cast
           name: Cone Of Cold
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold
+            uuid: Compendium.dnd5e.spells24.Item.phbsplConeofCold
             level: 5
             spellbook: true
             challenge:
@@ -1058,7 +1058,7 @@ items:
           type: cast
           name: Globe Of Invulnerability
           spell:
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGlobeofInv
+            uuid: Compendium.dnd5e.spells24.Item.phbsplGlobeofInv
             level: 6
             spellbook: true
             challenge:
@@ -1110,25 +1110,25 @@ items:
           attacks):</p>
 
           <p><strong>At will:</strong>
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplLight00000]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]</em></p>
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplLight00000]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplMinorIllus]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]</em></p>
 
           <p><strong>3/day each:</strong>
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib]</em></p>
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplCharmPerso]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSeeInvisib]</em></p>
 
           <p><strong>2/day each:</strong>
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFireball00]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000]</em></p>
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplDimensionD]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGreaterInv]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplSlow000000]</em></p>
 
           <p><strong>1/day each:</strong>
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChainLight]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold]</em>,
-          <em>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGlobeofInv]</em></p>
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplChainLight]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplConeofCold]</em>,
+          <em>@UUID[Compendium.dnd5e.spells24.Item.phbsplGlobeofInv]</em></p>
         chat: ''
       uses:
         spent: 0
@@ -1724,7 +1724,7 @@ items:
           effect: []
         cachedFor: .Item.qVXMstr8M0o0cLAv.Activity.fAqSSiBbaHUDtt0x
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplLight00000
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplLight00000
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -1935,7 +1935,7 @@ items:
       dnd5e:
         cachedFor: .Item.qVXMstr8M0o0cLAv.Activity.VAhFds3iif4gqX9f
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMinorIllus
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -2108,7 +2108,7 @@ items:
           effect: []
         cachedFor: .Item.qVXMstr8M0o0cLAv.Activity.zasgi7vUv6dWmR5D
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplPrestidigi
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -2225,7 +2225,7 @@ items:
     img: icons/magic/control/hypnosis-mesmerism-eye.webp
     effects:
       - name: Charmed
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso
+        origin: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
         duration:
           rounds: 1
           startTime: null
@@ -2319,7 +2319,7 @@ items:
       dnd5e:
         cachedFor: .Item.qVXMstr8M0o0cLAv.Activity.iSMbSc51l4BWGycR
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -2498,7 +2498,7 @@ items:
       dnd5e:
         cachedFor: .Item.qVXMstr8M0o0cLAv.Activity.IVx6kExU7XyU96Sy
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplScorchingR
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplScorchingR
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -2606,7 +2606,7 @@ items:
     img: icons/magic/perception/orb-eye-scrying.webp
     effects:
       - name: See Invisibility
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib
+        origin: Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
         duration:
           rounds: 1
           startTime: null
@@ -2703,7 +2703,7 @@ items:
       dnd5e:
         cachedFor: .Item.qVXMstr8M0o0cLAv.Activity.1bVxs89tkOZzfNFs
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -2887,7 +2887,7 @@ items:
           effect: []
         cachedFor: .Item.qVXMstr8M0o0cLAv.Activity.MbdUg2SLUDSMMAfH
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplDimensionD
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDimensionD
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -3071,7 +3071,7 @@ items:
       dnd5e:
         cachedFor: .Item.qVXMstr8M0o0cLAv.Activity.TLotBl3fvcIghUlp
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplFireball00
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplFireball00
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -3174,7 +3174,7 @@ items:
     img: icons/creatures/magical/spirit-undead-ghost-blue.webp
     effects:
       - name: Invisible
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv
+        origin: Compendium.dnd5e.spells24.Item.phbsplGreaterInv
         duration:
           rounds: null
           startTime: null
@@ -3264,7 +3264,7 @@ items:
       dnd5e:
         cachedFor: .Item.qVXMstr8M0o0cLAv.Activity.XbQXc7Bs4FX7xMlm
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplGreaterInv
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplGreaterInv
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -3393,7 +3393,7 @@ items:
     img: icons/magic/time/clock-stopwatch-white-blue.webp
     effects:
       - name: Slowed
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000
+        origin: Compendium.dnd5e.spells24.Item.phbsplSlow000000
         duration:
           startTime: null
           seconds: 60
@@ -3522,7 +3522,7 @@ items:
           effect: []
         cachedFor: .Item.qVXMstr8M0o0cLAv.Activity.JhYDoZO6ofkLSlva
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplSlow000000
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSlow000000
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -3705,7 +3705,7 @@ items:
       dnd5e:
         cachedFor: .Item.qVXMstr8M0o0cLAv.Activity.yCciIKF0K6JS17RO
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplChainLight
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplChainLight
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -3881,7 +3881,7 @@ items:
       dnd5e:
         cachedFor: .Item.qVXMstr8M0o0cLAv.Activity.h5iYDRe4Cj1EOUef
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplConeofCold
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplConeofCold
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -4041,7 +4041,7 @@ items:
           effect: []
         cachedFor: .Item.qVXMstr8M0o0cLAv.Activity.Gy8pG36g2CuTSGi8
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplGlobeofInv
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplGlobeofInv
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e

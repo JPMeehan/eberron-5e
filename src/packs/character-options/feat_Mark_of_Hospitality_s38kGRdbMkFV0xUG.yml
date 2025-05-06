@@ -17,15 +17,15 @@ system:
       skills or tools associated with your
       Mark.</p><p><em><strong>Cantrip.</strong></em> You learn the cantrips
       associated with your
-      Mark.</p><ul><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFriends000]{Friends}</p></li><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi]{Prestidigitation}</p></li></ul><p><em><strong>Spells
+      Mark.</p><ul><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFriends000]{Friends}</p></li><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplPrestidigi]{Prestidigitation}</p></li></ul><p><em><strong>Spells
       of the Mark.</strong></em> Your dragonmark grants you access to the spells
       associated with your Mark. You always have these spells prepared, and you
       can cast each of them once at their lowest level without expending a spell
       slot. When you do so, you can’t cast them in this way again until you
       finish a Long Rest. To cast any of these spells at a higher level or a
       second time prior to finishing a Long Rest, you must expend a spell
-      slot.</p><ul><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCalmEmotio]{Calm
-      Emotions}</p></li><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPurifyFood]{Purify
+      slot.</p><ul><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplCalmEmotio]{Calm
+      Emotions}</p></li><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplPurifyFood]{Purify
       Food and Drink}</p></li></ul>
     chat: ''
   source:

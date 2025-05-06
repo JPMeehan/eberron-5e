@@ -967,7 +967,7 @@ items:
     img: icons/skills/social/intimidation-impressing.webp
     effects:
       - name: Enhanced Strength
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
           rounds: null
           startTime: null
@@ -993,7 +993,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.ljMTBKPVmEnLPX1b
+            Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.ljMTBKPVmEnLPX1b
           duplicateSource: null
           coreVersion: '13.341'
           systemId: dnd5e
@@ -1005,7 +1005,7 @@ items:
         _key: >-
           !actors.items.effects!KwZzdhlxjaUbGDEN.IWosGnETi3BLH30m.gg9dU0SnvU03C803
       - name: Enhanced Dexterity
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
           rounds: null
           startTime: null
@@ -1031,7 +1031,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.Mmss2SPIy7wtt2PV
+            Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.Mmss2SPIy7wtt2PV
           duplicateSource: null
           coreVersion: '13.341'
           systemId: dnd5e
@@ -1043,7 +1043,7 @@ items:
         _key: >-
           !actors.items.effects!KwZzdhlxjaUbGDEN.IWosGnETi3BLH30m.GGEj4zNginSIp6VV
       - name: Enhanced Intelligence
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
           rounds: null
           startTime: null
@@ -1069,7 +1069,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.FfVB2Yyb7wfgpsQB
+            Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.FfVB2Yyb7wfgpsQB
           duplicateSource: null
           coreVersion: '13.341'
           systemId: dnd5e
@@ -1081,7 +1081,7 @@ items:
         _key: >-
           !actors.items.effects!KwZzdhlxjaUbGDEN.IWosGnETi3BLH30m.NTaFTBr1uam93jHS
       - name: Enhanced Wisdom
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
           rounds: null
           startTime: null
@@ -1107,7 +1107,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.k2569xtIeXKRReLU
+            Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.k2569xtIeXKRReLU
           duplicateSource: null
           coreVersion: '13.341'
           systemId: dnd5e
@@ -1119,7 +1119,7 @@ items:
         _key: >-
           !actors.items.effects!KwZzdhlxjaUbGDEN.IWosGnETi3BLH30m.EGnngHgGBzTyThW6
       - name: Enhanced Charisma
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplEnhanceAbi
+        origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
           rounds: null
           startTime: null
@@ -1145,7 +1145,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd-players-handbook.spells.Item.phbsplHex0000000.ActiveEffect.sC2IXWDs07oTt5JN
+            Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.sC2IXWDs07oTt5JN
           duplicateSource: null
           coreVersion: '13.341'
           systemId: dnd5e
@@ -1665,7 +1665,7 @@ items:
     effects:
       - name: Heated Metal
         img: icons/magic/fire/flame-burning-chain.webp
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplHeatMetal0
+        origin: Compendium.dnd5e.spells24.Item.phbsplHeatMetal0
         transfer: false
         _id: VVQbCUE5W44bF4QU
         type: base

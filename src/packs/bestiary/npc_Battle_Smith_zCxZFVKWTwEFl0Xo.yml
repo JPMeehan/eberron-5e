@@ -2207,7 +2207,7 @@ items:
     effects:
       - name: Heated Metal
         img: icons/magic/fire/flame-burning-chain.webp
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplHeatMetal0
+        origin: Compendium.dnd5e.spells24.Item.phbsplHeatMetal0
         transfer: false
         _id: VVQbCUE5W44bF4QU
         type: base
@@ -2367,7 +2367,7 @@ items:
     img: icons/magic/movement/abstract-ribbons-red-orange.webp
     effects:
       - name: Bonded
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplWardingBon
+        origin: Compendium.dnd5e.spells24.Item.phbsplWardingBon
         duration:
           rounds: null
           startTime: null
@@ -2722,7 +2722,7 @@ items:
     img: icons/magic/water/elemental-water.webp
     effects:
       - name: Unrestricted Movement
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplFreedomofM
+        origin: Compendium.dnd5e.spells24.Item.phbsplFreedomofM
         duration:
           rounds: null
           startTime: null
@@ -2941,7 +2941,7 @@ items:
     img: icons/magic/time/clock-spinning-gold-pink.webp
     effects:
       - name: Hasted
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000
+        origin: Compendium.dnd5e.spells24.Item.phbsplHaste00000
         duration:
           rounds: null
           startTime: null
@@ -2990,7 +2990,7 @@ items:
           or Utilize action.</p><p>When the spell ends, the target is
           Incapacitated and has a Speed of 0 until the end of its next turn, as
           a
-          @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000.ActiveEffect.S5XcFawnnNHO8bUr]{wave
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplHaste00000.ActiveEffect.S5XcFawnnNHO8bUr]{wave
           of lethargy} washes over it.</p>
         tint: '#ffffff'
         transfer: false
@@ -3009,7 +3009,7 @@ items:
         _key: >-
           !actors.items.effects!zCxZFVKWTwEFl0Xo.kegFw2HAXjbwm7si.NEFWcyysYgsE6de3
       - name: Lethargy
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplHaste00000
+        origin: Compendium.dnd5e.spells24.Item.phbsplHaste00000
         duration:
           rounds: 1
           startTime: null

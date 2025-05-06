@@ -23,10 +23,10 @@ system:
       following damage types: Acid, Cold, Fire, Lightning. Whenever you finish a
       Long Rest, your Resistance randomly changes to one of these four damage
       types. You also know the
-      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShockingGr]{Shocking
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking
       Grasp}
-      cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO]{Chromatic
-      Orb}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShatter000]{Shatter}</td></tr></tbody></table><section
+      cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplChromaticO]{Chromatic
+      Orb}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Shatter}</td></tr></tbody></table><section
       class="secret" id="secret-AZFLMUN7pgAxMG7Q"><p><strong>Foundry
       Note</strong></p><p>The Resistance and spells are granted to you
       automatically and you will be prompted to choose the spellcasting ability

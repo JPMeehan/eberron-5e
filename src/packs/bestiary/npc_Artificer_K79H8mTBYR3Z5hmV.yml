@@ -1134,7 +1134,7 @@ items:
     img: icons/magic/symbols/runes-carved-stone-green.webp
     effects:
       - name: Detection
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi
+        origin: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
         duration:
           rounds: null
           startTime: null
@@ -1158,7 +1158,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd-players-handbook.spells.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
+            Compendium.dnd5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
           coreVersion: '13.341'
           systemId: dnd5e
@@ -2068,7 +2068,7 @@ items:
     img: icons/magic/perception/orb-eye-scrying.webp
     effects:
       - name: See Invisibility
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib
+        origin: Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
         duration:
           rounds: 1
           startTime: null
@@ -2353,7 +2353,7 @@ items:
     effects:
       - name: Heated Metal
         img: icons/magic/fire/flame-burning-chain.webp
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplHeatMetal0
+        origin: Compendium.dnd5e.spells24.Item.phbsplHeatMetal0
         transfer: false
         _id: VVQbCUE5W44bF4QU
         type: base

@@ -43,11 +43,11 @@ system:
         items:
           - uuid: Compendium.dnd5e.races.Item.cnTbpPPeGW7vGjOV
             optional: false
-          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDetectMagi
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
             optional: false
-          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDetectPois
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplDetectPois
             optional: false
-          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSeeInvisib
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
             optional: false
         optional: false
         spell:

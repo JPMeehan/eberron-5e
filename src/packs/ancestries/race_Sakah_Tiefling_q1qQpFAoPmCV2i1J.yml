@@ -67,7 +67,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00
+            uuid: Compendium.dnd5e.spells24.Item.phbsplMageHand00
         optional: false
         spell:
           ability:
@@ -90,7 +90,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe
+            uuid: Compendium.dnd5e.spells24.Item.phbsplDisguiseSe
         optional: false
         spell:
           ability:
@@ -113,7 +113,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDetectThou
+            uuid: Compendium.dnd5e.spells24.Item.phbsplDetectThou
         optional: false
         spell:
           ability:
@@ -136,7 +136,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg
+            uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
         optional: false
         spell:
           ability:

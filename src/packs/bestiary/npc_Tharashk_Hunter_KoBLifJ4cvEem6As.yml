@@ -939,7 +939,7 @@ items:
     img: icons/equipment/feet/boots-leather-laced-brown.webp
     effects:
       - name: Longstrider
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplLongstride
+        origin: Compendium.dnd5e.spells24.Item.phbsplLongstride
         duration:
           rounds: 1
           startTime: null

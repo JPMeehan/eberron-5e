@@ -1580,7 +1580,7 @@ items:
     effects:
       - name: Blocked Healing
         img: icons/magic/life/heart-broken-red.webp
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch
+        origin: Compendium.dnd5e.spells24.Item.phbsplChillTouch
         transfer: false
         _id: zwks0mAqBHGZC1Pk
         type: base
@@ -1622,7 +1622,7 @@ items:
     flags:
       dnd5e: {}
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplChillTouch
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -1766,7 +1766,7 @@ items:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplMageHand00
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMageHand00
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -1927,7 +1927,7 @@ items:
     flags:
       dnd5e: {}
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplMinorIllus
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMinorIllus
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -2050,7 +2050,7 @@ items:
     flags:
       dnd5e: {}
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplPrestidigi
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplPrestidigi
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -2195,7 +2195,7 @@ items:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplBlight0000
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -2471,7 +2471,7 @@ items:
     img: icons/magic/lightning/bolt-strike-beam-purple.webp
     effects:
       - name: Brief Enfeeblement
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee
+        origin: Compendium.dnd5e.spells24.Item.phbsplRayofEnfee
         duration:
           rounds: 1
           startTime: null
@@ -2508,7 +2508,7 @@ items:
         _key: >-
           !actors.items.effects!zLz0KtkIUQ0tEZcC.xsDTK3kRB038Q59d.yril8uhQgO1dR507
       - name: Enervated
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee
+        origin: Compendium.dnd5e.spells24.Item.phbsplRayofEnfee
         duration:
           rounds: null
           startTime: null
@@ -2573,7 +2573,7 @@ items:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplRayofEnfee
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplRayofEnfee
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e
@@ -3433,7 +3433,7 @@ items:
           activity: []
           effect: []
     _stats:
-      compendiumSource: Compendium.dnd-players-handbook.spells.Item.phbsplUnseenServ
+      compendiumSource: Compendium.dnd5e.spells24.Item.phbsplUnseenServ
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e

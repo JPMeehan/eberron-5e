@@ -1483,7 +1483,7 @@ items:
     img: icons/magic/defensive/armor-stone-skin.webp
     effects:
       - name: Stoneskin
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0
+        origin: Compendium.dnd5e.spells24.Item.phbsplStoneskin0
         duration:
           rounds: null
           startTime: null

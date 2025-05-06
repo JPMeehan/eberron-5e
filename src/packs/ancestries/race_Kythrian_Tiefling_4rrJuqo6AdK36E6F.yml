@@ -85,7 +85,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplShockingGr
+            uuid: Compendium.dnd5e.spells24.Item.phbsplShockingGr
         optional: false
         spell:
           ability:
@@ -108,7 +108,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplChromaticO
+            uuid: Compendium.dnd5e.spells24.Item.phbsplChromaticO
         optional: false
         spell:
           ability:
@@ -131,7 +131,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplShatter000
+            uuid: Compendium.dnd5e.spells24.Item.phbsplShatter000
         optional: false
         spell:
           ability:
@@ -154,7 +154,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg
+            uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
         optional: false
         spell:
           ability:

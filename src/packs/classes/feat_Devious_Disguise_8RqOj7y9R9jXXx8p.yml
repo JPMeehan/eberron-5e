@@ -9,7 +9,7 @@ system:
       person.</li><li>You gain proficiency with a disguise kit. If you already
       have this proficiency, you gain proficiency with one tool of your
       choice.</li><li>You add the spell
-      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDisguiseSe]{disguise
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplDisguiseSe]{disguise
       self} to your spells known, but it does not count against your normal
       number of bard spells known. If you already know this spell, you can
       instead add another spell from the bard spell list to your spells known,

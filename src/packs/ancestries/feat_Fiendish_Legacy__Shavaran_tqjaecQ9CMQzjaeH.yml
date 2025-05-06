@@ -23,7 +23,7 @@ system:
       armor and with Shields. You also know the
       @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBladeWard0]{Blade
       Ward}
-      cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHeroism000]{Heroism}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSpiritualW]{Spiritual
+      cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeroism000]{Heroism}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplSpiritualW]{Spiritual
       Weapon}</td></tr></tbody></table><section class="secret"
       id="secret-AZFLMUN7pgAxMG7Q"><p><strong>Foundry Note</strong></p><p>The
       Resistance and spells are granted to you automatically and you will be

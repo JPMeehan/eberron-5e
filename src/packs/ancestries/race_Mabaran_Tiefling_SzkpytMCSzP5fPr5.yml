@@ -80,7 +80,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch
+            uuid: Compendium.dnd5e.spells24.Item.phbsplChillTouch
         optional: false
         spell:
           ability:
@@ -103,7 +103,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou
+            uuid: Compendium.dnd5e.spells24.Item.phbsplInflictWou
         optional: false
         spell:
           ability:
@@ -126,7 +126,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD
+            uuid: Compendium.dnd5e.spells24.Item.phbsplBlindnessD
         optional: false
         spell:
           ability:
@@ -149,7 +149,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg
+            uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
         optional: false
         spell:
           ability:

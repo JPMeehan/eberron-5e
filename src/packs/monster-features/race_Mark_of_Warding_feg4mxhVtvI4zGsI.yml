@@ -56,9 +56,9 @@ system:
           - optional: false
             uuid: Compendium.dnd5e.races.Item.ufysTkqet2Ctmtyi
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplAlarm00000
+            uuid: Compendium.dnd5e.spells24.Item.phbsplAlarm00000
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplArcaneLock
+            uuid: Compendium.dnd5e.spells24.Item.phbsplArcaneLock
         optional: false
         spell:
           ability:

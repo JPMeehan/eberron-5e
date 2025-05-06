@@ -49,10 +49,10 @@ pages:
           spellcasting class. You can cast these spells using only Verbal
           components in place of their usual components.</p>
       spells:
-        - Compendium.dnd-players-handbook.spells.Item.phbsplCharmPerso
-        - Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion
-        - Compendium.dnd-players-handbook.spells.Item.phbsplCharmMonst
-        - Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe
+        - Compendium.dnd5e.spells24.Item.phbsplCharmPerso
+        - Compendium.dnd5e.spells24.Item.phbsplSuggestion
+        - Compendium.dnd5e.spells24.Item.phbsplCharmMonst
+        - Compendium.dnd5e.spells24.Item.phbsplDominatePe
       unlinkedSpells:
         - _id: 2oXqEeDd2o6NxvjF
           name: Enemies Abound
@@ -104,11 +104,11 @@ pages:
           spellcasting class. You can cast these spells without Material
           components.</p>
       spells:
-        - Compendium.dnd-players-handbook.spells.Item.phbsplEnsnaringS
-        - Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson
-        - Compendium.dnd-players-handbook.spells.Item.phbsplHypnoticPa
-        - Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste
-        - Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0
+        - Compendium.dnd5e.spells24.Item.phbsplEnsnaringS
+        - Compendium.dnd5e.spells24.Item.phbsplHoldPerson
+        - Compendium.dnd5e.spells24.Item.phbsplHypnoticPa
+        - Compendium.dnd5e.spells24.Item.phbsplHoldMonste
+        - Compendium.dnd5e.spells24.Item.phbsplStoneskin0
       unlinkedSpells: []
       identifier: medusa
     title:

@@ -17,7 +17,7 @@ system:
       skills or tools associated with your
       Mark.</p><p><em><strong>Cantrip.</strong></em> You learn the cantrip
       associated with your Mark.
-      </p><ul><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShockingGr]{Shocking
+      </p><ul><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking
       Grasp}</p></li></ul><p><em><strong>Spells of the Mark.</strong></em> Your
       dragonmark grants you access to the spells associated with your Mark. You
       always have these spells prepared, and you can cast each of them once at
@@ -25,8 +25,8 @@ system:
       can’t cast them in this way again until you finish a Long Rest. To cast
       any of these spells at a higher level or a second time prior to finishing
       a Long Rest, you must expend a spell
-      slot.</p><ul><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFogCloud00]{Fog
-      Cloud}</p></li><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust
+      slot.</p><ul><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplFogCloud00]{Fog
+      Cloud}</p></li><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplGustofWind]{Gust
       of Wind}</p></li></ul>
     chat: ''
   source:

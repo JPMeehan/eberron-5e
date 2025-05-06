@@ -41,7 +41,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMistyStep0
+            uuid: Compendium.dnd5e.spells24.Item.phbsplMistyStep0
         optional: false
         spell:
           ability:

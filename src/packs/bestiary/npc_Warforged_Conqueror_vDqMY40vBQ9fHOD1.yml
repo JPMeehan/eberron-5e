@@ -1615,7 +1615,7 @@ items:
         sort: 0
         _stats:
           compendiumSource: >-
-            Compendium.dnd-players-handbook.spells.Item.phbsplDominatePe.ActiveEffect.Edq07kTLIVkuDjtn
+            Compendium.dnd5e.spells24.Item.phbsplDominatePe.ActiveEffect.Edq07kTLIVkuDjtn
           duplicateSource: null
           coreVersion: '13.341'
           systemId: dnd5e

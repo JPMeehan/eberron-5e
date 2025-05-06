@@ -25,7 +25,7 @@ system:
       can’t cast them in this way again until you finish a Long Rest. To cast
       any of these spells at a higher level or a second time prior to finishing
       a Long Rest, you must expend a spell
-      slot.</p><ul><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShield0000]{Shield}</p></li><li><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWardingBon]{Warding
+      slot.</p><ul><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplShield0000]{Shield}</p></li><li><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplWardingBon]{Warding
       Bond}</p></li></ul>
     chat: ''
   source:

@@ -21,10 +21,10 @@ system:
       Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
       5</td></tr></thead><tbody><tr><td>You have Resistance to
       &amp;Reference[Necrotic] damage. You also know the
-      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplChillTouch]{Chill
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill
       Touch}
-      cantrip.</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou]{Inflict
-      Wounds}</td><td>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD]{Blindness/Deafness}</td></tr></tbody></table><section
+      cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplInflictWou]{Inflict
+      Wounds}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBlindnessD]{Blindness/Deafness}</td></tr></tbody></table><section
       class="secret" id="secret-AZFLMUN7pgAxMG7Q"><p><strong>Foundry
       Note</strong></p><p>The Resistance and spells are granted to you
       automatically and you will be prompted to choose the spellcasting ability

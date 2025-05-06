@@ -5,7 +5,7 @@ system:
     value: >-
       <p>At 14th level, you've learned the secrets to how minds work and, more
       importantly, how to manipulate them. As an action, you can cast the
-      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion]{suggestion}
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{suggestion}
       spell with no components other than speaking aloud the suggested course of
       activity. When you cast the spell in this manner, it does not require
       concentration.</p><p>You can use this feature a number of times equal to
@@ -32,7 +32,7 @@ system:
     FoO6liY11j1uEVGz:
       type: cast
       spell:
-        uuid: Compendium.dnd-players-handbook.spells.Item.phbsplSuggestion
+        uuid: Compendium.dnd5e.spells24.Item.phbsplSuggestion
         challenge:
           attack: null
           save: null

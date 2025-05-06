@@ -81,7 +81,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplViciousMoc
+            uuid: Compendium.dnd5e.spells24.Item.phbsplViciousMoc
         optional: false
         spell:
           ability:
@@ -104,7 +104,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplDissonantW
+            uuid: Compendium.dnd5e.spells24.Item.phbsplDissonantW
         optional: false
         spell:
           ability:
@@ -127,7 +127,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlur000000
+            uuid: Compendium.dnd5e.spells24.Item.phbsplBlur000000
         optional: false
         spell:
           ability:
@@ -148,7 +148,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg
+            uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
         optional: false
         spell:
           ability:

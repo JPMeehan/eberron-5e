@@ -56,7 +56,7 @@ system:
           - optional: false
             uuid: Compendium.dnd5e.races.Item.cnTbpPPeGW7vGjOV
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind
+            uuid: Compendium.dnd5e.spells24.Item.phbsplGustofWind
         optional: false
         spell:
           ability:

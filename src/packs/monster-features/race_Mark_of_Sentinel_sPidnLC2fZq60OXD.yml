@@ -40,7 +40,7 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplWardingBon
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplWardingBon
             optional: false
           - uuid: Compendium.eberron-5e.monster-features.Item.E8TUJLu5ANqt1efm
             optional: false

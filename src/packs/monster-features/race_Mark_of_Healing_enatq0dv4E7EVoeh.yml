@@ -35,9 +35,9 @@ system:
           - optional: false
             uuid: Compendium.dnd5e.races.Item.LOMdcNAGWh5xpfm4
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplCureWounds
+            uuid: Compendium.dnd5e.spells24.Item.phbsplCureWounds
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplLesserRest
+            uuid: Compendium.dnd5e.spells24.Item.phbsplLesserRest
         optional: false
         spell:
           ability:

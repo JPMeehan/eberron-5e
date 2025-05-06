@@ -80,7 +80,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplProduceFla
+            uuid: Compendium.dnd5e.spells24.Item.phbsplProduceFla
         optional: false
         spell:
           ability:
@@ -103,7 +103,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBurningHan
+            uuid: Compendium.dnd5e.spells24.Item.phbsplBurningHan
         optional: false
         spell:
           ability:
@@ -126,7 +126,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHeatMetal0
+            uuid: Compendium.dnd5e.spells24.Item.phbsplHeatMetal0
         optional: false
         spell:
           ability:
@@ -149,7 +149,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplThaumaturg
+            uuid: Compendium.dnd5e.spells24.Item.phbsplThaumaturg
         optional: false
         spell:
           ability:

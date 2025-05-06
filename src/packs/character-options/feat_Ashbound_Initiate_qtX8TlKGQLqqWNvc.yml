@@ -18,9 +18,9 @@ system:
       Spellcasting or the Pact Magic class feature, the spells on the Ashbound
       Spells table are added to the spell list of your spellcasting
       class.</p><table><thead><tr><th><p>Spell
-      Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGuidingBol]{Guiding
-      Bolt}</p></td></tr><tr><td><p>2nd</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplShiningSmi]{Shining
-      Smite}</p></td></tr><tr><td><p>3rd</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplNondetecti]{Nondetection}</p></td></tr><tr><td><p>4th</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAuraofPuri]{Aura
+      Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>1st</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplGuidingBol]{Guiding
+      Bolt}</p></td></tr><tr><td><p>2nd</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplShiningSmi]{Shining
+      Smite}</p></td></tr><tr><td><p>3rd</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplNondetecti]{Nondetection}</p></td></tr><tr><td><p>4th</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAuraofPuri]{Aura
       of
       Purity}</p></td></tr><tr><td><p>5th</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplCircleofPo]{Circle
       of Power}</p></td></tr></tbody></table>

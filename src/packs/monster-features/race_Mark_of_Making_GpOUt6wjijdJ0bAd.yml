@@ -45,9 +45,9 @@ system:
       type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMending000
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplMending000
             optional: false
-          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplIdentify00
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplIdentify00
             optional: false
         optional: false
         spell:

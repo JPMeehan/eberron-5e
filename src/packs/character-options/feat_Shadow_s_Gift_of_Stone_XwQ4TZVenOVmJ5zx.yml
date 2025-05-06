@@ -18,10 +18,10 @@ system:
       spellcasting ability for these spells is the same as the spellcasting
       ability you chose for your Petrifying Gaze
       trait.</p><table><thead><tr><th><p>Spell
-      Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>4</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplEnsnaringS]{Ensnaring
-      Strike}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldPerson]{Hold
-      Person}</p></td></tr><tr><td><p>9</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHypnoticPa]{Hypnotic
-      Pattern}</p></td></tr><tr><td><p>13</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplStoneskin0]{Stoneskin}</p></td></tr><tr><td><p>17</p></td><td><p>@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHoldMonste]{Hold
+      Level</p></th><th><p>Spells</p></th></tr></thead><tbody><tr><td><p>4</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplEnsnaringS]{Ensnaring
+      Strike}</p></td></tr><tr><td><p>5</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldPerson]{Hold
+      Person}</p></td></tr><tr><td><p>9</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHypnoticPa]{Hypnotic
+      Pattern}</p></td></tr><tr><td><p>13</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplStoneskin0]{Stoneskin}</p></td></tr><tr><td><p>17</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplHoldMonste]{Hold
       Monster}</p></td></tr></tbody></table>
     chat: ''
   source:
@@ -172,7 +172,7 @@ effects:
     sort: 0
     _stats:
       compendiumSource: >-
-        Compendium.dnd-players-handbook.spells.Item.phbsplEnsnaringS.ActiveEffect.tFGMG3cjQTEeAhv2
+        Compendium.dnd5e.spells24.Item.phbsplEnsnaringS.ActiveEffect.tFGMG3cjQTEeAhv2
       duplicateSource: null
       coreVersion: '13.341'
       systemId: dnd5e

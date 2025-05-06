@@ -85,9 +85,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBane000000
+            uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou
+            uuid: Compendium.dnd5e.spells24.Item.phbsplInflictWou
         optional: false
         spell:
           ability:
@@ -104,9 +104,9 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlindnessD
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplBlindnessD
             optional: false
-          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplGentleRepo
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplGentleRepo
             optional: false
         optional: false
         spell:
@@ -126,9 +126,9 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBane000000
+            uuid: Compendium.dnd5e.spells24.Item.phbsplBane000000
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplInflictWou
+            uuid: Compendium.dnd5e.spells24.Item.phbsplInflictWou
         optional: false
         spell:
           ability:
@@ -146,7 +146,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplBlight0000
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplBlight0000
             optional: false
         optional: false
         spell:
@@ -165,7 +165,7 @@ system:
     - type: ItemGrant
       configuration:
         items:
-          - uuid: Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000
+          - uuid: Compendium.dnd5e.spells24.Item.phbsplHallow0000
             optional: false
         optional: false
         spell:

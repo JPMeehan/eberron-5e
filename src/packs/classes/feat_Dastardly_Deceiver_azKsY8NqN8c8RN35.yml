@@ -4,7 +4,7 @@ system:
   description:
     value: >-
       <p>At 6th level, you add the spell
-      @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAlterSelf0]{alter
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplAlterSelf0]{alter
       self} to your spells known, but it does not count against your normal
       number of bard spells known. If you already know this spell, you can
       instead add another spell from the bard spell list to your spells known,

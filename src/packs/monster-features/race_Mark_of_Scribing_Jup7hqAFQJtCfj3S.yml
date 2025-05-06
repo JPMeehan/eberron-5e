@@ -31,9 +31,9 @@ system:
           - optional: false
             uuid: Compendium.dnd5e.races.Item.EHhr9umJ5kxJFCQH
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplComprehend
+            uuid: Compendium.dnd5e.spells24.Item.phbsplComprehend
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplIllusorySc
+            uuid: Compendium.dnd5e.spells24.Item.phbsplIllusorySc
         optional: false
         spell:
           ability:
@@ -52,7 +52,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplMessage000
+            uuid: Compendium.dnd5e.spells24.Item.phbsplMessage000
         optional: false
         spell:
           ability:

@@ -48,9 +48,9 @@ system:
           - optional: false
             uuid: Compendium.dnd5e.races.Item.LOMdcNAGWh5xpfm4
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplPurifyFood
+            uuid: Compendium.dnd5e.spells24.Item.phbsplPurifyFood
           - optional: false
-            uuid: Compendium.dnd-players-handbook.spells.Item.phbsplUnseenServ
+            uuid: Compendium.dnd5e.spells24.Item.phbsplUnseenServ
         optional: false
         spell:
           ability:

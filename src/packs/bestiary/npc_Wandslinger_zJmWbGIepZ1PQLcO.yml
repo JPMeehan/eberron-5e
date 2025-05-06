@@ -1539,7 +1539,7 @@ items:
     effects:
       - name: Shocked
         img: icons/magic/lightning/bolt-strike-wide-white.webp
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplShockingGr
+        origin: Compendium.dnd5e.spells24.Item.phbsplShockingGr
         transfer: false
         _id: DQCAm67ck1GEKHtE
         type: base

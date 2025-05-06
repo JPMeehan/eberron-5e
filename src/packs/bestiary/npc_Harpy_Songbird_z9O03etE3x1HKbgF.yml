@@ -1614,7 +1614,7 @@ items:
     img: icons/sundries/documents/document-writing-pink.webp
     effects:
       - name: Comprehension
-        origin: Compendium.dnd-players-handbook.spells.Item.phbsplComprehend
+        origin: Compendium.dnd5e.spells24.Item.phbsplComprehend
         duration:
           rounds: 1
           startTime: null
