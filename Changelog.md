@@ -3,6 +3,7 @@
 ## 1.1.0
 
 - Updated to v13
+- Replaced PHB references with SRD wherever possible
 
 ## 1.0.13
 - Updated sources on NPCs to improve compendium browser display

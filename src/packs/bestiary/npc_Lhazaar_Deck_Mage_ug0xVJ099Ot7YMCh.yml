@@ -1643,7 +1643,7 @@ items:
             - count: ''
               name: ''
               _id: OMyIBH1UGRjnWzIa
-              uuid: Compendium.dnd-players-handbook.actors.Actor.phbInvisibleSens
+              uuid: Compendium.dnd5e.actors24.Actor.phbInvisibleSens
               level:
                 min: null
                 max: null

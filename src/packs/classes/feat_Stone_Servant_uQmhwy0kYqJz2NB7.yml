@@ -96,7 +96,7 @@ system:
         - count: ''
           name: ''
           _id: 58iPFUhlMyu0182H
-          uuid: Compendium.dnd-players-handbook.actors.Actor.phbelsEarthEleme
+          uuid: Compendium.dnd5e.actors24.Actor.phbelsEarthEleme
           level:
             min: null
             max: null

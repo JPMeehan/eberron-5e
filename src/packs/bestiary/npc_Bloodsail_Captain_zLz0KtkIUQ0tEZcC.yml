@@ -1740,7 +1740,7 @@ items:
             - count: ''
               name: ''
               _id: yXLZxwYBIj9AR2iQ
-              uuid: Compendium.dnd-players-handbook.actors.Actor.phbsplMageHand00
+              uuid: Compendium.dnd5e.actors24.Actor.phbsplMageHand00
               level:
                 min: null
                 max: null
@@ -1895,7 +1895,7 @@ items:
             - count: ''
               name: Image
               _id: iejTwtaafo5eqgL6
-              uuid: Compendium.dnd-players-handbook.actors.Actor.phbiluObject0000
+              uuid: Compendium.dnd5e.actors24.Actor.phbiluObject0000
               level:
                 min: null
                 max: null
@@ -1903,7 +1903,7 @@ items:
             - count: ''
               name: Sound
               _id: 1t27XwigNUFlbvb1
-              uuid: Compendium.dnd-players-handbook.actors.Actor.phbiluSensory000
+              uuid: Compendium.dnd5e.actors24.Actor.phbiluSensory000
               level:
                 min: null
                 max: null
@@ -3397,7 +3397,7 @@ items:
             - count: ''
               name: ''
               _id: BO8ylcAe3C1KmDzY
-              uuid: Compendium.dnd-players-handbook.actors.Actor.phbsplUnseenServ
+              uuid: Compendium.dnd5e.actors24.Actor.phbsplUnseenServ
               level:
                 min: null
                 max: null

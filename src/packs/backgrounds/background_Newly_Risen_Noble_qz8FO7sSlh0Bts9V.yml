@@ -117,7 +117,7 @@ system:
       configuration:
         items:
           - optional: false
-            uuid: Compendium.dnd-players-handbook.feats.Item.phbftSkilled0000
+            uuid: Compendium.dnd5e.feats24.Item.phbftSkilled0000
         optional: false
         spell: null
       value: {}

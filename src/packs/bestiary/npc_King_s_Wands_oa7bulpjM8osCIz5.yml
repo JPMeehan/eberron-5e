@@ -1122,7 +1122,7 @@ items:
             - count: ''
               name: ''
               _id: QD99a4WC0JUMMDH7
-              uuid: Compendium.dnd-players-handbook.actors.Actor.phbsplLight00000
+              uuid: Compendium.dnd5e.actors24.Actor.phbsplLight00000
               level:
                 min: null
                 max: null
@@ -1264,7 +1264,7 @@ items:
             - count: ''
               name: ''
               _id: yXLZxwYBIj9AR2iQ
-              uuid: Compendium.dnd-players-handbook.actors.Actor.phbsplMageHand00
+              uuid: Compendium.dnd5e.actors24.Actor.phbsplMageHand00
               level:
                 min: null
                 max: null
