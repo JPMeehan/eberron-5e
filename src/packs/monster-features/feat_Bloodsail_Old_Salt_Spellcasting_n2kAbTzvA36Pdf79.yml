@@ -13,12 +13,10 @@ system:
     value: >-
       <p>The old salt one of the following spells, using Intelligence or Wisdom
       as the spellcasting ability (spell save DC 11): </p><p>At will:
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplSparetheDy]{spare
-      the dying},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSparetheDy]{spare the dying},
       @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTolltheDea]{toll
       the dead} </p><p>2/day:
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplUnseenServ]{unseen
-      servant}</p>
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplUnseenServ]{unseen servant}</p>
     chat: ''
   identifier: bloodsail-old-salt-spellcasting
   source:
@@ -49,4 +47,3 @@ _stats:
   lastModifiedBy: q6n1efCGVB98drEQ
   exportSource: null
 _key: '!items!n2kAbTzvA36Pdf79'
-

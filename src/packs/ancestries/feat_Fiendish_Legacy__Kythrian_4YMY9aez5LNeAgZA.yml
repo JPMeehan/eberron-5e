@@ -23,8 +23,7 @@ system:
       following damage types: Acid, Cold, Fire, Lightning. Whenever you finish a
       Long Rest, your Resistance randomly changes to one of these four damage
       types. You also know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking
-      Grasp}
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking Grasp}
       cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplChromaticO]{Chromatic
       Orb}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplShatter000]{Shatter}</td></tr></tbody></table><section
       class="secret" id="secret-AZFLMUN7pgAxMG7Q"><p><strong>Foundry
@@ -68,4 +67,3 @@ ownership:
 sort: 0
 _id: 4YMY9aez5LNeAgZA
 _key: '!items!4YMY9aez5LNeAgZA'
-

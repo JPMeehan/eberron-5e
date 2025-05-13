@@ -21,8 +21,7 @@ system:
       Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
       5</td></tr></thead><tbody><tr><td>You have Resistance to
       &amp;Reference[Necrotic] damage. You also know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill
-      Touch}
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplChillTouch]{Chill Touch}
       cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplInflictWou]{Inflict
       Wounds}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBlindnessD]{Blindness/Deafness}</td></tr></tbody></table><section
       class="secret" id="secret-AZFLMUN7pgAxMG7Q"><p><strong>Foundry
@@ -65,4 +64,3 @@ ownership:
 sort: 0
 _id: PiItQjykWWjnfPnd
 _key: '!items!PiItQjykWWjnfPnd'
-

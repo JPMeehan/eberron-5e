@@ -5,8 +5,8 @@ system:
     value: >-
       <p>At 14th level, you've learned the secrets to how minds work and, more
       importantly, how to manipulate them. As an action, you can cast the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{suggestion}
-      spell with no components other than speaking aloud the suggested course of
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSuggestion]{suggestion} spell
+      with no components other than speaking aloud the suggested course of
       activity. When you cast the spell in this manner, it does not require
       concentration.</p><p>You can use this feature a number of times equal to
       your Charisma modifier (a minimum of once). You regain all expended uses
@@ -111,4 +111,3 @@ ownership:
   default: 0
   q6n1efCGVB98drEQ: 3
 _key: '!items!jE4ENU70gTA46j6U'
-

@@ -21,20 +21,14 @@ system:
       @UUID[Compendium.dnd5e.spells24.Item.phbsplThaumaturg]{thaumaturgy},
       @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplTolltheDea]{toll
       the dead} </p><p>2/day each:
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplBestowCurs]{bestow
-      curse},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithD]{speak
-      with dead},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi]{enhance
-      ability},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{ray of
-      sickness},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplBestowCurs]{bestow curse},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithD]{speak with dead},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi]{enhance ability},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofSickn]{ray of sickness},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplBlindnessD]{blindness/deafness}</p><p>1/day
-      each:
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplDeathWard0]{death
-      ward},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplEvardsBlac]{Evard’s
-      black tentacles}</p>
+      each: @UUID[Compendium.dnd5e.spells24.Item.phbsplDeathWard0]{death ward},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplEvardsBlac]{Evard’s black
+      tentacles}</p>
     chat: ''
   identifier: bloodsail-deck-mage-spellcasting
   source:
@@ -65,4 +59,3 @@ _stats:
   lastModifiedBy: q6n1efCGVB98drEQ
   exportSource: null
 _key: '!items!gjULIy6TBtTzeLDJ'
-

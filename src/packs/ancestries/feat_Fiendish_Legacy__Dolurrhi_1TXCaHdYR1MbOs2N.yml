@@ -21,8 +21,7 @@ system:
       Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
       5</td></tr></thead><tbody><tr><td>You have Resistance to
       &amp;Reference[Psychic] damage. You also know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplViciousMoc]{Vicious
-      Mockery}
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplViciousMoc]{Vicious Mockery}
       cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDissonantW]{Dissonant
       Whispers}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBlur000000]{Blur}</td></tr></tbody></table><section
       class="secret" id="secret-AZFLMUN7pgAxMG7Q"><p><strong>Foundry
@@ -65,4 +64,3 @@ ownership:
 _id: 1TXCaHdYR1MbOs2N
 sort: 0
 _key: '!items!1TXCaHdYR1MbOs2N'
-

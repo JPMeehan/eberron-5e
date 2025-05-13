@@ -14,10 +14,10 @@ system:
       <p><em>(can only be used by a creature with the Mark of
       Death)</em></p><p>This amulet enhances your ability to draw traces of
       memory from the dead. If you cast
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithD]{speak
-      with dead} while wearing the amulet, you can ask up to eight questions. In
-      addition, while you cannot compel the corpse to tell you the truth, you
-      can sense if it tells you a deliberate falsehood.</p>
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplSpeakwithD]{speak with dead}
+      while wearing the amulet, you can ask up to eight questions. In addition,
+      while you cannot compel the corpse to tell you the truth, you can sense if
+      it tells you a deliberate falsehood.</p>
     chat: ''
   identifier: amulet-of-garrulous-ghosts
   source:
@@ -73,4 +73,3 @@ _stats:
   lastModifiedBy: q6n1efCGVB98drEQ
   exportSource: null
 _key: '!items!tpOIqY9KZ2pxeXmm'
-

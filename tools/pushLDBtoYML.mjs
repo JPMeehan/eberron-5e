@@ -24,6 +24,7 @@ for (const pack of packs) {
     {
       yaml,
       transformName,
+      folders: true
     }
   );
 }

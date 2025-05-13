@@ -669,8 +669,8 @@ items:
         value: >-
           <p>As long as it has at least 1 Hit Point remaining, the steel horse
           regains 1 Hit Point whenever a
-          @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending}
-          spell is cast on it.</p>
+          @UUID[Compendium.dnd5e.spells24.Item.phbsplMending000]{Mending} spell
+          is cast on it.</p>
         chat: ''
       identifier: repairable
       source:
@@ -726,4 +726,3 @@ _stats:
 _id: vw2zm8mBh6jUOksf
 sort: 0
 _key: '!actors!vw2zm8mBh6jUOksf'
-

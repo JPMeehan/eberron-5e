@@ -21,8 +21,7 @@ system:
       Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
       5</td></tr></thead><tbody><tr><td>You have Resistance to
       &amp;Reference[Fire] damage. You also know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplProduceFla]{Produce
-      Flame}
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplProduceFla]{Produce Flame}
       cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Burning
       Hands}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplHeatMetal0]{Heat
       Metal}</td></tr></tbody></table><section class="secret"
@@ -66,4 +65,3 @@ ownership:
 sort: 0
 _id: HZbPMZ2hqwVhO3dr
 _key: '!items!HZbPMZ2hqwVhO3dr'
-

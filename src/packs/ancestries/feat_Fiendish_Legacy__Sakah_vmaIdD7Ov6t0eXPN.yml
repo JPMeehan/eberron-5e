@@ -21,8 +21,7 @@ system:
       Traits</caption><thead><tr><td>Level 1</td><td>Level 3</td><td>Level
       5</td></tr></thead><tbody><tr><td>You have Advantage on all Wisdom saving
       throws against magic. You also know the
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage
-      Hand}
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage Hand}
       cantrip.</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDisguiseSe]{Disguise
       Self}</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectThou]{Detect
       Thoughts}</td></tr></tbody></table><section class="secret"
@@ -66,4 +65,3 @@ ownership:
 sort: 0
 _id: vmaIdD7Ov6t0eXPN
 _key: '!items!vmaIdD7Ov6t0eXPN'
-

@@ -16,10 +16,8 @@ system:
       spellcasting ability score used by your Lesser Dragonmark of Death by 1,
       to a maximum of 20.</p><p><strong>Expanded Spells of the Mark.</strong>
       Your dragonmark grants you access to
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplAnimateDea]{animate
-      dead},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{false
-      life}, and
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplAnimateDea]{animate dead},
+      @UUID[Compendium.dnd5e.spells24.Item.phbsplFalseLife0]{false life}, and
       @UUID[Compendium.dnd-players-handbook.spells.Item.phbsplFeignDeath]{feign
       death}. You always have these spells prepared.</p><p><strong>Power of the
       Mark.</strong> You have one spell slot you can use to cast the spells
@@ -83,4 +81,3 @@ _stats:
   lastModifiedBy: q6n1efCGVB98drEQ
   exportSource: null
 _key: '!items!xG1Um0X5lEulfpn9'
-

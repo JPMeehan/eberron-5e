@@ -19,9 +19,8 @@ system:
       @UUID[Compendium.dnd5e.spells24.Item.phbsplSlow000000]{Slow}</p></td></tr><tr><td><p>7</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplStoneShape]{Stone
       Shape},
       @UUID[Compendium.dnd5e.spells24.Item.phbsplStoneskin0]{Stoneskin}</p></td></tr><tr><td><p>9</p></td><td><p>@UUID[Compendium.dnd5e.spells24.Item.phbsplBigbysHand]{Bigby's
-      Hand},
-      @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofSton]{Wall
-      of Stone}</p></td></tr></tbody></table>
+      Hand}, @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofSton]{Wall of
+      Stone}</p></td></tr></tbody></table>
     chat: ''
   source:
     custom: ''
@@ -60,4 +59,3 @@ _stats:
   lastModifiedBy: q6n1efCGVB98drEQ
   exportSource: null
 _key: '!items!TI0EDvY6CcDmyNQw'
-
