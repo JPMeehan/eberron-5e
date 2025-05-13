@@ -23,8 +23,7 @@ for (const pack of packs) {
     `${MODULE_ID}/src/packs/${pack}`,
     {
       yaml,
-      transformName,
-      folders: true
+      transformName
     }
   );
 }
