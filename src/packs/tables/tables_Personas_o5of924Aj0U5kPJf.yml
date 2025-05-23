@@ -14,17 +14,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976157287
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Traveling merchant
-    name: ''
+    description: ''
+    name: Traveling merchant
     _key: '!tables.results!o5of924Aj0U5kPJf.KRVagN4eZhVKhfje'
   - type: text
     weight: 1
@@ -36,17 +36,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976157287
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Charistmatic outlaw
-    name: ''
+    description: ''
+    name: Charistmatic outlaw
     _key: '!tables.results!o5of924Aj0U5kPJf.1XZhh2dpWBnmlDCE'
   - type: text
     weight: 1
@@ -58,17 +58,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976157287
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Itinerant tinker
-    name: ''
+    description: ''
+    name: Itinerant tinker
     _key: '!tables.results!o5of924Aj0U5kPJf.kz9lkfDU3h44Gvjy'
   - type: text
     weight: 1
@@ -80,17 +80,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976157287
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Wandering priest
-    name: ''
+    description: ''
+    name: Wandering priest
     _key: '!tables.results!o5of924Aj0U5kPJf.B9cY5KPpXzqB95yr'
   - type: text
     weight: 1
@@ -102,17 +102,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976157287
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Investigative reporter
-    name: ''
+    description: ''
+    name: Investigative reporter
     _key: '!tables.results!o5of924Aj0U5kPJf.8OFEqCZE33u4VQrG'
   - type: text
     weight: 1
@@ -124,17 +124,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976157287
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Bounty hunter
-    name: ''
+    description: ''
+    name: Bounty hunter
     _key: '!tables.results!o5of924Aj0U5kPJf.3j9OkihyUUfbHozh'
   - type: text
     weight: 1
@@ -146,17 +146,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976157287
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Grim mercenary
-    name: ''
+    description: ''
+    name: Grim mercenary
     _key: '!tables.results!o5of924Aj0U5kPJf.crhTdiFepBbrJSx8'
   - type: text
     weight: 1
@@ -168,17 +168,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976157287
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Beloved storyteller
-    name: ''
+    description: ''
+    name: Beloved storyteller
     _key: '!tables.results!o5of924Aj0U5kPJf.0wwkkFVCWOQWD9fg'
 replacement: true
 displayRoll: true

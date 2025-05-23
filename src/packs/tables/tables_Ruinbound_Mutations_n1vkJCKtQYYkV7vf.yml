@@ -14,19 +14,19 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976003179
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     description: >-
-      Unnatural Hair. Is your hair an unusual color? Ectoplasmic in nature? Does
-      it move of its own accord?
-    name: ''
+      Is your hair an unusual color? Ectoplasmic in nature? Does it move of its
+      own accord?
+    name: Unnatural Hair
     _key: '!tables.results!n1vkJCKtQYYkV7vf.qh3shZJIn3Hm96Ax'
   - type: text
     weight: 1
@@ -38,17 +38,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976003179
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Unusual Skin. Is your skin transparent? Slick? An unnatural color?
-    name: ''
+    description: Is your skin transparent? Slick? An unnatural color?
+    name: Unusual Skin
     _key: '!tables.results!n1vkJCKtQYYkV7vf.SjUNGeMbtdJyDP20'
   - type: text
     weight: 1
@@ -60,19 +60,19 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976003179
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     description: >-
-      Aberrant Eyes. Are your eyes luminous? Invisible? Do they resemble the
-      eyes of an animal, or are they seemingly absent?
-    name: ''
+      Are your eyes luminous? Invisible? Do they resemble the eyes of an animal,
+      or are they seemingly absent?
+    name: Aberrant Eyes
     _key: '!tables.results!n1vkJCKtQYYkV7vf.AxA8N2KAzj8sonLS'
   - type: text
     weight: 1
@@ -84,19 +84,19 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976003179
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     description: >-
-      Strange Appetites. Do you prefer your food charred? Do you eat flowers, or
-      can you only eat living things?
-    name: ''
+      Do you prefer your food charred? Do you eat flowers, or can you only eat
+      living things?
+    name: Strange Appetites
     _key: '!tables.results!n1vkJCKtQYYkV7vf.vgUuPEOUAAtgCsPO'
   - type: text
     weight: 1
@@ -108,20 +108,20 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976003179
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     description: >-
-      Living Tattoos. You appear to have exotic tattoos across your body. They
-      slowly and constantly change, and you have no control over the design. Do
-      they show images or words, or are they incomprehensible?
-    name: ''
+      You appear to have exotic tattoos across your body. They slowly and
+      constantly change, and you have no control over the design. Do they show
+      images or words, or are they incomprehensible?
+    name: Living Tattoos
     _key: '!tables.results!n1vkJCKtQYYkV7vf.99MePMGOw57Y4JRX'
   - type: text
     weight: 1
@@ -133,20 +133,20 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976003179
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     description: >-
-      Ageless. The passage of time affects your appearance differently than
-      others. Do you appear old beyond your years, or look surprisingly young no
-      matter your age? As you grow older, do you look younger?
-    name: ''
+      The passage of time affects your appearance differently than others. Do
+      you appear old beyond your years, or look surprisingly young no matter
+      your age? As you grow older, do you look younger?
+    name: Ageless
     _key: '!tables.results!n1vkJCKtQYYkV7vf.FpzcH4zkPzj4PSTH'
   - type: text
     weight: 1
@@ -158,19 +158,19 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976003179
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     description: >-
-      Inexplicable Hearing. You have no visible ears, yet you can hear clearly.
-      Does sound feel different to you? How do you experience it?
-    name: ''
+      You have no visible ears, yet you can hear clearly. Does sound feel
+      different to you? How do you experience it?
+    name: Inexplicable Hearing
     _key: '!tables.results!n1vkJCKtQYYkV7vf.HG3OYK2dVU4x1EC5'
   - type: text
     weight: 1
@@ -182,19 +182,19 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976003179
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
     description: >-
-      Extra Joints. You have one or more extra joints. Is it just an unusual
-      joint in your fingers, or can you bend your entire leg backward?
-    name: ''
+      You have one or more extra joints. Is it just an unusual joint in your
+      fingers, or can you bend your entire leg backward?
+    name: Extra Joints
     _key: '!tables.results!n1vkJCKtQYYkV7vf.TFeJSCrNfwXkEOM0'
 replacement: true
 displayRoll: true

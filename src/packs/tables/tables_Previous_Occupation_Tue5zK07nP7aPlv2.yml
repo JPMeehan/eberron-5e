@@ -14,17 +14,18 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976038459
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Summit Road guide
-    name: ''
+    description: ''
+    name: Summit Road guide
+    documentUuid: null
     _key: '!tables.results!Tue5zK07nP7aPlv2.hPd4rhMdaCkOwUI6'
   - type: text
     weight: 1
@@ -36,17 +37,18 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976041860
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Monastic scholar
-    name: ''
+    description: ''
+    name: Monastic scholar
+    documentUuid: null
     _key: '!tables.results!Tue5zK07nP7aPlv2.8J398oEWU7471y3P'
   - type: text
     weight: 1
@@ -58,17 +60,18 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976045267
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Village artisan
-    name: ''
+    description: ''
+    name: Village artisan
+    documentUuid: null
     _key: '!tables.results!Tue5zK07nP7aPlv2.MOPT2iSqdXWlzouB'
   - type: text
     weight: 1
@@ -80,17 +83,18 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976048501
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Lightbringer
-    name: ''
+    description: ''
+    name: Lightbringer
+    documentUuid: null
     _key: '!tables.results!Tue5zK07nP7aPlv2.NwIyx7QiuXXO2uNq'
   - type: text
     weight: 1
@@ -102,17 +106,18 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976052184
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Riedran refugee
-    name: ''
+    description: ''
+    name: Riedran refugee
+    documentUuid: null
     _key: '!tables.results!Tue5zK07nP7aPlv2.tbXbUqG6r041pTx7'
   - type: text
     weight: 1
@@ -124,17 +129,18 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976055829
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: A wandering criminal
-    name: ''
+    description: ''
+    name: A wandering criminal
+    documentUuid: null
     _key: '!tables.results!Tue5zK07nP7aPlv2.4P2Mg999VMxQaunF'
 replacement: true
 displayRoll: true

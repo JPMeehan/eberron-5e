@@ -14,17 +14,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976145229
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Household Guard
-    name: ''
+    description: ''
+    name: Household Guard
     _key: '!tables.results!sNrNOo2r1MwsCWX5.Q6VnxOMZsPABt2VH'
   - type: text
     weight: 1
@@ -36,17 +36,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976145229
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Farmer or brewer
-    name: ''
+    description: ''
+    name: Farmer or brewer
     _key: '!tables.results!sNrNOo2r1MwsCWX5.4fe1YQfAviwU9tlr'
   - type: text
     weight: 1
@@ -58,17 +58,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976145229
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Court magewright
-    name: ''
+    description: ''
+    name: Court magewright
     _key: '!tables.results!sNrNOo2r1MwsCWX5.Btg1Sr8SNFcumU3D'
   - type: text
     weight: 1
@@ -80,17 +80,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976145229
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Chamberlain or treasurer
-    name: ''
+    description: ''
+    name: Chamberlain or treasurer
     _key: '!tables.results!sNrNOo2r1MwsCWX5.MRQBIBnMLOgA1Qcc'
   - type: text
     weight: 1
@@ -102,17 +102,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976145229
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Valet or bulter
-    name: ''
+    description: ''
+    name: Valet or bulter
     _key: '!tables.results!sNrNOo2r1MwsCWX5.3vcfCaXeB09y0s3F'
   - type: text
     weight: 1
@@ -124,17 +124,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976145229
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Chaplain or priest
-    name: ''
+    description: ''
+    name: Chaplain or priest
     _key: '!tables.results!sNrNOo2r1MwsCWX5.FGXGylHvdzWxttos'
   - type: text
     weight: 1
@@ -146,17 +146,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976145229
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Groom or horsemaster
-    name: ''
+    description: ''
+    name: Groom or horsemaster
     _key: '!tables.results!sNrNOo2r1MwsCWX5.DfeTQoipQljf6170'
   - type: text
     weight: 1
@@ -168,17 +168,17 @@ results:
     img: icons/svg/d20-black.svg
     flags: {}
     _stats:
-      coreVersion: '13.341'
+      coreVersion: '13.344'
       systemId: null
       systemVersion: null
       createdTime: null
-      modifiedTime: null
-      lastModifiedBy: null
+      modifiedTime: 1747976145229
+      lastModifiedBy: q6n1efCGVB98drEQ
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-    description: Smith or armorer
-    name: ''
+    description: ''
+    name: Smith or armorer
     _key: '!tables.results!sNrNOo2r1MwsCWX5.IOiZy1gDzpKUI2Zg'
 replacement: true
 displayRoll: true
