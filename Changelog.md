@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1
+
+- Updated Tables & Journals to v13 standards
+- Added Eberron Calendar as a recommended module
+
 ## 1.1.0
 
 - Updated to v13
