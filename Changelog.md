@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.2
+
+- Fixed CLI process creating empty compendiums
+- Added some class options from Duran's Guide to the Blood of Vol (DGtG)
+
 ## 1.1.1
 
 - Updated Tables & Journals to v13 standards
