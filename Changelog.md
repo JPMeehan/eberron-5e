@@ -3,7 +3,7 @@
 ## 1.1.2
 
 - Fixed CLI process creating empty compendiums
-- Added some class options from Duran's Guide to the Blood of Vol (DGtG)
+- Initial sweep of character options from Duran's Guide to the Blood of Vol (DGBoV)
 
 ## 1.1.1
 
