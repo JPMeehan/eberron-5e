@@ -1,0 +1,51 @@
+folder: TM8G8G7R8fSJT32T
+name: Thief of Life
+type: subclass
+_id: asI0CyftulQNKBUG
+img: systems/dnd5e/icons/svg/items/subclass.svg
+system:
+  description:
+    value: >-
+      <p>The Thieves of Life believe that Divinity Within is something that can
+      be taken from others - and they willingly employ all manner of methods to
+      steal divine sparks. The Thief of Life rogue has an innate sense for life
+      and how to make it theirs, tracking and stealing vitality from their
+      targets with ruthless hunger.</p><p>The largest Thief of Life community is
+      in the Shadow Marches, under the command of Janilya the Fearless. However,
+      there are Thieves of Life scattered across Khorvaire, including the large
+      community in Fairhaven led by Torven d’Medani, the half-elf who stole a
+      vampire’s undeath for his own. A Thief of Life could be anywhere they find
+      the divinity they seek.</p>
+    chat: ''
+  identifier: thief-of-life
+  source:
+    revision: 1
+    rules: '2024'
+    book: DGBoV
+    page: ''
+    custom: ''
+    license: ''
+  advancement: []
+  classIdentifier: rogue
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 5.0.3
+  createdTime: 1748801353674
+  modifiedTime: 1748801379995
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!asI0CyftulQNKBUG'

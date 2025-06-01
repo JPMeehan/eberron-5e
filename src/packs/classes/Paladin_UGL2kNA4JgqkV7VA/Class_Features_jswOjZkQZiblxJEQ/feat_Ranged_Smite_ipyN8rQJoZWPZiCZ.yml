@@ -2,7 +2,7 @@ folder: jswOjZkQZiblxJEQ
 name: Ranged Smite
 type: feat
 _id: ipyN8rQJoZWPZiCZ
-img: icons/svg/item-bag.svg
+img: icons/skills/ranged/tracers-triple-orange.webp
 system:
   description:
     value: >-
@@ -44,11 +44,11 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '13.344'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384656854
-  modifiedTime: 1726384656854
+  modifiedTime: 1748801071765
   lastModifiedBy: q6n1efCGVB98drEQ
   exportSource: null
 _key: '!items!ipyN8rQJoZWPZiCZ'

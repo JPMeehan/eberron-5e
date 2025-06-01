@@ -1,0 +1,161 @@
+folder: K7D9TeJ6y6Z4mTe0
+name: Duran's Guide to the Blood of Vol
+_id: IC8y7wT1xo9dgU5f
+pages:
+  - sort: 100000
+    name: Martyrdom Domain
+    type: subclass
+    _id: zbO73vyLPU2X0bJm
+    system:
+      item: ''
+      description:
+        value: ''
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 5.0.3
+      createdTime: 1748400793310
+      modifiedTime: 1748400797662
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!IC8y7wT1xo9dgU5f.zbO73vyLPU2X0bJm'
+  - sort: 200000
+    name: Circle of Necrobotany
+    type: subclass
+    _id: whivXmm0ETvfFxBt
+    system:
+      item: ''
+      description:
+        value: ''
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 5.0.3
+      createdTime: 1748400808188
+      modifiedTime: 1748400812362
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!IC8y7wT1xo9dgU5f.whivXmm0ETvfFxBt'
+  - sort: 300000
+    name: Oath of the Seeker
+    type: subclass
+    _id: 4uc29HWGzRAZ3bwU
+    system:
+      item: ''
+      description:
+        value: ''
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 5.0.3
+      createdTime: 1748400822635
+      modifiedTime: 1748400884879
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!IC8y7wT1xo9dgU5f.4uc29HWGzRAZ3bwU'
+  - sort: 400000
+    name: Thief of Life
+    type: subclass
+    _id: kJxqaWkV9788p3dB
+    system:
+      item: ''
+      description:
+        value: ''
+      style: ''
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    category: null
+    ownership:
+      default: -1
+      q6n1efCGVB98drEQ: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.344'
+      systemId: dnd5e
+      systemVersion: 5.0.3
+      createdTime: 1748400893221
+      modifiedTime: 1748400894912
+      lastModifiedBy: q6n1efCGVB98drEQ
+    _key: '!journal.pages!IC8y7wT1xo9dgU5f.kJxqaWkV9788p3dB'
+categories: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 5.0.3
+  createdTime: 1748400777847
+  modifiedTime: 1748400777847
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!journal!IC8y7wT1xo9dgU5f'

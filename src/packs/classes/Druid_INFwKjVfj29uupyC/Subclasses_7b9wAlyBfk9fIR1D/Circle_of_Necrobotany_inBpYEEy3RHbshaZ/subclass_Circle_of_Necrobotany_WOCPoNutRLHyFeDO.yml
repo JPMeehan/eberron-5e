@@ -1,0 +1,48 @@
+folder: inBpYEEy3RHbshaZ
+name: Circle of Necrobotany
+type: subclass
+_id: WOCPoNutRLHyFeDO
+img: systems/dnd5e/icons/svg/items/subclass.svg
+system:
+  description:
+    value: >-
+      <p>Druids of the Circle of Necrobotany follow in the footsteps of Lord
+      Varonaen of Farlnen, engineering plant life that can grow and thrive under
+      the influence of Mabar. They cultivate a bloody garden in a small Mabar
+      manifest zone, which grows along with them.</p><p>Bloodsail elves are the
+      most likely to be necrobotanists, but they aren’t the only group. The
+      Children of Winter have begun to experiment with similar techniques in The
+      Gloaming, a large Mabar manifest zone in the Eldeen Reaches.</p>
+    chat: ''
+  identifier: circle-of-necrobotany
+  source:
+    revision: 1
+    rules: '2024'
+    book: DGBoV
+    page: ''
+    custom: ''
+    license: ''
+  advancement: []
+  classIdentifier: druid
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 5.0.3
+  createdTime: 1748800935979
+  modifiedTime: 1748800965405
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!WOCPoNutRLHyFeDO'

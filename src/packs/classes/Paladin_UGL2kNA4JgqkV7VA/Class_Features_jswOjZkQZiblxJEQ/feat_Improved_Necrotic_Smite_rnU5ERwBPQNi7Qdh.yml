@@ -1,0 +1,54 @@
+folder: jswOjZkQZiblxJEQ
+name: Improved Necrotic Smite
+type: feat
+_id: rnU5ERwBPQNi7Qdh
+img: icons/skills/melee/spear-tips-double-purple.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You have cultivated your divine spark such that your melee weapon
+      strikes carry divine power. Whenever you hit a creature with a melee
+      weapon, the creature takes an extra 1d8 Radiant or Necrotic damage (your
+      choice).</p>
+    chat: ''
+  identifier: improved-necrotic-smite
+  source:
+    revision: 1
+    rules: '2024'
+    book: DGBoV
+    page: ''
+    custom: ''
+    license: ''
+  advancement: []
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: null
+  properties: []
+  requirements: Replaces Improved Divine Smite
+  type:
+    value: ''
+    subtype: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 5.0.3
+  createdTime: 1748401512590
+  modifiedTime: 1748801152828
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!rnU5ERwBPQNi7Qdh'

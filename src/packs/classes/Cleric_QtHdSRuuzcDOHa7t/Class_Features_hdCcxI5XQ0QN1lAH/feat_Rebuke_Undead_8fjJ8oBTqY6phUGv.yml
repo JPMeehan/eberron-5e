@@ -1,0 +1,64 @@
+folder: hdCcxI5XQ0QN1lAH
+name: Rebuke Undead
+type: feat
+_id: 8fjJ8oBTqY6phUGv
+img: icons/magic/death/hand-undead-skeleton-fire-pink.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>As an action, you present your holy symbol and speak a prayer
+      admonishing Undead for acting against you. Each Undead creature that can
+      see or hear you within 30 feet of you must make a Wisdom saving throw
+      against your spell save DC. On a failed save, the creature is rebuked for
+      1 minute or until it takes damage. A rebuked creature drops Prone and
+      cannot take actions or reactions, instead cowering and groveling in
+      place.</p><p> When you would gain the Destroy Undead feature, this Channel
+      Divinity option instead controls Undead of the same CR as those destroyed
+      by Channel Divinity: Turn Undead. Instead of being destroyed, Undead of
+      the appropriate CR are placed under your control for 24 hours, and obey
+      your verbal commands. You can control a number of Undead in this way up to
+      your Wisdom modifier (minimum 1), remaining targets are rebuked as normal.
+      </p><p>Undead under your control automatically fail the saving throw
+      against your Rebuke Undead.</p>
+    chat: ''
+  identifier: rebuke-undead
+  source:
+    revision: 1
+    rules: '2024'
+    book: DGBoV
+    page: ''
+    custom: ''
+    license: ''
+  advancement: []
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: 2
+  properties: []
+  requirements: Replaces Turn Undead
+  type:
+    value: class
+    subtype: channelDivinity
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 5.0.3
+  createdTime: 1748400930078
+  modifiedTime: 1748800850663
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!8fjJ8oBTqY6phUGv'

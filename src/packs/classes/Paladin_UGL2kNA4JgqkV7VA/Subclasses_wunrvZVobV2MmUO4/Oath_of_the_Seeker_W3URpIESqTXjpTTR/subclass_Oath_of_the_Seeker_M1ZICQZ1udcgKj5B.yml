@@ -1,0 +1,67 @@
+folder: W3URpIESqTXjpTTR
+name: Oath of the Seeker
+type: subclass
+_id: M1ZICQZ1udcgKj5B
+img: systems/dnd5e/icons/svg/items/subclass.svg
+system:
+  description:
+    value: >-
+      <p>The Blood of Vol teaches its adherents that we must stand together, for
+      the world is cruel and there are no gods to help us. Those who take this
+      incredibly seriously sometimes swear an oath to protect their community,
+      working to achieve their own divinity while helping others achieve
+      theirs.</p><p>Those who take the Oath of the Seeker prioritize others over
+      themselves, channeling the power of Mabar into something positive. Many of
+      these individuals became bone knights when Kaius I made the Blood of Vol
+      the official state religion, only to be abandoned by the country they
+      served. For some, this drove them to groups like the Emerald Claw, but for
+      others it only strengthened their faith. No one else will save us, we must
+      look out for each other.</p><h3>Tenets of the Seeker</h3><p>The tenets of
+      the Oath of the Seeker drive a paladin to prioritize the safety of others
+      and to fight for their community and loved
+      ones.</p><p><strong>Community.</strong> If the gods exist, they are cruel
+      and unfeeling. They can’t save us, so we can only save each other. Don’t
+      ignore the suffering of others, for there is no one else who will
+      help.</p><p><strong>Divinity.</strong> Strive to cultivate your divine
+      spark. Reflect on your actions and their consequences, consider what kind
+      of fledgling god you will become. Do not make excuses for your mistakes,
+      learn from them. This is the work of a
+      lifetime.</p><p><strong>Life.</strong> There is no afterlife. Death is the
+      end, and every death is a tragedy. Kill only as a last resort, and fight
+      to preserve those who can be saved.</p><p><strong>Martyrdom.</strong>
+      Death is the end, and a corpse is just a corpse. Should you fail to reach
+      the Divinity Within, let your body continue to serve your community in any
+      way it can.</p>
+    chat: ''
+  identifier: oath-of-the-seeker
+  source:
+    revision: 1
+    rules: '2024'
+    book: DGBoV
+    page: ''
+    custom: ''
+    license: ''
+  advancement: []
+  classIdentifier: paladin
+  spellcasting:
+    progression: none
+    preparation:
+      formula: ''
+    ability: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 5.0.3
+  createdTime: 1748801008172
+  modifiedTime: 1748801315574
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!M1ZICQZ1udcgKj5B'

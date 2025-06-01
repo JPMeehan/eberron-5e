@@ -1,0 +1,83 @@
+folder: fscDX3gK3MTjTDHT
+name: Soul Eater
+type: feat
+_id: CBMYH2ZPomPgcDal
+img: icons/magic/unholy/silhouette-robe-evil-glow.webp
+system:
+  activities: {}
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>You've been exposed to the teachings of the Thieves of Life, allowing
+      you to manipulate and play with the lives of others. You gain the
+      following benefits:</p><p><strong>Ability Score Increase.</strong>
+      Increase your Intelligence, Wisdom, or Charisma by 1, to a maximum of
+      20.</p><p><strong>Siphon Divinity.</strong> You learn the spiritual
+      avulsion cantrip. In addition, choose one 1st-level spell from the
+      Necromancy school of magic. You always have that spell and the death
+      knell* spell prepared. You can cast each of these spells without expending
+      a spell slot. Once you cast either spell in this way, you can't cast that
+      spell in this way again until you finish a Long Rest. You can also cast
+      these spells using spell slots you have of the appropriate level. The
+      spells' spellcasting ability is the ability increased by this feat.</p>
+    chat: ''
+  identifier: soul-eater
+  source:
+    revision: 1
+    rules: '2024'
+    book: DGBoV
+    page: ''
+    custom: ''
+    license: ''
+  advancement:
+    - type: AbilityScoreImprovement
+      _id: HClvBSfvE1KCFkKg
+      configuration:
+        cap: 2
+        fixed:
+          str: 0
+          dex: 0
+          con: 0
+          int: 0
+          wis: 0
+          cha: 0
+        locked:
+          - str
+          - dex
+          - con
+        points: 1
+      value:
+        type: asi
+      level: 0
+      title: ''
+      hint: ''
+  crewed: false
+  enchant: {}
+  prerequisites:
+    repeatable: false
+    level: null
+  properties: []
+  requirements: ''
+  type:
+    value: feat
+    subtype: general
+effects: []
+sort: 0
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.344'
+  systemId: dnd5e
+  systemVersion: 5.0.3
+  createdTime: 1748801455680
+  modifiedTime: 1748801685772
+  lastModifiedBy: q6n1efCGVB98drEQ
+_key: '!items!CBMYH2ZPomPgcDal'

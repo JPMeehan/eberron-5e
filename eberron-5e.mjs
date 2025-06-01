@@ -42,6 +42,7 @@ const EBERRONCONFIG = {
       "LGtS": "Linvakri's Guide to Syrkarn",
       "GGtX": "The Giant Guide to Xen'drik",
       "Textiles of Eberron": "Textiles of Eberron",
+      DGBoV: "Duran's Guide to the Blood of Vol"
     },
   },
   EBERRON: {},
