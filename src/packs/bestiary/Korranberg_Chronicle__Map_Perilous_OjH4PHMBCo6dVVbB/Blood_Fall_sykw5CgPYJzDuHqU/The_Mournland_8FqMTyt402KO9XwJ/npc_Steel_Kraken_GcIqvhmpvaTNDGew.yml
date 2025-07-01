@@ -1,0 +1,1240 @@
+system:
+  abilities:
+    str:
+      value: 25
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    dex:
+      value: 11
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    con:
+      value: 20
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    int:
+      value: 3
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    wis:
+      value: 15
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+    cha:
+      value: 1
+      proficient: 0
+      max: null
+      bonuses:
+        check: ''
+        save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+  details:
+    cr: 8
+    alignment: Typically Lawful Neutral
+    type:
+      subtype: Warforged
+      value: construct
+    biography:
+      value: ''
+      public: ''
+    ideal: ''
+    bond: ''
+    flaw: ''
+    race: null
+    habitat:
+      value: []
+      custom: ''
+    treasure:
+      value: []
+  attributes:
+    ac:
+      calc: natural
+      flat: 18
+    hp:
+      value: 161
+      max: 161
+      formula: 14d12 + 70
+      temp: null
+      tempmax: null
+    senses:
+      darkvision: 60
+      special: ''
+      blindsight: null
+      tremorsense: null
+      truesight: null
+      units: null
+    movement:
+      burrow: 0
+      climb: 0
+      fly: 0
+      swim: 40
+      hover: false
+      walk: 20
+      units: null
+    init:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonus: ''
+    attunement:
+      max: 3
+    spellcasting: ''
+    exhaustion: 0
+    concentration:
+      ability: ''
+      roll:
+        min: null
+        max: null
+        mode: 0
+      bonuses:
+        save: ''
+      limit: 1
+    loyalty: {}
+    hd:
+      spent: 0
+    death:
+      roll:
+        min: null
+        max: null
+        mode: 0
+      success: 0
+      failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+  traits:
+    ci:
+      value:
+        - charmed
+        - exhaustion
+        - frightened
+        - paralyzed
+        - petrified
+        - poisoned
+      custom: ''
+    di:
+      value:
+        - poison
+        - psychic
+      bypasses: []
+      custom: ''
+    languages:
+      value: []
+      custom: Understands the languages of its creator;but can’t speak
+      communication:
+        telepathy:
+          units: ft
+    size: huge
+    dr:
+      value: []
+      custom: ''
+      bypasses: []
+    dv:
+      value: []
+      custom: ''
+      bypasses: []
+    dm:
+      amount: {}
+      bypasses: []
+    important: false
+  currency:
+    pp: 0
+    gp: 0
+    ep: 0
+    sp: 0
+    cp: 0
+  bonuses:
+    mwak:
+      attack: ''
+      damage: ''
+    rwak:
+      attack: ''
+      damage: ''
+    msak:
+      attack: ''
+      damage: ''
+    rsak:
+      attack: ''
+      damage: ''
+    abilities:
+      check: ''
+      save: ''
+      skill: ''
+    spell:
+      dc: ''
+  skills:
+    acr:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ani:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    arc:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ath:
+      ability: str
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    dec:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    his:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ins:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    itm:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    inv:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    med:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    nat:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prc:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    prf:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    per:
+      ability: cha
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    rel:
+      ability: int
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    slt:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    ste:
+      ability: dex
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+    sur:
+      ability: wis
+      roll:
+        min: null
+        max: null
+        mode: 0
+      value: 0
+      bonuses:
+        check: ''
+        passive: ''
+  tools: {}
+  spells:
+    spell1:
+      value: 0
+    spell2:
+      value: 0
+    spell3:
+      value: 0
+    spell4:
+      value: 0
+    spell5:
+      value: 0
+    spell6:
+      value: 0
+    spell7:
+      value: 0
+    spell8:
+      value: 0
+    spell9:
+      value: 0
+    pact:
+      value: 0
+  resources:
+    legact:
+      value: 0
+      max: 0
+    legres:
+      value: 0
+      max: 0
+    lair:
+      value: false
+      initiative: null
+      inside: false
+  source:
+    revision: 1
+    rules: '2014'
+    book: Map Perilous
+    page: ''
+    custom: ''
+    license: ''
+items:
+  - name: Multiattack
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>The kraken makes three [[/item Tentacle]] attacks. One of them can
+          be replaced with a bite attack, and any of them can be replaced with
+          Fling.</p>
+        chat: ''
+      activities:
+        8Edv5Aggk5babYxx:
+          _id: 8Edv5Aggk5babYxx
+          type: utility
+          activation:
+            type: action
+            value: 1
+            override: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+          roll:
+            prompt: false
+            visible: false
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      advancement: []
+      crewed: false
+      enchant: {}
+      prerequisites:
+        repeatable: false
+      properties: []
+      requirements: ''
+      type:
+        value: ''
+        subtype: ''
+    img: icons/magic/death/skull-trio-badge-purple.webp
+    _id: h9HsGHqWAqyFI43j
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: dnd5e
+      systemVersion: 5.0.4
+      lastModifiedBy: null
+    _key: '!actors.items!GcIqvhmpvaTNDGew.h9HsGHqWAqyFI43j'
+  - name: Bite
+    type: weapon
+    system:
+      description:
+        value: >-
+          <p><em>Melee Weapon Attack:</em> [[/attack]] to hit, reach 5 ft., one
+          target. Hit: [[/damage average]] damage.</p>
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        Mzr9R01kOFGd2jPf:
+          _id: Mzr9R01kOFGd2jPf
+          type: attack
+          activation:
+            type: action
+            value: 1
+            override: false
+          attack:
+            ability: str
+            type:
+              value: melee
+            critical: {}
+            flat: false
+          damage:
+            parts: []
+            critical: {}
+            includeBase: true
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+      range:
+        value: 5
+        units: ft
+      damage:
+        base:
+          number: 2
+          denomination: 8
+          types:
+            - piercing
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        versatile:
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      attuned: true
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      crewed: false
+      ammunition: {}
+      armor: {}
+      properties: []
+    img: icons/creatures/abilities/mouth-teeth-long-red.webp
+    _id: wWIVWFlSwI1g9K95
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: dnd5e
+      systemVersion: 5.0.4
+      lastModifiedBy: null
+    _key: '!actors.items!GcIqvhmpvaTNDGew.wWIVWFlSwI1g9K95'
+  - name: Tentacle
+    type: weapon
+    system:
+      description:
+        value: >-
+          <p><em>Melee Weapon Attack:</em> [[/attack]] to hit, reach 20 ft., one
+          target. Hit: [[/damage average]] damage, and the target is
+          &amp;Reference[Grappled apply=false] (escape
+
+          DC 15). Until this grapple ends, the target is
+          &amp;Reference[Restrained apply=false]. The kraken has
+
+          ten tentacles, each of which can grapple one target.</p>
+        chat: ''
+      identified: true
+      equipped: true
+      attunement: required
+      proficient: 1
+      quantity: 1
+      type:
+        value: natural
+        baseItem: ''
+      activities:
+        btkSwncC615p2yI4:
+          _id: btkSwncC615p2yI4
+          type: attack
+          activation:
+            type: action
+            value: 1
+            override: false
+          attack:
+            ability: str
+            type:
+              value: melee
+            critical: {}
+            flat: false
+          effects:
+            - _id: P7evh1xlD5jQgO8I
+          damage:
+            parts: []
+            critical: {}
+            includeBase: true
+          sort: 0
+          consumption:
+            scaling:
+              allowed: false
+            spellSlot: true
+            targets: []
+          description: {}
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          range:
+            units: self
+            override: false
+          target:
+            template:
+              contiguous: false
+              units: ft
+            affects:
+              choice: false
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+      range:
+        value: 20
+        units: ft
+      damage:
+        base:
+          number: 2
+          denomination: 6
+          types:
+            - bludgeoning
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+        versatile:
+          types: []
+          custom:
+            enabled: false
+          scaling:
+            number: 1
+      attuned: true
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      unidentified:
+        description: ''
+      container: null
+      weight:
+        value: 0
+        units: lb
+      price:
+        value: 0
+        denomination: gp
+      rarity: ''
+      crewed: false
+      ammunition: {}
+      armor: {}
+      properties: []
+    img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
+    effects:
+      - _id: P7evh1xlD5jQgO8I
+        name: 'Tentacle: Grappled'
+        img: icons/creatures/tentacles/tentacles-octopus-black-pink.webp
+        transfer: false
+        type: base
+        statuses:
+          - grappled
+        system: {}
+        changes: []
+        disabled: false
+        duration:
+          startTime: null
+          combat: null
+        description: ''
+        origin: null
+        tint: '#ffffff'
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.346'
+          systemId: dnd5e
+          systemVersion: 5.0.4
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!GcIqvhmpvaTNDGew.Owcaz6pVdLf5uaTT.P7evh1xlD5jQgO8I
+    _id: Owcaz6pVdLf5uaTT
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: dnd5e
+      systemVersion: 5.0.4
+      lastModifiedBy: null
+    _key: '!actors.items!GcIqvhmpvaTNDGew.Owcaz6pVdLf5uaTT'
+  - name: Fling
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>One Medium or smaller object held or creature
+          &amp;Reference[Grappled apply=false] by the kraken's tentacles is
+          thrown up to 60 feet in a random direction and
+
+          knocked &amp;Reference[Prone apply=false]. If a thrown target strikes
+          a solid surface, the target takes
+
+          3 ([[/r 1d6]]) bludgeoning damage for every 10 feet it was thrown. If
+          the target
+
+          is thrown at another creature, that creature must succeed on a DC 15
+
+          Dexterity saving throw or take the same damage and be knocked
+          &amp;Reference[Prone apply=false].</p>
+        chat: ''
+      activities:
+        cHftMvf75cIc3qpV:
+          _id: cHftMvf75cIc3qpV
+          type: save
+          activation:
+            type: action
+            value: 1
+            override: false
+            condition: ''
+          damage:
+            onSave: none
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 6
+                bonus: ''
+                types:
+                  - bludgeoning
+                scaling:
+                  mode: ''
+          save:
+            ability:
+              - dex
+            dc:
+              formula: '15'
+              calculation: ''
+          effects:
+            - _id: UKEf5Elc9wFuw2Qq
+              onSave: false
+          sort: 0
+          consumption:
+            scaling:
+              allowed: true
+              max: '6'
+            spellSlot: true
+            targets: []
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          name: ''
+          img: ''
+          appliedEffects:
+            - UKEf5Elc9wFuw2Qq
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      advancement: []
+      crewed: false
+      enchant: {}
+      prerequisites:
+        repeatable: false
+      properties: []
+      requirements: ''
+      type:
+        value: ''
+        subtype: ''
+    img: icons/creatures/webs/webthin-blue.webp
+    effects:
+      - _id: UKEf5Elc9wFuw2Qq
+        name: 'Fling: Prone'
+        img: icons/creatures/webs/webthin-blue.webp
+        transfer: false
+        type: base
+        statuses:
+          - prone
+        system: {}
+        changes: []
+        disabled: false
+        duration:
+          startTime: null
+          combat: null
+        description: ''
+        origin: null
+        tint: '#ffffff'
+        sort: 0
+        flags: {}
+        _stats:
+          compendiumSource: null
+          duplicateSource: null
+          exportSource: null
+          coreVersion: '13.346'
+          systemId: dnd5e
+          systemVersion: 5.0.4
+          lastModifiedBy: null
+        _key: >-
+          !actors.items.effects!GcIqvhmpvaTNDGew.1HJLz8VfSWDmX3e6.UKEf5Elc9wFuw2Qq
+    _id: 1HJLz8VfSWDmX3e6
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: dnd5e
+      systemVersion: 5.0.4
+      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: 1751331919019
+    _key: '!actors.items!GcIqvhmpvaTNDGew.1HJLz8VfSWDmX3e6'
+  - name: Jet
+    type: feat
+    system:
+      description:
+        value: >-
+          <p>The kraken swims, moving up to 160 feet in a straight line. This
+          movement does not provoke opportunity attacks. If the kraken
+
+          collides with a Huge or larger creature or object at the end of this
+
+          movement, the creature or object takes 3 ([[/r 1d6]]) bludgeoning
+          damage for
+
+          every 10 feet the kraken moved. A creature can make a DC 16 Dexterity
+
+          save to halve this damage. Large or smaller creatures or objects are
+
+          pushed out of the kraken’s path and are unaffected by this
+          movement.</p>
+        chat: ''
+      activities:
+        5SlrkDOyUA2xbLHS:
+          type: damage
+          _id: 5SlrkDOyUA2xbLHS
+          sort: 0
+          activation:
+            type: bonus
+            override: false
+            condition: ''
+          consumption:
+            scaling:
+              allowed: true
+              max: '16'
+            spellSlot: true
+            targets:
+              - type: itemUses
+                value: '1'
+                target: ''
+                scaling:
+                  mode: ''
+          description:
+            chatFlavor: ''
+          duration:
+            units: inst
+            concentration: false
+            override: false
+          effects: []
+          range:
+            units: self
+            override: false
+            special: ''
+          target:
+            template:
+              contiguous: false
+              units: ft
+              type: ''
+            affects:
+              choice: false
+              type: ''
+            override: false
+            prompt: true
+          uses:
+            spent: 0
+            recovery: []
+            max: ''
+          damage:
+            critical:
+              allow: false
+            parts:
+              - custom:
+                  enabled: false
+                  formula: ''
+                number: 1
+                denomination: 6
+                bonus: ''
+                types:
+                  - bludgeoning
+                scaling:
+                  mode: whole
+          name: ''
+          img: ''
+          appliedEffects: []
+      uses:
+        max: '1'
+        recovery:
+          - period: recharge
+            formula: '6'
+            type: recoverAll
+        spent: 0
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      advancement: []
+      crewed: false
+      enchant: {}
+      prerequisites:
+        repeatable: false
+        level: null
+      properties: []
+      requirements: ''
+      type:
+        value: ''
+        subtype: ''
+    _id: XL4loATLhJ9EOlIm
+    img: icons/magic/movement/trail-streak-impact-blue.webp
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags:
+      dnd5e:
+        riders:
+          activity: []
+          effect: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: dnd5e
+      systemVersion: 5.0.4
+      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: 1751331811167
+    _key: '!actors.items!GcIqvhmpvaTNDGew.XL4loATLhJ9EOlIm'
+  - name: Siege Monster
+    type: feat
+    system:
+      description:
+        value: <p>The kraken deals double damage to objects and structures.</p>
+        chat: ''
+      activities: {}
+      uses:
+        spent: 0
+        recovery: []
+      identifier: ''
+      source:
+        revision: 1
+        rules: '2024'
+      advancement: []
+      crewed: false
+      enchant: {}
+      prerequisites:
+        repeatable: false
+      properties: []
+      requirements: ''
+      type:
+        value: ''
+        subtype: ''
+    img: icons/creatures/magical/construct-iron-stomping-yellow.webp
+    _id: xQ1QLxlcJx7Mmc73
+    effects: []
+    folder: null
+    sort: 0
+    ownership:
+      default: 0
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.346'
+      systemId: dnd5e
+      systemVersion: 5.0.4
+      lastModifiedBy: null
+    _key: '!actors.items!GcIqvhmpvaTNDGew.xQ1QLxlcJx7Mmc73'
+prototypeToken:
+  sight:
+    range: 60
+    enabled: false
+    angle: 360
+    visionMode: basic
+    color: null
+    attenuation: 0.1
+    brightness: 0
+    saturation: 0
+    contrast: 0
+  name: Steel Kraken
+  displayName: 0
+  actorLink: false
+  width: 3
+  height: 3
+  texture:
+    src: icons/svg/mystery-man.svg
+    anchorX: 0.5
+    anchorY: 0.5
+    offsetX: 0
+    offsetY: 0
+    fit: contain
+    scaleX: 1
+    scaleY: 1
+    rotation: 0
+    tint: '#ffffff'
+    alphaThreshold: 0.75
+  lockRotation: false
+  rotation: 0
+  alpha: 1
+  disposition: -1
+  displayBars: 0
+  bar1:
+    attribute: attributes.hp
+  bar2:
+    attribute: null
+  light:
+    negative: false
+    priority: 0
+    alpha: 0.5
+    angle: 360
+    bright: 0
+    color: null
+    coloration: 1
+    dim: 0
+    attenuation: 0.5
+    luminosity: 0.5
+    saturation: 0
+    contrast: 0
+    shadows: 0
+    animation:
+      type: null
+      speed: 5
+      intensity: 5
+      reverse: false
+    darkness:
+      min: 0
+      max: 1
+  detectionModes: []
+  occludable:
+    radius: 0
+  ring:
+    enabled: false
+    colors:
+      ring: null
+      background: null
+    effects: 1
+    subject:
+      scale: 1
+      texture: null
+  turnMarker:
+    mode: 1
+    animation: null
+    src: null
+    disposition: false
+  movementAction: null
+  flags: {}
+  randomImg: false
+  appendNumber: false
+  prependAdjective: false
+folder: 8FqMTyt402KO9XwJ
+name: Steel Kraken
+type: npc
+img: icons/svg/mystery-man.svg
+effects: []
+ownership:
+  default: 0
+  q6n1efCGVB98drEQ: 3
+flags:
+  prime-psionics:
+    pp:
+      value: null
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.346'
+  systemId: dnd5e
+  systemVersion: 5.0.4
+  createdTime: 1751331497263
+  modifiedTime: 1751332292497
+  lastModifiedBy: q6n1efCGVB98drEQ
+_id: GcIqvhmpvaTNDGew
+sort: 400000
+_key: '!actors!GcIqvhmpvaTNDGew'

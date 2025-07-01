@@ -938,14 +938,14 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '13.346'
   systemId: dnd5e
   systemVersion: 4.3.5
   createdTime: 1736016616752
-  modifiedTime: 1740951594528
+  modifiedTime: 1751331497565
   lastModifiedBy: q6n1efCGVB98drEQ
   exportSource: null
-sort: 0
+sort: 600000
 ownership:
   default: 0
   q6n1efCGVB98drEQ: 3

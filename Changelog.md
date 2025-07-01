@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.3
+
+- Added Steel Kraken to bestiary
+
 ## 1.1.2
 
 - Fixed CLI process creating empty compendiums
@@ -16,6 +20,7 @@
 - Replaced PHB references with SRD wherever possible
 
 ## 1.0.13
+
 - Updated sources on NPCs to improve compendium browser display
 
 ## 1.0.12
