@@ -2,15 +2,53 @@ folder: qw8oA9F6iQcwswuP
 name: Martyr's Sacrifice
 type: spell
 _id: EXT8aGliTf2UyZsF
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/life/heart-shadow-red.webp
 system:
-  activities: {}
+  activities:
+    63tMmTG28o2ou8aJ:
+      type: utility
+      _id: 63tMmTG28o2ou8aJ
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You protect someone more vulnerable than you, at the expense of your
+      own safety. The target creature is instead reduced to 1 hit point, and you
+      take any remaining damage that would have affected them</p>
     chat: ''
   identifier: martyrs-sacrifice
   source:
@@ -53,16 +91,15 @@ effects: []
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 5.0.3
+  systemVersion: 5.1.9
   createdTime: 1748802688279
-  modifiedTime: 1748802726014
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!EXT8aGliTf2UyZsF'

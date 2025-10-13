@@ -37,7 +37,6 @@ effects: []
 sort: 1000
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
@@ -46,7 +45,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384652287
-  modifiedTime: 1726384652287
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _key: '!items!aFTLAr21caWdrdGC'

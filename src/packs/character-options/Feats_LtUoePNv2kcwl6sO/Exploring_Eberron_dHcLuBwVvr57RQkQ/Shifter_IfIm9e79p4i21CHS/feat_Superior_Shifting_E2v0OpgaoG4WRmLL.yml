@@ -53,14 +53,8 @@ system:
       hint: ''
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 img: icons/magic/nature/wolf-paw-glow-green.webp
 flags:
-  plutonium:
-    page: feats.html
-    source: ExploringEberron
-    hash: superior%20shifting_exploringeberron
-    propDroppable: feat
   core: {}
   dnd5e:
     riders:
@@ -76,8 +70,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384680052
-  modifiedTime: 1738040298037
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: E2v0OpgaoG4WRmLL
 sort: 0

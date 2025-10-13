@@ -677,8 +677,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727554993452
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!RjNbZ5eWngWK9sFS.Sr1cUd2pNEAbpRic'
   - name: Dagger
@@ -832,8 +832,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727555006743
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!RjNbZ5eWngWK9sFS.TdmZFfg7sWkZyoui'
   - name: Description
@@ -1125,7 +1125,6 @@ items:
 effects: []
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
@@ -1134,8 +1133,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727550807585
-  modifiedTime: 1727550807585
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: RjNbZ5eWngWK9sFS
 sort: 0

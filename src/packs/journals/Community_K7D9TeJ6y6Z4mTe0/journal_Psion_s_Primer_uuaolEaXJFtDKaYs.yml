@@ -236,8 +236,8 @@ pages:
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: null
-      modifiedTime: 1727124290123
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     category: null
     _key: '!journal.pages!uuaolEaXJFtDKaYs.rFoAAdqwoaOe59KI'
@@ -278,8 +278,6 @@ pages:
 folder: K7D9TeJ6y6Z4mTe0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
-  MVioF9x1qI1WYGx1: 3
 flags:
   core: {}
 _stats:
@@ -289,8 +287,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384670924
-  modifiedTime: 1726384670924
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: uuaolEaXJFtDKaYs
 sort: 112500

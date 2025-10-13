@@ -2,15 +2,72 @@ folder: F1gsAFdTkSB3M1RM
 name: Boneskin
 type: spell
 _id: Fye8CYHy4SJ337w5
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/death/bones-crossed-orange.webp
 system:
-  activities: {}
+  activities:
+    DXLZuYHvhZcn4OVl:
+      type: utility
+      _id: DXLZuYHvhZcn4OVl
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: SqUVxoWnf7aMzGA9
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects:
+        - SqUVxoWnf7aMzGA9
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You summon bone matter from nearby corpses to form a barrier around
+      you, protecting you from harm. For the duration of the spell, Bludgeoning,
+      Piercing and Slashing damage that you take is reduced by an amount equal
+      to the spell slot level used to cast the spell; plus an additional 1 for
+      each dead creature that is Small or larger within 60 feet of you when you
+      cast this spell, up to a maximum bonus equal to your spellcasting ability
+      modifier. The corpses used to form the barrier are destroyed and cannot be
+      used for further castings of this spell.</p><p> At Higher Levels. When you
+      cast this spell using a spell slot of 2nd level, the duration is 10
+      minutes. When you cast this spell using a spell slot of 3rd level, the
+      duration is 1 hour. When you cast this spell using a spell slot of 4th
+      level, the duration is 8 hours. When you cast this spell using a spell
+      slot of 5th level or higher, the duration is 24 hours.</p>
     chat: ''
   identifier: boneskin
   source:
@@ -51,20 +108,75 @@ system:
     affects:
       choice: false
       type: ''
-effects: []
+effects:
+  - name: Boneskin
+    img: icons/magic/death/bones-crossed-orange.webp
+    origin: Compendium.eberron-5e.spells.Item.Fye8CYHy4SJ337w5
+    _id: SqUVxoWnf7aMzGA9
+    type: base
+    system: {}
+    changes:
+      - key: system.traits.dm.amount.bludgeoning
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.traits.dm.amount.piercing
+        mode: 2
+        value: '1'
+        priority: null
+      - key: system.traits.dm.amount.slashing
+        mode: 2
+        value: '1'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>You summon bone matter from nearby corpses to form a barrier around
+      you, protecting you from harm. For the duration of the spell, Bludgeoning,
+      Piercing and Slashing damage that you take is reduced by an amount equal
+      to the spell slot level used to cast the spell; plus an additional 1 for
+      each dead creature that is Small or larger within 60 feet of you when you
+      cast this spell, up to a maximum bonus equal to your spellcasting ability
+      modifier. The corpses used to form the barrier are destroyed and cannot be
+      used for further castings of this spell.</p>
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1760309976060
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!Fye8CYHy4SJ337w5.SqUVxoWnf7aMzGA9'
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 5.0.3
+  systemVersion: 5.1.9
   createdTime: 1748802001016
-  modifiedTime: 1748802024395
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!Fye8CYHy4SJ337w5'

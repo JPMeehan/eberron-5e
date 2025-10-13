@@ -651,8 +651,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727537689262
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!2jJRYPCvwdLwZTFB.RwLJHi4BVErlJ21F'
   - name: Cleaver
@@ -855,7 +855,7 @@ items:
           systemVersion: 4.0.3
           createdTime: 1727537778827
           modifiedTime: 1727537810288
-          lastModifiedBy: q6n1efCGVB98drEQ
+          lastModifiedBy: null
           exportSource: null
         _key: >-
           !actors.items.effects!2jJRYPCvwdLwZTFB.zOr5L5f0RY1F4qWQ.lJpGv4vgXTc1rW5B
@@ -876,8 +876,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727537832296
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!2jJRYPCvwdLwZTFB.zOr5L5f0RY1F4qWQ'
   - name: Bite
@@ -996,8 +996,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727537978412
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!2jJRYPCvwdLwZTFB.JNAmibtLrkwBEbYl'
   - name: Into The Meat Grinder
@@ -1096,8 +1096,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727538031132
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!2jJRYPCvwdLwZTFB.pLIh3WZ09ZkzfiS9'
   - name: Adamant Amalgam
@@ -1143,14 +1143,13 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727537615535
-      modifiedTime: 1727537628623
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!2jJRYPCvwdLwZTFB.sSLpZgd5HCeYDzQ7'
 effects: []
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags:
   dnd5e:
     showTokenPortrait: false
@@ -1161,8 +1160,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727537448071
-  modifiedTime: 1727543549874
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: 2jJRYPCvwdLwZTFB
 sort: 100000

@@ -142,15 +142,13 @@ effects:
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726900000278
-      modifiedTime: 1726900174053
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!items.effects!HukQWA2mBKzxzHki.crPIWWKBMD0QuaUP'
 sort: 6000
 ownership:
   default: 0
-  MVioF9x1qI1WYGx1: 3
-  q6n1efCGVB98drEQ: 3
 flags:
   dnd5e:
     riders:
@@ -163,7 +161,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384644749
-  modifiedTime: 1726900048572
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _key: '!items!HukQWA2mBKzxzHki'

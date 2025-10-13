@@ -219,7 +219,6 @@ effects:
     _key: '!items.effects!A102vybgFsG7K6YP.VIDJ2ihhtkoqLlX9'
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags:
   core: {}
   dnd5e:
@@ -234,8 +233,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384641708
-  modifiedTime: 1726384641708
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: A102vybgFsG7K6YP
 sort: 200000

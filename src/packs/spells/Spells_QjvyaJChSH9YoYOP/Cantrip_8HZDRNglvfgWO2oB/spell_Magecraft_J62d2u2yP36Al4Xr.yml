@@ -98,13 +98,7 @@ system:
 img: icons/magic/perception/orb-eye-scrying.webp
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags:
-  plutonium:
-    page: spells.html
-    source: ExploringEberron
-    hash: magecraft_exploringeberron
-    propDroppable: spell
   core: {}
   dnd5e:
     riders:
@@ -124,8 +118,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384669368
-  modifiedTime: 1726384669368
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: J62d2u2yP36Al4Xr
 sort: 50000

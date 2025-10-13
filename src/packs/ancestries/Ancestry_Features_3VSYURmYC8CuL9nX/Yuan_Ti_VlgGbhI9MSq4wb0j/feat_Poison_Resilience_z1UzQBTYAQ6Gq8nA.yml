@@ -29,23 +29,6 @@ system:
   prerequisites:
     level: null
 flags:
-  ddbimporter:
-    type: race
-    entityRaceId: 1026407
-    version: 4.0.4
-    baseName: Poison Resilience
-    spellListIds: []
-    definitionKey: racial-trait:8429635
-    baseRaceName: Yuan-ti
-    baseRaceId: 1026407
-    subRaceShortName: null
-    fullRaceName: Yuan-ti
-    isSubRace: true
-    groupIds: []
-    groupName: Yuan-ti
-  obsidian:
-    source:
-      type: race
   core: {}
 img: systems/dnd5e/icons/svg/items/feature.svg
 folder: VlgGbhI9MSq4wb0j
@@ -57,12 +40,11 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384610552
-  modifiedTime: 1726384610552
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 _id: z1UzQBTYAQ6Gq8nA
 sort: 300000
 _key: '!items!z1UzQBTYAQ6Gq8nA'

@@ -30,24 +30,6 @@ system:
   prerequisites:
     level: null
 flags:
-  ddbimporter:
-    type: race
-    entityRaceId: 17
-    version: 4.0.4
-    baseName: Speak with Small Beasts
-    spellListIds: []
-    definitionKey: racial-trait:47
-    baseRaceName: Gnome
-    baseRaceId: 18
-    subRaceShortName: Forest
-    fullRaceName: Forest Gnome
-    isSubRace: true
-    groupIds:
-      - 9
-    groupName: Gnome
-  obsidian:
-    source:
-      type: race
   core: {}
 img: icons/commodities/treasure/figurine-rabbit.webp
 folder: MQfTrPIS9qJMbGOu
@@ -59,12 +41,11 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384610244
-  modifiedTime: 1726384610244
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 _id: qv4JXOu6CQgJh9vY
 sort: 0
 _key: '!items!qv4JXOu6CQgJh9vY'

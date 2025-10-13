@@ -2570,7 +2570,6 @@ items:
 effects: []
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags:
   dnd5e:
     showTokenPortrait: false
@@ -2581,8 +2580,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727459567036
-  modifiedTime: 1727549887547
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: oa7bulpjM8osCIz5
 sort: 100000

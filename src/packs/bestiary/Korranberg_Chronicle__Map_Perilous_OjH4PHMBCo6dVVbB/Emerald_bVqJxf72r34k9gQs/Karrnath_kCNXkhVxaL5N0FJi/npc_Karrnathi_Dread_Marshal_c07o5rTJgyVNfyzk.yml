@@ -848,8 +848,6 @@ items:
 effects: []
 ownership:
   default: 0
-  MVioF9x1qI1WYGx1: 3
-  q6n1efCGVB98drEQ: 3
 flags:
   core: {}
   dnd5e:
@@ -861,8 +859,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384677909
-  modifiedTime: 1739001395432
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: c07o5rTJgyVNfyzk
 sort: 200000

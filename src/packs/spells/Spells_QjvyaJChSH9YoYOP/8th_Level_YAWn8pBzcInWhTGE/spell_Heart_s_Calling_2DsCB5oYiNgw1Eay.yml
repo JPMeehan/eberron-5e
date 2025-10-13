@@ -51,7 +51,6 @@ effects: []
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
@@ -61,6 +60,6 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.0.3
   createdTime: 1748803179820
-  modifiedTime: 1748803192941
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!2DsCB5oYiNgw1Eay'

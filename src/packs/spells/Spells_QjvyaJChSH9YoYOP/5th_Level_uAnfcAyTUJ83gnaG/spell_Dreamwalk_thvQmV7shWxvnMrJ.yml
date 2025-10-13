@@ -2,10 +2,44 @@ folder: uAnfcAyTUJ83gnaG
 name: Dreamwalk
 type: spell
 _id: thvQmV7shWxvnMrJ
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/control/hypnosis-mesmerism-pendulum.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You attempt to bring yourself and all willing creatures within a
+      10-foot radius centered on you into the dreams of a sleeping creature on
+      the same plane as you. The target must succeed on a Wisdom saving throw
+      against your spell save DC to prevent this, with the DC modified as per
+      the table below. Additionally, on a successful saving throw, the target
+      becomes immune to this spell for 24 hours. On a failure, you and the other
+      willing creatures fall asleep. This sleep counts towards any sleep
+      necessary for completing a long rest. Dreaming creatures remain asleep
+      until they finish a long rest, take any damage outside of the dream, or
+      someone outside of the dream uses an action to shake or slap the dreaming
+      creature awake. If the target creature wakes up, the effects of the spell
+      immediately end, causing all creatures affected by this spell to also wake
+      up.</p><p>The save modifier of the target is affected by the following
+      modifiers when the spell is
+      cast:</p><table><thead><tr><th><p>Knowledge</p></th><th><p>Save
+      Modifier</p></th></tr></thead><tbody><tr><td><p>Seconhand</p></td><td><p>+5</p></td></tr><tr><td><p>Firsthand</p></td><td><p>0</p></td></tr><tr><td><p>Familiar</p></td><td><p>-5</p></td></tr></tbody></table><table><thead><tr><th><p>Connection</p></th><th><p>Save
+      Modifier</p></th></tr></thead><tbody><tr><td><p>Likeness or
+      picture</p></td><td><p>-2</p></td></tr><tr><td><p>Possession or
+      Garment</p></td><td><p>-5</p></td></tr><tr><td><p>Body part, lock of hair,
+      or the like</p></td><td><p>-10</p></td></tr></tbody></table><p>While
+      within the dream, the rules of reality and the state of the creatures
+      affected by this spell are determined by the context of the dream itself.
+      If the dream belongs to a player character, they can choose its contents
+      and shape ‘reality’ as they wish (within the confines of what their
+      character knows). Typically, characters dream of themselves in peak
+      performance, with all hit points and resources as though ‘waking up’ from
+      a long rest. This state does not carry over to reality if their actual
+      long rest is interrupted. A character that ‘dies’ in a dream immediately
+      wakes up. A character that wakes this way takes [[/damage 3d6 psychic]]
+      damage, gains no benefit from their rest, and becomes unable to sleep for
+      the next 24 hours. </p><p>If the target creature is the target of the
+      <em>dream</em> spell while it is also the target of this spell, this spell
+      bars the messenger’s entry into the target’s dream, causing the dream
+      spell to fail.</p>
     chat: ''
   source:
     book: TGtA
@@ -15,20 +49,25 @@ system:
     rules: '2014'
     revision: 1
   activation:
-    type: ''
+    type: minute
     condition: ''
-    value: null
+    value: 1
   duration:
-    value: ''
-    units: ''
+    value: '8'
+    units: hour
   target:
     affects:
       choice: false
+      type: creature
+      count: ''
+      special: Sleeping creature on the same plane
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
     units: ''
+    special: ''
   uses:
     max: ''
     spent: 0
@@ -36,30 +75,67 @@ system:
   level: 5
   school: div
   materials:
-    value: ''
+    value: a translucent opal lens worth at least 500 gp
     consumed: false
-    cost: 0
+    cost: 500
     supply: 0
   preparation:
     mode: prepared
     prepared: false
   identifier: dreamwalk
-  activities: {}
-  properties: []
+  activities:
+    YKjpGTRcJCDrDHNU:
+      type: utility
+      _id: YKjpGTRcJCDrDHNU
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
+  properties:
+    - vocal
+    - somatic
+    - material
 effects: []
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726384670429
-  modifiedTime: 1726384670429
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _key: '!items!thvQmV7shWxvnMrJ'

@@ -55,14 +55,8 @@ system:
       hint: ''
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 img: icons/magic/holy/yin-yang-balance-symbol.webp
 flags:
-  plutonium:
-    page: feats.html
-    source: ExploringEberron
-    hash: aereni%20halflife_exploringeberron
-    propDroppable: feat
   core: {}
 effects:
   - origin: Compendium.chaosos-5e-content.kbp-backgrounds.Item.0YIFyus5YPAumFzw
@@ -116,8 +110,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384679887
-  modifiedTime: 1738040170650
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: 0YIFyus5YPAumFzw
 sort: 0

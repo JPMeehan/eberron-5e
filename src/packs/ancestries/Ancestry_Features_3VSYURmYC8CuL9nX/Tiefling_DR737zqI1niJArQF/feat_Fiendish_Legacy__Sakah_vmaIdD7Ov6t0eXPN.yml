@@ -56,12 +56,11 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726715471194
-  modifiedTime: 1726717723881
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 sort: 0
 _id: vmaIdD7Ov6t0eXPN
 _key: '!items!vmaIdD7Ov6t0eXPN'

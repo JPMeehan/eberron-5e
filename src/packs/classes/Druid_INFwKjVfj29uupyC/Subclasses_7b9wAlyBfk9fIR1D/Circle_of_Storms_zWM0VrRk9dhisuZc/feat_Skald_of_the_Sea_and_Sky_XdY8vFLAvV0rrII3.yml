@@ -96,11 +96,10 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384651172
-  modifiedTime: 1726384651172
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 sort: 2000
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 _key: '!items!XdY8vFLAvV0rrII3'

@@ -29,23 +29,6 @@ system:
   prerequisites:
     level: null
 flags:
-  ddbimporter:
-    type: race
-    entityRaceId: 1026392
-    version: 4.0.4
-    baseName: Little Giant
-    spellListIds: []
-    definitionKey: racial-trait:8429484
-    baseRaceName: Goliath
-    baseRaceId: 1026392
-    subRaceShortName: null
-    fullRaceName: Goliath
-    isSubRace: true
-    groupIds: []
-    groupName: Goliath
-  obsidian:
-    source:
-      type: race
   core: {}
 img: systems/dnd5e/icons/svg/items/feature.svg
 folder: 7W3tA3UjYoprpp70
@@ -57,12 +40,11 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384609194
-  modifiedTime: 1726384609194
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 _id: Vks3jrVLUpM4gMen
 sort: 0
 _key: '!items!Vks3jrVLUpM4gMen'

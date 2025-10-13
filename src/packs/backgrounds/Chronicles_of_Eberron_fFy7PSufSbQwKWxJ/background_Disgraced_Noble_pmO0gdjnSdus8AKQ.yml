@@ -129,8 +129,6 @@ effects: []
 folder: fFy7PSufSbQwKWxJ
 ownership:
   default: 0
-  MVioF9x1qI1WYGx1: 3
-  q6n1efCGVB98drEQ: 3
 flags:
   core: {}
 _stats:
@@ -140,8 +138,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384611637
-  modifiedTime: 1726978786569
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: pmO0gdjnSdus8AKQ
 sort: 200000

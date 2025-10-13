@@ -208,8 +208,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.2.2
       createdTime: 1738999747095
-      modifiedTime: 1738999972908
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!items.effects!XyQGa6VQDrbfZP7z.sON8cvwgTUJj2GS1'
   - name: Seize Control
@@ -241,14 +241,13 @@ effects:
       systemId: dnd5e
       systemVersion: 4.2.2
       createdTime: 1739000042430
-      modifiedTime: 1739000075129
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!items.effects!XyQGa6VQDrbfZP7z.crl4zqCS0qEEeupN'
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags:
   dnd5e:
     riders:
@@ -261,7 +260,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1738999028274
-  modifiedTime: 1739000042475
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _key: '!items!XyQGa6VQDrbfZP7z'

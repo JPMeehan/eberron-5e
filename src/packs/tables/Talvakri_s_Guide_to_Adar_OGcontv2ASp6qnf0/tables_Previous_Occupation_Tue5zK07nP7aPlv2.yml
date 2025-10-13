@@ -147,7 +147,6 @@ displayRoll: true
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
@@ -156,8 +155,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726978429159
-  modifiedTime: 1726978465428
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 formula: ''
 _key: '!tables!Tue5zK07nP7aPlv2'

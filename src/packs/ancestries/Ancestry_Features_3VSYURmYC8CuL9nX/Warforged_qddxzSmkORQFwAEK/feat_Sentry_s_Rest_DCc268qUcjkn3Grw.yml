@@ -30,24 +30,7 @@ system:
   enchant: {}
   prerequisites:
     level: null
-flags:
-  ddbimporter:
-    type: race
-    entityRaceId: 260828
-    version: 4.0.4
-    baseName: Sentry's Rest
-    spellListIds: []
-    definitionKey: racial-trait:2149621
-    baseRaceName: Warforged
-    baseRaceId: 260828
-    subRaceShortName: null
-    fullRaceName: Warforged
-    isSubRace: true
-    groupIds: []
-    groupName: Warforged
-  obsidian:
-    source:
-      type: race
+flags: {}
 img: icons/sundries/lights/lantern-iron-yellow.webp
 folder: qddxzSmkORQFwAEK
 effects: []
@@ -58,12 +41,11 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384607514
-  modifiedTime: 1726384607514
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: DCc268qUcjkn3Grw
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 _key: '!items!DCc268qUcjkn3Grw'

@@ -366,8 +366,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726896747274
-      modifiedTime: 1726897958337
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.b5yuDQdW74MQOhxf'
   - name: Spirit of Conflict
@@ -410,8 +410,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726897534071
-      modifiedTime: 1726897646483
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.KOPa3W2PcY9aPuij'
   - name: Spirit of Eloquence
@@ -455,8 +455,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726897863105
-      modifiedTime: 1726897919663
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.ldrdMauh8Wh3F4y6'
   - name: Spirit of Subtlety
@@ -499,8 +499,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726897969218
-      modifiedTime: 1726897999021
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _id: eLwTUnF2cp4MWnBK
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.eLwTUnF2cp4MWnBK'
@@ -539,8 +539,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726898293136
-      modifiedTime: 1726898388864
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.wjSVQ1q8cr9exTGH'
 folder: AxCOxJAGG16MkcKu
@@ -552,11 +552,10 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384662461
-  modifiedTime: 1726898424921
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 sort: 3000
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 _key: '!items!sdv5ZXmH2ogJQ6b1'

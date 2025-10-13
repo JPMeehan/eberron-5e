@@ -1,0 +1,121 @@
+folder: UpgRSqwQVvhlFBWf
+name: Cloak of the Tides
+type: equipment
+_id: 0xNVSahEA5EZ27ME
+img: icons/equipment/back/mantle-collared-white.webp
+system:
+  activities:
+    ApZaRWlnxhxNOn62:
+      type: utility
+      _id: ApZaRWlnxhxNOn62
+      sort: 0
+      activation:
+        type: reaction
+        override: false
+        condition: You take fire damage from a spell, ability, or check.
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+        special: ''
+      target:
+        template:
+          contiguous: false
+          units: ft
+          type: sphere
+          size: '10'
+          count: ''
+        affects:
+          choice: false
+          type: creature
+          count: ''
+          special: ''
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+  uses:
+    spent: 0
+    recovery: []
+    max: ''
+  description:
+    value: >-
+      <p>A Cloak of the Tides appears as a white half-cape with a clasp inset
+      with a Khyber dragonshard. When worn, rivulets of water flow endlessly
+      over the surface of the cape, forming the shape of shifting giant runes.
+      This water maintains its patterning despite gravity, and does not wet the
+      wearer in any way. While wearing this item, you are immune to the effects
+      of extreme heat, and can walk on water as though it were solid ground.
+      Additionally, when you take fire damage from a spell, ability, or attack,
+      you can use your reaction to grant resistance to that triggering damage to
+      you and every character within 10 feet of you who also take damage from
+      the same source.</p>
+    chat: ''
+  identifier: cloak-of-the-tides
+  source:
+    revision: 1
+    rules: '2024'
+  identified: true
+  unidentified:
+    description: ''
+  container: null
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: rare
+  attunement: required
+  attuned: false
+  equipped: false
+  crewed: false
+  armor:
+    value: null
+    dex: null
+    magicalBonus: null
+  proficient: null
+  properties:
+    - mgc
+  strength: null
+  type:
+    value: wondrous
+    baseItem: ''
+effects: []
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  exportSource: null
+  coreVersion: '13.350'
+  systemId: dnd5e
+  systemVersion: 5.1.9
+  createdTime: 1760314785528
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!items!0xNVSahEA5EZ27ME'

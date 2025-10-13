@@ -55,12 +55,11 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726715002937
-  modifiedTime: 1726717692518
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 _id: 1TXCaHdYR1MbOs2N
 sort: 0
 _key: '!items!1TXCaHdYR1MbOs2N'

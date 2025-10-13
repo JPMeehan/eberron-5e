@@ -2,15 +2,139 @@ folder: qgty36A5lW2ISTfx
 name: Varezi's Bloodburn
 type: spell
 _id: bL4usc8EsjLeGONj
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/unholy/projectile-helix-blood-red.webp
 system:
-  activities: {}
+  activities:
+    gS83TX1a92F22oln:
+      type: save
+      _id: gS83TX1a92F22oln
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: rpTMDyun1jrJYUF4
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: half
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 6
+            denomination: 10
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
+    Lg6Fk6vZzEUlAehu:
+      type: damage
+      _id: Lg6Fk6vZzEUlAehu
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: false
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        critical:
+          allow: false
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 3
+            denomination: 10
+            bonus: ''
+            types:
+              - fire
+            scaling:
+              mode: whole
+              number: 1
+              formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You target a creature within range and necromantically heat their
+      blood. The target must make a Constitution saving throw. On a failed save,
+      the target takes 6d10 Fire damage, and their blood begins to boil for the
+      duration. On a successful save, a creature takes half as much damage and
+      their blood does not boil. </p><p>A creature with boiling blood must make
+      a Constitution saving throw at the beginning of each of their turns,
+      ending this effect on themselves on a success. On a failed save, the
+      creature takes 3d10 fire damage and gains a level of exhaustion, which
+      lasts until the spell effect ends. A creature without blood is unaffected
+      by this spell. </p><p><strong>At Higher Levels.</strong> When you cast
+      this spell using a spell slot of 5th level or higher, the initial fire
+      damage and the damage dealt by boiling blood increase by 1d10.</p>
     chat: ''
   identifier: varezis-bloodburn
   source:
@@ -52,20 +176,55 @@ system:
     affects:
       choice: false
       type: ''
-effects: []
+effects:
+  - name: Varezi's Bloodburn
+    img: icons/magic/unholy/projectile-helix-blood-red.webp
+    origin: Compendium.eberron-5e.spells.Item.bL4usc8EsjLeGONj
+    transfer: false
+    _id: rpTMDyun1jrJYUF4
+    type: base
+    system: {}
+    changes: []
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: 10
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1760313989180
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!bL4usc8EsjLeGONj.rpTMDyun1jrJYUF4'
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 5.0.3
+  systemVersion: 5.1.9
   createdTime: 1748803023117
-  modifiedTime: 1748803050363
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!bL4usc8EsjLeGONj'

@@ -540,6 +540,7 @@ items:
       systemId: dnd5e
       systemVersion: 5.0.4
       lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!GcIqvhmpvaTNDGew.h9HsGHqWAqyFI43j'
   - name: Bite
     type: weapon
@@ -658,6 +659,7 @@ items:
       systemId: dnd5e
       systemVersion: 5.0.4
       lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!GcIqvhmpvaTNDGew.wWIVWFlSwI1g9K95'
   - name: Tentacle
     type: weapon
@@ -811,6 +813,7 @@ items:
       systemId: dnd5e
       systemVersion: 5.0.4
       lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!GcIqvhmpvaTNDGew.Owcaz6pVdLf5uaTT'
   - name: Fling
     type: feat
@@ -962,8 +965,8 @@ items:
       coreVersion: '13.346'
       systemId: dnd5e
       systemVersion: 5.0.4
-      lastModifiedBy: q6n1efCGVB98drEQ
-      modifiedTime: 1751331919019
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!GcIqvhmpvaTNDGew.1HJLz8VfSWDmX3e6'
   - name: Jet
     type: feat
@@ -1088,8 +1091,8 @@ items:
       coreVersion: '13.346'
       systemId: dnd5e
       systemVersion: 5.0.4
-      lastModifiedBy: q6n1efCGVB98drEQ
-      modifiedTime: 1751331811167
+      lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!GcIqvhmpvaTNDGew.XL4loATLhJ9EOlIm'
   - name: Siege Monster
     type: feat
@@ -1131,6 +1134,7 @@ items:
       systemId: dnd5e
       systemVersion: 5.0.4
       lastModifiedBy: null
+      modifiedTime: null
     _key: '!actors.items!GcIqvhmpvaTNDGew.xQ1QLxlcJx7Mmc73'
 prototypeToken:
   sight:
@@ -1220,11 +1224,7 @@ img: icons/svg/mystery-man.svg
 effects: []
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
-flags:
-  prime-psionics:
-    pp:
-      value: null
+flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -1233,8 +1233,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 5.0.4
   createdTime: 1751331497263
-  modifiedTime: 1751332292497
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
 _id: GcIqvhmpvaTNDGew
 sort: 400000
 _key: '!actors!GcIqvhmpvaTNDGew'

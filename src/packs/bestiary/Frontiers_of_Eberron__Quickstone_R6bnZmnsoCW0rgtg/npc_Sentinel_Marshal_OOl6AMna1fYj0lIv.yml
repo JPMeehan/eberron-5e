@@ -1369,8 +1369,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: 1727675080514
-      modifiedTime: 1727675080514
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!OOl6AMna1fYj0lIv.CZEMrnPAFRMfJxgG'
   - name: Shield
@@ -1443,14 +1443,13 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.4
       createdTime: 1727675087447
-      modifiedTime: 1727675087447
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!OOl6AMna1fYj0lIv.Y2bjoP2LvIodnbKN'
 effects: []
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags:
   dnd5e:
     showTokenPortrait: false
@@ -1461,8 +1460,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1727675011490
-  modifiedTime: 1727675048646
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: OOl6AMna1fYj0lIv
 sort: 0

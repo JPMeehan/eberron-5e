@@ -2,10 +2,22 @@ folder: uAnfcAyTUJ83gnaG
 name: Summon Sorrowsworn
 type: spell
 _id: SdIEGERwsgwSEumo
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/unholy/hand-light-pink.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>You reach into Khyber to conjure a minion of the Sundered Heart in an
+      unoccupied space that you can see within range. It uses the Sorrowsworn
+      Spirit statblock. When you cast the spell, choose Angry, Lonely, or Lost.
+      Your choice determines some of the traits in its stat block. </p><p>The
+      creature disappears when it drops to 0 hit points or when the spell ends.
+      The creature is an ally to you and your companions. In combat, the
+      creature shares your initiative count, but it takes its turn immediately
+      after yours. It obeys your verbal commands (no action required by you). If
+      you don't issue any, it takes the Dodge action and uses its move to avoid
+      danger. </p><p><em>At Higher Levels:</em> When you cast this spell using a
+      spell slot of 6th level or higher, use the higher level wherever the
+      spell's level appears in the stat block.</p>
     chat: ''
   source:
     book: LGtS
@@ -15,20 +27,23 @@ system:
     rules: '2014'
     revision: 1
   activation:
-    type: ''
+    type: action
     condition: ''
     value: null
   duration:
-    value: ''
-    units: ''
+    value: '1'
+    units: hour
   target:
     affects:
       choice: false
+      type: ''
     template:
       units: ''
       contiguous: false
+      type: ''
   range:
-    units: ''
+    units: touch
+    special: ''
   uses:
     max: ''
     spent: 0
@@ -45,21 +60,23 @@ system:
     prepared: false
   identifier: summon-sorrowsworn
   activities: {}
-  properties: []
+  properties:
+    - vocal
+    - somatic
+    - concentration
 effects: []
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.1.9
   createdTime: 1726384669649
-  modifiedTime: 1726384669649
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _key: '!items!SdIEGERwsgwSEumo'

@@ -482,7 +482,6 @@ effects: []
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
@@ -491,7 +490,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.3.5
   createdTime: 1726384677961
-  modifiedTime: 1740951594528
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _key: '!actors!cpIIiIKhQo4yrOre'

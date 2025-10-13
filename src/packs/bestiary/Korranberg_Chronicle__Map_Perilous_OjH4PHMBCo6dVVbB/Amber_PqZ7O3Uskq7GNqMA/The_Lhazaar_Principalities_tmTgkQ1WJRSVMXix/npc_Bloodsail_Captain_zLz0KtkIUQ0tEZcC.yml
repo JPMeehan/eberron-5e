@@ -533,8 +533,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727554537389
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.fKjUEN6CxscQMBB0'
   - name: Rapier of Wounding
@@ -817,7 +817,7 @@ items:
           systemVersion: 4.0.3
           createdTime: 1727554888157
           modifiedTime: 1727554888157
-          lastModifiedBy: q6n1efCGVB98drEQ
+          lastModifiedBy: null
           exportSource: null
         _key: >-
           !actors.items.effects!zLz0KtkIUQ0tEZcC.Sr1cUd2pNEAbpRic.qwfqfcdZIdcUPnBH
@@ -838,8 +838,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727554968233
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.Sr1cUd2pNEAbpRic'
   - name: Dagger
@@ -993,8 +993,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727555027065
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.TdmZFfg7sWkZyoui'
   - name: Description
@@ -1045,8 +1045,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727554537389
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.BnsG4ok5HtpWGg3N'
   - name: Studded Leather
@@ -1151,8 +1151,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727554537389
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _id: ytit5Dbqv8Cz80Sl
     sort: 0
@@ -1201,8 +1201,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727554537389
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.vwEZk9jknxAoC7nV'
   - name: Skilled Fencer
@@ -1251,8 +1251,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727554537389
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.b4YFTksLNOOtghd2'
   - name: Special Equipment
@@ -1299,8 +1299,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
-      modifiedTime: 1727554537389
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.o8WlrHfbAMEoxey4'
   - folder: 7m1JMgKw7uieL3hC
@@ -1402,8 +1402,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727554537381
-      modifiedTime: 1727554548588
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.IoeUPoZxWFsapsTF'
   - _id: YGxKVqYI7GlcjzDm
@@ -1454,8 +1454,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727554537381
-      modifiedTime: 1727554537381
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.YGxKVqYI7GlcjzDm'
   - name: Chill Touch
@@ -1628,8 +1628,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727555069130
-      modifiedTime: 1727555069130
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.cQfrij7EoUMALEck'
   - name: Mage Hand
@@ -1772,8 +1772,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727555074400
-      modifiedTime: 1727555074400
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.s5zqZKHBtjhtyNN1'
   - name: Minor Illusion
@@ -1933,8 +1933,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727555079802
-      modifiedTime: 1727555079802
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.FmrS6eEogaQuayGJ'
   - name: Prestidigitation
@@ -2056,8 +2056,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727555084670
-      modifiedTime: 1727555084670
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.psuh8uWR1W4ra5bx'
   - name: Blight
@@ -2201,8 +2201,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727555091911
-      modifiedTime: 1727556153330
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.7bCN0KKRDvpVukAC'
   - name: Cause Fear
@@ -2347,8 +2347,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727555168420
-      modifiedTime: 1727556164715
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.wrPQGUTx8Y5JScF3'
   - name: Ray of Enfeeblement
@@ -2579,8 +2579,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727555221663
-      modifiedTime: 1727556204167
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.xsDTK3kRB038Q59d'
   - name: Shadow of Moil
@@ -2829,8 +2829,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727555677726
-      modifiedTime: 1727556219297
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.0WbcYJjUtAuNt9N6'
   - name: Enervation
@@ -3093,8 +3093,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727556066106
-      modifiedTime: 1727556191527
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.t33rBFgdrEUyZMEP'
   - name: Summon Undead
@@ -3279,8 +3279,8 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727556082989
-      modifiedTime: 1727556233646
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.O39ITOVHW2DENzyV'
   - name: Unseen Servant
@@ -3439,14 +3439,13 @@ items:
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727556089707
-      modifiedTime: 1727556250690
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!actors.items!zLz0KtkIUQ0tEZcC.wiHGz7wcsozXOvnZ'
 effects: []
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags:
   dnd5e:
     showTokenPortrait: false
@@ -3457,8 +3456,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1727554491443
-  modifiedTime: 1727556273527
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 sort: 0
 _id: zLz0KtkIUQ0tEZcC

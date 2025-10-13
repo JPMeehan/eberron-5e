@@ -122,8 +122,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.2.2
       createdTime: 1739000111457
-      modifiedTime: 1739000126453
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!items.effects!xZdO1uGs6vnAZz4j.kp70PpMAYpgHcsTI'
 folder: pfgIPIhOb1vLietp
@@ -135,11 +135,10 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384664769
-  modifiedTime: 1738999263795
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 sort: 7000
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 _key: '!items!xZdO1uGs6vnAZz4j'

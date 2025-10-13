@@ -60,14 +60,8 @@ system:
       hint: ''
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 img: icons/magic/control/energy-stream-link-white.webp
 flags:
-  plutonium:
-    page: feats.html
-    source: ExploringEberron
-    hash: thoughtsinger_exploringeberron
-    propDroppable: feat
   core: {}
 effects: []
 folder: pbprG9EdLDYnwbV6
@@ -78,8 +72,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384680082
-  modifiedTime: 1738040190666
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: EGfLN6v5JtlyUWe9
 sort: 0

@@ -2,15 +2,58 @@ folder: F1gsAFdTkSB3M1RM
 name: Bonecraft Armor
 type: spell
 _id: 6ZZKoG94sJUgBYfg
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/death/skull-trio-badge-purple.webp
 system:
-  activities: {}
+  activities:
+    iDEMawCCTX2nRiHO:
+      type: utility
+      _id: iDEMawCCTX2nRiHO
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You incorporate necromantically-enhanced bone into your armor. As part
+      of casting this spell, you transform one suit of medium or heavy armor
+      that you are wearing into bonecraft armor. The armor maintains its
+      existing statistics, but is no longer considered to be made of metal,
+      cannot rust or be targeted by the heat metal spell, and cannot be removed
+      from your person against your will. </p><p>You can have only one suit of
+      bonecraft armor at a time. If you cast this spell on another suit of
+      armor, the previous suit loses this spell's benefits.</p>
     chat: ''
   identifier: bonecraft-armor
   source:
@@ -21,8 +64,9 @@ system:
     custom: ''
     license: ''
   activation:
-    type: action
+    type: minute
     condition: ''
+    value: 10
   duration:
     units: inst
   level: 1
@@ -50,20 +94,21 @@ system:
     affects:
       choice: false
       type: object
+      count: ''
+      special: ''
 effects: []
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 5.0.3
+  systemVersion: 5.1.9
   createdTime: 1748802045625
-  modifiedTime: 1748802088932
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!6ZZKoG94sJUgBYfg'

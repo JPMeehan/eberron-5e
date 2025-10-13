@@ -58,14 +58,8 @@ system:
       hint: ''
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 img: icons/equipment/chest/breastplate-layered-steel-black.webp
 flags:
-  plutonium:
-    page: feats.html
-    source: ExploringEberron
-    hash: juggernaut%20plating_exploringeberron
-    propDroppable: feat
   core: {}
 effects: []
 folder: qQfshd6Ve28n209Q
@@ -76,8 +70,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384680297
-  modifiedTime: 1738040338240
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: TvIJsCsiAFDDpx3g
 sort: 0

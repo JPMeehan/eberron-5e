@@ -105,12 +105,11 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384648568
-  modifiedTime: 1726384648568
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 _id: Rg30B5JFW0iPndSK
 sort: 3000
 _key: '!items!Rg30B5JFW0iPndSK'

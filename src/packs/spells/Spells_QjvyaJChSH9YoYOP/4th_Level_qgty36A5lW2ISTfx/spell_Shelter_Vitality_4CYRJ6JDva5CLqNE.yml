@@ -2,7 +2,7 @@ folder: qgty36A5lW2ISTfx
 name: Shelter Vitality
 type: spell
 _id: 4CYRJ6JDva5CLqNE
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/unholy/orb-swirling-pink.webp
 system:
   activities: {}
   uses:
@@ -10,7 +10,12 @@ system:
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You touch a creature and ward it against the malign energy of Mabar.
+      For the duration, the target’s maximum hit points and ability scores can’t
+      be reduced, and they gain immunity to Exhaustion. Any existing levels of
+      Exhaustion are suppressed for the duration of the spell, but not
+      removed.</p>
     chat: ''
   identifier: shelter-vitality
   source:
@@ -50,20 +55,63 @@ system:
     affects:
       choice: false
       type: ''
-effects: []
+effects:
+  - name: Shelter Vitality
+    img: icons/magic/unholy/orb-swirling-pink.webp
+    origin: Compendium.eberron-5e.spells.Item.4CYRJ6JDva5CLqNE
+    _id: 9wZkBuskqzl02ch2
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.exhaustion
+        mode: 3
+        value: '0'
+        priority: null
+      - key: system.attributes.hp.tempmax
+        mode: 4
+        value: '0'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: null
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: ''
+    tint: '#ffffff'
+    transfer: true
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1760312865306
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!4CYRJ6JDva5CLqNE.9wZkBuskqzl02ch2'
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 5.0.3
+  systemVersion: 5.1.9
   createdTime: 1748802991547
-  modifiedTime: 1748803007995
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!4CYRJ6JDva5CLqNE'

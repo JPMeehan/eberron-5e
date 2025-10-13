@@ -2,15 +2,57 @@ folder: F1gsAFdTkSB3M1RM
 name: Reinforce Undead
 type: spell
 _id: 1vb6UVoQmH4Mn8bL
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/death/skull-horned-goat-pentagram-red.webp
 system:
-  activities: {}
+  activities:
+    QsXor4iWlzYh0fTd:
+      type: utility
+      _id: QsXor4iWlzYh0fTd
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description: {}
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: DTCBodpzBCzobrdl
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+      roll:
+        prompt: false
+        visible: false
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You touch an Undead creature that is under your control and magically
+      thicken its flesh and bones, or summon vines, roots and other plant matter
+      to reinforce its body. For the duration, the creature gains a +2 bonus to
+      AC and Strength, Dexterity, and Constitution saving throws, and if it has
+      a vulnerability to bludgeoning, piercing, or slashing damage, it loses
+      that vulnerability.</p>
     chat: ''
   identifier: reinforce-undead
   source:
@@ -53,20 +95,75 @@ system:
       type: creature
       count: ''
       special: Undead creature
-effects: []
+effects:
+  - name: Reinforce Undead
+    img: icons/magic/death/skull-horned-goat-pentagram-red.webp
+    origin: Compendium.eberron-5e.spells.Item.1vb6UVoQmH4Mn8bL
+    transfer: false
+    _id: DTCBodpzBCzobrdl
+    type: base
+    system: {}
+    changes:
+      - key: system.attributes.ac.bonus
+        mode: 2
+        value: '2'
+        priority: null
+      - key: system.abilities.str.bonuses.save
+        mode: 2
+        value: '2'
+        priority: null
+      - key: system.abilities.dex.bonuses.save
+        mode: 2
+        value: '2'
+        priority: null
+      - key: system.abilities.con.bonuses.save
+        mode: 2
+        value: '2'
+        priority: null
+    disabled: false
+    duration:
+      startTime: null
+      combat: null
+      seconds: 28800
+      rounds: null
+      turns: null
+      startRound: null
+      startTurn: null
+    description: >-
+      <p>For the duration, the creature gains a +2 bonus to AC and Strength,
+      Dexterity, and Constitution saving throws, and if it has a vulnerability
+      to bludgeoning, piercing, or slashing damage, it loses that
+      vulnerability.</p>
+    tint: '#ffffff'
+    statuses: []
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+      coreVersion: '13.350'
+      systemId: dnd5e
+      systemVersion: 5.1.9
+      createdTime: 1760311516797
+      modifiedTime: null
+      lastModifiedBy: null
+    _key: '!items.effects!1vb6UVoQmH4Mn8bL.DTCBodpzBCzobrdl'
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 5.0.3
+  systemVersion: 5.1.9
   createdTime: 1748802310350
-  modifiedTime: 1748802369152
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!1vb6UVoQmH4Mn8bL'

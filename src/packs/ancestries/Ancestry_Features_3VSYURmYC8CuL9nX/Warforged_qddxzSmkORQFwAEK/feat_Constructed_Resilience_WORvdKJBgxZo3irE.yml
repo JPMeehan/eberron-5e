@@ -41,24 +41,7 @@ system:
   enchant: {}
   prerequisites:
     level: null
-flags:
-  ddbimporter:
-    type: race
-    entityRaceId: 260828
-    version: 4.0.4
-    baseName: Constructed Resilience
-    spellListIds: []
-    definitionKey: racial-trait:2149609
-    baseRaceName: Warforged
-    baseRaceId: 260828
-    subRaceShortName: null
-    fullRaceName: Warforged
-    isSubRace: true
-    groupIds: []
-    groupName: Warforged
-  obsidian:
-    source:
-      type: race
+flags: {}
 img: icons/environment/creatures/golem-stone-purple.webp
 folder: qddxzSmkORQFwAEK
 effects: []
@@ -69,12 +52,11 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384609237
-  modifiedTime: 1726384609237
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: WORvdKJBgxZo3irE
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 _key: '!items!WORvdKJBgxZo3irE'

@@ -3,9 +3,7 @@ name: Eneko
 color: null
 type: Item
 folder: 3VSYURmYC8CuL9nX
-flags:
-  ddbimporter:
-    flagTag: trait/Goliath/Goliath
+flags: {}
 sorting: a
 sort: 0
 _stats:
@@ -13,8 +11,8 @@ _stats:
   systemVersion: 3.0.2
   coreVersion: '12.331'
   createdTime: null
-  modifiedTime: 1725337770558
-  lastModifiedBy: MVioF9x1qI1WYGx1
+  modifiedTime: null
+  lastModifiedBy: null
   compendiumSource: null
   duplicateSource: null
 description: ''

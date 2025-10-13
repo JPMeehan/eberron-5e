@@ -125,7 +125,6 @@ effects: []
 sort: 300000
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags:
   dnd5e:
     riders:
@@ -138,7 +137,7 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.3.3
   createdTime: 1726384670101
-  modifiedTime: 1739939479801
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _key: '!items!eS6XA9ntLKqcQjfo'

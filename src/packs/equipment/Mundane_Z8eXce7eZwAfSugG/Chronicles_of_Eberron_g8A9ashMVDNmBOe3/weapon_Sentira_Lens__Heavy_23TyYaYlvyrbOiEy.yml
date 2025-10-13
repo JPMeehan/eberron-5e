@@ -181,11 +181,8 @@ system:
 effects: []
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags:
   core: {}
-  chaosos-5e-content:
-    weaponMastered: false
   dnd5e:
     riders:
       activity: []
@@ -198,8 +195,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384671968
-  modifiedTime: 1726384671968
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: 23TyYaYlvyrbOiEy
 sort: 200000

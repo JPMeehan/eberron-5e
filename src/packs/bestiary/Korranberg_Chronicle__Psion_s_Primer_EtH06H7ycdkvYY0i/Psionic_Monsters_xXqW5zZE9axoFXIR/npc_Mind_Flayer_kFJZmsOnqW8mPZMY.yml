@@ -2025,50 +2025,8 @@ effects: []
 folder: xXqW5zZE9axoFXIR
 ownership:
   default: 0
-  MVioF9x1qI1WYGx1: 3
-  q6n1efCGVB98drEQ: 3
 flags:
   dnd5e: {}
-  monsterMunch:
-    url: https://www.dndbeyond.com/monsters/17104-mind-flayer
-    img: https://www.dndbeyond.com/avatars/30833/422/638063863516115418.png
-    tokenImg: https://www.dndbeyond.com/avatars/8/601/636312287871741533.jpeg
-    isStockImg: false
-    spellList:
-      class: []
-      pact: []
-      atwill: []
-      innate:
-        - name: detect thoughts
-          type: atwill
-          value: null
-          innate: true
-        - name: levitate
-          type: atwill
-          value: null
-          innate: true
-        - name: dominate monster
-          type: day
-          value: '1'
-          innate: true
-        - name: plane shift
-          type: day
-          value: '1'
-          innate: true
-      edgeCases:
-        - name: plane shift
-          type: innate
-          edge: self only
-      material: false
-      innateMatch: true
-  ddbimporter:
-    id: 17104
-    entityTypeId: 779871897
-    creatureGroupId: null
-    creatureFlags: []
-    version: 4.0.10
-    isLegacy: false
-    flatAC: false
   core: {}
 _stats:
   compendiumSource: null
@@ -2077,8 +2035,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.3.5
   createdTime: 1726384678114
-  modifiedTime: 1740950740558
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: kFJZmsOnqW8mPZMY
 sort: 0

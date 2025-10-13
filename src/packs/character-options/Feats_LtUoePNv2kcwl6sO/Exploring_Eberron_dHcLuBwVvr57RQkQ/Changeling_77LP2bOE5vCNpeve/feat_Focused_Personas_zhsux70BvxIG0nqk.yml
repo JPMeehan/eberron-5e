@@ -109,14 +109,8 @@ system:
       hint: ''
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 img: icons/tools/hand/hammer-and-nail.webp
 flags:
-  plutonium:
-    page: feats.html
-    source: ExploringEberron
-    hash: focused%20personas_exploringeberron
-    propDroppable: feat
   core: {}
   dnd5e:
     riders:
@@ -131,8 +125,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384680822
-  modifiedTime: 1738040151240
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: zhsux70BvxIG0nqk
 sort: 0

@@ -32,24 +32,7 @@ system:
   enchant: {}
   prerequisites:
     level: null
-flags:
-  ddbimporter:
-    type: race
-    entityRaceId: 1026392
-    version: 4.0.4
-    baseName: Stone's Endurance
-    spellListIds: []
-    definitionKey: racial-trait:8429487
-    baseRaceName: Goliath
-    baseRaceId: 1026392
-    subRaceShortName: null
-    fullRaceName: Goliath
-    isSubRace: true
-    groupIds: []
-    groupName: Goliath
-  obsidian:
-    source:
-      type: race
+flags: {}
 img: icons/equipment/shield/heater-stone-orange.webp
 folder: 7W3tA3UjYoprpp70
 effects: []
@@ -60,12 +43,11 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384610155
-  modifiedTime: 1726384610155
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: pQbP3T6FzriG9ZJq
 sort: 300000
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 _key: '!items!pQbP3T6FzriG9ZJq'

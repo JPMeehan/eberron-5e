@@ -2,15 +2,81 @@ folder: 64K3cigPSnFdVcYq
 name: Dreadful Proliferation
 type: spell
 _id: AlGQ1bllCMN4UkUw
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/magic/nature/mushrooms-fire-glow-blue.webp
 system:
-  activities: {}
+  activities:
+    PrQZlQfJUuWCKtDZ:
+      type: save
+      _id: PrQZlQfJUuWCKtDZ
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects: []
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      damage:
+        onSave: none
+        parts:
+          - custom:
+              enabled: false
+              formula: ''
+            number: 4
+            denomination: 6
+            bonus: ''
+            types: []
+            scaling:
+              mode: whole
+      save:
+        ability:
+          - con
+        dc:
+          calculation: spellcasting
+          formula: ''
+      name: ''
+      img: ''
+      appliedEffects: []
   uses:
     spent: 0
     recovery: []
     max: ''
   description:
-    value: ''
+    value: >-
+      <p>You target a corpse of a living creature within range and rapidly
+      cultivate a flesh-eating fungus in it. The fungus immediately flowers out
+      of the corpse and releases caustic spores within a 15- foot radius sphere.
+      Creatures in that area mustmake a Constitution saving throw. On a failed
+      save, a creature takes 4d6 necrotic damage, or half as much damage on a
+      successful save. </p><p>If a creature is reduced to 0 hit points by this
+      spell, they die and proliferate the fungus, causing another sporing from
+      their corpse on their initiative count next round. </p><p><strong>At
+      Higher Levels.</strong> When you cast this spell using a spell slot of 3rd
+      level or higher, the damage increases by 1d6 for each slot level above
+      2nd.</p>
     chat: ''
   identifier: dreadful-proliferation
   source:
@@ -47,24 +113,27 @@ system:
     template:
       contiguous: false
       units: ft
-      type: ''
+      type: sphere
+      size: '15'
+      count: ''
     affects:
       choice: false
-      type: ''
+      type: creature
+      count: ''
+      special: ''
 effects: []
 sort: 0
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.344'
+  coreVersion: '13.350'
   systemId: dnd5e
-  systemVersion: 5.0.3
+  systemVersion: 5.1.9
   createdTime: 1748802544312
-  modifiedTime: 1748802594545
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
 _key: '!items!AlGQ1bllCMN4UkUw'

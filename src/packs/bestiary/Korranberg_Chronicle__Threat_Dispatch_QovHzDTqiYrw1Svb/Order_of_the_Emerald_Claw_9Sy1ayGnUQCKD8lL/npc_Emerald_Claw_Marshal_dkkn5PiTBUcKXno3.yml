@@ -1281,7 +1281,6 @@ items:
 effects: []
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 flags: {}
 _stats:
   compendiumSource: null
@@ -1290,8 +1289,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.4
   createdTime: 1727630637952
-  modifiedTime: 1727630639230
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: dkkn5PiTBUcKXno3
 sort: 300000

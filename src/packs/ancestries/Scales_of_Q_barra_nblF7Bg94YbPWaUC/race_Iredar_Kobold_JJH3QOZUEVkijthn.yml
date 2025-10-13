@@ -140,8 +140,6 @@ system:
 effects: []
 ownership:
   default: 0
-  MVioF9x1qI1WYGx1: 3
-  q6n1efCGVB98drEQ: 3
 flags:
   core: {}
 _stats:
@@ -151,8 +149,8 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384608061
-  modifiedTime: 1726384608061
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: JJH3QOZUEVkijthn
 sort: 200000

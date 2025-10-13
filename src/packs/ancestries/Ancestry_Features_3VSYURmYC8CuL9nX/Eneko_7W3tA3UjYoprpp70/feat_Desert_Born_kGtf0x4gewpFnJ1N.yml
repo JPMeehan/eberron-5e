@@ -28,24 +28,7 @@ system:
   enchant: {}
   prerequisites:
     level: null
-flags:
-  ddbimporter:
-    type: race
-    entityRaceId: 1026392
-    version: 4.0.4
-    baseName: Mountain Born
-    spellListIds: []
-    definitionKey: racial-trait:8429486
-    baseRaceName: Goliath
-    baseRaceId: 1026392
-    subRaceShortName: null
-    fullRaceName: Goliath
-    isSubRace: true
-    groupIds: []
-    groupName: Goliath
-  obsidian:
-    source:
-      type: race
+flags: {}
 img: icons/environment/wilderness/cave-entrance-rocky.webp
 folder: 7W3tA3UjYoprpp70
 effects: []
@@ -56,12 +39,11 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384609845
-  modifiedTime: 1726384609845
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 _id: kGtf0x4gewpFnJ1N
 sort: 200000
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 _key: '!items!kGtf0x4gewpFnJ1N'

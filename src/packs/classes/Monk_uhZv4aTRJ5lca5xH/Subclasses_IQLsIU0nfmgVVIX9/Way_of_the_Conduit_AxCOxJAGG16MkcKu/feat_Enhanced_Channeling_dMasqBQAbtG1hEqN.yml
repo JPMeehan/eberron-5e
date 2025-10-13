@@ -261,8 +261,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726899120291
-      modifiedTime: 1726899165175
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _key: '!items.effects!dMasqBQAbtG1hEqN.QmAFuHyh17PHP64d'
   - name: Spirit of Conflict (Foe)
@@ -295,8 +295,8 @@ effects:
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726899145843
-      modifiedTime: 1726899180547
-      lastModifiedBy: q6n1efCGVB98drEQ
+      modifiedTime: null
+      lastModifiedBy: null
       exportSource: null
     _id: K0I3U4brUxyeUco7
     _key: '!items.effects!dMasqBQAbtG1hEqN.K0I3U4brUxyeUco7'
@@ -309,11 +309,10 @@ _stats:
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384654382
-  modifiedTime: 1726899530769
-  lastModifiedBy: q6n1efCGVB98drEQ
+  modifiedTime: null
+  lastModifiedBy: null
   exportSource: null
 sort: 11000
 ownership:
   default: 0
-  q6n1efCGVB98drEQ: 3
 _key: '!items!dMasqBQAbtG1hEqN'
