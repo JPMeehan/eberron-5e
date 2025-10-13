@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.4
+
+- Fully Implemented level 1-5 spells from DGBoV
+- Added the Cloak of the Tides from GGtX
+
 ## 1.1.3
 
 - Added Steel Kraken to bestiary
