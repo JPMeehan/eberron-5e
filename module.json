@@ -21,6 +21,7 @@
       {
         "id": "prime-psionics",
         "type": "module",
+        "manifest": "https://github.com/JPMeehan/prime-psionics/releases/latest/download/module.json",
         "compatibility": {}
       },
       {
@@ -31,6 +32,7 @@
       {
         "id": "eberron-calendar",
         "type": "module",
+        "manifest": "https://github.com/JPMeehan/eberron-calendar/releases/latest/download/module.json",
         "compatibility": {}
       }
     ]
