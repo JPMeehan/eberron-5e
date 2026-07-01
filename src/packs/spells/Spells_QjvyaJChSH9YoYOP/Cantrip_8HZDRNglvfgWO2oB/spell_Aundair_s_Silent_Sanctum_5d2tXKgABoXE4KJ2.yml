@@ -44,9 +44,10 @@ system:
       type: radius
       size: '5'
       contiguous: false
+      stationary: false
   range:
     value: '0'
-    units: ''
+    units: self
   uses:
     max: ''
     recovery: []
@@ -88,11 +89,13 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -106,28 +109,31 @@ system:
         prompt: false
         visible: false
       sort: 0
+      img: null
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: aundairs-silent-sanctum
+  method: spell
+  prepared: 2
 img: icons/magic/defensive/illusion-evasion-echo-purple.webp
 ownership:
   default: 0
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedProperties:
-      - somatic
-      - concentration
+  dnd5e: {}
 effects: []
 folder: 8HZDRNglvfgWO2oB
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726384668938
+  systemVersion: 5.3.3
+  createdTime: 1782908729543
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

@@ -93,20 +93,12 @@ effects:
   - name: Battle Savvy
     origin: Compendium.eberron-5e.classes.Item.8bf280DLpAAK9bbw
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     disabled: false
     _id: T3zNEJoF1oXvoSdg
-    changes:
-      - key: system.attributes.init.bonus
-        mode: 2
-        value: '@abilities.int.mod'
-        priority: null
     description: ''
     transfer: true
     statuses: []
@@ -130,7 +122,7 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
@@ -139,15 +131,23 @@ effects:
       exportSource: null
     img: icons/svg/book.svg
     type: base
-    system: {}
+    system:
+      changes:
+        - key: system.attributes.init.bonus
+          value: '@abilities.int.mod'
+          priority: null
+          type: add
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!8bf280DLpAAK9bbw.T3zNEJoF1oXvoSdg'
 folder: 5Oy6Dulk9VEw6pKB
 _id: 8bf280DLpAAK9bbw
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384641154

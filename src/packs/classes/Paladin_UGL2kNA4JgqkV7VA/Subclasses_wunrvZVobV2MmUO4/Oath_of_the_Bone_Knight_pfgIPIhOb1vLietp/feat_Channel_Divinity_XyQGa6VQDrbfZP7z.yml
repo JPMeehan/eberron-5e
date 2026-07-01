@@ -176,24 +176,23 @@ effects:
     img: icons/magic/death/hand-undead-skeleton-fire-pink.webp
     disabled: true
     _id: sON8cvwgTUJj2GS1
-    system: {}
-    changes:
-      - key: system.damage.parts
-        mode: 2
-        value: '[["@abilities.cha.mod", "necrotic"]]'
-        priority: null
-      - key: system.properties
-        mode: 2
-        value: mgc
-        priority: null
+    system:
+      changes:
+        - key: system.damage.parts
+          value:
+            - - '@abilities.cha.mod'
+              - necrotic
+          priority: null
+          type: add
+        - key: system.properties
+          value: mgc
+          priority: null
+          type: add
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 10
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 10
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: ''
     origin: null
     tint: '#ffffff'
@@ -204,13 +203,16 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.2.2
       createdTime: 1738999747095
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!XyQGa6VQDrbfZP7z.sON8cvwgTUJj2GS1'
   - name: Seize Control
     img: icons/magic/death/hand-undead-skeleton-fire-pink.webp
@@ -218,17 +220,14 @@ effects:
     transfer: false
     _id: crl4zqCS0qEEeupN
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
     disabled: false
     duration:
-      startTime: null
-      seconds: 86400
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 86400
+      units: seconds
+      expiry: turnStart
+      expired: false
     description: ''
     tint: '#ffffff'
     statuses: []
@@ -237,13 +236,16 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.2.2
       createdTime: 1739000042430
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!XyQGa6VQDrbfZP7z.crl4zqCS0qEEeupN'
 sort: 0
 ownership:
@@ -256,7 +258,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1738999028274

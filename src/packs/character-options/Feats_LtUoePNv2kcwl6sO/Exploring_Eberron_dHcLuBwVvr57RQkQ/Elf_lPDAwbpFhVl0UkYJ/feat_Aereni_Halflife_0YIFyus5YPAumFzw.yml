@@ -61,25 +61,13 @@ flags:
 effects:
   - origin: Compendium.chaosos-5e-content.kbp-backgrounds.Item.0YIFyus5YPAumFzw
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     disabled: false
     name: Aereni Half-Life
     _id: Xa2Xp8VKS7xztXfx
-    changes:
-      - key: system.traits.dr
-        mode: 2
-        value: necrotic
-        priority: null
-      - key: system.traits.dr
-        mode: 2
-        value: radiant
-        priority: null
     description: >-
       <p>You gain resistance to necrotic and radiant damage, and you have
       advantage on death saving throws.</p>
@@ -90,7 +78,7 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
@@ -99,14 +87,26 @@ effects:
       exportSource: null
     img: icons/magic/holy/yin-yang-balance-symbol.webp
     type: base
-    system: {}
+    system:
+      changes:
+        - key: system.traits.dr
+          value: necrotic
+          priority: null
+          type: add
+        - key: system.traits.dr
+          value: radiant
+          priority: null
+          type: add
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!0YIFyus5YPAumFzw.Xa2Xp8VKS7xztXfx'
 folder: lPDAwbpFhVl0UkYJ
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384679887

@@ -43,8 +43,9 @@ system:
     affects:
       choice: false
     template:
-      units: ''
+      units: ft
       contiguous: false
+      stationary: false
   range:
     value: '30'
     units: ft
@@ -91,11 +92,13 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -109,27 +112,29 @@ system:
         prompt: false
         visible: false
       sort: 0
+      img: null
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: planar-anchor
+  method: spell
+  prepared: 0
 effects: []
 sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedProperties:
-      - vocal
-      - somatic
-      - material
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726384668800
+  systemVersion: 5.3.3
+  createdTime: 1782908729529
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

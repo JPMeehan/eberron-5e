@@ -35,6 +35,7 @@ system:
       type: sphere
       size: '20'
       contiguous: false
+      stationary: false
   range:
     value: '60'
     units: ft
@@ -79,11 +80,13 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -107,33 +110,37 @@ system:
               number: 2
               formula: ''
       save:
-        ability: con
+        ability:
+          - con
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
+      img: null
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: concussive-burst
+  method: spell
+  prepared: 0
 img: icons/magic/sonic/explosion-shock-wave-teal.webp
 ownership:
   default: 0
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 effects: []
 folder: F1gsAFdTkSB3M1RM
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726384669460
+  systemVersion: 5.3.3
+  createdTime: 1782908729610
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

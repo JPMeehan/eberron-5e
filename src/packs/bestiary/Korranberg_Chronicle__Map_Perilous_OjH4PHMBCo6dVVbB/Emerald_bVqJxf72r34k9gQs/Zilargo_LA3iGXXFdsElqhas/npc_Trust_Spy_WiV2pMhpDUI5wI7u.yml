@@ -407,12 +407,9 @@ prototypeToken:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -456,7 +453,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -476,6 +473,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 items:
   - name: Multiattack
     type: feat
@@ -546,7 +544,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
@@ -690,7 +688,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
@@ -827,7 +825,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
@@ -907,7 +905,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
@@ -951,7 +949,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
@@ -998,7 +996,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
@@ -1159,7 +1157,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMinorIllus
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: null
@@ -1174,10 +1172,10 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.3.5
-  createdTime: 1736017291485
+  systemVersion: 5.3.3
+  createdTime: 1782908732473
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

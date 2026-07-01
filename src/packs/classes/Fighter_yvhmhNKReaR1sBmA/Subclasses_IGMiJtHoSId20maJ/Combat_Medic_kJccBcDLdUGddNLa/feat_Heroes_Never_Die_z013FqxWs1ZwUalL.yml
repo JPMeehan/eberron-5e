@@ -60,6 +60,7 @@ system:
           contiguous: false
           units: ft
           type: ''
+          stationary: false
         affects:
           choice: false
           count: '1'
@@ -73,7 +74,7 @@ system:
         max: ''
       healing:
         number: null
-        denomination: ''
+        denomination: null
         types: []
         custom:
           enabled: true
@@ -84,28 +85,34 @@ system:
       name: ''
       img: ''
       appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: heroes-never-die
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: {}
+  crewed: false
 img: icons/svg/book.svg
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 effects: []
 folder: kJccBcDLdUGddNLa
 _id: z013FqxWs1ZwUalL
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.2
-  createdTime: 1726384665311
+  systemVersion: 5.3.3
+  createdTime: 1782908729311
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

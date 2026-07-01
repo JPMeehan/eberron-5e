@@ -425,12 +425,9 @@ prototypeToken:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -474,7 +471,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -494,6 +491,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 2
 items:
   - name: Multiattack
     type: feat
@@ -529,7 +527,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
@@ -647,7 +645,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
@@ -824,17 +822,14 @@ items:
         transfer: false
         _id: lJpGv4vgXTc1rW5B
         type: base
-        system: {}
-        changes: []
+        system:
+          changes: []
         disabled: false
         duration:
-          startTime: null
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: >-
           <p>While bleeding, a creature takes 2 (1d4) points of Necrotic damage
           at the start of each of its turns. The bleeding ends after 1 minute,
@@ -850,13 +845,16 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: 1727537778827
           modifiedTime: 1727537810288
           lastModifiedBy: null
           exportSource: null
+        showIcon: 2
+        start: null
+        folder: null
         _key: >-
           !actors.items.effects!2jJRYPCvwdLwZTFB.zOr5L5f0RY1F4qWQ.lJpGv4vgXTc1rW5B
     folder: null
@@ -872,7 +870,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
@@ -992,7 +990,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
@@ -1092,7 +1090,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
@@ -1139,7 +1137,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: 1727537615535
@@ -1156,10 +1154,10 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727537448071
+  systemVersion: 5.3.3
+  createdTime: 1782908730961
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

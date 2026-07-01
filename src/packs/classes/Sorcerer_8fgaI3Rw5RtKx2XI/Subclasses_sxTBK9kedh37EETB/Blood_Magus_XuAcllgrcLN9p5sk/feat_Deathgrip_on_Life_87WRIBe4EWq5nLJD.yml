@@ -99,21 +99,18 @@ effects:
     origin: Compendium.eberron-5e.classes.Item.87WRIBe4EWq5nLJD
     _id: 26QOd9UsdtimuuI7
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.hp.bonuses.level
-        mode: 2
-        value: '1'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.hp.bonuses.level
+          value: 1
+          priority: null
+          type: add
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     tint: '#ffffff'
     transfer: true
@@ -123,20 +120,23 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.2.2
       createdTime: 1739000317532
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!87WRIBe4EWq5nLJD.26QOd9UsdtimuuI7'
 folder: XuAcllgrcLN9p5sk
 _id: 87WRIBe4EWq5nLJD
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384640893

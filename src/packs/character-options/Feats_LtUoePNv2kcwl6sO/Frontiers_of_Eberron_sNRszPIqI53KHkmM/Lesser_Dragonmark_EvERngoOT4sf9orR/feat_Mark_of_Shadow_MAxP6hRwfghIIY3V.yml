@@ -54,29 +54,26 @@ effects:
   - name: Guidance of the Mark
     origin: Compendium.eberron-5e.character-options.Item.MAxP6hRwfghIIY3V
     duration:
-      rounds: null
-      startTime: null
-      seconds: null
-      combat: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     disabled: false
     flags:
       dnd5e: {}
     img: icons/magic/symbols/rune-sigil-rough-white-teal.webp
     _id: Oeype3mdWGF8KH7V
     type: base
-    system: {}
-    changes:
-      - key: system.skills.prf.bonuses.check
-        mode: 2
-        value: 1d4
-        priority: null
-      - key: system.skills.ste.bonuses.check
-        mode: 2
-        value: 1d4
-        priority: null
+    system:
+      changes:
+        - key: system.skills.prf.bonuses.check
+          value: 1d4
+          priority: null
+          type: add
+        - key: system.skills.ste.bonuses.check
+          value: 1d4
+          priority: null
+          type: add
     description: >-
       <p><span style="font-family:Signika, sans-serif">You add 1d4 to any
       ability check you make using the skills or tools associated with your
@@ -88,13 +85,16 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!MAxP6hRwfghIIY3V.Oeype3mdWGF8KH7V'
 sort: 0
 ownership:
@@ -103,7 +103,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384680191

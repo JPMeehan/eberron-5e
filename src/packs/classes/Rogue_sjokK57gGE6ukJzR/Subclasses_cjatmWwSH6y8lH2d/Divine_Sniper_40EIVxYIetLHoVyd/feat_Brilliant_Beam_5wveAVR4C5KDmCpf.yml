@@ -61,7 +61,7 @@ system:
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -72,7 +72,8 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
+          stationary: false
         affects:
           count: ''
           type: ''
@@ -100,33 +101,41 @@ system:
               number: null
               formula: ''
       save:
-        ability: dex
+        ability:
+          - dex
         dc:
           calculation: cha
           formula: ''
       sort: 0
+      img: null
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: brilliant-beam
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: {}
+  crewed: false
 img: icons/svg/book.svg
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 effects: []
 folder: 40EIVxYIetLHoVyd
 _id: 5wveAVR4C5KDmCpf
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726384640039
+  systemVersion: 5.3.3
+  createdTime: 1782908724423
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

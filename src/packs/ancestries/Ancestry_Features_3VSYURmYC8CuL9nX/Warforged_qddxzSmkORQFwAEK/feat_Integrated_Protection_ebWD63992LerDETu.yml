@@ -49,20 +49,12 @@ effects:
   - name: Integrated Protection
     origin: Compendium.eberron-5e.ancestries.Item.ebWD63992LerDETu
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     disabled: false
     _id: bzWl5Rj950upYGPa
-    changes:
-      - key: system.attributes.ac.bonus
-        mode: 2
-        value: '1'
-        priority: null
     description: <p>You gain a +1 bonus to Armor Class.</p>
     transfer: true
     statuses: []
@@ -71,7 +63,7 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
@@ -80,13 +72,21 @@ effects:
       exportSource: null
     img: icons/equipment/hand/gauntlet-armored-black.webp
     type: base
-    system: {}
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: 1
+          priority: null
+          type: add
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!ebWD63992LerDETu.bzWl5Rj950upYGPa'
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384609562

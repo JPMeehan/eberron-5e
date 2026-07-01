@@ -44,9 +44,12 @@ system:
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
   advancement:
-    - _id: YYmfkR4AHvM65jh9
+    YYmfkR4AHvM65jh9:
+      _id: YYmfkR4AHvM65jh9
       type: AbilityScoreImprovement
       configuration:
         cap: null
@@ -63,30 +66,29 @@ system:
           - con
           - int
         points: 1
+        recommendation: null
       value:
         type: asi
       level: 0
       title: ''
       hint: ''
+      flags: {}
+  crewed: false
 ownership:
   default: 0
 img: icons/magic/perception/eye-slit-orange.webp
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 effects: []
 folder: pbprG9EdLDYnwbV6
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.2.2
-  createdTime: 1726384680426
+  systemVersion: 5.3.3
+  createdTime: 1782908734022
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

@@ -505,7 +505,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -588,7 +588,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -717,7 +717,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -844,7 +844,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -934,7 +934,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -1016,7 +1016,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -1091,7 +1091,7 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -1150,7 +1150,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -1198,7 +1198,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -1228,12 +1228,9 @@ prototypeToken:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -1267,7 +1264,7 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -1287,6 +1284,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: WHWWLW3kFneE1X7T
 name: Valenar Warrior
 type: npc
@@ -1300,10 +1298,10 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.3.6
-  createdTime: 1742598268783
+  systemVersion: 5.3.3
+  createdTime: 1782908731529
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

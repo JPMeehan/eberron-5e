@@ -16,6 +16,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 12
       proficient: 0
@@ -23,6 +33,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 12
       proficient: 0
@@ -30,6 +50,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 19
       proficient: 1
@@ -37,6 +67,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 17
       proficient: 1
@@ -44,6 +84,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 17
       proficient: 1
@@ -51,6 +101,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   bonuses:
     mwak:
       attack: ''
@@ -316,9 +376,10 @@ system:
       climb: null
       fly: null
       swim: null
-      walk: 30
+      walk: '30'
       units: ft
       hover: false
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -328,6 +389,11 @@ system:
       truesight: 0
       units: ft
       special: ''
+      ranges:
+        darkvision: 120
+        blindsight: 0
+        tremorsense: 0
+        truesight: 0
     spellcasting: int
     exhaustion: 0
     ac:
@@ -359,6 +425,14 @@ system:
         mode: 0
       success: 0
       failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    loyalty: {}
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: >-
@@ -373,7 +447,7 @@ system:
         heavy purple metal found only in the mountain ranges of western
         Khorvaire, known as byeshk. This resistance increases the challenge
         rating of mind flayers and other aberrations in Eberron campaigns, as
-        noted in their stat blocks</p><hr /><p>When the Gatekeepers sealed the
+        noted in their stat blocks</p><hr><p>When the Gatekeepers sealed the
         dimensional gates, some mind flayers in Eberron were cut off from the
         elder brains controlling them from Xoriat. These orphaned mind flayers
         became independently sentient, something elder brains find abhorrent,
@@ -397,16 +471,24 @@ system:
     ideal: ''
     bond: ''
     flaw: ''
+    habitat:
+      custom: Underdark
+      value: []
+    treasure:
+      value: []
   resources:
     legact:
       value: 0
       max: 0
+      spent: 0
     legres:
       value: 0
       max: 0
+      spent: 0
     lair:
       value: false
       initiative: null
+      inside: false
   traits:
     size: med
     di:
@@ -436,6 +518,8 @@ system:
         - daelkyr
         - gith
       custom: Telepathy 120 ft.
+      communication: {}
+    important: false
   source:
     book: PsiPri
     page: ''
@@ -454,9 +538,6 @@ prototypeToken:
       https://foundryvtt-josephm.s3.us-east-1.amazonaws.com/tokens/monsters/DDB/monster/token/aberration/Mind-Flayer.webp
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -505,7 +586,7 @@ prototypeToken:
     saturation: -1
     contrast: 0
     color: null
-  detectionModes: []
+  detectionModes: {}
   flags:
     tagger:
       tags:
@@ -530,6 +611,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 items:
   - name: Tentacles
     type: weapon
@@ -649,7 +731,8 @@ items:
               size: ''
               width: ''
               height: ''
-              units: ''
+              units: ft
+              stationary: false
             affects:
               count: ''
               type: ''
@@ -676,6 +759,13 @@ items:
             includeBase: true
             parts: []
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
         dnd5eactivity100:
           _id: dnd5eactivity100
           type: save
@@ -712,7 +802,8 @@ items:
               size: ''
               width: ''
               height: ''
-              units: ''
+              units: ft
+              stationary: false
             affects:
               count: ''
               type: ''
@@ -740,15 +831,25 @@ items:
                   number: null
                   formula: ''
           save:
-            ability: int
+            ability:
+              - int
             dc:
               calculation: ''
               formula: '15'
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: ''
       attuned: false
       ammunition: {}
       magicalBonus: null
+      crew:
+        value: []
     effects: []
     flags:
       ddbimporter:
@@ -768,10 +869,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732881
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -894,7 +995,8 @@ items:
               size: ''
               width: ''
               height: ''
-              units: ''
+              units: ft
+              stationary: false
             affects:
               count: ''
               type: ''
@@ -921,10 +1023,19 @@ items:
             includeBase: true
             parts: []
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: ''
       attuned: false
       ammunition: {}
       magicalBonus: null
+      crew:
+        value: []
     effects: []
     flags:
       ddbimporter:
@@ -944,10 +1055,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732881
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1019,7 +1130,7 @@ items:
             override: false
           effects: []
           range:
-            units: ''
+            units: self
             special: ''
             override: false
           target:
@@ -1031,6 +1142,7 @@ items:
               width: ''
               height: ''
               units: ft
+              stationary: false
             affects:
               count: ''
               type: ''
@@ -1058,15 +1170,27 @@ items:
                   number: null
                   formula: ''
           save:
-            ability: int
+            ability:
+              - int
             dc:
               calculation: ''
               formula: '15'
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: mind-blast
       enchant: {}
       prerequisites:
         level: null
+        items: []
+        repeatable: false
+      advancement: {}
+      crewed: false
     effects: []
     flags:
       ddbimporter:
@@ -1087,10 +1211,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732881
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1124,6 +1248,10 @@ items:
       enchant: {}
       prerequisites:
         level: null
+        items: []
+        repeatable: false
+      advancement: {}
+      crewed: false
     effects: []
     flags:
       ddbimporter:
@@ -1142,10 +1270,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732882
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1182,6 +1310,10 @@ items:
       enchant: {}
       prerequisites:
         level: null
+        items: []
+        repeatable: false
+      advancement: {}
+      crewed: false
     effects: []
     flags:
       ddbimporter:
@@ -1200,10 +1332,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732882
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1218,6 +1350,8 @@ items:
         - description.chat
         - description.unidentified
       filePathFields:
+        activities.*.img:
+          - IMAGE
         img:
           - IMAGE
       description:
@@ -1259,8 +1393,9 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
+          stationary: false
       range:
         units: touch
       uses:
@@ -1309,7 +1444,8 @@ items:
               size: ''
               width: ''
               height: ''
-              units: ''
+              units: ft
+              stationary: false
             affects:
               count: '1'
               type: willing
@@ -1327,6 +1463,13 @@ items:
             prompt: false
             visible: false
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: mystic-traveler
     effects: []
     ownership:
@@ -1338,10 +1481,10 @@ items:
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.Gkt1NW0CDxiZqEvT
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732882
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1358,6 +1501,8 @@ items:
         - description.chat
         - description.unidentified
       filePathFields:
+        activities.*.img:
+          - IMAGE
         img:
           - IMAGE
       description:
@@ -1397,8 +1542,9 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
+          stationary: false
       range:
         units: self
       uses:
@@ -1447,7 +1593,8 @@ items:
               size: ''
               width: ''
               height: ''
-              units: ''
+              units: ft
+              stationary: false
             affects:
               count: '1'
               type: creature
@@ -1463,11 +1610,19 @@ items:
             onSave: half
             parts: []
           save:
-            ability: wis
+            ability:
+              - wis
             dc:
               calculation: spellcasting
               formula: ''
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: read-thoughts
     effects: []
     ownership:
@@ -1479,10 +1634,10 @@ items:
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.9KMC1vrdMCIwlnBz
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732882
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1499,6 +1654,8 @@ items:
         - description.chat
         - description.unidentified
       filePathFields:
+        activities.*.img:
+          - IMAGE
         img:
           - IMAGE
       description:
@@ -1530,8 +1687,9 @@ items:
           type: creature
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
+          stationary: false
       range:
         units: self
       uses:
@@ -1581,7 +1739,8 @@ items:
               size: ''
               width: ''
               height: ''
-              units: ''
+              units: ft
+              stationary: false
             affects:
               count: ''
               type: creature
@@ -1599,6 +1758,13 @@ items:
             prompt: false
             visible: false
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: gravitic-field
     effects: []
     ownership:
@@ -1610,10 +1776,10 @@ items:
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.xU538OkJcqCnZf6F
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732882
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1630,6 +1796,8 @@ items:
         - description.chat
         - description.unidentified
       filePathFields:
+        activities.*.img:
+          - IMAGE
         img:
           - IMAGE
       description:
@@ -1664,8 +1832,9 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
+          stationary: false
       range:
         value: '30'
         units: ft
@@ -1725,7 +1894,8 @@ items:
               size: ''
               width: ''
               height: ''
-              units: ''
+              units: ft
+              stationary: false
             affects:
               count: '1'
               type: creature
@@ -1741,11 +1911,19 @@ items:
             onSave: half
             parts: []
           save:
-            ability: cha
+            ability:
+              - cha
             dc:
               calculation: spellcasting
               formula: ''
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: assume-control
     effects: []
     ownership:
@@ -1758,10 +1936,10 @@ items:
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.bSpi5PEqAFnzyuPb
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732882
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1778,6 +1956,8 @@ items:
         - description.chat
         - description.unidentified
       filePathFields:
+        activities.*.img:
+          - IMAGE
         img:
           - IMAGE
       description:
@@ -1843,8 +2023,9 @@ items:
         affects:
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
+          stationary: false
       range:
         units: touch
       uses:
@@ -1902,7 +2083,8 @@ items:
               size: ''
               width: ''
               height: ''
-              units: ''
+              units: ft
+              stationary: false
             affects:
               count: ''
               type: ''
@@ -1920,6 +2102,13 @@ items:
             prompt: false
             visible: false
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: mystic-caravan
     effects: []
     ownership:
@@ -1932,10 +2121,10 @@ items:
     _stats:
       compendiumSource: Compendium.eberron-5e.spells.Item.kP7HCc2ClFR8CtJ4
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732882
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1989,6 +2178,7 @@ items:
       speed:
         value: null
         conditions: ''
+        units: ft
       strength: null
       type:
         value: medium
@@ -1996,12 +2186,15 @@ items:
       unidentified:
         description: ''
       container: null
-      properties: []
+      properties:
+        - gear
       equipped: true
       proficient: null
       identifier: breastplate
       activities: {}
       attuned: false
+      crew:
+        value: []
     effects: []
     folder: JqTP017wj3uxDJ8g
     sort: 0
@@ -2013,10 +2206,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.items.Item.SK2HATQ4abKUlV8i
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732882
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2031,10 +2224,10 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.3.5
-  createdTime: 1726384678114
+  systemVersion: 5.3.3
+  createdTime: 1782908732880
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

@@ -42,6 +42,7 @@ system:
       type: cube
       size: '30'
       contiguous: false
+      stationary: false
   range:
     units: self
   uses:
@@ -86,11 +87,13 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -114,11 +117,19 @@ system:
               number: null
               formula: ''
       save:
-        ability: str
+        ability:
+          - str
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
+      img: null
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     dnd5eactivity200:
       _id: dnd5eactivity200
       type: damage
@@ -141,11 +152,13 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -170,27 +183,29 @@ system:
               number: null
               formula: ''
       sort: 0
+      img: null
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: devourers-teeth
+  method: spell
+  prepared: 0
 effects: []
 ownership:
   default: 0
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedProperties:
-      - vocal
-      - somatic
-      - material
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726384669573
+  systemVersion: 5.3.3
+  createdTime: 1782908729645
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

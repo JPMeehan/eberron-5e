@@ -99,25 +99,13 @@ system:
 effects:
   - origin: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     disabled: true
     name: Tools of the Master +1
     _id: LsK0vzhJjjNLVtl0
-    changes:
-      - key: system.bonuses.rsak.attack
-        mode: 2
-        value: '1'
-        priority: null
-      - key: system.bonuses.msak.attack
-        mode: 2
-        value: '1'
-        priority: null
     description: >-
       <p><span style="font-family:Signika, sans-serif">While using this tool as
       a spellcasting focus, you gain a +1 bonus to spell attack rolls. In
@@ -132,7 +120,7 @@ effects:
       compendiumSource: >-
         Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6.ActiveEffect.LsK0vzhJjjNLVtl0
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
@@ -141,30 +129,30 @@ effects:
       exportSource: null
     img: icons/tools/hand/hammer-and-nail.webp
     type: base
-    system: {}
+    system:
+      changes:
+        - key: system.bonuses.rsak.attack
+          value: 1
+          priority: null
+          type: add
+        - key: system.bonuses.msak.attack
+          value: 1
+          priority: null
+          type: add
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!mvIUADKnAC4bZTja.LsK0vzhJjjNLVtl0'
   - origin: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     disabled: true
     name: Tools of the Master +2
     _id: hGCA7e7A0tXhpNIv
-    changes:
-      - key: system.bonuses.rsak.attack
-        mode: 2
-        value: '2'
-        priority: null
-      - key: system.bonuses.msak.attack
-        mode: 2
-        value: '2'
-        priority: null
     description: >-
       <p><span style="font-family:Signika, sans-serif">While using this tool as
       a spellcasting focus, you gain a +2 bonus to spell attack rolls. In
@@ -177,7 +165,7 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
@@ -186,30 +174,30 @@ effects:
       exportSource: null
     img: icons/tools/hand/hammer-and-nail.webp
     type: base
-    system: {}
+    system:
+      changes:
+        - key: system.bonuses.rsak.attack
+          value: 2
+          priority: null
+          type: add
+        - key: system.bonuses.msak.attack
+          value: 2
+          priority: null
+          type: add
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!mvIUADKnAC4bZTja.hGCA7e7A0tXhpNIv'
   - origin: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     disabled: true
     name: Tools of the Master +3
     _id: agcGHfq3Cp1Onxsy
-    changes:
-      - key: system.bonuses.rsak.attack
-        mode: 2
-        value: '3'
-        priority: null
-      - key: system.bonuses.rsak.attack
-        mode: 2
-        value: '3'
-        priority: null
     description: >-
       <p>While using this tool as a spellcasting focus, you gain a +3 bonus to
       spell attack rolls. In addition, you can add this bonus to any ability
@@ -221,7 +209,7 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.0
       createdTime: null
@@ -230,8 +218,20 @@ effects:
       exportSource: null
     img: icons/tools/hand/hammer-and-nail.webp
     type: base
-    system: {}
+    system:
+      changes:
+        - key: system.bonuses.rsak.attack
+          value: 3
+          priority: null
+          type: add
+        - key: system.bonuses.rsak.attack
+          value: 3
+          priority: null
+          type: add
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!mvIUADKnAC4bZTja.agcGHfq3Cp1Onxsy'
 ownership:
   default: 0
@@ -244,7 +244,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1726384672076

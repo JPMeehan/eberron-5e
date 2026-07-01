@@ -106,6 +106,7 @@ system:
       effects:
         - _id: b5yuDQdW74MQOhxf
           onSave: false
+          level: {}
       range:
         units: touch
         special: ''
@@ -118,7 +119,8 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
+          stationary: false
         affects:
           count: '1'
           type: creature
@@ -134,7 +136,8 @@ system:
         onSave: half
         parts: []
       save:
-        ability: wis
+        ability:
+          - wis
         dc:
           calculation: spellcasting
           formula: ''
@@ -143,6 +146,12 @@ system:
       img: ''
       appliedEffects:
         - b5yuDQdW74MQOhxf
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     XRhraG4yRFNTNWfL:
       type: attack
       name: Eldritch Spirit
@@ -175,6 +184,7 @@ system:
           contiguous: false
           units: ft
           type: ''
+          stationary: false
         affects:
           choice: false
           count: '1'
@@ -212,6 +222,12 @@ system:
               number: 1
       img: ''
       appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     OcwSErZh7s4O3Aeh:
       type: utility
       name: Spirit of Conflict
@@ -243,6 +259,7 @@ system:
           contiguous: false
           units: ft
           type: ''
+          stationary: false
         affects:
           choice: false
           count: ''
@@ -260,6 +277,12 @@ system:
         formula: ''
       img: ''
       appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
     Q7MzNBZ5b9e9yKdA:
       type: damage
       name: Spirit of Subtlety
@@ -293,6 +316,7 @@ system:
           contiguous: false
           units: ft
           type: ''
+          stationary: false
         affects:
           choice: false
           count: ''
@@ -318,34 +342,37 @@ system:
               number: 1
       img: ''
       appliedEffects: []
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: spiritual-channel
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: {}
+  crewed: false
 img: icons/svg/book.svg
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 effects:
   - name: Spirit of Eloquence
     img: systems/dnd5e/icons/svg/statuses/charmed.svg
     _id: b5yuDQdW74MQOhxf
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
     disabled: true
     duration:
-      startTime: null
-      seconds: 3600
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 3600
+      units: seconds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>It is charmed by you for one hour or until you or your companions do
       anything harmful to it. The charmed creature regards you as a friendly
@@ -362,33 +389,34 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.2
-      createdTime: 1726896747274
+      systemVersion: 5.3.3
+      createdTime: 1782908728717
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
+    showIcon: 2
+    start: null
+    folder: null
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.b5yuDQdW74MQOhxf'
   - name: Spirit of Conflict
     img: icons/svg/aura.svg
     _id: KOPa3W2PcY9aPuij
     type: base
-    system: {}
-    changes:
-      - key: system.bonuses.mwak.damage
-        mode: 2
-        value: '@scale.way-of-the-conduit.conflict'
-        priority: null
+    system:
+      changes:
+        - key: system.bonuses.mwak.damage
+          value: '@scale.way-of-the-conduit.conflict'
+          priority: null
+          type: add
+          phase: initial
     disabled: true
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>When you call this spirit, you gain a +1 bonus to all melee damage
       rolls made with a monk weapon or unarmed strike. This bonus increases when
@@ -406,37 +434,39 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.2
-      createdTime: 1726897534071
+      systemVersion: 5.3.3
+      createdTime: 1782908728717
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.KOPa3W2PcY9aPuij'
   - name: Spirit of Eloquence
     img: icons/svg/aura.svg
     _id: ldrdMauh8Wh3F4y6
     type: base
-    system: {}
-    changes:
-      - key: system.skills.ins.value
-        mode: 2
-        value: '1'
-        priority: null
-      - key: system.skills.per.value
-        mode: 2
-        value: '1'
-        priority: null
+    system:
+      changes:
+        - key: system.skills.ins.value
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+        - key: system.skills.per.value
+          value: 1
+          priority: null
+          type: add
+          phase: initial
     disabled: true
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p><span style="font-family:'Roboto Condensed', sans-serif">When you call
       this spirit, you gain proficiency with Insight and Persuasion; if you
@@ -451,36 +481,38 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.2
-      createdTime: 1726897863105
+      systemVersion: 5.3.3
+      createdTime: 1782908728717
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.ldrdMauh8Wh3F4y6'
   - name: Spirit of Subtlety
     img: icons/svg/aura.svg
     type: base
-    system: {}
-    changes:
-      - key: system.skills.dec.value
-        mode: 2
-        value: '1'
-        priority: null
-      - key: system.skills.ste.value
-        mode: 2
-        value: '1'
-        priority: null
+    system:
+      changes:
+        - key: system.skills.dec.value
+          value: 1
+          priority: null
+          type: add
+          phase: initial
+        - key: system.skills.ste.value
+          value: 1
+          priority: null
+          type: add
+          phase: initial
     disabled: true
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p><span style="font-family:'Roboto Condensed', sans-serif">When you call
       this spirit, you gain proficiency with Deception and Stealth; if you
@@ -495,34 +527,35 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.2
-      createdTime: 1726897969218
+      systemVersion: 5.3.3
+      createdTime: 1782908728717
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
     _id: eLwTUnF2cp4MWnBK
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.eLwTUnF2cp4MWnBK'
   - name: Stalwart Spirit
     img: icons/svg/aura.svg
     _id: wjSVQ1q8cr9exTGH
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.ac.bonus
-        mode: 2
-        value: '@scale.way-of-the-conduit.stalwart'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: '@scale.way-of-the-conduit.stalwart'
+          priority: null
+          type: add
+          phase: initial
     disabled: true
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 1
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
       <p><span style="font-family:'Roboto Condensed', sans-serif">You gain a
       bonus to your AC until the end of your next turn.</span></p>
@@ -535,23 +568,26 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.2
-      createdTime: 1726898293136
+      systemVersion: 5.3.3
+      createdTime: 1782908728717
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!sdv5ZXmH2ogJQ6b1.wjSVQ1q8cr9exTGH'
 folder: AxCOxJAGG16MkcKu
 _id: sdv5ZXmH2ogJQ6b1
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.2
-  createdTime: 1726384662461
+  systemVersion: 5.3.3
+  createdTime: 1782908728716
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

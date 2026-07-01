@@ -536,11 +536,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.0.4
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!GcIqvhmpvaTNDGew.h9HsGHqWAqyFI43j'
   - name: Bite
     type: weapon
@@ -655,11 +656,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.0.4
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!GcIqvhmpvaTNDGew.wWIVWFlSwI1g9K95'
   - name: Tentacle
     type: weapon
@@ -778,12 +780,14 @@ items:
         type: base
         statuses:
           - grappled
-        system: {}
-        changes: []
+        system:
+          changes: []
         disabled: false
         duration:
-          startTime: null
-          combat: null
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         origin: null
         tint: '#ffffff'
@@ -793,10 +797,15 @@ items:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.346'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.0.4
           lastModifiedBy: null
+          createdTime: null
+          modifiedTime: null
+        showIcon: 2
+        start: null
+        folder: null
         _key: >-
           !actors.items.effects!GcIqvhmpvaTNDGew.Owcaz6pVdLf5uaTT.P7evh1xlD5jQgO8I
     _id: Owcaz6pVdLf5uaTT
@@ -809,11 +818,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.0.4
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!GcIqvhmpvaTNDGew.Owcaz6pVdLf5uaTT'
   - name: Fling
     type: feat
@@ -927,12 +937,14 @@ items:
         type: base
         statuses:
           - prone
-        system: {}
-        changes: []
+        system:
+          changes: []
         disabled: false
         duration:
-          startTime: null
-          combat: null
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         origin: null
         tint: '#ffffff'
@@ -942,10 +954,15 @@ items:
           compendiumSource: null
           duplicateSource: null
           exportSource: null
-          coreVersion: '13.346'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 5.0.4
           lastModifiedBy: null
+          createdTime: null
+          modifiedTime: null
+        showIcon: 2
+        start: null
+        folder: null
         _key: >-
           !actors.items.effects!GcIqvhmpvaTNDGew.1HJLz8VfSWDmX3e6.UKEf5Elc9wFuw2Qq
     _id: 1HJLz8VfSWDmX3e6
@@ -962,11 +979,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.0.4
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!GcIqvhmpvaTNDGew.1HJLz8VfSWDmX3e6'
   - name: Jet
     type: feat
@@ -1088,11 +1106,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.0.4
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!GcIqvhmpvaTNDGew.XL4loATLhJ9EOlIm'
   - name: Siege Monster
     type: feat
@@ -1130,11 +1149,12 @@ items:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.346'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.0.4
       lastModifiedBy: null
       modifiedTime: null
+      createdTime: null
     _key: '!actors.items!GcIqvhmpvaTNDGew.xQ1QLxlcJx7Mmc73'
 prototypeToken:
   sight:
@@ -1156,12 +1176,9 @@ prototypeToken:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -1195,7 +1212,7 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -1217,6 +1234,7 @@ prototypeToken:
   randomImg: false
   appendNumber: false
   prependAdjective: false
+  depth: 3
 folder: 8FqMTyt402KO9XwJ
 name: Steel Kraken
 type: npc
@@ -1229,10 +1247,10 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.346'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 5.0.4
-  createdTime: 1751331497263
+  systemVersion: 5.3.3
+  createdTime: 1782908731761
   modifiedTime: null
   lastModifiedBy: null
 _id: GcIqvhmpvaTNDGew

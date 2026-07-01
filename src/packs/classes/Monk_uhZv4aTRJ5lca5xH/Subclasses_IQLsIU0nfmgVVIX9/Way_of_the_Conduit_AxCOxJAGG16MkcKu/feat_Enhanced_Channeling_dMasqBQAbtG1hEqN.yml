@@ -234,17 +234,14 @@ effects:
     img: icons/svg/aura.svg
     _id: QmAFuHyh17PHP64d
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
     disabled: true
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 10
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 10
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>You get a bonus 1d4 to attack rolls, damage rolls, and saving
       throws.</p>
@@ -257,28 +254,28 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726899120291
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!dMasqBQAbtG1hEqN.QmAFuHyh17PHP64d'
   - name: Spirit of Conflict (Foe)
     img: icons/svg/aura.svg
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: 10
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 10
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>Your opponent must succeed on a Charisma save or take a 1d4 penalty to
       attack rolls and saving throws.</p>
@@ -291,7 +288,7 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726899145843
@@ -299,13 +296,16 @@ effects:
       lastModifiedBy: null
       exportSource: null
     _id: K0I3U4brUxyeUco7
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!dMasqBQAbtG1hEqN.K0I3U4brUxyeUco7'
 folder: AxCOxJAGG16MkcKu
 _id: dMasqBQAbtG1hEqN
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384654382

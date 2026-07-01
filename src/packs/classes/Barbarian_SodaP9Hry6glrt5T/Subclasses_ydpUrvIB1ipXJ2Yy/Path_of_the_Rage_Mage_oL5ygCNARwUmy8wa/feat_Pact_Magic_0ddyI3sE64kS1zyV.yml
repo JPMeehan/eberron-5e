@@ -82,12 +82,12 @@ system:
       duration:
         concentration: false
         value: ''
-        units: ''
+        units: inst
         special: ''
         override: false
       effects: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -98,7 +98,8 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
+          stationary: false
         affects:
           count: ''
           type: ''
@@ -114,33 +115,40 @@ system:
         onSave: half
         parts: []
       save:
-        ability: ''
+        ability: []
         dc:
           calculation: con
           formula: ''
       sort: 0
+      img: null
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: pact-magic
   enchant: {}
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: {}
+  crewed: false
 img: icons/svg/book.svg
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 1
+  dnd5e: {}
 effects: []
 folder: oL5ygCNARwUmy8wa
 _id: 0ddyI3sE64kS1zyV
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726384638111
+  systemVersion: 5.3.3
+  createdTime: 1782908724044
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

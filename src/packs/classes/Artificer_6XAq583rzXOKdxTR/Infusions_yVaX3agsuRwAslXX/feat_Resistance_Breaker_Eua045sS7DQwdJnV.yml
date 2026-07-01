@@ -53,7 +53,7 @@ system:
       duration:
         concentration: false
         value: ''
-        units: ''
+        units: inst
         special: ''
         override: false
       effects:
@@ -66,7 +66,7 @@ system:
             activity: []
             item: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -77,7 +77,8 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
+          stationary: false
         affects:
           count: ''
           type: ''
@@ -91,19 +92,32 @@ system:
         recovery: []
       enchant:
         identifier: artificer
+        self: false
       restrictions:
         type: weapon
         allowMagical: false
         categories: []
         properties: []
       sort: 0
+      visibility:
+        identifier: artificer
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+      flags: {}
   enchant:
     max: ''
     period: ''
   identifier: resistance-breaker
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: {}
+  crewed: false
 effects:
   - name: Resistance Breaker
     flags:
@@ -130,20 +144,12 @@ effects:
         onlyOnce: false
         wallsBlock: system
     _id: XA41qgpXYHs3GuuP
-    changes:
-      - key: name
-        mode: 5
-        value: Resistance Breaker {}
-        priority: null
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p><span style="font-family:Signika, sans-serif">This magic weapon has 5
       charges. When the wielder hits a creature, they can expend 1 charge to
@@ -157,34 +163,39 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908725204
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
     img: icons/magic/symbols/rune-sigil-hook-white-red.webp
     type: enchantment
-    system: {}
+    system:
+      changes:
+        - key: name
+          value: Resistance Breaker {}
+          priority: null
+          type: override
+          phase: initial
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!Eua045sS7DQwdJnV.XA41qgpXYHs3GuuP'
 ownership:
   default: 0
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 5
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726384643927
+  systemVersion: 5.3.3
+  createdTime: 1782908725204
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

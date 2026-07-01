@@ -17,6 +17,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 14
       proficient: 1
@@ -24,6 +34,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 14
       proficient: 1
@@ -31,6 +51,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 18
       proficient: 0
@@ -38,6 +68,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 15
       proficient: 1
@@ -45,6 +85,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 11
       proficient: 0
@@ -52,6 +102,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   bonuses:
     mwak:
       attack: ''
@@ -297,9 +357,10 @@ system:
       climb: null
       fly: null
       swim: null
-      walk: 30
+      walk: '30'
       units: null
       hover: false
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -309,6 +370,11 @@ system:
       truesight: null
       units: null
       special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
     spellcasting: int
     exhaustion: 0
     concentration:
@@ -339,6 +405,14 @@ system:
         mode: 0
       success: 0
       failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    loyalty: {}
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: ''
@@ -363,16 +437,24 @@ system:
     environment: ''
     cr: 3
     spellLevel: 0
+    habitat:
+      custom: ''
+      value: []
+    treasure:
+      value: []
   resources:
     legact:
       value: 0
       max: 0
+      spent: 0
     legres:
       value: 0
       max: 0
+      spent: 0
     lair:
       value: false
       initiative: null
+      inside: false
   source:
     revision: 1
     rules: '2014'
@@ -401,6 +483,8 @@ system:
     languages:
       value: []
       custom: Any two languages
+      communication: {}
+    important: false
 prototypeToken:
   name: Lhazaar Deck Mage
   displayName: 0
@@ -413,12 +497,9 @@ prototypeToken:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -462,7 +543,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -482,6 +563,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 items:
   - name: Scimitar
     type: weapon
@@ -550,10 +632,12 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -570,6 +654,13 @@ items:
             critical: {}
             includeBase: true
             parts: []
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -599,6 +690,8 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      crew:
+        value: []
     _id: AZw79rVXsfLay1Eh
     effects: []
     folder: null
@@ -610,10 +703,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733318
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -686,10 +779,12 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -706,6 +801,13 @@ items:
             critical: {}
             includeBase: true
             parts: []
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -735,6 +837,8 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      crew:
+        value: []
     _id: PwOYA7gHK4L4h6uO
     effects: []
     folder: null
@@ -746,10 +850,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733318
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -784,8 +888,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: {}
+      crewed: false
     _id: JPCGgb9Y5d6u3IPt
     effects: []
     folder: null
@@ -797,10 +905,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733318
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -849,10 +957,12 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -869,6 +979,13 @@ items:
             critical: {}
             includeBase: true
             parts: []
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -919,6 +1036,9 @@ items:
         value: null
         long: null
         reach: null
+        units: ft
+      crew:
+        value: []
     _id: IyGynG5pNNeUx3vP
     effects: []
     folder: null
@@ -930,10 +1050,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733318
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -984,10 +1104,13 @@ items:
       speed:
         value: null
         conditions: ''
+        units: ft
       strength: null
       proficient: 1
       activities: {}
       identifier: leather-armor
+      crew:
+        value: []
     _id: yP83Pu06g0adwG5E
     type: equipment
     folder: G3X11BbtmEqLmEnK
@@ -1002,10 +1125,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733319
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1034,8 +1157,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: {}
+      crewed: false
     _id: spb5n2OudzhkUFkr
     effects: []
     folder: null
@@ -1047,10 +1174,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733319
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1079,8 +1206,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: {}
+      crewed: false
     _id: 2XKGBifM9XOY11sl
     effects: []
     folder: null
@@ -1092,10 +1223,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733319
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1129,9 +1260,10 @@ items:
           type: creature
           special: ''
         template:
-          units: ''
+          units: ft
           contiguous: false
           type: ''
+          stationary: false
       range:
         units: ft
         special: ''
@@ -1176,10 +1308,12 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1194,7 +1328,16 @@ items:
             name: ''
             formula: ''
           name: Cast
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: message
+      method: atwill
+      prepared: 0
     _id: UKBXMuIyP59N4CvN
     type: spell
     img: icons/sundries/documents/envelope-sealed-red-brown.webp
@@ -1209,10 +1352,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733319
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1256,9 +1399,10 @@ items:
           count: ''
           type: ''
         template:
-          units: ''
+          units: ft
           contiguous: false
           type: ''
+          stationary: false
       range:
         units: ft
         special: ''
@@ -1303,10 +1447,12 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1317,7 +1463,16 @@ items:
           roll:
             prompt: false
             visible: false
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: prestidigitation
+      method: atwill
+      prepared: 0
     _id: JQKZzKhoWDrH7PNU
     type: spell
     img: icons/weapons/wands/wand-star-white.webp
@@ -1332,10 +1487,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733319
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1369,9 +1524,10 @@ items:
           type: creature
           special: ''
         template:
-          units: ''
+          units: ft
           contiguous: false
           type: ''
+          stationary: false
       range:
         units: ft
         special: ''
@@ -1415,12 +1571,15 @@ items:
             override: false
           effects:
             - _id: 7dnnwBMWLykrVJub
+              level: {}
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1455,7 +1614,16 @@ items:
                   mode: whole
                   number: 1
           name: ''
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: ray-of-frost
+      method: atwill
+      prepared: 0
     _id: FNlzfXuOoPIFkKBl
     type: spell
     img: icons/magic/water/projectile-icecicle-glowing.webp
@@ -1466,37 +1634,39 @@ items:
         transfer: false
         _id: 7dnnwBMWLykrVJub
         type: base
-        system: {}
-        changes:
-          - key: system.attributes.movement.walk
-            mode: 2
-            value: '-10'
-            priority: null
-          - key: system.attributes.movement.swim
-            mode: 2
-            value: '-10'
-            priority: null
-          - key: system.attributes.movement.climb
-            mode: 2
-            value: '-10'
-            priority: null
-          - key: system.attributes.movement.fly
-            mode: 2
-            value: '-10'
-            priority: null
-          - key: system.attributes.movement.burrow
-            mode: 2
-            value: '-10'
-            priority: null
+        system:
+          changes:
+            - key: system.attributes.movement.walk
+              value: -10
+              priority: null
+              type: add
+              phase: initial
+            - key: system.attributes.movement.swim
+              value: -10
+              priority: null
+              type: add
+              phase: initial
+            - key: system.attributes.movement.climb
+              value: -10
+              priority: null
+              type: add
+              phase: initial
+            - key: system.attributes.movement.fly
+              value: -10
+              priority: null
+              type: add
+              phase: initial
+            - key: system.attributes.movement.burrow
+              value: -10
+              priority: null
+              type: add
+              phase: initial
         disabled: false
         duration:
-          startTime: null
-          seconds: null
-          combat: null
-          rounds: 1
-          turns: null
-          startRound: null
-          startTurn: null
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
         description: >-
           <p>The target's Speed is reduced by 10 feet until the start of your
           next turn.</p>
@@ -1507,13 +1677,16 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 4.0.3
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 5.3.3
+          createdTime: 1782908733320
+          modifiedTime: 1782908733320
           lastModifiedBy: null
           exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.FNlzfXuOoPIFkKBl.7dnnwBMWLykrVJub
     folder: 4FhsY9FJQd7h7MZb
@@ -1526,10 +1699,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733320
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1568,9 +1741,10 @@ items:
           choice: false
           special: ''
         template:
-          units: ''
+          units: ft
           contiguous: false
           type: ''
+          stationary: false
       range:
         value: '1'
         units: mi
@@ -1618,11 +1792,13 @@ items:
             concentration: false
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1639,6 +1815,7 @@ items:
             proficiency: false
             attacks: false
             saves: false
+            disposition: false
           profiles:
             - count: ''
               name: ''
@@ -1657,7 +1834,16 @@ items:
             recovery: []
           sort: 0
           effects: []
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: clairvoyance
+      method: innate
+      prepared: 0
     _id: MQcXmemK6A8cDQQt
     type: spell
     img: icons/magic/perception/third-eye-blue-red.webp
@@ -1673,10 +1859,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733320
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1703,8 +1889,9 @@ items:
           count: ''
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
+          stationary: false
       range:
         value: '120'
         units: ft
@@ -1748,11 +1935,13 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1765,7 +1954,16 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: dispel-magic
+      method: innate
+      prepared: 0
     _id: 0tV4W9ot2CQU0aPh
     type: spell
     img: icons/skills/melee/sword-damaged-broken-purple.webp
@@ -1781,10 +1979,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733320
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1818,9 +2016,10 @@ items:
           choice: false
           special: ''
         template:
-          units: ''
+          units: ft
           contiguous: false
           type: ''
+          stationary: false
       range:
         units: touch
         special: ''
@@ -1865,17 +2064,24 @@ items:
             concentration: false
           effects:
             - _id: gg9dU0SnvU03C803
+              level: {}
             - _id: GGEj4zNginSIp6VV
+              level: {}
             - _id: NTaFTBr1uam93jHS
+              level: {}
             - _id: EGnngHgGBzTyThW6
+              level: {}
             - _id: e02u2XLDltCT5D5x
+              level: {}
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1890,7 +2096,16 @@ items:
             max: ''
           sort: 0
           name: Cast
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: enhance-ability
+      method: innate
+      prepared: 0
     _id: b7MD72uu21TGzKeQ
     type: spell
     img: icons/skills/social/intimidation-impressing.webp
@@ -1898,21 +2113,18 @@ items:
       - name: Enhanced Strength
         origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
-          rounds: null
-          startTime: null
-          seconds: 3600
-          combat: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
         disabled: false
         flags:
           dnd5e: {}
         img: systems/dnd5e/icons/svg/abilities/strength.svg
         _id: gg9dU0SnvU03C803
         type: base
-        system: {}
-        changes: []
+        system:
+          changes: []
         description: >-
           <p>The target has Advantage on ability checks made with the chosen
           ability.</p>
@@ -1924,33 +2136,33 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.ljMTBKPVmEnLPX1b
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 4.0.3
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 5.3.3
+          createdTime: 1782908733322
+          modifiedTime: 1782908733322
           lastModifiedBy: null
           exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.gg9dU0SnvU03C803
       - name: Enhanced Dexterity
         origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
-          rounds: null
-          startTime: null
-          seconds: 3600
-          combat: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
         disabled: false
         flags:
           dnd5e: {}
         img: systems/dnd5e/icons/svg/abilities/dexterity.svg
         _id: GGEj4zNginSIp6VV
         type: base
-        system: {}
-        changes: []
+        system:
+          changes: []
         description: >-
           <p>The target has Advantage on ability checks made with the chosen
           ability.</p>
@@ -1962,33 +2174,33 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.Mmss2SPIy7wtt2PV
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 4.0.3
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 5.3.3
+          createdTime: 1782908733322
+          modifiedTime: 1782908733322
           lastModifiedBy: null
           exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.GGEj4zNginSIp6VV
       - name: Enhanced Intelligence
         origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
-          rounds: null
-          startTime: null
-          seconds: 3600
-          combat: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
         disabled: false
         flags:
           dnd5e: {}
         img: systems/dnd5e/icons/svg/abilities/intelligence.svg
         _id: NTaFTBr1uam93jHS
         type: base
-        system: {}
-        changes: []
+        system:
+          changes: []
         description: >-
           <p>The target has Advantage on ability checks made with the chosen
           ability.</p>
@@ -2000,33 +2212,33 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.FfVB2Yyb7wfgpsQB
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 4.0.3
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 5.3.3
+          createdTime: 1782908733322
+          modifiedTime: 1782908733322
           lastModifiedBy: null
           exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.NTaFTBr1uam93jHS
       - name: Enhanced Wisdom
         origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
-          rounds: null
-          startTime: null
-          seconds: 3600
-          combat: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
         disabled: false
         flags:
           dnd5e: {}
         img: systems/dnd5e/icons/svg/abilities/wisdom.svg
         _id: EGnngHgGBzTyThW6
         type: base
-        system: {}
-        changes: []
+        system:
+          changes: []
         description: >-
           <p>The target has Advantage on ability checks made with the chosen
           ability.</p>
@@ -2038,33 +2250,33 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.k2569xtIeXKRReLU
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 4.0.3
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 5.3.3
+          createdTime: 1782908733322
+          modifiedTime: 1782908733322
           lastModifiedBy: null
           exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.EGnngHgGBzTyThW6
       - name: Enhanced Charisma
         origin: Compendium.dnd5e.spells24.Item.phbsplEnhanceAbi
         duration:
-          rounds: null
-          startTime: null
-          seconds: 3600
-          combat: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
         disabled: false
         flags:
           dnd5e: {}
         img: systems/dnd5e/icons/svg/abilities/charisma.svg
         _id: e02u2XLDltCT5D5x
         type: base
-        system: {}
-        changes: []
+        system:
+          changes: []
         description: >-
           <p>The target has Advantage on ability checks made with the chosen
           ability.</p>
@@ -2076,13 +2288,16 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells24.Item.phbsplHex0000000.ActiveEffect.sC2IXWDs07oTt5JN
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 4.0.3
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 5.3.3
+          createdTime: 1782908733322
+          modifiedTime: 1782908733322
           lastModifiedBy: null
           exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!ug0xVJ099Ot7YMCh.b7MD72uu21TGzKeQ.e02u2XLDltCT5D5x
     folder: 3SjcO2acsFnWegp4
@@ -2099,10 +2314,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733321
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2138,6 +2353,7 @@ items:
           type: sphere
           size: 20 * @item.level
           contiguous: false
+          stationary: false
       range:
         value: '120'
         units: ft
@@ -2182,11 +2398,13 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -2199,7 +2417,16 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: fog-cloud
+      method: innate
+      prepared: 0
     _id: 5CPqZxwjItbFrdmG
     type: spell
     img: icons/magic/air/fog-gas-smoke-dense-white.webp
@@ -2215,10 +2442,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733322
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2260,6 +2487,7 @@ items:
           type: line
           size: '60'
           contiguous: false
+          stationary: false
       range:
         units: self
       uses:
@@ -2304,11 +2532,13 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -2316,7 +2546,8 @@ items:
             onSave: half
             parts: []
           save:
-            ability: str
+            ability:
+              - str
             dc:
               calculation: spellcasting
               formula: ''
@@ -2324,7 +2555,16 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: gust-of-wind
+      method: innate
+      prepared: 0
     _id: oDUIBdyufmKt59W3
     type: spell
     img: icons/magic/air/air-wave-gust-blue.webp
@@ -2340,10 +2580,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733322
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2414,6 +2654,7 @@ items:
           size: '100'
           contiguous: false
           count: ''
+          stationary: false
       range:
         value: '300'
         units: ft
@@ -2460,6 +2701,7 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
@@ -2469,6 +2711,7 @@ items:
               size: '25'
               height: '-25'
               count: ''
+              stationary: false
             affects:
               choice: false
               count: ''
@@ -2489,7 +2732,8 @@ items:
                   mode: ''
                   number: 1
           save:
-            ability: str
+            ability:
+              - str
             dc:
               calculation: spellcasting
               formula: ''
@@ -2499,6 +2743,13 @@ items:
             max: ''
           sort: 0
           name: Create Whirlpool
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
         uvlPi5Em9KSfKICT:
           type: utility
           name: Flood, Part, or Redirect
@@ -2521,10 +2772,12 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -2539,7 +2792,16 @@ items:
             visible: false
             name: 25% Capsize Chance
             formula: 1d100cs<26
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: control-water
+      method: innate
+      prepared: 0
     _id: 3doytaMpCBspAg53
     type: spell
     img: icons/magic/water/pseudopod-swirl-blue.webp
@@ -2555,10 +2817,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733322
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2570,10 +2832,10 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727550800594
+  systemVersion: 5.3.3
+  createdTime: 1782908733317
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

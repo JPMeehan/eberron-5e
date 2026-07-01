@@ -54,7 +54,7 @@ system:
       duration:
         concentration: false
         value: ''
-        units: ''
+        units: inst
         special: ''
         override: false
       effects:
@@ -67,7 +67,7 @@ system:
             activity: []
             item: []
       range:
-        units: ''
+        units: self
         special: ''
         override: false
       target:
@@ -78,7 +78,8 @@ system:
           size: ''
           width: ''
           height: ''
-          units: ''
+          units: ft
+          stationary: false
         affects:
           count: ''
           type: ''
@@ -92,19 +93,32 @@ system:
         recovery: []
       enchant:
         identifier: artificer
+        self: false
       restrictions:
         type: weapon
         allowMagical: false
         categories: []
         properties: []
       sort: 0
+      visibility:
+        identifier: artificer
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      img: null
+      flags: {}
   enchant:
     max: ''
     period: ''
   identifier: silent-weapon
   prerequisites:
     level: null
+    items: []
+    repeatable: false
   properties: []
+  advancement: {}
+  crewed: false
 effects:
   - name: Silent Weapon
     flags:
@@ -131,28 +145,12 @@ effects:
         onlyOnce: false
         wallsBlock: system
     _id: LDIEDVr4xUPKLLQk
-    changes:
-      - key: name
-        mode: 5
-        value: Silent {}
-        priority: null
-      - key: system.properties
-        mode: 2
-        value: mgc
-        priority: null
-      - key: system.magicalBonus
-        mode: 5
-        value: '1'
-        priority: null
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p><span style="font-family:Signika, sans-serif">This magic weapon grants
       a +1 bonus to attack and damage rolls made with it. When the wielder is
@@ -166,34 +164,49 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908725858
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
     img: icons/magic/symbols/arrowhead-green.webp
     type: enchantment
-    system: {}
+    system:
+      changes:
+        - key: name
+          value: Silent {}
+          priority: null
+          type: override
+          phase: initial
+        - key: system.properties
+          value: mgc
+          priority: null
+          type: add
+          phase: initial
+        - key: system.magicalBonus
+          value: 1
+          priority: null
+          type: override
+          phase: initial
     sort: 0
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!NomNQJSowB1flACr.LDIEDVr4xUPKLLQk'
 ownership:
   default: 0
 flags:
   core: {}
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedUses: 4
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726384647017
+  systemVersion: 5.3.3
+  createdTime: 1782908725857
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

@@ -93,21 +93,18 @@ effects:
     img: icons/svg/aura.svg
     _id: 60bbA9RX1CNxry0X
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.movement.walk
-        mode: 2
-        value: '5'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.movement.walk
+          value: 5
+          priority: null
+          type: add
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     origin: null
     tint: '#ffffff'
@@ -118,20 +115,23 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1727045597967
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!6fHHdzXWfQvss3rm.60bbA9RX1CNxry0X'
 folder: kJccBcDLdUGddNLa
 _id: 6fHHdzXWfQvss3rm
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384640244

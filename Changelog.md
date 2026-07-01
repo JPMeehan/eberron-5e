@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0
+
+- Updated to v14
+
 ## 1.1.4
 
 - Fully Implemented level 1-5 spells from DGBoV

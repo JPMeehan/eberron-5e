@@ -183,17 +183,14 @@ effects:
     transfer: false
     _id: rpTMDyun1jrJYUF4
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: 10
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 10
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: ''
     tint: '#ffffff'
     statuses: []
@@ -206,12 +203,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.1.9
       createdTime: 1760313989180
       modifiedTime: null
       lastModifiedBy: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!bL4usc8EsjLeGONj.rpTMDyun1jrJYUF4'
 sort: 0
 ownership:
@@ -221,7 +221,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.350'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.1.9
   createdTime: 1748803023117

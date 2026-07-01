@@ -94,21 +94,18 @@ effects:
     origin: Compendium.eberron-5e.classes.Item.xZdO1uGs6vnAZz4j
     _id: kp70PpMAYpgHcsTI
     type: base
-    system: {}
-    changes:
-      - key: system.traits.dr.value
-        mode: 2
-        value: necrotic
-        priority: null
+    system:
+      changes:
+        - key: system.traits.dr.value
+          value: necrotic
+          priority: null
+          type: add
     disabled: false
     duration:
-      startTime: null
-      seconds: null
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     tint: '#ffffff'
     transfer: true
@@ -118,20 +115,23 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.2.2
       createdTime: 1739000111457
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!xZdO1uGs6vnAZz4j.kp70PpMAYpgHcsTI'
 folder: pfgIPIhOb1vLietp
 _id: xZdO1uGs6vnAZz4j
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384664769

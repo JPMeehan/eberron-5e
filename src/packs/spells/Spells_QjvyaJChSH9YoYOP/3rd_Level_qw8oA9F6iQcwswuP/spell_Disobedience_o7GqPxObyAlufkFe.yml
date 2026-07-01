@@ -115,21 +115,18 @@ effects:
     transfer: false
     _id: oKPpEYmaRyR3zt9m
     type: base
-    system: {}
-    changes:
-      - key: system.traits.ci.value
-        mode: 2
-        value: charmed
-        priority: null
+    system:
+      changes:
+        - key: system.traits.ci.value
+          value: charmed
+          priority: null
+          type: add
     disabled: false
     duration:
-      startTime: null
-      seconds: 28800
-      combat: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 28800
+      units: seconds
+      expiry: turnStart
+      expired: false
     description: ''
     tint: '#ffffff'
     statuses: []
@@ -138,13 +135,16 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.1.2
       createdTime: 1733883737015
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!o7GqPxObyAlufkFe.oKPpEYmaRyR3zt9m'
 sort: 0
 ownership:
@@ -157,7 +157,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1726384670376

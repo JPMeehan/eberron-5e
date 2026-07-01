@@ -186,13 +186,12 @@ flags:
     riders:
       activity: []
       effect: []
-    migratedUses: null
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.0
+  systemVersion: 5.3.3
   createdTime: 1726384671994
   modifiedTime: null
   lastModifiedBy: null

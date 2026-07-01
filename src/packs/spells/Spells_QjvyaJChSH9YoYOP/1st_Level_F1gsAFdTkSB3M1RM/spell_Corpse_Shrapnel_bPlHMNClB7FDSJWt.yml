@@ -30,7 +30,7 @@ system:
     value: 1
   duration:
     value: ''
-    units: ''
+    units: inst
   target:
     affects:
       choice: false
@@ -39,6 +39,7 @@ system:
       type: cone
       size: '15'
       contiguous: false
+      stationary: false
   range:
     value: '60'
     units: ft
@@ -83,11 +84,13 @@ system:
       effects: []
       range:
         override: false
+        units: self
       target:
         prompt: true
         template:
           contiguous: false
           units: ft
+          stationary: false
         affects:
           choice: false
         override: false
@@ -111,31 +114,35 @@ system:
               number: 1
               formula: ''
       save:
-        ability: dex
+        ability:
+          - dex
         dc:
           calculation: spellcasting
           formula: ''
       sort: 0
+      img: null
+      flags: {}
+      visibility:
+        level: {}
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
   identifier: corpse-shrapnel
+  method: spell
+  prepared: 0
 effects: []
 sort: 0
 ownership:
   default: 0
 flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
-    migratedProperties:
-      - vocal
-      - somatic
+  dnd5e: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.0
-  createdTime: 1726384669896
+  systemVersion: 5.3.3
+  createdTime: 1782908729725
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

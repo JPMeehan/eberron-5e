@@ -1163,7 +1163,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -1245,7 +1245,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -1332,7 +1332,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -1393,7 +1393,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -1441,7 +1441,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -1488,7 +1488,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -1537,7 +1537,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.3.6
       createdTime: null
@@ -1663,6 +1663,7 @@ items:
           name: ''
           effects: []
       identifier: light
+      sourceItem: feat:spellcasting
     type: spell
     img: icons/sundries/lights/candle-pillar-lit-yellow.webp
     effects:
@@ -1670,46 +1671,55 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.fAqSSiBbaHUDtt0x
-        changes:
-          - key: system.properties
-            mode: 2
-            value: '-vocal'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-somatic'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-material'
-            priority: null
-        system: {}
+        origin: null
+        system:
+          changes:
+            - key: system.properties
+              value: '-vocal'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-somatic'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-material'
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 0
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
-        flags: {}
+        flags:
+          core:
+            originText: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.fAqSSiBbaHUDtt0x
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start:
+          combat: null
+          round: 0
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.8eoFERxAgZJCURjc.dnd5espellchange
     folder: 4FhsY9FJQd7h7MZb
@@ -1726,10 +1736,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplLight00000
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.3.6
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733062
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1877,6 +1887,7 @@ items:
           name: Create Illusion
           effects: []
       identifier: minor-illusion
+      sourceItem: feat:spellcasting
     type: spell
     img: icons/sundries/gaming/playing-cards.webp
     effects:
@@ -1884,46 +1895,55 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.VAhFds3iif4gqX9f
-        changes:
-          - key: system.properties
-            mode: 2
-            value: '-vocal'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-somatic'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-material'
-            priority: null
-        system: {}
+        origin: null
+        system:
+          changes:
+            - key: system.properties
+              value: '-vocal'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-somatic'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-material'
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 0
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
-        flags: {}
+        flags:
+          core:
+            originText: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.VAhFds3iif4gqX9f
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start:
+          combat: null
+          round: 0
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.XKT9TfS72e4L49gS.dnd5espellchange
     folder: 4FhsY9FJQd7h7MZb
@@ -1937,10 +1957,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMinorIllus
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.3.6
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733062
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2047,6 +2067,7 @@ items:
             prompt: false
             visible: false
       identifier: prestidigitation
+      sourceItem: feat:spellcasting
     type: spell
     img: icons/weapons/wands/wand-star-white.webp
     effects:
@@ -2054,46 +2075,55 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.zasgi7vUv6dWmR5D
-        changes:
-          - key: system.properties
-            mode: 2
-            value: '-vocal'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-somatic'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-material'
-            priority: null
-        system: {}
+        origin: null
+        system:
+          changes:
+            - key: system.properties
+              value: '-vocal'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-somatic'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-material'
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 0
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
-        flags: {}
+        flags:
+          core:
+            originText: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.zasgi7vUv6dWmR5D
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start:
+          combat: null
+          round: 0
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.0D9PXVVJmu2b6lHJ.dnd5espellchange
     folder: 4FhsY9FJQd7h7MZb
@@ -2110,10 +2140,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplPrestidigi
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.3.6
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733062
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2221,27 +2251,25 @@ items:
             recovery: []
           sort: 0
       identifier: charm-person
+      sourceItem: feat:spellcasting
     type: spell
     img: icons/magic/control/hypnosis-mesmerism-eye.webp
     effects:
       - name: Charmed
         origin: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
         duration:
-          rounds: 1
-          startTime: null
-          seconds: 3600
-          combat: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
         disabled: false
         flags:
           dnd5e: {}
         img: systems/dnd5e/icons/svg/statuses/charmed.svg
         _id: 78JcD7wFiSCOfmns
         type: base
-        system: {}
-        changes: []
+        system:
+          changes: []
         description: >-
           <p>the target has the &amp;Reference[charmed apply=false] condition
           until the spell ends or until you or your allies damage it. The
@@ -2255,59 +2283,71 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        showIcon: 2
+        start: null
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.GDyHEBzMr43wycwX.78JcD7wFiSCOfmns
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.iSMbSc51l4BWGycR
-        changes:
-          - key: system.properties
-            mode: 2
-            value: '-vocal'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-somatic'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-material'
-            priority: null
-        system: {}
+        origin: null
+        system:
+          changes:
+            - key: system.properties
+              value: '-vocal'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-somatic'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-material'
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 0
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
-        flags: {}
+        flags:
+          core:
+            originText: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.iSMbSc51l4BWGycR
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start:
+          combat: null
+          round: 0
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.GDyHEBzMr43wycwX.dnd5espellchange
     folder: pBaAAtXBCq9FVEnL
@@ -2321,10 +2361,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.3.6
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733063
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2440,6 +2480,7 @@ items:
             recovery: []
           sort: 0
       identifier: scorching-ray
+      sourceItem: feat:spellcasting
     type: spell
     img: icons/magic/fire/projectiles-salvo-trio-orange.webp
     effects:
@@ -2447,46 +2488,55 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.IVx6kExU7XyU96Sy
-        changes:
-          - key: system.properties
-            mode: 2
-            value: '-vocal'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-somatic'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-material'
-            priority: null
-        system: {}
+        origin: null
+        system:
+          changes:
+            - key: system.properties
+              value: '-vocal'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-somatic'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-material'
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 0
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
-        flags: {}
+        flags:
+          core:
+            originText: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.IVx6kExU7XyU96Sy
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start:
+          combat: null
+          round: 0
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.Va4ubrPApV0pllxo.dnd5espellchange
     folder: 3SjcO2acsFnWegp4
@@ -2500,10 +2550,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplScorchingR
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.3.6
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733063
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2602,35 +2652,33 @@ items:
             recovery: []
           sort: 0
       identifier: see-invisibility
+      sourceItem: feat:spellcasting
     type: spell
     img: icons/magic/perception/orb-eye-scrying.webp
     effects:
       - name: See Invisibility
         origin: Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
         duration:
-          rounds: 1
-          startTime: null
-          seconds: 3600
-          combat: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
         disabled: false
         flags:
           dnd5e: {}
         img: icons/magic/perception/orb-eye-scrying.webp
         _id: BRwB0T8buWhJAuDx
         type: base
-        system: {}
-        changes:
-          - key: system.attributes.senses.special
-            mode: 2
-            value: ;Invisible creatures
-            priority: null
-          - key: system.attributes.senses.special
-            mode: 2
-            value: ;Ethereal Plane
-            priority: null
+        system:
+          changes:
+            - key: system.attributes.senses.special
+              value: ;Invisible creatures
+              priority: null
+              type: add
+            - key: system.attributes.senses.special
+              value: ;Ethereal Plane
+              priority: null
+              type: add
         description: ''
         tint: '#ffffff'
         transfer: false
@@ -2639,59 +2687,71 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.myBGgjmJK0b8720i.BRwB0T8buWhJAuDx
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.1bVxs89tkOZzfNFs
-        changes:
-          - key: system.properties
-            mode: 2
-            value: '-vocal'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-somatic'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-material'
-            priority: null
-        system: {}
+        origin: null
+        system:
+          changes:
+            - key: system.properties
+              value: '-vocal'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-somatic'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-material'
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 0
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
-        flags: {}
+        flags:
+          core:
+            originText: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.1bVxs89tkOZzfNFs
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start:
+          combat: null
+          round: 0
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.myBGgjmJK0b8720i.dnd5espellchange
     folder: 3SjcO2acsFnWegp4
@@ -2705,10 +2765,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.3.6
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733063
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2826,6 +2886,7 @@ items:
           name: ''
           img: systems/dnd5e/icons/svg/trait-saves.svg
       identifier: dimension-door
+      sourceItem: feat:spellcasting
     type: spell
     img: icons/environment/wilderness/portal.webp
     effects:
@@ -2833,46 +2894,55 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.MbdUg2SLUDSMMAfH
-        changes:
-          - key: system.properties
-            mode: 2
-            value: '-vocal'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-somatic'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-material'
-            priority: null
-        system: {}
+        origin: null
+        system:
+          changes:
+            - key: system.properties
+              value: '-vocal'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-somatic'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-material'
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 0
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
-        flags: {}
+        flags:
+          core:
+            originText: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.MbdUg2SLUDSMMAfH
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start:
+          combat: null
+          round: 0
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.R7sLBOm11LOdSn70.dnd5espellchange
     folder: qi3IbnEwap7mRw4b
@@ -2889,10 +2959,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDimensionD
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.3.6
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733064
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -3013,6 +3083,7 @@ items:
             recovery: []
           sort: 0
       identifier: fireball
+      sourceItem: feat:spellcasting
     type: spell
     img: icons/magic/fire/barrier-shield-explosion-yellow.webp
     effects:
@@ -3020,46 +3091,55 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.TLotBl3fvcIghUlp
-        changes:
-          - key: system.properties
-            mode: 2
-            value: '-vocal'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-somatic'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-material'
-            priority: null
-        system: {}
+        origin: null
+        system:
+          changes:
+            - key: system.properties
+              value: '-vocal'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-somatic'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-material'
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 0
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
-        flags: {}
+        flags:
+          core:
+            originText: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.TLotBl3fvcIghUlp
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start:
+          combat: null
+          round: 0
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.nN5jRLB61n0b4fnb.dnd5espellchange
     folder: HCovEE4VoPGlIbKi
@@ -3073,10 +3153,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplFireball00
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.3.6
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733064
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -3170,27 +3250,25 @@ items:
             recovery: []
           sort: 0
       identifier: greater-invisibility
+      sourceItem: feat:spellcasting
     type: spell
     img: icons/creatures/magical/spirit-undead-ghost-blue.webp
     effects:
       - name: Invisible
         origin: Compendium.dnd5e.spells24.Item.phbsplGreaterInv
         duration:
-          rounds: null
-          startTime: null
-          seconds: 60
-          combat: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
         disabled: false
         flags:
           dnd5e: {}
         img: systems/dnd5e/icons/svg/statuses/invisible.svg
         _id: NDpw6r63ZdEgks1a
         type: base
-        system: {}
-        changes: []
+        system:
+          changes: []
         description: ''
         tint: '#ffffff'
         transfer: false
@@ -3200,59 +3278,71 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        showIcon: 2
+        start: null
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.Zz7Od5ksb1p743Tq.NDpw6r63ZdEgks1a
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.XbQXc7Bs4FX7xMlm
-        changes:
-          - key: system.properties
-            mode: 2
-            value: '-vocal'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-somatic'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-material'
-            priority: null
-        system: {}
+        origin: null
+        system:
+          changes:
+            - key: system.properties
+              value: '-vocal'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-somatic'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-material'
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 0
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
-        flags: {}
+        flags:
+          core:
+            originText: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.XbQXc7Bs4FX7xMlm
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start:
+          combat: null
+          round: 0
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.Zz7Od5ksb1p743Tq.dnd5espellchange
     folder: qi3IbnEwap7mRw4b
@@ -3266,10 +3356,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplGreaterInv
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.3.6
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733064
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -3389,50 +3479,19 @@ items:
             recovery: []
           sort: 0
       identifier: slow
+      sourceItem: feat:spellcasting
     type: spell
     img: icons/magic/time/clock-stopwatch-white-blue.webp
     effects:
       - name: Slowed
         origin: Compendium.dnd5e.spells24.Item.phbsplSlow000000
         duration:
-          startTime: null
-          seconds: 60
-          combat: null
-          rounds: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: 60
+          units: seconds
+          expiry: turnStart
+          expired: false
         disabled: false
         _id: z1lkguBohjqXRSHm
-        changes:
-          - key: system.attributes.ac.bonus
-            mode: 2
-            value: '-2'
-            priority: null
-          - key: system.attributes.movement.burrow
-            mode: 1
-            value: '0.5'
-            priority: null
-          - key: system.attributes.movement.climb
-            mode: 1
-            value: '0.5'
-            priority: null
-          - key: system.attributes.movement.fly
-            mode: 1
-            value: '0.5'
-            priority: null
-          - key: system.attributes.movement.swim
-            mode: 1
-            value: '0.5'
-            priority: null
-          - key: system.attributes.movement.walk
-            mode: 1
-            value: '0.5'
-            priority: null
-          - key: system.abilities.dex.bonuses.save
-            mode: 2
-            value: '-2'
-            priority: null
         description: >-
           <p>An affected target’s Speed is halved, it takes a −2 penalty to AC
           and Dexterity saving throws, and it can’t take Reactions. On its
@@ -3451,7 +3510,7 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
@@ -3460,54 +3519,95 @@ items:
           exportSource: null
         img: icons/magic/time/clock-stopwatch-white-blue.webp
         type: base
-        system: {}
+        system:
+          changes:
+            - key: system.attributes.ac.bonus
+              value: -2
+              priority: null
+              type: add
+            - key: system.attributes.movement.burrow
+              value: 0.5
+              priority: null
+              type: multiply
+            - key: system.attributes.movement.climb
+              value: 0.5
+              priority: null
+              type: multiply
+            - key: system.attributes.movement.fly
+              value: 0.5
+              priority: null
+              type: multiply
+            - key: system.attributes.movement.swim
+              value: 0.5
+              priority: null
+              type: multiply
+            - key: system.attributes.movement.walk
+              value: 0.5
+              priority: null
+              type: multiply
+            - key: system.abilities.dex.bonuses.save
+              value: -2
+              priority: null
+              type: add
         sort: 0
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.Gu2UQD3VBYgnAI23.z1lkguBohjqXRSHm
       - _id: dnd5espellchange
         type: enchantment
         name: Spell Changes
         img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.JhYDoZO6ofkLSlva
-        changes:
-          - key: system.properties
-            mode: 2
-            value: '-vocal'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-somatic'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-material'
-            priority: null
-        system: {}
+        origin: null
+        system:
+          changes:
+            - key: system.properties
+              value: '-vocal'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-somatic'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-material'
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 0
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
-        flags: {}
+        flags:
+          core:
+            originText: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.JhYDoZO6ofkLSlva
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start:
+          combat: null
+          round: 0
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.Gu2UQD3VBYgnAI23.dnd5espellchange
     folder: HCovEE4VoPGlIbKi
@@ -3524,10 +3624,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSlow000000
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.3.6
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733065
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -3647,6 +3747,7 @@ items:
               formula: ''
           name: ''
       identifier: chain-lightning
+      sourceItem: feat:spellcasting
     type: spell
     img: icons/magic/lightning/bolt-strike-sparks-teal.webp
     effects:
@@ -3654,46 +3755,55 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.yCciIKF0K6JS17RO
-        changes:
-          - key: system.properties
-            mode: 2
-            value: '-vocal'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-somatic'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-material'
-            priority: null
-        system: {}
+        origin: null
+        system:
+          changes:
+            - key: system.properties
+              value: '-vocal'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-somatic'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-material'
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 0
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
-        flags: {}
+        flags:
+          core:
+            originText: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.yCciIKF0K6JS17RO
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start:
+          combat: null
+          round: 0
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.mBKe5fJQetOvMFyl.dnd5espellchange
     folder: 8WmlLARx1Df3Ii9v
@@ -3707,10 +3817,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplChainLight
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.3.6
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733065
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -3823,6 +3933,7 @@ items:
             recovery: []
           sort: 0
       identifier: cone-of-cold
+      sourceItem: feat:spellcasting
     type: spell
     img: icons/magic/air/wind-tornado-wall-blue.webp
     effects:
@@ -3830,46 +3941,55 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.h5iYDRe4Cj1EOUef
-        changes:
-          - key: system.properties
-            mode: 2
-            value: '-vocal'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-somatic'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-material'
-            priority: null
-        system: {}
+        origin: null
+        system:
+          changes:
+            - key: system.properties
+              value: '-vocal'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-somatic'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-material'
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 0
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
-        flags: {}
+        flags:
+          core:
+            originText: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.h5iYDRe4Cj1EOUef
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start:
+          combat: null
+          round: 0
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.yZVn3RuCYNwcMWao.dnd5espellchange
     folder: beZ8MTpWY2cMEUlp
@@ -3883,10 +4003,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplConeofCold
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.3.6
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733065
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -3980,6 +4100,7 @@ items:
             prompt: false
             visible: false
       identifier: globe-of-invulnerability
+      sourceItem: feat:spellcasting
     type: spell
     img: icons/magic/defensive/barrier-shield-dome-deflect-teal.webp
     effects:
@@ -3987,46 +4108,55 @@ items:
         type: enchantment
         name: Spell Changes
         img: systems/dnd5e/icons/svg/activity/cast.svg
-        origin: Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.Gy8pG36g2CuTSGi8
-        changes:
-          - key: system.properties
-            mode: 2
-            value: '-vocal'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-somatic'
-            priority: null
-          - key: system.properties
-            mode: 2
-            value: '-material'
-            priority: null
-        system: {}
+        origin: null
+        system:
+          changes:
+            - key: system.properties
+              value: '-vocal'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-somatic'
+              priority: null
+              type: add
+            - key: system.properties
+              value: '-material'
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: 0
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: 0
-          startTurn: 0
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         tint: '#ffffff'
         transfer: true
         statuses: []
         sort: 0
-        flags: {}
+        flags:
+          core:
+            originText: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.Gy8pG36g2CuTSGi8
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.3.6
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start:
+          combat: null
+          round: 0
+          time: 0
+          turn: 0
+          combatant: null
+          initiative: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!nokgsTXPhjDZpUSd.RTL2pYZATdjnABFU.dnd5espellchange
     folder: 8WmlLARx1Df3Ii9v
@@ -4043,10 +4173,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplGlobeofInv
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.3.6
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908733066
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -4074,12 +4204,9 @@ prototypeToken:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -4113,7 +4240,7 @@ prototypeToken:
     darkness:
       min: 0
       max: 1
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -4133,6 +4260,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 folder: WHWWLW3kFneE1X7T
 name: Valenar Arcanist
 type: npc
@@ -4146,10 +4274,10 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.3.6
-  createdTime: 1742598268783
+  systemVersion: 5.3.3
+  createdTime: 1782908733061
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

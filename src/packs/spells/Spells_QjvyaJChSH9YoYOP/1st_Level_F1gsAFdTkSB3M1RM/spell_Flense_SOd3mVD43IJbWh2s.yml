@@ -128,17 +128,14 @@ effects:
     transfer: false
     _id: eIjDWHKP5pJYOB8O
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: 1
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 1
+      units: rounds
+      expiry: turnStart
+      expired: false
     description: <p>The target can't take reactions until the end of its next turn.</p>
     tint: '#ffffff'
     statuses: []
@@ -151,12 +148,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.1.9
       createdTime: 1760311433795
       modifiedTime: null
       lastModifiedBy: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!SOd3mVD43IJbWh2s.eIjDWHKP5pJYOB8O'
 sort: 0
 ownership:
@@ -166,7 +166,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.350'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.1.9
   createdTime: 1748802206747

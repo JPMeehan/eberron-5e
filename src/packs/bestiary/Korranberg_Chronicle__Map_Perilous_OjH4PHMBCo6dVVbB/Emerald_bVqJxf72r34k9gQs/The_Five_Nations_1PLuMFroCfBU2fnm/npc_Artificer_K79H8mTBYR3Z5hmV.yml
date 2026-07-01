@@ -17,6 +17,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 14
       proficient: 0
@@ -24,6 +34,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 12
       proficient: 1
@@ -31,6 +51,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 18
       proficient: 1
@@ -38,6 +68,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 13
       proficient: 0
@@ -45,6 +85,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 10
       proficient: 0
@@ -52,6 +102,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   bonuses:
     mwak:
       attack: ''
@@ -297,9 +357,10 @@ system:
       climb: null
       fly: null
       swim: null
-      walk: 30
+      walk: '30'
       units: null
       hover: false
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -309,6 +370,11 @@ system:
       truesight: null
       units: null
       special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
     spellcasting: int
     exhaustion: 0
     concentration:
@@ -339,6 +405,14 @@ system:
         mode: 0
       success: 0
       failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    loyalty: {}
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: ''
@@ -358,16 +432,24 @@ system:
     environment: ''
     cr: 3
     spellLevel: 0
+    habitat:
+      custom: ''
+      value: []
+    treasure:
+      value: []
   resources:
     legact:
       value: 0
       max: 0
+      spent: 0
     legres:
       value: 0
       max: 0
+      spent: 0
     lair:
       value: false
       initiative: null
+      inside: false
   source:
     revision: 1
     rules: '2014'
@@ -398,6 +480,8 @@ system:
     languages:
       value: []
       custom: Any two languages
+      communication: {}
+    important: false
 prototypeToken:
   name: Artificer
   displayName: 0
@@ -410,12 +494,9 @@ prototypeToken:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -459,7 +540,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -479,6 +560,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 items:
   - name: Infused Light Hammer
     type: weapon
@@ -547,10 +629,12 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -567,6 +651,13 @@ items:
             critical: {}
             includeBase: true
             parts: []
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -596,6 +687,8 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      crew:
+        value: []
     _id: eaE6QWok5vQMBM1G
     effects: []
     folder: null
@@ -607,10 +700,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731851
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -682,10 +775,12 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -702,6 +797,13 @@ items:
             critical: {}
             includeBase: true
             parts: []
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -731,6 +833,8 @@ items:
       ammunition: {}
       magicalBonus: null
       properties: []
+      crew:
+        value: []
     _id: Q9aldHRCDDg3LHGk
     effects: []
     folder: null
@@ -742,10 +846,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731852
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -780,8 +884,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: {}
+      crewed: false
     _id: m7TBKosT9FaggfVB
     effects: []
     folder: null
@@ -793,10 +901,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731852
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -845,10 +953,12 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -865,6 +975,13 @@ items:
             critical: {}
             includeBase: true
             parts: []
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       uses:
         spent: 0
         recovery: []
@@ -915,6 +1032,9 @@ items:
         value: null
         long: null
         reach: null
+        units: ft
+      crew:
+        value: []
     _id: kL6qOWZCvFIWUIF9
     effects: []
     folder: null
@@ -926,10 +1046,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731852
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -959,8 +1079,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: {}
+      crewed: false
     flags:
       adnd5e:
         itemInfo:
@@ -975,10 +1099,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731853
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1008,8 +1132,12 @@ items:
         subtype: ''
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
       requirements: ''
+      advancement: {}
+      crewed: false
     _id: YHCrxqn3LNaVh9lM
     effects: []
     folder: null
@@ -1021,10 +1149,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731853
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1059,9 +1187,10 @@ items:
           choice: false
           special: ''
         template:
-          units: ''
+          units: ft
           contiguous: false
           type: ''
+          stationary: false
       range:
         value: '30'
         units: ft
@@ -1107,13 +1236,16 @@ items:
             concentration: false
           effects:
             - _id: BHw91lQmVgdx39WZ
+              level: {}
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1128,7 +1260,16 @@ items:
             max: ''
           sort: 0
           name: Cast
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: detect-magic
+      method: atwill
+      prepared: 0
     _id: JmW9yTZmaiWx3f99
     type: spell
     img: icons/magic/symbols/runes-carved-stone-green.webp
@@ -1136,21 +1277,18 @@ items:
       - name: Detection
         origin: Compendium.dnd5e.spells24.Item.phbsplDetectMagi
         duration:
-          rounds: null
-          startTime: null
-          seconds: 600
-          combat: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: 600
+          units: seconds
+          expiry: turnStart
+          expired: false
         disabled: false
         flags:
           dnd5e: {}
         img: icons/magic/perception/third-eye-blue-red.webp
         _id: BHw91lQmVgdx39WZ
         type: base
-        system: {}
-        changes: []
+        system:
+          changes: []
         description: ''
         tint: '#ffffff'
         transfer: false
@@ -1160,13 +1298,16 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells24.Item.phbsplDetectEvil.ActiveEffect.pOgbtXbKVGdbwjjE
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 4.0.3
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 5.3.3
+          createdTime: 1782908731853
+          modifiedTime: 1782908731853
           lastModifiedBy: null
           exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!K79H8mTBYR3Z5hmV.JmW9yTZmaiWx3f99.BHw91lQmVgdx39WZ
     folder: pBaAAtXBCq9FVEnL
@@ -1179,10 +1320,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731853
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1215,9 +1356,10 @@ items:
           count: ''
           type: ''
         template:
-          units: ''
+          units: ft
           contiguous: false
           type: ''
+          stationary: false
       range:
         units: touch
         special: ''
@@ -1260,10 +1402,12 @@ items:
             override: false
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1289,6 +1433,7 @@ items:
             attacks: false
             proficiency: false
             saves: false
+            disposition: false
           profiles:
             - count: ''
               name: ''
@@ -1304,7 +1449,16 @@ items:
             identifier: ''
           name: Cast
           effects: []
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: light
+      method: atwill
+      prepared: 0
     _id: 7s8kovSgLGF4q9VQ
     type: spell
     img: icons/sundries/lights/candle-pillar-lit-yellow.webp
@@ -1319,10 +1473,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731853
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1366,9 +1520,10 @@ items:
           count: ''
           type: ''
         template:
-          units: ''
+          units: ft
           contiguous: false
           type: ''
+          stationary: false
       range:
         units: ft
         special: ''
@@ -1413,10 +1568,12 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1427,7 +1584,16 @@ items:
           roll:
             prompt: false
             visible: false
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: prestidigitation
+      method: atwill
+      prepared: 0
     _id: u6cUL4ZPnOEj6yZA
     type: spell
     img: icons/weapons/wands/wand-star-white.webp
@@ -1442,10 +1608,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731854
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1482,6 +1648,7 @@ items:
         template:
           units: ft
           contiguous: false
+          stationary: false
       range:
         value: '5'
         units: ft
@@ -1524,11 +1691,13 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1552,12 +1721,22 @@ items:
                   number: 1
                   formula: ''
           save:
-            ability: con
+            ability:
+              - con
             dc:
               calculation: spellcasting
               formula: ''
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: thunderclap
+      method: atwill
+      prepared: 0
     img: icons/magic/lightning/fist-unarmed-strike-blue-green.webp
     ownership:
       default: 0
@@ -1581,10 +1760,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731854
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1624,8 +1803,9 @@ items:
         affects:
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
+          stationary: false
       range:
         value: '60'
         units: ft
@@ -1668,11 +1848,13 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1696,12 +1878,22 @@ items:
                   number: 1
                   formula: ''
           save:
-            ability: dex
+            ability:
+              - dex
             dc:
               calculation: spellcasting
               formula: ''
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: catapult
+      method: innate
+      prepared: 0
     img: icons/magic/water/projectile-ice-chunk.webp
     ownership:
       default: 0
@@ -1726,10 +1918,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731854
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1765,6 +1957,7 @@ items:
           type: square
           size: '10'
           contiguous: false
+          stationary: false
       range:
         value: '60'
         units: ft
@@ -1809,11 +2002,13 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1821,7 +2016,8 @@ items:
             onSave: half
             parts: []
           save:
-            ability: dex
+            ability:
+              - dex
             dc:
               calculation: spellcasting
               formula: ''
@@ -1829,7 +2025,16 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: grease
+      method: innate
+      prepared: 0
     _id: lj4asn25W5fMPHFH
     type: spell
     img: icons/commodities/materials/liquid-purple.webp
@@ -1845,10 +2050,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731854
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1883,8 +2088,9 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
+          stationary: false
       range:
         units: touch
       uses:
@@ -1929,11 +2135,13 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -1946,7 +2154,16 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: identify
+      method: innate
+      prepared: 0
     _id: eLbX9KKDV8p4ZSYI
     type: spell
     img: icons/tools/scribal/magnifying-glass.webp
@@ -1962,10 +2179,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731854
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1997,9 +2214,10 @@ items:
           type: self
           special: ''
         template:
-          units: ''
+          units: ft
           contiguous: false
           type: ''
+          stationary: false
       range:
         units: self
         special: ''
@@ -2043,13 +2261,16 @@ items:
             concentration: false
           effects:
             - _id: BRwB0T8buWhJAuDx
+              level: {}
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -2062,7 +2283,16 @@ items:
             spent: 0
             recovery: []
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: see-invisibility
+      method: innate
+      prepared: 0
     _id: qm5rSrK3EJkpShcQ
     type: spell
     img: icons/magic/perception/orb-eye-scrying.webp
@@ -2070,29 +2300,28 @@ items:
       - name: See Invisibility
         origin: Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
         duration:
-          rounds: 1
-          startTime: null
-          seconds: 3600
-          combat: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: 3600
+          units: seconds
+          expiry: turnStart
+          expired: false
         disabled: false
         flags:
           dnd5e: {}
         img: icons/magic/perception/orb-eye-scrying.webp
         _id: BRwB0T8buWhJAuDx
         type: base
-        system: {}
-        changes:
-          - key: system.attributes.senses.special
-            mode: 2
-            value: ;Invisible creatures
-            priority: null
-          - key: system.attributes.senses.special
-            mode: 2
-            value: ;Ethereal Plane
-            priority: null
+        system:
+          changes:
+            - key: system.attributes.senses.special
+              value: ;Invisible creatures
+              priority: null
+              type: add
+              phase: initial
+            - key: system.attributes.senses.special
+              value: ;Ethereal Plane
+              priority: null
+              type: add
+              phase: initial
         description: ''
         tint: '#ffffff'
         transfer: false
@@ -2101,13 +2330,16 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 4.0.3
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 5.3.3
+          createdTime: 1782908731855
+          modifiedTime: 1782908731855
           lastModifiedBy: null
           exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!K79H8mTBYR3Z5hmV.qm5rSrK3EJkpShcQ.BRwB0T8buWhJAuDx
     folder: 3SjcO2acsFnWegp4
@@ -2121,10 +2353,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731855
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2165,9 +2397,10 @@ items:
           choice: false
           special: ''
         template:
-          units: ''
+          units: ft
           contiguous: false
           type: ''
+          stationary: false
       range:
         value: '60'
         units: ft
@@ -2215,6 +2448,7 @@ items:
           effects:
             - _id: VVQbCUE5W44bF4QU
               onSave: false
+              level: {}
           range:
             override: true
             units: any
@@ -2225,6 +2459,7 @@ items:
               contiguous: false
               units: ft
               type: ''
+              stationary: false
             affects:
               choice: false
               count: '1'
@@ -2235,7 +2470,8 @@ items:
             onSave: none
             parts: []
           save:
-            ability: con
+            ability:
+              - con
             dc:
               calculation: spellcasting
               formula: ''
@@ -2245,6 +2481,13 @@ items:
             max: ''
           sort: 100000
           name: On Damage Save
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
         2jWlvr2titPfBMEm:
           type: damage
           _id: 2jWlvr2titPfBMEm
@@ -2267,10 +2510,12 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -2294,6 +2539,13 @@ items:
                   mode: whole
                   number: 1
           name: Cast and Heat
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
         YPEmwJHX7g68307N:
           type: damage
           sort: 0
@@ -2316,10 +2568,12 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -2346,7 +2600,15 @@ items:
           name: Reheat
           _id: YPEmwJHX7g68307N
           img: systems/dnd5e/icons/svg/statuses/concentrating.svg
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: heat-metal
+      method: innate
+      prepared: 0
     _id: PuY8nwGrQN36CRdV
     type: spell
     img: icons/magic/fire/flame-burning-chain.webp
@@ -2357,17 +2619,14 @@ items:
         transfer: false
         _id: VVQbCUE5W44bF4QU
         type: base
-        system: {}
-        changes: []
+        system:
+          changes: []
         disabled: false
         duration:
-          startTime: null
-          seconds: null
-          combat: null
-          rounds: 1
-          turns: null
-          startRound: null
-          startTurn: null
+          value: 1
+          units: rounds
+          expiry: turnStart
+          expired: false
         description: >-
           <p>If a creature is holding or wearing the object and takes the damage
           from it, The creature must succeed on a [[/save ability=con
@@ -2381,13 +2640,16 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
-          systemVersion: 4.0.3
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 5.3.3
+          createdTime: 1782908731855
+          modifiedTime: 1782908731855
           lastModifiedBy: null
           exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!K79H8mTBYR3Z5hmV.PuY8nwGrQN36CRdV.VVQbCUE5W44bF4QU
     folder: 3SjcO2acsFnWegp4
@@ -2404,10 +2666,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731855
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2453,8 +2715,9 @@ items:
           count: '1'
           choice: false
         template:
-          units: ''
+          units: ft
           contiguous: false
+          stationary: false
       range:
         value: '60'
         units: ft
@@ -2503,11 +2766,13 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -2519,12 +2784,22 @@ items:
             onSave: half
             parts: []
           save:
-            ability: con
+            ability:
+              - con
             dc:
               calculation: spellcasting
               formula: ''
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: levitate
+      method: innate
+      prepared: 0
     flags:
       core: {}
       dnd5e:
@@ -2543,10 +2818,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731855
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2598,6 +2873,7 @@ items:
         template:
           units: touch
           contiguous: false
+          stationary: false
       range:
         value: '0'
         units: touch
@@ -2641,11 +2917,13 @@ items:
           effects: []
           range:
             override: false
+            units: self
           target:
             prompt: true
             template:
               contiguous: false
               units: ft
+              stationary: false
             affects:
               choice: false
             override: false
@@ -2659,7 +2937,16 @@ items:
             prompt: false
             visible: false
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: tiny-servant
+      method: innate
+      prepared: 0
     img: icons/magic/air/wind-tornado-spiral-brown.webp
     ownership:
       default: 0
@@ -2685,10 +2972,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.3
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908731856
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2702,10 +2989,10 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727454753321
+  systemVersion: 5.3.3
+  createdTime: 1782908731850
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

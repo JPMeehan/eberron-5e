@@ -11,6 +11,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 10
       proficient: 0
@@ -18,6 +28,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     con:
       value: 14
       proficient: 1
@@ -25,6 +45,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 13
       proficient: 0
@@ -32,6 +62,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     wis:
       value: 18
       proficient: 1
@@ -39,6 +79,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 13
       proficient: 0
@@ -46,6 +96,16 @@ system:
       bonuses:
         check: ''
         save: ''
+      check:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      save:
+        roll:
+          min: null
+          max: null
+          mode: 0
   attributes:
     ac:
       flat: null
@@ -69,9 +129,10 @@ system:
       climb: null
       fly: null
       swim: null
-      walk: 30
+      walk: '30'
       units: null
       hover: false
+      ignoredDifficultTerrain: []
     attunement:
       max: 3
     senses:
@@ -81,6 +142,11 @@ system:
       truesight: null
       units: null
       special: ''
+      ranges:
+        darkvision: null
+        blindsight: null
+        tremorsense: null
+        truesight: null
     spellcasting: int
     exhaustion: 0
     concentration:
@@ -102,6 +168,14 @@ system:
         mode: 0
       success: 0
       failure: 0
+      bonuses:
+        save: ''
+    spell:
+      level: 0
+    loyalty: {}
+    price:
+      value: null
+      denomination: gp
   details:
     biography:
       value: >-
@@ -126,6 +200,11 @@ system:
     ideal: ''
     bond: ''
     flaw: ''
+    habitat:
+      custom: ''
+      value: []
+    treasure:
+      value: []
   traits:
     size: med
     di:
@@ -146,9 +225,11 @@ system:
     languages:
       value: []
       custom: Any three languages
+      communication: {}
     dm:
       amount: {}
       bypasses: []
+    important: false
   currency:
     pp: 0
     gp: 0
@@ -391,12 +472,15 @@ system:
     legact:
       value: 0
       max: 0
+      spent: 0
     legres:
       value: 0
       max: 0
+      spent: 0
     lair:
       value: false
       initiative: null
+      inside: false
   source:
     revision: 1
     rules: '2014'
@@ -414,9 +498,6 @@ prototypeToken:
     src: icons/svg/mystery-man.svg
     scaleX: 1
     scaleY: 1
-    offsetX: 0
-    offsetY: 0
-    rotation: 0
     anchorX: 0.5
     anchorY: 0.5
     fit: contain
@@ -465,7 +546,7 @@ prototypeToken:
     saturation: 0
     contrast: 0
     color: null
-  detectionModes: []
+  detectionModes: {}
   flags: {}
   randomImg: false
   occludable:
@@ -485,6 +566,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 items:
   - name: Blood Lash
     type: weapon
@@ -559,6 +641,8 @@ items:
         baseItem: ''
       ammunition: {}
       magicalBonus: null
+      crew:
+        value: []
     _id: ZwbCRj8NrCC4H4OO
     effects: []
     folder: null
@@ -570,10 +654,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732653
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -631,12 +715,12 @@ items:
           duration:
             concentration: false
             value: ''
-            units: ''
+            units: inst
             special: ''
             override: false
           effects: []
           range:
-            units: ''
+            units: self
             special: ''
             override: false
           target:
@@ -648,6 +732,7 @@ items:
               width: ''
               height: ''
               units: ft
+              stationary: false
             affects:
               count: ''
               type: ''
@@ -675,16 +760,28 @@ items:
                   number: null
                   formula: ''
           save:
-            ability: wis
+            ability:
+              - wis
             dc:
               calculation: ''
               formula: '15'
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: spirit-guardians-5th-level-spell-requires-2-day
       enchant: {}
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
+      advancement: {}
+      crewed: false
     _id: Tdm2C388pfTWgPKo
     effects: []
     folder: null
@@ -698,10 +795,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732653
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -751,12 +848,12 @@ items:
           duration:
             concentration: false
             value: ''
-            units: ''
+            units: inst
             special: ''
             override: false
           effects: []
           range:
-            units: ''
+            units: self
             special: ''
             override: false
           target:
@@ -767,7 +864,8 @@ items:
               size: ''
               width: ''
               height: ''
-              units: ''
+              units: ft
+              stationary: false
             affects:
               count: ''
               type: ''
@@ -785,11 +883,22 @@ items:
             prompt: false
             visible: false
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: spellcasting
       enchant: {}
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
+      advancement: {}
+      crewed: false
     _id: YPiIUaUoveLuhykR
     effects: []
     folder: null
@@ -802,10 +911,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732653
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -855,12 +964,12 @@ items:
           duration:
             concentration: false
             value: ''
-            units: ''
+            units: inst
             special: ''
             override: false
           effects: []
           range:
-            units: ''
+            units: self
             special: ''
             override: false
           target:
@@ -871,7 +980,8 @@ items:
               size: ''
               width: ''
               height: ''
-              units: ''
+              units: ft
+              stationary: false
             affects:
               count: ''
               type: ''
@@ -889,11 +999,22 @@ items:
             prompt: false
             visible: false
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: healing-light-2nd-level-spell-3-day
       enchant: {}
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
+      advancement: {}
+      crewed: false
     _id: eb8ELlJEkv3m762Y
     effects: []
     folder: null
@@ -904,10 +1025,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732653
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -958,12 +1079,12 @@ items:
           duration:
             concentration: false
             value: ''
-            units: ''
+            units: inst
             special: ''
             override: false
           effects: []
           range:
-            units: ''
+            units: self
             special: ''
             override: false
           target:
@@ -974,7 +1095,8 @@ items:
               size: ''
               width: ''
               height: ''
-              units: ''
+              units: ft
+              stationary: false
             affects:
               count: ''
               type: ''
@@ -992,11 +1114,22 @@ items:
             prompt: false
             visible: false
           sort: 0
+          img: null
+          flags: {}
+          visibility:
+            level: {}
+            requireAttunement: false
+            requireIdentification: false
+            requireMagic: false
       identifier: sentinel-at-deaths-door-recharges-after-a-short-or-long-rest
       enchant: {}
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
+      advancement: {}
+      crewed: false
     _id: kN6unEVkYngnzbGF
     effects: []
     folder: null
@@ -1007,10 +1140,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732653
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1062,6 +1195,7 @@ items:
       speed:
         value: null
         conditions: ''
+        units: ft
       strength: 13
       proficient: 1
       unidentified:
@@ -1075,6 +1209,8 @@ items:
       container: null
       properties:
         - stealthDisadvantage
+      crew:
+        value: []
     effects: []
     folder: null
     sort: 0
@@ -1088,10 +1224,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732654
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1122,7 +1258,11 @@ items:
       enchant: {}
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
+      advancement: {}
+      crewed: false
     _id: r2MiQJWTQ68apdKX
     effects: []
     folder: null
@@ -1134,10 +1274,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732654
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1165,7 +1305,11 @@ items:
       enchant: {}
       prerequisites:
         level: null
+        items: []
+        repeatable: false
       properties: []
+      advancement: {}
+      crewed: false
     _id: R77CYW50sk6Mz4xg
     effects: []
     folder: null
@@ -1177,10 +1321,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 5.3.3
+      createdTime: 1782908732654
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1195,10 +1339,10 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1726384677762
+  systemVersion: 5.3.3
+  createdTime: 1782908732652
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

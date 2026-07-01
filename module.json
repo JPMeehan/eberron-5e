@@ -3,8 +3,8 @@
   "title": "Eberron 5e",
   "version": "#{VERSION}#",
   "compatibility": {
-    "minimum": "13",
-    "verified": "13"
+    "minimum": "14",
+    "verified": "14"
   },
   "relationships": {
     "systems": [
@@ -12,8 +12,8 @@
         "id": "dnd5e",
         "type": "system",
         "compatibility": {
-          "minimum": "5.0",
-          "verified": "5.0"
+          "minimum": "5.3",
+          "verified": "5.3"
         }
       }
     ],
@@ -27,12 +27,6 @@
       {
         "id": "dnd-players-handbook",
         "type": "module",
-        "compatibility": {}
-      },
-      {
-        "id": "eberron-calendar",
-        "type": "module",
-        "manifest": "https://github.com/JPMeehan/eberron-calendar/releases/latest/download/module.json",
         "compatibility": {}
       }
     ]

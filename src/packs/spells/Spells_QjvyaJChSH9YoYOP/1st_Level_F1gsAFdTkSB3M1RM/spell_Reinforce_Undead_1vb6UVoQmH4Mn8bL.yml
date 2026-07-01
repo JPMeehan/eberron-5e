@@ -102,33 +102,30 @@ effects:
     transfer: false
     _id: DTCBodpzBCzobrdl
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.ac.bonus
-        mode: 2
-        value: '2'
-        priority: null
-      - key: system.abilities.str.bonuses.save
-        mode: 2
-        value: '2'
-        priority: null
-      - key: system.abilities.dex.bonuses.save
-        mode: 2
-        value: '2'
-        priority: null
-      - key: system.abilities.con.bonuses.save
-        mode: 2
-        value: '2'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.ac.bonus
+          value: 2
+          priority: null
+          type: add
+        - key: system.abilities.str.bonuses.save
+          value: 2
+          priority: null
+          type: add
+        - key: system.abilities.dex.bonuses.save
+          value: 2
+          priority: null
+          type: add
+        - key: system.abilities.con.bonuses.save
+          value: 2
+          priority: null
+          type: add
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: 28800
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 28800
+      units: seconds
+      expiry: turnStart
+      expired: false
     description: >-
       <p>For the duration, the creature gains a +2 bonus to AC and Strength,
       Dexterity, and Constitution saving throws, and if it has a vulnerability
@@ -145,12 +142,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.1.9
       createdTime: 1760311516797
       modifiedTime: null
       lastModifiedBy: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!1vb6UVoQmH4Mn8bL.DTCBodpzBCzobrdl'
 sort: 0
 ownership:
@@ -160,7 +160,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.350'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.1.9
   createdTime: 1748802310350

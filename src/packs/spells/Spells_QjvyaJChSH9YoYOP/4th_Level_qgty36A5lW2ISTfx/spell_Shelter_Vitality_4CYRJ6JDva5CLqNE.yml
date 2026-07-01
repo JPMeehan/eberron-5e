@@ -61,25 +61,22 @@ effects:
     origin: Compendium.eberron-5e.spells.Item.4CYRJ6JDva5CLqNE
     _id: 9wZkBuskqzl02ch2
     type: base
-    system: {}
-    changes:
-      - key: system.attributes.exhaustion
-        mode: 3
-        value: '0'
-        priority: null
-      - key: system.attributes.hp.tempmax
-        mode: 4
-        value: '0'
-        priority: null
+    system:
+      changes:
+        - key: system.attributes.exhaustion
+          value: 0
+          priority: null
+          type: downgrade
+        - key: system.attributes.hp.tempmax
+          value: 0
+          priority: null
+          type: upgrade
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: ''
     tint: '#ffffff'
     transfer: true
@@ -93,12 +90,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.1.9
       createdTime: 1760312865306
       modifiedTime: null
       lastModifiedBy: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!4CYRJ6JDva5CLqNE.9wZkBuskqzl02ch2'
 sort: 0
 ownership:
@@ -108,7 +108,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.350'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.1.9
   createdTime: 1748802991547

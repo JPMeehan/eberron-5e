@@ -114,29 +114,26 @@ effects:
     origin: Compendium.eberron-5e.spells.Item.Fye8CYHy4SJ337w5
     _id: SqUVxoWnf7aMzGA9
     type: base
-    system: {}
-    changes:
-      - key: system.traits.dm.amount.bludgeoning
-        mode: 2
-        value: '1'
-        priority: null
-      - key: system.traits.dm.amount.piercing
-        mode: 2
-        value: '1'
-        priority: null
-      - key: system.traits.dm.amount.slashing
-        mode: 2
-        value: '1'
-        priority: null
+    system:
+      changes:
+        - key: system.traits.dm.amount.bludgeoning
+          value: 1
+          priority: null
+          type: add
+        - key: system.traits.dm.amount.piercing
+          value: 1
+          priority: null
+          type: add
+        - key: system.traits.dm.amount.slashing
+          value: 1
+          priority: null
+          type: add
     disabled: false
     duration:
-      startTime: null
-      combat: null
-      seconds: null
-      rounds: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
     description: >-
       <p>You summon bone matter from nearby corpses to form a barrier around
       you, protecting you from harm. For the duration of the spell, Bludgeoning,
@@ -158,12 +155,15 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '13.350'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 5.1.9
       createdTime: 1760309976060
       modifiedTime: null
       lastModifiedBy: null
+    start: null
+    showIcon: 1
+    folder: null
     _key: '!items.effects!Fye8CYHy4SJ337w5.SqUVxoWnf7aMzGA9'
 sort: 0
 ownership:
@@ -173,7 +173,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '13.350'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.1.9
   createdTime: 1748802001016

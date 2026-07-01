@@ -141,21 +141,18 @@ effects:
   - name: Ensnared
     origin: Compendium.eberron-5e.character-options.Item.XwQ4TZVenOVmJ5zx
     duration:
-      rounds: null
-      startTime: null
-      seconds: 60
-      combat: null
-      turns: null
-      startRound: null
-      startTurn: null
+      value: 60
+      units: seconds
+      expiry: turnStart
+      expired: false
     disabled: false
     flags:
       dnd5e: {}
     img: icons/magic/nature/root-vine-entangled-hand.webp
     _id: 3Gr2061aNvVb3QnG
     type: base
-    system: {}
-    changes: []
+    system:
+      changes: []
     description: >-
       <p><span style="font-family:Signika, sans-serif">The target has the
       &amp;Reference[restrained apply=false] condition until the spell
@@ -174,13 +171,16 @@ effects:
       compendiumSource: >-
         Compendium.dnd5e.spells24.Item.phbsplEnsnaringS.ActiveEffect.tFGMG3cjQTEeAhv2
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.2
       createdTime: 1726813052706
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
+    showIcon: 2
+    start: null
+    folder: null
     _key: '!items.effects!XwQ4TZVenOVmJ5zx.3Gr2061aNvVb3QnG'
 sort: 0
 ownership:
@@ -193,7 +193,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384680383

@@ -431,12 +431,9 @@ prototypeToken:
     src: icons/svg/mystery-man.svg
     anchorX: 0.5
     anchorY: 0.5
-    offsetX: 0
-    offsetY: 0
     fit: contain
     scaleX: 1
     scaleY: 1
-    rotation: 0
     tint: '#ffffff'
     alphaThreshold: 0.75
   lockRotation: false
@@ -480,7 +477,7 @@ prototypeToken:
     brightness: 0
     saturation: 0
     contrast: 0
-  detectionModes: []
+  detectionModes: {}
   occludable:
     radius: 0
   ring:
@@ -500,6 +497,7 @@ prototypeToken:
     src: null
     disposition: false
   movementAction: null
+  depth: 1
 items:
   - name: Multiattack
     type: feat
@@ -535,7 +533,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
@@ -648,7 +646,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
@@ -830,7 +828,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
@@ -926,7 +924,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
@@ -1031,7 +1029,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
@@ -1129,7 +1127,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
@@ -1178,7 +1176,7 @@ items:
     _stats:
       duplicateSource: null
       compendiumSource: Compendium.dnd5e.monsterfeatures.Item.kyVgQNSa12loxVvr
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
@@ -1219,37 +1217,34 @@ items:
         img: icons/magic/defensive/armor-stone-skin.webp
         _id: Ur1qnciS4MT110wt
         type: base
-        system: {}
-        changes:
-          - key: system.traits.di.value
-            mode: 2
-            value: bludgeoning
-            priority: null
-          - key: system.traits.di.value
-            mode: 2
-            value: piercing
-            priority: null
-          - key: system.traits.di.value
-            mode: 2
-            value: slashing
-            priority: null
-          - key: system.traits.di.bypasses
-            mode: 2
-            value: ada
-            priority: null
-          - key: system.traits.di.bypasses
-            mode: 2
-            value: bye
-            priority: null
+        system:
+          changes:
+            - key: system.traits.di.value
+              value: bludgeoning
+              priority: null
+              type: add
+            - key: system.traits.di.value
+              value: piercing
+              priority: null
+              type: add
+            - key: system.traits.di.value
+              value: slashing
+              priority: null
+              type: add
+            - key: system.traits.di.bypasses
+              value: ada
+              priority: null
+              type: add
+            - key: system.traits.di.bypasses
+              value: bye
+              priority: null
+              type: add
         disabled: false
         duration:
-          startTime: null
-          seconds: null
-          combat: null
-          rounds: null
-          turns: null
-          startRound: null
-          startTurn: null
+          value: null
+          units: seconds
+          expiry: null
+          expired: false
         description: ''
         origin: null
         tint: '#ffffff'
@@ -1260,13 +1255,16 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '13.341'
+          coreVersion: '14.364'
           systemId: dnd5e
           systemVersion: 4.0.3
           createdTime: null
           modifiedTime: null
           lastModifiedBy: null
           exportSource: null
+        start: null
+        showIcon: 1
+        folder: null
         _key: >-
           !actors.items.effects!XCKMbiroOedfQB0f.naq05KGDhmcd9QEu.Ur1qnciS4MT110wt
     folder: null
@@ -1278,7 +1276,7 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '13.341'
+      coreVersion: '14.364'
       systemId: dnd5e
       systemVersion: 4.0.3
       createdTime: null
@@ -1295,10 +1293,10 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.0.3
-  createdTime: 1727543549689
+  systemVersion: 5.3.3
+  createdTime: 1782908732580
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null
