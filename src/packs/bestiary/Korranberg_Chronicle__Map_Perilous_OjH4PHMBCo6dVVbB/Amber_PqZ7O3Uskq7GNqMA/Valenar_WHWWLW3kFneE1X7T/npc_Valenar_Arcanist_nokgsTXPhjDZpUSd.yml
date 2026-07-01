@@ -1675,15 +1675,15 @@ items:
         system:
           changes:
             - key: system.properties
-              value: '-vocal'
+              value: -vocal
               priority: null
               type: add
             - key: system.properties
-              value: '-somatic'
+              value: -somatic
               priority: null
               type: add
             - key: system.properties
-              value: '-material'
+              value: -material
               priority: null
               type: add
         disabled: false
@@ -1899,15 +1899,15 @@ items:
         system:
           changes:
             - key: system.properties
-              value: '-vocal'
+              value: -vocal
               priority: null
               type: add
             - key: system.properties
-              value: '-somatic'
+              value: -somatic
               priority: null
               type: add
             - key: system.properties
-              value: '-material'
+              value: -material
               priority: null
               type: add
         disabled: false
@@ -2079,15 +2079,15 @@ items:
         system:
           changes:
             - key: system.properties
-              value: '-vocal'
+              value: -vocal
               priority: null
               type: add
             - key: system.properties
-              value: '-somatic'
+              value: -somatic
               priority: null
               type: add
             - key: system.properties
-              value: '-material'
+              value: -material
               priority: null
               type: add
         disabled: false
@@ -2303,15 +2303,15 @@ items:
         system:
           changes:
             - key: system.properties
-              value: '-vocal'
+              value: -vocal
               priority: null
               type: add
             - key: system.properties
-              value: '-somatic'
+              value: -somatic
               priority: null
               type: add
             - key: system.properties
-              value: '-material'
+              value: -material
               priority: null
               type: add
         disabled: false
@@ -2492,15 +2492,15 @@ items:
         system:
           changes:
             - key: system.properties
-              value: '-vocal'
+              value: -vocal
               priority: null
               type: add
             - key: system.properties
-              value: '-somatic'
+              value: -somatic
               priority: null
               type: add
             - key: system.properties
-              value: '-material'
+              value: -material
               priority: null
               type: add
         disabled: false
@@ -2707,15 +2707,15 @@ items:
         system:
           changes:
             - key: system.properties
-              value: '-vocal'
+              value: -vocal
               priority: null
               type: add
             - key: system.properties
-              value: '-somatic'
+              value: -somatic
               priority: null
               type: add
             - key: system.properties
-              value: '-material'
+              value: -material
               priority: null
               type: add
         disabled: false
@@ -2898,15 +2898,15 @@ items:
         system:
           changes:
             - key: system.properties
-              value: '-vocal'
+              value: -vocal
               priority: null
               type: add
             - key: system.properties
-              value: '-somatic'
+              value: -somatic
               priority: null
               type: add
             - key: system.properties
-              value: '-material'
+              value: -material
               priority: null
               type: add
         disabled: false
@@ -3095,15 +3095,15 @@ items:
         system:
           changes:
             - key: system.properties
-              value: '-vocal'
+              value: -vocal
               priority: null
               type: add
             - key: system.properties
-              value: '-somatic'
+              value: -somatic
               priority: null
               type: add
             - key: system.properties
-              value: '-material'
+              value: -material
               priority: null
               type: add
         disabled: false
@@ -3298,15 +3298,15 @@ items:
         system:
           changes:
             - key: system.properties
-              value: '-vocal'
+              value: -vocal
               priority: null
               type: add
             - key: system.properties
-              value: '-somatic'
+              value: -somatic
               priority: null
               type: add
             - key: system.properties
-              value: '-material'
+              value: -material
               priority: null
               type: add
         disabled: false
@@ -3563,15 +3563,15 @@ items:
         system:
           changes:
             - key: system.properties
-              value: '-vocal'
+              value: -vocal
               priority: null
               type: add
             - key: system.properties
-              value: '-somatic'
+              value: -somatic
               priority: null
               type: add
             - key: system.properties
-              value: '-material'
+              value: -material
               priority: null
               type: add
         disabled: false
@@ -3759,15 +3759,15 @@ items:
         system:
           changes:
             - key: system.properties
-              value: '-vocal'
+              value: -vocal
               priority: null
               type: add
             - key: system.properties
-              value: '-somatic'
+              value: -somatic
               priority: null
               type: add
             - key: system.properties
-              value: '-material'
+              value: -material
               priority: null
               type: add
         disabled: false
@@ -3945,15 +3945,15 @@ items:
         system:
           changes:
             - key: system.properties
-              value: '-vocal'
+              value: -vocal
               priority: null
               type: add
             - key: system.properties
-              value: '-somatic'
+              value: -somatic
               priority: null
               type: add
             - key: system.properties
-              value: '-material'
+              value: -material
               priority: null
               type: add
         disabled: false
@@ -4112,15 +4112,15 @@ items:
         system:
           changes:
             - key: system.properties
-              value: '-vocal'
+              value: -vocal
               priority: null
               type: add
             - key: system.properties
-              value: '-somatic'
+              value: -somatic
               priority: null
               type: add
             - key: system.properties
-              value: '-material'
+              value: -material
               priority: null
               type: add
         disabled: false

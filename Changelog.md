@@ -3,6 +3,7 @@
 ## 1.2.0
 
 - Updated to v14
+- Implemented several more Khyber spells from Map Perilous
 
 ## 1.1.4
 

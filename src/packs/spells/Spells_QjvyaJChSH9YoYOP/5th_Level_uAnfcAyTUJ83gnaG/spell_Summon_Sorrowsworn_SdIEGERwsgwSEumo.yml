@@ -65,14 +65,14 @@ system:
     - somatic
     - concentration
 effects: []
-sort: 0
+sort: 100000
 ownership:
   default: 0
 flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.350'
+  coreVersion: '14.364'
   systemId: dnd5e
   systemVersion: 5.1.9
   createdTime: 1726384669649

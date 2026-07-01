@@ -1,24 +1,22 @@
-folder: qgty36A5lW2ISTfx
-name: Phantasmal Nightmare
+folder: uAnfcAyTUJ83gnaG
+name: Rotting Curse of Katashka
 type: spell
-_id: eS6XA9ntLKqcQjfo
-img: icons/magic/control/fear-fright-monster-grin-purple-blue.webp
+_id: GZZpsBonKxPrxwM8
+img: icons/magic/death/skull-humanoid-white-blue.webp
 system:
   description:
     value: >-
-      <p>You tap into the nightmares of a creature you can see within range and
-      create an illusory manifestation of its deepest fears, visible only to
-      that creature. The target must make a Wisdom saving throw. On a failure,
-      the target takes 4d10 psychic damage and becomes
-      &amp;Reference[frightened] until the end of its next turn, or until you
-      stop concentrating. On a success, the target takes half as much damage and
-      isn’t frightened.</p><p>At the end of its next turn, a creature that is
-      still frightened by this spell must repeat the saving throw. On a failure,
-      the creature’s hit points drop to 0. On a success, the creature is
-      frightened for the duration of this spell.</p>
+      <p>When you cast this spell, if you are not a fiend you take [[/damage
+      5d12 necrotic]] damage that cannot be mitigated in any way.</p><p>You
+      touch a creature, and that creature must succeed on a Charisma saving
+      throw or become cursed. The cursed target’s hit point maximum is
+      immediately reduced by [[/damage 6d6]], and is reduced by an additional
+      [[/damage 1d6]] every hour until its hit point maximum is reduced to 0 or
+      until the curse is removed. If the target’s hit point maximum is reduced
+      to 0, it instantly dies.</p>
     chat: ''
   source:
-    book: TGtA
+    book: Map Perilous
     page: ''
     custom: ''
     license: DMsGuild CCA
@@ -29,28 +27,27 @@ system:
     condition: ''
     value: null
   duration:
-    value: '1'
-    units: minute
+    value: ''
+    units: inst
   target:
     affects:
       choice: false
       type: creature
-      count: ''
+      count: '1'
       special: ''
     template:
       units: ''
       contiguous: false
       type: ''
   range:
-    units: ft
+    units: self
     special: ''
-    value: '120'
   uses:
     max: ''
     spent: 0
     recovery: []
-  level: 4
-  school: ill
+  level: 5
+  school: trs
   materials:
     value: ''
     consumed: false
@@ -59,15 +56,15 @@ system:
   preparation:
     mode: prepared
     prepared: false
-  identifier: phantasmal-nightmare
+  identifier: rotting-curse-of-katashka
   activities:
-    P0XF5lWiyYm1CNhE:
+    JSIzPprzQgkWcNod:
       type: save
-      _id: P0XF5lWiyYm1CNhE
+      _id: JSIzPprzQgkWcNod
+      img: ''
       sort: 0
       activation:
         type: action
-        value: null
         override: false
       consumption:
         scaling:
@@ -81,11 +78,14 @@ system:
         concentration: false
         override: false
       effects: []
+      flags: {}
       range:
+        units: self
         override: false
       target:
         template:
           contiguous: false
+          stationary: false
           units: ft
         affects:
           choice: false
@@ -95,49 +95,39 @@ system:
         spent: 0
         recovery: []
         max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
       damage:
-        parts:
-          - custom:
-              enabled: false
-              formula: ''
-            number: 4
-            denomination: '10'
-            bonus: ''
-            types:
-              - psychic
-            scaling:
-              mode: ''
         onSave: half
+        parts: []
       save:
         ability:
-          - wis
+          - cha
         dc:
           calculation: spellcasting
           formula: ''
       name: ''
-      img: ''
-      appliedEffects: []
   properties:
     - vocal
     - somatic
-    - concentration
 effects: []
-sort: 1200000
+sort: 300000
 ownership:
   default: 0
-flags:
-  dnd5e:
-    riders:
-      activity: []
-      effect: []
+flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
   coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.3.3
-  createdTime: 1726384670101
+  systemVersion: 5.3.3
+  createdTime: 1726384669249
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null
-_key: '!items!eS6XA9ntLKqcQjfo'
+_key: '!items!GZZpsBonKxPrxwM8'

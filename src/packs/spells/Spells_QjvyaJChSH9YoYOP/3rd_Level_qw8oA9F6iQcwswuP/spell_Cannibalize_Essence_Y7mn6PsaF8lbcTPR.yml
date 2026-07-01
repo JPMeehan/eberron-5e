@@ -2,10 +2,29 @@ folder: qw8oA9F6iQcwswuP
 name: Cannibalize Essence
 type: spell
 _id: Y7mn6PsaF8lbcTPR
-img: systems/dnd5e/icons/svg/items/spell.svg
+img: icons/commodities/biological/organ-brain-pink.webp
 system:
   description:
-    value: ''
+    value: >-
+      <p>When you cast this spell, if you are not a fiend you take [[/damage
+      3d12 necrotic]] damage that cannot be mitigated in any way. You must
+      consume the flesh or brain of a creature that is not a construct or
+      elemental to cast this spell. When you do, you gain one of the following
+      effects until the spell ends. </p><p><strong>Consumed Might.</strong> You
+      have advantage on Strength checks and your carrying capacity doubles.
+      </p><p><strong>Consumed Grace.</strong> You have advantage on Dexterity
+      checks and you don’t take damage from falling 20 feet or less while you
+      aren’t incapacitated. </p><p><strong>Consumed Fortitude.</strong> You have
+      advantage on Constitution checks and you gain 2d6 temporary hit points,
+      which are lost when the spell ends. </p><p><strong>Consumed
+      Cunning.</strong> You have advantage on Intelligence checks.
+      </p><p><strong>Consumed Insight.</strong> You have advantage on Wisdom
+      checks. </p><p><strong>Consumed Splendor.</strong> You have advantage on
+      Charisma checks. </p><p><strong>At Higher Levels.</strong> When you cast
+      this spell using a slot of 4th level or higher, you can choose to gain one
+      additional effect for every two slot levels above 3rd. If you gain three
+      or more effects, the spell’s duration comes permanent, until
+      dispelled.</p>
     chat: ''
   source:
     book: Map Perilous
@@ -15,12 +34,12 @@ system:
     rules: '2014'
     revision: 1
   activation:
-    type: ''
+    type: action
     condition: ''
     value: null
   duration:
-    value: ''
-    units: inst
+    value: '24'
+    units: hour
   target:
     affects:
       choice: false
@@ -40,7 +59,7 @@ system:
   level: 3
   school: trs
   materials:
-    value: ''
+    value: the corpse of a creature that is not a construct or elemental
     consumed: false
     cost: 0
     supply: 0
@@ -48,9 +67,296 @@ system:
     mode: prepared
     prepared: false
   identifier: cannibalize-essence
-  activities: {}
-  properties: []
-effects: []
+  activities:
+    NUqvTsXmViZawfMS:
+      type: utility
+      _id: NUqvTsXmViZawfMS
+      img: ''
+      sort: 0
+      activation:
+        type: action
+        override: false
+      consumption:
+        scaling:
+          allowed: false
+        spellSlot: true
+        targets: []
+      description:
+        chatFlavor: ''
+      duration:
+        units: inst
+        concentration: false
+        override: false
+      effects:
+        - _id: aHKxJmF7vlpuaZI6
+          level: {}
+        - _id: oCifZhBgCqSPyyw4
+          level: {}
+        - _id: UTsZehssIKOslfvT
+          level: {}
+        - _id: aflLD2bEbLCnITBh
+          level: {}
+        - _id: XkI6VdNPJrHLUcDi
+          level: {}
+        - _id: NIFN0ol5YeYEX3W6
+          level: {}
+      flags: {}
+      range:
+        units: self
+        override: false
+      target:
+        template:
+          contiguous: false
+          stationary: false
+          units: ft
+        affects:
+          choice: false
+        override: false
+        prompt: true
+      uses:
+        spent: 0
+        recovery: []
+        max: ''
+      visibility:
+        level:
+          min: null
+          max: null
+        requireAttunement: false
+        requireIdentification: false
+        requireMagic: false
+      roll:
+        prompt: false
+        visible: false
+        name: ''
+        formula: ''
+      name: Cast
+  properties:
+    - vocal
+    - somatic
+    - material
+effects:
+  - name: Consumed Might
+    img: systems/dnd5e/icons/svg/abilities/strength.svg
+    origin: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
+    transfer: false
+    _id: aHKxJmF7vlpuaZI6
+    type: base
+    system:
+      changes: []
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p><span class="fontstyle0">You have advantage on Strength checks and your
+      carrying capacity doubles</span> </p>
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782938546568
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!Y7mn6PsaF8lbcTPR.aHKxJmF7vlpuaZI6'
+  - name: Consumed Grace
+    img: systems/dnd5e/icons/svg/abilities/dexterity.svg
+    origin: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
+    transfer: false
+    _id: oCifZhBgCqSPyyw4
+    type: base
+    system:
+      changes: []
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>You have advantage on Dexterity checks and you don’t take damage from
+      falling 20 feet or less while you aren’t incapacitated.</p>
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782938547267
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!Y7mn6PsaF8lbcTPR.oCifZhBgCqSPyyw4'
+  - name: Consumed Fortitude
+    img: systems/dnd5e/icons/svg/abilities/constitution.svg
+    origin: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
+    transfer: false
+    _id: UTsZehssIKOslfvT
+    type: base
+    system:
+      changes: []
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: >-
+      <p>You have advantage on Constitution checks and you gain 2d6 temporary
+      hit points, which are lost when the spell ends. </p>
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782938547724
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!Y7mn6PsaF8lbcTPR.UTsZehssIKOslfvT'
+  - name: Consumed Cunning
+    img: systems/dnd5e/icons/svg/abilities/intelligence.svg
+    origin: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
+    transfer: false
+    _id: aflLD2bEbLCnITBh
+    type: base
+    system:
+      changes: []
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: <p>You have advantage on Intelligence checks.</p>
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782938548098
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!Y7mn6PsaF8lbcTPR.aflLD2bEbLCnITBh'
+  - name: Consumed Insight
+    img: systems/dnd5e/icons/svg/abilities/wisdom.svg
+    origin: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
+    transfer: false
+    _id: XkI6VdNPJrHLUcDi
+    type: base
+    system:
+      changes: []
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: <p>You have advantage on Wisdom checks.</p>
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782938548454
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!Y7mn6PsaF8lbcTPR.XkI6VdNPJrHLUcDi'
+  - name: Consumed Splendor
+    img: systems/dnd5e/icons/svg/abilities/charisma.svg
+    origin: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
+    transfer: false
+    _id: NIFN0ol5YeYEX3W6
+    type: base
+    system:
+      changes: []
+    disabled: false
+    start: null
+    duration:
+      value: null
+      units: seconds
+      expiry: null
+      expired: false
+    description: <p>You have advantage on Charisma checks.</p>
+    tint: '#ffffff'
+    statuses: []
+    showIcon: 1
+    folder: null
+    sort: 0
+    flags:
+      dnd5e:
+        riders:
+          statuses: []
+    _stats:
+      coreVersion: '14.364'
+      systemId: dnd5e
+      systemVersion: 5.3.3
+      createdTime: 1782938548869
+      modifiedTime: null
+      lastModifiedBy: null
+      compendiumSource: null
+      duplicateSource: null
+      exportSource: null
+    _key: '!items.effects!Y7mn6PsaF8lbcTPR.NIFN0ol5YeYEX3W6'
 sort: 0
 ownership:
   default: 0
@@ -58,9 +364,9 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '13.341'
+  coreVersion: '14.364'
   systemId: dnd5e
-  systemVersion: 4.1.2
+  systemVersion: 5.3.3
   createdTime: 1726384669823
   modifiedTime: null
   lastModifiedBy: null
