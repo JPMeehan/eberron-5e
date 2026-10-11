@@ -99,6 +99,10 @@ effects:
           value: 5
           priority: null
           type: add
+          phase: initial
+          _id: S3Wptpc4Yw2WHHwj
+          conditions: '{}'
+          replacement: ''
     disabled: false
     duration:
       value: null
@@ -115,9 +119,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.2
+      systemVersion: 6.0.6
       createdTime: 1727045597967
       modifiedTime: null
       lastModifiedBy: null
@@ -131,7 +135,7 @@ _id: 6fHHdzXWfQvss3rm
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384640244

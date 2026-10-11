@@ -27,6 +27,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 19
       proficient: 0
@@ -40,6 +45,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -61,6 +71,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 11
       proficient: 0
@@ -74,6 +89,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -95,6 +115,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 11
       proficient: 0
@@ -108,6 +133,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -361,6 +391,8 @@ system:
       units: null
       hover: false
       ignoredDifficultTerrain: []
+      speeds:
+        walk: '35'
     attunement:
       max: 3
     senses:
@@ -389,6 +421,11 @@ system:
     ac:
       flat: 17
       calc: flat
+      override: 17
+      calcs:
+        - unarmored
+        - armored
+      formulas: []
     hd:
       spent: 0
     hp:
@@ -487,6 +524,8 @@ system:
       custom: ''
       communication: {}
     important: false
+  identifier: ''
+  rolls: {}
 prototypeToken:
   name: Znir Gnoll Hwyri
   displayName: 0
@@ -607,10 +646,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036983
+      systemVersion: 6.0.6
+      createdTime: 1791731070616
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -643,6 +682,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
         versatile:
           number: null
           denomination: null
@@ -651,6 +691,7 @@ items:
             enabled: false
           scaling:
             number: 1
+          modifiers: []
       range:
         value: 7
         units: ft
@@ -674,11 +715,13 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -711,6 +754,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       uses:
         spent: 0
         recovery: []
@@ -742,6 +786,7 @@ items:
       properties: []
       crew:
         value: []
+      rarities: []
     _id: CR66KDgVbB4AhPOj
     effects: []
     folder: null
@@ -753,10 +798,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036983
+      systemVersion: 6.0.6
+      createdTime: 1791731070616
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -798,11 +843,13 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -835,6 +882,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       uses:
         spent: 0
         recovery: []
@@ -871,6 +919,7 @@ items:
             enabled: false
           scaling:
             number: 1
+          modifiers: []
         versatile:
           number: null
           denomination: null
@@ -879,10 +928,12 @@ items:
             enabled: false
           scaling:
             number: 1
+          modifiers: []
       magicalBonus: null
       properties: []
       crew:
         value: []
+      rarities: []
     _id: dZMniaBI61lmvqUm
     effects: []
     folder: null
@@ -894,10 +945,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036983
+      systemVersion: 6.0.6
+      createdTime: 1791731070616
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -931,6 +982,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
         versatile:
           number: null
           denomination: null
@@ -939,6 +991,7 @@ items:
             enabled: false
           scaling:
             number: 1
+          modifiers: []
       range:
         value: 150
         long: 600
@@ -962,11 +1015,13 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -999,6 +1054,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       uses:
         spent: 0
         recovery: []
@@ -1030,6 +1086,7 @@ items:
       properties: []
       crew:
         value: []
+      rarities: []
     _id: mwT01yGMiO38xE4R
     effects: []
     folder: null
@@ -1041,10 +1098,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036983
+      systemVersion: 6.0.6
+      createdTime: 1791731070616
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1090,10 +1147,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036984
+      systemVersion: 6.0.6
+      createdTime: 1791731070616
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1142,10 +1199,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036984
+      systemVersion: 6.0.6
+      createdTime: 1791731070617
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1194,10 +1251,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036984
+      systemVersion: 6.0.6
+      createdTime: 1791731070617
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1242,10 +1299,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036984
+      systemVersion: 6.0.6
+      createdTime: 1791731070617
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1290,10 +1347,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036984
+      systemVersion: 6.0.6
+      createdTime: 1791731070617
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1319,6 +1376,7 @@ items:
       duration:
         value: '1'
         units: minute
+        expiry: null
       target:
         affects:
           type: creature
@@ -1366,13 +1424,16 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             override: false
             concentration: false
+            expiry: null
           effects:
             - _id: 1dzvDffEh8wZ0oQy
               level: {}
+              uuid: null
           range:
             override: false
             units: self
@@ -1401,6 +1462,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       identifier: bless
       method: innate
       prepared: 0
@@ -1416,7 +1478,7 @@ items:
           units: seconds
           expiry: turnStart
           expired: false
-        origin: Compendium.dnd5e.spells24.Item.phbsplBless00000
+        origin: null
         tint: '#ffffff'
         transfer: false
         name: Blessed
@@ -1428,11 +1490,11 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr.ActiveEffect.8rP3gwmXVTgZqYZE
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 5.3.3
-          createdTime: 1782911036984
-          modifiedTime: 1782911036984
+          systemVersion: 6.0.6
+          createdTime: 1791731070618
+          modifiedTime: 1791731070618
           lastModifiedBy: null
           exportSource: null
         img: icons/magic/holy/chalice-glowing-gold-water.webp
@@ -1444,26 +1506,51 @@ items:
               priority: null
               type: add
               phase: initial
+              _id: e6hVBrBB3fabowGU
+              conditions: '{}'
+              replacement: ''
             - key: system.bonuses.mwak.attack
               value: 1d4
               priority: null
               type: add
               phase: initial
+              _id: kH27OArmNSZ0p77b
+              conditions: '{}'
+              replacement: ''
             - key: system.bonuses.msak.attack
               value: 1d4
               priority: null
               type: add
               phase: initial
+              _id: DvzsIoYQXoLLai8y
+              conditions: '{}'
+              replacement: ''
             - key: system.bonuses.rsak.attack
               value: 1d4
               priority: null
               type: add
               phase: initial
+              _id: gFwsonP5GvN2kLKV
+              conditions: '{}'
+              replacement: ''
             - key: system.bonuses.rwak.attack
               value: 1d4
               priority: null
               type: add
               phase: initial
+              _id: Ovv0j5jbsd45ZNe3
+              conditions: '{}'
+              replacement: ''
+          origin:
+            actor: null
+            behavior: null
+            effect: null
+            item: Compendium.dnd5e.spells24.Item.phbsplBless00000
+            message: null
+          conditions: '{}'
+          magical: true
+          rider:
+            statuses: []
         sort: 0
         start: null
         showIcon: 1
@@ -1481,10 +1568,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036984
+      systemVersion: 6.0.6
+      createdTime: 1791731070618
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1512,6 +1599,7 @@ items:
       duration:
         value: '10'
         units: minute
+        expiry: null
       target:
         affects:
           type: self
@@ -1558,13 +1646,16 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             override: false
             concentration: false
+            expiry: null
           effects:
             - _id: pOgbtXbKVGdbwjjE
               level: {}
+              uuid: null
           range:
             override: false
             units: self
@@ -1593,6 +1684,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       identifier: detect-evil-and-good
       method: innate
       prepared: 0
@@ -1601,7 +1693,7 @@ items:
     img: icons/magic/perception/eye-ringed-green.webp
     effects:
       - name: Detection
-        origin: Compendium.dnd5e.spells24.Item.phbsplDetectEvil
+        origin: null
         duration:
           value: 600
           units: seconds
@@ -1615,6 +1707,16 @@ items:
         type: base
         system:
           changes: []
+          origin:
+            actor: null
+            behavior: null
+            effect: null
+            item: Compendium.dnd5e.spells24.Item.phbsplDetectEvil
+            message: null
+          conditions: '{}'
+          magical: true
+          rider:
+            statuses: []
         description: ''
         tint: '#ffffff'
         transfer: false
@@ -1623,11 +1725,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 5.3.3
-          createdTime: 1782911036985
-          modifiedTime: 1782911036985
+          systemVersion: 6.0.6
+          createdTime: 1791731070618
+          modifiedTime: 1791731070618
           lastModifiedBy: null
           exportSource: null
         start: null
@@ -1646,10 +1748,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036985
+      systemVersion: 6.0.6
+      createdTime: 1791731070618
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1682,6 +1784,7 @@ items:
       duration:
         value: '10'
         units: minute
+        expiry: null
       target:
         affects:
           choice: false
@@ -1731,13 +1834,16 @@ items:
             targets: []
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects:
             - _id: 0WW6DMPuabIZh1Tv
               level: {}
+              uuid: null
           range:
             override: false
             units: self
@@ -1767,18 +1873,29 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       identifier: protection-from-evil-and-good
       method: innate
       prepared: 0
     effects:
       - name: Protected
         img: icons/magic/holy/yin-yang-balance-symbol.webp
-        origin: Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr
+        origin: null
         transfer: false
         _id: 0WW6DMPuabIZh1Tv
         type: base
         system:
           changes: []
+          origin:
+            actor: null
+            behavior: null
+            effect: null
+            item: Compendium.dnd5e.spells24.Item.phbEvilAndGoodPr
+            message: null
+          conditions: '{}'
+          magical: true
+          rider:
+            statuses: []
         disabled: false
         duration:
           value: 600
@@ -1797,11 +1914,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 5.3.3
-          createdTime: 1782911036985
-          modifiedTime: 1782911036985
+          systemVersion: 6.0.6
+          createdTime: 1791731070619
+          modifiedTime: 1791731070619
           lastModifiedBy: null
           exportSource: null
         start: null
@@ -1819,10 +1936,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036985
+      systemVersion: 6.0.6
+      createdTime: 1791731070619
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1840,10 +1957,10 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
-  systemVersion: 5.3.3
-  createdTime: 1782911036982
+  systemVersion: 6.0.6
+  createdTime: 1791731070615
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

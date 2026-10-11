@@ -28,6 +28,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 17
       proficient: 1
@@ -41,6 +46,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -62,6 +72,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 15
       proficient: 1
@@ -75,6 +90,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -96,6 +116,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 16
       proficient: 0
@@ -109,6 +134,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -362,6 +392,8 @@ system:
       units: null
       hover: false
       ignoredDifficultTerrain: []
+      speeds:
+        walk: '25'
     attunement:
       max: 3
     senses:
@@ -390,6 +422,11 @@ system:
     ac:
       flat: null
       calc: default
+      calcs:
+        - unarmored
+        - armored
+      formulas: []
+      override: null
     hd:
       spent: 0
     hp:
@@ -485,6 +522,8 @@ system:
       custom: Honesty;plus one other language
       communication: {}
     important: false
+  identifier: ''
+  rolls: {}
 prototypeToken:
   name: Trust Operative
   displayName: 20
@@ -555,7 +594,9 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
-  flags: {}
+  flags:
+    dnd5e:
+      lockScale: true
   randomImg: false
   turnMarker:
     mode: 1
@@ -585,11 +626,13 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -616,6 +659,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       uses:
         spent: 0
         recovery: []
@@ -647,10 +691,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035581
+      systemVersion: 6.0.6
+      createdTime: 1791731068693
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -697,11 +741,13 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -725,6 +771,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
         uIwVIkN9Mzz7N3Xo:
           _id: uIwVIkN9Mzz7N3Xo
           type: save
@@ -738,6 +785,7 @@ items:
             dc:
               formula: '15'
               calculation: initial
+            visible: true
           damage:
             parts:
               - number: 7
@@ -748,6 +796,7 @@ items:
                   enabled: false
                 scaling:
                   number: 1
+                modifiers: []
             onSave: half
           sort: 0
           consumption:
@@ -755,11 +804,13 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -783,6 +834,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       damage:
         base:
           number: 1
@@ -797,6 +849,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
         versatile:
           number: null
           denomination: null
@@ -805,6 +858,7 @@ items:
             enabled: false
           scaling:
             number: 1
+          modifiers: []
       range:
         value: 5
         units: ft
@@ -842,6 +896,7 @@ items:
       properties: []
       crew:
         value: []
+      rarities: []
     img: modules/dnd-players-handbook/assets/icons/items/shortsword.webp
     _id: 4n2ovRz3JyuVTH1m
     effects: []
@@ -854,10 +909,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035582
+      systemVersion: 6.0.6
+      createdTime: 1791731068693
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -905,11 +960,13 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -933,6 +990,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
         AhEBtECD3IEaQzl4:
           _id: AhEBtECD3IEaQzl4
           type: save
@@ -946,6 +1004,7 @@ items:
             dc:
               formula: '15'
               calculation: initial
+            visible: true
           damage:
             parts:
               - number: 7
@@ -956,6 +1015,7 @@ items:
                   enabled: false
                 scaling:
                   number: 1
+                modifiers: []
             onSave: half
           sort: 0
           consumption:
@@ -963,11 +1023,13 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -991,6 +1053,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       damage:
         base:
           number: 1
@@ -1005,6 +1068,7 @@ items:
             mode: ''
             number: null
             formula: ''
+          modifiers: []
         versatile:
           number: null
           denomination: null
@@ -1013,6 +1077,7 @@ items:
             enabled: false
           scaling:
             number: 1
+          modifiers: []
       range:
         value: 30
         long: 120
@@ -1050,6 +1115,7 @@ items:
       properties: []
       crew:
         value: []
+      rarities: []
     img: modules/dnd-players-handbook/assets/icons/items/hand-crossbow.webp
     _id: M0R1V94SZ38XE8nj
     effects: []
@@ -1062,10 +1128,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035582
+      systemVersion: 6.0.6
+      createdTime: 1791731068694
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1093,11 +1159,13 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -1124,6 +1192,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       uses:
         spent: 0
         recovery: []
@@ -1155,10 +1224,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035582
+      systemVersion: 6.0.6
+      createdTime: 1791731068694
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1184,11 +1253,13 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -1215,6 +1286,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       uses:
         spent: 0
         recovery: []
@@ -1248,10 +1320,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035582
+      systemVersion: 6.0.6
+      createdTime: 1791731068694
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1279,11 +1351,13 @@ items:
               allowed: false
             spellSlot: true
             targets: []
-          description: {}
+          description:
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -1310,6 +1384,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       uses:
         spent: 0
         recovery: []
@@ -1343,10 +1418,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035582
+      systemVersion: 6.0.6
+      createdTime: 1791731068694
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1404,6 +1479,7 @@ items:
       identifier: studded-leather-armor
       crew:
         value: []
+      rarities: []
     _id: 0KTRPxKJnUa7t3gD
     type: equipment
     folder: G3X11BbtmEqLmEnK
@@ -1418,10 +1494,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035583
+      systemVersion: 6.0.6
+      createdTime: 1791731068694
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1468,10 +1544,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035583
+      systemVersion: 6.0.6
+      createdTime: 1791731068694
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1516,10 +1592,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035583
+      systemVersion: 6.0.6
+      createdTime: 1791731068695
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1567,10 +1643,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035583
+      systemVersion: 6.0.6
+      createdTime: 1791731068695
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1609,6 +1685,7 @@ items:
       duration:
         value: '1'
         units: minute
+        expiry: null
       target:
         affects:
           choice: false
@@ -1657,10 +1734,12 @@ items:
             targets: []
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           range:
             override: false
             units: self
@@ -1724,6 +1803,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       identifier: minor-illusion
       method: atwill
       prepared: 0
@@ -1741,10 +1821,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035583
+      systemVersion: 6.0.6
+      createdTime: 1791731068695
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1771,6 +1851,7 @@ items:
       duration:
         value: '10'
         units: minute
+        expiry: null
       target:
         affects:
           choice: false
@@ -1818,13 +1899,16 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             override: false
             concentration: false
+            expiry: null
           effects:
             - _id: lHx55SIuimKR3ALR
               level: {}
+              uuid: null
           range:
             override: false
             units: self
@@ -1853,6 +1937,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       identifier: speak-with-animals
       method: atwill
       prepared: 0
@@ -1861,7 +1946,7 @@ items:
     img: icons/creatures/mammals/dog-husky-white-blue.webp
     effects:
       - name: Bestial Communication
-        origin: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
+        origin: null
         duration:
           value: 600
           units: seconds
@@ -1880,6 +1965,19 @@ items:
               priority: null
               type: add
               phase: initial
+              _id: EXXLUgQxgVHgFH1C
+              conditions: '{}'
+              replacement: ''
+          origin:
+            actor: null
+            behavior: null
+            effect: null
+            item: Compendium.dnd5e.spells24.Item.phbsplSpeakwithA
+            message: null
+          conditions: '{}'
+          magical: true
+          rider:
+            statuses: []
         description: ''
         tint: '#ffffff'
         transfer: false
@@ -1888,11 +1986,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 5.3.3
-          createdTime: 1782911035584
-          modifiedTime: 1782911035584
+          systemVersion: 6.0.6
+          createdTime: 1791731068696
+          modifiedTime: 1791731068696
           lastModifiedBy: null
           exportSource: null
         start: null
@@ -1910,10 +2008,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035584
+      systemVersion: 6.0.6
+      createdTime: 1791731068695
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1939,6 +2037,7 @@ items:
       duration:
         value: '1'
         units: hour
+        expiry: null
       target:
         affects:
           type: creature
@@ -1993,13 +2092,16 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             override: false
             concentration: false
+            expiry: null
           effects:
             - _id: 9svfDetqjhsFP3ey
               level: {}
+              uuid: null
           range:
             override: false
             units: self
@@ -2028,6 +2130,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       identifier: invisibility
       method: innate
       prepared: 0
@@ -2036,7 +2139,7 @@ items:
     img: icons/creatures/magical/spirit-undead-ghost-purple.webp
     effects:
       - name: Invisible
-        origin: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+        origin: null
         duration:
           value: 3600
           units: seconds
@@ -2050,6 +2153,16 @@ items:
         type: base
         system:
           changes: []
+          origin:
+            actor: null
+            behavior: null
+            effect: null
+            item: Compendium.dnd5e.spells24.Item.phbsplInvisibili
+            message: null
+          conditions: '{}'
+          magical: true
+          rider:
+            statuses: []
         description: >-
           <p>The spell ends early immediately after the target makes an attack
           roll, deals damage, or casts a spell.</p>
@@ -2061,11 +2174,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 5.3.3
-          createdTime: 1782911035584
-          modifiedTime: 1782911035584
+          systemVersion: 6.0.6
+          createdTime: 1791731068696
+          modifiedTime: 1791731068696
           lastModifiedBy: null
           exportSource: null
         showIcon: 2
@@ -2084,10 +2197,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035584
+      systemVersion: 6.0.6
+      createdTime: 1791731068696
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2120,6 +2233,7 @@ items:
       duration:
         value: ''
         units: inst
+        expiry: null
       target:
         affects:
           type: creature
@@ -2170,10 +2284,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             override: false
             concentration: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -2203,6 +2319,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       identifier: sending
       method: innate
       prepared: 0
@@ -2221,10 +2338,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911035585
+      systemVersion: 6.0.6
+      createdTime: 1791731068697
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -2234,10 +2351,10 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
-  systemVersion: 5.3.3
-  createdTime: 1782911035580
+  systemVersion: 6.0.6
+  createdTime: 1791731068692
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

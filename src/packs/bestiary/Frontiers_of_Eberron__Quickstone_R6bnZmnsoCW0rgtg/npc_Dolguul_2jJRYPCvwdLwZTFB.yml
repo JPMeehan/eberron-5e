@@ -817,13 +817,15 @@ items:
     effects:
       - name: Cleaver
         img: icons/svg/combat.svg
-        origin: >-
-          Compendium.eberron-5e.bestiary.Actor.2jJRYPCvwdLwZTFB.Item.zOr5L5f0RY1F4qWQ
+        origin: null
         transfer: false
         _id: lJpGv4vgXTc1rW5B
         type: base
         system:
           changes: []
+          origin:
+            item: >-
+              Compendium.eberron-5e.bestiary.Actor.2jJRYPCvwdLwZTFB.Item.zOr5L5f0RY1F4qWQ
         disabled: false
         duration:
           value: null
@@ -845,11 +847,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.0.3
+          systemVersion: 6.0.6
           createdTime: 1727537778827
-          modifiedTime: 1727537810288
+          modifiedTime: 1791731068628
           lastModifiedBy: null
           exportSource: null
         showIcon: 2
@@ -870,10 +872,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 4.0.3
-      createdTime: null
+      createdTime: 1791731068628
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1154,9 +1156,9 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
-  systemVersion: 5.3.3
+  systemVersion: 6.0.6
   createdTime: 1782908730961
   modifiedTime: null
   lastModifiedBy: null

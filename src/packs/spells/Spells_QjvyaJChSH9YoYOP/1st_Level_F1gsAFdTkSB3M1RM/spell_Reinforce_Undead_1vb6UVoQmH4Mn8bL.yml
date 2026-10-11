@@ -98,7 +98,7 @@ system:
 effects:
   - name: Reinforce Undead
     img: icons/magic/death/skull-horned-goat-pentagram-red.webp
-    origin: Compendium.eberron-5e.spells.Item.1vb6UVoQmH4Mn8bL
+    origin: null
     transfer: false
     _id: DTCBodpzBCzobrdl
     type: base
@@ -108,18 +108,37 @@ effects:
           value: 2
           priority: null
           type: add
+          phase: initial
+          _id: LBAr0x06FWCXZY9b
+          conditions: '{}'
+          replacement: ''
         - key: system.abilities.str.bonuses.save
           value: 2
           priority: null
           type: add
+          phase: initial
+          _id: gLokR0NMh4rywbeM
+          conditions: '{}'
+          replacement: ''
         - key: system.abilities.dex.bonuses.save
           value: 2
           priority: null
           type: add
+          phase: initial
+          _id: vzBFevhqnczjMLCe
+          conditions: '{}'
+          replacement: ''
         - key: system.abilities.con.bonuses.save
           value: 2
           priority: null
           type: add
+          phase: initial
+          _id: ZoWeJwZ2a7QrVLgK
+          conditions: '{}'
+          replacement: ''
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.1vb6UVoQmH4Mn8bL
     disabled: false
     duration:
       value: 28800
@@ -142,9 +161,9 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.1.9
+      systemVersion: 6.0.6
       createdTime: 1760311516797
       modifiedTime: null
       lastModifiedBy: null
@@ -160,7 +179,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 5.1.9
   createdTime: 1748802310350

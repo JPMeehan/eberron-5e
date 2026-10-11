@@ -125,12 +125,15 @@ system:
 effects:
   - name: Extemporate
     img: icons/magic/time/hourglass-tilted-gray.webp
-    origin: Compendium.eberron-5e.spells.Item.jqQ1p2mtxDOnXXzA
+    origin: null
     transfer: false
     _id: BshH3oPPH5KIkjEs
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.jqQ1p2mtxDOnXXzA
     disabled: false
     duration:
       value: 1
@@ -148,9 +151,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.3.3
+      systemVersion: 6.0.6
       createdTime: 1739938705309
       modifiedTime: null
       lastModifiedBy: null
@@ -170,7 +173,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.3.3
   createdTime: 1726384670215

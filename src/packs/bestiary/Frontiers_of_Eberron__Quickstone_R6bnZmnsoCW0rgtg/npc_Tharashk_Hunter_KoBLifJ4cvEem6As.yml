@@ -27,6 +27,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 15
       proficient: 0
@@ -40,6 +45,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -61,6 +71,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 10
       proficient: 0
@@ -74,6 +89,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -95,6 +115,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 10
       proficient: 0
@@ -108,6 +133,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -361,6 +391,12 @@ system:
       units: null
       hover: false
       ignoredDifficultTerrain: []
+      speeds:
+        walk: '30'
+        burrow: '0'
+        climb: '0'
+        fly: '0'
+        swim: '0'
     attunement:
       max: 3
     senses:
@@ -389,6 +425,11 @@ system:
     ac:
       flat: null
       calc: default
+      calcs:
+        - unarmored
+        - armored
+      formulas: []
+      override: null
     hd:
       spent: 0
     hp:
@@ -484,6 +525,8 @@ system:
       custom: ''
       communication: {}
     important: false
+  identifier: ''
+  rolls: {}
 prototypeToken:
   name: Tharashk Hunter
   displayName: 0
@@ -604,10 +647,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036340
+      systemVersion: 6.0.6
+      createdTime: 1791731069690
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -652,10 +695,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036340
+      systemVersion: 6.0.6
+      createdTime: 1791731069690
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -700,10 +743,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036340
+      systemVersion: 6.0.6
+      createdTime: 1791731069690
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -759,10 +802,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036340
+      systemVersion: 6.0.6
+      createdTime: 1791731069690
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -808,10 +851,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036340
+      systemVersion: 6.0.6
+      createdTime: 1791731069690
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -841,6 +884,7 @@ items:
       duration:
         value: '10'
         units: minute
+        expiry: null
       target:
         affects:
           choice: false
@@ -889,10 +933,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             override: false
             concentration: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -924,6 +970,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       identifier: locate-object
       method: innate
       prepared: 0
@@ -945,10 +992,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036340
+      systemVersion: 6.0.6
+      createdTime: 1791731069691
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -973,6 +1020,7 @@ items:
       duration:
         value: '1'
         units: hour
+        expiry: null
       target:
         affects:
           type: creature
@@ -1021,13 +1069,16 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             override: false
             concentration: false
+            expiry: null
           effects:
             - _id: I746neZVrgJFkRco
               level: {}
+              uuid: null
           range:
             override: false
             units: self
@@ -1058,6 +1109,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       identifier: longstrider
       method: innate
       prepared: 0
@@ -1066,7 +1118,7 @@ items:
     img: icons/equipment/feet/boots-leather-laced-brown.webp
     effects:
       - name: Longstrider
-        origin: Compendium.dnd5e.spells24.Item.phbsplLongstride
+        origin: null
         duration:
           value: 3600
           units: seconds
@@ -1085,6 +1137,19 @@ items:
               priority: null
               type: add
               phase: initial
+              _id: ynxnN4ZB4fJAcdXe
+              conditions: '{}'
+              replacement: ''
+          origin:
+            actor: null
+            behavior: null
+            effect: null
+            item: Compendium.dnd5e.spells24.Item.phbsplLongstride
+            message: null
+          conditions: '{}'
+          magical: true
+          rider:
+            statuses: []
         description: <p>The target’s Speed increases by 10 feet until the spell ends.</p>
         tint: '#ffffff'
         transfer: false
@@ -1093,11 +1158,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 5.3.3
-          createdTime: 1782911036341
-          modifiedTime: 1782911036341
+          systemVersion: 6.0.6
+          createdTime: 1791731069691
+          modifiedTime: 1791731069691
           lastModifiedBy: null
           exportSource: null
         start: null
@@ -1116,10 +1181,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036341
+      systemVersion: 6.0.6
+      createdTime: 1791731069691
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1178,6 +1243,7 @@ items:
       equipped: true
       crew:
         value: []
+      rarities: []
     _id: 2H3daTqgLrtynOE6
     type: equipment
     folder: tNySLDnz2qPVahU7
@@ -1192,10 +1258,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.equipment.Item.phbarmHideArmor0
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036341
+      systemVersion: 6.0.6
+      createdTime: 1791731069691
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1256,6 +1322,7 @@ items:
       equipped: true
       crew:
         value: []
+      rarities: []
     _id: PTESArgVYkW8sQrb
     type: equipment
     folder: Iyyec8ij0PAfdLBd
@@ -1270,10 +1337,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036341
+      systemVersion: 6.0.6
+      createdTime: 1791731069692
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1287,10 +1354,10 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
-  systemVersion: 5.3.3
-  createdTime: 1782911036339
+  systemVersion: 6.0.6
+  createdTime: 1791731069689
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

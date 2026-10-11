@@ -114,7 +114,7 @@ flags:
 effects:
   - name: Master of the White Banner
     img: icons/magic/death/skull-flames-white-blue.webp
-    origin: Compendium.eberron-5e.classes.Item.VwYe1IMi0r4LwzHe
+    origin: null
     transfer: true
     _id: 2mT1eZCGEl2EZweB
     type: base
@@ -125,31 +125,51 @@ effects:
           priority: null
           type: add
           phase: initial
+          _id: 9rP8DGmB2L38TnnJ
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.di.value
           value: necrotic
           priority: null
           type: add
           phase: initial
+          _id: 8mvBB9i1jS8qT2HG
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.dr.value
           value: bludgeoning
           priority: null
           type: add
           phase: initial
+          _id: MeW5JDZqMvLMFvAi
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.dr.value
           value: piercing
           priority: null
           type: add
           phase: initial
+          _id: ooHe5KkjBbgoiFXf
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.dr.value
           value: slashing
           priority: null
           type: add
           phase: initial
+          _id: 4pot7YTLfpN1WwFC
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.dr.bypasses
           value: mgc
           priority: null
           type: add
           phase: initial
+          _id: gnuMmiRbVRtZ5Bu1
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.eberron-5e.classes.Item.VwYe1IMi0r4LwzHe
     disabled: true
     duration:
       value: 3600
@@ -164,9 +184,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782908726511
       modifiedTime: null
       lastModifiedBy: null
@@ -180,7 +200,7 @@ _id: VwYe1IMi0r4LwzHe
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1782908726510

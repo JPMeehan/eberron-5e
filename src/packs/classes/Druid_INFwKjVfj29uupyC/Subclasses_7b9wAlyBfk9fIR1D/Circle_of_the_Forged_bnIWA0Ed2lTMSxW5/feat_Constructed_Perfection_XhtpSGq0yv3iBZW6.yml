@@ -32,7 +32,7 @@ system:
   properties: []
 effects:
   - name: Constructed Perfection
-    origin: Compendium.eberron-5e.classes.Item.XhtpSGq0yv3iBZW6
+    origin: null
     duration:
       value: null
       units: seconds
@@ -63,10 +63,10 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 6.0.6
+      createdTime: 1791731065058
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -78,26 +78,52 @@ effects:
           value: charmed
           priority: null
           type: add
+          phase: initial
+          _id: ujzXIPpIPVThAgzE
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.ci.value
           value: frightened
           priority: null
           type: add
+          phase: initial
+          _id: Pp99T8mekWX86vU7
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.ci.value
           value: paralyzed
           priority: null
           type: add
+          phase: initial
+          _id: t3vxWHjipatWkhpy
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.ci.value
           value: petrified
           priority: null
           type: add
+          phase: initial
+          _id: 1lC1fvZNlkjL6tEl
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.ci.value
           value: poisoned
           priority: null
           type: add
+          phase: initial
+          _id: 0Szs0BbGvlqI1AZD
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.di.value
           value: poison
           priority: null
           type: add
+          phase: initial
+          _id: 938PnKCotQzqJcVP
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.eberron-5e.classes.Item.XhtpSGq0yv3iBZW6
     sort: 0
     start: null
     showIcon: 1
@@ -110,7 +136,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384651279

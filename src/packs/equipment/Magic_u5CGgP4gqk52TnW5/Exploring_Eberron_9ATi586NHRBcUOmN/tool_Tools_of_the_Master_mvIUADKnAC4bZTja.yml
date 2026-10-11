@@ -97,7 +97,7 @@ system:
   identifier: tools-of-the-master
   attuned: false
 effects:
-  - origin: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
+  - origin: null
     duration:
       value: null
       units: seconds
@@ -120,10 +120,10 @@ effects:
       compendiumSource: >-
         Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6.ActiveEffect.LsK0vzhJjjNLVtl0
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 6.0.6
+      createdTime: 1791731067612
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -135,16 +135,26 @@ effects:
           value: 1
           priority: null
           type: add
+          phase: initial
+          _id: ZyPuhZzgUBL9gtG2
+          conditions: '{}'
+          replacement: ''
         - key: system.bonuses.msak.attack
           value: 1
           priority: null
           type: add
+          phase: initial
+          _id: 5ZzYO1A14JffCGTE
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
     sort: 0
     start: null
     showIcon: 1
     folder: null
     _key: '!items.effects!mvIUADKnAC4bZTja.LsK0vzhJjjNLVtl0'
-  - origin: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
+  - origin: null
     duration:
       value: null
       units: seconds
@@ -165,10 +175,10 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 6.0.6
+      createdTime: 1791731067612
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -180,16 +190,26 @@ effects:
           value: 2
           priority: null
           type: add
+          phase: initial
+          _id: yOr0QYocYokSkIc4
+          conditions: '{}'
+          replacement: ''
         - key: system.bonuses.msak.attack
           value: 2
           priority: null
           type: add
+          phase: initial
+          _id: gTRjM84CwlSYeXKO
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
     sort: 0
     start: null
     showIcon: 1
     folder: null
     _key: '!items.effects!mvIUADKnAC4bZTja.hGCA7e7A0tXhpNIv'
-  - origin: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
+  - origin: null
     duration:
       value: null
       units: seconds
@@ -209,10 +229,10 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 6.0.6
+      createdTime: 1791731067612
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -224,10 +244,20 @@ effects:
           value: 3
           priority: null
           type: add
+          phase: initial
+          _id: I3bGhL2o9NQbwTFX
+          conditions: '{}'
+          replacement: ''
         - key: system.bonuses.rsak.attack
           value: 3
           priority: null
           type: add
+          phase: initial
+          _id: HC8Dlgu14cHT2Vjt
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.chaosos-5e-content.kbp-subclasses.Item.UlJI9lq1MPYfK7p6
     sort: 0
     start: null
     showIcon: 1
@@ -244,7 +274,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.0.3
   createdTime: 1726384672076

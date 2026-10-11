@@ -39,7 +39,7 @@ system:
   properties: []
 effects:
   - name: Skin of Steel
-    origin: Compendium.eberron-5e.classes.Item.y7RXayffPUVnqmJd
+    origin: null
     duration:
       value: null
       units: seconds
@@ -70,10 +70,10 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 6.0.6
+      createdTime: 1791731067121
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -85,6 +85,12 @@ effects:
           value: 2
           priority: null
           type: add
+          phase: initial
+          _id: XBN5CdMblaAGoXj0
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.eberron-5e.classes.Item.y7RXayffPUVnqmJd
     sort: 0
     start: null
     showIcon: 1
@@ -97,7 +103,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384665070

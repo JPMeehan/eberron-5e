@@ -52,7 +52,7 @@ system:
   enchant: {}
 effects:
   - name: Guidance of the Mark
-    origin: Compendium.eberron-5e.character-options.Item.Wg0FL9s0pHcGRFdw
+    origin: null
     duration:
       value: null
       units: seconds
@@ -70,10 +70,21 @@ effects:
           value: 1d4
           priority: null
           type: add
+          phase: initial
+          _id: DRu3reJlh1B3miq5
+          conditions: '{}'
+          replacement: ''
         - key: system.skills.prc.bonuses.check
           value: 1d4
           priority: null
           type: add
+          phase: initial
+          _id: zOc2kbU0nItX4pGf
+          conditions: '{}'
+          replacement: ''
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.character-options.Item.Wg0FL9s0pHcGRFdw
     description: >-
       <p><span style="font-family:Signika, sans-serif">You add 1d4 to any
       ability check you make using the skills or tools associated with your
@@ -85,10 +96,10 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 6.0.6
+      createdTime: 1791731071690
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -103,7 +114,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384680323

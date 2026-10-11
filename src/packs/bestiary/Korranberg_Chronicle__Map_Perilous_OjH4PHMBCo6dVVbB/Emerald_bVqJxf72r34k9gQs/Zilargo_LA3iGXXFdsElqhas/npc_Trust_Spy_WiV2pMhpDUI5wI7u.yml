@@ -465,7 +465,9 @@ prototypeToken:
     subject:
       scale: 1
       texture: null
-  flags: {}
+  flags:
+    dnd5e:
+      lockScale: true
   randomImg: false
   turnMarker:
     mode: 1
@@ -1172,9 +1174,9 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
-  systemVersion: 5.3.3
+  systemVersion: 6.0.6
   createdTime: 1782908732473
   modifiedTime: null
   lastModifiedBy: null

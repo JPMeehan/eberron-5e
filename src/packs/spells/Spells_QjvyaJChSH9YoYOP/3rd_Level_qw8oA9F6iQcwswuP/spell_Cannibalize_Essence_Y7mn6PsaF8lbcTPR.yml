@@ -137,12 +137,15 @@ system:
 effects:
   - name: Consumed Might
     img: systems/dnd5e/icons/svg/abilities/strength.svg
-    origin: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
+    origin: null
     transfer: false
     _id: aHKxJmF7vlpuaZI6
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
     disabled: false
     start: null
     duration:
@@ -163,9 +166,9 @@ effects:
         riders:
           statuses: []
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782938546568
       modifiedTime: null
       lastModifiedBy: null
@@ -175,12 +178,15 @@ effects:
     _key: '!items.effects!Y7mn6PsaF8lbcTPR.aHKxJmF7vlpuaZI6'
   - name: Consumed Grace
     img: systems/dnd5e/icons/svg/abilities/dexterity.svg
-    origin: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
+    origin: null
     transfer: false
     _id: oCifZhBgCqSPyyw4
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
     disabled: false
     start: null
     duration:
@@ -201,9 +207,9 @@ effects:
         riders:
           statuses: []
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782938547267
       modifiedTime: null
       lastModifiedBy: null
@@ -213,12 +219,15 @@ effects:
     _key: '!items.effects!Y7mn6PsaF8lbcTPR.oCifZhBgCqSPyyw4'
   - name: Consumed Fortitude
     img: systems/dnd5e/icons/svg/abilities/constitution.svg
-    origin: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
+    origin: null
     transfer: false
     _id: UTsZehssIKOslfvT
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
     disabled: false
     start: null
     duration:
@@ -239,9 +248,9 @@ effects:
         riders:
           statuses: []
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782938547724
       modifiedTime: null
       lastModifiedBy: null
@@ -251,12 +260,15 @@ effects:
     _key: '!items.effects!Y7mn6PsaF8lbcTPR.UTsZehssIKOslfvT'
   - name: Consumed Cunning
     img: systems/dnd5e/icons/svg/abilities/intelligence.svg
-    origin: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
+    origin: null
     transfer: false
     _id: aflLD2bEbLCnITBh
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
     disabled: false
     start: null
     duration:
@@ -275,9 +287,9 @@ effects:
         riders:
           statuses: []
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782938548098
       modifiedTime: null
       lastModifiedBy: null
@@ -287,12 +299,15 @@ effects:
     _key: '!items.effects!Y7mn6PsaF8lbcTPR.aflLD2bEbLCnITBh'
   - name: Consumed Insight
     img: systems/dnd5e/icons/svg/abilities/wisdom.svg
-    origin: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
+    origin: null
     transfer: false
     _id: XkI6VdNPJrHLUcDi
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
     disabled: false
     start: null
     duration:
@@ -311,9 +326,9 @@ effects:
         riders:
           statuses: []
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782938548454
       modifiedTime: null
       lastModifiedBy: null
@@ -323,12 +338,15 @@ effects:
     _key: '!items.effects!Y7mn6PsaF8lbcTPR.XkI6VdNPJrHLUcDi'
   - name: Consumed Splendor
     img: systems/dnd5e/icons/svg/abilities/charisma.svg
-    origin: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
+    origin: null
     transfer: false
     _id: NIFN0ol5YeYEX3W6
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.Y7mn6PsaF8lbcTPR
     disabled: false
     start: null
     duration:
@@ -347,9 +365,9 @@ effects:
         riders:
           statuses: []
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782938548869
       modifiedTime: null
       lastModifiedBy: null
@@ -364,7 +382,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1726384669823

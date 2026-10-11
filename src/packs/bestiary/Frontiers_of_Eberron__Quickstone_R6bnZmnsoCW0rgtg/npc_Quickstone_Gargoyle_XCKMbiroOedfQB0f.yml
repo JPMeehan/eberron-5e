@@ -1223,22 +1223,42 @@ items:
               value: bludgeoning
               priority: null
               type: add
+              phase: initial
+              _id: 3KfsCJBmODxMyMoO
+              conditions: '{}'
+              replacement: ''
             - key: system.traits.di.value
               value: piercing
               priority: null
               type: add
+              phase: initial
+              _id: naHn79q1Wm15Ba2a
+              conditions: '{}'
+              replacement: ''
             - key: system.traits.di.value
               value: slashing
               priority: null
               type: add
+              phase: initial
+              _id: 3okG3bQbJ94EOsRG
+              conditions: '{}'
+              replacement: ''
             - key: system.traits.di.bypasses
               value: ada
               priority: null
               type: add
+              phase: initial
+              _id: KvXB5rnQleoDgmwI
+              conditions: '{}'
+              replacement: ''
             - key: system.traits.di.bypasses
               value: bye
               priority: null
               type: add
+              phase: initial
+              _id: QELssxjo2VdA8dGw
+              conditions: '{}'
+              replacement: ''
         disabled: false
         duration:
           value: null
@@ -1255,11 +1275,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.0.3
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070218
+          modifiedTime: 1791731070218
           lastModifiedBy: null
           exportSource: null
         start: null
@@ -1276,10 +1296,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 4.0.3
-      createdTime: null
+      createdTime: 1791731070218
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1293,9 +1313,9 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
-  systemVersion: 5.3.3
+  systemVersion: 6.0.6
   createdTime: 1782908732580
   modifiedTime: null
   lastModifiedBy: null

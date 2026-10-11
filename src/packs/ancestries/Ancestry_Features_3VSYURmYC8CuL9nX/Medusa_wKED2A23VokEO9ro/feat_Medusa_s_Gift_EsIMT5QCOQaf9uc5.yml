@@ -97,12 +97,15 @@ system:
 effects:
   - name: Medusa's Gift
     img: icons/magic/control/encase-creature-humanoid-hold.webp
-    origin: Compendium.eberron-5e.ancestries.Item.EsIMT5QCOQaf9uc5
+    origin: null
     transfer: false
     _id: myfoC0SdFNXxNuw4
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.ancestries.Item.EsIMT5QCOQaf9uc5
     disabled: false
     duration:
       value: null
@@ -122,9 +125,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.1
+      systemVersion: 6.0.6
       createdTime: 1726553696588
       modifiedTime: null
       lastModifiedBy: null
@@ -144,7 +147,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.0.1
   createdTime: 1726384607611

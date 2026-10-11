@@ -106,7 +106,7 @@ system:
 effects:
   - name: Ooze Form
     img: icons/creatures/slimes/slime-face-melting-green.webp
-    origin: Compendium.eberron-5e.spells.Item.V9ravOD53EXaTOmD
+    origin: null
     transfer: false
     _id: 3dFiOtQpbv2lS87E
     type: base
@@ -116,14 +116,29 @@ effects:
           value: acid
           priority: null
           type: add
+          phase: initial
+          _id: 52ciDRozL1nezNY8
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.di.value
           value: poison
           priority: null
           type: add
+          phase: initial
+          _id: Ory2h6glBDwQbpxs
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.ci.value
           value: poisoned
           priority: null
           type: add
+          phase: initial
+          _id: ya2tI99Nd8ehBkBu
+          conditions: '{}'
+          replacement: ''
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.V9ravOD53EXaTOmD
     disabled: false
     duration:
       value: 10
@@ -138,9 +153,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.1.2
+      systemVersion: 6.0.6
       createdTime: 1733888093665
       modifiedTime: null
       lastModifiedBy: null
@@ -160,7 +175,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.1.2
   createdTime: 1726384669770

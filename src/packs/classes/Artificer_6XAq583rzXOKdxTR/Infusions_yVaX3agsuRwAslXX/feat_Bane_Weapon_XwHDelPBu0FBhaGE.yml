@@ -174,9 +174,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782908726735
       modifiedTime: null
       lastModifiedBy: null
@@ -190,16 +190,25 @@ effects:
           priority: null
           type: override
           phase: initial
+          _id: K3yORLHy8HlyzkgK
+          conditions: '{}'
+          replacement: ''
         - key: system.properties
           value: mgc
           priority: null
           type: add
           phase: initial
+          _id: Ktpcs7I8nfCTpAMX
+          conditions: '{}'
+          replacement: ''
         - key: system.magicalBonus
           value: 1
           priority: null
           type: override
           phase: initial
+          _id: fPuPnzHj9xOxvrbb
+          conditions: '{}'
+          replacement: ''
     sort: 0
     start: null
     showIcon: 1
@@ -213,7 +222,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1782908726734

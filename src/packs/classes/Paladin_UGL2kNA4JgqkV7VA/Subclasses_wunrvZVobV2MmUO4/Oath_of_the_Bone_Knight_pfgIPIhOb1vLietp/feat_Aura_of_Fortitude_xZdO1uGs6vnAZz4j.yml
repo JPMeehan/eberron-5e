@@ -91,7 +91,7 @@ flags:
 effects:
   - name: Aura of Fortitude
     img: icons/magic/death/skull-horned-goat-pentagram-red.webp
-    origin: Compendium.eberron-5e.classes.Item.xZdO1uGs6vnAZz4j
+    origin: null
     _id: kp70PpMAYpgHcsTI
     type: base
     system:
@@ -100,6 +100,12 @@ effects:
           value: necrotic
           priority: null
           type: add
+          phase: initial
+          _id: bjRfigManb6ZuRUf
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.eberron-5e.classes.Item.xZdO1uGs6vnAZz4j
     disabled: false
     duration:
       value: null
@@ -115,9 +121,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.2.2
+      systemVersion: 6.0.6
       createdTime: 1739000111457
       modifiedTime: null
       lastModifiedBy: null
@@ -131,7 +137,7 @@ _id: xZdO1uGs6vnAZz4j
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384664769

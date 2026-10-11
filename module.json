@@ -12,8 +12,8 @@
         "id": "dnd5e",
         "type": "system",
         "compatibility": {
-          "minimum": "5.3",
-          "verified": "5.3"
+          "minimum": "6.0",
+          "verified": "6"
         }
       }
     ],
@@ -22,11 +22,6 @@
         "id": "prime-psionics",
         "type": "module",
         "manifest": "https://github.com/JPMeehan/prime-psionics/releases/latest/download/module.json",
-        "compatibility": {}
-      },
-      {
-        "id": "dnd-players-handbook",
-        "type": "module",
         "compatibility": {}
       }
     ]

@@ -96,7 +96,7 @@ flags:
 effects:
   - name: Deathgrip on Life
     img: icons/magic/unholy/hand-claw-glow-orange.webp
-    origin: Compendium.eberron-5e.classes.Item.87WRIBe4EWq5nLJD
+    origin: null
     _id: 26QOd9UsdtimuuI7
     type: base
     system:
@@ -105,6 +105,12 @@ effects:
           value: 1
           priority: null
           type: add
+          phase: initial
+          _id: PNr0kinWD4p9iYGB
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.eberron-5e.classes.Item.87WRIBe4EWq5nLJD
     disabled: false
     duration:
       value: null
@@ -120,9 +126,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.2.2
+      systemVersion: 6.0.6
       createdTime: 1739000317532
       modifiedTime: null
       lastModifiedBy: null
@@ -136,7 +142,7 @@ _id: 87WRIBe4EWq5nLJD
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384640893

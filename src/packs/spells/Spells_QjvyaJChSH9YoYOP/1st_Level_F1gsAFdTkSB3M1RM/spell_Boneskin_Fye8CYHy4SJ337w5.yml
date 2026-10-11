@@ -111,7 +111,7 @@ system:
 effects:
   - name: Boneskin
     img: icons/magic/death/bones-crossed-orange.webp
-    origin: Compendium.eberron-5e.spells.Item.Fye8CYHy4SJ337w5
+    origin: null
     _id: SqUVxoWnf7aMzGA9
     type: base
     system:
@@ -120,14 +120,29 @@ effects:
           value: 1
           priority: null
           type: add
+          phase: initial
+          _id: 3VvvbmEKmsDukVkV
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.dm.amount.piercing
           value: 1
           priority: null
           type: add
+          phase: initial
+          _id: diFDCUNqxhUXD7uW
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.dm.amount.slashing
           value: 1
           priority: null
           type: add
+          phase: initial
+          _id: xK30XYZmecPL6XpZ
+          conditions: '{}'
+          replacement: ''
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.Fye8CYHy4SJ337w5
     disabled: false
     duration:
       value: null
@@ -155,9 +170,9 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.1.9
+      systemVersion: 6.0.6
       createdTime: 1760309976060
       modifiedTime: null
       lastModifiedBy: null
@@ -173,7 +188,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 5.1.9
   createdTime: 1748802001016

@@ -111,12 +111,15 @@ system:
 effects:
   - name: Cloak of Khyber
     img: icons/magic/perception/shadow-stealth-eyes-purple.webp
-    origin: Compendium.eberron-5e.spells.Item.B0MI7Jr5PrnCchkY
+    origin: null
     transfer: false
     _id: nTB9CnXCVcvMuNgp
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.B0MI7Jr5PrnCchkY
     disabled: false
     start: null
     duration:
@@ -140,9 +143,9 @@ effects:
         riders:
           statuses: []
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782938946042
       modifiedTime: null
       lastModifiedBy: null
@@ -157,7 +160,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1726384669021

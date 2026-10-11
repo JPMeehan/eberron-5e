@@ -184,10 +184,18 @@ effects:
               - necrotic
           priority: null
           type: add
+          phase: initial
+          _id: xfNWSWPCsJrbKqzz
+          conditions: '{}'
+          replacement: ''
         - key: system.properties
           value: mgc
           priority: null
           type: add
+          phase: initial
+          _id: 5DElPIV3c9inJf5H
+          conditions: '{}'
+          replacement: ''
     duration:
       value: 10
       units: rounds
@@ -196,16 +204,16 @@ effects:
     description: ''
     origin: null
     tint: '#ffffff'
-    transfer: true
+    transfer: false
     statuses: []
     sort: 0
     flags: {}
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.2.2
+      systemVersion: 6.0.6
       createdTime: 1738999747095
       modifiedTime: null
       lastModifiedBy: null
@@ -216,12 +224,15 @@ effects:
     _key: '!items.effects!XyQGa6VQDrbfZP7z.sON8cvwgTUJj2GS1'
   - name: Seize Control
     img: icons/magic/death/hand-undead-skeleton-fire-pink.webp
-    origin: Compendium.eberron-5e.classes.Item.XyQGa6VQDrbfZP7z
+    origin: null
     transfer: false
     _id: crl4zqCS0qEEeupN
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.classes.Item.XyQGa6VQDrbfZP7z
     disabled: false
     duration:
       value: 86400
@@ -236,9 +247,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.2.2
+      systemVersion: 6.0.6
       createdTime: 1739000042430
       modifiedTime: null
       lastModifiedBy: null
@@ -258,7 +269,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1738999028274

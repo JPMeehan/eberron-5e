@@ -1537,12 +1537,15 @@ items:
     effects:
       - name: Shocked
         img: icons/magic/lightning/bolt-strike-wide-white.webp
-        origin: Compendium.dnd5e.spells24.Item.phbsplShockingGr
+        origin: null
         transfer: false
         _id: DQCAm67ck1GEKHtE
         type: base
         system:
           changes: []
+          magical: true
+          origin:
+            item: Compendium.dnd5e.spells24.Item.phbsplShockingGr
         disabled: false
         duration:
           value: 1
@@ -1559,11 +1562,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.0.3
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731071307
+          modifiedTime: 1791731071307
           lastModifiedBy: null
           exportSource: null
         start: null
@@ -1584,10 +1587,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 4.0.3
-      createdTime: null
+      createdTime: 1791731071307
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1601,9 +1604,9 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
-  systemVersion: 5.3.3
+  systemVersion: 6.0.6
   createdTime: 1782908733666
   modifiedTime: null
   lastModifiedBy: null

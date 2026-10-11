@@ -91,7 +91,7 @@ flags:
       effect: []
 effects:
   - name: Battle Savvy
-    origin: Compendium.eberron-5e.classes.Item.8bf280DLpAAK9bbw
+    origin: null
     duration:
       value: null
       units: seconds
@@ -122,10 +122,10 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 6.0.6
+      createdTime: 1791731063192
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -137,6 +137,12 @@ effects:
           value: '@abilities.int.mod'
           priority: null
           type: add
+          phase: initial
+          _id: 7a7v75kCeD2Asnx2
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.eberron-5e.classes.Item.8bf280DLpAAK9bbw
     sort: 0
     start: null
     showIcon: 1
@@ -147,7 +153,7 @@ _id: 8bf280DLpAAK9bbw
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384641154

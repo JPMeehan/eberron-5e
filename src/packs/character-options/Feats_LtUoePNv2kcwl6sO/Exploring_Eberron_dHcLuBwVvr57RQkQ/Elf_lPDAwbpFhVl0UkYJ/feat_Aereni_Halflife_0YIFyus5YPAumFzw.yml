@@ -59,7 +59,7 @@ img: icons/magic/holy/yin-yang-balance-symbol.webp
 flags:
   core: {}
 effects:
-  - origin: Compendium.chaosos-5e-content.kbp-backgrounds.Item.0YIFyus5YPAumFzw
+  - origin: null
     duration:
       value: null
       units: seconds
@@ -78,10 +78,10 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 6.0.6
+      createdTime: 1791731071589
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -93,10 +93,20 @@ effects:
           value: necrotic
           priority: null
           type: add
+          phase: initial
+          _id: nAB0xHtMSvowk3rI
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.dr
           value: radiant
           priority: null
           type: add
+          phase: initial
+          _id: eIXibxG3vph2JGhl
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.chaosos-5e-content.kbp-backgrounds.Item.0YIFyus5YPAumFzw
     sort: 0
     start: null
     showIcon: 1
@@ -106,7 +116,7 @@ folder: lPDAwbpFhVl0UkYJ
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384679887

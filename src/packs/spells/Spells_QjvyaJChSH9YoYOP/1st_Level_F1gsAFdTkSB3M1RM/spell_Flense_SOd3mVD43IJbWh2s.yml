@@ -124,12 +124,15 @@ system:
 effects:
   - name: Flensed
     img: systems/dnd5e/icons/svg/items/spell.svg
-    origin: Compendium.eberron-5e.spells.Item.SOd3mVD43IJbWh2s
+    origin: null
     transfer: false
     _id: eIjDWHKP5pJYOB8O
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.SOd3mVD43IJbWh2s
     disabled: false
     duration:
       value: 1
@@ -148,9 +151,9 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.1.9
+      systemVersion: 6.0.6
       createdTime: 1760311433795
       modifiedTime: null
       lastModifiedBy: null
@@ -166,7 +169,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 5.1.9
   createdTime: 1748802206747

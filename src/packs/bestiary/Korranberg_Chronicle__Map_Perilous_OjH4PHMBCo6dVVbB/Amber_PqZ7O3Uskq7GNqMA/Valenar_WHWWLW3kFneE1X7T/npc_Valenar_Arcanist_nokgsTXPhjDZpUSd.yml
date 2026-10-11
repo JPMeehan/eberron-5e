@@ -1678,14 +1678,29 @@ items:
               value: -vocal
               priority: null
               type: add
+              phase: initial
+              _id: AG9aSo9o1Uf1giH7
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -somatic
               priority: null
               type: add
+              phase: initial
+              _id: RLohfY0oJGolDNZK
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -material
               priority: null
               type: add
+              phase: initial
+              _id: IZhW5X5LFHHgH0cV
+              conditions: '{}'
+              replacement: ''
+          origin:
+            activity: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.fAqSSiBbaHUDtt0x
         disabled: false
         duration:
           value: null
@@ -1698,17 +1713,15 @@ items:
         statuses: []
         sort: 0
         flags:
-          core:
-            originText: >-
-              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.fAqSSiBbaHUDtt0x
+          core: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070684
+          modifiedTime: 1791731070684
           lastModifiedBy: null
           exportSource: null
         start:
@@ -1736,7 +1749,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplLight00000
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782908733062
@@ -1902,14 +1915,29 @@ items:
               value: -vocal
               priority: null
               type: add
+              phase: initial
+              _id: GBteDu4fyq28aF52
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -somatic
               priority: null
               type: add
+              phase: initial
+              _id: cyGWRbQbCMpeT2Ha
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -material
               priority: null
               type: add
+              phase: initial
+              _id: hK8bQdWJY5LHybjM
+              conditions: '{}'
+              replacement: ''
+          origin:
+            activity: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.VAhFds3iif4gqX9f
         disabled: false
         duration:
           value: null
@@ -1922,17 +1950,15 @@ items:
         statuses: []
         sort: 0
         flags:
-          core:
-            originText: >-
-              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.VAhFds3iif4gqX9f
+          core: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070685
+          modifiedTime: 1791731070685
           lastModifiedBy: null
           exportSource: null
         start:
@@ -1957,7 +1983,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplMinorIllus
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782908733062
@@ -2082,14 +2108,29 @@ items:
               value: -vocal
               priority: null
               type: add
+              phase: initial
+              _id: PgOmAScqjQYnQX2V
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -somatic
               priority: null
               type: add
+              phase: initial
+              _id: RLnELRytJatThliS
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -material
               priority: null
               type: add
+              phase: initial
+              _id: LaNfUFcxyZFasLIl
+              conditions: '{}'
+              replacement: ''
+          origin:
+            activity: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.zasgi7vUv6dWmR5D
         disabled: false
         duration:
           value: null
@@ -2102,17 +2143,15 @@ items:
         statuses: []
         sort: 0
         flags:
-          core:
-            originText: >-
-              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.zasgi7vUv6dWmR5D
+          core: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070686
+          modifiedTime: 1791731070686
           lastModifiedBy: null
           exportSource: null
         start:
@@ -2140,7 +2179,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplPrestidigi
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782908733062
@@ -2256,7 +2295,7 @@ items:
     img: icons/magic/control/hypnosis-mesmerism-eye.webp
     effects:
       - name: Charmed
-        origin: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
+        origin: null
         duration:
           value: 3600
           units: seconds
@@ -2270,6 +2309,9 @@ items:
         type: base
         system:
           changes: []
+          magical: true
+          origin:
+            item: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
         description: >-
           <p>the target has the &amp;Reference[charmed apply=false] condition
           until the spell ends or until you or your allies damage it. The
@@ -2283,11 +2325,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070686
+          modifiedTime: 1791731070686
           lastModifiedBy: null
           exportSource: null
         showIcon: 2
@@ -2306,14 +2348,29 @@ items:
               value: -vocal
               priority: null
               type: add
+              phase: initial
+              _id: ra45Wfn3NMxfygQD
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -somatic
               priority: null
               type: add
+              phase: initial
+              _id: nbI9B0WDOqGyHV39
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -material
               priority: null
               type: add
+              phase: initial
+              _id: S74EmWHVKuvtO2y5
+              conditions: '{}'
+              replacement: ''
+          origin:
+            activity: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.iSMbSc51l4BWGycR
         disabled: false
         duration:
           value: null
@@ -2326,17 +2383,15 @@ items:
         statuses: []
         sort: 0
         flags:
-          core:
-            originText: >-
-              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.iSMbSc51l4BWGycR
+          core: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070687
+          modifiedTime: 1791731070687
           lastModifiedBy: null
           exportSource: null
         start:
@@ -2361,7 +2416,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplCharmPerso
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782908733063
@@ -2495,14 +2550,29 @@ items:
               value: -vocal
               priority: null
               type: add
+              phase: initial
+              _id: mY7lpDUk7aunrmVe
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -somatic
               priority: null
               type: add
+              phase: initial
+              _id: sszYp7xepRWblrH3
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -material
               priority: null
               type: add
+              phase: initial
+              _id: vlr9slSoD7bOxgp5
+              conditions: '{}'
+              replacement: ''
+          origin:
+            activity: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.IVx6kExU7XyU96Sy
         disabled: false
         duration:
           value: null
@@ -2515,17 +2585,15 @@ items:
         statuses: []
         sort: 0
         flags:
-          core:
-            originText: >-
-              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.IVx6kExU7XyU96Sy
+          core: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070687
+          modifiedTime: 1791731070687
           lastModifiedBy: null
           exportSource: null
         start:
@@ -2550,7 +2618,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplScorchingR
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782908733063
@@ -2657,7 +2725,7 @@ items:
     img: icons/magic/perception/orb-eye-scrying.webp
     effects:
       - name: See Invisibility
-        origin: Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
+        origin: null
         duration:
           value: 3600
           units: seconds
@@ -2675,10 +2743,21 @@ items:
               value: ;Invisible creatures
               priority: null
               type: add
+              phase: initial
+              _id: AdQ8K97MOBsbq3G4
+              conditions: '{}'
+              replacement: ''
             - key: system.attributes.senses.special
               value: ;Ethereal Plane
               priority: null
               type: add
+              phase: initial
+              _id: Uk4v4byPnqM0gx7E
+              conditions: '{}'
+              replacement: ''
+          magical: true
+          origin:
+            item: Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
         description: ''
         tint: '#ffffff'
         transfer: false
@@ -2687,11 +2766,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070688
+          modifiedTime: 1791731070688
           lastModifiedBy: null
           exportSource: null
         start: null
@@ -2710,14 +2789,29 @@ items:
               value: -vocal
               priority: null
               type: add
+              phase: initial
+              _id: D561YdpBrqIP8IIo
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -somatic
               priority: null
               type: add
+              phase: initial
+              _id: PfvEHimnOvTZmTSR
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -material
               priority: null
               type: add
+              phase: initial
+              _id: ua6VAhegePdpvY1a
+              conditions: '{}'
+              replacement: ''
+          origin:
+            activity: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.1bVxs89tkOZzfNFs
         disabled: false
         duration:
           value: null
@@ -2730,17 +2824,15 @@ items:
         statuses: []
         sort: 0
         flags:
-          core:
-            originText: >-
-              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.1bVxs89tkOZzfNFs
+          core: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070688
+          modifiedTime: 1791731070688
           lastModifiedBy: null
           exportSource: null
         start:
@@ -2765,7 +2857,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSeeInvisib
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782908733063
@@ -2901,14 +2993,29 @@ items:
               value: -vocal
               priority: null
               type: add
+              phase: initial
+              _id: f0XA1rgU7uWfgIQZ
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -somatic
               priority: null
               type: add
+              phase: initial
+              _id: Gsnrc3kH5v1waIDq
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -material
               priority: null
               type: add
+              phase: initial
+              _id: jncN6pIb7wLIjhWF
+              conditions: '{}'
+              replacement: ''
+          origin:
+            activity: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.MbdUg2SLUDSMMAfH
         disabled: false
         duration:
           value: null
@@ -2921,17 +3028,15 @@ items:
         statuses: []
         sort: 0
         flags:
-          core:
-            originText: >-
-              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.MbdUg2SLUDSMMAfH
+          core: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070689
+          modifiedTime: 1791731070689
           lastModifiedBy: null
           exportSource: null
         start:
@@ -2959,7 +3064,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplDimensionD
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782908733064
@@ -3098,14 +3203,29 @@ items:
               value: -vocal
               priority: null
               type: add
+              phase: initial
+              _id: Q4WnnzpoN1Hh6A83
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -somatic
               priority: null
               type: add
+              phase: initial
+              _id: kmL22W1YBNUtUTDo
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -material
               priority: null
               type: add
+              phase: initial
+              _id: JhQ8QYftTzH3IRMl
+              conditions: '{}'
+              replacement: ''
+          origin:
+            activity: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.TLotBl3fvcIghUlp
         disabled: false
         duration:
           value: null
@@ -3118,17 +3238,15 @@ items:
         statuses: []
         sort: 0
         flags:
-          core:
-            originText: >-
-              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.TLotBl3fvcIghUlp
+          core: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070689
+          modifiedTime: 1791731070689
           lastModifiedBy: null
           exportSource: null
         start:
@@ -3153,7 +3271,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplFireball00
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782908733064
@@ -3255,7 +3373,7 @@ items:
     img: icons/creatures/magical/spirit-undead-ghost-blue.webp
     effects:
       - name: Invisible
-        origin: Compendium.dnd5e.spells24.Item.phbsplGreaterInv
+        origin: null
         duration:
           value: 60
           units: seconds
@@ -3269,6 +3387,9 @@ items:
         type: base
         system:
           changes: []
+          magical: true
+          origin:
+            item: Compendium.dnd5e.spells24.Item.phbsplGreaterInv
         description: ''
         tint: '#ffffff'
         transfer: false
@@ -3278,11 +3399,11 @@ items:
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070690
+          modifiedTime: 1791731070690
           lastModifiedBy: null
           exportSource: null
         showIcon: 2
@@ -3301,14 +3422,29 @@ items:
               value: -vocal
               priority: null
               type: add
+              phase: initial
+              _id: 82SRRmMazt6t1eSx
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -somatic
               priority: null
               type: add
+              phase: initial
+              _id: gy7I0DTmcKdvYjV8
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -material
               priority: null
               type: add
+              phase: initial
+              _id: 8DHBy9FpZSEoc0sU
+              conditions: '{}'
+              replacement: ''
+          origin:
+            activity: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.XbQXc7Bs4FX7xMlm
         disabled: false
         duration:
           value: null
@@ -3321,17 +3457,15 @@ items:
         statuses: []
         sort: 0
         flags:
-          core:
-            originText: >-
-              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.XbQXc7Bs4FX7xMlm
+          core: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070690
+          modifiedTime: 1791731070690
           lastModifiedBy: null
           exportSource: null
         start:
@@ -3356,7 +3490,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplGreaterInv
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782908733064
@@ -3484,7 +3618,7 @@ items:
     img: icons/magic/time/clock-stopwatch-white-blue.webp
     effects:
       - name: Slowed
-        origin: Compendium.dnd5e.spells24.Item.phbsplSlow000000
+        origin: null
         duration:
           value: 60
           units: seconds
@@ -3510,11 +3644,11 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz.ActiveEffect.YtN8kTDQyxFaxpEx
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070691
+          modifiedTime: 1791731070691
           lastModifiedBy: null
           exportSource: null
         img: icons/magic/time/clock-stopwatch-white-blue.webp
@@ -3525,30 +3659,61 @@ items:
               value: -2
               priority: null
               type: add
+              phase: initial
+              _id: yw7yMGdUX9elBBBa
+              conditions: '{}'
+              replacement: ''
             - key: system.attributes.movement.burrow
               value: 0.5
               priority: null
               type: multiply
+              phase: initial
+              _id: 5ZDlHdMm64cOrNe4
+              conditions: '{}'
+              replacement: ''
             - key: system.attributes.movement.climb
               value: 0.5
               priority: null
               type: multiply
+              phase: initial
+              _id: wX61cql0kBkHOX5b
+              conditions: '{}'
+              replacement: ''
             - key: system.attributes.movement.fly
               value: 0.5
               priority: null
               type: multiply
+              phase: initial
+              _id: 9JzyYNrR5rYmJw2Z
+              conditions: '{}'
+              replacement: ''
             - key: system.attributes.movement.swim
               value: 0.5
               priority: null
               type: multiply
+              phase: initial
+              _id: Y9tBn9zoUKl7OyJf
+              conditions: '{}'
+              replacement: ''
             - key: system.attributes.movement.walk
               value: 0.5
               priority: null
               type: multiply
+              phase: initial
+              _id: r9VbpE8fosVZpITM
+              conditions: '{}'
+              replacement: ''
             - key: system.abilities.dex.bonuses.save
               value: -2
               priority: null
               type: add
+              phase: initial
+              _id: oSHVlangrV0s42CA
+              conditions: '{}'
+              replacement: ''
+          magical: true
+          origin:
+            item: Compendium.dnd5e.spells24.Item.phbsplSlow000000
         sort: 0
         start: null
         showIcon: 1
@@ -3566,14 +3731,29 @@ items:
               value: -vocal
               priority: null
               type: add
+              phase: initial
+              _id: BCbwJ6yBz63J43jb
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -somatic
               priority: null
               type: add
+              phase: initial
+              _id: mCKPcrtvmYFs2UQI
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -material
               priority: null
               type: add
+              phase: initial
+              _id: UVqhB7aEaU0pRN38
+              conditions: '{}'
+              replacement: ''
+          origin:
+            activity: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.JhYDoZO6ofkLSlva
         disabled: false
         duration:
           value: null
@@ -3586,17 +3766,15 @@ items:
         statuses: []
         sort: 0
         flags:
-          core:
-            originText: >-
-              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.JhYDoZO6ofkLSlva
+          core: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070691
+          modifiedTime: 1791731070691
           lastModifiedBy: null
           exportSource: null
         start:
@@ -3624,7 +3802,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplSlow000000
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782908733065
@@ -3762,14 +3940,29 @@ items:
               value: -vocal
               priority: null
               type: add
+              phase: initial
+              _id: 0sHgRBaAeC2fFYqv
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -somatic
               priority: null
               type: add
+              phase: initial
+              _id: NKmgD3mErI59pztk
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -material
               priority: null
               type: add
+              phase: initial
+              _id: wcfXrsyxlDVo2MxI
+              conditions: '{}'
+              replacement: ''
+          origin:
+            activity: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.yCciIKF0K6JS17RO
         disabled: false
         duration:
           value: null
@@ -3782,17 +3975,15 @@ items:
         statuses: []
         sort: 0
         flags:
-          core:
-            originText: >-
-              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.yCciIKF0K6JS17RO
+          core: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070691
+          modifiedTime: 1791731070691
           lastModifiedBy: null
           exportSource: null
         start:
@@ -3817,7 +4008,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplChainLight
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782908733065
@@ -3948,14 +4139,29 @@ items:
               value: -vocal
               priority: null
               type: add
+              phase: initial
+              _id: Gbp8bSMhEidWoXNO
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -somatic
               priority: null
               type: add
+              phase: initial
+              _id: GA1hpSN83gb3KOYw
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -material
               priority: null
               type: add
+              phase: initial
+              _id: Mzj1Cg21pLBltDS3
+              conditions: '{}'
+              replacement: ''
+          origin:
+            activity: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.h5iYDRe4Cj1EOUef
         disabled: false
         duration:
           value: null
@@ -3968,17 +4174,15 @@ items:
         statuses: []
         sort: 0
         flags:
-          core:
-            originText: >-
-              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.h5iYDRe4Cj1EOUef
+          core: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070692
+          modifiedTime: 1791731070692
           lastModifiedBy: null
           exportSource: null
         start:
@@ -4003,7 +4207,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplConeofCold
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782908733065
@@ -4115,14 +4319,29 @@ items:
               value: -vocal
               priority: null
               type: add
+              phase: initial
+              _id: wTIGSEuah5TOj4Ox
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -somatic
               priority: null
               type: add
+              phase: initial
+              _id: cB2LkKMFR1cC8TZ9
+              conditions: '{}'
+              replacement: ''
             - key: system.properties
               value: -material
               priority: null
               type: add
+              phase: initial
+              _id: wUlfVijCkrkilylc
+              conditions: '{}'
+              replacement: ''
+          origin:
+            activity: >-
+              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.Gy8pG36g2CuTSGi8
         disabled: false
         duration:
           value: null
@@ -4135,17 +4354,15 @@ items:
         statuses: []
         sort: 0
         flags:
-          core:
-            originText: >-
-              Actor.nokgsTXPhjDZpUSd.Item.qVXMstr8M0o0cLAv.Activity.Gy8pG36g2CuTSGi8
+          core: {}
         _stats:
           compendiumSource: null
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 4.3.6
-          createdTime: null
-          modifiedTime: null
+          systemVersion: 6.0.6
+          createdTime: 1791731070692
+          modifiedTime: 1791731070692
           lastModifiedBy: null
           exportSource: null
         start:
@@ -4173,7 +4390,7 @@ items:
     _stats:
       compendiumSource: Compendium.dnd5e.spells24.Item.phbsplGlobeofInv
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
       systemVersion: 5.3.3
       createdTime: 1782908733066
@@ -4274,9 +4491,9 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
-  systemVersion: 5.3.3
+  systemVersion: 6.0.6
   createdTime: 1782908733061
   modifiedTime: null
   lastModifiedBy: null

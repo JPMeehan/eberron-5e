@@ -100,7 +100,7 @@ system:
   attuned: false
   properties: []
 effects:
-  - origin: Compendium.eberron-5e.classes.Item.UlJI9lq1MPYfK7p6
+  - origin: null
     duration:
       value: null
       units: seconds
@@ -121,10 +121,10 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 6.0.6
+      createdTime: 1791731064782
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -136,16 +136,26 @@ effects:
           value: 1
           priority: null
           type: add
+          phase: initial
+          _id: 5Sul5CtVEOUujNIR
+          conditions: '{}'
+          replacement: ''
         - key: system.bonuses.msak.attack
           value: 1
           priority: null
           type: add
+          phase: initial
+          _id: h8pdp5dbOsTIogzG
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.eberron-5e.classes.Item.UlJI9lq1MPYfK7p6
     sort: 0
     start: null
     showIcon: 1
     folder: null
     _key: '!items.effects!UlJI9lq1MPYfK7p6.LsK0vzhJjjNLVtl0'
-  - origin: Compendium.eberron-5e.classes.Item.UlJI9lq1MPYfK7p6
+  - origin: null
     duration:
       value: null
       units: seconds
@@ -166,10 +176,10 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 6.0.6
+      createdTime: 1791731064783
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -181,10 +191,20 @@ effects:
           value: 2
           priority: null
           type: add
+          phase: initial
+          _id: Jb27RaCsO8lDuPPi
+          conditions: '{}'
+          replacement: ''
         - key: system.bonuses.msak.attack
           value: 2
           priority: null
           type: add
+          phase: initial
+          _id: iBqDuScFRWaaWAx7
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.eberron-5e.classes.Item.UlJI9lq1MPYfK7p6
     sort: 0
     start: null
     showIcon: 1
@@ -201,7 +221,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384649822

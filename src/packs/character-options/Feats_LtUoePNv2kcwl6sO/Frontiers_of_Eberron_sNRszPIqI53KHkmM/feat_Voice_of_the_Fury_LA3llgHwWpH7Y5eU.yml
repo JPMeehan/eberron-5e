@@ -129,7 +129,7 @@ system:
       hint: ''
 effects:
   - name: Charm Person
-    origin: Compendium.eberron-5e.character-options.Item.LA3llgHwWpH7Y5eU
+    origin: null
     duration:
       value: 3600
       units: seconds
@@ -143,6 +143,8 @@ effects:
     type: base
     system:
       changes: []
+      origin:
+        item: Compendium.eberron-5e.character-options.Item.LA3llgHwWpH7Y5eU
     description: >-
       <p>the target has the &amp;Reference[charmed apply=false] condition until
       the spell ends or until you or your allies damage it. The Charmed creature
@@ -157,9 +159,9 @@ effects:
       compendiumSource: >-
         Compendium.dnd5e.spells24.Item.phbsplCharmPerso.ActiveEffect.78JcD7wFiSCOfmns
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.2
+      systemVersion: 6.0.6
       createdTime: 1726812857369
       modifiedTime: null
       lastModifiedBy: null
@@ -179,7 +181,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384680167

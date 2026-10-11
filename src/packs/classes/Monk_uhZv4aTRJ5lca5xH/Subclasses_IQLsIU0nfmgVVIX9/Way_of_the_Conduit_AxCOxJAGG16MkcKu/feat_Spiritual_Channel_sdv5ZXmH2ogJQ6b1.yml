@@ -411,6 +411,9 @@ effects:
           priority: null
           type: add
           phase: initial
+          _id: 8vedziEw7iGznMfM
+          conditions: '{}'
+          replacement: ''
     disabled: true
     duration:
       value: null
@@ -434,9 +437,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782908728717
       modifiedTime: null
       lastModifiedBy: null
@@ -456,11 +459,17 @@ effects:
           priority: null
           type: add
           phase: initial
+          _id: PODjRFMdk2zQTmra
+          conditions: '{}'
+          replacement: ''
         - key: system.skills.per.value
           value: 1
           priority: null
           type: add
           phase: initial
+          _id: 8x40aMCbGC1wPihT
+          conditions: '{}'
+          replacement: ''
     disabled: true
     duration:
       value: null
@@ -481,9 +490,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782908728717
       modifiedTime: null
       lastModifiedBy: null
@@ -502,11 +511,17 @@ effects:
           priority: null
           type: add
           phase: initial
+          _id: gI9YFWhGCAtlUdBx
+          conditions: '{}'
+          replacement: ''
         - key: system.skills.ste.value
           value: 1
           priority: null
           type: add
           phase: initial
+          _id: 6a18giQNBaank5OV
+          conditions: '{}'
+          replacement: ''
     disabled: true
     duration:
       value: null
@@ -527,9 +542,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782908728717
       modifiedTime: null
       lastModifiedBy: null
@@ -550,6 +565,9 @@ effects:
           priority: null
           type: add
           phase: initial
+          _id: 9cUOINnbFSaRcZfJ
+          conditions: '{}'
+          replacement: ''
     disabled: true
     duration:
       value: 1
@@ -568,9 +586,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782908728717
       modifiedTime: null
       lastModifiedBy: null
@@ -584,7 +602,7 @@ _id: sdv5ZXmH2ogJQ6b1
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1782908728716

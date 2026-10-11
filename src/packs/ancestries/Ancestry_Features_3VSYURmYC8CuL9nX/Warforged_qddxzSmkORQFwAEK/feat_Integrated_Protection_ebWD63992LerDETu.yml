@@ -47,7 +47,7 @@ img: icons/equipment/hand/gauntlet-armored-black.webp
 folder: qddxzSmkORQFwAEK
 effects:
   - name: Integrated Protection
-    origin: Compendium.eberron-5e.ancestries.Item.ebWD63992LerDETu
+    origin: null
     duration:
       value: null
       units: seconds
@@ -63,10 +63,10 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.0
-      createdTime: null
+      systemVersion: 6.0.6
+      createdTime: 1791731061969
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -78,6 +78,12 @@ effects:
           value: 1
           priority: null
           type: add
+          phase: initial
+          _id: nhhzhFi8DuOxFbqn
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.eberron-5e.ancestries.Item.ebWD63992LerDETu
     sort: 0
     start: null
     showIcon: 1
@@ -86,7 +92,7 @@ effects:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.0.0
   createdTime: 1726384609562

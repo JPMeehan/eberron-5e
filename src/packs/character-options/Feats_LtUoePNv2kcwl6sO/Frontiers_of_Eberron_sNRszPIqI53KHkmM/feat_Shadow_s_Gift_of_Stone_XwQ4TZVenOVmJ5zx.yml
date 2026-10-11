@@ -139,7 +139,7 @@ system:
       hint: ''
 effects:
   - name: Ensnared
-    origin: Compendium.eberron-5e.character-options.Item.XwQ4TZVenOVmJ5zx
+    origin: null
     duration:
       value: 60
       units: seconds
@@ -153,6 +153,8 @@ effects:
     type: base
     system:
       changes: []
+      origin:
+        item: Compendium.eberron-5e.character-options.Item.XwQ4TZVenOVmJ5zx
     description: >-
       <p><span style="font-family:Signika, sans-serif">The target has the
       &amp;Reference[restrained apply=false] condition until the spell
@@ -171,9 +173,9 @@ effects:
       compendiumSource: >-
         Compendium.dnd5e.spells24.Item.phbsplEnsnaringS.ActiveEffect.tFGMG3cjQTEeAhv2
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.2
+      systemVersion: 6.0.6
       createdTime: 1726813052706
       modifiedTime: null
       lastModifiedBy: null
@@ -193,7 +195,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.2.2
   createdTime: 1726384680383

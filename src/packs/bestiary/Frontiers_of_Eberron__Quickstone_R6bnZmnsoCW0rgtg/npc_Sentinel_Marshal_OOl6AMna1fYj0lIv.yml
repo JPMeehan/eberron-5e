@@ -27,6 +27,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     dex:
       value: 13
       proficient: 0
@@ -40,6 +45,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -61,6 +71,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     int:
       value: 12
       proficient: 0
@@ -74,6 +89,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -95,6 +115,11 @@ system:
           min: null
           max: null
           mode: 0
+      attack:
+        roll:
+          min: null
+          max: null
+          mode: 0
     cha:
       value: 10
       proficient: 0
@@ -108,6 +133,11 @@ system:
           max: null
           mode: 0
       save:
+        roll:
+          min: null
+          max: null
+          mode: 0
+      attack:
         roll:
           min: null
           max: null
@@ -361,6 +391,8 @@ system:
       units: null
       hover: false
       ignoredDifficultTerrain: []
+      speeds:
+        walk: '30'
     attunement:
       max: 3
     senses:
@@ -389,6 +421,11 @@ system:
     ac:
       flat: null
       calc: default
+      calcs:
+        - unarmored
+        - armored
+      formulas: []
+      override: null
     hd:
       spent: 0
     hp:
@@ -485,6 +522,8 @@ system:
       custom: Any one other
       communication: {}
     important: false
+  identifier: ''
+  rolls: {}
 prototypeToken:
   name: Sentinel Marshal
   displayName: 0
@@ -605,10 +644,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036486
+      systemVersion: 6.0.6
+      createdTime: 1791731069863
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -651,10 +690,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036486
+      systemVersion: 6.0.6
+      createdTime: 1791731069864
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -701,10 +740,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036486
+      systemVersion: 6.0.6
+      createdTime: 1791731069864
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -749,10 +788,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036487
+      systemVersion: 6.0.6
+      createdTime: 1791731069864
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -799,10 +838,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036487
+      systemVersion: 6.0.6
+      createdTime: 1791731069864
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -852,10 +891,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036487
+      systemVersion: 6.0.6
+      createdTime: 1791731069864
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -891,6 +930,7 @@ items:
       duration:
         value: '1'
         units: minute
+        expiry: null
       target:
         affects:
           choice: false
@@ -934,10 +974,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -964,6 +1006,7 @@ items:
             dc:
               calculation: spellcasting
               formula: ''
+            visible: true
           sort: 0
           img: null
           flags: {}
@@ -972,6 +1015,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       identifier: compelled-duel
       method: innate
       prepared: 0
@@ -999,10 +1043,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036487
+      systemVersion: 6.0.6
+      createdTime: 1791731069864
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1032,6 +1076,7 @@ items:
       duration:
         value: ''
         units: inst
+        expiry: null
       target:
         affects:
           type: creature
@@ -1076,10 +1121,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             override: false
             concentration: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -1102,6 +1149,7 @@ items:
             dc:
               calculation: spellcasting
               formula: ''
+            visible: true
           uses:
             spent: 0
             recovery: []
@@ -1113,6 +1161,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       identifier: counterspell
       method: innate
       prepared: 0
@@ -1131,10 +1180,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036487
+      systemVersion: 6.0.6
+      createdTime: 1791731069865
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1162,6 +1211,7 @@ items:
       duration:
         value: '1'
         units: round
+        expiry: null
       target:
         affects:
           choice: false
@@ -1209,13 +1259,16 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             override: false
             concentration: false
+            expiry: null
           effects:
             - _id: Bv3EoHGfYCprLdG1
               level: {}
+              uuid: null
           range:
             override: false
             units: self
@@ -1246,6 +1299,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       identifier: shield
       method: innate
       prepared: 0
@@ -1261,7 +1315,7 @@ items:
           units: rounds
           expiry: turnStart
           expired: false
-        origin: Compendium.dnd5e.spells24.Item.phbsplShield0000
+        origin: null
         tint: '#ffffff'
         transfer: false
         name: Imperceptible Barrier
@@ -1274,11 +1328,11 @@ items:
           compendiumSource: >-
             Compendium.dnd5e.spells.Item.z1mx84ONwkXKUZd7.ActiveEffect.6pbotGIvqQkraPva
           duplicateSource: null
-          coreVersion: '14.364'
+          coreVersion: '14.369'
           systemId: dnd5e
-          systemVersion: 5.3.3
-          createdTime: 1782911036488
-          modifiedTime: 1782911036488
+          systemVersion: 6.0.6
+          createdTime: 1791731069865
+          modifiedTime: 1791731069865
           lastModifiedBy: null
           exportSource: null
         img: icons/equipment/shield/heater-steel-crystal-red.webp
@@ -1290,6 +1344,19 @@ items:
               priority: null
               type: add
               phase: initial
+              _id: hEOC6k1u0oOioIcK
+              conditions: '{}'
+              replacement: ''
+          origin:
+            actor: null
+            behavior: null
+            effect: null
+            item: Compendium.dnd5e.spells24.Item.phbsplShield0000
+            message: null
+          conditions: '{}'
+          magical: true
+          rider:
+            statuses: []
         sort: 0
         start: null
         showIcon: 1
@@ -1307,10 +1374,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036488
+      systemVersion: 6.0.6
+      createdTime: 1791731069865
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1346,6 +1413,7 @@ items:
       duration:
         value: '10'
         units: minute
+        expiry: null
       target:
         affects:
           choice: false
@@ -1392,10 +1460,12 @@ items:
             spellSlot: true
           description:
             chatFlavor: ''
+            value: ''
           duration:
             units: inst
             concentration: false
             override: false
+            expiry: null
           effects: []
           range:
             override: false
@@ -1422,6 +1492,7 @@ items:
             dc:
               calculation: spellcasting
               formula: ''
+            visible: true
           sort: 0
           img: null
           flags: {}
@@ -1430,6 +1501,7 @@ items:
             requireAttunement: false
             requireIdentification: false
             requireMagic: false
+          behaviors: []
       identifier: zone-of-truth
       method: innate
       prepared: 0
@@ -1449,10 +1521,10 @@ items:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036488
+      systemVersion: 6.0.6
+      createdTime: 1791731069866
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1514,6 +1586,7 @@ items:
       equipped: true
       crew:
         value: []
+      rarities: []
     _id: CZEMrnPAFRMfJxgG
     type: equipment
     folder: zqXSu2wOJljt7AsS
@@ -1528,10 +1601,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.equipment.Item.phbarmSplintArmo
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036488
+      systemVersion: 6.0.6
+      createdTime: 1791731069866
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1592,6 +1665,7 @@ items:
       equipped: true
       crew:
         value: []
+      rarities: []
     _id: Y2bjoP2LvIodnbKN
     type: equipment
     folder: Iyyec8ij0PAfdLBd
@@ -1606,10 +1680,10 @@ items:
     _stats:
       compendiumSource: Compendium.dnd-players-handbook.equipment.Item.phbarmShield0000
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
-      createdTime: 1782911036488
+      systemVersion: 6.0.6
+      createdTime: 1791731069866
       modifiedTime: null
       lastModifiedBy: null
       exportSource: null
@@ -1623,10 +1697,10 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
-  systemVersion: 5.3.3
-  createdTime: 1782911036485
+  systemVersion: 6.0.6
+  createdTime: 1791731069863
   modifiedTime: null
   lastModifiedBy: null
   exportSource: null

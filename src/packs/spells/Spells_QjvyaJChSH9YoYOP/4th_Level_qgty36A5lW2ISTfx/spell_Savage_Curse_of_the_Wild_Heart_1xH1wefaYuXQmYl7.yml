@@ -134,12 +134,15 @@ system:
 effects:
   - name: Savage Curse of the Wild Heart
     img: icons/magic/nature/wolf-paw-glow-large-orange.webp
-    origin: Compendium.eberron-5e.spells.Item.1xH1wefaYuXQmYl7
+    origin: null
     transfer: false
     _id: qT8lJ2HTUFsGMsfd
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.1xH1wefaYuXQmYl7
     disabled: false
     start: null
     duration:
@@ -174,9 +177,9 @@ effects:
         riders:
           statuses: []
     _stats:
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.3.3
+      systemVersion: 6.0.6
       createdTime: 1782939170485
       modifiedTime: null
       lastModifiedBy: null
@@ -191,7 +194,7 @@ flags: {}
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 5.3.3
   createdTime: 1726384668763

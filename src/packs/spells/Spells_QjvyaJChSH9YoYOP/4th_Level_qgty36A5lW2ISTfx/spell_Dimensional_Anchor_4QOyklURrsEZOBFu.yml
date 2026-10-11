@@ -123,12 +123,15 @@ system:
 effects:
   - name: Dimensional Anchor
     img: icons/magic/control/debuff-chains-ropes-net-green.webp
-    origin: Compendium.eberron-5e.spells.Item.4QOyklURrsEZOBFu
+    origin: null
     transfer: false
     _id: InzfVKXr48uIiKLC
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.4QOyklURrsEZOBFu
     disabled: false
     duration:
       value: 10
@@ -146,9 +149,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.3.3
+      systemVersion: 6.0.6
       createdTime: 1739938349556
       modifiedTime: null
       lastModifiedBy: null
@@ -168,7 +171,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.3.3
   createdTime: 1726384668899

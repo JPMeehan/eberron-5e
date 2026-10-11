@@ -179,12 +179,15 @@ system:
 effects:
   - name: Varezi's Bloodburn
     img: icons/magic/unholy/projectile-helix-blood-red.webp
-    origin: Compendium.eberron-5e.spells.Item.bL4usc8EsjLeGONj
+    origin: null
     transfer: false
     _id: rpTMDyun1jrJYUF4
     type: base
     system:
       changes: []
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.bL4usc8EsjLeGONj
     disabled: false
     duration:
       value: 10
@@ -203,9 +206,9 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.1.9
+      systemVersion: 6.0.6
       createdTime: 1760313989180
       modifiedTime: null
       lastModifiedBy: null
@@ -221,7 +224,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 5.1.9
   createdTime: 1748803023117

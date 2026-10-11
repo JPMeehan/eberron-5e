@@ -96,7 +96,7 @@ system:
 effects:
   - name: Form of Stone
     img: systems/dnd5e/icons/svg/items/feature.svg
-    origin: Compendium.eberron-5e.classes.Item.HukQWA2mBKzxzHki
+    origin: null
     transfer: false
     _id: crPIWWKBMD0QuaUP
     type: base
@@ -106,14 +106,28 @@ effects:
           value: bludgeoning
           priority: null
           type: add
+          phase: initial
+          _id: f4c2NXSa3ViWl5y0
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.di.value
           value: piercing
           priority: null
           type: add
+          phase: initial
+          _id: tV0D6PLlqlieps3R
+          conditions: '{}'
+          replacement: ''
         - key: system.traits.di.value
           value: slashing
           priority: null
           type: add
+          phase: initial
+          _id: ZJk30QsFLDDEIfMt
+          conditions: '{}'
+          replacement: ''
+      origin:
+        item: Compendium.eberron-5e.classes.Item.HukQWA2mBKzxzHki
     disabled: false
     duration:
       value: null
@@ -135,9 +149,9 @@ effects:
     _stats:
       compendiumSource: null
       duplicateSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 4.0.2
+      systemVersion: 6.0.6
       createdTime: 1726900000278
       modifiedTime: null
       lastModifiedBy: null
@@ -157,7 +171,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 4.0.2
   createdTime: 1726384644749

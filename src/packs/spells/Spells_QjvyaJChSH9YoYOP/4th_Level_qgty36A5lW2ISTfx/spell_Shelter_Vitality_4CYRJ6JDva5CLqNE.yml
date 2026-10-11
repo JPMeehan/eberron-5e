@@ -58,7 +58,7 @@ system:
 effects:
   - name: Shelter Vitality
     img: icons/magic/unholy/orb-swirling-pink.webp
-    origin: Compendium.eberron-5e.spells.Item.4CYRJ6JDva5CLqNE
+    origin: null
     _id: 9wZkBuskqzl02ch2
     type: base
     system:
@@ -67,10 +67,21 @@ effects:
           value: 0
           priority: null
           type: downgrade
+          phase: initial
+          _id: 2DEY8ehsDItjRsMl
+          conditions: '{}'
+          replacement: ''
         - key: system.attributes.hp.tempmax
           value: 0
           priority: null
           type: upgrade
+          phase: initial
+          _id: flbpYHDDWH8ekfHp
+          conditions: '{}'
+          replacement: ''
+      magical: true
+      origin:
+        item: Compendium.eberron-5e.spells.Item.4CYRJ6JDva5CLqNE
     disabled: false
     duration:
       value: null
@@ -90,9 +101,9 @@ effects:
       compendiumSource: null
       duplicateSource: null
       exportSource: null
-      coreVersion: '14.364'
+      coreVersion: '14.369'
       systemId: dnd5e
-      systemVersion: 5.1.9
+      systemVersion: 6.0.6
       createdTime: 1760312865306
       modifiedTime: null
       lastModifiedBy: null
@@ -108,7 +119,7 @@ _stats:
   compendiumSource: null
   duplicateSource: null
   exportSource: null
-  coreVersion: '14.364'
+  coreVersion: '14.369'
   systemId: dnd5e
   systemVersion: 5.1.9
   createdTime: 1748802991547
